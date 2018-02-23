@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="eng">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Essai</title>
+                <author>Athenaeus</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Source Desc should be completed for Epidoc Compliancy</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <projectDesc>
+            <p>This document is compatible with <ref target="http://capitains.github.io">CapiTainS Guidelines</ref></p>
+         </projectDesc>
+         <refsDecl n="CTS">
+            <!--
+                - cRefPattern are ordered from deeper node to highest node
+                - the matchPattern should give an information about the number of level. Traditionnally, we use (\w+) regexp to match identifiers
+                - the replacementPattern should contain $[1-9] which represents depth of a level, ie. this book passage 1.pr.8 should match the following xpath : /tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='1']/tei:div[@n='pr']/tei:div[@n='9']
+                - There is no tag restriction in this xpath. You can use tei:w, tei:seg, tei:p, etc.
+                - the @n attributes represents the name of the level, usually book, poem, line, section, chapter, paragraph, argument, etc.
+                - the @n attribute should always be lowercase.
+            -->
+            <cRefPattern
+                n="level3"
+                matchPattern="(\w+).(\w+).(\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2']/tei:div[@n='$3'])">
+                <p>This pointer pattern extracts level1 and level2 and level3</p>
+            </cRefPattern>
+            <cRefPattern
+                n="level2"
+                matchPattern="(\w+).(\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+                <p>This pointer pattern extracts level1 and level2</p>
+            </cRefPattern>
+            <cRefPattern
+                n="level1"
+                matchPattern="(\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                <p>This pointer pattern extracts level1</p>
+            </cRefPattern>
+        </refsDecl>
+            <refsDecl>
+        	   <refState unit="level1"/>
+               <refState unit="level2"/>
+               <refState unit="level3"/>
+            </refsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!--
+                - First level div of an Epidoc TEI file should contain a @type="edition" or @type="translation"
+                - The @n attribute of this file should contain the text urn.
+                - The xml:lang tag should reflect the language of the text in an ISO 639-2 manner : https://en.wikipedia.org/wiki/List_of_ISO_639-2_codes (Three characters)
+            -->
+            <div type="edition" n="urn:cts:capitains:textgroup_identifier.work_identifier.capitains-originallang1" xml:lang="eng">
+                <div type="textpart" subtype="level1" n="1">
+                    <div type="textpart" subtype="level2" n="1">
+                        <div type="textpart" subtype="level3" n="1">
+
+                            <p>
+                                If you want to change the tag type of these resources:
+                                    1 - change the xpath in the cRefPattern tags.
+                                    2 - Keep the @n attribute
+                                The numbering system does not need to be roman number based nor does it need to be sorted.
+                            </p>
+                            <p>
+                                - Node numbers should be unique : there can be only one passage for 1.2.3 and so what xpath only should match it.
+                            </p>
+
+                    </div>
+                </div>
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>

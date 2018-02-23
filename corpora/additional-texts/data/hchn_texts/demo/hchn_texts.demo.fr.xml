@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="eng">
+    <!-- See edition file ... originallang1.xml -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title of the edition. The edition is a published version of the work. For example, there is one work "Epigrammata" of Martial and only one Aeneid from Virgil, but there can be many different editions. Edition can have the same name as the work</title>
+                <author>An identifier for any group of texts that are conventionally cited together in the naming authority's tradition : the name of the Author, the identifier of an inscription collection, the place where the manuscript was found, etc.</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority></authority>
+                <idno type="filename"></idno>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Source Desc should be completed for Epidoc Compliancy</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+         <projectDesc>
+            <p>This document is compatible with<ref target="http://capitains.github.io">CapiTainS Guidelines</ref></p>
+         </projectDesc>
+         <refsDecl n="CTS">
+            <cRefPattern 
+                n=" level2"
+                matchPattern="(\w+).(\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+                <p>This pointer pattern extracts level1 and  level2</p>
+            </cRefPattern>
+            <cRefPattern 
+                n="level1"
+                matchPattern="(\w+)"
+                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+                <p>This pointer pattern extracts level1</p>
+            </cRefPattern>
+        </refsDecl>
+            <refsDecl>
+               <refState unit="level1"/>
+               <refState unit=" level2"/>
+            </refsDecl>
+        </encodingDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- See edition file ... originallang1.xml -->
+            <div type="translation" n="urn:cts:capitains:textgroup_identifier.work_identifier.capitains-translationlang1" xml:lang="eng">
+                <div type="textpart" subtype="level1" n="1">
+                    <div type="textpart" subtype=" level2" n="1">
+                    
+                        <p>
+                            If you want to change the tag type of these resources:
+                                1 - change the xpath in the cRefPattern tags.
+                                2 - Keep the @n attribute
+                            The numbering system does not need to be roman number based nor does it need to be sorted.
+                            In the situation of a translation, this is not required that the translation has the same depth as the edition.
+                        </p>
+                    
+                </div>
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>
