@@ -1,8 +1,0 @@
-.idea
-repositories/*
-!repositories/Readme.md
-volumes/repositories/*
-!volumes/repositories/Readme.md
-volumes/cache/*
-!volumes/cache/Readme.md
-cache

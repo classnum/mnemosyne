@@ -1,1 +1,0 @@
-In this folder, you should download CapiTainS repositories you would want to use and unzip them
