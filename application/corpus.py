@@ -20,6 +20,10 @@ misc.set_label("Miscellaneous", "eng")
 misc.set_label("Textes Divers", "fre")
 organizer = CollectionDispatcher(general_collection, default_inventory_name="id:misc")
 
+hchn = CtsTextInventoryMetadata("id:hchn", parent=general_collection)
+misc.set_label("HCHN Texts", "eng")
+misc.set_label("Textes HCHN", "fre")
+organizer = CollectionDispatcher(general_collection, default_inventory_name="id:hchn")
 
 @organizer.inventory("priapeia_collection")
 def organize_my_priapeia(collection, path=None, **kwargs):
@@ -27,9 +31,8 @@ def organize_my_priapeia(collection, path=None, **kwargs):
         return True
     return False
 
-
-@organizer.inventory("poetry_collection")
-def organize_my_poetry(collection, path=None, **kwargs):
+@organizer.inventory("hchn_collection")
+def organize_my_hchn(collection, path=None, **kwargs):
     # If we are not dealing with Priapeia
     if not collection.id.startswith("urn:cts:latinLit:phi1103"):
         # Textgroups have a wonderful shortcut to their editions and translations : .readableDescendants
@@ -41,5 +44,5 @@ def organize_my_poetry(collection, path=None, **kwargs):
 
 
 # Parsing the data
-resolver = NautilusCTSResolver(["corpora/additional-texts", "corpora/priapeia"], dispatcher=organizer)
+resolver = NautilusCTSResolver(["corpora/hchn", "corpora/priapeia"], dispatcher=organizer)
 resolver.parse()
