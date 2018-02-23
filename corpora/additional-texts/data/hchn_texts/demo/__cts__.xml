@@ -2,12 +2,12 @@
 <work xmlns="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:hchn_texts" urn="urn:cts:hchn_texts.hchn_texts.demo.grc" xml:lang="Original Language of the work with three characters such as fre, fro or lat">
     <title xml:lang="fre">Athenaeus: demo</title>
 
-    <edition workUrn="urn:cts:capitains:hchn_texts.hchn_texts.demo.grc" urn="urn:cts:capitains:hchn_texts.hchn_texts.demo.grc">
-        <label xml:lang="fre">Édition de Personne</label>
-        <description xml:lang="fre">Simple essai</description>
+    <edition workUrn="urn:cts:hchn_texts.hchn_texts.demo.grc" urn="urn:cts:hchn_texts.hchn_texts.demo.grc">
+        <label xml:lang="grc">Édition de Personne</label>
+        <description xml:lang="grc">Simple essai</description>
     </edition>
 
-    <translation xml:lang="language in which the translation is." workUrn="urn:cts:capitains:hchn_texts.hchn_texts.demo.fr" urn="urn:cts:capitains:hchn_texts.hchn_texts.demo.fr">
+    <translation xml:lang="language in which the translation is." workUrn="urn:cts:hchn_texts.hchn_texts.demo.fr" urn="urn:cts:hchn_texts.hchn_texts.demo.fr">
         <label xml:lang="fre">Traduction</label>
         <description xml:lang="fre">Pas de traduction</description>
     </translation>
