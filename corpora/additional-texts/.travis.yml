@@ -6,7 +6,7 @@ python:
 install:
   - pip3 install HookTest>=1.0.0
 
-script: hooktest ./ --console table --scheme tei --workers 3 --verbose 10 --manifest --countwords
+script: hooktest ./ --console table --scheme epidoc --workers 3 --verbose 10 --manifest --countwords
 
 
 before_deploy:
@@ -19,17 +19,17 @@ before_deploy:
   - git add -A
   - git commit -m "Removed failing files" -m "Release $GIT_TAG"
   - git tag $GIT_TAG -a -m "$DATE"
-  - git push -q https://$GSEC@github.com/lascivaroma/priapeia --tags
+  - git push -q https://$GSEC@github.com/lascivaroma/additional-texts --tags
 
 deploy:
   provider: releases
   api_key: $GSEC
   skip_cleanup: true
   on:
-    repo: lascivaroma/priapeia
+    repo: lascivaroma/additional-texts
     branch: master
 
 env:
   global:
     major_version: 1
-    minor_version: 1
+    minor_version: 0
