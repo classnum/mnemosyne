@@ -2,11 +2,11 @@
     width: auto;
 }
 .pb {
-  font-weight: normal;
-  font-size: 1em;
-  display: inline;
+  font-weight: thin;
+  font-size: 0.5em;
+  display:inline;
   font-style: italic;
-  color: white;
+  color:grey;
 }
 
 .ex,
