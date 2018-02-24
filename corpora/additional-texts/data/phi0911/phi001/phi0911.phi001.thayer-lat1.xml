@@ -1,516 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-	schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title xml:lang="lat">Laus Pysonis</title>
-            <author xml:lang="eng">Anonymous</author>
-            <editor resp="transcription">Thayer</editor>
-            <editor resp="tei/epidoc" xml:id="clerice">Thibault Clérice</editor>
-            <editor resp="original edition">Unknown</editor>
-         </titleStmt>
-         <publicationStmt>
-            <p>Publication Information</p>
-         </publicationStmt>
-         <sourceDesc>
-            <bibl>
-               <editor>J. Wight Duff</editor>
-               <editor>Arnold M. Duff</editor>
-               <title>Latin Minor Poets</title>
-               <publisher>Loeb Classical Library</publisher>
-               <date>1935</date>
-            </bibl>
-            <bibl>
-               <editor ref="#thayer">Thayer</editor>
-               <title>Laus Pisonis</title>
-               <pubPlace>LacusCurtius</pubPlace>
-               <ref target="http://penelope.uchicago.edu/Thayer/E/Roman/Texts/Laus_Pisonis/home.html"/>
-            </bibl>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <refsDecl n="CTS">
-            <cRefPattern n="line" matchPattern="(\d+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])">
-               <p>This pattern extracts lines</p>
-            </cRefPattern>
-         </refsDecl>
-      </encodingDesc>
-      <revisionDesc>
-         <change who="#clerice" when="2017-08-17">Original transformation into Capitains
-            Epidoc</change>
-      </revisionDesc>
-   </teiHeader>
-   <text>
-    <body>
-        <head xml:lang="lat">Athenaeus Naucratitae</head>
-                  <pb n="v.1.p.1"/>
-              <div type="book" n="1">
-                <head xml:lang="lat">DEIPNOSOPHISTAE<name><!-- AB : balise vide --></name></head>
-                <div n="1.1" type="chapter">
-                  <p>
-                    <hi rend="bold">[1.1]</hi> <!-- AB : il serait plus logique d'utiliser une balise identifiant ces éléments comme des numéros de section, à charge pour les instructions de transformation de prévoir une présentation en gras, par exemple -->
-                    <!-- βίβλος ἡ λεγομένη σειπνοσοφιστής --> <!-- AB : ce serait, avec un delta initial, une variante sur le titre -->
-                    <name type="person">Ἀθήναιος</name>
-                     μὲν ὁ τῆς βίβλου πατήρ· ποιεῖται δὲ τὸν λόγον πρὸς
-                    <app>
-                      <lem resp="#Mus"><name type="person">Τιμοκράτην</name></lem>
-                      <rdg wit="#E">ἐχεκράτην</rdg>
-                      <rdg wit="#C">ἐχικράτην</rdg>
-                    </app>
-                    · <!-- ? -->
-                    <app>
-                      <lem>Δειπνοσοφιστὴς</lem>
-                      <rdg wit="#E">Δειπνοσοφιστὴ</rdg>
-                    </app>
-                   δὲ ταύτῃ τὸ ὄνομα. ὑπόκειται δὲ τῷ λόγῳ
-                      <app>
-                          <lem><name type="person">Λαρήνσιος</name></lem>
-                          <rdg wit="#C #E">Λαρήνσιος</rdg>
-                      </app>
-                    Ῥωμαῖος, ἀνὴρ τῇ τύχῃ περιφανής, τοὺς κατὰ πᾶσαν παιδείαν ἐμπειροτάτους ἐν [τοῖς]
-                    <note resp="#Kaibel"><del resp="#Herw"></del></note>
-                    <!-- AB : pourquoi une note ? il s'agit d'une intervention éditoriale et la balise `del` portant sur le terme supprimé convient très bien : inutile de conserver les crochets, qui ont la même sémantique dans les conventions philologiques traditionnelles mais sont de l'ordre de la présentation -->
-                      <app>
-                        <lem>αὑτοῦ</lem>
-                        <rdg wit="#C #E">αὐτοῦ</rdg>
-                      </app>
-                    δαιτυμόνας ποιούμενος· ἐν οἷς οὐκ ἔσθ᾽ οὗτινος τῶν καλλίστων οὐκ ἐμνημόνευσεν. ἰχθῦς τε γὰρ τῇ βίβλῳ
-                    ἐνέθετο καὶ τὰς τούτων χρείας καὶ τὰς τῶν ὀνομάτων ἀναπτύξεις καὶ λαχάνων γένη παντοῖα καὶ ζῴων
-                    παντοδαπῶν καὶ ἄνδρας ἱστορίας συγγεγραφότας καὶ ποιητὰς καὶ
-                      <app>
-                        <lem resp="#Wilam">φιλοσόφους</lem>
-                        <rdg wit="#C">όλους σοφοὺς</rdg>
-                        <rdg wit="#E">όλως σοφοὺς</rdg>
-                      </app>
-                    καὶ ὄργανα μουσικὰ καὶ σκωμμάτων εἴδη μυρία καὶ ἐκπωμάτων
-                      <app>
-                        <lem>διαφορὰς</lem>
-                        <rdg wit="#C">διαφόρων</rdg>
-                      </app>
-                    καὶ πλούτους βασιλέων διηγήσατο καὶ νηῶν μεγέθη καὶ ὅσα ἄλλα οὐδ᾽ ἂν εὐχερῶς ἀπομνημονεύσαιμι, ἢ ἐπιλίποι
-                      <app>
-                        <lem>μ᾽</lem>
-                        <rdg wit="#C #E">με</rdg>
-                      </app>
-                      <add resp="#Kaibel">&gt;ἂν&gt;</add>
-                    ἡ ἡμέρα κατ᾽ εἶδος διεξερχόμενον. καί ἐστιν ἡ τοῦ λόγου
-                    <pb n="v.1.p.2"/>
-                    οἰκονομία μίμημα τῆς τοῦ
-                      <app>
-                        <lem resp="#Kaibel">δείπνου</lem>
-                        <rdg wit="#C #E">λόγωι</rdg>
-                      </app>
-                    πολυτελείας καὶ ἡ τῆς βίβλου διασκευὴ τῆς ἐν τῷ δείπνῳ παρασκευῆς. τοιοῦτον ὁ θαυμαστὸς οὗτος τοῦ λόγου οἰκονόμος
-                    <name type="person">Ἀθήναιος</name>
-                     ἥδιστον λογόδειπνον εἰσηγεῖται κρείττων τε αὐτὸς ἑαυτοῦ γινόμενος, ὥσπερ οἱ
-                    <name type="person">Ἀθήνησι</name> ῥήτορες, ὑπὸ τῆς ἐν τῷ λέγειν θερμότητος πρὸς τὰ ἑπόμενα
-                    <!-- AB : le lemme fait partie de votre texte : ne pas le redoubler comme si `app` était une information facultative, une `note`.
-                      Je vois qu'ailleurs vous l'avez bien traité ainsi. Ici, vous n'avez en fait que le texte et une note, pas de leçon qui justifie l'emploi de `app`. -->
-                      <app>
-                        <lem>πρὸς τὰ ἑπόμενα</lem>
-                        <note resp="#Kaibel">fort. πρὸς τὰ ἀεὶ ἑπόμενα</note>
-                      </app>
-                      τῆς βίβλου βαθμηδὸν ὑπεράλλεται.
-                  </p>
-                </div>
-                <div n="1.2" type="chapter">
-                  <p>
-                    <hi rend="bold">[1.2]</hi>
-                    οἱ δ᾽ ἐν τῷ δείπνῳ δῆθεν ἐπιδημήσαντες δειπνοσοφισταὶ ἦσαν
-                      <app>
-                        <lem><name type="person">Μανσούριος</name></lem>
-                        <note resp="#Kaibel">Μασσούριος VI 271b, alibi Μασούριος</note>
-                      </app>
-                      ,νόμων ἐξηγητὴς καὶ πάσης παιδείας οὐ παρέργως ἐπιμέλειαν ποιούμενος,
-                      <app>
-                        <lem resp="#Kaibel">μόνος</lem>
-                        <rdg wit="#E">μόνιος</rdg>
-                        <rdg wit="#C">μόνος</rdg>
-                        <note resp="#Kaibel">Monius vel Modius poeta nullus fuit; pertinent haec omnia licet turbata ad unum Masurium,
-                          quem hominem finxit scriptor ad Masurii Sabini siilitudinem, cf. XIV 623e.</note>
-                        </app>
-                    ποιητής, ἀνὴρ καὶ κατὰ τὴν ἄλλην παιδείαν οὐδενὸς δεύτερος καὶ τὴν ἐγκύκλιον οὐ παρέργως ἐζηλωκώς·
-                    ἕκαστον γὰρ ὧν ἐπεδείκνυτο ὡς μόνον τοῦτο ἠσκηκὼς ἐφαίνετο, τοιαύτῃ πολυμαθείᾳ ἐκ παίδων συνετράφη· ἰάμβων δὲ
-                    ἦν ποιητὴς οὐδενὸς δεύτερος, φησί, τῶν μετ᾽
-                    <name type="person">Ἀρχίλοχον</name>
-                      <app>
-                        <lem>ποιητῶν.</lem>
-                        <rdg wit="#C">ποιητὴν</rdg>
-                      </app>
-                    παρῆν
-                    <app>
-                      <lem>δὲ καὶ</lem>
-                      <rdg wit="#C">δὲ καὶ</rdg>
-                      <rdg wit="#Ε">δὲ</rdg>
-                    </app>
-                    <name type="person">Πλούταρχος</name> καὶ
-                    <name type="person">Λεωνίδης</name> ὁ
-                    <name type="place" xml:id="Velia"> Ἠλεῖος</name> καὶ
-                    <name type="person">Αἰμιλιανὸς</name> ὁ
-                    <name type="place" xml:id="Mauritania">Μαυρούσιος</name> καὶ
-                    <name type="person">Ζωίλος</name>, γραμματικῶν οἱ χαριέστατοι. φιλοσόφων δὲ παρῆσαν
-                    <name type="person">Ποντιανὸς</name> καὶ
-                    <name type="person">Δημόκριτος</name> οἱ
-                    <name type="place">Νικομηδεῖς</name>, πολυμαθείᾳ πάντας ὑπερηκοντικότες,
-                    <name type="person">Φιλάδελφός</name> τε ὁ
-                    <name type="place">Πτολεμαεύς</name>, ἀνὴρ οὐ μόνον ἐν φιλοσόφῳ θεωρίᾳ τεθραμμένος, ἀλλὰ καὶ κατὰ τὸν ἄλλον βίον
-                    ἐξητασμένος.τῶν δὲ κυνικῶν εἷς ἦν ὃν
-                    <name type="person">Κύνουλκον</name> καλεῖ· ᾧ οὐ μόνον “δύο κύνες ἀργοὶ εἵποντο”,<bibl>Od. 2.11</bibl>
-                    ὡς τῷ
-                    <name type="person">Τηλεμάχῳ</name> ἐκκλησιάζοντι, ἀλλὰ τῶν Ἀκταίωνος πολὺ πλείονες. ῥητόρων τε ἦν ἄγυρις
-                    <pb n="v.1.p.3"/>
-                    τῶν κυνικῶν κατ᾽ οὐδὲν
-                      <app>
-                        <lem resp="#Mus">ἀπολειπομένη</lem>
-                        <rdg wit="#C #E">ἀπολειπόμενος</rdg>
-                      </app>
-                    · ὧν
-                      <app>
-                        <lem>κατέτρεχε</lem>
-                        <rdg wit="#C">κατέτρεχον</rdg>
-                      </app>
-                     μετὰ καὶ τῶν ἄλλων ὅσοι τι ἐφθέγγοντο
-                    <name type="person">Οὐλπιανὸς</name> ὁ
-                    <name type="place" xml:id="Tyrus">Τύριος</name>, ὃς διὰ τὰς συνεχεῖς ζητήσεις, ἃς ἀνὰ πᾶσαν
-                    ὥραν ποιεῖται ἐν ταῖς ἀγυιαῖς, περιπάτοις,
-                      <app>
-                        <lem resp="#Mus">βιβλιοπωλείοις</lem>
-                        <rdg wit="#C">βιβλιοπώλοις</rdg>
-                        <rdg wit="#Ε">βιβλιοπόλοις</rdg>
-                      </app>
-                    , βαλανείοις, ἔσχεν ὄνομα τοῦ κυρίου διασημότερον Κειτούκειτος.
-                    οὗτος ὁ ἀνὴρ νόμον εἶχεν
-                      <add resp="#Suid">&lt;ἴδιον&gt;</add> <!-- pb compréhension -->
-                    <!-- AB : ce personnage "avait l'habitude" ("singulière", "qui lui était propre", "idiosyncratique", ajoute la Souda, de façon redondante) de ne pas toucher à une quelconque nourriture avant de demander si son nom "se trouve" ou non dans la littérature, chez les auteurs anciens… -->
-                    μηδενὸς ἀποτρώγειν πρὶν εἰπεῖν “κεῖται ἢ οὐ κεῖται;” οἷον εἰ κεῖται ὥρα ἐπὶ τοῦ
-                    τῆς ἡμέρας μορίου,
-                      <add resp="#Suid">&lt;εἰ ὁ μέθυσος ἐπὶ ἀνδρός,&gt;</add>
-                    εἰ ἡ μήτρα κεῖται
-                      <app>
-                        <lem>ἐπὶ τοῦ ἐδωδίμου βρώμάτος</lem>
-                        <rdg wit="#C #Ε">ἐπὶ τῶν ἐδωδίμων βρωμάτων</rdg>
-                        <rdg><corr resp="#Suid"><!-- AB : `corr` ne peut pas logiquement se trouver dans une variante, et ici votre balise est vide --></corr></rdg>
-                      </app>
-                    , εἰ σύαγρος κεῖται
-                    τὸ σύνθετον ἐπὶ τοῦ συός. ἰατρῶν δὲ παρῆσαν
-                    <name type="person">Δάφνος</name>
-                    <name type="place" xml:id="Ephesus"> Ἐφέσιος</name>, ἱερὸς τὴν τέχνην
-                      <app>
-                        <lem>καὶ κατὰ τὰ ἤθη</lem>
-                        <note resp="#Kaibel"> velut καὶ καθαρὸς (vel ἀγαθὸς) τὰ ἤθη, cf. CIG 6326</note>
-                        <!-- AB : en fait, dans une note de ce genre, Kaibel propose deux conjectures, sans les adopter : vous pouvez les reporter en `note` ou les intégrer comme `rdg` éditoriales -->
-                      </app>
-                    , τῶν Ἀκαδημαικῶν
-                    λόγων οὐ παρέργως ἁπτόμενος,
-                    <name type="person">Γαληνός</name>
-                    τε ὁ
-                    <name type="place" xml:id="Pergamum">Περγαμηνός</name>, ὃς τοσαῦτ᾽ ἐκδέδωκε συγγράμματα φιλόσοφά τε καὶ ἰατρικὰ ὡς πάντας ὑπερβαλεῖν
-                    τοὺς πρὸ αὐτοῦ, καὶ κατὰ τὴν ἑρμηνείαν οὐδενὸς ὢν τῶν ἀρχαίων ἀδυνατώτερος,
-                    <name type="person"> Ῥουφῖνός</name> τε ὁ
-                    <name type="place">Νικαεύς</name>. μουσικὸς δὲ παρῆν
-                    <name type="person">Ἀλκείδης</name> ὁ
-                    <name type="place">Ἀλεξανδρεύς</name>. καὶ ἦν ὁ
-                    κατάλογος οὗτος στρατιωτικός, φησί<note resp="#Kaibel">(p. 4 e)</note>,
-                    μᾶλλον ἢ συμποτικός.
-                  </p>
-              </div>
-              <div n="1.3" type="chapter">
-                  <p>
-                    <hi rend="bold">[1.3]</hi>
-                    δραματουργεῖ δὲ τὸν διάλογον ὁ
-                    <name type="person">Ἀθήναιος</name> ζήλῳ
-                    <name type="person">Πλατωνικῷ</name>·<bibl>cf. Plat. Phaet. init.</bibl>
-                    οὕτως γοῦν ἄρχεται·“αὐτός, ὦ
-                    <name type="person">Ἀθήναιε</name>, μετειληφὼς τῆς καλῆς ἐκείνης συνουσίας τῶν νῦν ἐπικληθέντων δειπνοσοφιστῶν,
-                    ἥτις ἀνὰ τὴν πόλιν
-                      <app>
-                        <lem>πολυθρύλητος</lem>
-                        <rdg wit="#C #Ε">πολυθρύλλητος</rdg>
-                      </app>
-                    ἐγένετο, ἢ παρ᾽ ἄλλου μαθὼν τοῖς
-                      <app>
-                        <lem resp="#Cas">ἑταίροις</lem>
-                        <rdg wit="#C #Ε">ἑτέροις</rdg>
-                      </app>
-                     διεξῄεις”; “αὐτός, ὦ
-                    <name type="person">Τιμόκρατες</name>,
-                    <pb n="v.1.p.4"/>
-                    μετασχών”.
-                    “ἆρ᾽ οὖν ἐθελήσεις καὶ ἡμῖν τῶν καλῶν ἐπικυλικίων λόγων μεταδοῦναι —
-                    <l>
-                      <quote>
-                        τρὶς δ᾽
-                            <app>
-                              <lem>ἀπομαξαμένοισι</lem>
-                              <rdg wit="#C #Ε">ἀποδεξαμένοισι</rdg>
-                              <note>sed in C superscr. μα</note> <!-- AB : la note porte en réalité sur la variante, et non sur toute l'entrée d'apparat -->
-                            </app>
-                          θεοὶ διδόασιν ἄμεινον,
-                      </quote>
-                      </l>
-                    ὥς πού φησιν ὁ
-                    <name type="place">Κυρηναῖος</name> ποιητής.
-                    <bibl>Eratosth. fr. 37 Hill</bibl>
-                    ἢ παρ᾽ ἄλλου τινὸς ἡμᾶς ἀναπυνθάνεσθαι δεῖ;”
-                  </p>
-              </div>
-              <div n="1.4" type="chapter">
-                  <p>
-                    <hi rend="bold">[1.4]</hi>
-                    εἶτα εἰσβάλλει μετ᾽ ὀλίγον εἰς τὸν τοῦ
-                    <name type="person">Λαρηνσίου</name> ἔπαινον καὶ λέγει· ὃς ὑπὸ φιλοτιμίας πολλοὺς τῶν ἀπὸ παιδείας συναθροίζων οὐ
-                        <app>
-                          <lem resp="#Cas">μόνον</lem>
-                          <rdg wit="#C #Ε">μόνοις</rdg>
-                        </app>
-                     τοῖς ἄλλοις ἀλλὰ καὶ λόγοις εἱστία, τὰ μὲν προβάλλων τῶν ἀξίων ζητήσεως, τὰ δὲ ἀνευρίσκων, οὐκ ἀβασανίστως
-                    οὐδ᾽ ἐκ τοῦ
-                        <app>
-                          <lem>παρατυχόντος</lem>
-                          <rdg wit="#Ε">περιτυχόντος</rdg>
-                          <note resp="#Kaibel">ut fere semper περί pro παρά, quod amplius non notabo</note>
-                        </app>
-                     τὰς ζητήσεις ποιούμενος, ἀλλ᾽ ὡς ἔνι μάλιστα μετὰ κριτικῆς τινος καὶ
-                     <name type="person">Σωκρατικῆς</name>
-                     ἐπιστήμης,
-                    ὡς πάντας θαυμάζειν τῶν ζητήσεων τὴν τήρησιν. λέγει δ᾽ αὐτὸν καὶ καθεσταμένον ἐπὶ τῶν ἱερῶν εἶναι καὶ θυσιῶν ὑπὸ
-                    τοῦ πάντα ἀρίστου βασιλέως
-                    <name type="person">Μάρκου</name>
-                    καὶ μὴ ἔλαττον τῶν πατρίων τὰ τῶν
-                    <name type="person">Ἑλλήνων</name>
-                    μεταχειρίζεσθαι. καλεῖ δὲ αὐτὸν καὶ
-                    <name type="person">Ἀστεροπαῖόν</name> τινα, ἐπ᾽ ἴσης ἀμφοτέρων τῶν φωνῶν προιστάμενον. λέγει δ᾽ αὐτὸν καὶ ἔμπειρον
-                    εἶναι ἱερουργιῶν τῶν νομισθεισῶν ὑπό τε τοῦ τῆς πόλεως ἐπωνύμου
-                    <name type="person">Ῥωμύλου</name> καὶ
-                        <app>
-                          <lem resp="#Mus"><name type="person">Πομπιλίου Νουμᾶ</name></lem>
-                          <rdg wit="#C #Ε">pομπηίου</rdg>
-                        </app>
-                    καὶ ἐπιστήμονα νόμων πολιτικῶν. πάντα δὲ ταῦτα μόνον ἐξευρεῖν ἐκ παλαιῶν
-                    ψηφισμάτων καὶ δογμάτων τηρήσεως, ἔτι δὲ νόμων
-                        <app>
-                          <lem>συναγωγῆς </lem>
-                          <rdg wit="#Ε">συναγωγὴν</rdg>
-                        </app>
-                        <app>
-                          <lem>οὓς ἔτι</lem>
-                          <rdg wit="#Κ">οὓς οὐκέτι</rdg>
-                        </app>
-                      διδάσκουσιν, ὡς τὰ
-                    <name type="person">Πινδάρου</name>
-                        <add resp="#K">&lt;ὁ&gt;</add>
-                    κωμῳδιοποιὸς
-                    <name type="person">Εὔπολίς</name> φησιν ἤδη
-                        <app>
-                          <lem resp="#Schw">κατασεσιγασμένα</lem>
-                          <rdg wit="#C #Ε">κατασεσιγασμένων</rdg>
-                        </app>
-                     ὑπὸ τῆς τῶν
-                    πολλῶν ἀφιλοκαλίας
-                    <bibl>fr. 366 K</bibl>. ἦν δέ, φησί, καὶ βιβλίων κτῆσις αὐτῷ ἀρχαίων
-                    <pb n="v.1.p.5"/>
-                    <name type="person">Ἑλληνικῶν</name>
-                    τοσαύτη ὡς ὑπερβάλλειν πάντας
-                        <app>
-                          <lem>τοὺς</lem>
-                          <rdg wit="#Ε" type="omission"></rdg>
-                        </app>
-                     ἐπὶ συναγωγῇ τεθαυμασμένους, τε τὸν
-                    <name type="place">Σάμιον</name> καὶ
-                    <name type="person">Πεισίστρατον</name> τὸν
-                    <name type="place">Ἀθηναίων</name> τυραννήσαντα
-                    <name type="person">Εὐκλείδην</name> τε τὸν καὶ αὐτὸν Ἀθηναῖον καὶ
-                    <name type="person">Νικοκράτην</name> τὸν
-                    <name type="place">Κύπριον</name> ἔτι τε τοὺς
-                    <name type="place">Περγάμου</name> βασιλέας
-                    <name type="person">Εὐριπίδην</name> τε τὸν ποιητὴν
-                    <name type="person">Ἀριστοτέλην</name> τε τὸν φιλόσοφον
-                      <add resp="#Wil">&lt;καὶ <name type="person">Θεόφραστον</name>&gt;</add>
-                     καὶ τὸν τὰ τούτων διατηρήσαντα βιβλία
-                    <name type="person">Νηλέα</name>· παρ᾽ οὗ πάντα, φησί, πριάμενος ὁ ἡμεδαπὸς βασιλεὺς
-                    <name type="person">Πτολεμαῖος, Φιλάδελφοςδὲ</name> ἐπίκλην, μετὰ τῶν
-                    <name type="place">Ἀθήνηθεν</name> καὶ τῶν ἀπὸ
-                    <name type="place">Ῥόδου</name> εἰς τὴν καλὴν
-                    <name type="place">Ἀλεξάνδρειαν</name> μετήγαγε. διόπερ ἐκεῖνα τῶν
-                    <name type="place">Ἀντιφάνους</name> ἐρεῖ τις εἰς αὐτόν<bibl>II 124 K</bibl>·
-                      <quote>
-                        <l> ἀεὶ δὲ πρὸς Μούσαισι καὶ λόγοις πάρει,</l>
-                        <l>ὅπου
-                          <add resp="#Mein">&lt;τι&gt;</add>
-                           σοφίας ἔργον ἐξετάζεται. —</l>
-                         </quote>
-                      <quote>
-                        <l>ἀγλαίζεται δὲ καὶ</l>
-                        <l>
-                          <app>
-                            <lem>μουσικᾶς</lem>
-                            <rdg wit="#Ε">μουσικῆς</rdg>
-                          </app>
-                           ἐν ἀώτῳ·</l>
-                        <l>οἷα παίζομεν
-                          <app>
-                            <lem>φίλαν</lem>
-                            <rdg wit="#C #Ε">φίλ' ἄνδρες</rdg>
-                          </app>
-                        </l>
-                        <l>ἄνδρες ἀμφὶ θαμὰ τράπεζαν,</l>
-                      </quote>
-                    κατὰ τὸν Θηβαῖον μελοποιόν.<bibl>Pind. O I 14</bibl>
-                    καὶ ἐπὶ τὰς ἑστιάσεις δὲ παρακαλῶν πατρίδα, φησί, τὴν
-                    <name type="place">Ῥώμην</name>
-                        <app>
-                          <lem>πᾶσιν</lem>
-                          <rdg wit="#C #Ε">πᾶσαν</rdg>
-                          <note resp="#Kaibel">corr. E superscr.</note>
-                        </app>
-                    ἀποφαίνει.
-                        <app>
-                          <lem>τίς γὰρ τὰ οἴκοι</lem>
-                          <note resp="#Kaibel">τίς γὰρ - τὴν οἴκίαν fuerunt comici poetae versus</note>
-                        </app>
-                        <app>
-                          <lem>ποθεῖ</lem>
-                          <rdg wit="#C">ποθῆ</rdg>
-                        </app>
-                      τούτῳ ξυνὼν ἀναπεπταμένην
-                        <app>
-                          <lem resp="#Mus">ἔχοντι</lem>
-                          <rdg wit="#C #Ε">ἔχοντα</rdg>
-                        </app>
-                     τοῖς φίλοις τὴν οἰκίαν; κατὰ γὰρ τὸν
-                        <app>
-                          <lem>κωμῳδιοποιὸν</lem>
-                          <rdg wit="#C">κωμικὸν</rdg>
-                        </app>
-                    <name type="person">Ἀπολλόδωρον</name><bibl>IV 455 M</bibl>·
-                      <quote>
-                        <l>εἰς οἰκίαν ὅταν τις εἰσίῃ φίλου,</l>
-                        <l>ἔστιν θεωρεῖν, <name type="person">Νικοφῶν</name>, τὴν τοῦ φίλου</l>
-                        <l>ὔνοιαν εὐθὺς εἰσιόντα τὰς θύρας.</l>
-                        <l>ὁ θυρωρὸς ἱλαρὸς πρῶτόν ἐστιν, ἡ κύων</l>
-                        <pb n="v.1.p.6"/>
-                        <l>
-                          <app>
-                            <lem resp="#Toup">ἔσηνε</lem>
-                            <rdg wit="#C #Ε">ἔσανε</rdg>
-                            <note resp="#Kaibel">sed in C α in ras.</note>
-                          </app>
-                           καὶ
-                           <app>
-                             <lem>προσῆλθ᾽</lem>
-                             <rdg wit="#C #E">προσῆλθεν</rdg>
-                           </app>
-                           , <!-- ? -->
-                           <app>
-                             <lem resp="#Grot">ὑπαντήσας δέ τις</lem>
-                             <rdg wit="#C #E">ὑπάντησέ τις</rdg>
-                             <note resp="#Kaibel">in C η superscr.</note>
-                           </app>
-                        </l>
-                        <l>δίφρον εὐθέως ἔθηκε, κἂν μηδεὶς λέγῃ</l>
-                        <l>μηδέν.</l>
-                      </quote>
-                    </p>
-                </div>
-              <div n="1.5" type="chapter">
-                  <p>
-                    <hi rend="bold">[1.5]</hi>
-                    τοιούτους ἔδει καὶ τοὺς λοιποὺς
-                        <app>
-                          <lem>εἶναι πλείους</lem>
-                          <rdg><corr resp="#Adam">εἶναι πλουσίους</corr></rdg>
-                        </app>
-                        <app>
-                          <lem>ὡς τοῖς</lem>
-                          <note resp="#Kaibel">fort. ὡν τοῖς</note>
-                        </app>
-                      γε μὴ τοῦτο ποιοῦσιν ἐρεῖ τις “τί
-                      <app>
-                        <lem resp="#Kaibel">μικρολόγος</lem>
-                        <rdg wit="#C #E">μικρολογεῖς</rdg>
-                      </app>
-                       εἶ;”
-                    — “πλεῖαί τοι οἴνου κλισίαι· δαίνυ δαῖτα γέρουσι θάλειαν· ἔοικέ τοι.
-                    <bibl>I 70. 71. H 475</bibl>”
-                    τοιοῦτος ἦν τῇ μεγαλοψυχίᾳ ὁ μέγας
-                    <name type="person">Ἀλέξανδρος</name>. Κόνων δὲ τῇ περὶ
-                    <name type="place">Κνίδον</name> ναυμαχίᾳ νικήσας
-                    <name type="person">Λακεδαιμονίους</name> καὶ τειχίσας τὸν
-                    <name type="place">Πειραιᾶ</name> ἑκατόμβην τῷ ὄντι θύσας καὶ οὐ ψευδωνύμως πάντας
-                    <name type="place">Ἀθηναίους</name> εἱστίασεν.
-                    <name type="person">Ἀλκιβιάδης</name> δὲ
-                    <name type="place">Ὀλύμπια</name> νικήσας ἅρματι πρῶτοςκαὶ δεύτερος καὶ τέταρτος, εἰς ἃς νίκας καὶ
-                    <name type="person">Εὐριπίδης</name> ἔγραψεν ἐπινίκιον,<bibl>II 266 B4</bibl>
-                    θύσας
-                    <name type="person">Ὀλυμπίῳ Διὶ</name> τὴν πανήγυριν
-                        <app>
-                          <lem>πᾶσαν</lem>
-                          <rdg><corr resp="#Suid">ἅπᾶσαν</corr></rdg> <!-- Ἀθήναιος? --> <!-- AB : "s. Ἀθήναιος" = "sub (verbo)", "à l'entrée Ἀθήναιος" de la Souda, qui est une encyclopédie -->
-                        </app>
-                     εἱστίασε. τὸ αὐτὸ ἐποίησε καὶ
-                        <app>
-                          <lem resp="#Cas"><name type="person">Λεώφρων Ὀλυμπίασιν</name></lem>
-                          <rdg wit="#C #E">Λεόφρων</rdg> <!-- et dans resp="#Suid" --> <!-- AB : embarras intéressant : faut-il traiter la leçon de la Souda comme une conjecture ou comme une variante dans une source primaire ? Dans le second cas, il faudrait ajouter la Souda parmi les `witnesses` dans les métadonnées et utiliser `wit`. Cependant, on suppose que cette source repose sur l'abrégé, donc sur un manuscrit de la famille de C et E : on ne la mentionnerait donc pas. L'information serait plutôt reportée dans un registre de la tradition indirecte. -->
-                          </app>
-                    , ἐπινίκιον γράψαντος τοῦ
-                    <name type="place">Κείου</name>
-                    <name type="person">Σιμωνίδου</name>.
-                    <bibl>cf. Bgk ad fr.</bibl>
-                    <name type="person">Ἐμπεδοκλῆς</name> δ᾽ ὁ
-                    <name type="place">Ἀκραγαντῖνος</name> ἵπποις
-                    <name type="place">Ὀλύμπια</name> νικήσας,
-                    <name type="person">Πυθαγορικὸς</name> ὢν καὶ ἐμψύχων ἀπεχόμενος, ἐκ σμύρνης καὶ λιβανωτοῦ καὶ τῶν
-                    πολυτελεστάτων ἀρωμάτων βοῦν ἀναπλάσας διένειμε τοῖς εἰς τὴν πανήγυριν ἀπαντήσασιν. ὁ δὲ
-                    <name type="place">Χῖος</name>
-                    <name type="person"> Ἴων</name> <!-- AB : mettre les espaces hors des balises --> τραγῳδίαν νικήσας
-                    <name type="place">Ἀθήνησιν</name>
-                      <quote>
-                        <l>ἑκάστῳ τῶν Ἀθηναίων ἔδωκε
-                          <app>
-                            <lem resp="#Cas"><name type="place">Χίου</name></lem>
-                            <rdg wit="#C #E">Χῖον</rdg>
-                          </app>
-                          <app>
-                            <lem>κεράμιον</lem>
-                            <rdg wit="#C #E">κεράμειον</rdg>
-                          </app>
-                          . <!-- ? -->
-                        </l>
-                        <l>
-                          <app>
-                            <lem>τοῦ γάρ</lem>
-                            <rdg wit="#C #E">τοῦ δὲ γάρ</rdg>
-                            <note resp="#Kaibel">sed in C δὲ in ras.</note>
-                            <note resp="#Kaibel">τοῦ δ´ἂν τις Pors, quod si verum, fort. πρὸς θεῶν λεγ' scribendum</note>
-                          </app>
-                           τις ἄλλου πρὸς θεῶν
-                           <add resp="#Di">&lt;ἂν&gt;</add>
-                            οὕνεκα</l>
+    <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+        <TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <teiHeader>
+                <fileDesc>
+                    <titleStmt>
+                        <title xml:lang="lat">Laus Pysonis</title>
+                        <author xml:lang="eng">Anonymous</author>
+                        <editor resp="transcription">Thayer</editor>
+                        <editor resp="tei/epidoc" xml:id="clerice">Thibault Clérice</editor>
+                        <editor resp="original edition">Unknown</editor>
+                    </titleStmt>
+                    <publicationStmt>
+                        <p>Publication Information</p>
+                    </publicationStmt>
+                    <sourceDesc>
+                        <bibl>
+                            <editor>J. Wight Duff</editor>
+                            <editor>Arnold M. Duff</editor>
+                            <title>Latin Minor Poets</title>
+                            <publisher>Loeb Classical Library</publisher>
+                            <date>1935</date>
+                        </bibl>
+                        <bibl>
+                            <editor ref="#thayer">Thayer</editor>
+                            <title>Laus Pisonis</title>
+                            <pubPlace>LacusCurtius</pubPlace>
+                            <ref target="http://penelope.uchicago.edu/Thayer/E/Roman/Texts/Laus_Pisonis/home.html" />
+                        </bibl>
+                    </sourceDesc>
+                </fileDesc>
+                <encodingDesc>
+                    <refsDecl n="CTS">
+                        <cRefPattern n="line" matchPattern="(\d+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:l[@n='$1'])">
+                            <p>This pattern extracts lines</p>
+                        </cRefPattern>
+                    </refsDecl>
+                </encodingDesc>
+                <revisionDesc>
+                    <change who="#clerice" when="2017-08-17">Original transformation into Capitains Epidoc
+                    </change>
+                </revisionDesc>
+            </teiHeader>
+            <text>
+                <body>
+                    <div type="edition" n="urn:cts:latinLit:phi0911.phi001.thayer-lat1" xml:lang="lat">
+                        <l>ἑκάστῳ τῶν Ἀθηναίων ἔδωκε</l>
+                        <l>τις ἄλλου πρὸς θεῶν οὕνεκα</l>
                         <l>εὔξαιτο πλουτεῖν εὐπορεῖν τε χρημάτων</l>
-                        <pb n="v.1.p.7"/>
                         <l>ἢ τοῦ δύνασθαι παραβοηθεῖν τοῖς φίλοις</l>
-                        <l>σπείρειν τε καρπὸν
-                        <name type="person">Χάριτος</name>, ἡδίστης θεῶν;</l>
+                        <l>σπείρειν τε καρπὸν</l>
                         <l>τοῦ μὲν πιεῖν γὰρ καὶ φαγεῖν τὰς ἡδονὰς</l>
                         <l>ἔχομεν ὁμοίας· οὐδὲ τοῖς λαμπροῖσι γὰρ</l>
                         <l>δείπνοις τὸ πεινῆν παύεται,</l>
-                      </quote>
-                    <name type="person">Ἀντιφάνης</name> φησίν.<bibl>II 111 K</bibl>
-                    ὅτι
-                    <name type="person">Ξενοκράτης</name> ὁ
-                    <name type="place">Χαλκηδόνιος</name> καὶ
-                    <name type="person">Σπεύσιππος</name> ὁ Ἀκαδημαικὸς καὶ
-                    <name type="person">Ἀριστοτέλης</name> βασιλικοὺς νόμους ἔγραψε.
-                    ἀλλὰ μὴν καὶ ὁ Ἀκραγαντῖνος
-                    <name type="person">Τελλίας</name>, φιλόξενος ὢν καὶ πάντας πολυωρῶν, πεντακοσίοις ἱππεῦσιν ἐκ Γέλας ποτὲ
-                    καταλύσασιν ὡς αὐτὸν χειμῶνος ὥρᾳ ἔδωκεν ἑκάστῳ χιτῶνα καὶ ἱμάτιον.
-                  </p>
-                </div>
-            </div>
-    </body>
-   </text>
-
-</TEI>
+                    </div>
+                </body>
+            </text>
+        </TEI>
