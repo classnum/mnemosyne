@@ -7,7 +7,7 @@
         {% if collections.current %}
         {{collections.current.label}}
         {% else %}
-        Collections
+        Text Collections
         {% endif %}
         </h1>
     </header>
@@ -17,14 +17,13 @@
             {% if coll.model == 'http://w3id.org/dts-ontology/resource' %}
             <li class="card">
                 [{{coll.lang}}] {{ coll.label }}<br />
-                <a class="card-link" href="{{url_for('.r_references_semantic', objectId=coll.id, semantic=coll.semantic)}}">Naviguer</a>
-                <a class="card-link" href="{{url_for('.r_first_passage', objectId=coll.id)}}">Lire</a> 
-                <a class="card-link" href="{{url_for('.r_full_text', objectId=coll.id)}}">Texte entier</a>
+                <a class="card-link" href="{{url_for('.r_references_semantic', objectId=coll.id, semantic=coll.semantic)}}">Browse</a>
+                <a class="card-link" href="{{url_for('.r_first_passage', objectId=coll.id)}}">Read</a>
             </li>
             {% else %}
             <li class="card">
                 {{ coll.label }}<br />
-                <a class="card-link" href="{{url_for('.r_collection_semantic', objectId=coll.id, semantic=coll.semantic)}}">Naviguer ({{coll.size}})</a>
+                <a class="card-link" href="{{url_for('.r_collection_semantic', objectId=coll.id, semantic=coll.semantic)}}">Browse ({{coll.size}})</a>
             </li>
             {% endif %}
         {% endfor %}
