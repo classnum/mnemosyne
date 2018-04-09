@@ -1,3 +1,30 @@
+/* test */
+
+ul.menu li a, #menu-container header .content, #menu-container header .search {
+    border-bottom: 1px solid #b4b4b4;
+    color: red; /* 5b5b5b */
+    display: block;
+    /*font-variant: small-caps;*/
+    font-size: large;
+    font-weight: 600;
+    line-height: 1.618em;
+    overflow: hidden;
+    padding: 0.809em 1.27em 0.404em 1.618em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#reading-container article {
+    background-color: grey; /* fff */
+    box-shadow: 1px 2px 0 0 red; /* 656565 */
+    font-family: "Arial","Palatino","Palatino Linotype","Georgia","Serif";
+    margin: 0 auto 3em;
+    max-width: 65%;
+    padding: 0.404em 2.617em 1.2em;
+}
+
+/* original content */
+
 #menu-container  .logo {
     width: auto;
 }
