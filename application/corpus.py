@@ -34,6 +34,17 @@ def organize_my_hchn(collection, path=None, **kwargs):
 #     return False
 
 
+@organizer.inventory("collection")
+def organize_my_collection(collection, path=None, **kwargs):
+    # If we are not dealing with Priapeia
+    if not collection.id.startswith("urn:cts:latinLit:phi1103"):
+        # Textgroups have a wonderful shortcut to their editions and translations : .readableDescendants
+        for text in collection.readableDescendants:
+            for citation in text.citation:
+                if citation.name == "line":
+                    return True
+    return False
+
 # @organizer.inventory("poetry_collection")
 # def organize_my_poetry(collection, path=None, **kwargs):
 #     # If we are not dealing with Priapeia
