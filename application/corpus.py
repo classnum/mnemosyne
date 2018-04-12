@@ -15,8 +15,8 @@ poetry.set_label("Poésie", "fre")
 # priapeia.set_label("Priapées", "fre")
 
 misc = CtsTextInventoryMetadata("id:misc", parent=general_collection)
-misc.set_label("Miscellaneous", "eng")
-misc.set_label("Textes Divers", "fre")
+misc.set_label("HCHN", "eng")
+misc.set_label("HCHN", "fre")
 organizer = CollectionDispatcher(general_collection, default_inventory_name="id:misc")
 
 
@@ -68,5 +68,5 @@ def organize_my_poetry(collection, path=None, **kwargs):
 
 
 # Parsing the data
-resolver = NautilusCTSResolver(["corpora/hchn", "corpora/priapeia"], dispatcher=organizer)
+resolver = NautilusCTSResolver(["corpora/hchn"], dispatcher=organizer)
 resolver.parse()
