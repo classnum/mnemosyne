@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:phi0448" urn="urn:cts:latinLit:phi0448.phi001" xml:lang="lat">
-        <ti:title xml:lang="fra">la Guerre des Gaules</ti:title>
+        <ti:title xml:lang="fra">La Guerre des Gaules</ti:title>
 
     <ti:edition workUrn="urn:cts:latinLit:phi0448.phi001" urn="urn:cts:latinLit:phi0448.phi001.perseus-lat2">
             <ti:label xml:lang="lat">

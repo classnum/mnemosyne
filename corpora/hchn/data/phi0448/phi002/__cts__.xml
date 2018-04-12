@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi0448">
-    <ti:groupname xml:lang="fra">César</ti:groupname>
-    <ti:groupname xml:lang="eng">Caesar, Julius</ti:groupname>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:phi0448" urn="urn:cts:latinLit:phi0448.phi002" xml:lang="lat">
+        <ti:title xml:lang="fra">La Guerre civile</ti:title>
 
-</ti:textgroup>
+    <ti:edition workUrn="urn:cts:latinLit:phi0448.phi002" urn="urn:cts:latinLit:phi0448.phi002.perseus-lat2">
+            <ti:label xml:lang="lat">
+                C. Iuli Caesaris Commentariorum, pars posterior, ed. Renatus du Pontet, Oxonii e Typographeo Clarendoniano, 1901
+            </ti:label>
+        </ti:edition>
+</ti:work>
