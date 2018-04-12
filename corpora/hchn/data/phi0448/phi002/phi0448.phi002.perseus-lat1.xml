@@ -17,7 +17,9 @@
 <biblStruct>
 <monogr>
 <author>C. Julius Caesar</author>
-<title>C. Iuli Caesaris Commentariorum, pars posterior</title><idno type="isbn">0198146035</idno>
+<title>C. Iuli Caesaris Commentariorum, pars posterior</title>
+<!-- <idno type="isbn">0198146035</idno> -->
+<!-- commenting out to test valid file -->
 <editor role="editor">Renatus du Pontet</editor>
 <imprint>
 <pubPlace>Oxonii</pubPlace>
