@@ -1,22 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/8.21/tei-epidoc.rng"
+<!--<?xml-model href="http://www.stoa.org/epidoc/schema/8.21/tei-epidoc.rng"
     schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.21/tei-epidoc.rng"
-    schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
-<!-- TÂCHES ET COMMENTAIRES -->
-<!-- AB : Ce n'est pas une bonne pratique de laisser les tâches et commentaires dans le fichier… Le forum ou un fichier partagé sont plus indiqués. Une plateforme comme GitHub prévoit un espace pour ces notes, mais je ne vous ai pas demandé d'ouvrir un compte pour la durée de ce petit projet. Cela vous aurait permis d'accéder au compte du master, https://github.com/classnum, d'où je prévois de déployer notre site Capitains. -->
-
-<!-- Tsilla: Il faudra trouver quelque chose à faire avec ces Cox/ dans les <l></l> et ça va sans doute se régler au <app>... -->
-<!-- Tsilla: Je n'ai pas encore fait tous les supplied -->
-<!-- Tsilla: certains des supplied ont reason="lost" d'autres reason="undefined". Il faudra décider entre les deux. -->
-
-<!-- AB : Quelques réponses ci-dessous. -->
-<!-- Tsilla: Pourquoi y a-t-il autant de moyen d'exprimer des gaps ?! -->
-<!-- AB : il y a souvent plusieurs moyens d'exprimer le même phénomène… Cependant, êtes-vous certaine que les consignes d'EpiDoc ne règlent pas votre hésitation ? -->
-<!-- Tsilla: On devra trouver comment coder l'enjambement et la scansion -->
-<!-- AB : Ce n'est pas urgent : vous ne visez pas ici l'analyse métrique ! Dans le texte, partout où vous mentionnez la scansion, je crois que vous avez seulement besoin d'utiliser les caractères Unicode pertinents pour brève et longue. Voyez par exemple la rubrique "Computer encodings" de https://en.wikipedia.org/wiki/Greek_alphabet. -->
-
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
