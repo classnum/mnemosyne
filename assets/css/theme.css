@@ -51,7 +51,7 @@ ul.menu li a, #menu-container header .content, #menu-container header .search {
 }
 #menu-container header .content {
     border-top: 1px solid white;
-    color: grey;
+    color: white; /*grey;*/
     font-size: 1.2em;
     font-weight: 500;
     font-family: "Lato",Sans-Serif;
@@ -66,7 +66,7 @@ ul.menu li a, #menu-container header .content, #menu-container header .search {
 }
 #menu-container header:hover .search {
     background-color: white;
-    border-color: #b4b4b4;
+    border-color: white; /*#b4b4b4;*/
     border-style: solid;
     border-width: 1px 1px 1px 0;
     display: block;
@@ -95,7 +95,7 @@ ul.menu li a.active {
     border-right: 3px solid #7437bc;
 }
 #reading-container article {
-    background-color: #fff;
+    background-color: white;
     box-shadow: 1px 2px 0 0 #fff;
     font-family: "Gentium Plus","Lato","Palatino","Palatino Linotype","Georgia","Serif";
     font-size: 125%;
@@ -172,7 +172,7 @@ ul.reffs > li {
     text-transform: uppercase;
 }
 #breadcrumb ol{
-    background-color: #f0f0f0;
+    background-color: white; /*#f0f0f0*/
 }
 
 .reference {
