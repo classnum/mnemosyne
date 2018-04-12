@@ -5,6 +5,7 @@ body, html {
 }
 body {
     text-rendering: optimizelegibility;
+    background-color: white;
 }
 #reading-container, #menu-container {
     min-height: 100%;
