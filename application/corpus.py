@@ -7,9 +7,9 @@ from capitains_nautilus.cts.resolver import NautilusCTSResolver
 # Setting up the collections
 
 general_collection = CtsTextInventoryCollection()
-poetry = CtsTextInventoryMetadata("collection", parent=general_collection)
-poetry.set_label("Texts", "eng")
-poetry.set_label("Textes", "fre")
+texts = CtsTextInventoryMetadata("collection", parent=general_collection)
+texts.set_label("Texts", "eng")
+texts.set_label("Textes", "fre")
 
 # priapeia = CtsTextInventoryMetadata("priapeia_collection", parent=general_collection)
 # priapeia.set_label("Priapeia", "eng")
@@ -23,7 +23,7 @@ organizer = CollectionDispatcher(general_collection, default_inventory_name="id:
 
 @organizer.inventory("hchn")
 def organize_my_hchn(collection, path=None, **kwargs):
-    if collection.id.startswith("urn:cts"):
+    if not collection.id.startswith("urn:cts:latinLit:phi9999"):
         return True
     return False
 
@@ -37,7 +37,7 @@ def organize_my_hchn(collection, path=None, **kwargs):
 @organizer.inventory("collection")
 def organize_my_collection(collection, path=None, **kwargs):
     # If we are not dealing with Priapeia
-    if not collection.id.startswith("urn:cts:latinLit:phi1103"):
+    if not collection.id.startswith("urn:cts:latinLit:phi9999"):
         # Textgroups have a wonderful shortcut to their editions and translations : .readableDescendants
         for text in collection.readableDescendants:
             for citation in text.citation:
