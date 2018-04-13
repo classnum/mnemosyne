@@ -75,6 +75,7 @@
   </teiHeader>
   <text>
     <body>
+      <div type="edition" xml:lang="grc" n="urn:cts:greekLit:tlg0009.tlg001.opp-grc9">      
       <div type="textpart" subtype="poem" n="1">
         <label>Lobel-Page 1 / Voigt 1 / Diehl 1 / Bergk 1 / Cox 1</label>
         <lg>
@@ -3250,7 +3251,7 @@
             46, 1952, 1-3)</note>
         </lg>
       </div>
-
+      </div>
     </body>
   </text>
 </TEI>
