@@ -60,17 +60,33 @@
         <p>Projet collaboratif d'humanités numériques, 2017-2018</p>
       </projectDesc>
       <refsDecl n="CTS">
-        <cRefPattern n="line" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(//l)">
-          <p>This pointer pattern extracts poem and line</p>
-        </cRefPattern>
-        <cRefPattern n="poem" matchPattern="(\w+)" replacementPattern="#xpath(//div[@subtype='poem'])">
-          <p>This pointer pattern extracts poem</p>
+        <!-- To implement this feature lines should be numbered: we would need a stable poem numbering scheme before – we drop it for now.
+          <cRefPattern n="line" matchPattern="(\w+).(\w+)"
+          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']//tei:l[@n='$2'])">
+          <p>This pointer pattern extracts Poem and Line</p>
+        </cRefPattern> -->
+        <cRefPattern n="poem" matchPattern="(.+)"
+          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+          <p>This pointer pattern extracts Poem</p>
         </cRefPattern>
       </refsDecl>
+      <refsDecl>
+        <refState unit="poem"/>
+        <!-- <refState delim="." unit="poem"/>
+        <refState unit="line"/> -->
+      </refsDecl>
+      <!-- <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l)">
+      <p>This pointer pattern extracts line</p>
+      </cRefPattern>
+      <cRefPattern n="poem" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:div[@subtype='poem' and @n='$1'])">
+          <p>This pointer pattern extracts poem</p>
+        </cRefPattern>
+        </refsDecl>
       <refsDecl n="TEI">
         <refState unit="poem"/>
         <refState unit="line"/>
-      </refsDecl>
+      </refsDecl> -->
     </encodingDesc>
   </teiHeader>
   <text>
@@ -2108,7 +2124,7 @@
         </lg>
       </div>
 
-      <div type="textpart" subtype="poem" n="62">
+      <div type="textpart" subtype="poem" n="77">
         <label>Lobel-Page 77</label>
         <note>(a)</note>
         <lg>
@@ -2583,13 +2599,13 @@
       </div>
 
       <div type="textpart" subtype="poem" n="106">
-        <label>Lobel-Page 106 / 115D</label>
+        <label>Lobel-Page 106 / 115 D</label>
         <l>πέρροχος, ὠς ὄτ' ἄοιδος ὀ Λέσβιος ἀλλοδάποισιν</l>
         <note>107LP/53D / Cox 99</note>
       </div>
 
       <div type="textpart" subtype="poem" n="107">
-        <label>107LP/53D / Cox 99</label>
+        <label>Lobel-Page  107LP /53 D / Cox 99</label>
         <lg>
           <l>ἦρ' ἔτι παρθενίας ἐπιβάλλομαι;</l>
           <l>/ Cox: Ἦῤ ἔτι παρθενίασ επιβάλλομαι;</l>
@@ -2603,7 +2619,7 @@
       </div>
 
       <div type="textpart" subtype="poem" n="109">
-        <label>Lobel-Page 109 / 122d</label>
+        <label>Lobel-Page 109 / 122D</label>
         <l>δώσομεν, ἦσι πάτηρ</l>
       </div>
 
@@ -2857,7 +2873,7 @@
         </lg>
       </div>
 
-      <div type="textpart" subtype="poem" n="140?">
+      <div type="textpart" subtype="poem" n="140">
         <label>Lobel-Page 140? / Bergk 62? / Voigt 140? / Cox 59</label>
         <lg>
           <l>Κατθνάσκει Κυθέρἠ, ἄβροσ Ἄδωνισ, τί κε θεῖμεν,</l>
@@ -3180,7 +3196,7 @@
       </div>
 
       <div type="textpart" subtype="poem" n="157D">
-        <note>157D/A.P.6,269 / Cox 112</note>
+        <note>157D /A.P. 6,269 / Cox 112</note>
         <lg>
           <l>Παῖδες, ἄφωνος ἐοῖσα τότ' ἐννέπω, αἴ τις ἔρηται,</l>
           <l>φωνὰν ἀκαμάταν κατθεμένα πρὸ ποδῶν·</l>
