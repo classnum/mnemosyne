@@ -588,7 +588,7 @@
         </lg>
       </div>
 
-      <div type="textpart" subtype="poem" n="15.2">
+      <div type="textpart" subtype="poem" n="15b">
         <label>Lobel-Page 15b / Voigt 15 / Gallavotti 24 / Diehl 26 / Bergk -</label>
         <gap reason="lost" extent="unknown" unit="line"/>
       </div>
@@ -2753,8 +2753,8 @@
         </lg>
       </div>
 
-      <div type="textpart" subtype="poem" n="125LP">
-        <label>Lobel-Page 125LP / 101D</label>
+      <div type="textpart" subtype="poem" n="125">
+        <label>Lobel-Page 125 / 101D</label>
         <l>†αυταόρα† ἐστεφαναπλόκην</l>
       </div>
 
@@ -3195,8 +3195,8 @@
         </lg>
       </div>
 
-      <div type="textpart" subtype="poem" n="157D">
-        <note>157D /A.P. 6,269 / Cox 112</note>
+      <div type="textpart" subtype="poem" n="157diehl">
+        <note>Diehl 157 /A.P. 6,269 / Cox 112</note>
         <lg>
           <l>Παῖδες, ἄφωνος ἐοῖσα τότ' ἐννέπω, αἴ τις ἔρηται,</l>
           <l>φωνὰν ἀκαμάταν κατθεμένα πρὸ ποδῶν·</l>
@@ -3215,7 +3215,7 @@
         </lg>
       </div>
 
-      <div type="textpart" subtype="poem" n="wharton12">
+        <div type="textpart" subtype="poem" n="12wharton">
         <note>Wharton 12 / Cox 12</note>
         <lg>
           <l>{</l>
@@ -3246,7 +3246,7 @@
         </lg>
       </div>
 
-      <div type="textpart" subtype="poem" n="i.a.5,2">
+        <div type="textpart" subtype="poem" n="5ia2">
         <label>Lobel-Page i.a. 5,2 / Diehl 45 / Cox 33</label>
         <lg>
           <l>+δ᾽+ ἄλλα μὴ μεγαλύν&lt;ν&gt;εο δακτυλίω πέρι (Lobel-Page)</l>
