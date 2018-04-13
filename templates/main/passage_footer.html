@@ -1,1 +1,3 @@
-<div class="ctsurn">{{ objectId }}</div>
+<div class="ctsurn">
+    <a href="/api/cts?request=GetPassagePlus&urn={{ objectId }}{%if subreference %}:{{subreference}}{%endif%}"><small>{{ objectId }}</small></a>
+</div>
