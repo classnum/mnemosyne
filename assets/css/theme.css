@@ -97,8 +97,8 @@ ul.menu li a.active {
 #reading-container article {
     background-color: white;
     box-shadow: 1px 2px 0 0 #fff;
-    font-family: "Gentium Plus","Lato","Palatino","Palatino Linotype","Georgia","Serif";
-    font-size: 125%;
+    font-family: "Gentium Plus","Palatino","Palatino Linotype","Georgia","Serif";
+    font-size: 100%;
     margin: auto auto 3em;
     max-width: 65%;
     padding: 0.404em 2.617em 1.2em;
