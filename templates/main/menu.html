@@ -7,9 +7,9 @@
     {% endfor %}
 </ul>
 {% if collections and collections.parents %}
-<!-- <header>
-    <span class="content">Parents</span>
-</header> -->
+<header>
+    <span class="content">———</span>
+</header>
 <ul class="menu">
     {% for parent in collections.parents %}
         <li><a href="{{url_for('.r_collection_semantic', objectId=parent.id, semantic=parent.label|slugify)}}">{{parent.label}}</a></li>
