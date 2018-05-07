@@ -2,8 +2,6 @@
 
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:greekLit:tlg0011.tlg008" xml:lang="grc" groupUrn="urn:cts:greekLit:tlg0011">
    <ti:title xml:lang="fra">Les limiers</ti:title>
-   <ti:title xml:lang="lat">Ichneutae</ti:title>
-   <ti:title xml:lang="eng">Tracking Satyrs</ti:title>
 
    <ti:edition xml:lang="grc" workUrn="urn:cts:greekLit:tlg0011.tlg008" urn="urn:cts:greekLit:tlg0011.tlg008.perseus-grc2">
       <ti:label xml:lang="eng">Ichneutae, The Oxyrhynchus papyri Part 9 1174</ti:label>

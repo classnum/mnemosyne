@@ -2,7 +2,6 @@
 
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:phi0690" urn="urn:cts:latinLit:phi0690.phi003" xml:lang="lat">
     <ti:title xml:lang="fra">Énéide</ti:title>
-    <ti:title xml:lang="eng">Aeneid</ti:title>
 
     <ti:edition urn="urn:cts:latinLit:phi0690.phi003.perseus-lat2" workUrn="urn:cts:latinLit:phi0690.phi003">
         <ti:label xml:lang="eng">Aeneid</ti:label>

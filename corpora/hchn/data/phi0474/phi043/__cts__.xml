@@ -1,8 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi0474.phi043" groupUrn="urn:cts:latinLit:phi0474">
-            <ti:title xml:lang="lat">De Republica</ti:title>
+            <ti:title xml:lang="fra">De la République</ti:title>
+
             <ti:edition urn="urn:cts:latinLit:phi0474.phi043.perseus-lat1" workUrn="urn:cts:latinLit:phi0474.phi043">
               <ti:label xml:lang="fra">Sur la république</ti:label>
               <ti:description xml:lang="fra">Cicero, Marcus Tullius, auteur</ti:description>
             </ti:edition>
           </ti:work>
-        

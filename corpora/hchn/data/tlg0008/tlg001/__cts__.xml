@@ -2,7 +2,6 @@
 
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:greekLit:tlg0008.tlg001" xml:lang="grc" groupUrn="urn:cts:greekLit:tlg0008">
     <ti:title xml:lang="fra">Les Deipnosophistes</ti:title>
-    <ti:title xml:lang="eng">Deipnosophistae</ti:title>
 
     <ti:edition urn="urn:cts:greekLit:tlg0008.tlg001.perseus-grc4" workUrn="urn:cts:greekLit:tlg0008.tlg001">
         <ti:label xml:lang="eng">Deipnosophistae, Athenaei Naucratitae Dipnosophistarum libri XV Epidoc Edition.</ti:label>

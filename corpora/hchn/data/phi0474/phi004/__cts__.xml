@@ -5,11 +5,10 @@
     <ti:title xml:lang="lat">Divinatio in Q. Caecilium</ti:title>
    <ti:title xml:lang="lat">In Caecilium</ti:title>
 
-
     <ti:edition workUrn="urn:cts:latinLit:phi0474.phi004" urn="urn:cts:latinLit:phi0474.phi004.perseus-lat2" xml:lang="lat">
         <ti:label xml:lang="fra">Divinatio contre Quintus Caecilius, Orationes Volume III</ti:label>
         <ti:description xml:lang="fra">Cicero, Marcus Tullius, auteur</ti:description>
     </ti:edition>
-    
+
 
 </ti:work>

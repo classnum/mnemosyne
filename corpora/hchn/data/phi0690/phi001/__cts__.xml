@@ -2,7 +2,6 @@
 
 <work xmlns="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:phi0690" urn="urn:cts:latinLit:phi0690.phi001" xml:lang="lat">
   <title xml:lang="fra">Églogues</title>
-  <title xml:lang="lat">Eclogues</title>
 
   <edition workUrn="urn:cts:latinLit:phi0690.phi001" urn="urn:cts:latinLit:phi0690.phi001.perseus-lat2">
     <label xml:lang="eng">Eclogues, The Bucolics, Æneid, and Georgics of Virgil</label>

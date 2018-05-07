@@ -1,8 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
 <ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi0474.phi053" groupUrn="urn:cts:latinLit:phi0474">
-            <ti:title xml:lang="lat">De Divinatione</ti:title>
+            <ti:title xml:lang="fra">De la divination</ti:title>
+
             <ti:edition urn="urn:cts:latinLit:phi0474.phi053.perseus-lat1" workUrn="urn:cts:latinLit:phi0474.phi053">
               <ti:label xml:lang="fra">Sur la divination</ti:label>
               <ti:description xml:lang="fra">Cicero, Marcus Tullius, auteur</ti:description>
             </ti:edition>
-          
+
           </ti:work>

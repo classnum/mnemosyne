@@ -2,7 +2,6 @@
 
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:greekLit:tlg0011.tlg006" xml:lang="grc" groupUrn="urn:cts:greekLit:tlg0011">
    <ti:title xml:lang="fra">Philoctète</ti:title>
-   <ti:title xml:lang="eng">Philoctetes</ti:title>
 
    <ti:edition xml:lang="grc" workUrn="urn:cts:greekLit:tlg0011.tlg006" urn="urn:cts:greekLit:tlg0011.tlg006.perseus-grc2">
       <ti:label xml:lang="eng">Philoctetes</ti:label>
