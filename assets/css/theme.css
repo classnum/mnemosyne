@@ -51,7 +51,7 @@ ul.menu li a, #menu-container header .content, #menu-container header .search {
 }
 #menu-container header .content {
     border-top: 1px solid white;
-    color: white; /*grey;*/ /*hiding single collection heading*/
+    color: grey;
     font-size: 1.2em;
     font-weight: 500;
     font-family: "Lato",Sans-Serif;
