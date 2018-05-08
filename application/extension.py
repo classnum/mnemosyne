@@ -3,7 +3,8 @@ from flask import Markup, redirect, url_for
 from MyCapytain.resources.prototypes.cts.inventory import CtsWorkMetadata, CtsEditionMetadata
 from MyCapytain.errors import UnknownCollection
 from MyCapytain.common.constants import Mimetypes
-
+from flask_nemo.plugins.default import Breadcrumb
+import os
 
 class MyNemo(Nemo):
     """ We'll write more there later """
@@ -50,3 +51,16 @@ class MyNemo(Nemo):
             "prev": None,
             "next": None
         }
+
+
+class BreadcrumbTraduction(Breadcrumb):
+    Traductions = {
+        "Text Collections": "Collections de textes"
+    }
+
+    def render(self, **kwargs):
+        data = super(BreadcrumbTraduction, self).render(**kwargs)
+        for bread in data["breadcrumbs"]:
+            # .get(clé, valeur par défaut)
+            bread["title"] = BreadcrumbTraduction.Traductions.get(bread["title"], bread["title"])
+        return data
