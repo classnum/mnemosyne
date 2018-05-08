@@ -7,36 +7,33 @@ from capitains_nautilus.cts.resolver import NautilusCTSResolver
 
 general_collection = CtsTextInventoryCollection()
 
-greek_texts = CtsTextInventoryMetadata("mnemosyne:grec", parent=general_collection)
+greek_texts = CtsTextInventoryMetadata("mnemosyne:grc", parent=general_collection)
 greek_texts.set_label("Greek Texts", "eng")
-greek_texts.set_label("Textes Grecs", "fre")
+greek_texts.set_label("Textes grecs", "fre")
 
-latin_texts = CtsTextInventoryMetadata("mnemosyne:latin", parent=general_collection)
+latin_texts = CtsTextInventoryMetadata("mnemosyne:lat", parent=general_collection)
 latin_texts.set_label("Latin Texts", "eng")
-latin_texts.set_label("Textes Latins", "fre")
+latin_texts.set_label("Textes latins", "fre")
 
 misc = CtsTextInventoryMetadata("mnemosyne:misc", parent=general_collection)
 misc.set_label("Miscellaneous", "eng")
-misc.set_label("Textes Divers", "fre")
-
+misc.set_label("Textes divers", "fre")
 
 organizer = CollectionDispatcher(general_collection, default_inventory_name="mnemosyne:misc")
 
-
-@organizer.inventory("mnemosyne:grec")
+@organizer.inventory("mnemosyne:grc")
 def organize_my_grec(collection, path=None, **kwargs):
     if collection.id.startswith("urn:cts:greekLit:"):
         return True
     return False
 
-
-@organizer.inventory("mnemosyne:latin")
+@organizer.inventory("mnemosyne:lat")
 def organize_my_latin(collection, path=None, **kwargs):
     if collection.id.startswith("urn:cts:latinLit:"):
         return True
     return False
 
-
 # Parsing the data
-resolver = NautilusCTSResolver(["corpora/hchn"], dispatcher=organizer)
+
+resolver = NautilusCTSResolver(["corpora"], dispatcher=organizer)
 resolver.parse()
