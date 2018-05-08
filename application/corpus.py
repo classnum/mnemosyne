@@ -6,65 +6,35 @@ from capitains_nautilus.cts.resolver import NautilusCTSResolver
 # Setting up the collections
 
 general_collection = CtsTextInventoryCollection()
-# poetry = CtsTextInventoryMetadata("poetry_collection", parent=general_collection)
-# poetry.set_label("Poetry", "eng")
-# poetry.set_label("Poésie", "fre")
 
-# priapeia = CtsTextInventoryMetadata("priapeia_collection", parent=general_collection)
-# priapeia.set_label("Priapeia", "eng")
-# priapeia.set_label("Priapées", "fre")
+greek_texts = CtsTextInventoryMetadata("mnemosyne:grec", parent=general_collection)
+greek_texts.set_label("Greek Texts", "eng")
+greek_texts.set_label("Textes Grecs", "fre")
 
-hchn = CtsTextInventoryMetadata("hchn", parent=general_collection)
-hchn.set_label("HCHN", "eng")
-hchn.set_label("HCHN", "fre")
-organizer = CollectionDispatcher(general_collection, default_inventory_name="hchn")
+latin_texts = CtsTextInventoryMetadata("mnemosyne:latin", parent=general_collection)
+latin_texts.set_label("Latin Texts", "eng")
+latin_texts.set_label("Textes Latins", "fre")
 
-
-# @organizer.inventory("priapeia_collection")
-# def organize_my_priapeia(collection, path=None, **kwargs):
-#     if collection.id.startswith("urn:cts:latinLit:phi1103"):
-#         return True
-#     return False
+misc = CtsTextInventoryMetadata("mnemosyne:misc", parent=general_collection)
+misc.set_label("Miscellaneous", "eng")
+misc.set_label("Textes Divers", "fre")
 
 
-# @organizer.inventory("poetry_collection")
-# def organize_my_poetry(collection, path=None, **kwargs):
-#     # If we are not dealing with Priapeia
-#     if not collection.id.startswith("urn:cts:latinLit:phi1103"):
-#         # Textgroups have a wonderful shortcut to their editions and translations : .readableDescendants
-#         for text in collection.readableDescendants:
-#             for citation in text.citation:
-#                 if citation.name == "line":
-#                     return True
-#     return False
+organizer = CollectionDispatcher(general_collection, default_inventory_name="mnemosyne:misc")
 
-# # TEST
-# general_collection = CtsTextInventoryCollection()
-# texts = CtsTextInventoryMetadata("collection", parent=general_collection)
-# texts.set_label("Texts", "eng")
-# texts.set_label("Textes", "fre")
 
-# hchn = CtsTextInventoryMetadata("id:hchn", parent=general_collection)
-# hchn.set_label("HCHN", "eng")
-# hchn.set_label("HCHN", "fre")
-# organizer = CollectionDispatcher(general_collection, default_inventory_name="id:hchn")
+@organizer.inventory("mnemosyne:grec")
+def organize_my_grec(collection, path=None, **kwargs):
+    if collection.id.startswith("urn:cts:greekLit:"):
+        return True
+    return False
 
-# @organizer.inventory("hchn")
-# def organize_my_hchn(collection, path=None, **kwargs):
-#     if not collection.id.startswith("urn:cts:latinLit:phi9999"):
-#         return True
-#     return False
 
-# @organizer.inventory("collection")
-# def organize_my_collection(collection, path=None, **kwargs):
-#     # If we are not dealing with Priapeia
-#     if not collection.id.startswith("urn:cts:latinLit:phi9999"):
-#         # Textgroups have a wonderful shortcut to their editions and translations : .readableDescendants
-#         for text in collection.readableDescendants:
-#             for citation in text.citation:
-#                 if citation.name == "line":
-#                     return True
-#     return False
+@organizer.inventory("mnemosyne:latin")
+def organize_my_latin(collection, path=None, **kwargs):
+    if collection.id.startswith("urn:cts:latinLit:"):
+        return True
+    return False
 
 
 # Parsing the data

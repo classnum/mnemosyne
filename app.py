@@ -4,7 +4,7 @@ from capitains_nautilus.flask_ext import FlaskNautilus
 from flask_nemo.chunker import level_grouper
 
 from application.corpus import resolver
-from application.extension import MyNemo
+from application.extension import MyNemo, BreadcrumbTraduction
 
 
 def get_citation_scheme(text):
@@ -51,7 +51,11 @@ nemo = MyNemo(
     statics=["assets/images/nemo.png"],
     transform={"default": "components/main.xsl"},
     templates={"main": "templates/main"},
-    chunker={"default": generic_chunker}
+    chunker={"default": generic_chunker},
+
+    # Pour désactiver le breadcrumb original
+    original_breadcrumb=False,
+    plugins=[BreadcrumbTraduction()]
 )
 
 if __name__ == "__main__":

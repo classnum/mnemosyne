@@ -1,0 +1,9 @@
+<nav id="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{{url_for(".r_index")}}">Accueil</a></li>
+      {% for crumb in breadcrumbs: -%}
+        {%- if crumb["link"] != None -%}<li class="breadcrumb-item"><a href="{{url_for(crumb["link"], **crumb["args"])}}">{{crumb["title"]}}</a></li>
+        {% else %}<li class="breadcrumb-item active">{{crumb["title"]}}</li>{% endif %}
+      {%- endfor %}
+    </ol>
+</nav>

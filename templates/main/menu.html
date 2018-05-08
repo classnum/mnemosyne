@@ -11,7 +11,7 @@
     <span class="content">/</span>
 </header>
 <ul class="menu">
-    {% for parent in collections.parents %}
+    {% for parent in collections.parents[::-1] %}
         <li><a href="{{url_for('.r_collection_semantic', objectId=parent.id, semantic=parent.label|slugify)}}">{{parent.label}}</a></li>
     {% endfor %}
 </ul>
