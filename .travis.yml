@@ -1,0 +1,15 @@
+# https://github.com/PerseusDL/canonical-latinLit/blob/master/.travis.yml#L1-L16
+
+filter_secrets: false
+language: python
+
+
+python:
+  - '3.5'
+
+
+install:
+  - pip3 install HookTest>=1.0.0
+
+
+script: hooktest ./corpora --scheme epidoc --workers 3 --verbose 10 --console table --countword --allowfailure
