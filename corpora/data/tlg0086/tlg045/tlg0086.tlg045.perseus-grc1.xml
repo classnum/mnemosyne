@@ -73,7 +73,7 @@
 	</teiHeader>
 	<text>
 		<body>
-			<div type="edition" n="urn:cts:greekLit:tlg0086.tlg045.perseus-grc1" xml:lang="grc">
+			<div type="edition" xml:lang="grc" n="urn:cts:greekLit:tlg0086.tlg045.perseus-grc1">
 				<milestone n="1249a" unit="bekkerpage"/>
 				<milestone n="26" unit="bekkerline"/>
 				<p>ἐπαινετὰ μέν ἐστι τὰ καλά, ψεκτὰ δὲ τὰ αἰσχρά. καὶ τῶν μὲν καλῶν ἡγοῦνται αἱ

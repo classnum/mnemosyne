@@ -80,7 +80,7 @@
 		<body>
 			<div type="edition" n="urn:cts:greekLit:tlg0086.tlg003.perseus-grc1" xml:lang="grc">
 				<!-- <div type="work" n="Ath. Pol."> -->
-				<div type="textpart" subtype="chapter" n="fragments">
+				<div type="chapter" n="fragments">
 					<head xml:lang="en">φραγμεντς</head>
 					<div type="textpart" subtype="fragment" n="1">
 						<head xml:lang="greek">ἐκ τῶν Ἡρακλείδου περὶ Πολιτειῶν.</head>
