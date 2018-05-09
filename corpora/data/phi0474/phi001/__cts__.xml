@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:phi0474" urn="urn:cts:latinLit:phi0474.phi001" projid="latinLit:phi001">
+<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+    groupUrn="urn:cts:latinLit:phi0474" urn="urn:cts:latinLit:phi0474.phi001"
+    projid="latinLit:phi001">
     <ti:title xml:lang="fra">Pour Publius Quinctius</ti:title>
     <ti:title xml:lang="lat">Pro P. Quinctio</ti:title>
 
-    <ti:edition workUrn="urn:cts:latinLit:phi0474.phi001" urn="urn:cts:latinLit:phi0474.phi001.perseus-lat2" xml:lang="lat">
+    <ti:edition workUrn="urn:cts:latinLit:phi0474.phi001"
+        urn="urn:cts:latinLit:phi0474.phi001.perseus-lat2" xml:lang="lat">
         <ti:label xml:lang="fra">Pour Publius Quinctius, Orationes Volume IV</ti:label>
         <ti:description xml:lang="fra">Ciceron, Marcus Tullius, auteur</ti:description>
-        </ti:edition>
+    </ti:edition>
 </ti:work>

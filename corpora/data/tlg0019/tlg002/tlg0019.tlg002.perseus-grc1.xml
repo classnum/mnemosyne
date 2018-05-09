@@ -1,4 +1,6 @@
-<TEI xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -81,7 +83,7 @@
                 Revision 1.5 2000/02/01 22:11:29 amahoney bring up to P3 </change>
         </revisionDesc>
     </teiHeader>
-    <text xml:id="stoa0045.stoa0">
+    <text>
         <body>
             <div type="edition" n="urn:cts:greekLit:tlg0019.tlg002.perseus-grc1" xml:lang="grc">
             <div type="textpart" subtype="Prologue">
@@ -1130,7 +1132,7 @@
                         <speaker>Χορός</speaker>
                         <l>ἦν ἄρα πυρός γʼ ἕτερα θερμότερα καὶ λόγων</l>
                         <l n="385">ἐν πόλει τῶν ἀναιδῶν ἀναιδέστεροι· καὶ τὸ πρᾶγμʼ</l>
-                        <l>ἦν ἄρʼ οὐ φαῦλον ὧδʼ <gap/> ἀλλʼ ἔπιθι καὶ στρόβει,</l>
+                        <l>ἦν ἄρʼ οὐ φαῦλον ὧδʼ <gap reason="lost"/> ἀλλʼ ἔπιθι καὶ στρόβει,</l>
                         <l>μηδὲν ὀλίγον ποίει. νῦν γὰρ ἔχεται μέσος·</l>
                         <l>ὡς ἐὰν νυνὶ μαλάξῃς αὐτὸν ἐν τῇ προσβολῇ,</l>
                         <l n="390">δειλὸν εὑρήσεις· ἐγὼ γὰρ τοὺς τρόπους ἐπίσταμαι.<milestone ed="p"
@@ -1273,7 +1275,7 @@
                     </sp>
                     <sp>
                         <speaker>Κλέων</speaker>
-                        <l>φεύξει γραφὰς <gap/>
+                        <l>φεύξει γραφὰς <gap reason="lost"/>
                         </l>
                         <l>ἑκατονταλάντους τέτταρας.</l>
                     </sp>
@@ -3495,9 +3497,7 @@
                     <l n="1405">ἐς τὴν ἕδραν θʼ, ἵνʼ ἐκεῖνος ἦν ὁ φαρμακός.</l>
                     <l>ἕπου δὲ ταυτηνὶ λαβὼν τὴν βατραχίδα·</l>
                     <l>κἀκεῖνον ἐκφερέτω τις ὡς ἐπὶ τὴν τέχνην,</l>
-                    <l>ἵνʼ ἴδωσιν αὐτὸν οἷς ἐλωβᾶθʼ οἱ ξένοι.<gap>
-                            <desc>*</desc>
-                        </gap>
+                    <l>ἵνʼ ἴδωσιν αὐτὸν οἷς ἐλωβᾶθʼ οἱ ξένοι.<gap reason="lost"/>
                     </l>
                 </sp>
             </div>

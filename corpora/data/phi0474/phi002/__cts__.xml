@@ -6,8 +6,7 @@
 
             <ti:edition urn="urn:cts:latinLit:phi0474.phi002.perseus-lat2" workUrn="urn:cts:latinLit:phi0474.phi002">
                 <ti:label xml:lang="fra">Pour Sextus Roscius d'Ameria</ti:label>
-        
-                <ti:memberof collection="Perseus:collection:Greco-Roman" />
+                <ti:description xml:lang="fra">Ciceron, Marcus Tullius</ti:description>
             </ti:edition>
 
 </ti:work>

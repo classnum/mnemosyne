@@ -31,7 +31,8 @@
 		</fileDesc>
 		<encodingDesc>
 			<refsDecl n="CTS">
-				<cRefPattern n="section" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+				<cRefPattern n="section" matchPattern="(\w+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
 					<p>This pointer pattern extracts section</p>
 				</cRefPattern>
 			</refsDecl>
@@ -43,8 +44,8 @@
 
 		<profileDesc>
 			<langUsage>
-				<language ident="lat">Latin </language>
-				<language ident="grc">Greek </language>
+				<language ident="lat">Latin</language>
+				<language ident="grc">Ancient Greek</language>
 			</langUsage>
 		</profileDesc>
 		<revisionDesc>
@@ -53,9 +54,9 @@
 	</teiHeader>
 
 
-	<text n="urn:cts:latinLit:phi0474.phi053.perseus-lat2">
+	<text>
 		<body>
-			<div type="textpart" subtype="edition" xml:lang="lat" n="urn:cts:latinLit:phi0474.phi053.perseus-lat2">
+			<div xml:lang="lat" type="edition" n="urn:cts:latinLit:phi0474.phi053.perseus-lat2">
 				<head>De Divinatione</head>
 				<div type="textpart" subtype="book" n="1">
 					<head>Liber Primus</head>
@@ -65,7 +66,7 @@
 						<p><milestone unit="chapter" n="1"/><reg>vetus</reg> opinio est iam usque ab
 							heroicis ducta temporibus, eaque et populi Romani et omnium gentium
 							firmata consensu, versari quandam inter homines divinationem, quam
-							Graeci <foreign xml:lang="greek">mantikh/n</foreign> appellant, id est
+							Graeci <foreign xml:lang="grc">mantikh/n</foreign> appellant, id est
 							praesensionem et scientiam rerum futurarum. <reg>magnifica</reg> quaedam
 							res et salutaris, si modo est ulla, quaque proxime ad deorum vim natura
 							mortalis possit accedere. <reg>itaque</reg> ut alia nos melius multa
@@ -1518,12 +1519,12 @@
 						<p><milestone unit="chapter" n="41"/>Eaque divinationum ratio ne in barbaris
 							quidem gentibus neglecta est, siquidem et in Gallia Druidae sunt, e
 							quibus ipse Divitiacum Aeduum, hospitem tuum laudatoremque, cognovi, qui
-							et naturae rationem, quam <foreign xml:lang="greek"
-								>fusiologi/an</foreign> Graeci appellant, notam esse sibi
-							profitebatur et partim <pb n="p.322"/> auguriis, partim coniectura, quae
-							essent futura, dicebat. <reg>et</reg> in Persis augurantur et divinant
-							magi, qui congregantur in fano commentandi causa atque inter se
-							conloquendi, quod etiam idem vos quondam facere Nonis solebatis.</p>
+							et naturae rationem, quam <foreign xml:lang="grc">fusiologi/an</foreign>
+							Graeci appellant, notam esse sibi profitebatur et partim <pb n="p.322"/>
+							auguriis, partim coniectura, quae essent futura, dicebat. <reg>et</reg>
+							in Persis augurantur et divinant magi, qui congregantur in fano
+							commentandi causa atque inter se conloquendi, quod etiam idem vos
+							quondam facere Nonis solebatis.</p>
 					</div>
 
 					<div type="textpart" subtype="section" n="91">
@@ -1588,7 +1589,7 @@
 							magis, quo maius erat certamen et discrimen salutis. <reg>omitto</reg>
 							nostros, qui nihil in bello sine extis agunt, nihil sine auspiciis domi
 							externa videamus: namque et Athenienses omnibus semper publicis
-							consiliis divinos quosdam sacerdotes, quos <foreign xml:lang="greek"
+							consiliis divinos quosdam sacerdotes, quos <foreign xml:lang="grc"
 								>ma/nteis</foreign> vocant, adhibuerunt, et Lacedaemonii regibus
 							suis augurem assessorem dederunt, itemque senibus (sic enim consilium
 							publicum appellant) augurem interesse voluerunt, iidemque de rebus
@@ -1958,16 +1959,17 @@
 							ille rei novitate non<note><hi rend="italics">I insert</hi> non <hi
 									rend="italics">because the story contradicts Suet.
 										<reg>iul</reg>. Caesar, ch. 77</hi>
-								<gap reason="lost"/> nec pro ostento ducendum, si pecudi cor defuisset (<hi
-									rend="italics">sc.</hi> Caesar dixit), <hi rend="italics">and is
-									inconsistent with Caesar's character.</hi></note> perculsus cum
-							Spurinna diceret timendum esse ne et consilium et vita deficeret; earum
-							enim rerum utramque a corde proficisci. <reg>postero</reg> die caput in
-							iecore non fuit. <reg>quae</reg> quidem illi portendebantur a dis
-							immortalibus ut videret interitum, non ut caveret. <reg>cum</reg> igitur
-							eae partes in extis non reperiuntur sine quibus victuma illa vivere
-							nequisset, intellegendum est in <pb n="p.354"/> ipso immolationis
-							tempore eas partes quae absint interisse.</p>
+								<gap reason="lost"/> nec pro ostento ducendum, si pecudi cor
+								defuisset (<hi rend="italics">sc.</hi> Caesar dixit), <hi
+									rend="italics">and is inconsistent with Caesar's
+								character.</hi></note> perculsus cum Spurinna diceret timendum esse
+							ne et consilium et vita deficeret; earum enim rerum utramque a corde
+							proficisci. <reg>postero</reg> die caput in iecore non fuit.
+								<reg>quae</reg> quidem illi portendebantur a dis immortalibus ut
+							videret interitum, non ut caveret. <reg>cum</reg> igitur eae partes in
+							extis non reperiuntur sine quibus victuma illa vivere nequisset,
+							intellegendum est in <pb n="p.354"/> ipso immolationis tempore eas
+							partes quae absint interisse.</p>
 					</div>
 
 					<div type="textpart" subtype="section" n="120">
@@ -2002,7 +2004,7 @@
 					<div type="textpart" subtype="section" n="122">
 						<p><milestone unit="chapter" n="54"/>Hoc nimirum est illud quod de Socrate
 							accepimus, quodque ab ipso in libris Socraticorum saepe dicitur: esse
-							divinum quiddam, quod <foreign xml:lang="greek">daimo/nion</foreign>
+							divinum quiddam, quod <foreign xml:lang="grc">daimo/nion</foreign>
 							appellat, cui semper ipse paruerit numquam impellenti, saepe revocanti.
 								<reg>et</reg> Socrates quidem (quo quem auctorem meliorem
 							quaerimus?) Xenophonti consulenti sequereturne Cyrum, posteaquam
@@ -2189,7 +2191,8 @@
 								multa praedicere, levitate, vanitate, malitia exclusa divinationem
 								probo.</quote>
 							<reg>quae</reg> cum dixisset Quintus, <quote><reg>praeclare</reg> tu
-								quidem,</quote> inquam, <quote>paratus, Quinte, venisti <gap reason="lost"/>
+								quidem,</quote> inquam, <quote>paratus, Quinte, venisti <gap
+									reason="lost"/>
 							</quote><note>quinte, venisti <hi rend="italics">cod. R.</hi></note>
 						</p>
 					</div>
@@ -2363,13 +2366,12 @@
 						<p>Quid? quae a dialecticis aut a physicis tractantur, num quid eorum
 							divinari potest? unusne mundus sit an plures, quae sint initia rerum, ex
 							quibus nascuntur omnia? <reg>physicorum</reg> est ista prudentia.
-								<reg>quo</reg> modo autem 'mentientem,' quem <foreign
-								xml:lang="greek">yeudo/menon</foreign> vocant, dissolvas, aut quem
-							ad modum 'soriti' resistas (quem, si necesse sit, Latino verbo <pb
-								n="p.382"/> liceat 'acervalem' appellare; sed nihil opus est; ut
-							enim ipsa philosophia et multa verba Graecorum, sic 'sorites' satis
-							Latino sermone tritus est),—ergo haec quoque dialectici dicent, non
-							divini.</p>
+								<reg>quo</reg> modo autem 'mentientem,' quem <foreign xml:lang="grc"
+								>yeudo/menon</foreign> vocant, dissolvas, aut quem ad modum 'soriti'
+							resistas (quem, si necesse sit, Latino verbo <pb n="p.382"/> liceat
+							'acervalem' appellare; sed nihil opus est; ut enim ipsa philosophia et
+							multa verba Graecorum, sic 'sorites' satis Latino sermone tritus
+							est),—ergo haec quoque dialectici dicent, non divini.</p>
 						<p>Quid? cum quaeritur, qui sit optimus rei publicae status, quae leges, qui
 							mores aut utiles aut inutiles, haruspicesne ex Etruria arcessentur, an
 							principes statuent et delecti viri periti rerum civilium?</p>
@@ -2719,7 +2721,7 @@
 							/> Demus hoc; nihil enim huic disputationi adversatur; num etiam, si
 							fissum cuiusdam modi fuerit in iecore, lucrum ostenditur? qua ex
 							coniunctione naturae et quasi concentu atque consensu, quam <foreign
-								xml:lang="greek">sumpa/qeian</foreign> Graeci appellant, convenire
+								xml:lang="grc">sumpa/qeian</foreign> Graeci appellant, convenire
 							potest aut fissum iecoris cum lucello meo aut meus quaesticulus cum
 							caelo, terra rerumque natura?</p>
 						<p><milestone unit="chapter" n="15"/>Concedam hoc ipsum, si vis, etsi magnam
@@ -3382,11 +3384,11 @@
 						<p>
 							<reg>itaque</reg> nec amnis transeunt auspicato nec tripudio
 									auspicantur.<note><hi rend="italics">MSS., Dav., Giese, Moser,
-									have</hi> Nam ex acuminibus <gap reason="lost"/> optimus <hi rend="italics"
-									>following</hi> auspicantur.</note> Ubi ergo avium divinatio?
-							quae, quoniam ab eis, qui auspicia nulla habent, bella <pb n="p.458"/>
-							administrantur, ad urbanas res retenta videtur, a bellicis esse
-							sublata.</p>
+									have</hi> Nam ex acuminibus <gap reason="lost"/> optimus <hi
+									rend="italics">following</hi> auspicantur.</note> Ubi ergo avium
+							divinatio? quae, quoniam ab eis, qui auspicia nulla habent, bella <pb
+								n="p.458"/> administrantur, ad urbanas res retenta videtur, a
+							bellicis esse sublata.</p>
 						<p>Nam ex acuminibus quidem, quod totum auspicium militare est, iam M.
 							Marcellus ille quinquiens consul totum omisit, idem imperator, idem
 							augur optimus. <reg>et</reg> quidem ille dicebat, 'si quando rem agere
@@ -3568,7 +3570,7 @@
 					<div type="textpart" subtype="section" n="89">
 						<p>Sed ut ratione utamur omissis testibus, sic isti disputant qui haec
 							Chaldaeorum natalicia praedicta defendunt. <reg>vim</reg> quandam esse,
-							aiunt, signifero in orbe, qui Graece <foreign xml:lang="greek"
+							aiunt, signifero in orbe, qui Graece <foreign xml:lang="grc"
 								>zwdiako/s</foreign> dicitur, talem ut eius orbis una quaeque pars
 							alia alio modo moveat immutetque caelum, perinde ut quaeque stellae in
 							his finitimisque partibus sint quoque tempore, eamque vim varie moveri
@@ -3621,7 +3623,7 @@
 							stellarum nati sint, accidere necesse esse, nonne eius modi sunt, ut ne
 							caeli quidem naturam interpretes istos caeli nosse appareat?
 								<reg>cum</reg> enim illi orbes, qui caelum quasi medium dividunt et
-							aspectum nostrum definiunt, qui a Graecis <foreign xml:lang="greek"
+							aspectum nostrum definiunt, qui a Graecis <foreign xml:lang="grc"
 								>o(ri/zontes</foreign> nominantur, a nobis ' finientes ' rectissime
 							nominari possunt, varietatem maximam habeant aliique in aliis locis
 							sint, necesse est ortus occasusque siderum non fieri eodem tempore apud
@@ -3866,8 +3868,8 @@
 							concessuros tibi existimas eos, qui somnia pro somniis habent, si quando
 							aliquod somnium verum evaserit, non id fortuito accidisse.
 								<reg>sed</reg> demus tibi istas duas sumptiones (ea quae <foreign
-								xml:lang="greek">lh/mmata</foreign> appellant dialectici, sed nos
-							Latine loqui malumus), assumptio tamen (quam <foreign xml:lang="greek"
+								xml:lang="grc">lh/mmata</foreign> appellant dialectici, sed nos
+							Latine loqui malumus), assumptio tamen (quam <foreign xml:lang="grc"
 								>pro/slhyin</foreign> eidem vocant), non dabitur.</p>
 					</div>
 
@@ -3907,7 +3909,7 @@
 						<p>Adhibuit etiam latebram obscuritatis, ut eidem versus alias in aliam rem
 							posse accommodari viderentur. <reg>non</reg> esse autem illud carmen
 							furentis cum ipsum poëma declarat (est enim magis artis et diligentiae
-							quam incitationis et motus), tum vero ea, quae <foreign xml:lang="greek"
+							quam incitationis et motus), tum vero ea, quae <foreign xml:lang="grc"
 								>a)krostixi/s</foreign> dicitur, cum deinceps ex primis versuum
 							litteris aliquid conectitur, ut in quibusdam Ennianis: 'Quintus Ennius
 							fecit.' Id certe magis est attenti animi quam furentis.</p>
@@ -4017,7 +4019,7 @@
 
 					<div type="textpart" subtype="section" n="118">
 						<p>Demosthenes quidem, qui abhinc annos prope trecentos fuit, iam tum
-								<foreign xml:lang="greek">filippi/zein</foreign> Pythiam dicebat, id
+								<foreign xml:lang="grc">filippi/zein</foreign> Pythiam dicebat, id
 							est quasi cum Philippo facere. <reg>hoc</reg> autem eo spectabat, ut eam
 							a Philippo corruptam diceret. <reg>quo</reg> licet existimare in aliis
 							quoque oraculis Delphicis aliquid non sinceri fuisse. <reg>sed</reg>
@@ -4101,7 +4103,7 @@
 							nunc interiora videamus. <reg>aut</reg> enim divina vis quaedam
 							consulens nobis somniorum significationes facit; aut coniectores ex
 							quadam convenientia et coniunctione naturae, quam vocant <foreign
-								xml:lang="greek">sumpa/qeian,</foreign> quid cuique rei conveniat ex
+								xml:lang="grc">sumpa/qeian,</foreign> quid cuique rei conveniat ex
 							somniis, et quid quamque rem sequatur, intellegunt; aut eorum neutrum
 							est, sed quaedam observatio constans atque diuturna est, cum quid visum
 							secundum quietem sit, quid evenire et quid sequi soleat.
@@ -4298,9 +4300,9 @@
 							'Plena sunt <quote>imaginum</quote> omnia';<note><hi rend="italics"
 										><reg>in</reg> MSS. and Dav.</hi>
 								<reg>plena</reg>
-								<gap reason="lost"/> omnia <hi rend="italics">immediately follows</hi> ex eo
-								<gap reason="lost"/> quod fuerat</note> nulla enim species cogitari potest nisi
-							pulsu 'imaginum.'</p>
+								<gap reason="lost"/> omnia <hi rend="italics">immediately
+									follows</hi> ex eo <gap reason="lost"/> quod fuerat</note> nulla
+							enim species cogitari potest nisi pulsu 'imaginum.'</p>
 					</div>
 
 					<div type="textpart" subtype="section" n="138">
@@ -4363,7 +4365,7 @@
 							magistratus aut in curia senatum video, somniare.</p>
 						<p><milestone unit="chapter" n="69"/><reg>etenim</reg>—ex divisione hoc
 							secundum est— quae est continuatio coniunctioque naturae quam, ut dixi,
-							vocant <foreign xml:lang="greek">sumpa/qeian,</foreign> eius modi, ut
+							vocant <foreign xml:lang="grc">sumpa/qeian,</foreign> eius modi, ut
 							thesaurus ex ovo intellegi debeat? <reg>nam</reg> medici ex quibusdam
 							rebus et advenientis et crescentis morbos intellegunt, non nullas etiam
 							valetudinis significationes, ut hoc ipsum, pleni enectine simus, ex
