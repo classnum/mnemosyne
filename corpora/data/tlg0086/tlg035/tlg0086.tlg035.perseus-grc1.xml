@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -41,7 +42,7 @@
       <encodingDesc>
          <refsDecl n="CTS">
             <cRefPattern n="chapter" matchPattern="(\\w+)"
-               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=\'$1\'])">
                <p>This pointer pattern extracts Bekker page</p>
             </cRefPattern>
          </refsDecl>
@@ -747,7 +748,7 @@
                <milestone n="2" unit="Book"/>
                <p> </p>
             </div>
-            <div type="textpart" subtype="bekkerpage" n="1260b">
+            <div type="textpart" subtype="bekkerpage" n="1260b2">
                <p>
                   <milestone n="27" ed="Bekker" unit="line"/>
                   <milestone ed="P" unit="para"/>ἐπεὶ δὲ προαιρούμεθα θεωρῆσαι περὶ τῆς κοινωνίας
@@ -1816,7 +1817,7 @@
                <milestone n="3" unit="Book"/>
                <p> </p>
             </div>
-            <div type="textpart" subtype="bekkerpage" n="1274b">
+            <div type="textpart" subtype="bekkerpage" n="1274b2">
                <p>
                   <milestone n="32" ed="Bekker" unit="line"/>
                   <milestone ed="P" unit="para"/>τῷ περὶ πολιτείας ἐπισκοποῦντι, καὶ τίς ἑκάστη καὶ
@@ -2880,7 +2881,7 @@
                <milestone n="4" unit="Book"/>
                <p> </p>
             </div>
-            <div type="textpart" subtype="bekkerpage" n="1288b">
+            <div type="textpart" subtype="bekkerpage" n="1288b2">
                <p>
                   <milestone n="10" ed="Bekker" unit="line"/>
                   <milestone ed="P" unit="para"/>ἐν ἁπάσαις ταῖς τέχναις καὶ ταῖς ἐπιστήμαις ταῖς μὴ
@@ -3833,7 +3834,7 @@
                <milestone n="5" unit="Book"/>
                <p> </p>
             </div>
-            <div type="textpart" subtype="bekkerpage" n="1301a">
+            <div type="textpart" subtype="bekkerpage" n="1301a2">
                <p>
                   <milestone n="19" ed="Bekker" unit="line"/>
                   <milestone ed="P" unit="para"/>περὶ μὲν οὖν τῶν ἄλλων ὧν προειλόμεθα σχεδὸν
@@ -4984,7 +4985,7 @@
                <milestone n="6" unit="Book"/>
                <p> </p>
             </div>
-            <div type="textpart" subtype="bekkerpage" n="1316b">
+            <div type="textpart" subtype="bekkerpage" n="1316b2">
                <p>
                   <milestone n="31" ed="Bekker" unit="line"/>
                   <milestone ed="P" unit="para"/>πόσαι μὲν οὖν διαφοραὶ καὶ τίνες τοῦ τε βουλευτικοῦ
@@ -5454,7 +5455,7 @@
                <milestone n="7" unit="Book"/>
                <p> </p>
             </div>
-            <div type="textpart" subtype="bekkerpage" n="1323a">
+            <div type="textpart" subtype="bekkerpage" n="1323a2">
                <p>
                   <milestone n="14" ed="Bekker" unit="line"/>
                   <milestone ed="P" unit="para"/>περὶ δὲ πολιτείας ἀρίστης τὸν μέλλοντα ποιήσασθαι
@@ -6519,7 +6520,7 @@
                <milestone n="8" unit="Book"/>
                <p> </p>
             </div>
-            <div type="textpart" subtype="bekkerpage" n="1337a">
+            <div type="textpart" subtype="bekkerpage" n="1337a2">
                <p>
                   <milestone n="11" ed="Bekker" unit="line"/>
                   <milestone ed="P" unit="para"/>ὅτι μὲν οὖν τῷ νομοθέτῃ μάλιστα πραγματευτέον περὶ
