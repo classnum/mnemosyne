@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader xml:lang="eng" type="text">
+	<teiHeader xml:lang="eng">
 		<fileDesc>
 			<titleStmt>
 				<title>Address to the Priests </title>
@@ -62,7 +62,7 @@
 		<profileDesc>
 			<langUsage>
 				<language ident="la">Latin</language>
-				<language ident="greek">Greek</language>
+				<language ident="grc">Greek</language>
 			</langUsage>
 		</profileDesc>
 		<revisionDesc>
@@ -131,6 +131,7 @@ passed SGML validation
     <respStmt><name>Stella Dee</name><resp>ed.</resp></respStmt>
     <item>split composite text and converted to unicode</item>
       </change>-->
+			<!-- 2018-05-09 deleted all <lemma> tags -->
 			<change when="2014-08-01" who="Stella Dee">edited markup</change>
 		</revisionDesc>
 	</teiHeader>
@@ -143,7 +144,7 @@ passed SGML validation
 			<milestone n="1" unit="section"/>
 			<p>Cum multa divinitus, pontifices, a<note>a <hi rend="italics">om. PB</hi></note>
 				maioribus nostris inventa atque instituta sunt, tum nihil praeclarius quam
-						quod<note><lemma>quod</lemma> quod vos <hi rend="italics">c</hi></note>
+						quod<note>quod quod vos <hi rend="italics">c</hi></note>
 				eosdem et religionibus deorum immortalium et summae rei publicae praeesse voluerunt,
 				ut amplissimi et clarissimi cives rem publicam bene gerendo<note>re p. bene gerenda
 						<hi rend="italics">Muell.</hi> (<hi rend="italics">ut ad Quir.</hi> §
@@ -241,7 +242,7 @@ passed SGML validation
 						rend="italics">corr.</hi> aures re illa): aures erigere illa <hi
 						rend="italics">P2 et pler.</hi> (an res illa talis erat ut <hi
 						rend="italics">Hbk</hi>)</note> de qua agebatur ut rem ipsam repudiare et
-						eos<note><lemma>eos</lemma> cos. (consules <hi rend="italics">coni.
+						eos<note>eos cos. (consules <hi rend="italics">coni.
 						Lange</hi></note> qui agebant condemnare deberem? <milestone n="4"
 					unit="chapter"/><milestone n="8" unit="section"/><reg>primum</reg> dico
 				senatoris esse boni semper in senatum venire, nec cum his<note>his <hi
@@ -371,7 +372,7 @@ passed SGML validation
 						>Lehmann</hi></note>, cum desperatis ducibus decuriatos ac descriptos
 				haberes exercitus perditorum, nonne providendum senatui fuit ne in hanc tantam
 					materiem<note>in hac tanta materie <hi rend="italics">Savels</hi></note>
-				seditionis ista<note><lemma>ista</lemma> iacta <hi rend="italics">Rueck</hi>: iacta
+				seditionis ista<note>ista iacta <hi rend="italics">Rueck</hi>: iacta
 					ista <hi rend="italics">Muell.</hi> (§ 63)</note> funesta fax adhaeresceret?
 					<milestone n="6" unit="chapter"/><milestone n="14" unit="section"/></p>
 			<p><reg>fuit</reg> igitur causa capiendi novi consili: videte nunc fuerintne partes meae
@@ -383,14 +384,14 @@ passed SGML validation
 				frumentariae praefuissem, aut compressum aliquod frumentum tenerem, aut in isto
 				genere omnino quicquam aut curatione aut potestate valuissem. <reg>sed</reg> homo ad
 				caedem imminens meum nomen operis ediderat, imperitis iniecerat.
-						Cum<note><lemma>Cum</lemma> Nam cum <hi rend="italics">aut</hi> Cum enim <hi
+						Cum<note>Cum Nam cum <hi rend="italics">aut</hi> Cum enim <hi
 						rend="italics">Lehmann</hi></note> de mea dignitate in templo Iovis
 					<reg>optimi</reg>
 				<reg>maximi</reg> senatus frequentissimus uno isto dissentiente decrevisset, subito
 				illo ipso die carissimam annonam necopinata vilitas consecuta est. <milestone n="15"
 					unit="section"/><reg>erant</reg> qui deos immortalis—id quod ego sentio—numine
-				suo reditum meum dicerent comprobasse; non nulli autem illam rem<note><lemma>illam
-						rem</lemma> vilitatem <hi rend="italics">Jeep</hi>: illam <hi rend="italics"
+				suo reditum meum dicerent comprobasse; non nulli autem illam rem<note>illam
+						rem vilitatem <hi rend="italics">Jeep</hi>: illam <hi rend="italics"
 						>del. Ern.</hi></note> ad illam<note>illam (<hi rend="italics">ante</hi>
 					rationem) <hi rend="italics">codd.</hi>: ipsam <hi rend="italics">Muell.</hi>:
 					aliam <hi rend="italics">Gesner.</hi></note> rationem coniecturamque revocabant,
@@ -430,8 +431,8 @@ passed SGML validation
 						rend="italics">P rell.</hi></note> vocabatur non esse venturam. <milestone
 					n="8" unit="chapter"/><milestone n="18" unit="section"/><reg>num</reg> igitur in
 				hoc officio, quod fuit praecipue meum, sententia mea reprehenditur? <reg>rem</reg>
-				maximam fuisse<note><lemma>fuisse</lemma> potuisse <hi rend="italics"
-					>PBt</hi></note> summi<note><lemma>summi</lemma> summique <hi rend="italics"
+				maximam fuisse<note>fuisse potuisse <hi rend="italics"
+					>PBt</hi></note> summi<note>summi summique <hi rend="italics"
 						>Muell.</hi>: et summi <hi rend="italics">Momms.</hi></note><add>que</add>
 				periculi, non solum a fame<note>a fame <hi rend="italics">Halm</hi> (§ 25): ea me
 						<hi rend="italics">PBt</hi>: eam <hi rend="italics">HGMke</hi></note>, sed
@@ -439,7 +440,7 @@ passed SGML validation
 				nemo negat, cum ad causam caritatis accederet iste speculator communium miseriarum,
 				qui semper ex<note>ex <hi rend="italics">P1</hi>: in <hi rend="italics">P2
 						rell.</hi></note> rei publicae malis sceleris sui faces inflammaret.
-					<reg>negat</reg><note><lemma>Negat</lemma>
+					<reg>negat</reg><note>Negat
 					<hi rend="italics">et</hi> negas <hi rend="italics">et</hi> negant <hi
 						rend="italics">coni. Halm</hi>: negatis <hi rend="italics">Lahmeyer</hi>:
 						<hi rend="italics">num</hi> Sed negas?</note> oportuisse quicquam uni extra
@@ -448,13 +449,13 @@ passed SGML validation
 				ceteris, Cn. Pompeio plurima, periculosissima, maxima mari terraque bella extra
 				ordinem esse commissa: quarum rerum si quem paeniteat, eum victoriae populi Romani
 				paenitere. <milestone n="19" unit="section"/><reg>non</reg> ita tecum ago; cum
-						his<note><lemma>his</lemma> iis <hi rend="italics">Muell.</hi></note> haec a
+						his<note>his iis <hi rend="italics">Muell.</hi></note> haec a
 				me haberi oratio potest<note>potest <hi rend="italics">Hb<foreign xml:lang="grc"
 							>s</foreign></hi>: est <hi rend="italics">P rell. praeter GMe</hi>
 					(posset): habenda oratio est <hi rend="italics">cod. Car. Steph. et in mg
 					t</hi></note> qui ita disputant, se, si qua res ad unum deferenda sit, ad Cn.
 				Pompeium delaturos potissimum; sed se extra ordinem nihil cuiquam dare;
-						cum<note><lemma>cum</lemma> quod <hi rend="italics">Karsten</hi></note>
+						cum<note>cum quod <hi rend="italics">Karsten</hi></note>
 				Pompeio datum sit, id se pro dignitate hominis ornare et tueri solere. Horum ego
 				sententiam ne laudem impedior Cn. Pompei triumphis, quibus ille, cum esset extra
 				ordinem ad patriam defendendam vocatus, auxit nomen populi Romani imperiumque
@@ -686,7 +687,7 @@ passed SGML validation
 						rend="italics">Osiander</hi>: radicitus ... atque illud <hi rend="italics"
 						>Kayser</hi>)</note> radicitus evellere omnis actiones tuas neque illud
 				agere, quod apertum est, te omnino nihil gessisse iure, non fuisse tribunum plebis,
-						hodie<note><lemma>hodie</lemma> hoc <hi rend="italics">G,</hi> hunc <hi
+						hodie<note>hodie hoc <hi rend="italics">G,</hi> hunc <hi
 						rend="italics">M, om. e</hi> (<hi rend="italics">Balb.</hi> § 51)</note>
 				esse patricium? <reg>dico</reg> apud pontifices, augures adsunt: versor in medio
 				iure publico. </p>
@@ -753,7 +754,7 @@ passed SGML validation
 						>Halm</hi>)</note> tribunus plebis fieri possit, idcirco adoptari? neque id
 					obscure<note>obscurari, iam <hi rend="italics">Lange</hi></note>; nam adoptatum
 				emancipari statim, ne sit eius filius qui adoptarit. <reg>cur</reg> ergo
-						adoptabat<note><lemma>adoptabat</lemma> adoptat <hi rend="italics"
+						adoptabat<note>adoptabat adoptat <hi rend="italics"
 					>Mb2t</hi>: adoptabatur <hi rend="italics">e</hi></note>? <reg>probate</reg>
 				genus adoptionis: iam omnium sacra interierint, quorum custodes vos esse debetis,
 				iam patricius nemo relinquetur. <reg>cur</reg> enim quisquam vellet tribunum plebis
@@ -854,7 +855,7 @@ passed SGML validation
 				vir omnibus rebus clarissimus atque amplissimus: quo iure, quo more, quo exemplo
 				legem nominatim de capite civis indemnati tulisti? <milestone n="17" unit="chapter"
 					/><reg>vetant</reg> leges sacratae, vetant <num>xii</num> tabulae leges privatis
-						hominibus<note><lemma>privatis hominibus</lemma> privatis in hom. <hi
+						hominibus<note>privatis hominibus privatis in hom. <hi
 						rend="italics">PBHebk</hi>: privatis * hom. <hi rend="italics">G</hi>: de
 					privatis hom. <hi rend="italics">c</hi>: privatis vim hom. <hi rend="italics"
 						>t</hi>: privis hom. <hi rend="italics">Scaliger</hi></note> inrogari; id
@@ -892,7 +893,7 @@ passed SGML validation
 					>k</hi></note> die quis accusetur, ut ter ante magistratus accuset intermissa
 				die quam multam inroget aut iudicet<note>capitis iudicet <hi rend="italics"
 						>Lange</hi></note>, quarta sit accusatio trinum nundinum prodicta die, quo
-				die iudicium sit futurum, tum<note><lemma>tum</lemma> cum <hi rend="italics"
+				die iudicium sit futurum, tum<note>tum cum <hi rend="italics"
 						>Lange</hi></note> multa etiam ad placandum atque ad misericordiam reis
 				concessa sunt<note>sunt <hi rend="italics">Me Klotz</hi>: sint <hi rend="italics"
 						>codd.</hi></note>, deinde exorabilis populus, facilis suffragatio pro
@@ -937,7 +938,7 @@ passed SGML validation
 				sanciri aut suffragiis confirmari potest? <milestone n="48" unit="section"
 					/><reg>hoc</reg> tu scriptore, hoc consiliario, hoc ministro omnium non bipedum
 				solum sed etiam quadrupedum<note>quadrip. <hi rend="italics">Htw</hi></note>
-						impurissimo<note><lemma>impurissimo</lemma> spurcissimo <hi rend="italics"
+						impurissimo<note>impurissimo spurcissimo <hi rend="italics"
 						>Oberdick</hi> (<hi rend="italics">Ael. Lamprid. Alex. Sever.</hi> 9. 4 <hi
 						rend="italics">omnium non solum bipedum sed etiam quadrupedum
 						spurcissimo</hi>)</note>, rem publicam perdidisti; neque tu eras tam excors
@@ -973,7 +974,7 @@ passed SGML validation
 				enim: <quote>Qvod M. Tvllivs falsvm senatvs </quote>
 				<quote>consvltvm rettvlerit.</quote>
 				<reg>si</reg> igitur rettulit falsum senatus consultum, tum est rogatio: si non
-				rettulit, nulla est<note><lemma>est</lemma>
+				rettulit, nulla est<note>est
 					<hi rend="italics">'fort. praestat est?' Mueller</hi></note>. <reg>satisne</reg>
 				tibi videtur a senatu iudicatum me non modo non ementitum esse auctoritatem eius
 				ordinis, sed etiam unum post urbem conditam diligentissime senatui paruisse?
@@ -1214,7 +1215,7 @@ passed SGML validation
 			<p><reg>haec</reg> vidit in sententia dicenda Kalendis Ianuariis vir prudentissimus et
 				cum rei publicae, cum mihi, tum etiam veritati amicissimus, L. Cotta, qui legem de
 				meo reditu ferendam non censuit; qui me consuluisse rei publicae, cessisse
-				tempestati, amiciorem vobis ceterisque civibus quam mihi<note><lemma>mihi</lemma>
+				tempestati, amiciorem vobis ceterisque civibus quam mihi<note>mihi
 					mihi acta est <hi rend="italics">P1BtHG</hi>: <hi rend="italics">in P verba</hi>
 					acta est <hi rend="italics">deleta sunt</hi>: mihi ac meis <hi rend="italics"
 						>Naugerius</hi> (1): mihi ac te me <hi rend="italics">k ed. V.</hi>: <hi
@@ -1225,7 +1226,7 @@ passed SGML validation
 						rend="italics">Muell.</hi> (descript. <hi rend="italics">Madv.</hi>), <hi
 						rend="italics">cf.</hi> § 129</note> hominum et<note>et <hi rend="italics"
 						>P2 rell.</hi>: aut <hi rend="italics">P1</hi> (ad caedem <hi rend="italics"
-						>vulg.</hi>)</note> caede instituta<note><lemma>instituta</lemma> instaurata
+						>vulg.</hi>)</note> caede instituta<note>instituta instaurata
 						<hi rend="italics">Reid, cf.</hi> § 6</note> novoque dominatu pulsum esse
 				dixit; nihil de meo capite potuisse ferri, nihil esse iure scriptum<note>iure
 					scriptum <hi rend="italics">Lamb.</hi>: inscriptum <hi rend="italics">P rell.
@@ -1253,7 +1254,7 @@ passed SGML validation
 						>P1</hi>: oriretur <hi rend="italics">rell.</hi></note> aliquando in tanta
 				ubertate improborum qui in meis aedibus aliquam religionem residere diceret.
 					<reg>nam</reg> legem quidem istam nullam esse, quotienscumque de me senatus
-				sententiam dixit, totiens iudicavit<note><lemma>iudicavit</lemma>
+				sententiam dixit, totiens iudicavit<note>iudicavit
 					<hi rend="italics">sic distinxi, Halmium secutus, prob. Zielinski</hi>:
 					iudicavit, quoniam ... dicere vetabatur. Atque <hi rend="italics">etc. ed.
 						R.</hi></note>. <reg>quoniam</reg> quidem scripto illo istius sententiam
@@ -1480,7 +1481,7 @@ passed SGML validation
 				quem eiectum universus senatus non modo civem, sed etiam egregium civem semper
 				putavit? <milestone n="86" unit="section"/><reg>at</reg> vero, ut annales populi
 				Romani et monumenta vetustatis loquuntur<note>locuntur <hi rend="italics"
-					>PHk</hi></note>, Kaeso<note><lemma>Kaeso</lemma> caeso <hi rend="italics"
+					>PHk</hi></note>, Kaeso<note>Kaeso caeso <hi rend="italics"
 						>P1</hi>: ceso <hi rend="italics">GMe</hi>: censor <hi rend="italics">P2
 						rell.</hi></note> ille Quinctius et M. Furius Camillus et C.
 					Servilius<note>C. <hi rend="italics">Garat.</hi>: M. <hi rend="italics"
@@ -1636,12 +1637,12 @@ passed SGML validation
 				anteposui meorum civium, remque publicam concidere<note>concidere <hi rend="italics"
 						>G</hi>: concedere <hi rend="italics">rell. praeter P1</hi>
 					(condere)</note><note>considere <hi rend="italics">`hoc est, aliquantisper
-						conquiescere' Madv.</hi></note> unius<note><lemma>unius</lemma> meo <hi
+						conquiescere' Madv.</hi></note> unius<note>unius meo <hi
 						rend="italics">Hbk</hi></note> discessu quam omnium interitu occidere malui.
 					<reg>speravi</reg>, id quod accidit, me iacentem posse vivis viris fortibus
 				excitari; si una cum bonis interissem, nullo modo posse <add>rem
 					publicam</add><note>rem pub. <hi rend="italics">suppl. Naegelsbach</hi></note>
-						recreari<note><lemma>recreari</lemma> resuscitari <hi rend="italics"
+						recreari<note>recreari resuscitari <hi rend="italics"
 					>b</hi></note>. <milestone n="97" unit="section"/><reg>accepi</reg>, pontifices,
 				magnum atque incredibilem dolorem: non nego, neque istam mihi adscisco sapientiam
 				quam non nulli in me requirebant, qui me animo nimis fracto esse atque adflicto
@@ -2035,7 +2036,7 @@ passed SGML validation
 				iudicassent, oppressam taeterrimo latrocinio cum duobus sceleratissimis consulibus
 				rem publicam teneres, domum eius qui patriam a se servatam perire suo nomine
 				noluisset per pontificem aliquem dedicasses, posset recreata res publica sustinere?
-					<milestone n="123" unit="section"/><reg>date</reg><note><lemma>Date</lemma> de
+					<milestone n="123" unit="section"/><reg>date</reg><note>Date de
 						<hi rend="italics">P et pler.</hi></note> huic religioni aditum, pontifices:
 				iam nullum fortunis communibus exitum reperietis. <reg>an</reg> si postem tenuerit
 				pontifex et verba ad religionem deorum immortalium composita ad perniciem civium

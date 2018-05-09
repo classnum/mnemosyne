@@ -6263,7 +6263,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 munitiones recepit. </p>
                         </div>
                     </div>
-                    <div type="textpart" subtype="chapter" n="55(56)">
+                    <div type="textpart" subtype="chapter" n="55"> <!-- was 55(56) -->
                         <div type="textpart" subtype="section" n="1">
                             <p>Omnibus deinceps diebus Caesar exercitum in aciem aequum in locum
                                 produxit, si Pompeius proelio decertare vellet, ut paene castris
@@ -6277,7 +6277,7 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                 instructus exercitus telis ex vallo abiectis protegi posset. </p>
                         </div>
                     </div>
-                    <div type="textpart" subtype="chapter" n="56(55)">
+                    <div type="textpart" subtype="chapter" n="56"> <!-- was 56(55) -->
                         <div type="textpart" subtype="section" n="1">
                             <p>Aetolia, Acarnania, Amphilochis per Cassium Longinum et Calvisium
                                 Sabinum, ut demonstravimus, receptis temptandam sibi Achaiam ac
