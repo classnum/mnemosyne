@@ -41,9 +41,6 @@
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
-            <!-- <refsDecl>
-                <step refunit="line" from="DESCENDANT (1 L N%1)"/>
-            </refsDecl> -->
             <refsDecl n="CTS">
                 <cRefPattern n="line" matchPattern="(\w+)"
                     replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l[@n='$1'])">
@@ -53,7 +50,7 @@
         </encodingDesc>
         <profileDesc>
             <langUsage>
-                <language ident="greek">Greek</language>
+                <language ident="grc">Greek</language>
             </langUsage>
         </profileDesc>
         <revisionDesc>
@@ -91,6 +88,7 @@
     </teiHeader>
     <text xml:id="stoa0045.stoa0">
         <body>
+            <div type="edition" n="urn:cts:greekLit:tlg0019.tlg008.perseus-grc1" xml:lang="grc">
             <div type="Prologue">
                 <milestone n="1" unit="card"/>
                 <sp>
@@ -3315,6 +3313,7 @@
                         <l>τούτων χάριν ἀνταποδοίτην.</l>
                     </sp>
                 </div>
+            </div>
             </div>
         </body>
     </text>

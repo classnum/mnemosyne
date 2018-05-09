@@ -32,6 +32,13 @@
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
+			<refsDecl n="CTS"> <!-- TODO -->
+				<cRefPattern n="chapter"
+					matchPattern="(\\w+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+					<p>This pointer pattern extracts chapters and fragments numbers.</p>
+				</cRefPattern>
+			</refsDecl>
 			<refsDecl>
 				<refState delim="." n="chunk" unit="chapter"/>
 				<refState unit="section"/>
@@ -39,7 +46,7 @@
 		</encodingDesc>
 		<profileDesc>
 			<langUsage>
-				<language ident="greek">Greek </language>
+				<language ident="grc">Greek </language>
 				<language ident="xgreek">transliterated Greek </language>
 				<language ident="la">Latin </language>
 				<language ident="en">English </language>
@@ -69,9 +76,10 @@
 				"chapter" for the fragments doesn't behave like a real beginning </change>
 		</revisionDesc>
 	</teiHeader>
-	<text xml:lang="greek">
+	<text xml:lang="grc">
 		<body>
-			<div type="work" n="Ath. Pol.">
+			<div type="edition" n="urn:cts:greekLit:tlg0086.tlg003.perseus-grc1" xml:lang="grc">
+				<!-- <div type="work" n="Ath. Pol."> -->
 				<div type="chapter" n="fragments">
 					<head xml:lang="en">φραγμεντς</head>
 					<div type="fragment" n="1">

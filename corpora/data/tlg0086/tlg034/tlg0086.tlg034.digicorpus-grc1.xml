@@ -48,12 +48,12 @@
       <profileDesc>
          <langUsage>
             <language ident="la">Latin</language>
-            <language ident="greek">Greek</language>
+            <language ident="grc">Greek</language>
          </langUsage>
       </profileDesc>
   </teiHeader>
 
-  <text xml:lang="greek" n="urn:cts:greekLit:tlg0086.tlg034.digicorpus-grc1">
+  <text xml:lang="grc" n="urn:cts:greekLit:tlg0086.tlg034.digicorpus-grc1">
       <body>
 
          <pb n="238"/>

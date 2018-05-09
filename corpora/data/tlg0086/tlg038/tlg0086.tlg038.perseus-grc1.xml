@@ -38,6 +38,13 @@
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
+			<refsDecl n="CTS">
+				<cRefPattern n="chapter"
+					matchPattern="(\\w+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+					<p>This pointer pattern extracts Bekker page</p>
+				</cRefPattern>
+			</refsDecl>
 			<refsDecl>
 				<refState unit="book"/>
 				<refState unit="chapter" n="chunk"/>
@@ -49,7 +56,7 @@
 		</encodingDesc>
 		<profileDesc>
 			<langUsage>
-				<language ident="greek">Greek</language>
+				<language ident="grc">Greek</language>
 				<language ident="en">English</language>
 				<language ident="la">Latin</language>
 			</langUsage>
@@ -73,7 +80,7 @@
 				Revision 1.9 2009/05/27 15:55:14 rsingh04 added cvs log keyword </change>
 		</revisionDesc>
 	</teiHeader>
-	<text xml:lang="greek">
+	<text xml:lang="grc">
 		<body>
 			<div type="Book" n="1">
 				<pb n="1354a" ed="Bekker"/>

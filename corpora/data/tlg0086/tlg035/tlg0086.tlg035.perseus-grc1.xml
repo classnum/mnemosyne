@@ -40,8 +40,9 @@
       </fileDesc>
       <encodingDesc>
          <refsDecl n="CTS">
-            <cRefPattern matchPattern="(\\w+)"
-               replacementPattern="#xpath(/tei:TEI.2/tei:text/tei:body/tei:div[@n=\'$1\'])">
+            <cRefPattern n="chapter"
+               matchPattern="(\\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
                <p>This pointer pattern extracts Bekker page</p>
             </cRefPattern>
          </refsDecl>

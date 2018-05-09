@@ -36,6 +36,13 @@
 			</sourceDesc>
 		</fileDesc>
 		<encodingDesc>
+			<refsDecl n="CTS">
+				<cRefPattern n="chapter"
+					matchPattern="(\\w+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div[@n=\'$1\'])">
+					<p>This pointer pattern extracts Bekker page</p>
+				</cRefPattern>
+			</refsDecl>
 			<refsDecl>
 				<refState unit="book"/>
 				<refState unit="section"/>
@@ -43,7 +50,7 @@
 		</encodingDesc>
 		<profileDesc>
 			<langUsage>
-				<language ident="greek">Greek </language>
+				<language ident="grc">Greek </language>
 				<language ident="en">English </language>
 			</langUsage>
 		</profileDesc>
@@ -61,7 +68,7 @@
 				log keyword </change>
 		</revisionDesc>
 	</teiHeader>
-	<text>
+	<text xml:lang="grc">
 		<body>
 			<div n="1" type="Book">
 				<p>

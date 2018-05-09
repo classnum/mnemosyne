@@ -3,6 +3,6 @@
     <ti:title xml:lang="eng">Birds</ti:title>
     <ti:edition projid="greekLit:perseus-grc2" urn="urn:cts:greekLit:tlg0019.tlg006.perseus-grc2" workUrn="urn:cts:greekLit:tlg0019.tlg006">
         <ti:label xml:lang="eng">Birds</ti:label>
-        <ti:description xml:lang="eng">Perseus:bib:oclc,10582150, Aristophanes. Aristophanes Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart. Oxford. Clarendon Press, Oxford. 1907.</ti:description>
+        <ti:description xml:lang="eng">Aristophanes. Aristophanes Comoediae, ed. F.W. Hall and W.M. Geldart, vol. 2. F.W. Hall and W.M. Geldart. Oxford. Clarendon Press, Oxford. 1907.</ti:description>
     </ti:edition>
 </ti:work>
