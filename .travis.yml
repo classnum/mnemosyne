@@ -9,7 +9,7 @@ install:
   - pip install coveralls
 
 script:
-  - coverage run –source=hooktest ./corpora --scheme epidoc --workers 3 --verbose 10 --console table --countword --allowfailure
+  - hooktest ./corpora --scheme epidoc --workers 3 --verbose 10 --console table --countword --allowfailure
 
 after_success:
   - coveralls  
