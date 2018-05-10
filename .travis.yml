@@ -1,17 +1,17 @@
 filter_secrets: false
 language: python
-
 python:
-  - '3.5'
-
-before_install:
-  - cpanm --notest Devel::Cover::Report::Coveralls
+  - "3.5"
+  - "3.6"
 
 install:
+  - pip install -r requirements.txt
   - pip3 install HookTest>=1.0.0
   - pip install coveralls
 
-script: hooktest ./corpora --scheme epidoc --workers 3 --verbose 10 --console table --countword --allowfailure
+script:
+  - hooktest ./corpora --scheme epidoc --workers 3 --verbose 10 --console table --countword --allowfailure
+  - coverage report
 
 after_success:
-  - cover -test -report coveralls  
+  - coveralls  
