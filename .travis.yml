@@ -15,5 +15,4 @@ install:
 script: hooktest ./corpora --scheme epidoc --workers 3 --verbose 10 --console table --countword --allowfailure
 
 after_success:
-  - coverage combine
   - coveralls
