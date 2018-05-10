@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/classnum/mnemosyne.svg?branch=master)](https://travis-ci.org/classnum/mnemosyne) [![Coverage Status](https://coveralls.io/repos/github/classnum/mnemosyne/badge.svg)](https://coveralls.io/github/classnum/mnemosyne)
+[![Build Status](https://travis-ci.org/classnum/mnemosyne.svg?branch=master)](https://travis-ci.org/classnum/mnemosyne)
 
 # Mnemosyne
 
