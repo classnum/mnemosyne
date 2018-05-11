@@ -1,3 +1,7 @@
+# added AB
+.coveralls.yml
+supervisord.conf
+
 # Project specific
 .idea/*
 
@@ -48,7 +52,6 @@ nosetests.xml
 coverage.xml
 *.cover
 .hypothesis/
-.coveralls.yml
 
 # Translations
 *.mo
