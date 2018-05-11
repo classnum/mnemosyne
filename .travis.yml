@@ -6,10 +6,6 @@ python:
 install:
   - pip install -r requirements.txt
   - pip3 install HookTest>=1.0.0
-  - pip install coveralls
 
 script:
   - hooktest ./corpora --scheme epidoc --workers 3 --verbose 10 --console table --countword --allowfailure --hookUI "http://ci.perseids.org/api/hook/v2.0/user/repositories/classnum/mnemosyne"
-
-# after_success:
-#   - coveralls  
