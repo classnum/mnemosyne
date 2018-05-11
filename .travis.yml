@@ -9,7 +9,7 @@ install:
   - pip install coveralls
 
 script:
-  - hooktest ./corpora --scheme epidoc --workers 3 --verbose 10 --console table --countword --allowfailure
+  - hooktest ./corpora --scheme epidoc --workers 3 --verbose 10 --console table --countword --allowfailure --hookUI "http://ci.perseids.org/api/hook/v2.0/user/repositories/classnum/mnemosyne"
 
-after_success:
-  - coveralls  
+# after_success:
+#   - coveralls  
