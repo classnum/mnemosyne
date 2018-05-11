@@ -1,6 +1,5 @@
-[![Build Status](https://travis-ci.org/classnum/mnemosyne.svg)](https://travis-ci.org/classnum/mnemosyne)
+[![Build Status](https://travis-ci.org/classnum/mnemosyne.svg)](https://travis-ci.org/classnum/mnemosyne) [![Hook Coverage](http://ci.perseids.org/api/hook/v2.0/badges/classnum/mnemosyne/coverage.svg)](http://ci.perseids.org/repo/classnum/mnemosyne)
 
-[![Hook Coverage](http://ci.perseids.org/api/hook/v2.0/badges/classnum/mnemosyne/coverage.svg)](http://ci.perseids.org/repo/classnum/mnemosyne)
 [![Hook Texts](http://ci.perseids.org/api/hook/v2.0/badges/classnum/mnemosyne/texts.svg)](http://ci.perseids.org/repo/classnum/mnemosyne)
 [![Hook Metadata](http://ci.perseids.org/api/hook/v2.0/badges/classnum/mnemosyne/metadata.svg)](http://ci.perseids.org/repo/classnum/mnemosyne)
 [![Total words](http://ci.perseids.org/api/hook/v2.0/badges/classnum/mnemosyne/words.svg)](http://ci.perseids.org/repo/classnum/mnemosyne)
