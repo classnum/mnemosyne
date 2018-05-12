@@ -2,45 +2,46 @@
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title type="sub">Agamemnon</title>
-                <author n="Sen.">Seneca</author>
-                <editor role="editor" n="Peiper">Rudolf Peiper</editor>
-                <editor role="editor" n="Richter">Gustav Richter</editor> 
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="sub">Agamemnon</title>
+            <author n="Sen.">Seneca</author>
+            <editor role="editor" n="Peiper">Rudolf Peiper</editor>
+            <editor role="editor" n="Richter">Gustav Richter</editor>
             <sponsor>Perseus Project, Tufts University</sponsor>
-		          <principal>Gregory Crane</principal>
-		          <respStmt>
-		             <resp>Prepared under the supervision of</resp>
-		             <name>Lisa Cerrato</name>
-		             <name>William Merrill</name>
-		             <name>Elli Mylonas</name>
-		             <name>David Smith</name>
-		          </respStmt>
-                <funder n="org:NEH">The National Endowment for the Humanities</funder> 
+            <principal>Gregory Crane</principal>
+            <respStmt>
+               <resp>Prepared under the supervision of</resp>
+               <name>Lisa Cerrato</name>
+               <name>William Merrill</name>
+               <name>Elli Mylonas</name>
+               <name>David Smith</name>
+            </respStmt>
+            <funder n="org:NEH">The National Endowment for the Humanities</funder>
          </titleStmt>
-            <extent>About 100Kb</extent> 
+         <extent>About 100Kb</extent>
          <publicationStmt>
-		          <publisher>Trustees of Tufts University</publisher>
-		          <pubPlace>Medford, MA</pubPlace>
-		          <authority>Perseus Project</authority>
-		       </publicationStmt> 
+            <publisher>Trustees of Tufts University</publisher>
+            <pubPlace>Medford, MA</pubPlace>
+            <authority>Perseus Project</authority>
+         </publicationStmt>
          <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <author>L. Annaeus Seneca</author>
-                        <title>Tragoediae</title>
-                        <editor role="editor" n="Peiper">Rudolf Peiper</editor>
-                        <editor role="editor" n="Richter">Gustav Richter</editor>
-                        <imprint>
-                            <pubPlace>Leipzig</pubPlace>
-                            <publisher>Teubner</publisher>
-                            <date>1921</date>
-                        </imprint>
-                    </monogr>
-                    <ref target="https://archive.org/stream/senecaetragoedi00senegoog#page/n294/mode/2up">Internet Archive</ref>
-                </biblStruct>
+            <biblStruct>
+               <monogr>
+                  <author>L. Annaeus Seneca</author>
+                  <title>Tragoediae</title>
+                  <editor role="editor" n="Peiper">Rudolf Peiper</editor>
+                  <editor role="editor" n="Richter">Gustav Richter</editor>
+                  <imprint>
+                     <pubPlace>Leipzig</pubPlace>
+                     <publisher>Teubner</publisher>
+                     <date>1921</date>
+                  </imprint>
+               </monogr>
+               <ref target="https://archive.org/stream/senecaetragoedi00senegoog#page/n294/mode/2up"
+                  >Internet Archive</ref>
+            </biblStruct>
             <listPerson>
                <person xml:id="clytemestra">
                   <persName xml:lang="eng">Clytemestra</persName>
@@ -83,10 +84,11 @@
                </person>
             </listPerson>
          </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
+      </fileDesc>
+      <encodingDesc>
          <refsDecl n="CTS">
-            <cRefPattern n="line" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l[@n='$1'])">
+            <cRefPattern n="line" matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l[@n='$1'])">
                <p>This pointer pattern extracts line</p>
             </cRefPattern>
          </refsDecl>
@@ -94,19 +96,19 @@
             <refState unit="card"/>
          </refsDecl>
       </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="lat">Latin</language>
-            </langUsage>
-        </profileDesc>
-        <revisionDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
          <change who="gcrane" when="2009-01-01">tagging</change>
          <change when="2015-11-12" who="Thibault Clerice">New URN, Epidoc and CTS</change>
       </revisionDesc>
-    </teiHeader>
+   </teiHeader>
    <text n="Oed.">
       <body>
-         <div xml:lang="lat" type="edition" n="urn:cts:latinLit:phi1017.phi007.perseus-lat2">        
+         <div xml:lang="lat" type="edition" n="urn:cts:latinLit:phi1017.phi007.perseus-lat2">
             <milestone n="1" unit="card"/>
             <pb n="p.243"/>
             <sp who="#thyestis">
@@ -170,7 +172,7 @@
                <l n="56">Phoebum moramur? redde iam mundo diem.</l>
             </sp>
             <milestone n="57" unit="card"/>
-	           <pb n="p.245"/>
+            <pb n="p.245"/>
             <sp who="#chorus">
                <speaker>Chorus</speaker>
                <l n="57">O regnorum magnis fallax</l>
@@ -286,7 +288,7 @@
                <speaker>Nvtr.</speaker>
                <l n="147">Tuta est latetque culpa, si pateris, tua.</l>
             </sp>
-	           <pb n="p.248"/>
+            <pb n="p.248"/>
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="148">Perlucet omne regiae vitium domus.</l>
@@ -427,7 +429,7 @@
                <l n="237">sed quid trementes circuit pallor genas</l>
                <l n="238">iacensque vultu languido optutus stupet?</l>
             </sp>
-	           <pb n="p.251"/>
+            <pb n="p.251"/>
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="239">Amor iugalis vincit ac flectit retro:</l>
@@ -520,7 +522,7 @@
                <speaker>Aeg.</speaker>
                <l n="292">Et cur Atrida videor inferior tibi,</l>
                <l n="293" part="I">gnatus Thyestae?</l>
-            </sp> 
+            </sp>
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="293b" part="F">Si parum est, adde et nepos.</l>
@@ -991,7 +993,7 @@
                <l n="662">socium recusant, cladibus questus meis</l>
                <l n="663">removete, nostris ipsa sufficiam malis.</l>
             </sp>
-	           <pb n="p.266"/>
+            <pb n="p.266"/>
             <sp who="#chorus2">
                <speaker>Chor.</speaker>
                <l n="664">Lacrimas lacrimis miscere iuvat:</l>
@@ -1141,7 +1143,7 @@
                <l n="789">marcente visu. suscita sensus tuos:</l>
                <l n="790">optatus ille portus aerumnis adest, </l>
                <l n="791" part="I">festus dies est.</l>
-            </sp> 
+            </sp>
             <sp who="#cassandra">
                <speaker>Cass.</speaker>
                <l n="791b" part="F">Festus et Troiae fuit.</l>
@@ -1149,7 +1151,7 @@
             <sp who="#agamemnon">
                <speaker>Agam.</speaker>
                <l n="792" part="I">Veneremur aras.</l>
-            </sp> 
+            </sp>
             <sp who="#cassandra">
                <speaker>Cass.</speaker>
                <l n="792b" part="F">Cecidit ante aras pater.</l>
@@ -1157,7 +1159,7 @@
             <sp who="#agamemnon">
                <speaker>Agam.</speaker>
                <l n="793" part="I">Iovem precemur pariter.</l>
-            </sp> 
+            </sp>
             <sp who="#cassandra">
                <speaker>Cass.</speaker>
                <l n="793b" part="F">Herceum Iovem ?</l>
@@ -1165,7 +1167,7 @@
             <sp who="#agamemnon">
                <speaker>Agam.</speaker>
                <l n="794" part="I">Credis videre te Ilium?</l>
-            </sp> 
+            </sp>
             <sp who="#cassandra">
                <speaker>Cass.</speaker>
                <l n="794b" part="F">Et Priamum simul.</l>
@@ -1173,7 +1175,7 @@
             <sp who="#agamemnon">
                <speaker>Agam.</speaker>
                <l n="795" part="I">Hic Troia non est.</l>
-            </sp> 
+            </sp>
             <sp who="#cassandra">
                <speaker>Cass.</speaker>
                <l n="795b" part="F">Helena ubi est Troiam puto. </l>
@@ -1181,7 +1183,7 @@
             <sp who="#agamemnon">
                <speaker>Agam.</speaker>
                <l n="796" part="I">Ne metue dominam famula,</l>
-            </sp> 
+            </sp>
             <sp who="#cassandra">
                <speaker>Cass.</speaker>
                <l n="796b" part="F">Libertas adest.</l>
@@ -1189,7 +1191,7 @@
             <sp who="#agamemnon">
                <speaker>Agam.</speaker>
                <l n="797" part="I">Secura vive.</l>
-            </sp> 
+            </sp>
             <sp who="#cassandra">
                <speaker>Cass.</speaker>
                <l n="797b" part="F">Mihi mori est securitas.</l>
@@ -1197,7 +1199,7 @@
             <sp who="#agamemnon">
                <speaker>Agam.</speaker>
                <l n="798" part="I">Nullum est periclum tibimet.</l>
-            </sp> 
+            </sp>
             <sp who="#cassandra">
                <speaker>Cass.</speaker>
                <l n="798b" part="F">At magnum tibi.</l>
@@ -1205,7 +1207,7 @@
             <sp who="#agamemnon">
                <speaker>Agam.</speaker>
                <l n="799" part="I">Victor timere quid potest?</l>
-            </sp> 
+            </sp>
             <sp who="#cassandra">
                <speaker>Cass.</speaker>
                <l n="799b" part="F">Quod non timet.</l>
@@ -1396,7 +1398,7 @@
                <l n="942">vos Graecia nunc teste veloces equi</l>
                <l n="943">infida cursu fugite praecipiti loca.</l>
             </sp>
-	           <pb n="p.276"/>
+            <pb n="p.276"/>
             <sp who="#electra">
                <speaker>El.</speaker>
                <l n="944">Excessit, abiit, currus effreno impetu</l>
@@ -1421,7 +1423,7 @@
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="956" part="I">Quis esse credat virginem?</l>
-            </sp> 
+            </sp>
             <sp who="#electra">
                <speaker>El.</speaker>
                <l n="956b" part="F">Natam, tuam?</l>
@@ -1429,7 +1431,7 @@
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="957" part="I">Modestiae cum matre.</l>
-            </sp> 
+            </sp>
             <sp who="#electra">
                <speaker>El.</speaker>
                <l n="957b" part="F">Pietatem doces?</l>
@@ -1461,7 +1463,7 @@
             <sp who="#electra">
                <speaker>El.</speaker>
                <l n="967" part="I">Extra Mycenas.</l>
-            </sp> 
+            </sp>
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="967b" part="F">Redde nunc natum mihi.</l>
@@ -1469,7 +1471,7 @@
             <sp who="#electra">
                <speaker>El.</speaker>
                <l n="968" part="I">Et tu parentem redde.</l>
-            </sp> 
+            </sp>
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="968b" part="F">Quo latitat loco?</l>
@@ -1478,13 +1480,13 @@
                <speaker>El.</speaker>
                <l n="969">Tuto quietus, regna non metuens nova:</l>
                <l n="970" part="I">iustae parenti satis.</l>
-            </sp> 
+            </sp>
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="970b" part="F">At iratae parum. </l>
                <pb n="p.277"/>
                <l n="971" part="I">morieris hodie.</l>
-            </sp> 
+            </sp>
             <sp who="#electra">
                <speaker>El.</speaker>
                <l n="971b" part="F">Dummodo hac moriar manu.</l>
@@ -1530,7 +1532,7 @@
             <sp who="#electra">
                <speaker>El.</speaker>
                <l n="994" part="I">Concede mortem,</l>
-            </sp> 
+            </sp>
             <sp who="#aegisthus">
                <speaker>Aeg.</speaker>
                <l n="994b" part="F">Si recusares, darem,</l>
@@ -1539,7 +1541,7 @@
             <sp who="#electra">
                <speaker>El.</speaker>
                <l n="996" part="I">Mortem aliquid ultra est?</l>
-            </sp> 
+            </sp>
             <sp who="#aegisthus">
                <speaker>Aeg.</speaker>
                <l n="996b" part="F">Vita, si cupias mori.</l>
@@ -1569,7 +1571,7 @@
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="1012" part="I">Furiosa, morere.</l>
-            </sp> 
+            </sp>
             <sp who="#cassandra">
                <speaker>Cass.</speaker>
                <l n="1012b" part="F">Veniet et vobis furor.—</l>

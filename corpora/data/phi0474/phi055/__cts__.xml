@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi0474.phi055" groupUrn="urn:cts:latinLit:phi0474">
+<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  urn="urn:cts:latinLit:phi0474.phi055" groupUrn="urn:cts:latinLit:phi0474">
 
-			<ti:title xml:lang="fra">Les devoirs</ti:title>
-      <ti:title xml:lang="lat">De Officiis</ti:title>
+  <ti:title xml:lang="fra">Les devoirs</ti:title>
+  <ti:title xml:lang="lat">De Officiis</ti:title>
 
-            <ti:edition urn="urn:cts:latinLit:phi0474.phi055.perseus-lat1" workUrn="urn:cts:latinLit:phi0474.phi055">
-              <ti:label xml:lang="fra">Traité des devoirs</ti:label>
-              <ti:description xml:lang="fra">Cicero, Marcus Tullius, auteur</ti:description>
-            </ti:edition>
+  <ti:edition urn="urn:cts:latinLit:phi0474.phi055.perseus-lat1"
+    workUrn="urn:cts:latinLit:phi0474.phi055">
+    <ti:label xml:lang="fra">Traité des devoirs</ti:label>
+    <ti:description xml:lang="fra">Cicero, Marcus Tullius, auteur</ti:description>
+  </ti:edition>
 
-          </ti:work>
+</ti:work>

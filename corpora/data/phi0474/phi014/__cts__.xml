@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:phi0474" projid="latinLit:phi014" urn="urn:cts:latinLit:phi0474.phi014">
+<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+    groupUrn="urn:cts:latinLit:phi0474" projid="latinLit:phi014"
+    urn="urn:cts:latinLit:phi0474.phi014">
 
     <ti:title xml:lang="fra">Pour L. Murena</ti:title>
     <ti:title xml:lang="lat">Pro Murena</ti:title>
 
-      <ti:edition urn="urn:cts:latinLit:phi0474.phi014.perseus-lat2" workUrn="urn:cts:latinLit:phi0474.phi014" xml:lang="lat">
+    <ti:edition urn="urn:cts:latinLit:phi0474.phi014.perseus-lat2"
+        workUrn="urn:cts:latinLit:phi0474.phi014" xml:lang="lat">
         <ti:label xml:lang="fra">Pour Lucius Murena</ti:label>
-        <ti:description xml:lang="fra">Orationes Volume I, Cicero, Marcus Tullius, auteur</ti:description>
+        <ti:description xml:lang="fra">Orationes Volume I, Cicero, Marcus Tullius,
+            auteur</ti:description>
     </ti:edition>
 
 </ti:work>

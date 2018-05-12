@@ -118,7 +118,7 @@
 		</revisionDesc>
 	</teiHeader>
 
-	<text xml:lang="lat">
+	<text>
 		<body>
 			<div type="edition" xml:lang="lat" n="urn:cts:latinLit:phi0474.phi019.perseus-lat2"
 				subtype="edition">

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi0474.phi006" groupUrn="urn:cts:latinLit:phi0474">
+<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+    urn="urn:cts:latinLit:phi0474.phi006" groupUrn="urn:cts:latinLit:phi0474">
     <ti:title xml:lang="fra">Pour Marcus Tullius</ti:title>
     <ti:title xml:lang="lat">Pro Tullio</ti:title>
 
-    <ti:edition urn="urn:cts:latinLit:phi0474.phi006.perseus-lat2" workUrn="urn:cts:latinLit:phi0474.phi006" xml:lang="lat">
+    <ti:edition urn="urn:cts:latinLit:phi0474.phi006.perseus-lat2"
+        workUrn="urn:cts:latinLit:phi0474.phi006" xml:lang="lat">
         <ti:label xml:lang="fra">Pour Marcus Tullius, Orationes Volume VI</ti:label>
-        <ti:description xml:lang="fra">
-            Cicero, Marcus Tullius, auteur
-        </ti:description>
+        <ti:description xml:lang="fra"> Cicero, Marcus Tullius, auteur </ti:description>
     </ti:edition>
 
 </ti:work>

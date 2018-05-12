@@ -1,6 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -50,7 +50,7 @@
                <p>This pointer pattern extracts book</p>
             </cRefPattern>
          </refsDecl>
-         <refsDecl n="TEI.2">
+         <refsDecl n="TEI">
             <refState unit="book"/>
             <refState unit="section"/>
          </refsDecl>
@@ -80,7 +80,7 @@
          <change when="2016-11-20" who="Thibault Clérice">CapiTainS and Epidoc</change>
       </revisionDesc>
    </teiHeader>
-   <text xml:lang="">
+   <text>
       <front>
          <pb n="p.143"/>
          <div type="textpart" n="1arg" subtype="book">
@@ -135,7 +135,7 @@
                <div type="textpart" n="1" subtype="section">
                   <p> Vetus opinio est iam usque ab heroicis ducta temporibus, eaque et populi
                      Romani et omnium gentium firmata consensu, versari quandam inter homines
-                     divinationem, quam Graeci <foreign xml:lang="greek">mantikh/n</foreign>
+                     divinationem, quam Graeci <foreign xml:lang="grc">mantikh/n</foreign>
                      appellant, id est praesensionem et scientiam rerum futurarum. Magnifica quaedam
                      res et salutaris, si modo est ulla, quaque proxime ad deorum vim natura
                      mortalis possit accedere. Itaque ut alia nos melius multa quam Graeci, sic huic
@@ -1321,7 +1321,7 @@
                <div type="textpart" n="90" subtype="section">
                   <p>Eaque divinationum ratio ne in barbaris quidem gentibus neglecta est, siquidem
                      et in Gallia Druidae sunt, e quibus ipse Divitiacum Haeduum, hospitem tuum
-                     laudatoremque, cognovi, qui et naturae rationem, quam <foreign xml:lang="greek"
+                     laudatoremque, cognovi, qui et naturae rationem, quam <foreign xml:lang="grc"
                         >fusiologi/an</foreign> Graeci appellant, notam esse sibi profitebatur et
                      partim auguriis, partim coniectura, quae essent futura, dicebat, et in Persis
                      augurantur et divinant magi, qui congregantur in fano commentandi causa atque
@@ -1376,7 +1376,7 @@
                      maius erat certamen et discrimen salutis. Omitto nostros, qui nihil in bello
                      sine extis agunt, nihil sine auspiciis domi <del>habent auspicia</del>; externa
                      videamus: Namque et Athenienses omnibus semper publicis consiliis divinos
-                     quosdam sacerdotes, quos <foreign xml:lang="greek">ma/nteis</foreign> vocant,
+                     quosdam sacerdotes, quos <foreign xml:lang="grc">ma/nteis</foreign> vocant,
                      adhibuerunt, et Lacedaemonii regibus suis augurem adsessorem dederunt, itemque
                      senibus (sic enim consilium publicum appellant) augurem interesse voluerunt,
                      iidemque de <pb n="p.181"/> rebus maioribus semper aut Delphis oraclum aut ab
@@ -1724,14 +1724,14 @@
                </div>
                <div type="textpart" n="122" subtype="section">
                   <p> Hoc nimirum est illud, quod de Socrate accepimus, quodque ab ipso in libris
-                     Socraticorum saepe dicitur, esse divinum quiddam, quod <foreign
-                        xml:lang="greek">daimo/nion</foreign> appellat, cui semper ipse paruerit
-                     numquam impellenti, saepe revocanti. Et Socrates quidem (quo quem auctorem
-                     meliorem quaerimus?) Xenophonti consulenti, sequereturne Cyrum, posteaquam
-                     exposuit, quae ipsi videbantur: <quote>Et nostrum quidem</quote>, inquit,
-                        <quote>humanum est consilium; sed de rebus et obscuris et incertis ad
-                        Apollinem censeo referundum</quote>, ad quem etiam Athenienses publice de
-                     maioribus rebus semper rettulerunt. <pb n="p.191"/>
+                     Socraticorum saepe dicitur, esse divinum quiddam, quod <foreign xml:lang="grc"
+                        >daimo/nion</foreign> appellat, cui semper ipse paruerit numquam impellenti,
+                     saepe revocanti. Et Socrates quidem (quo quem auctorem meliorem quaerimus?)
+                     Xenophonti consulenti, sequereturne Cyrum, posteaquam exposuit, quae ipsi
+                     videbantur: <quote>Et nostrum quidem</quote>, inquit, <quote>humanum est
+                        consilium; sed de rebus et obscuris et incertis ad Apollinem censeo
+                        referundum</quote>, ad quem etiam Athenienses publice de maioribus rebus
+                     semper rettulerunt. <pb n="p.191"/>
                   </p>
                </div>
                <div type="textpart" n="123" subtype="section">
@@ -1768,7 +1768,7 @@
                   <p>Quocirca primum mihi videtur, ut Posidonius facit, a deo, de quo satis dictum
                      est, deinde a fato, deinde <pb n="p.192"/> a natura vis omnis divinandi
                      ratioque repetenda. Fieri igitur omnia fato ratio cogit fateri. Fatum autem id
-                     appello, quod Graeci <foreign xml:lang="greek">ei(marme/nhn</foreign>, id est
+                     appello, quod Graeci <foreign xml:lang="grc">ei(marme/nhn</foreign>, id est
                      ordinem seriemque causarum, cum causae causa nexa rem ex se gignat. Ea est ex
                      omni aeternitate fluens veritas sempiterna. Quod cum ita sit, nihil est factum,
                      quod non futurum fuerit, eodemque modo nihil est futurum, cuius non causas id
@@ -2033,7 +2033,7 @@
                      divinos referri solent. Quid? quae a dialecticis aut a physicis tractantur, num
                      quid eorum divinari potest? unusne mundus sit an plures, quae sint initia
                      rerum, ex quibus nascuntur omnia: physicorum est ista prudentia. Quo modo autem
-                     mentientem, quem <foreign xml:lang="greek">yeudo/menon</foreign> vocant,
+                     mentientem, quem <foreign xml:lang="grc">yeudo/menon</foreign> vocant,
                      dissolvas aut quem ad modum soriti resistas (quem, si necesse sit, Latino verbo
                      liceat acervalem appellare; sed nihil opus est; ut enim ipsa philosophia et
                      multa verba Graecorum, sic sorites satis Latino sermone tritus est): ergo haec
@@ -2313,7 +2313,7 @@
                      rerum cognatio naturalis appareat)—demus hoc; nihil enim huic disputationi
                      adversatur; num etiam, si fissum cuiusdam modi fuerit in iecore, lucrum
                      ostenditur? qua ex coniunctione naturae et quasi concentu atque consensu, quam
-                        <foreign xml:lang="greek">sumpa/qeian</foreign> Graeci appellant, convenire
+                        <foreign xml:lang="grc">sumpa/qeian</foreign> Graeci appellant, convenire
                      potest aut fissum iecoris cum lucello meo aut meus quaesticulus cum caelo,
                      terra rerumque natura? <milestone unit="chapter" n="15"/>Concedam hoc ipsum, si
                      vis, etsi magnam iacturam causae fecero, si ullam esse convenientiam naturae
@@ -3005,9 +3005,9 @@
                <div type="textpart" n="89" subtype="section">
                   <p>Sed ut ratione utamur omissis testibus, sic isti disputant, qui haec
                      Chaldaeorum natalicia praedicta defendunt: Vim quandam esse aiunt signifero in
-                     orbe, qui Graece <foreign xml:lang="greek">zwdiako/s</foreign> dicitur, talem,
-                     ut eius orbis una quaeque pars alia alio modo moveat inmutetque caelum, perinde
-                     ut quaeque stellae in his finitumisque partibus sint quoque tempore, eamque vim
+                     orbe, qui Graece <foreign xml:lang="grc">zwdiako/s</foreign> dicitur, talem, ut
+                     eius orbis una quaeque pars alia alio modo moveat inmutetque caelum, perinde ut
+                     quaeque stellae in his finitumisque partibus sint quoque tempore, eamque vim
                      varie moveri ab iis sideribus, quae vocantur errantia; cum autem in eam ipsam
                      partem orbis venerint, in qua sit ortus eius, qui nascatur, aut in eam, quae
                      coniunctum aliquid habeat aut consentiens, ea triangula illi et quadrata
@@ -3051,7 +3051,7 @@
                      eodem statu caeli et stellarum nati sint, accidere necesse esse, nonne eius
                      modi sunt, ut ne caeli quidem naturam interpretes istos caeli nosse appareat?
                      Cum enim illi orbes, qui caelum quasi medium dividunt et aspectum nostrum
-                     definiunt, qui a Graecis <foreign xml:lang="greek">o(ri/zontes</foreign>
+                     definiunt, qui a Graecis <foreign xml:lang="grc">o(ri/zontes</foreign>
                      nominantur, a nobis finientes rectissume nominari possunt, varietatem maxumam
                      habeant aliique in aliis locis sint, necesse est ortus occasusque siderum non
                      fieri eodem tempore apud omnis. </p>
@@ -3257,9 +3257,9 @@
                      fortuna atque casu; nisi forte concessuros tibi existumas eos, qui somnia pro
                      somniis habent, si quando aliquod somnium verum evaserit, non id fortuito
                      accidisse. Sed demus tibi istas duas sumptiones (ea quae <foreign
-                        xml:lang="greek">lh/mmata</foreign> appellant dialectici, sed nos Latine
-                     loqui malumus), adsumptio tamen (quam <foreign xml:lang="greek"
-                        >pro/slhyin</foreign> iidem vocant) non dabitur. </p>
+                        xml:lang="grc">lh/mmata</foreign> appellant dialectici, sed nos Latine loqui
+                     malumus), adsumptio tamen (quam <foreign xml:lang="grc">pro/slhyin</foreign>
+                     iidem vocant) non dabitur. </p>
                </div>
                <div type="textpart" n="109" subtype="section">
                   <p>Adsumit autem Cratippus hoc modo: <quote>Sunt <pb n="p.235"/> autem
@@ -3291,7 +3291,7 @@
                   <p>Adhibuit etiam latebram obscuritatis, ut iidem versus alias in aliam rem posse
                      accommodari viderentur. Non esse autem illud carmen furentis cum ipsum poe+ma
                      declarat (est enim magis artis et diligentiae quam incitationis et motus), tum
-                     vero ea, quae <foreign xml:lang="greek">a)krostixi/s</foreign> dicitur, cum
+                     vero ea, quae <foreign xml:lang="grc">a)krostixi/s</foreign> dicitur, cum
                      deinceps ex primis <add>primi cuiusque</add> versus litteris aliquid
                      conectitur, ut in quibusdam Ennianis: Q. <hi rend="7">Ennius</hi>
                      <pb n="p.236"/>
@@ -3310,7 +3310,7 @@
                         <l>At multi saepe vera vaticinati, ut Cassandra:</l>
                         <l>Iamque mari magno <gap reason="omitted"/>
                         </l>
-                     </quote> eademque paulo post: <quote xml:lang="greek">
+                     </quote> eademque paulo post: <quote xml:lang="grc">
                         <l>Eheu videte <gap reason="omitted"/>
                         </l>
                      </quote> Num igitur me cogis etiam fabulis credere? </p>
@@ -3381,7 +3381,7 @@
                </div>
                <div type="textpart" n="118" subtype="section">
                   <p>Demosthenes quidem, qui abhinc annos prope trecentos fuit, iam tum <foreign
-                        xml:lang="greek">filippi/zein</foreign> Pythiam dicebat, id est quasi cum
+                        xml:lang="grc">filippi/zein</foreign> Pythiam dicebat, id est quasi cum
                      Philippo facere. Hoc autem eo spectabat, ut eam a Philippo corruptam diceret;
                         <add>ex</add> quo licet existumare in aliis quoque oraculis Delphicis
                      aliquid non sinceri fuisse. Sed nescio quo modo isti philosophi superstitiosi
@@ -3453,7 +3453,7 @@
                   <p> Sed haec <del>quoque</del> in promptu fuerint; nunc interiora videamus. Aut
                      enim divina vis quaedam consulens nobis somniorum significationes facit, aut
                      coniectores ex quadam convenientia et coniunctione naturae, quam vocant
-                        <foreign xml:lang="greek">sumpa/qeian</foreign>, quid cuique rei conveniat
+                        <foreign xml:lang="grc">sumpa/qeian</foreign>, quid cuique rei conveniat
                         <del>ex somniis</del>, et quid quamque rem sequatur, intellegunt, aut eorum
                      neutrum est, sed quaedam observatio constans atque diuturna est, cum quid visum
                      secundum quietem sit, quid evenire et quid sequi soleat. Primum igitur
@@ -3665,7 +3665,7 @@
                      somniare.</p>
                   <milestone unit="chapter" n="69"/>
                   <p>Etenim (ex divisione hoc secundum est) quae est continuatio coniunctioque
-                     naturae, quam, ut dixi, vocant <foreign xml:lang="greek">sumpa/qeian</foreign>,
+                     naturae, quam, ut dixi, vocant <foreign xml:lang="grc">sumpa/qeian</foreign>,
                      eius modi, ut thensaurus ex ovo intellegi debeat? Nam medici ex quibusdam rebus
                      et advenientis et crescentis morbos intellegunt, non nullas etiam valetudinis
                      significationes, ut hoc ipsum, pleni enectine simus, ex quodam genere somniorum

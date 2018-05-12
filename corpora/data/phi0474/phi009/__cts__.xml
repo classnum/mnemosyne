@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:phi0474" urn="urn:cts:latinLit:phi0474.phi009" projid="latinLit:phi009">
+<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+    groupUrn="urn:cts:latinLit:phi0474" urn="urn:cts:latinLit:phi0474.phi009"
+    projid="latinLit:phi009">
     <ti:title xml:lang="fra">Discours en faveur de la loi Manilia</ti:title>
     <ti:title xml:lang="lat">De imperio Cn. Pompei</ti:title>
     <ti:title xml:lang="lat">Pro lege manilia</ti:title>
 
-    <ti:edition urn="urn:cts:latinLit:phi0474.phi009.perseus-lat2" workUrn="urn:cts:latinLit:phi0474.phi009" xml:lang="lat">
+    <ti:edition urn="urn:cts:latinLit:phi0474.phi009.perseus-lat2"
+        workUrn="urn:cts:latinLit:phi0474.phi009" xml:lang="lat">
         <ti:label xml:lang="fra">Discours en faveur de la loi Manilia</ti:label>
-        <ti:description xml:lang="fra"> Cicero, Marcus Tullius, auteur
-        </ti:description>
+        <ti:description xml:lang="fra"> Cicero, Marcus Tullius, auteur </ti:description>
     </ti:edition>
 
 </ti:work>

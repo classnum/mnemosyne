@@ -141,7 +141,7 @@
 			<change when="1999-08-04" who="textgod">Random changes over a period of
 				months.  </change>
 			<change when="1997-08-18" who="textgod"> ???</change>
-			<change when="1997-03-26" who="textgod"> Removed N attribute on TEI.2  </change>
+			<change when="1997-03-26" who="textgod"> Removed N attribute on TEI  </change>
 			<change when="1997-03-26" who="textgod"/>
 			<change when="1997-03-25" who="DAS">ed.</change>
 		</revisionDesc>

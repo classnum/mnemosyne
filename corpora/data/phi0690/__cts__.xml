@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" projid="latinLit:phi0690" urn="urn:cts:latinLit:phi0690">
-        <ti:groupname xml:lang="fra">Virgile</ti:groupname>
-    </ti:textgroup>
+<ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" projid="latinLit:phi0690"
+    urn="urn:cts:latinLit:phi0690">
+    <ti:groupname xml:lang="fra">Virgile</ti:groupname>
+</ti:textgroup>

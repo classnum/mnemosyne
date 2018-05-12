@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:phi0474" projid="latinLit:phi015" urn="urn:cts:latinLit:phi0474.phi015">
+<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+    groupUrn="urn:cts:latinLit:phi0474" projid="latinLit:phi015"
+    urn="urn:cts:latinLit:phi0474.phi015">
 
     <ti:title xml:lang="fra">Pour Sylla</ti:title>
     <ti:title xml:lang="lat">Pro Sulla</ti:title>
 
-    <ti:edition urn="urn:cts:latinLit:phi0474.phi015.perseus-lat2" workUrn="urn:cts:latinLit:phi0474.phi015" xml:lang="lat">
+    <ti:edition urn="urn:cts:latinLit:phi0474.phi015.perseus-lat2"
+        workUrn="urn:cts:latinLit:phi0474.phi015" xml:lang="lat">
         <ti:label xml:lang="fra">Pour Sylla</ti:label>
         <ti:description xml:lang="fra">Orationes Volume VI, Cicero, Marcus Tullius, auteur
         </ti:description>

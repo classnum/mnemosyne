@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi0474.phi057" groupUrn="urn:cts:latinLit:phi0474">
-            <ti:title xml:lang="fra">Lettres à Atticus</ti:title>
+<ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+  urn="urn:cts:latinLit:phi0474.phi057" groupUrn="urn:cts:latinLit:phi0474">
+  <ti:title xml:lang="fra">Lettres à Atticus</ti:title>
 
-            <ti:edition urn="urn:cts:latinLit:phi0474.phi057.perseus-lat1" workUrn="urn:cts:latinLit:phi0474.phi057">
-              <ti:label xml:lang="fra">Lettres à Atticus, Epistulae Volume II, Pars Prior Pars Posterior Epistulae Ad Atticum</ti:label>
-              <ti:description xml:lang="fra">Cicero, Marcus Tullius, auteur</ti:description>
-            </ti:edition>
+  <ti:edition urn="urn:cts:latinLit:phi0474.phi057.perseus-lat1"
+    workUrn="urn:cts:latinLit:phi0474.phi057">
+    <ti:label xml:lang="fra">Lettres à Atticus, Epistulae Volume II, Pars Prior Pars Posterior
+      Epistulae Ad Atticum</ti:label>
+    <ti:description xml:lang="fra">Cicero, Marcus Tullius, auteur</ti:description>
+  </ti:edition>
 
-          </ti:work>
+</ti:work>

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:greekLit:tlg0011.tlg003" xml:lang="grc" groupUrn="urn:cts:greekLit:tlg0011">
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:greekLit:tlg0011.tlg003"
+   xml:lang="grc" groupUrn="urn:cts:greekLit:tlg0011">
    <ti:title xml:lang="fra">Ajax</ti:title>
 
-   <ti:edition xml:lang="grc" workUrn="urn:cts:greekLit:tlg0011.tlg003" urn="urn:cts:greekLit:tlg0011.tlg003.perseus-grc2">
+   <ti:edition xml:lang="grc" workUrn="urn:cts:greekLit:tlg0011.tlg003"
+      urn="urn:cts:greekLit:tlg0011.tlg003.perseus-grc2">
       <ti:label xml:lang="fra">Ajax</ti:label>
       <ti:description xml:lang="fra">Sophocle, créateur, 445 av. J.-C</ti:description>
    </ti:edition>
-   
+
 </ti:work>
