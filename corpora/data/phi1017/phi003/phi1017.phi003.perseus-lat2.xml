@@ -1,48 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
-  schematypens="http://relaxng.org/ns/structure/1.0"?>
-  <?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
-  schematypens="http://purl.oclc.org/dsdl/schematron"?>
-  <TEI xmlns="http://www.tei-c.org/ns/1.0">
-    <teiHeader>
-        <fileDesc>
-            <titleStmt>
-                <title type="sub">Phoenissae</title>
-                <author n="Sen.">Seneca</author>
-                <editor role="editor" n="Peiper">Rudolf Peiper</editor>
-            <editor role="editor" n="Richter">Gustav Richter</editor> 
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="sub">Phoenissae</title>
+            <author n="Sen.">Seneca</author>
+            <editor role="editor" n="Peiper">Rudolf Peiper</editor>
+            <editor role="editor" n="Richter">Gustav Richter</editor>
             <sponsor>Perseus Project, Tufts University</sponsor>
-                <principal>Gregory Crane</principal>
-                <respStmt>
-                   <resp>Prepared under the supervision of</resp>
-                   <name>Lisa Cerrato</name>
-                   <name>William Merrill</name>
-                   <name>Elli Mylonas</name>
-                   <name>David Smith</name>
-                </respStmt>
-                <funder n="org:NEH">The National Endowment for the Humanities</funder> 
+            <principal>Gregory Crane</principal>
+            <respStmt>
+               <resp>Prepared under the supervision of</resp>
+               <name>Lisa Cerrato</name>
+               <name>William Merrill</name>
+               <name>Elli Mylonas</name>
+               <name>David Smith</name>
+            </respStmt>
+            <funder n="org:NEH">The National Endowment for the Humanities</funder>
          </titleStmt>
-            <extent>About 100Kb</extent> 
+         <extent>About 100Kb</extent>
          <publicationStmt>
-                <publisher>Trustees of Tufts University</publisher>
-                <pubPlace>Medford, MA</pubPlace>
-                <authority>Perseus Project</authority>
-             </publicationStmt> 
+            <publisher>Trustees of Tufts University</publisher>
+            <pubPlace>Medford, MA</pubPlace>
+            <authority>Perseus Project</authority>
+         </publicationStmt>
          <sourceDesc>
-                <biblStruct>
-                    <monogr>
-                        <author>L. Annaeus Seneca</author>
-                        <title>Tragoediae</title>
-                        <editor role="editor" n="Peiper">Rudolf Peiper</editor>
-                        <editor role="editor" n="Richter">Gustav Richter</editor>
-                        <imprint>
-                            <pubPlace>Leipzig</pubPlace>
-                            <publisher>Teubner</publisher>
-                            <date>1921</date>
-                        </imprint>
-                    </monogr>
-                    <ref target="https://archive.org/stream/senecaetragoedi00senegoog#page/n144/mode/2up">Internet Archive</ref>
-                </biblStruct>
+            <biblStruct>
+               <monogr>
+                  <author>L. Annaeus Seneca</author>
+                  <title>Tragoediae</title>
+                  <editor role="editor" n="Peiper">Rudolf Peiper</editor>
+                  <editor role="editor" n="Richter">Gustav Richter</editor>
+                  <imprint>
+                     <pubPlace>Leipzig</pubPlace>
+                     <publisher>Teubner</publisher>
+                     <date>1921</date>
+                  </imprint>
+               </monogr>
+               <ref target="https://archive.org/stream/senecaetragoedi00senegoog#page/n144/mode/2up"
+                  >Internet Archive</ref>
+            </biblStruct>
             <listPerson>
                <person xml:id="oedipus">
                   <persName xml:lang="eng">Oedipus</persName>
@@ -67,38 +66,35 @@
                </person>
             </listPerson>
          </sourceDesc>
-        </fileDesc>
-        <encodingDesc>
+      </fileDesc>
+      <encodingDesc>
          <refsDecl n="CTS">
-            <cRefPattern n="line" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l[@n='$1'])">
+            <cRefPattern n="line" matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l[@n='$1'])">
                <p>This pointer pattern extracts line</p>
             </cRefPattern>
          </refsDecl>
-         <refsDecl n="TEI.2">
+         <refsDecl n="TEI">
             <refState unit="card"/>
          </refsDecl>
       </encodingDesc>
-        <profileDesc>
-            <langUsage>
-                <language ident="lat">Latin</language>
-            </langUsage>
-        </profileDesc>
-        <revisionDesc>
-         <change who="gcrane" when="2009-01-01">tagging</change>
+      <profileDesc>
+         <langUsage>
+            <language ident="lat">Latin</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
          <change when="2015-11-12" who="Thibault Clerice">New URN, Epidoc and CTS</change>
+         <change who="gcrane" when="2009-01-01">tagging</change>
       </revisionDesc>
-    </teiHeader>
-
+   </teiHeader>
    <text n="Phoen.">
       <body>
          <div xml:lang="lat" type="edition" n="urn:cts:latinLit:phi1017.phi003.perseus-lat2">
-    
-    
             <milestone n="1" unit="card"/>
             <pb n="p.93"/>
             <sp who="#oedipus antigona">
                <speaker>Oedipus Antigona</speaker>
-
                <l n="1">Caeci parentis regimen et fessi unicum</l>
                <l n="2">lateris levamen, gnata, quam tanti est mihi</l>
                <l n="3">genuisse vel sic, desere infaustum patrem,</l>
@@ -151,7 +147,6 @@
                <l n="49">possum miser, praedico— discedo a patre,</l>
                <l n="50">discedo, virgo. timeo post matrem omnia. </l>
             </sp>
-
             <sp who="#antigona">
                <speaker>Ant.</speaker>
                <l n="51">Vis nulla, genitor, a tuo nostram manum</l>
@@ -210,11 +205,8 @@
                <l n="97">peccas honesta mente, pietatem vocas</l>
                <l n="98">patrem insepultum trahere, qui cogit mori</l>
                <l n="99">nolentem in aequo est quique properantem impedit; </l>
-
                <l n="101">nec tamen in aequo est: alterum gravius reor: </l>
-
                <l n="100">occidere est vetare cupientem mori </l>
-
                <l n="102">malo imperari quam eripi mortem mihi. </l>
                <l n="103">desiste coepto, virgo: ius vitae ac necis</l>
                <l n="104">meae penes me est. regna deserui libens,</l>
@@ -344,7 +336,6 @@
                <l n="214">regni tumultus? turba fortunae prior</l>
                <l n="215">abscessit a te iussa, quem, genitor, fugis? </l>
             </sp>
-
             <sp who="#oedipus">
                <speaker>Oedip.</speaker>
                <l n="216">Me fugio, fugio conscium scelerum omnium</l>
@@ -434,7 +425,6 @@
                <l n="293">patriae quietem, foederi laeso fidem.</l>
                <l n="294">vitam tibi ipse si negas, multis negas.</l>
             </sp>
-
             <sp who="#oedipus">
                <speaker>Oedip.</speaker>
                <l n="295">Illis parentis ullus aut aequi est amor, </l>
@@ -465,7 +455,6 @@
                <l n="319">iubente te vel vivet.</l>
             </sp>
             <stage>Nuntius Oedipus Antigona</stage>
-
             <sp who="#nuntius">
                <speaker>Nvn.</speaker>
                <l n="320">Exemplum in ingens regia stirpe editum </l>
@@ -477,7 +466,6 @@
                <l n="326">septena muros castra Thebanos premunt,</l>
                <l n="327">succurre, prohibe pariter et bellum et scelus.</l>
             </sp>
-
             <sp who="#oedipus">
                <speaker>Oed.</speaker>
                <l n="328">Ego ille sum qui scelera committi vetem</l>
@@ -509,7 +497,6 @@
                <l n="348">doloris ac te publica exorent mala</l>
                <l n="3349">auctorque placidae liberis pacis veni.</l>
             </sp>
-
             <sp who="#oedipus">
                <speaker>Oedip.</speaker>
                <l n="350">Vides modestae deditum menti senem </l>
@@ -556,7 +543,6 @@
                <l n="385">inclinat animus semper infirmo favens: </l>
                <l n="386">miseros magis fortuna conciliat suis.</l>
             </sp>
-
             <sp who="#satelles">
                <speaker>Sat.</speaker>
                <l n="387">Regina, dum tu flebiles questus cies</l>
@@ -576,7 +562,6 @@
                <l n="401">i, redde amorem fratribus, pacem omnibus,</l>
                <l n="402">et impia arma matris oppositu impedi.</l>
             </sp>
-
             <sp who="#antigona iocasta nuntius">
                <speaker>Antigona Iocasta Nuntius</speaker>
                <l n="403">Perge, o parens, et concita celerem gradum,</l>
@@ -596,7 +581,7 @@
                <pb n="p.107"/>
                <l n="413">aut si aliquod et me teste committi potest,</l>
                <l n="414" part="I">non fiet unum.</l>
-            </sp> 
+            </sp>
             <sp who="#antigona">
                <speaker>Ant.</speaker>
                <l n="414b" part="F">Signa collatis micant</l>
@@ -605,12 +590,10 @@
                <l n="417">et ecce motos fletibus credas meis,</l>
                <l n="418">sic agmen armis segne compositis venit.</l>
             </sp>
-
             <sp who="#satelles">
                <speaker>Sat.</speaker>
                <l n="419">Procedit acies tarda, sed properant duces.</l>
             </sp>
-
             <sp who="#iocasta">
                <speaker>Ioc.</speaker>
                <l n="420">Quis me procellae turbine insano vehens </l>
@@ -621,7 +604,6 @@
                <l n="425">Harpyia saevi regis observans famem </l>
                <l n="426">et inter acies proiciet raptam duas?</l>
             </sp>
-
             <sp who="#satelles">
                <speaker>Sat.</speaker>
                <l n="427">Vadit furenti similis aut etiam furit.</l>
@@ -684,7 +666,7 @@
                <l n="478">Timeo; nihil iam iura naturae valent.</l>
                <l n="479">post ista fratrum exempla ne matri quidem</l>
                <l n="480" part="I">fides habenda est.</l>
-            </sp> 
+            </sp>
             <sp who="#iocasta">
                <speaker>Ioc.</speaker>
                <l n="480b" part="F">Redde iam capulo manum, </l>
@@ -860,7 +842,7 @@
                <l n="641">cum viceris, lugebis. infaustas age</l>
                <l n="642">dimitte pugnas, libera patriam metu,</l>
                <l n="643" part="I">luctu parentes,</l>
-            </sp> 
+            </sp>
             <sp who="#polynices">
                <speaker>Pol.</speaker>
                <l n="643b" part="F">Sceleris et fraudis suae</l>
@@ -878,45 +860,38 @@
                <l n="650">rupta tenebit illa: iam numeres licet </l>
                <l n="651">fratrem inter istos.</l>
             </sp>
-
             <sp who="#eteocles">
                <speaker>Et.</speaker>
                <l n="651b">Numeret, est tanti mihi</l>
                <l n="652">cum regibus iacere, te turbae exulum</l>
                <l n="653" part="I">ascribo.</l>
-            </sp> 
+            </sp>
             <sp who="#polynices">
                <speaker>Pol.</speaker>
                <l part="F" n="653b">Regna, dummodo invisus tuis.</l>
             </sp>
-
             <sp who="#eteocles">
                <speaker>Et.</speaker>
                <l n="654">Regnare non vult esse qui invisus timet:</l>
-
                <l n="655">simul ista mundi conditor posuit deus, </l>
                <l n="656">odium atque regnum: regis hoc magni reor,</l>
                <l n="657">odia ipsa premere, multa dominantem vetat</l>
                <l n="658">amor suorum; plus in iratos licet,</l>
                <l n="659">qui vult amari, languida regnat manu.</l>
             </sp>
-
             <sp who="#iocasta">
                <speaker>Ioc.</speaker>
                <l n="660">Invisa numquam imperia retinentur diu. </l>
             </sp>
-
             <sp who="#eteocles">
                <speaker>Et.</speaker>
                <l n="661">Praecepta melius imperi reges dabunt;</l>
                <l n="662">exilia tu dispone, pro regno velim—</l>
             </sp>
-
             <sp who="#iocasta">
                <speaker>Ioc.</speaker>
                <l n="663">Patriam penates coniugem flammis dare?</l>
             </sp>
-
             <sp who="#eteocles">
                <speaker>Et.</speaker>
                <l n="664">Imperia pretio quolibet constant bene.</l>

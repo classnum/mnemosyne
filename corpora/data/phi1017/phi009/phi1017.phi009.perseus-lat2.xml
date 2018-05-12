@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
-    schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
-    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -80,7 +78,6 @@
                         <persName xml:lang="eng">Chorus Aetolarum Mulierum</persName>
                     </person>
                 </listPerson>
-
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -90,7 +87,7 @@
                     <p>This pointer pattern extracts line</p>
                 </cRefPattern>
             </refsDecl>
-            <refsDecl n="TEI.2">
+            <refsDecl n="TEI">
                 <refState unit="card"/>
             </refsDecl>
         </encodingDesc>
@@ -100,21 +97,17 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2009-01-01" who="gcrane">Tagging</change>
             <change when="2015-11-12" who="Thibault Clerice">New URN, Epidoc and CTS</change>
+            <change when="2009-01-01" who="gcrane">Tagging</change>
         </revisionDesc>
     </teiHeader>
-
     <text>
         <body>
             <div type="edition" n="urn:cts:latinLit:phi1017.phi009.perseus-lat2" xml:lang="lat">
-
                 <milestone n="1" unit="card"/>
                 <pb n="p.321"/>
-
                 <sp who="#hercules">
                     <speaker>Hercules</speaker>
-
                     <l n="1">Sator deorum, cuius excussum manu</l>
                     <l n="2">utraeque Phoebi sentiunt fulmen domus,</l>
                     <l n="3">secure regna— protuli pacem tibi,</l>
@@ -266,17 +259,14 @@
                     <pb n="p.326"/>
                     <l n="141">Ismenos tenui numine languidus—</l>
                     <l n="142">hic mater tumidi nupserat Herculis. </l>
-
                     <l n="147">Falsa est de geminis fabula noctibus, </l>
                     <l n="148">aether cum tenuit sidera longius</l>
                     <l n="149">commisitque vices Lucifer Hespero</l>
                     <l n="150">et Solem vetuit Delia tardior:</l>
-
                     <l n="143">quae cautes Scythiae, quis genuit lapis? </l>
                     <l n="144">num Titana ferum te Rhodope tulit,</l>
                     <l n="145">te praeruptis Athos, te fera Caspias, </l>
                     <l n="146">quae virgata tibi praebuit ubera? </l>
-
                     <l n="151">nullis vulneribus pervia membra sunt: </l>
                     <l n="152">ferrum sentit hebes, lentior est chalybs;</l>
                     <l n="153">in nudo gladius corpore frangitur</l>
@@ -353,7 +343,6 @@
                     <l n="217">mea me lacrimas fortuna rogat.</l>
                     <l n="218">Iam iam dominae captiva colus</l>
                     <l n="219">fusosque legam, pro saeve decor</l>
-
                     <l n="220">formaque mortem paritura mihi, </l>
                     <l n="221">tibi cuncta domus concidit uni,</l>
                     <pb n="p.329"/>
@@ -361,7 +350,6 @@
                     <l n="223">atque Herculeus socer esse timet,</l>
                     <l n="224">sed iam dominae tecta petantur.</l>
                 </sp>
-
                 <sp who="#chorus">
                     <speaker>Chor.</speaker>
                     <l n="225">Quid regna tui clara parentis </l>
@@ -401,7 +389,6 @@
                     <l n="254">sonuere postes: ecce praecipiti gradu</l>
                     <l n="255">secreta mentis ore confuso exerit. </l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="256">Quamcumque partem sedis aetheriae premis,</l>
@@ -468,7 +455,6 @@
                     <l n="308">iam cessat ira. quid miser langues dolor?</l>
                     <l n="309">perdis furorem, coniugis tacitae fidem</l>
                     <pb n="p.332"/>
-
                     <l n="310">mihi reddis iterum.— quid vetas flammas ali? </l>
                     <l n="311">quid fragilis ignes? hunc mihi serva impetum,</l>
                     <l n="312">pares eamus, non erit votis opus:</l>
@@ -478,7 +464,6 @@
                 <sp who="#nutrix">
                     <speaker>Nvt.</speaker>
                     <l n="314b" part="F">Quod paras demens scelus?</l>
-
                     <l n="315">perimes maritum, cuius extremus dies </l>
                     <l n="316">primusque laudes novit et caelo tenus</l>
                     <l n="317">erecta terras fama suppositas habet?</l>
@@ -529,7 +514,6 @@
                     <l n="349">infestus, Iolen dum supra exanimem ruam.</l>
                     <l n="350">felix iacet quicumque quos odit premit. </l>
                 </sp>
-
                 <sp who="#nutrix">
                     <speaker>Nvt.</speaker>
                     <l n="351">Quid ipsa flammas pascis et vastum foves</l>
@@ -540,7 +524,6 @@
                     <l n="356">multumque ab illa traxit infelix status.</l>
                     <l n="357">illicita amantur, excidit quicquid licet.</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="358">Fortuna amorem peior inflammat magis:</l>
@@ -549,7 +532,6 @@
                     <l n="361">ipsas misericors forsan aerumnas amat;</l>
                     <l n="362">hoc usitatum est Herculi: captas amat.</l>
                 </sp>
-
                 <sp who="#nutrix">
                     <speaker>Nvt.</speaker>
                     <l n="363">Dilecta Priami nempe Dardanii soror</l>
@@ -569,17 +551,14 @@
                     <l n="376">hirtam Sabaea marcidus myrrha comam </l>
                     <l n="377">ubique caluit, sed levi caluit face.</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="378">Haerere amantes post vagos ignes solent.</l>
                 </sp>
-
                 <sp who="#nutrix">
                     <speaker>Nvt.</speaker>
                     <l n="379">Faraulamne et hostis praeferet gnatam tibi?</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="380">Vt alta silvas forma vernantes habet, </l>
@@ -591,11 +570,8 @@
                     <l n="386">deperdit aliquid semper et fulget minus</l>
                     <l n="387">nec illa vetus est. quicquid in nobis fuit</l>
                     <l n="388">olim petitum cecidit aut pariter labat.</l>
-
                     <l n="390">aetas citato senior eripuit gradu </l>
-
                     <l n="389">materque multum rapuit ex illo mihi. </l>
-
                     <l n="391">vides ut altum famula non perdat decus? </l>
                     <l n="392">cessere cultus penitus et paedor sedet;</l>
                     <pb n="p.335"/>
@@ -619,17 +595,14 @@
                     <speaker>Nvt.</speaker>
                     <l n="407">Conciliat animos coniugum partus fere.</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="408">Hic ipse forsan dividet partus toros.</l>
                 </sp>
-
                 <sp who="#nutrix">
                     <speaker>Nvt.</speaker>
                     <l n="409">Famula illa trahitur interim donum tibi.</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="410">Hic quem per nrbes ire praeclarum vides </l>
@@ -660,8 +633,6 @@
                     <l n="434">fecit novercam. quid stupes, segnis furor?</l>
                     <l n="435">scelus occupandum est: perage dum fervet manus. </l>
                 </sp>
-
-
                 <sp who="#nutrix">
                     <speaker>Nvt.</speaker>
                     <l n="436" part="I">Perimes maritum?</l>
@@ -670,8 +641,6 @@
                     <speaker>Dei.</speaker>
                     <l n="436b" part="F">Paelicis certe meae.</l>
                 </sp>
-
-
                 <sp who="#nutrix">
                     <speaker>Nvt.</speaker>
                     <l n="437" part="I">At Iove creatum,</l>
@@ -680,8 +649,6 @@
                     <speaker>Dei.</speaker>
                     <l n="437b" part="F">Nempe et Alcmena satum.</l>
                 </sp>
-
-
                 <sp who="#nutrix">
                     <speaker>Nvt.</speaker>
                     <l n="438" part="I">Ferrone?</l>
@@ -698,9 +665,6 @@
                     <speaker>Dei.</speaker>
                     <l n="438c" part="F">Perimam dolo.</l>
                 </sp>
-
-
-
                 <sp who="#nutrix">
                     <speaker>Nvt.</speaker>
                     <l n="439" part="I">Quis iste furor est?</l>
@@ -709,12 +673,10 @@
                     <speaker>Dei.</speaker>
                     <l n="439b" part="F">Quem meus coniunx docet.</l>
                 </sp>
-
                 <sp who="#nutrix">
                     <speaker>Nvt.</speaker>
                     <l n="440">Quem nec noverca potuit, hunc perimes virum? </l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="441">Caelestis ira quos premit, miseros facit:</l>
@@ -724,7 +686,6 @@
                     <speaker>Nvt.</speaker>
                     <l n="442b" part="F">Parce, miseranda, et time.</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="443">Contempsit omnes ille qui mortem prius;</l>
@@ -736,18 +697,15 @@
                     <l n="445">alumna, dolor est; culpa par odium exigat. </l>
                     <l n="446">cur saeva modicis statuis? ut laesa es, dole.</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="447">Leve esse credis paelicem nuptae malum?</l>
                     <l n="448">quicquid dolorem pascit, hoc nimium puta.</l>
                 </sp>
-
                 <sp who="#nutrix">
                     <speaker>Nvt.</speaker>
                     <l n="449">Amorne clari fugit Alcidae tibi?</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="450">Non fugit, altrix, remanet et penitus sedet </l>
@@ -766,9 +724,7 @@
                     <l n="458">habuere motum saxa. discussi fores</l>
                     <l n="459">umbrasque Ditis, et mea iussi prece</l>
                     <l n="460">manes locuntur. tacuit infernus canis; </l>
-
                     <l n="462">nox media solem vidit et noctem dies: </l>
-
                     <l n="461">mare terra caelum et Tartarus servit mihi </l>
                     <l n="463">nihilque leges ad meos cantus tenet:</l>
                     <l n="464">flectemus illum, carmina invenient iter.</l>
@@ -789,7 +745,6 @@
                     <speaker>Nvt.</speaker>
                     <l n="472b" part="F">Vicit et superos Amor.</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="473">Vincetur uni forsan et spolium dabit</l>
@@ -803,29 +758,24 @@
                     <speaker>Nvt.</speaker>
                     <l n="478">Quid istud est quod esse secretum petis?</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="479">Non tela sunt, non arma, non ignis minax.</l>
                 </sp>
-
                 <sp who="#nutrix">
                     <speaker>Nvt.</speaker>
                     <l n="480">Praestare fateor posse me tacitam fidem, </l>
                     <l n="481">si scelere careat: interim scelus est fides.</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="482">Circumspice agedum, ne quis arcana occupet,</l>
                     <l n="483">partemque in omnem vultus inquirens eat.</l>
                 </sp>
-
                 <sp who="#nutrix">
                     <speaker>Nvt.</speaker>
                     <l n="484">En locus ab omni tutus arbitrio vacat.</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="485">Est in remoto regiae sedis loco </l>
@@ -917,7 +867,6 @@
                     <l n="561">tuque o noverca gravior irata deus,</l>
                     <l n="562">cape hunc triumphum solus et vince Herculem.</l>
                 </sp>
-
                 <sp who="#nutrix">
                     <speaker>Nvt.</speaker>
                     <l n="563">Prolata vis est quaeque Palladia colu</l>
@@ -928,7 +877,6 @@
                     <l n="567">in tempore ipso navus occurrit Lichas:</l>
                     <l n="568">celanda vis est dira, ne pateant doli.</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="569">O quod superbae non habent umquam domus,</l>
@@ -1008,13 +956,10 @@
                     <l n="637">colit hic reges, calcet ut omnes</l>
                     <l n="638">perdatque aliquos nullumque levet:</l>
                     <l n="639">tantum ut noceat, cupit esse potens,</l>
-
                     <l n="643">rarum est felix idemque senex: </l>
-
                     <l n="640">quota pars moritur tempore fati? </l>
                     <l n="641">quos felices Cynthia vidit, </l>
                     <l n="642">vidit miseros enata dies. </l>
-
                     <l n="644">Caespes Tyrio mollior ostro </l>
                     <l n="645">solet inpavidos ducere somnos; </l>
                     <l n="646">aurea rumpunt tecta quietem</l>
@@ -1037,13 +982,11 @@
                     <l n="662">lapis Eoa lectus in unda,</l>
                     <l n="663">nec Sidonio mollis aeno</l>
                     <l n="664">repetita bibit lana rubores,</l>
-
                     <l n="665">nec Maeonia distinguit acu </l>
                     <l n="666">quae Phoebeis subditus euris</l>
                     <l n="667">legit Eois Ser arboribus.</l>
                     <l n="668">quaelibet herbae tinxere colus</l>
                     <l n="669">quas indoctae nevere manus:</l>
-
                     <l n="670">sed non dubios fovet illa toros. </l>
                     <l n="671">sequitur dira lampade Erinys</l>
                     <l n="672">quarum populi coluere diem,</l>
@@ -1096,12 +1039,10 @@
                     <l n="713">semel profecto premere felices deus</l>
                     <l n="714">cum coepit, urget, hos habent magna exitus.</l>
                 </sp>
-
                 <sp who="#nutrix">
                     <speaker>Nvt.</speaker>
                     <l n="715">Quis tam impotens, miseranda, te casus rotat? </l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="716">Vt missa palla est tabe Nessea inlita</l>
@@ -1132,7 +1073,6 @@
                         <gap reason="lost"/> tumensque tacita <gap reason="lost"/><lb/> quassat
                             caput<gap reason="lost"/>
                     </l>
-
                     <l n="740">
                         <del>natum paventem cerno et ardenti pede </del>
                     </l>
@@ -1140,34 +1080,28 @@
                         <del>gressus ferentem, prome quid portes novi.</del>
                     </l>
                 </sp>
-
                 <sp who="#hyllus #deianira">
                     <speaker>Hyllus et Deianira</speaker>
                     <l n="742">I, profuge, quaere si quid ulterius patet</l>
                     <l n="743">terris freto sideribus Oceano inferis,</l>
                     <l n="744">ultra labores, mater, Alcidae fuge.</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="745">Nescio quod animus grande praesagit malum. </l>
                 </sp>
-
                 <sp who="#hyllus">
                     <speaker>Hyl.</speaker>
                     <l n="746">Regna triumphi, templa Iunonis pete:</l>
                     <l n="747">haec tibi patent, delubra praeclusa omnia.</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="748">Effare quis me casus insontem premat.</l>
                 </sp>
-
                 <sp who="#hyllus">
                     <speaker>Hyl.</speaker>
                     <l n="749">Decus illud orbis atque praesidium unicum,</l>
-
                     <l n="750">quem fata terris in locum dederant Iovis, </l>
                     <pb n="p.348"/>
                     <l n="751">o mater, abiit: membra et Herculeos toros</l>
@@ -1182,7 +1116,6 @@
                     <l n="756">iam nostra domus est? o lares, miseri lares!</l>
                     <l n="757">nunc vidua, nunc expulsa, nunc ferar obruta.</l>
                 </sp>
-
                 <sp who="#hyllus">
                     <speaker>Hyl.</speaker>
                     <l n="758">Non sola maeres. Herculem, toto iacet</l>
@@ -1196,7 +1129,6 @@
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="764b" part="F">Quam prope a leto tamen</l>
-
                     <l n="765">ede, ede quaeso iaceat Alcides mens. </l>
                 </sp>
                 <milestone n="766" unit="card"/>
@@ -1209,14 +1141,12 @@
                     <l n="770">timet peragere, pro diem, infandum diem!</l>
                     <l n="771">hocne ille summo magnus Alcides erit?</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="772">Ad fata et umbras adque peiorem polum</l>
                     <l n="773">praecedere illum dicis? an possum prior</l>
                     <l n="774">mortem occupare? fare, si nondum occidit.</l>
                 </sp>
-
                 <sp who="#hyllus">
                     <speaker>Hyl.</speaker>
                     <l n="775">Euboica tellus vertice immenso tumens </l>
@@ -1306,13 +1236,11 @@
                     <l n="852">et ut noverca potius irata malum.</l>
                     <l n="853">emitte telum quale in errantem prius</l>
                     <l n="854">Phaethonta missum est: perdidi in solo Hercule</l>
-
                     <l n="855">et ipsa populos, quid rogas telum deos? </l>
                     <l n="856">iam parce socero: coniugem Alcidae necem</l>
                     <l n="857">optare pudeat: haec erit voto manus,</l>
                     <l n="858">a me petatur; occupa ferrum ocius.</l>
                     <l n="859">cur deinde ferrum? quicquid ad mortem trahit</l>
-
                     <l n="860">telum est abunde: rupe ab aetheria ferar. </l>
                     <l n="861">haec, haec renatum prima quae poscit diem,</l>
                     <l n="862">Oeta eligatur, corpus hinc mitti placet;</l>
@@ -1346,24 +1274,19 @@
                     <l n="885">erroris est hic omne quodcumque est nefas. </l>
                     <l n="886">haut est nocens quicumque non sponte est nocens.</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="887">Quicumque fato ignoscit et parcit sibi,</l>
                     <l n="888">errare meruit: morte damnari placet.</l>
                 </sp>
-
                 <sp who="#hyllus">
                     <speaker>Hyl.</speaker>
                     <l n="889">Nocens videri, qui mori quaerit, cupit.</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="890">Mors innocentes sola deceptos facit. </l>
                 </sp>
-
-
                 <sp who="#hyllus">
                     <speaker>Hyl.</speaker>
                     <l n="891" part="I">Titana fugiens—</l>
@@ -1372,8 +1295,6 @@
                     <speaker>Dei.</speaker>
                     <l n="891b" part="F">Ipse me Titan fugit.</l>
                 </sp>
-
-
                 <sp who="#hyllus">
                     <speaker>Hyl.</speaker>
                     <l n="892" part="I">Vitam relinques?</l>
@@ -1382,19 +1303,15 @@
                     <speaker>Dei.</speaker>
                     <l n="892b" part="F">Miseram, ut Alciden sequar.</l>
                 </sp>
-
                 <sp who="#hyllus">
                     <speaker>Hyl.</speaker>
                     <l n="893">Superest et auras ille caelestes trahit.</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="894">Vinci Hercules cum potuit, hinc coepit mori.</l>
                     <pb n="p.353"/>
                 </sp>
-
-
                 <sp who="#hyllus">
                     <speaker>Hyl.</speaker>
                     <l n="897" part="I">Virum sequeris.</l>
@@ -1403,22 +1320,18 @@
                     <speaker>Dei.</speaker>
                     <l n="897b" part="F">Praegredi castae solent. </l>
                 </sp>
-
                 <sp who="#hyllus">
                     <speaker>Hyl.</speaker>
                     <l n="895">Natum relinques fataque abrumpes tua? </l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="896">Quamcumque natus sepelit haec vixit diu.</l>
                 </sp>
-
                 <sp who="#hyllus">
                     <speaker>Hyl.</speaker>
                     <l n="898">Si te ipsa damnas, scelere te misera arguis. </l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="899">Nemo nocens sibi ipse poenas inrogat.</l>
@@ -1429,12 +1342,10 @@
                     <l n="900">Multis remissa est vita quorum error nocens, </l>
                     <l n="901">non dextra fuerat, fata quis damnat sua?</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="902">Quicumque fata" iniqua sortitus fuit.</l>
                 </sp>
-
                 <sp who="#hyllus">
                     <speaker>Hyl.</speaker>
                     <l n="903">Hic ipse Megaram nempe confixam suis</l>
@@ -1445,7 +1356,6 @@
                     <l n="908">sub axe Libyco tersit et dextram abluit.</l>
                     <l n="909">quo. misera, pergis? cur tuas damnas manus?</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="910">Damnat meas devictus Alcides manus: </l>
@@ -1457,13 +1367,11 @@
                     <l n="912">aderit cruenti forsitan victor mali</l>
                     <l n="913">dolorque fractus cedet Alcidae tuo.</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="914">Exedit artus virus ut fama est hydrae;</l>
                     <l n="915">immensa pestis coniugis membra abstulit. </l>
                 </sp>
-
                 <sp who="#hyllus">
                     <speaker>Hyl.</speaker>
                     <l n="916">Serpentis illi virus enectae autumas</l>
@@ -1477,12 +1385,9 @@
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="922">Frustra tenetur ille qui statuit mori.</l>
-
                     <l n="924">vixit satis quicumque cum Alcide occidit: </l>
-
                     <l n="923">proinde lucem fugere decretum est mihi. </l>
                 </sp>
-
                 <sp who="#nutrix">
                     <speaker>Nvt.</speaker>
                     <l n="925">Per has aniles ecce te supplex comas </l>
@@ -1490,20 +1395,17 @@
                     <l n="927">depone tumidas pectoris laesi minas</l>
                     <l n="928">mortisque dirae expelle decretum horridum.</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="929">Quicumque misero forte dissuadet mori,</l>
                     <l n="930">crudelis ille est: interim poena est mori, </l>
                     <l n="931">sed saepe donum; pluribus veniae fuit.</l>
                 </sp>
-
                 <sp who="#nutrix">
                     <speaker>Nvt.</speaker>
                     <l n="932">Defende saltem dexteram, infelix, tuam</l>
                     <l n="933">fraudisque facinus esse, non nuptae, sciat.</l>
                 </sp>
-
                 <sp who="#deianira">
                     <speaker>Dei.</speaker>
                     <l n="934">Defendar illic: inferi absolvent ream,</l>
@@ -1669,22 +1571,17 @@
                     <l n="1069">victo languida turbine,</l>
                     <l n="1070">increvit Tityi iecur, </l>
                     <l n="1071">dum cantu volucres tenet; </l>
-
                     <l n="1081">et vinci lapis improbus </l>
                     <l n="1082">et vatem potuit sequi; </l>
-
                     <l n="1075">tunc primum Phrygius senex </l>
                     <l n="1076">undis stantibus immemor</l>
                     <l n="1077">excussit rabidam sitim</l>
                     <l n="1078">nec pomis adhibet manus. </l>
-
                     <l n="1072">auditum quoque navita, </l>
                     <l n="1073">inferni ratis aequoris </l>
                     <l n="1074">nullo remigio venit. </l>
-
                     <l n="1079">sic cum vinceret inferos </l>
                     <l n="1080">Orpheus carmine funditus, </l>
-
                     <l n="1083">consumptos iterum deae </l>
                     <pb n="p.360"/>
                     <l n="1084">supplent Eurydices colus!</l>
@@ -1761,7 +1658,6 @@
                     <l n="1149">caelum omne fiat, conde me tota, pater,</l>
                     <l n="1150">mundi ruina, frange quem perdis polum. </l>
                 </sp>
-
                 <sp who="#chorus">
                     <speaker>Chor.</speaker>
                     <l n="1151">Non vana times, gnate Tonantis:</l>
@@ -1775,7 +1671,6 @@
                     <l n="1159">nondum Enceladus fulmine victus:</l>
                     <l n="1160">iam te caeli regna secuntur. </l>
                 </sp>
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="1161">Ego qui relicta morte, contempta Styge</l>
@@ -1864,7 +1759,6 @@
                     <l n="1232">quod esse vastum fateor, o dirum nefas!</l>
                     <l n="1233">en cernite, urbes, cernite ex illo Hercule</l>
                     <l n="1234">quid, quid supersit. Herculem agnoscis, pater?</l>
-
                     <l n="1235">hisne ego lacertis colla Nemeaei mali </l>
                     <l n="1236">elisa pressi? tensus hac arcus manu</l>
                     <l n="1237">astris ab ipsis detulit Stymphalidas ?</l>
@@ -1876,13 +1770,11 @@
                     <pb n="p.366"/>
                     <l n="1243">haecne illa cervix? hasne ego opposui manus</l>
                     <l n="1244">caelo ruenti? quis mea custos manu</l>
-
                     <l n="1245">trahetur ultra Stygius? ubi vires prius </l>
                     <l n="1246">memet sepultae? quid patrem appello Iovem?</l>
                     <l n="1247">quid per Tonantem vindico caelum miser?</l>
                     <l n="1248">iam. iam meus credetur Amphitryon pater.</l>
                     <l n="1249">quaecumque pestis viscere in nostro lates,</l>
-
                     <l n="1250">procede— quid me vulnere occulto petis? </l>
                     <l n="1251">quis te sub axe frigido pontus Scythes,</l>
                     <l n="1252">quae pigra Tethys genuit aut Maurum premens</l>
@@ -1929,7 +1821,6 @@
                     <l n="1288">non tamen audet vincitque faces</l>
                     <l n="1289">solis adulti glaciale iubar.</l>
                 </sp>
-
                 <sp who="#hercules alcmena">
                     <speaker>Hercules Alcmena</speaker>
                     <l n="1290">Converte voltus ad meas clades, pater: </l>
@@ -2010,38 +1901,30 @@
                     <l n="1350">quae terra genuit? quodve tam dirum nefas </l>
                     <l n="1351">de te triumphat? victor Herculeus quis est?</l>
                 </sp>
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="1352">Nuptae iacentem cernis Alciden dolis.</l>
                 </sp>
-
                 <sp who="#alcmena">
                     <speaker>Alcm.</speaker>
                     <l n="1353">Quis tantus est qui vincat Alciden dolus?</l>
                 </sp>
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="1354">Quicumque, mater, feminae iratae sat est.</l>
                 </sp>
-
                 <sp who="#alcmena">
                     <speaker>Alcm.</speaker>
                     <l n="1355">Et unde in artus pestis aut ossa incidit? </l>
                 </sp>
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="1356">Aditum venenis palla femineis dedit.</l>
                 </sp>
-
                 <sp who="#alcmena">
                     <speaker>Alcm.</speaker>
                     <l n="1357">Vbinam ista palla est? membra nudata intuor.</l>
                 </sp>
-
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="1358" part="I">Consumpta mecum est.</l>
@@ -2050,7 +1933,6 @@
                     <speaker>Alcm.</speaker>
                     <l n="1358b" part="F">Tantane inventa est lues?</l>
                 </sp>
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="1359">Errare mediis crede visceribus meis,</l>
@@ -2069,7 +1951,6 @@
                     <l n="1372">nil inde ducam, quid times iterum Herculem?</l>
                     <l n="1373">invade, mors, non trepida: iam possum mori.</l>
                 </sp>
-
                 <sp who="#alcmena">
                     <speaker>Alcm.</speaker>
                     <l n="1374">Compesce lacrimas saltem et aerumnas doma</l>
@@ -2099,7 +1980,6 @@
                     <l n="1394">sparsus silebo— non ferae excutient mihi,</l>
                     <l n="1395">non arma gemitus, nil quod impelli potest. </l>
                 </sp>
-
                 <sp who="#alcmena">
                     <speaker>Alcm.</speaker>
                     <l n="1396">Non virus artus, nate, femineum coquit,</l>
@@ -2110,7 +1990,6 @@
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="1399">Vbi morbus, ubinam est? estne adhuc aliquid mali</l>
-
                     <l n="1400">in orbe mecum? veniat, huc aliquis mihi </l>
                     <l n="1401">intendat arcus: nuda sufficiet manus.</l>
                     <pb n="p.372"/>
@@ -2136,7 +2015,6 @@
                     <l n="1417">servate terris, abeat excussus dolor</l>
                     <l n="1418">corpusque vires reparet Herculeum suas.</l>
                 </sp>
-
                 <sp who="#hyllus alcmena hercules">
                     <speaker>Hyllus Alcmena Hercules Philoctetes Tacitus</speaker>
                     <l n="1419">Pro lux acerba, pro capax scelerum dies!</l>
@@ -2149,7 +2027,6 @@
                     <pb n="p.373"/>
                     <l n="1426">parcamque fatis: Herculem amitto patrem.</l>
                 </sp>
-
                 <sp who="#alcmena">
                     <speaker>Alcm.</speaker>
                     <l n="1427">Compesce voces, indutum Alcidae genus</l>
@@ -2158,7 +2035,6 @@
                     <l n="1430">sed ecce, lassam deserit mentem quies </l>
                     <l n="1431">redditque morbo corpus et luctum mihi.</l>
                 </sp>
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="1432">Quid hoc? rigent! cernitur Trachin iugo,</l>
@@ -2187,14 +2063,12 @@
                     <l n="1454">dextra inquinetur, laudibus maculam imprimam,</l>
                     <l n="1455">summus legatur femina Herculeus labor. </l>
                 </sp>
-
                 <sp who="#hyllus">
                     <speaker>Hyl.</speaker>
                     <l n="1456">Compesce diras, genitor, irarum minas;</l>
                     <l n="1457">habet, peractum est, quas petis poenas dedit:</l>
                     <l n="1458">sua perempta dextera mater iacet.</l>
                 </sp>
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="1459">Cecidit dolose: manibus irati Herculis</l>
@@ -2215,7 +2089,6 @@
                     <l n="1470">cruore tincta est palla semiferi, pater, </l>
                     <l n="1471">Nessusque nunc has exigit poenas sibi.</l>
                 </sp>
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="1472">Habet, peractum est, fata se nostra explicant;</l>
@@ -2333,16 +2206,11 @@
                     <l n="1574">ne tuo vultu tremefacta leges</l>
                     <l n="1575">astra conturbent trepidetque Titan. </l>
                     <l n="1576">vere dum flores venient tepenti</l>
-
                     <l n="1578">vel comam silvis revocabit aestas </l>
                     <l n="1579">pomaque autumno fugiente cedent, </l>
-
                     <l n="1577">vel comam silvis hiemes recident: </l>
-
                     <l n="1581">tu comes Phoebo, comes ibis astris. </l>
-
                     <l n="1580">nulla te terris rapiet vetustas: </l>
-
                     <l n="1582">ante nascetur seges in profundo </l>
                     <l n="1583">vel fretum dulci resonabit unda,</l>
                     <l n="1584">ante descendet glacialis ursae</l>
@@ -2376,8 +2244,6 @@
                     <l n="1607">Effare casus, iuvenis, Herculeos precor</l>
                     <l n="1608">voltuque quonam tulerit Alcides necem.</l>
                 </sp>
-
-
                 <sp who="#chorus">
                     <speaker>Nunt.</speaker>
                     <l n="1609" part="I">Quo nemo vitam.</l>
@@ -2393,24 +2259,20 @@
                     <l n="1611">ostendit ille. quid sub hoc mundo Hercules</l>
                     <l n="1612">immune vinci liquit? en domita omnia.</l>
                 </sp>
-
                 <sp who="#chorus">
                     <speaker>Chor.</speaker>
                     <l n="1613">Inter vapores quis fuit forti locus?</l>
                 </sp>
-
                 <sp who="#nuntius">
                     <speaker>Nvnt.</speaker>
                     <l n="1614">Quod unum in orbe vicerat nondum malum,</l>
                     <l n="1615">et flamma victa est; haec quoque accessit feris: </l>
                     <l n="1616">inter labores ignis Herculeos abit.</l>
                 </sp>
-
                 <sp who="#chorus">
                     <speaker>Chor.</speaker>
                     <l n="1617">Edissere agedum, flamma quo victa est modo?</l>
                 </sp>
-
                 <sp who="#nuntius">
                     <speaker>Nvnt.</speaker>
                     <l n="1618">Vt omnis Oeten maesta corripuit manus,</l>
@@ -2496,19 +2358,16 @@
                     <l n="1691">Nullasne in astra misit ad superos preces</l>
                     <l n="1692">arsurus aut in vota respexit Iovem?</l>
                 </sp>
-
                 <sp who="#nuntius">
                     <speaker>Nvnt.</speaker>
                     <l n="1693">Iacuit sui securus et caelum intuens</l>
                     <l n="1694">quaesivit oculis, parte an ex aliqua pater</l>
-
                     <l n="1695">despiceret illum, tum manus tendens ait: </l>
                     <pb n="p.383"/>
                     <l n="1696">' quacumque parte prospicis natum pater,</l>
                     <l n="1697">te te precor, cui nocte commissa dies</l>
                     <l n="1698">quievit unus. si meas laudes canit</l>
                     <l n="1699">utrumque Phoebi litus et Scythiae genus</l>
-
                     <l n="1700">et omnis ardens ora quam torret dies. </l>
                     <l n="1701">si pace tellus plena, si nullae gemunt</l>
                     <l n="1702">urbes nec aras impias quisquam inquinat,</l>
@@ -2525,12 +2384,9 @@
                     <l n="1713">ut dignus astris videar, hic faciet dies.</l>
                     <l n="1714">leve est quod actum est; Herculem hic, genitor, dies</l>
                     <l n="1715">inveniet aut damnabit.' haec postquam edidit, </l>
-
                     <l n="1717">flammas poposcit. 'hoc age, Alcidae comes </l>
                     <l n="1718">non segnis' inquit 'corripe Oetaeam facem,</l>
-
                     <l n="1716">noverca cernat quo feram flammas modo. </l>
-
                     <l n="1719">quid dextra tremuit? num manus pavida impium </l>
                     <l n="1720">scelus refugit? redde iam pharetras mihi, </l>
                     <pb n="p.384"/>
@@ -2667,24 +2523,20 @@
                     <l n="1832">compesce fletus, mater Alcidae induti,</l>
                     <l n="1833">non est gemendus nec gravi urgendus prece,</l>
                     <l n="1834">virtute quisquis abstulit fatis iter:</l>
-
                     <l n="1835">aeterna virtus Herculem fieri vetat. </l>
                     <l n="1836">
                         <del>fortes vetant maerere, degeneres iubent.</del>
                     </l>
                 </sp>
-
                 <sp who="#alcmena">
                     <speaker>Alcm.</speaker>
                     <l n="1837">Sedabo questus vindice amisso parens?</l>
                 </sp>
-
                 <sp who="#hyllus">
                     <speaker>Hyl.</speaker>
                     <l n="1838">Terra atque pelagus quaque purpureus dies</l>
                     <l n="1839">utrumque clara spectat Oceanum rota</l>
                 </sp>
-
                 <sp who="#alcmena">
                     <speaker>Alcm.</speaker>
                     <l n="1840">Quot "misera in uno condidi natos parens? </l>
@@ -2746,7 +2598,6 @@
                     <l n="1894">fregit nostri dextera nati:</l>
                     <pb n="p.391"/>
                     <l n="1895">date Bistoniae verbera matres </l>
-
                     <l n="1895b">gelidusque sonet planctibus Hebrus: </l>
                     <l n="1896">flete Alciden.</l>
                     <l n="1897">quod non stabulis' nascitur infans</l>
@@ -2768,7 +2619,6 @@
                     <l n="1913">facibusque tuis ille pepercit,</l>
                     <l n="1914">quotiens ignis spargendus erat!</l>
                     <l n="1914b">in me saltem iaculare facem</l>
-
                     <l n="1915">Semelenque puta. </l>
                     <l n="1916">iamne Elysias, o nate, domus,</l>
                     <l n="1917">iam§ litus habes</l>
@@ -2804,7 +2654,6 @@
                     <l n="1942">sentire fatum? parce: iam virtus mihi</l>
                     <l n="1943">in astra et ipsos fecit ad superos iter.</l>
                 </sp>
-
                 <sp who="#alcmena">
                     <speaker>Alcm.</speaker>
                     <l n="1944">Vnde, unde sonus trepidas aures</l>
@@ -2843,7 +2692,6 @@
                     <pb n="p.394"/>
                     <l n="1976">inferna vici rursus Alcides loca.</l>
                 </sp>
-
                 <sp who="#alcmena">
                     <speaker>Alcm.</speaker>
                     <l n="1977">Mane parumper, cessit, ex oculis, abit,</l>
@@ -2853,7 +2701,6 @@
                     <l n="1981">credo triumphis, regna Thebarum petam</l>
                     <l n="1982">novumque templis additum numen canam.</l>
                 </sp>
-
                 <sp who="#chorus">
                     <speaker>Chorus</speaker>
                     <l n="1983">Numquam Stygias fertur ad umbras</l>

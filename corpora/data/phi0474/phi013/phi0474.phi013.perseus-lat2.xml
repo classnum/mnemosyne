@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
-schematypens="http://relaxng.org/ns/structure/1.0"?>
-
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader xml:lang="eng">
 		<fileDesc>
@@ -22,14 +21,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 					<name>David Smith</name>
 				</respStmt>
 				<funder n="org:NEH">National Endowment For The Humanities (NEH)</funder>
-
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Trustees of Tufts University</publisher>
 				<pubPlace>Medford, MA</pubPlace>
 				<authority>Perseus Project</authority>
 			</publicationStmt>
-
 			<sourceDesc>
 				<biblStruct>
 					<monogr>
@@ -52,13 +49,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
-
 		<encodingDesc>
 			<refsDecl n="CTS">
-				<cRefPattern n="section" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
+				<cRefPattern n="section" matchPattern="(\w+).(\w+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
 					<p>This pointer pattern extracts speech and section</p>
 				</cRefPattern>
-				<cRefPattern n="chapter" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
+				<cRefPattern n="chapter" matchPattern="(\w+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
 					<p>This pointer pattern extracts speech</p>
 				</cRefPattern>
 			</refsDecl>
@@ -67,7 +65,6 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 				<refState unit="section"/>
 			</refsDecl>
 		</encodingDesc>
-
 		<!--<encodingDesc>
 			<refsDecl n="CTS">
 				<cRefPattern n="chapter" matchPattern="(\w+).(\w+)"
@@ -84,19 +81,18 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 				<refState delim="." n="chunk" unit="chapter"/>
 			</refsDecl>
 		</encodingDesc>-->
-
 		<profileDesc>
 			<langUsage>
 				<language ident="lat">Latin</language>
 				<language ident="grc">Greek</language>
 			</langUsage>
 		</profileDesc>
-
 		<revisionDesc>
-			<change when="2016-04-20" who="Lisa Cerrato">fixed bad section breaks; made section default div; fixed title</change>
-			<change when="2015-10-29" who="Thibault Clerice">CTS according to Capitains Guidelines +
+			<change when="2016-04-20" who="Lisa Cerrato">fixed bad section breaks; made section
+				default div; fixed title</change>
+			<change when="2015-10-29" who="Thibault Clérice">CTS according to Capitains Guidelines +
 				Epidoc</change>
-			<change when="2014-11-06" who="Thibault Clerice">Moving to Epidoc with new URN</change>
+			<change when="2014-11-06" who="Thibault Clérice">Moving to Epidoc with new URN</change>
 			<change when="2014-08-01" who="Stella Dee">edited markup</change>
 			<change when="2014-12-05" who="Bridget Almas">Converted milestones to divs</change>
 			<change when="2014-07-01" who="Stella Dee">split composite text and converted to
@@ -145,16 +141,15 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 			<change when="1997-03-26" who="textgod">Added to repository. Passes TEI parse.</change>
 		</revisionDesc>
 	</teiHeader>
-	
-	<text xml:lang="lat">
+	<text>
 		<body>
 			<div type="edition" xml:lang="lat" n="urn:cts:latinLit:phi0474.phi013.perseus-lat2">
 				<head>Orationes in Catilinam</head>
 				<div type="textpart" subtype="speech" n="1">
 					<head>ORATIO QVA L. CATILINAM EMISIT IN SENATV HABITA</head>
-					
-					<milestone unit="para"/><milestone unit="chapter" n="1"/>
-						<div type="textpart" subtype="section" n="1">
+					<milestone unit="para"/>
+					<milestone unit="chapter" n="1"/>
+					<div type="textpart" subtype="section" n="1">
 						<p>
 							<reg>quo</reg> usque tandem abutere, Catilina, patientia nostra? quam
 							diu etiam furor iste tuus nos<note>nos <hi rend="italics">om. A et
@@ -169,14 +164,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									>om. CAV</hi>
 							</note> non vides? <reg>quid</reg> proxima, quid superiore nocte egeris,
 							ubi fueris, quos convocaveris, quid consili ceperis quem nostrum
-							ignorare arbitraris? </p></div>
-							
-							<div type="textpart" subtype="section" n="2"><p>O tempora, o
-							mores! <reg>senatus</reg> haec intellegit, consul videt; hic tamen
-							vivit. <reg>vivit</reg>? immo vero etiam in senatum venit, fit publici
-							consili particeps, notat et designat oculis ad caedem unum quemque
-							nostrum. <reg>nos</reg> autem fortes viri satis facere rei publicae
-							videmur, si istius furorem ac tela vitamus<note>vitamus <hi
+							ignorare arbitraris? </p>
+					</div>
+					<div type="textpart" subtype="section" n="2">
+						<p>O tempora, o mores! <reg>senatus</reg> haec intellegit, consul videt; hic
+							tamen vivit. <reg>vivit</reg>? immo vero etiam in senatum venit, fit
+							publici consili particeps, notat et designat oculis ad caedem unum
+							quemque nostrum. <reg>nos</reg> autem fortes viri satis facere rei
+							publicae videmur, si istius furorem ac tela vitamus<note>vitamus <hi
 									rend="italics">CAV</hi>: vitemus <hi rend="italics">cett.</hi>
 							</note>. <reg>ad</reg> mortem te, Catilina, duci iussu consulis iam
 							pridem oportebat, in te conferri pestem<note>pestem <foreign
@@ -188,9 +183,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note> omnis iam diu<note>omnis <hi rend="italics">om.</hi>
 								<foreign xml:lang="grc">αγ</foreign>: omnis iam diu <hi
 									rend="italics">om. bs</hi>
-							</note> machinaris.</p></div>
-							
-							<div type="textpart" subtype="section" n="3"><p>
+							</note> machinaris.</p>
+					</div>
+					<div type="textpart" subtype="section" n="3">
+						<p>
 							<reg>an</reg> vero vir amplissimus, P. Scipio, pontifex maximus, <choice>
 								<abbr>Ti.</abbr>
 								<expan>T<ex>itum</ex></expan>
@@ -223,12 +219,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note>, non deest rei publicae consilium neque auctoritas huius
 							ordinis: nos, nos, dico aperte, consules desumus. </p>
 					</div>
-					
-			<milestone unit="chapter" n="2"/>
-							
-							
-							<div type="textpart" subtype="section" n="4">
-							<p><reg>decrevit</reg> quondam senatus uti<note>uti <hi rend="italics"
+					<milestone unit="chapter" n="2"/>
+					<div type="textpart" subtype="section" n="4">
+						<p><reg>decrevit</reg> quondam senatus uti<note>uti <hi rend="italics"
 									>CAVh</hi>: ut <hi rend="italics">a<foreign xml:lang="grc"
 										>αβγ</foreign>
 								</hi>
@@ -288,10 +281,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note> dissolutum videri, sed iam<note>sed iam <foreign xml:lang="grc"
 									>α</foreign>
 								<hi rend="italics">o1</hi>: sed etiam <hi rend="italics">cett.</hi>
-							</note> me ipse inertiae nequitiaeque condemno.</p></div> 
-								
-								<div type="textpart" subtype="section" n="5">
-							<p><reg>castra</reg> sunt in Italia contra populum Romanum in Etruriae
+							</note> me ipse inertiae nequitiaeque condemno.</p>
+					</div>
+					<div type="textpart" subtype="section" n="5">
+						<p><reg>castra</reg> sunt in Italia contra populum Romanum in Etruriae
 							faucibus conlocata, crescit in dies singulos hostium numerus; eorum
 							autem castrorum imperatorem ducemque hostium intra moenia atque adeo in
 							senatu videtis<note>videtis <hi rend="italics">ah</hi>: videmus <foreign
@@ -308,9 +301,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note>, cum iam nemo tam improbus, tam perditus<note>nemo tam perditus
 									<hi rend="italics">AV</hi>
 							</note>, tam tui similis inveniri poterit qui id non iure factum esse
-							fateatur.</p></div> 
-								
-								<div type="textpart" subtype="section" n="6"><p>
+							fateatur.</p>
+					</div>
+					<div type="textpart" subtype="section" n="6">
+						<p>
 							<reg>quam</reg> diu quisquam erit qui te defendere audeat, vives, et
 								vives<note>sed vives <hi rend="italics">Weiske</hi>
 							</note> ita ut nunc<note>nunc <foreign xml:lang="grc">α</foreign>
@@ -326,10 +320,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								<hi rend="italics">o</hi>
 							</note> te contra rem publicam possis. <reg>multorum</reg> te etiam
 							oculi et aures non sentientem, sicut adhuc fecerunt, speculabuntur atque
-							custodient.
-					
-									<milestone unit="para"/><milestone unit="chapter" n="3"/>
-		
+							custodient. <milestone unit="para"/><milestone unit="chapter" n="3"/>
 							<reg>etenim</reg> quid est, Catilina, quod iam amplius exspectes, si
 							neque nox tenebris obscurare coetus<note>coetus <foreign xml:lang="grc"
 									>α</foreign>: coeptus <hi rend="italics">h<foreign
@@ -341,10 +332,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									>Nonius p.</hi> 335. 33</note>, si erumpunt omnia?
 								<reg>muta</reg> iam istam mentem, mihi crede, obliviscere caedis
 							atque incendiorum. <reg>teneris</reg> undique; luce sunt clariora nobis
-							tua consilia omnia, quae iam mecum licet recognoscas.</p></div> 
-							
-							<div type="textpart" subtype="section" n="7">
-							<p><reg>meministine</reg> me ante diem <num>xii</num> Kalendas Novembris
+							tua consilia omnia, quae iam mecum licet recognoscas.</p>
+					</div>
+					<div type="textpart" subtype="section" n="7">
+						<p><reg>meministine</reg> me ante diem <num>xii</num> Kalendas Novembris
 							dicere in senatu fore in armis certo die, qui dies futurus esset ante
 							diem <num>vi</num>
 							<note>VI <foreign xml:lang="grc">α</foreign>
@@ -370,10 +361,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note> publicam non potuisse, cum tu discessu ceterorum nostra tamen
 							qui remansissemus caede contentum te<note>te <hi rend="italics">om. bh1,
 									ante</hi> contentum <hi rend="italics">hab. ah2</hi>
-							</note> esse dicebas?</p></div> 
-							
-							<div type="textpart" subtype="section" n="8">
-							<p><reg>quid</reg>? cum te<note>te <foreign xml:lang="grc">α</foreign>: tu
+							</note> esse dicebas?</p>
+					</div>
+					<div type="textpart" subtype="section" n="8">
+						<p><reg>quid</reg>? cum te<note>te <foreign xml:lang="grc">α</foreign>: tu
 								te <hi rend="italics">cett.</hi>
 							</note> Praeneste Kalendis ipsis Novembribus occupaturum nocturno impetu
 							esse confideres, sensistin<note>sensistin <foreign xml:lang="grc"
@@ -385,10 +376,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								<add>non</add> ego non modo<note>non ego non modo <hi rend="italics"
 									>Halm</hi>: ego non modo non <hi rend="italics">V</hi>: ego non
 								modo <hi rend="italics">cett.</hi>
-							</note> audiam sed etiam videam planeque sentiam. 
-					
-					<milestone unit="chapter" n="4"/>
-					
+							</note> audiam sed etiam videam planeque sentiam. <milestone
+								unit="chapter" n="4"/>
 							<reg>recognosce</reg> mecum tandem<note>tandem mecum <hi rend="italics"
 									>ah</hi>
 							</note> noctem illam superiorem; iam intelleges multo me vigilare acrius
@@ -399,10 +388,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</choice> Laecae domum; convenisse eodem compluris eiusdem amentiae
 							scelerisque socios. <reg>num</reg> negare audes? quid taces?
 								<reg>convincam</reg>, si negas. <reg>video</reg> enim esse hic in
-							senatu quosdam qui tecum una fuerunt.</p></div>
-							
-							<div type="textpart" subtype="section" n="9"><p>O
-							di immortales! ubinam gentium sumus? quam rem publicam habemus? in qua
+							senatu quosdam qui tecum una fuerunt.</p>
+					</div>
+					<div type="textpart" subtype="section" n="9">
+						<p>O di immortales! ubinam gentium sumus? quam rem publicam habemus? in qua
 							urbe vivimus<note>in qua urbe vivimus, quam rem p. habemus <foreign
 									xml:lang="grc">α</foreign>
 								<hi rend="italics">h contra Donatum ad Ter. Andr.</hi> iv. 5. 51 <hi
@@ -440,18 +429,17 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									>Claudius Sac. K.</hi> vi. 481: lectulo <hi rend="italics"
 									>cett.</hi>
 							</note> interfecturos esse<note>esse <hi rend="italics">om. a</hi>
-							</note> pollicerentur.</p> </div>
-								
-								<div type="textpart" subtype="section" n="10">
-							<p><reg>haec</reg> ego omnia vixdum etiam coetu vestro dimisso comperi;
+							</note> pollicerentur.</p>
+					</div>
+					<div type="textpart" subtype="section" n="10">
+						<p><reg>haec</reg> ego omnia vixdum etiam coetu vestro dimisso comperi;
 							domum meam<note>meam <hi rend="italics">om. <foreign xml:lang="grc"
 										>α</foreign>
 								</hi>
 							</note> maioribus praesidiis munivi atque firmavi, exclusi eos quos tu
 							ad me salutatum mane miseras, cum illi ipsi venissent quos ego iam
-							multis ac summis viris ad me id temporis venturos esse praedixeram. 
+							multis ac summis viris ad me id temporis venturos esse praedixeram.
 								<milestone unit="para"/><milestone unit="chapter" n="5"/>
-						
 							<reg>quae</reg> cum ita sint, Catilina, perge quo coepisti: egredere
 							aliquando ex urbe; patent portae; proficiscere. <reg>nimium</reg> diu te
 							imperatorem tua illa Manliana castra desiderant. Educ tecum etiam omnis
@@ -462,11 +450,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note>, modo<note>modo <hi rend="italics">AV</hi>: dum modo <hi
 									rend="italics">cett.</hi>
 							</note> inter me atque te murus intersit. <reg>nobiscum</reg> versari
-							iam diutius non potes; non feram, non patiar, non sinam.</p></div> 
-							
-							<div type="textpart" subtype="section" n="11"><p>Magna dis immortalibus habenda est atque huic
-							ipsi Iovi Statori, antiquissimo custodi huius urbis, gratia, quod hanc
-							tam taetram, tam horribilem<note>
+							iam diutius non potes; non feram, non patiar, non sinam.</p>
+					</div>
+					<div type="textpart" subtype="section" n="11">
+						<p>Magna dis immortalibus habenda est atque huic ipsi Iovi Statori,
+							antiquissimo custodi huius urbis, gratia, quod hanc tam taetram, tam horribilem<note>
 								<app>
 									<lem>horribilem</lem>
 								</app> terribilem <hi rend="italics">V</hi> (<hi rend="italics"
@@ -480,10 +468,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							voluisti, compressi conatus tuos nefarios amicorum praesidio et copiis
 							nullo tumultu publice concitato; denique, quotienscumque me petisti, per
 							me tibi obstiti, quamquam videbam perniciem meam cum magna calamitate
-							rei publicae esse coniunctam.</p></div> 
-							
-							<div type="textpart" subtype="section" n="12">
-							<p><reg>nunc</reg> iam aperte rem publicam universam petis, templa deorum
+							rei publicae esse coniunctam.</p>
+					</div>
+					<div type="textpart" subtype="section" n="12">
+						<p><reg>nunc</reg> iam aperte rem publicam universam petis, templa deorum
 							immortalium, tecta urbis, vitam omnium civium, Italiam<note>Italiam
 									<foreign xml:lang="grc">α</foreign>: Italiam denique <hi
 									rend="italics">h<foreign xml:lang="grc">αβγ</foreign>
@@ -499,14 +487,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							iussero, residebit in re publica reliqua coniuratorum manus; sin tu,
 							quod te iam dudum hortor, exieris, exhaurietur ex urbe tuorum
 								comitum<note>tuorum comitum <hi rend="italics">del. Halm</hi>
-							</note> magna et perniciosa sentina rei publicae.
-								
-					<milestone unit="chapter" n="6"/>
-						
-							<reg>quid</reg> est, Catilina?</p></div> 
-							
-							<div type="textpart" subtype="section" n="13"><p>num
-							dubitas id me imperante facere quod iam tua sponte faciebas?
+							</note> magna et perniciosa sentina rei publicae. <milestone
+								unit="chapter" n="6"/>
+							<reg>quid</reg> est, Catilina?</p>
+					</div>
+					<div type="textpart" subtype="section" n="13">
+						<p>num dubitas id me imperante facere quod iam tua sponte faciebas?
 								<reg>exire</reg> ex urbe iubet consul hostem. <reg>interrogas</reg>
 							me, num in exsilium? <reg>non</reg> iubeo, sed, si me consulis, suadeo.
 								<reg>quid</reg> est enim, Catilina, quod te iam in hac urbe
@@ -526,10 +512,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							flagitium a toto corpore afuit<note>afuit <hi rend="italics">V</hi>:
 								abfuit <hi rend="italics">cett.</hi>
 							</note>? cui tu adulescentulo quem corruptelarum inlecebris inretisses
-							non aut ad audaciam ferrum aut ad libidinem facem praetulisti?</p></div>
-								
-								<div type="textpart" subtype="section" n="14">
-							<p><reg>quid</reg> vero? nuper cum morte superioris uxoris novis nuptiis
+							non aut ad audaciam ferrum aut ad libidinem facem praetulisti?</p>
+					</div>
+					<div type="textpart" subtype="section" n="14">
+						<p><reg>quid</reg> vero? nuper cum morte superioris uxoris novis nuptiis
 								locum<note>locum <foreign xml:lang="grc">α</foreign>
 								<hi rend="italics">h</hi>: domum <foreign xml:lang="grc"
 									>αβγ</foreign>
@@ -551,10 +537,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note> senties: ad illa venio quae non ad privatam ignominiam vitiorum
 							tuorum, non ad domesticam tuam<note>tuam <hi rend="italics">om. AV</hi>
 							</note> difficultatem ac turpitudinem, sed ad summam rem publicam atque
-							ad omnium nostrum vitam salutemque pertinent.</p></div> 
-									
-						<div type="textpart" subtype="section" n="15">
-							<p><reg>potestne</reg> tibi haec lux, Catilina, aut huius caeli spiritus
+							ad omnium nostrum vitam salutemque pertinent.</p>
+					</div>
+					<div type="textpart" subtype="section" n="15">
+						<p><reg>potestne</reg> tibi haec lux, Catilina, aut huius caeli spiritus
 							esse iucundus, cum scias esse horum<note>horum esse <hi rend="italics"
 									>h</hi>: horum <hi rend="italics">ot</hi>
 							</note> neminem qui nesciat<note>
@@ -582,14 +568,16 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note>, nihil adsequeris<note>adsequeris <hi rend="italics">AV</hi>:
 								adsequeris, nihil moliris <hi rend="italics">cett.</hi> (<hi
 									rend="italics">cf.</hi> § 8)</note>, neque tamen conari ac velle
-							desistis.  </p></div>
-				
-					<div type="textpart" subtype="section" n="16"><p><reg>quotiens</reg>
-						<note>quotiens <foreign xml:lang="grc">α</foreign>
-							<hi rend="italics">h</hi>: quotiens vero <hi rend="italics"
-								>cett.</hi>
-						</note> iam tibi<note>tibi iam <hi rend="italics">ah</hi>
-						</note> extorta est ista sica de manibus, quotiens excidit casu aliquo et elapsa est!<note>
+							desistis. </p>
+					</div>
+					<div type="textpart" subtype="section" n="16">
+						<p><reg>quotiens</reg>
+							<note>quotiens <foreign xml:lang="grc">α</foreign>
+								<hi rend="italics">h</hi>: quotiens vero <hi rend="italics"
+									>cett.</hi>
+							</note> iam tibi<note>tibi iam <hi rend="italics">ah</hi>
+							</note> extorta est ista sica de manibus, quotiens excidit casu aliquo
+							et elapsa est!<note>
 								<app>
 									<lem>elapsa est</lem>
 								</app> tamen ea carere diutius non potes <hi rend="italics">add.
@@ -601,8 +589,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									<lem>ac</lem>
 								</app> aut (ut <hi rend="italics">V</hi>) <hi rend="italics">AV</hi>
 							</note> devota sit nescio, quod eam necesse putas esse in consulis
-							corpore defigere. 
-					<milestone unit="chapter" n="7"/>
+							corpore defigere. <milestone unit="chapter" n="7"/>
 							<reg>nunc</reg> vero quae tua est ista vita? <reg>sic</reg> enim iam
 							tecum loquar, non ut odio permotus esse videar, quo debeo, sed ut
 							misericordia, quae tibi nulla debetur. <reg>venisti</reg> paulo ante in
@@ -617,10 +604,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							animo tibi<note>tibi <foreign xml:lang="grc">α</foreign>
 								<hi rend="italics">h</hi>: hoc tibi <foreign xml:lang="grc"
 									>αβγ</foreign>
-							</note> ferendum putas?</p></div> 
-							
-							<div type="textpart" subtype="section" n="17">
-							<p><reg>servi</reg> mehercule mei si me isto pacto metuerent ut te metuunt
+							</note> ferendum putas?</p>
+					</div>
+					<div type="textpart" subtype="section" n="17">
+						<p><reg>servi</reg> mehercule mei si me isto pacto metuerent ut te metuunt
 							omnes cives tui, domum meam relinquendam putarem: tu tibi urbem non
 								arbitraris<note>arbitrare <hi rend="italics">V</hi>: arbitraris. e.
 									<hi rend="italics">A</hi>
@@ -649,10 +636,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								nihil <hi rend="italics">t</hi>: diu nihil de te <hi rend="italics"
 									>cett.</hi>
 							</note> iudicat nisi de parricidio suo cogitare: huius tu neque
-							auctoritatem verebere nec iudicium sequere nec vim pertimesces?</p></div>
-								
-								<div type="textpart" subtype="section" n="18">
-							<p><reg>quae</reg> tecum, Catilina, sic agit<note>
+							auctoritatem verebere nec iudicium sequere nec vim pertimesces?</p>
+					</div>
+					<div type="textpart" subtype="section" n="18">
+						<p><reg>quae</reg> tecum, Catilina, sic agit<note>
 								<app>
 									<lem>agit</lem>
 								</app> ait <hi rend="italics">ahlou</hi>
@@ -672,12 +659,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							videri contra me consilium iniri posse quod a tuo scelere abhorreat, non
 							est ferendum. <reg>quam</reg> ob rem discede atque hunc mihi timorem
 							eripe; si est verus, ne opprimar, sin falsus, ut tandem aliquando timere
-							desinam.’</p> 
+							desinam.’</p>
 					</div>
-					
 					<milestone unit="chapter" n="8"/>
-							<div type="textpart" subtype="section" n="19">
-							<p><reg>haec</reg> si tecum, ut<note>
+					<div type="textpart" subtype="section" n="19">
+						<p><reg>haec</reg> si tecum, ut<note>
 								<app>
 									<lem>ut</lem>
 								</app> ita ut <hi rend="italics">aho2</hi>
@@ -717,12 +703,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							quam longe videtur a carcere atque a vinculis abesse debere qui se
 								ipse<note>ipse <foreign xml:lang="grc">α</foreign>: ipsum <hi
 									rend="italics">cett.</hi>
-							</note> iam dignum custodia iudicarit?</p></div> 
-								
-								<div type="textpart" subtype="section" n="20">
-							<p><reg>quae</reg> cum ita sint, Catilina, dubitas, si emori aequo animo non potes, abire in
-							aliquas terras et vitam istam multis suppliciis iustis debitisque
-							ereptam fugae solitudinique mandare? <milestone unit="para"
+							</note> iam dignum custodia iudicarit?</p>
+					</div>
+					<div type="textpart" subtype="section" n="20">
+						<p><reg>quae</reg> cum ita sint, Catilina, dubitas, si emori aequo animo non
+							potes, abire in aliquas terras et vitam istam multis suppliciis iustis
+							debitisque ereptam fugae solitudinique mandare? <milestone unit="para"
 								/>‘<reg>refer</reg>’ inquis ‘ad senatum’; id enim postulas et, si
 							hic ordo placere sibi<note>placere sibi <hi rend="italics">CAV</hi>: <hi
 									rend="italics">om.</hi> sibi <hi rend="italics">a</hi>: sibi
@@ -740,10 +726,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								Catilina <hi rend="italics">cett.</hi>
 							</note> animadvertis horum silentium? <reg>patiuntur</reg>, tacent.
 								<reg>quid</reg> exspectas auctoritatem loquentium, quorum voluntatem
-							tacitorum perspicis?</p></div> 
-							
-							<div type="textpart" subtype="section" n="21">
-							<p><reg>at</reg>
+							tacitorum perspicis?</p>
+					</div>
+					<div type="textpart" subtype="section" n="21">
+						<p><reg>at</reg>
 							<note>at <hi rend="italics">ao2</hi>: ac <hi rend="italics">cett.</hi>
 							</note> si hoc idem huic adulescenti optimo <choice>
 								<abbr>P.</abbr>
@@ -777,9 +763,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note> iam pridem studes relinquentem usque ad portas prosequantur.
 						</p>
 					</div>
-					
-					<milestone unit="para"/><milestone unit="chapter" n="9"/>
-							<div type="textpart" subtype="section" n="22">
+					<milestone unit="para"/>
+					<milestone unit="chapter" n="9"/>
+					<div type="textpart" subtype="section" n="22">
 						<p>
 							<reg>quamquam</reg> quid loquor? te ut ulla res frangat, tu ut umquam te
 							corrigas, tu ut ullam fugam meditere, tu ut ullum<note>ullum <hi
@@ -809,10 +795,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									rend="italics">Quintil.</hi>
 							</note> a turpitudine aut metus a periculo aut ratio a furore
 								revocarit<note>revocaverit <hi rend="italics">Vhou et Quintil.</hi>
-							</note>.</p></div> 
-							
-							<div type="textpart" subtype="section" n="23">
-							<p><reg>quam</reg> ob rem, ut saepe iam dixi, proficiscere ac, si mihi
+							</note>.</p>
+					</div>
+					<div type="textpart" subtype="section" n="23">
+						<p><reg>quam</reg> ob rem, ut saepe iam dixi, proficiscere ac, si mihi
 							inimico, ut praedicas, tuo conflare vis invidiam, recta<note>recta
 									<foreign xml:lang="grc">α</foreign>
 								<hi rend="italics">u</hi>: rectam <foreign xml:lang="grc"
@@ -830,10 +816,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							exsulta impio latrocinio, ut a me non eiectus ad alienos, sed invitatus
 							ad tuos isse<note>isse <foreign xml:lang="grc">α</foreign>
 								<hi rend="italics">ho2</hi>: esse <hi rend="italics">cett.</hi>
-							</note> videaris.</p></div> 
-								
-								<div type="textpart" subtype="section" n="24">
-							<p><reg>quamquam</reg> quid ego te invitem, a quo iam sciam esse praemissos
+							</note> videaris.</p>
+					</div>
+					<div type="textpart" subtype="section" n="24">
+						<p><reg>quamquam</reg> quid ego te invitem, a quo iam sciam esse praemissos
 							qui tibi ad forum Aurelium praestolarentur armati, cui<note>cui <hi
 									rend="italics">Gulielmius</hi>: cum (cum sciam iam <hi
 									rend="italics">a</hi>) <hi rend="italics">mei</hi>: cui iam <hi
@@ -855,20 +841,19 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							cuius altaribus saepe istam impiam dexteram ad necem civium
 							transtulisti? </p>
 					</div>
-					
 					<milestone unit="chapter" n="10"/>
-							<div type="textpart" subtype="section" n="25">
-							<p><reg>ibis</reg> tandem aliquando quo te iam pridem tua ista<note>ista
-								tua <hi rend="italics">absh</hi>
+					<div type="textpart" subtype="section" n="25">
+						<p><reg>ibis</reg> tandem aliquando quo te iam pridem tua ista<note>ista tua
+									<hi rend="italics">absh</hi>
 							</note> cupiditas effrenata ac furiosa rapiebat; neque enim tibi haec
 							res adfert dolorem, sed quandam incredibilem voluptatem. <reg>ad</reg>
 							hanc te amentiam natura peperit, voluntas exercuit, fortuna servavit.
 								<reg>numquam</reg> tu non modo otium sed ne bellum quidem nisi
 							nefarium concupisti. <reg>nactus</reg> es ex perditis atque ab omni non
-							modo fortuna verum etiam spe derelictis conflatam improborum manum.</p></div>
-								
-								<div type="textpart" subtype="section" n="26">
-							<p><reg>hic</reg> tu qua laetitia perfruere, quibus gaudiis exsultabis,
+							modo fortuna verum etiam spe derelictis conflatam improborum manum.</p>
+					</div>
+					<div type="textpart" subtype="section" n="26">
+						<p><reg>hic</reg> tu qua laetitia perfruere, quibus gaudiis exsultabis,
 							quanta in voluptate bacchabere, cum in tanto numero tuorum neque audies
 							virum bonum quemquam neque videbis!<note>
 								<hi rend="italics">post</hi> videbis <hi rend="italics">add. K</hi>
@@ -884,14 +869,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								patient. <hi rend="italics">o, post</hi> illam <hi rend="italics"
 									>cett.</hi>
 							</note> illam praeclaram patientiam famis, frigoris, inopiae rerum
-							omnium quibus te brevi tempore confectum esse senties.</p></div> 
-									
-									<div type="textpart" subtype="section" n="27">
-							<p><reg>tantum</reg> profeci<note>profeci tum cum a: profectum cum <hi rend="italics"
-									>Diomedes K.</hi> i. 392 (<hi rend="italics">contra Charis.
-									K.</hi> i. 226, <hi rend="italics">Dosith. K.</hi> vii.
-								419)</note>, cum te a consulatu reppuli, ut exsul potius temptare
-							quam consul vexare rem publicam posses, atque ut id quod esset<note>
+							omnium quibus te brevi tempore confectum esse senties.</p>
+					</div>
+					<div type="textpart" subtype="section" n="27">
+						<p><reg>tantum</reg> profeci<note>profeci tum cum a: profectum cum <hi
+									rend="italics">Diomedes K.</hi> i. 392 (<hi rend="italics"
+									>contra Charis. K.</hi> i. 226, <hi rend="italics">Dosith.
+									K.</hi> vii. 419)</note>, cum te a consulatu reppuli, ut exsul
+							potius temptare quam consul vexare rem publicam posses, atque ut id quod esset<note>
 								<app>
 									<lem>esset</lem>
 								</app> est <hi rend="italics">Vbs</hi>
@@ -926,10 +911,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note> hunc in vincla<note>vincla <foreign xml:lang="grc">α</foreign>:
 								vincula <hi rend="italics">cett.</hi>
 							</note> duci, non ad mortem rapi, non summo supplicio mactari imperabis?
-								<reg>quid</reg> tandem te impedit? mosne maiorum?</p></div> 
-							
-							<div type="textpart" subtype="section" n="28">
-							<p><reg>at</reg> persaepe etiam privati in hac re publica perniciosos civis
+								<reg>quid</reg> tandem te impedit? mosne maiorum?</p>
+					</div>
+					<div type="textpart" subtype="section" n="28">
+						<p><reg>at</reg> persaepe etiam privati in hac re publica perniciosos civis
 							morte multarunt. <reg>an</reg> leges quae de civium Romanorum supplicio
 							rogatae sunt? <reg>at</reg> numquam in hac urbe qui<note>qui <foreign
 									xml:lang="grc">α</foreign>: ii (hi) qui <hi rend="italics"
@@ -941,9 +926,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note> gratiam qui te, hominem per te cognitum, nulla commendatione
 							maiorum tam mature ad summum imperium per omnis honorum gradus extulit,
 							si propter invidiam aut alicuius periculi metum salutem civium tuorum
-							neglegis.</p></div> 
-							
-							<div type="textpart" subtype="section" n="29"><p>
+							neglegis.</p>
+					</div>
+					<div type="textpart" subtype="section" n="29">
+						<p>
 							<reg>sed</reg> si quis est invidiae metus, non<note>non <hi
 									rend="italics">codd. mei</hi>: num <hi rend="italics">pauci
 									dett.</hi>
@@ -973,9 +959,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									xml:lang="grc">α</foreign>
 								<hi rend="italics">h</hi>: semper fui <foreign xml:lang="grc"
 									>αβγ</foreign>
-							</note> ut invidiam virtute partam gloriam, non invidiam putarem.</p></div>
-								
-							<div type="textpart" subtype="section" n="30"><p>
+							</note> ut invidiam virtute partam gloriam, non invidiam putarem.</p>
+					</div>
+					<div type="textpart" subtype="section" n="30">
+						<p>
 							<reg>quamquam</reg> non nulli sunt in hoc ordine qui aut ea quae
 							imminent non videant aut ea quae vident<note>vident <hi rend="italics"
 									>C1</hi>: <hi rend="italics">fort.</hi> vident...
@@ -1004,11 +991,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							haec tam adulta rei publicae pestis verum etiam stirps ac semen malorum
 							omnium. </p>
 					</div>
-					
-				<milestone unit="chapter" n="13"/>
-							
-							<div type="textpart" subtype="section" n="31">
-							<p><reg>etenim</reg> iam diu, patres conscripti, in his periculis
+					<milestone unit="chapter" n="13"/>
+					<div type="textpart" subtype="section" n="31">
+						<p><reg>etenim</reg> iam diu, patres conscripti, in his periculis
 							coniurationis insidiisque versamur, sed nescio quo pacto omnium scelerum
 							ac veteris furoris et audaciae maturitas in nostri consulatus tempus
 							erupit. <reg>nunc</reg>
@@ -1027,12 +1012,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							poena vehementius reliquis vivis ingravescet<note>ingravescit <foreign
 									xml:lang="grc">αβ</foreign>
 								<hi rend="italics">ux</hi>
-							</note>.</p></div> 
-								
-								<div type="textpart" subtype="section" n="32">
-							<p><reg>qua</reg> re secedant improbi, secernant se a bonis, unum in locum congregentur, muro
-							denique, quod<note>quod <foreign xml:lang="grc">α</foreign>: id quod <hi
-									rend="italics">cett.</hi>
+							</note>.</p>
+					</div>
+					<div type="textpart" subtype="section" n="32">
+						<p><reg>qua</reg> re secedant improbi, secernant se a bonis, unum in locum
+							congregentur, muro denique, quod<note>quod <foreign xml:lang="grc"
+									>α</foreign>: id quod <hi rend="italics">cett.</hi>
 							</note> saepe iam dixi, secernantur<note>discernantur <foreign
 									xml:lang="grc">αβ</foreign>
 								<hi rend="italics">ux</hi>
@@ -1049,10 +1034,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							tantam in nobis consulibus fore diligentiam, tantam in vobis
 							auctoritatem, tantam in equitibus Romanis virtutem, tantam in omnibus
 							bonis consensionem ut Catilinae profectione omnia patefacta, inlustrata,
-							oppressa, vindicata esse videatis.</p></div> 
-									
-					<milestone unit="para"/><div type="textpart" subtype="section" n="33">
-						
+							oppressa, vindicata esse videatis.</p>
+					</div>
+					<milestone unit="para"/>
+					<div type="textpart" subtype="section" n="33">
 						<p>
 							<reg>hisce</reg> ominibus<note>ominibus <hi rend="italics">Paris.</hi>
 								15138 <hi rend="italics">in mg.</hi>: omnibus <hi rend="italics"
@@ -1081,14 +1066,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							aeternis suppliciis vivos mortuosque mactabis. </p>
 					</div>
 				</div>
-				
-								
-								<div type="textpart" subtype="speech" n="2">
+				<div type="textpart" subtype="speech" n="2">
 					<head>IN L. CATILINAM ORATIO SECVNDA HABITA AD POPVLVM</head>
-									<milestone unit="para"/><milestone unit="chapter" n="1"/>
-
-
-						<div type="textpart" subtype="section" n="1">
+					<milestone unit="para"/>
+					<milestone unit="chapter" n="1"/>
+					<div type="textpart" subtype="section" n="1">
 						<p>
 							<reg>tandem</reg> aliquando, Quirites, <choice>
 								<abbr>L.</abbr>
@@ -1119,10 +1101,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									rend="italics">Abx</hi>
 							</note> geremus. <reg>sine</reg> dubio perdidimus hominem magnificeque
 							vicimus, cum illum ex occultis insidiis in apertum latrocinium
-							coniecimus.</p></div> 
-							
-							<div type="textpart" subtype="section" n="2">
-							<p><reg>quod</reg> vero non cruentum mucronem, ut voluit, extulit, quod
+							coniecimus.</p>
+					</div>
+					<div type="textpart" subtype="section" n="2">
+						<p><reg>quod</reg> vero non cruentum mucronem, ut voluit, extulit, quod
 							vivis nobis egressus est, quod ei ferrum e manibus extorsimus, quod
 							incolumis civis, quod stantem urbem reliquit, quanto tandem illum
 							maerore esse adflictum et profligatum putatis? <reg>iacet</reg> ille
@@ -1138,8 +1120,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									>cett.</hi>
 							</note> videtur, quod tantam pestem evomuerit forasque proiecerit. </p>
 					</div>
-					
-									<milestone unit="para"/><milestone unit="chapter" n="2"/>
+					<milestone unit="para"/>
+					<milestone unit="chapter" n="2"/>
 					<div type="textpart" subtype="section" n="3">
 						<p>
 							<reg>ac</reg> si quis est talis qualis esse omnis oportebat, qui in hoc
@@ -1167,10 +1149,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								<abbr>L.</abbr>
 								<expan>L<ex>ucium</ex></expan>
 							</choice> Catilinam non modo invidiae meae verum etiam vitae periculo
-							sustulissem.</p></div> 
-							
-							<div type="textpart" subtype="section" n="4">
-							<p><reg>sed</reg> cum viderem, ne vobis quidem omnibus<note>ne vobis quidem
+							sustulissem.</p>
+					</div>
+					<div type="textpart" subtype="section" n="4">
+						<p><reg>sed</reg> cum viderem, ne vobis quidem omnibus<note>ne vobis quidem
 								omnibus <hi rend="italics">a</hi>: rem quidem omnibus vobis <hi
 									rend="italics">CAV</hi>: re quid ne vobis omnibus <hi
 									rend="italics">h</hi>: ne vobis quidem omnibus re <foreign
@@ -1203,9 +1185,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							popina nullum rei publicae motum adferre poterat: reliquit quos viros,
 							quanto aere alieno, quam valentis, quam nobilis! </p>
 					</div>
-									
 					<milestone unit="chapter" n="3"/>
-							<div type="textpart" subtype="section" n="5"><p>
+					<div type="textpart" subtype="section" n="5">
+						<p>
 							<reg>itaque</reg> ego illum exercitum prae<note>
 								<app>
 									<lem>prae</lem>
@@ -1230,9 +1212,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							nobis quam hos qui exercitum deseruerunt pertimescendos.
 								<reg>atque</reg> hoc etiam sunt timendi magis quod quid
 								cogitent<note>cogitant a</note> me scire sentiunt neque tamen
-							permoventur.</p></div> 
-								
-								<div type="textpart" subtype="section" n="6"><p>
+							permoventur.</p>
+					</div>
+					<div type="textpart" subtype="section" n="6">
+						<p>
 							<reg>video</reg> cui sit Apulia attributa, quis habeat Etruriam, quis
 							agrum Picenum, quis Gallicum, quis sibi has urbanas insidias caedis
 							atque incendiorum depoposcerit. <reg>omnia</reg> superioris noctis
@@ -1243,8 +1226,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 										xml:lang="grc">α</foreign>
 								</hi>
 							</note> quid exspectant? <reg>ne</reg> illi vehementer errant, si illam
-							meam pristinam lenitatem perpetuam sperant futuram. 			
-									<milestone unit="para"/><milestone unit="chapter" n="4"/>
+							meam pristinam lenitatem perpetuam sperant futuram. <milestone
+								unit="para"/><milestone unit="chapter" n="4"/>
 							<reg>quod</reg> exspectavi, iam sum adsecutus ut vos omnes factam esse
 							aperte coniurationem contra rem publicam videretis; nisi vero si<note>si
 									<hi rend="italics">del. Madvig</hi>
@@ -1256,11 +1239,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note> locus; severitatem res ipsa flagitat. <reg>unum</reg> etiam nunc
 							concedam: exeant, proficiscantur, ne patiantur desiderio sui Catilinam
 							miserum tabescere. <reg>demonstrabo</reg> iter: Aurelia via profectus
-							est; si accelerare volent, ad vesperam consequentur.</p></div> 
-							
-							<div type="textpart" subtype="section" n="7">
-								<p>O fortunatam rem publicam, si quidem hanc sentinam
-								urbis<note>urbis <foreign xml:lang="grc">α</foreign>
+							est; si accelerare volent, ad vesperam consequentur.</p>
+					</div>
+					<div type="textpart" subtype="section" n="7">
+						<p>O fortunatam rem publicam, si quidem hanc sentinam urbis<note>urbis
+									<foreign xml:lang="grc">α</foreign>
 								<hi rend="italics">h</hi>: huius urbis <hi rend="italics">l</hi>
 								<foreign xml:lang="grc">αγ</foreign>: urbis huius <hi rend="italics"
 									>bs</hi>
@@ -1275,9 +1258,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							ganeo, quis nepos, quis adulter, quae mulier infamis, quis corruptor
 							iuventutis, quis corruptus, quis perditus inveniri potest qui se cum
 							Catilina non familiarissime vixisse fateatur? quae caedes per hosce
-							annos sine illo facta est, quod nefarium stuprum non per illum?</p></div>
-								
-								<div type="textpart" subtype="section" n="8"><p>
+							annos sine illo facta est, quod nefarium stuprum non per illum?</p>
+					</div>
+					<div type="textpart" subtype="section" n="8">
+						<p>
 							<reg>iam</reg> vero quae tanta umquam in ullo<note>ullo <hi
 									rend="italics">
 									<foreign xml:lang="grc">α</foreign>h</hi>: ullo homine <foreign
@@ -1294,10 +1278,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note> in angulo totius Italiae oppressus aere alieno fuit quem non ad
 							hoc incredibile sceleris foedus asciverit. </p>
 					</div>
-					
-									<milestone unit="chapter" n="5"/>
-							
-							<div type="textpart" subtype="section" n="9"><p>
+					<milestone unit="chapter" n="5"/>
+					<div type="textpart" subtype="section" n="9">
+						<p>
 							<reg>atque</reg> ut eius diversa studia in dissimili ratione perspicere
 							possitis, nemo est in ludo gladiatorio paulo ad facinus audacior qui se
 							non intimum Catilinae esse fateatur<note>esse fateatur <hi
@@ -1310,10 +1293,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									<foreign xml:lang="grc">α</foreign>
 								<hi rend="italics">ho</hi>2: consumerentur <hi rend="italics"
 									>cett.</hi>
-							</note>.</p></div> 
-								
-								<div type="textpart" subtype="section" n="10">
-							<p><reg>hunc</reg> vero si secuti erunt sui comites, si ex urbe exierint
+							</note>.</p>
+					</div>
+					<div type="textpart" subtype="section" n="10">
+						<p><reg>hunc</reg> vero si secuti erunt sui comites, si ex urbe exierint
 							desperatorum hominum flagitiosi greges, o nos beatos, o rem publicam
 							fortunatum, o praeclaram laudem consulatus mei! <reg>non</reg> enim iam
 							sunt mediocres hominum libidines, non humanae et<note>et <foreign
@@ -1343,9 +1326,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								<foreign xml:lang="grc">αβ</foreign>
 							</note> accubantes in conviviis, complexi mulieres impudicas, vino
 							languidi, conferti cibo, sertis redimiti, unguentis obliti, debilitati
-							stupris eructant sermonibus suis caedem bonorum atque urbis incendia.</p></div>
-								
-									<div type="textpart" subtype="section" n="11"><p>
+							stupris eructant sermonibus suis caedem bonorum atque urbis
+							incendia.</p>
+					</div>
+					<div type="textpart" subtype="section" n="11">
+						<p>
 							<reg>quibus</reg> ego confido impendere fatum aliquod et poenam iam diu
 							improbitati, nequitiae, sceleri, libidini debitam aut instare iam plane
 							aut certe appropinquare. <reg>quos</reg> si meus consulatus, quoniam
@@ -1370,9 +1355,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								</app> in eadem <hi rend="italics">AVo</hi>
 							</note> mente permanent, ea quae merentur exspectent. </p>
 					</div>
-									
-									<milestone unit="para"/><milestone unit="chapter" n="6"/>
-							<div type="textpart" subtype="section" n="12">
+					<milestone unit="para"/>
+					<milestone unit="chapter" n="6"/>
+					<div type="textpart" subtype="section" n="12">
 						<p>
 							<reg>at</reg> etiam sunt qui dicant, Quirites<note>Quirites <hi
 									rend="italics">om. <foreign xml:lang="grc">α</foreign>h</hi>
@@ -1399,12 +1384,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							Catilina venisset, quis eum senator appellavit, quis salutavit, quis
 							denique ita aspexit ut perditum civem ac non potius ut importunissimum
 							hostem? <reg>quin</reg> etiam principes eius ordinis partem illam
-							subselliorum ad quam ille accesserat nudam atque inanem reliquerunt.</p></div>
-								
-							
-							<div type="textpart" subtype="section" n="13">
-							<p><reg>hic</reg> ego vehemens ille consul qui verbo civis in exsilium
-							eicio quaesivi a Catilina in<note>
+							subselliorum ad quam ille accesserat nudam atque inanem reliquerunt.</p>
+					</div>
+					<div type="textpart" subtype="section" n="13">
+						<p><reg>hic</reg> ego vehemens ille consul qui verbo civis in exsilium eicio
+							quaesivi a Catilina in<note>
 								<app>
 									<lem>in</lem>
 								</app> an <foreign xml:lang="grc">α</foreign>
@@ -1427,9 +1411,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									>x</hi>: scelerum <hi rend="italics">post</hi> sacr. <hi
 									rend="italics">add. <foreign xml:lang="grc">α</foreign>hot,
 									ante</hi> sacr. <foreign xml:lang="grc">αβ</foreign>
-							</note> domi suae fecerat scirem esse praemissam.</p></div> 
-								
-								<div type="textpart" subtype="section" n="14"><p>
+							</note> domi suae fecerat scirem esse praemissam.</p>
+					</div>
+					<div type="textpart" subtype="section" n="14">
+						<p>
 							<reg>in</reg> exsilium eiciebam quem iam ingressum esse in bellum
 								videram<note>videram <hi rend="italics">AV</hi>: videbam <hi
 									rend="italics">cett. et Diomedes K.</hi> i. 470</note>?
@@ -1438,10 +1423,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							castra nunc non Catilinam ducem exspectant, et ille eiectus in exsilium
 							se Massiliam, ut aiunt, non in haec castra confert<note>confert <hi
 									rend="italics">AVb</hi>: conferet <hi rend="italics">cett.</hi>
-							</note>. 	
-					<milestone unit="chapter" n="7"/>
-						O condicionem miseram non modo administrandae verum etiam conservandae
-							rei publicae! <reg>nunc</reg> si <choice>
+							</note>. <milestone unit="chapter" n="7"/> O condicionem miseram non
+							modo administrandae verum etiam conservandae rei publicae!
+								<reg>nunc</reg> si <choice>
 								<abbr>L.</abbr>
 								<expan>L<ex>ucius</ex></expan>
 							</choice> Catilina consiliis, laboribus, periculis meis circumclusus ac
@@ -1465,10 +1449,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								</app> timidum <foreign xml:lang="grc">αβ</foreign>
 								<hi rend="italics">hx</hi> (<hi rend="italics">contra Priscian.
 									K.</hi> iii. 246)</note>, me non diligentissimum consulem sed
-							crudelissimum tyrannum existimari velint!</p></div> 
-							
-							<div type="textpart" subtype="section" n="15">
-							<p><reg>est</reg> mihi tanti, Quirites, huius invidiae falsae atque iniquae
+							crudelissimum tyrannum existimari velint!</p>
+					</div>
+					<div type="textpart" subtype="section" n="15">
+						<p><reg>est</reg> mihi tanti, Quirites, huius invidiae falsae atque iniquae
 							tempestatem subire, dum modo a vobis huius horribilis belli ac nefarii
 							periculum depellatur. <reg>dicatur</reg> sane eiectus esse a me, dum
 							modo eat in exsilium. <reg>sed</reg> mihi credite, non est iturus.
@@ -1485,9 +1469,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									rend="italics">om. CAV</hi>
 							</note> quam quod eiecerim. <reg>sed</reg> cum sint homines qui illum,
 							cum profectus sit, eiectum esse dicant, idem, si interfectus esset, quid
-							dicerent? </p></div>
-									
-									<div type="textpart" subtype="section" n="16"><p>
+							dicerent? </p>
+					</div>
+					<div type="textpart" subtype="section" n="16">
+						<p>
 							<reg>quamquam</reg> isti qui Catilinam Massiliam ire dictitant non tam
 							hoc queruntur quam verentur. <reg>nemo</reg> est istorum tam misericors
 							qui illum non ad Manlium quam ad Massiliensis ire malit. <reg>ille</reg>
@@ -1497,9 +1482,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							acciderit, nisi quod vivis nobis Roma profectus est, optemus potius ut
 							eat in exsilium quam queramur. </p>
 					</div>
-				
-									<milestone unit="para"/><milestone unit="chapter" n="8"/>
-							<div type="textpart" subtype="section" n="17">
+					<milestone unit="para"/>
+					<milestone unit="chapter" n="8"/>
+					<div type="textpart" subtype="section" n="17">
 						<p>
 							<reg>sed</reg> cur tam diu de uno hoste loquimur et de eo hoste qui iam
 							fatetur se esse hostem, et quem<note>quem <foreign xml:lang="grc"
@@ -1519,22 +1504,23 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									>αβγ</foreign>
 							</note>, intellego. <reg>exponam</reg> enim vobis, Quirites, ex quibus
 							generibus hominum istae copiae comparentur; deinde singulis medicinam
-							consili atque orationis meae, si quam potero, adferam.</p></div> 
-							
-							<div type="textpart" subtype="section" n="18"><p>Vnum genus est eorum qui magno in aere alieno
-							maiores etiam possessiones habent quarum amore adducti dissolvi nullo
-							modo possunt. Horum hominum species est honestissima — sunt enim
-							locupletes — voluntas vero et causa impudentissima. <reg>tu</reg> agris,
-							tu aedificiis, tu argento, tu familia, tu rebus omnibus ornatus et
-							copiosus sis, et dubites de possessione detrahere, adquirere ad fidem?
-								<reg>quid</reg> enim exspectas? bellum? <reg>quid</reg> ergo? in
-							vastatione omnium tuas possessiones sacrosanctas futuras
-								putes<note>putes <foreign xml:lang="grc">α</foreign>(<hi
-									rend="italics">C1</hi>)<hi rend="italics">h</hi>: putas <hi
-									rend="italics">cett.</hi> (<hi rend="italics">C2</hi>)</note>?
-							an tabulas novas? <reg>errant</reg> qui istas a Catilina exspectant: meo
-							beneficio tabulae novae proferuntur<note>proferentur <foreign
-									xml:lang="grc">αγ</foreign>
+							consili atque orationis meae, si quam potero, adferam.</p>
+					</div>
+					<div type="textpart" subtype="section" n="18">
+						<p>Vnum genus est eorum qui magno in aere alieno maiores etiam possessiones
+							habent quarum amore adducti dissolvi nullo modo possunt. Horum hominum
+							species est honestissima — sunt enim locupletes — voluntas vero et causa
+							impudentissima. <reg>tu</reg> agris, tu aedificiis, tu argento, tu
+							familia, tu rebus omnibus ornatus et copiosus sis, et dubites de
+							possessione detrahere, adquirere ad fidem? <reg>quid</reg> enim
+							exspectas? bellum? <reg>quid</reg> ergo? in vastatione omnium tuas
+							possessiones sacrosanctas futuras putes<note>putes <foreign
+									xml:lang="grc">α</foreign>(<hi rend="italics">C1</hi>)<hi
+									rend="italics">h</hi>: putas <hi rend="italics">cett.</hi> (<hi
+									rend="italics">C2</hi>)</note>? an tabulas novas?
+								<reg>errant</reg> qui istas a Catilina exspectant: meo beneficio
+							tabulae novae proferuntur<note>proferentur <foreign xml:lang="grc"
+									>αγ</foreign>
 							</note>, verum auctionariae; neque enim isti qui possessiones habent
 							alia ratione ulla salvi esse possunt. <reg>quod</reg> si maturius facere
 							voluissent neque, id quod stultissimum est, certare cum usuris fructibus
@@ -1543,9 +1529,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							deduci de sententia possunt aut, si permanebunt, magis mihi videntur
 							vota facturi contra rem publicam quam arma laturi. </p>
 					</div>
-			
 					<milestone unit="chapter" n="9"/>
-							<div type="textpart" subtype="section" n="19"><p>
+					<div type="textpart" subtype="section" n="19">
+						<p>
 							<reg>alterum</reg> genus est eorum qui, quamquam premuntur aere alieno,
 							dominationem tamen exspectant, rerum potiri volunt, honores quos quieta
 							re publica desperant perturbata se consequi<note>se consequi <foreign
@@ -1580,11 +1566,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note> aut dictatores aut etiam reges sperant futuros? <reg>non</reg>
 							vident id se cupere quod, si adepti sint, fugitivo alicui aut gladiatori
 							concedi sit<note>sit concedi <foreign xml:lang="grc">α</foreign>
-							</note> necesse?</p></div> 
-								
-								<div type="textpart" subtype="section" n="20"><p>Tertium genus est
-							aetate iam adfectum, sed tamen exercitatione robustum; quo ex genere
-							iste est<note>iste est <foreign xml:lang="grc">α</foreign>
+							</note> necesse?</p>
+					</div>
+					<div type="textpart" subtype="section" n="20">
+						<p>Tertium genus est aetate iam adfectum, sed tamen exercitatione robustum;
+							quo ex genere iste est<note>iste est <foreign xml:lang="grc">α</foreign>
 								<hi rend="italics">h</hi>: est ipse <hi rend="italics">cett.</hi>
 							</note> Manlius cui nunc Catilina succedit. <reg>hi</reg>
 							<note>hi <hi rend="italics">om. <foreign xml:lang="grc"
@@ -1624,9 +1610,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							ut iam ista non modo homines sed ne pecudes quidem mihi passurae esse
 							videantur. </p>
 					</div>
-									
 					<milestone unit="chapter" n="10"/>
-							<div type="textpart" subtype="section" n="21"><p>
+					<div type="textpart" subtype="section" n="21">
+						<p>
 							<reg>quartum</reg> genus est sane varium et mixtum et turbulentum; qui
 							iam pridem premuntur, qui numquam emergunt, qui partim inertia, partim
 							male gerendo negotio, partim etiam sumptibus in vetere aere alieno
@@ -1646,12 +1632,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							intellego quam ob rem, si vivere honeste non possunt, perire turpiter
 							velint, aut cur minore dolore perituros se cum multis quam si soli
 								pereant<note>pereunt <hi rend="italics">ah</hi>
-							</note> arbitrentur.</p></div> 
-								
-								<div type="textpart" subtype="section" n="22"><p>Quintum genus est
-							parricidarum, sicariorum, denique omnium facinerosorum. <reg>quos</reg>
-							ego a Catilina non revoco; nam neque ab eo divelli<note>divelli ab eo
-									<foreign xml:lang="grc">αβγ</foreign>
+							</note> arbitrentur.</p>
+					</div>
+					<div type="textpart" subtype="section" n="22">
+						<p>Quintum genus est parricidarum, sicariorum, denique omnium facinerosorum.
+								<reg>quos</reg> ego a Catilina non revoco; nam neque ab eo
+								divelli<note>divelli ab eo <foreign xml:lang="grc">αβγ</foreign>
 							</note> possunt et pereant sane in latrocinio, quoniam sunt ita multi ut
 							eos carcer capere non possit. <reg>postremum</reg> autem genus est non
 							solum numero verum etiam genere ipso atque vita quod proprium Catilinae
@@ -1662,9 +1648,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									<lem>vitae</lem>
 								</app> vita <foreign xml:lang="grc">α</foreign>
 								<hi rend="italics">h</hi>
-							</note> et vigilandi labor in antelucanis cenis expromitur.</p></div> 
-									
-									<div type="textpart" subtype="section" n="23"><p>
+							</note> et vigilandi labor in antelucanis cenis expromitur.</p>
+					</div>
+					<div type="textpart" subtype="section" n="23">
+						<p>
 							<reg>in</reg> his gregibus omnes aleatores, omnes adulteri, omnes impuri
 							impudicique versantur. <reg>hi</reg> pueri tam lepidi ac delicati non
 							solum amare et amari neque saltare et cantare sed etiam sicas vibrare et
@@ -1675,10 +1662,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								<reg>quem</reg> ad modum autem illis carere poterunt, his praesertim
 							iam noctibus? <reg>quo</reg> autem pacto illi Appenninum atque illas
 							pruinas ac nivis perferent? nisi idcirco se facilius hiemem toleraturos
-							putant, quod nudi in conviviis saltare didicerunt.</p> 
+							putant, quod nudi in conviviis saltare didicerunt.</p>
 					</div>
-									<milestone unit="para"/><milestone unit="chapter" n="11"/>
-							<div type="textpart" subtype="section" n="24">
+					<milestone unit="para"/>
+					<milestone unit="chapter" n="11"/>
+					<div type="textpart" subtype="section" n="24">
 						<p>O bellum magno opere pertimescendum, cum hanc sit habiturus Catilina
 							scortorum cohortem praetoriam! <reg>instruite</reg> nunc, Quirites,
 							contra has tam praeclaras Catilinae copias vestra praesidia vestrosque
@@ -1692,9 +1680,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									rend="italics">Garatoni</hi>
 							</note> coloniarum ac municipiorum respondebunt Catilinae tumulis
 							silvestribus. <reg>neque</reg> ego ceteras copias, ornamenta, praesidia
-							vestra cum illius latronis inopia atque egestate conferre debeo.</p></div>
-								
-							<div type="textpart" subtype="section" n="25"><p>
+							vestra cum illius latronis inopia atque egestate conferre debeo.</p>
+					</div>
+					<div type="textpart" subtype="section" n="25">
+						<p>
 							<reg>sed</reg> si, omissis his rebus<note>rebus omnibus <foreign
 									xml:lang="grc">αγ</foreign>
 							</note> quibus nos suppeditamur, eget ille, senatu, equitibus Romanis<note>
@@ -1726,10 +1715,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note> hominum studia deficiant, di ipsi immortales cogant ab his
 							praeclarissimis virtutibus tot et tanta vitia superari? </p>
 					</div>
-					
-									<milestone unit="chapter" n="12"/>
-							<div type="textpart" subtype="section" n="26">
-							<p><reg>quae</reg> cum ita sint, Quirites, vos, quem ad modum iam antea dixi<note>
+					<milestone unit="chapter" n="12"/>
+					<div type="textpart" subtype="section" n="26">
+						<p><reg>quae</reg> cum ita sint, Quirites, vos, quem ad modum iam antea dixi<note>
 								<app>
 									<lem>antea dixi</lem>
 								</app> ante <hi rend="italics">cod. Mureti</hi>
@@ -1759,13 +1747,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									rend="italics">oux</hi>
 							</note> motus conatusque prohibebit. <reg>reliquis</reg> autem de rebus
 							constituendis, maturandis, agendis iam ad senatum referemus, quem vocari
-							videtis.</p> </div>
-								
-								<milestone unit="para"/><div type="textpart" subtype="section" n="27">
-						<p><reg>nunc</reg> illos qui in urbe remanserunt atque adeo qui contra
-							urbis salutem omniumque vestrum in urbe a Catilina relicti sunt,
-							quamquam sunt hostes, tamen, quia nati<note>nati <hi rend="italics">om.
-										a<foreign xml:lang="grc">αβ</foreign>
+							videtis.</p>
+					</div>
+					<milestone unit="para"/>
+					<div type="textpart" subtype="section" n="27">
+						<p><reg>nunc</reg> illos qui in urbe remanserunt atque adeo qui contra urbis
+							salutem omniumque vestrum in urbe a Catilina relicti sunt, quamquam sunt
+							hostes, tamen, quia nati<note>nati <hi rend="italics">om. a<foreign
+										xml:lang="grc">αβ</foreign>
 								</hi> (<hi rend="italics">contra Claud. Sac. K.</hi> vi. 445)</note>
 							sunt cives, monitos<note>monitos eos <hi rend="italics">h<foreign
 										xml:lang="grc">αγ</foreign>
@@ -1793,9 +1782,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							carcerem quem vindicem nefariorum ac manifestorum scelerum maiores
 							nostri esse voluerunt. </p>
 					</div>
-								
-								<milestone unit="para"/><milestone unit="chapter" n="13"/>
-							<div type="textpart" subtype="section" n="28">
+					<milestone unit="para"/>
+					<milestone unit="chapter" n="13"/>
+					<div type="textpart" subtype="section" n="28">
 						<p>
 							<reg>atque</reg> haec omnia sic agentur<note>agentur <foreign
 									xml:lang="grc">α</foreign>
@@ -1813,9 +1802,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								videretur <foreign xml:lang="grc">α</foreign>
 								<hi rend="italics">ot</hi>
 							</note>, ut neque bonus quisquam intereat paucorumque poena vos omnes
-							salvi esse possitis. </p></div>
-							
-							<div type="textpart" subtype="section" n="29"><p>
+							salvi esse possitis. </p>
+					</div>
+					<div type="textpart" subtype="section" n="29">
+						<p>
 							<reg>quae</reg> quidem ego neque mea prudentia neque humanis consiliis
 							fretus polliceor vobis, Quirites, sed multis et non dubiis deorum
 							immortalium significationibus, quibus ego ducibus in hanc spem
@@ -1833,22 +1823,21 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							superatis a perditissimorum civium nefario scelere defendant. </p>
 					</div>
 				</div>
-									
 				<div type="textpart" subtype="speech" n="3">
 					<head>IN L. CATILINAM ORATIO TERTIA HABITA AD POPVLVM</head>
-
-					<milestone unit="para"/><milestone unit="chapter" n="1"/>
-						<div type="textpart" subtype="section" n="1">
+					<milestone unit="para"/>
+					<milestone unit="chapter" n="1"/>
+					<div type="textpart" subtype="section" n="1">
 						<p>
 							<reg>rem</reg> publicam, Quirites, vitamque omnium vestrum, bona,
 							fortunas, coniuges liberosque vestros atque hoc domicilium clarissimi
 							imperi, fortunatissimam pulcherrimamque urbem, hodierno die deorum
 							immortalium summo erga vos amore, laboribus, consiliis, periculis meis e
 							flamma atque ferro ac paene ex faucibus fati ereptam et vobis
-							conservatam ac restitutam videtis.</p></div> 
-							
-							<div type="textpart" subtype="section" n="2">
-							<p><reg>et</reg> si non minus nobis iucundi atque inlustres sunt ei dies
+							conservatam ac restitutam videtis.</p>
+					</div>
+					<div type="textpart" subtype="section" n="2">
+						<p><reg>et</reg> si non minus nobis iucundi atque inlustres sunt ei dies
 							quibus conservamur quam illi quibus nascimur, quod salutis certa
 							laetitia est, nascendi incerta condicio et quod sine sensu nascimur, cum
 							voluptate servamur, profecto, quoniam illum qui hanc urbem condidit ad
@@ -1860,9 +1849,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								(retu-) <foreign xml:lang="grc">α</foreign>
 								<hi rend="italics">x</hi>: retrosimus <hi rend="italics">h</hi>:
 								retrudimus <hi rend="italics">bstou</hi>
-							</note> mucronesque eorum a iugulis vestris deiecimus.</p></div> 
-								
-								<div type="textpart" subtype="section" n="3"><p>
+							</note> mucronesque eorum a iugulis vestris deiecimus.</p>
+					</div>
+					<div type="textpart" subtype="section" n="3">
+						<p>
 							<reg>quae</reg> quoniam in senatu inlustrata, patefacta, comperta sunt
 							per me, vobis iam exponam breviter<note>breviter <foreign xml:lang="grc"
 									>α</foreign>
@@ -1874,14 +1864,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								et<note>qui et <foreign xml:lang="grc">α</foreign>
 								<hi rend="italics">bu</hi>: et qui <hi rend="italics">h</hi>: qui
 									<hi rend="italics">cett.</hi>
-							</note> ignoratis et exspectatis scire possitis. 
-					<milestone unit="para"/>
+							</note> ignoratis et exspectatis scire possitis. <milestone unit="para"/>
 							<reg>principio</reg>, ut Catilina paucis ante diebus erupit ex urbe, cum
 							sceleris sui socios huiusce nefarii belli acerrimos duces Romae
 							reliquisset, semper vigilavi et providi, Quirites, quem ad modum in
-							tantis et tam absconditis insidiis salvi esse possemus. 
-					
-					<milestone unit="chapter" n="2"/>
+							tantis et tam absconditis insidiis salvi esse possemus. <milestone
+								unit="chapter" n="2"/>
 							<reg>nam</reg> tum cum ex urbe Catilinam eiciebam — non enim iam vereor
 							huius verbi invidiam, cum illa magis sit timenda, quod vivus exierit — ,
 							sed tum cum illum exterminari volebam, aut reliquam coniuratorum manum
@@ -1891,10 +1879,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								</app> remansissent <hi rend="italics">h<foreign xml:lang="grc"
 										>αγ</foreign>
 								</hi>
-							</note> infirmos sine illo ac debilis fore putabam.</p></div> 
-							
-							<div type="textpart" subtype="section" n="4">
-							<p><reg>atque</reg> ego, ut<note>ut <hi rend="italics">bs<foreign
+							</note> infirmos sine illo ac debilis fore putabam.</p>
+					</div>
+					<div type="textpart" subtype="section" n="4">
+						<p><reg>atque</reg> ego, ut<note>ut <hi rend="italics">bs<foreign
 										xml:lang="grc">αγ</foreign>
 								</hi>: <hi rend="italics">om. ahl</hi>
 							</note> vidi, quos maximo furore et scelere esse inflammatos sciebam,
@@ -1929,9 +1917,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									>hx</hi>: ut toa <hi rend="italics">cett.</hi> (<hi
 									rend="italics">cf. Madvig ad Fin.</hi> iii. 43, <hi
 									rend="italics">Ac.</hi> ii. 48. 139)</note> res non solum a me
-							sed etiam a senatu et a vobis manifesto deprenderetur.</p></div> 
-								
-								<div type="textpart" subtype="section" n="5"><p>
+							sed etiam a senatu et a vobis manifesto deprenderetur.</p>
+					</div>
+					<div type="textpart" subtype="section" n="5">
+						<p>
 							<reg>itaque</reg> hesterno die <choice>
 								<abbr>L.</abbr>
 								<expan>L<ex>ucium</ex></expan>
@@ -1955,9 +1944,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								(r.) p. praesidio <hi rend="italics">AV<foreign xml:lang="grc"
 										>αβ</foreign>ho</hi>: re publica, praesidio <hi
 									rend="italics">Muretus</hi>
-							</note> cum gladiis miseram.</p></div> 
-									
-									<div type="textpart" subtype="section" n="6"><p>
+							</note> cum gladiis miseram.</p>
+					</div>
+					<div type="textpart" subtype="section" n="6">
+						<p>
 							<reg>interim</reg> tertia fere vigilia exacta, cum iam pontem Mulvium
 							magno comitatu legati Allobroges<note>Allobroges <foreign xml:lang="grc"
 									>α</foreign>
@@ -1969,8 +1959,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									>sup. lin. hab. l., om. h<foreign xml:lang="grc">αγ</foreign>
 								</hi>
 							</note> et ab illis gladii et a nostris. <reg>res</reg> praetoribus erat
-							nota solis, ignorabatur a ceteris. 
-					<milestone unit="chapter" n="3"/>
+							nota solis, ignorabatur a ceteris. <milestone unit="chapter" n="3"/>
 							<reg>tum</reg> interventu Pomptini atque Flacci pugna quae erat
 								commissa<note>quac erat commissa <hi rend="italics">del. Halm cum
 									duobus dett.</hi>
@@ -1987,10 +1976,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note>; tardissime autem Lentulus<note>P. Lentulus <hi rend="italics"
 									>Eberhard</hi>
 							</note> venit, credo quod in litteris dandis praeter consuetudinem
-							proxima nocte vigilarat.</p></div> 
-							
-							<div type="textpart" subtype="section" n="7">
-							<p><reg>cum</reg> summis et clarissimis huius civitatis viris qui audita re
+							proxima nocte vigilarat.</p>
+					</div>
+					<div type="textpart" subtype="section" n="7">
+						<p><reg>cum</reg> summis et clarissimis huius civitatis viris qui audita re
 							frequentes ad me mane convenerant litteras a me prius aperiri quam ad
 							senatum deferri<note>
 								<app>
@@ -2002,10 +1991,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								<reg>etenim</reg>, Quirites, si ea quae erant ad me delata reperta
 							non essent, tamen ego non arbitrabar in tantis rei publicae periculis
 							esse mihi nimiam diligentiam pertimescendam. <reg>senatum</reg>
-							frequentem celeriter, ut vidistis, coegi.</p></div> 
-								
-								<div type="textpart" subtype="section" n="8">
-							<p><reg>atque</reg> interea statim admonitu Allobrogum <choice>
+							frequentem celeriter, ut vidistis, coegi.</p>
+					</div>
+					<div type="textpart" subtype="section" n="8">
+						<p><reg>atque</reg> interea statim admonitu Allobrogum <choice>
 								<abbr>C.</abbr>
 								<expan>G<ex>aium</ex></expan>
 							</choice> Sulpicium praetorem, fortem virum, misi qui ex aedibus Cethegi
@@ -2016,8 +2005,7 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								</app> gladiorum <hi rend="italics">Aa<foreign xml:lang="grc"
 										>αβ</foreign>
 								</hi>
-							</note> extulit. 
-					<milestone unit="chapter" n="4"/>
+							</note> extulit. <milestone unit="chapter" n="4"/>
 							<reg>introduxi</reg> Volturcium sine Gallis; fidem<note>fidem ei <hi
 									rend="italics">h<foreign xml:lang="grc">αγ</foreign>
 								</hi>
@@ -2032,10 +2020,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								descriptum<note>discriptum <hi rend="italics">Kayser</hi>
 							</note> distributumque erat incendissent caedemque infinitam civium
 							fecissent, praesto esset ille qui et fugientis exciperet et se cum his
-							urbanis ducibus coniungeret.</p></div> 
-							
-							<div type="textpart" subtype="section" n="9">
-							<p><reg>introducti</reg> autem Galli ius iurandum sibi et litteras a <choice>
+							urbanis ducibus coniungeret.</p>
+					</div>
+					<div type="textpart" subtype="section" n="9">
+						<p><reg>introducti</reg> autem Galli ius iurandum sibi et litteras a <choice>
 								<abbr>P.</abbr>
 								<expan>P<ex>ublio</ex></expan>
 							</choice>
@@ -2062,13 +2050,13 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							fatalem hunc annum<note>esse annum <hi rend="italics">bstux</hi>
 							</note> esse ad interitum huius urbis atque imperi qui esset annus
 							decimus post virginum absolutionem, post Capitoli autem incensionem
-							vicesimus.</p></div> 
-								
-								<div type="textpart" subtype="section" n="10">
-							<p><reg>hanc</reg> autem Cethego cum ceteris controversiam fuisse dixerunt quod Lentulo et
-							aliis Saturnalibus caedem fieri atque urbem incendi placeret, Cethego
-							nimium id longum videretur<note>videretur <hi rend="italics">tx</hi>:
-								videri <hi rend="italics">cett.</hi>
+							vicesimus.</p>
+					</div>
+					<div type="textpart" subtype="section" n="10">
+						<p><reg>hanc</reg> autem Cethego cum ceteris controversiam fuisse dixerunt
+							quod Lentulo et aliis Saturnalibus caedem fieri atque urbem incendi
+							placeret, Cethego nimium id longum videretur<note>videretur <hi
+									rend="italics">tx</hi>: videri <hi rend="italics">cett.</hi>
 							</note>. <milestone unit="chapter" n="5"/>
 							<reg>ac</reg> ne longum sit, Quirites, tabellas proferri iussimus quae a
 							quoque dicebantur datae. <reg>primo</reg>
@@ -2104,10 +2092,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								quidem<note>quidem <hi rend="italics">om. Votx, ante</hi> notum <hi
 									rend="italics">hab. h</hi>1</note> signum, imago avi tui,
 							clarissimi viri, qui amavit unice patriam et civis suos; quae quidem te
-							a tanto scelere etiam muta revocare debuit.’</p></div> 
-							
-							<div type="textpart" subtype="section" n="11">
-							<p><reg>leguntur</reg> eadem ratione ad senatum Allobrogum populumque
+							a tanto scelere etiam muta revocare debuit.’</p>
+					</div>
+					<div type="textpart" subtype="section" n="11">
+						<p><reg>leguntur</reg> eadem ratione ad senatum Allobrogum populumque
 							litterae. <reg>si</reg> quid de his rebus dicere vellet, feci
 							potestatem. <reg>atque</reg> ille primo quidem negavit; post autem
 							aliquanto, toto iam indicio exposito atque edito, surrexit, quaesivit a
@@ -2121,12 +2109,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							infitiari, repente praeter opinionem omnium confessus est.
 								<reg>ita</reg> eum non modo ingenium illud et dicendi exercitatio
 							qua semper valuit sed etiam propter vim sceleris manifesti atque
-							deprehensi impudentia qua superabat omnis improbitasque defecit.</p></div>
-								
-							<div type="textpart" subtype="section" n="12"><p>Volturcius vero subito litteras proferri atque aperiri iubet quas sibi a Lentulo ad Catilinam
-							datas esse dicebat. <reg>atque</reg> ibi vehementissime perturbatus
-							Lentulus tamen et signum et manum suam cognovit. <reg>erant</reg>
-								autem<note>autem scriptae <hi rend="italics">htux</hi>
+							deprehensi impudentia qua superabat omnis improbitasque defecit.</p>
+					</div>
+					<div type="textpart" subtype="section" n="12">
+						<p>Volturcius vero subito litteras proferri atque aperiri iubet quas sibi a
+							Lentulo ad Catilinam datas esse dicebat. <reg>atque</reg> ibi
+							vehementissime perturbatus Lentulus tamen et signum et manum suam
+							cognovit. <reg>erant</reg> autem<note>autem scriptae <hi rend="italics"
+									>htux</hi>
 							</note> sine nomine, sed ita: ‘<reg>quis</reg>
 							<note>quis <hi rend="italics">abho</hi>: qui <hi rend="italics"
 									>cett.</hi>
@@ -2138,19 +2128,18 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note> tibi iam sit necesse et cura ut omnium tibi auxilia adiungas,
 							etiam infimorum.’ Gabinius deinde introductus, cum primo impudenter
 							respondere coepisset, ad extremum nihil ex eis quae Galli insimulabant
-							negavit.</p></div> 
-								
-								<div type="textpart" subtype="section" n="13"><p><reg>ac</reg> mihi quidem,
-								Quirites, cum illa certissima visa sunt argumenta atque indicia
-							sceleris, tabellae, signa, manus, denique unius cuiusque confessio, tum
-							multo certiora illa, color, oculi, voltus, taciturnitas. <reg>sic</reg>
-							enim obstupuerant, sic terram intuebantur, sic furtim non numquam inter
-							sese aspiciebant ut non iam ab aliis indicari<note>
+							negavit.</p>
+					</div>
+					<div type="textpart" subtype="section" n="13">
+						<p><reg>ac</reg> mihi quidem, Quirites, cum illa certissima visa sunt
+							argumenta atque indicia sceleris, tabellae, signa, manus, denique unius
+							cuiusque confessio, tum multo certiora illa, color, oculi, voltus,
+							taciturnitas. <reg>sic</reg> enim obstupuerant, sic terram intuebantur,
+							sic furtim non numquam inter sese aspiciebant ut non iam ab aliis indicari<note>
 								<app>
 									<lem>indicare se ipsi</lem>
 								</app> ipsi a se <hi rend="italics">tux</hi>
-							</note> sed indicare se ipsi viderentur. 
-					<milestone unit="chapter" n="6"/>
+							</note> sed indicare se ipsi viderentur. <milestone unit="chapter" n="6"/>
 							<reg>indiciis</reg> expositis atque editis, Quirites<note>Quirites <hi
 									rend="italics">om. ao</hi>
 							</note>, senatum consului de summa re publica<note>
@@ -2161,10 +2150,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note> quid fieri placeret. Dictae sunt a principibus acerrimae ac
 							fortissimae sententiae, quas senatus sine ulla varietate est secutus.
 								<reg>et</reg> quoniam nondum est perscriptum senatus consultum, ex
-							memoria vobis, Quirites, quid senatus censuerit exponam.</p></div> 
-							
-							<div type="textpart" subtype="section" n="14">
-							<p><reg>primum</reg> mihi gratiae verbis amplissimis aguntur, quod virtute,
+							memoria vobis, Quirites, quid senatus censuerit exponam.</p>
+					</div>
+					<div type="textpart" subtype="section" n="14">
+						<p><reg>primum</reg> mihi gratiae verbis amplissimis aguntur, quod virtute,
 							consilio, providentia mea res publica maximis periculis sit liberata.
 								<reg>deinde</reg>
 							<choice>
@@ -2228,9 +2217,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							perductos esse constabat. <reg>atque</reg> ea lenitate senatus est usus,
 							Quirites, ut ex tanta coniuratione tantaque hac multitudine domesticorum
 							hostium novem hominum perditissimorum poena re publica conservata
-							reliquorum mentis sanari posse arbitraretur.</p></div> 
-								
-								<div type="textpart" subtype="section" n="15"><p>
+							reliquorum mentis sanari posse arbitraretur.</p>
+					</div>
+					<div type="textpart" subtype="section" n="15">
+						<p>
 							<reg>atque</reg> etiam supplicatio dis immortalibus pro singulari eorum
 							merito meo nomine decreta est, quod mihi primum post hanc urbem conditam
 							togato contigit, et his decreta verbis est<note>est, Quirites, quod <hi
@@ -2267,9 +2257,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								<expan>P<ex>ublio</ex></expan>
 							</choice> Lentulo puniendo liberaremur. </p>
 					</div>
-					
-					<milestone unit="para"/><milestone unit="chapter" n="7"/>
-							<div type="textpart" subtype="section" n="16">
+					<milestone unit="para"/>
+					<milestone unit="chapter" n="7"/>
+					<div type="textpart" subtype="section" n="16">
 						<p>
 							<reg>nunc</reg> quoniam, Quirites, consceleratissimi periculosissimique
 							belli nefarios duces captos iam et comprehensos tenetis, existimare
@@ -2307,9 +2297,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							ad certas res conficiendas certos homines delectos ac descriptos
 							habebat. <reg>neque</reg> vero, cum aliquid mandarat, confectum putabat:
 							nihil erat quod non ipse obiret, occurreret, vigilaret, laboraret;
-							frigus, sitim, famem ferre poterat.</p></div> 
-							
-							<div type="textpart" subtype="section" n="17"><p>
+							frigus, sitim, famem ferre poterat.</p>
+					</div>
+					<div type="textpart" subtype="section" n="17">
+						<p>
 							<reg>hunc</reg> ego hominem tam acrem, tam audacem, tam paratum, tam
 							callidum, tam in scelere vigilantem, tam in perditis rebus diligentem
 							nisi ex domesticis insidiis in castrense latrocinium compulissem — dicam
@@ -2344,9 +2335,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note> ille in urbe hostis esset, tantis periculis rem publicam tanta
 							pace, tanto otio, tanto silentio liberassemus. </p>
 					</div>
-					
-					<milestone unit="para"/><milestone unit="chapter" n="8"/>
-							<div type="textpart" subtype="section" n="18">				
+					<milestone unit="para"/>
+					<milestone unit="chapter" n="8"/>
+					<div type="textpart" subtype="section" n="18">
 						<p><reg>quamquam</reg> haec omnia, Quirites, ita sunt a me administrata ut
 							deorum immortalium nutu atque<note>nutu atque <hi rend="italics"
 									>om.</hi>
@@ -2380,10 +2371,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									rend="italics">l<foreign xml:lang="grc">αγ</foreign>
 								</hi>: <hi rend="italics">om. cett.</hi>
 							</note>, quod sum dicturus neque praetermittendum neque relinquendum
-							est.</p></div> 
-							
-							<div type="textpart" subtype="section" n="19">
-							<p><reg>nam</reg> profecto memoria tenetis Cotta et Torquato consulibus
+							est.</p>
+					</div>
+					<div type="textpart" subtype="section" n="19">
+						<p><reg>nam</reg> profecto memoria tenetis Cotta et Torquato consulibus
 							compluris in<note>in <hi rend="italics">tux</hi>: inde <hi
 									rend="italics">o</hi>: de <hi rend="italics">cett.</hi>
 							</note> Capitolio res de caelo esse percussas, cum et<note>cum et <hi
@@ -2402,9 +2393,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							Etruria convenissent, caedis atque incendia et legum interitum et bellum
 							civile ac domesticum et totius urbis atque imperi occasum appropinquare
 							dixerunt, nisi di immortales omni ratione placati suo numine prope fata
-							ipsa flexissent.</p></div> 
-								
-								<div type="textpart" subtype="section" n="20"><p>
+							ipsa flexissent.</p>
+					</div>
+					<div type="textpart" subtype="section" n="20">
+						<p>
 							<reg>itaque</reg> illorum responsis tum et ludi per decem dies facti
 							sunt neque res ulla quae ad placandos deos pertineret praetermissa est.
 								<reg>idemque</reg> iusserunt simulacrum Iovis facere maius et in
@@ -2427,22 +2419,20 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									>x</hi>: collocaverunt <foreign xml:lang="grc">αβ</foreign>
 								<hi rend="italics">h</hi>: statuerunt <hi rend="italics">otu</hi>
 							</note>; sed tanta fuit operis tarditas ut neque superioribus consulibus
-							neque nobis ante hodiernum diem conlocaretur. </p></div>
-									
+							neque nobis ante hodiernum diem conlocaretur. </p>
+					</div>
 					<milestone unit="chapter" n="9"/>
 					<div type="textpart" subtype="section" n="21">
-							<p><reg>hic</reg> quis<note>quis <hi rend="italics">h</hi>
+						<p><reg>hic</reg> quis<note>quis <hi rend="italics">h</hi>
 								<foreign xml:lang="grc">αγ</foreign>: qui <foreign xml:lang="grc"
 									>αβ</foreign>
 							</note> potest esse<note>esse <foreign xml:lang="grc">α</foreign>
 								<hi rend="italics">h, Priscian. K.</hi> iii. 277: esse, Quirites
 									<foreign xml:lang="grc">αβγ</foreign>
-							</note> tam aversus a vero,
-							tam
-							praeceps, tam mente captus qui neget haec omnia quae videmus
-							praecipueque hanc urbem deorum immortalium nutu ac potestate
-							administrari? <reg>etenim</reg> cum esset ita responsum, caedis,
-							incendia, interitum rei publicae comparari, et ea per civis<note>
+							</note> tam aversus a vero, tam praeceps, tam mente captus qui neget
+							haec omnia quae videmus praecipueque hanc urbem deorum immortalium nutu
+							ac potestate administrari? <reg>etenim</reg> cum esset ita responsum,
+							caedis, incendia, interitum rei publicae comparari, et ea per civis<note>
 								<app>
 									<lem>per civis</lem>
 								</app> a perditis civibus <foreign xml:lang="grc">αγ</foreign> 29 eo
@@ -2467,9 +2457,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								<foreign xml:lang="grc">αβ</foreign>
 							</note> omnium cogitata<note>cogitata <hi rend="italics">post</hi> erant
 									<hi rend="italics">hab. bs</hi>
-							</note> inlustrata et patefacta vidistis.</p></div> 
-						
-						<div type="textpart" subtype="section" n="22"><p>
+							</note> inlustrata et patefacta vidistis.</p>
+					</div>
+					<div type="textpart" subtype="section" n="22">
+						<p>
 							<reg>quo</reg> etiam maiore sunt isti odio supplicioque digni qui non
 							solum vestris domiciliis atque tectis sed etiam deorum templis atque
 							delubris sunt funestos ac nefarios ignis inferre conati.
@@ -2500,10 +2491,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note>, id non divinitus esse factum putatis, praesertim qui nos non
 							pugnando sed tacendo superare potuerunt<note>potuerint <hi
 									rend="italics">Madvig</hi> (<hi rend="italics">sed cf. Zielinski
-									p.</hi> 202)</note>? </p></div>
-					
-					<milestone unit="para"/><milestone unit="chapter" n="10"/>
-							<div type="textpart" subtype="section" n="23">
+									p.</hi> 202)</note>? </p>
+					</div>
+					<milestone unit="para"/>
+					<milestone unit="chapter" n="10"/>
+					<div type="textpart" subtype="section" n="23">
 						<p>
 							<reg>quam</reg> ob rem, Quirites, quoniam ad omnia pulvinaria
 							supplicatio decreta est, celebratote illos dies cum coniugibus ac
@@ -2515,12 +2507,12 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									om.</hi>
 								<foreign xml:lang="grc">αβ</foreign>
 							</note> sine caede, sine sanguine, sine exercitu, sine dimicatione;
-							togati me uno togato duce et imperatore vicistis.</p></div> 
-							
-							<div type="textpart" subtype="section" n="24"><p><reg>etenim</reg>
-								recordamini, Quirites, omnis civilis
-							dissensiones, non solum eas quas audistis sed eas quas vosmet ipsi
-							meministis atque vidistis. <choice>
+							togati me uno togato duce et imperatore vicistis.</p>
+					</div>
+					<div type="textpart" subtype="section" n="24">
+						<p><reg>etenim</reg> recordamini, Quirites, omnis civilis dissensiones, non
+							solum eas quas audistis sed eas quas vosmet ipsi meministis atque
+							vidistis. <choice>
 								<abbr>L.</abbr>
 								<expan>L<ex>ucius</ex></expan>
 							</choice> Sulla <choice>
@@ -2558,10 +2550,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								<abbr>Q.</abbr>
 								<expan>Q<ex>uinto</ex></expan>
 							</choice> Catulo: attulit non tam ipsius interitus rei publicae luctum
-							quam ceterorum.</p></div>
-								
-								<div type="textpart" subtype="section" n="25">
-							<p><del>
+							quam ceterorum.</p>
+					</div>
+					<div type="textpart" subtype="section" n="25">
+						<p><del>
 								<reg>atque</reg> illae tamen omnes</del>
 							<note>atque... omnes <hi rend="italics">seclusi</hi> (tamen omnes <hi
 									rend="italics">om. x</hi>)</note> dissensiones erant eius modi
@@ -2591,10 +2583,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									<foreign xml:lang="grc">αβ</foreign>
 							</note> servavi. </p>
 					</div>
-					
 					<milestone unit="chapter" n="11"/>
-				
-							<div type="textpart" subtype="section" n="26"><p>
+					<div type="textpart" subtype="section" n="26">
+						<p>
 							<reg>quibus</reg> pro tantis rebus, Quirites<note>Quirites <hi
 									rend="italics">om. C</hi>1</note>, nullum ego a vobis praemium
 							virtutis, nullum insigne honoris, nullum monumentum laudis
@@ -2625,11 +2616,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									<lem>huius</lem>
 								</app> eiusdem <foreign xml:lang="grc">αβ</foreign>
 								<hi rend="italics">tux</hi>
-							</note> imperi domicilium sedisque servaret.</p> 
+							</note> imperi domicilium sedisque servaret.</p>
 					</div>
-									
 					<milestone unit="chapter" n="12"/>
-							<div type="textpart" subtype="section" n="27"><p>
+					<div type="textpart" subtype="section" n="27">
+						<p>
 							<reg>sed</reg> quoniam earum rerum quas ego gessi non eadem est fortuna
 							atque condicio quae illorum qui externa bella gesserunt, quod mihi cum eis<note>
 								<app>
@@ -2653,10 +2644,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									>Aa</hi>
 								<foreign xml:lang="grc">αβ</foreign>
 								<hi rend="italics">o</hi>: se ipsi <hi rend="italics">cett.</hi>
-							</note> indicabunt. </p></div>
-								
-								<div type="textpart" subtype="section" n="28">
-							<p><reg>est</reg> enim<note>
+							</note> indicabunt. </p>
+					</div>
+					<div type="textpart" subtype="section" n="28">
+						<p><reg>est</reg> enim<note>
 								<app>
 									<lem>enim</lem>
 								</app> etiam <hi rend="italics">tux</hi>
@@ -2675,13 +2666,13 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note> invidiae periculisque omnibus: mihi quidem ipsi quid est quod
 							iam ad vitae fructum possit adquiri, cum praesertim neque in honore
 							vestro neque in gloria virtutis quicquam videam altius quo mihi libeat
-							ascendere?</p></div>  
-									
-									<div type="textpart" subtype="section" n="29">
-										<p><reg>illud</reg> perficiam profecto<note>profecto perficiam <foreign xml:lang="grc">αβ</foreign>
-									</note>, Quirites, ut ea quae gessi in
-							consulatu privatus tuear atque ornem, ut, si qua est invidia in<note>in
-									<hi rend="italics">om.</hi>
+							ascendere?</p>
+					</div>
+					<div type="textpart" subtype="section" n="29">
+						<p><reg>illud</reg> perficiam profecto<note>profecto perficiam <foreign
+									xml:lang="grc">αβ</foreign>
+							</note>, Quirites, ut ea quae gessi in consulatu privatus tuear atque
+							ornem, ut, si qua est invidia in<note>in <hi rend="italics">om.</hi>
 								<foreign xml:lang="grc">αβ</foreign>
 							</note> conservanda re publica suscepta, laedat invidos, mihi valeat ad
 							gloriam. <reg>denique</reg> ita me in re publica tractabo ut meminerim
@@ -2696,15 +2687,14 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note> custodiis vigiliisque defendite. <reg>id</reg> ne vobis diutius
 							faciendum sit atque ut in perpetua pace esse possitis providebo,
 								Quirites<note>Quirites <hi rend="italics">om. abso</hi>
-							</note>.</p> 
+							</note>.</p>
 					</div>
 				</div>
-
 				<div type="textpart" subtype="speech" n="4">
 					<head>IN L. CATILINAM ORATIO QVARTA HABITA IN SENATV</head>
-
-					<milestone unit="para"/><milestone unit="chapter" n="1"/>
-						<div type="textpart" subtype="section" n="1">
+					<milestone unit="para"/>
+					<milestone unit="chapter" n="1"/>
+					<div type="textpart" subtype="section" n="1">
 						<p>
 							<reg>video</reg>, patres conscripti, in me omnium vestrum ora atque
 							oculos esse conversos, video vos non solum de vestro ac rei publicae
@@ -2715,10 +2705,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							condicio consulatus data est ut omnis acerbitates, omnis dolores
 							cruciatusque perferrem, feram non solum fortiter verum etiam libenter,
 							dum modo meis laboribus vobis populoque Romano dignitas salusque
-							pariatur.</p></div> 
-							
-							<div type="textpart" subtype="section" n="2">
-							<p><reg>ego</reg> sum ille consul, patres conscripti, cui non forum in quo
+							pariatur.</p>
+					</div>
+					<div type="textpart" subtype="section" n="2">
+						<p><reg>ego</reg> sum ille consul, patres conscripti, cui non forum in quo
 							omnis aequitas continetur, non campus consularibus auspiciis
 							consecratus, non curia, summum auxilium omnium gentium, non domus,
 							commune perfugium, non lectus ad quietem datus, non denique haec sedes honoris<note>
@@ -2744,9 +2734,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							publicae fore putavit, cur ego non laeter meum consulatum ad salutem
 							populi Romani prope fatalem exstitisse? </p>
 					</div>
-					
 					<milestone unit="chapter" n="2"/>
-							<div type="textpart" subtype="section" n="3"><p>
+					<div type="textpart" subtype="section" n="3">
+						<p>
 							<reg>qua</reg> re, patres conscripti, consulite vobis, prospicite
 							patriae, conservate vos, coniuges, liberos fortunasque vestras, populi
 							Romani nomen salutemque defendite; mihi parcere ac de me cogitare
@@ -2778,10 +2768,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									<lem>quam et</lem>
 								</app>
 								<hi rend="italics">fort.</hi> quam ut et</note> illi et nos una rei
-							publicae peste pereamus.</p></div> 
-								
-								<div type="textpart" subtype="section" n="4">
-							<p><reg>qua</reg> re, patres conscripti, incumbite ad salutem rei publicae,
+							publicae peste pereamus.</p>
+					</div>
+					<div type="textpart" subtype="section" n="4">
+						<p><reg>qua</reg> re, patres conscripti, incumbite ad salutem rei publicae,
 							circumspicite omnis procellas quae impendent nisi providetis.
 								<reg>non</reg>
 							<choice>
@@ -2810,12 +2800,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								tale <hi rend="italics">h</hi>
 							</note> initum consilium ut interfectis omnibus nemo ne ad deplorandum
 							quidem populi Romani nomen atque ad lamentandam tanti imperi calamitatem
-							relinquatur.</p> 
+							relinquatur.</p>
 					</div>
-					
-								<milestone unit="chapter" n="3"/>
-							<div type="textpart" subtype="section" n="5">
-							<p><reg>haec</reg> omnia indices detulerunt, rei confessi sunt, vos multis
+					<milestone unit="chapter" n="3"/>
+					<div type="textpart" subtype="section" n="5">
+						<p><reg>haec</reg> omnia indices detulerunt, rei confessi sunt, vos multis
 							iam iudiciis iudicavistis, primum quod mihi gratias egistis singularibus
 							verbis et mea virtute atque diligentia perditorum hominum coniurationem
 							patefactam esse decrevistis, deinde quod <choice>
@@ -2831,9 +2820,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									rend="italics">A</hi>) <hi rend="italics">Ah</hi>: uti (ut <hi
 									rend="italics">o</hi>) <hi rend="italics">cett.</hi>
 							</note> qui in custodiam nominatim dati sunt sine ulla dubitatione a
-							vobis damnati esse videantur.</p></div> 
-								
-					<milestone unit="para"/><div type="textpart" subtype="section" n="6">
+							vobis damnati esse videantur.</p>
+					</div>
+					<milestone unit="para"/>
+					<div type="textpart" subtype="section" n="6">
 						<p><reg>sed</reg> ego institui referre ad vos, patres conscripti, tamquam integrum<note>
 								<hi rend="italics">fort.</hi> integrum sit et</note>, et de facto
 							quid iudicetis et de poena quid censeatis. <reg>illa</reg> praedicam
@@ -2852,10 +2842,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note> prolatando nullo pacto potest; quacumque ratione placet
 							celeriter vobis vindicandum est. </p>
 					</div>
-								
 					<milestone unit="chapter" n="4"/>
-							<div type="textpart" subtype="section" n="7">
-							<p><reg>video</reg> duas adhuc esse sententias, unam D. Silani qui censet
+					<div type="textpart" subtype="section" n="7">
+						<p><reg>video</reg> duas adhuc esse sententias, unam D. Silani qui censet
 							eos qui haec delere conati sunt morte esse multandos, alteram <choice>
 								<abbr>C.</abbr>
 								<expan>G<ex>aii</ex></expan>
@@ -2882,11 +2871,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note>. <reg>vincula</reg> vero et ea sempiterna certe ad singularem
 							poenam nefarii sceleris inventa sunt. <reg>municipiis</reg> dispertiri
 							iubet. <reg>habere</reg> videtur ista res iniquitatem, si imperare
-							velis, difficultatem, si rogare.</p></div> 
-								
-								<div type="textpart" subtype="section" n="8">
-							<p><reg>decernatur</reg> tamen, si placet. <reg>ego</reg> enim suscipiam
-							et, ut spero, reperiam qui id quod salutis omnium causa statueritis non
+							velis, difficultatem, si rogare.</p>
+					</div>
+					<div type="textpart" subtype="section" n="8">
+						<p><reg>decernatur</reg> tamen, si placet. <reg>ego</reg> enim suscipiam et,
+							ut spero, reperiam qui id quod salutis omnium causa statueritis non
 								putent<note>putent <hi rend="italics">Ernesti</hi>: putet <hi
 									rend="italics">codd.</hi>
 							</note> esse suae dignitatis recusare. <reg>adiungit</reg> gravem poenam
@@ -2913,11 +2902,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									rend="italics">codd.</hi>
 							</note>, apud inferos eius modi quaedam illi antiqui supplicia impiis
 							constituta esse voluerunt, quod videlicet intellegebant his remotis non
-							esse mortem ipsam pertimescendam.</p> 
+							esse mortem ipsam pertimescendam.</p>
 					</div>
-					
-					<milestone unit="para"/><milestone unit="chapter" n="5"/>
-							<div type="textpart" subtype="section" n="9">
+					<milestone unit="para"/>
+					<milestone unit="chapter" n="5"/>
+					<div type="textpart" subtype="section" n="9">
 						<p>
 							<reg>nunc</reg>, patres conscripti, ego mea video quid intersit.
 								<reg>si</reg> eritis secuti sententiam <choice>
@@ -2937,10 +2926,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							maiorum eius amplitudo postulabat, sententiam tamquam obsidem perpetuae
 							in rem publicam voluntatis. <reg>intellectum</reg> est quid interesset
 							inter levitatem contionatorum et animum vere popularem saluti populi
-							consulentem.</p></div> 
-							
-							<div type="textpart" subtype="section" n="10">
-							<p><reg>video</reg> de istis qui se popularis haberi volunt abesse non
+							consulentem.</p>
+					</div>
+					<div type="textpart" subtype="section" n="10">
+						<p><reg>video</reg> de istis qui se popularis haberi volunt abesse non
 							neminem, ne de capite videlicet civium Romanorum sententiam ferat.
 								<reg>is</reg> et<note>
 								<app>
@@ -2981,9 +2970,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							possit. <reg>adiungit</reg> etiam publicationem bonorum, ut omnis animi
 							cruciatus et corporis etiam egestas ac mendicitas consequatur. </p>
 					</div>
-					
-					<milestone unit="para"/><milestone unit="chapter" n="6"/>
-							<div type="textpart" subtype="section" n="11">
+					<milestone unit="para"/>
+					<milestone unit="chapter" n="6"/>
+					<div type="textpart" subtype="section" n="11">
 						<p>
 							<reg>quam</reg> ob rem, sive hoc statueritis, dederitis mihi comitem ad
 							contionem populo carum atque iucundum, sive Silani sententiam sequi
@@ -3019,10 +3008,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									rend="italics">Aah</hi>: sepultam patriam <hi rend="italics"
 									>cett.</hi>
 							</note> miseros atque insepultos acervos civium, versatur mihi ante
-							oculos aspectus Cethegi et furor in vestra caede bacchantis.</p></div> 
-							
-							<div type="textpart" subtype="section" n="12">
-							<p><reg>cum</reg> vero mihi proposui regnantem Lentulum, sicut ipse
+							oculos aspectus Cethegi et furor in vestra caede bacchantis.</p>
+					</div>
+					<div type="textpart" subtype="section" n="12">
+						<p><reg>cum</reg> vero mihi proposui regnantem Lentulum, sicut ipse
 								se<note>se <hi rend="italics">om. ah, post</hi> fatis <hi
 									rend="italics">hab.</hi>
 								<foreign xml:lang="grc">αβ</foreign>
@@ -3067,10 +3056,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								summae<note>summae <hi rend="italics">l</hi>1<foreign xml:lang="grc"
 									>αγ</foreign>: summa <hi rend="italics">cett.</hi>
 							</note> nobis crudelitatis in patriae civiumque pernicie fama subeunda
-							est.</p></div> 
-							
-							<div type="textpart" subtype="section" n="13"><p>
-								Nisi vero cuipiam <choice>
+							est.</p>
+					</div>
+					<div type="textpart" subtype="section" n="13">
+						<p> Nisi vero cuipiam <choice>
 								<abbr>L.</abbr>
 								<expan>L<ex>ucius</ex></expan>
 							</choice> Caesar, vir fortissimus et amantissimus rei publicae,
@@ -3127,10 +3116,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							poenae crudeles in patriam quam ne severitate animadversionis nimis
 							vehementes in acerbissimos hostis fuisse videamur. </p>
 					</div>
-					
-					<milestone unit="para"/><milestone unit="chapter" n="7"/>
-							<div type="textpart" subtype="section" n="14">
-						
+					<milestone unit="para"/>
+					<milestone unit="chapter" n="7"/>
+					<div type="textpart" subtype="section" n="14">
 						<p>
 							<reg>sed</reg> ea quae exaudio, patres conscripti, dissimulare non
 							possum. <reg>iaciuntur</reg> enim voces quae perveniunt ad auris meas
@@ -3162,9 +3150,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									>αβ</foreign>: sentire videmus <hi rend="italics">Nohl</hi> (<hi
 									rend="italics">cf.</hi> § 19)</note> unum atque idem praeter eos
 							qui, cum sibi viderent esse pereundum, cum omnibus potius quam soli
-							perire voluerunt. </p></div>
-							
-							<div type="textpart" subtype="section" n="15"><p>
+							perire voluerunt. </p>
+					</div>
+					<div type="textpart" subtype="section" n="15">
+						<p>
 							<reg>hosce</reg> ego homines excipio et secerno libenter, neque in
 							improborum civium sed in acerbissimorum hostium numero habendos puto.
 								<reg>ceteri</reg> vero, di immortales! qua frequentia, quo studio,
@@ -3179,10 +3168,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							esse venturum. Pari studio defendendae rei publicae convenisse video
 							tribunos aerarios, fortissimos viros; scribas item universos quos, cum
 							casu hic dies ad aerarium frequentasset, video ab exspectatione sortis
-							ad salutem communem esse conversos.</p></div> 
-								
-								
-								<div type="textpart" subtype="section" n="16"><p>
+							ad salutem communem esse conversos.</p>
+					</div>
+					<div type="textpart" subtype="section" n="16">
+						<p>
 							<reg>omnis</reg> ingenuorum adest multitudo, etiam tenuissimorum.
 								<reg>quis</reg> est enim cui non haec templa, aspectus urbis,
 							possessio libertatis, lux denique haec ipsa et<note>
@@ -3193,8 +3182,8 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note> commune patriae solum cum<note>cum <hi rend="italics">ox</hi>:
 								non <hi rend="italics">h</hi> (<hi rend="italics">om.</hi> non <hi
 									rend="italics">post</hi> cui): <hi rend="italics">om. cett.</hi>
-							</note> sit carum tum vero dulce atque iucundum? 
-					<milestone unit="chapter" n="8"/>
+							</note> sit carum tum vero dulce atque iucundum? <milestone
+								unit="chapter" n="8"/>
 							<reg>operae</reg> pretium est, patres conscripti, libertinorum hominum
 							studia cognoscere qui, sua virtute fortunam huius civitatis consecuti, vere<note>
 								<app>
@@ -3241,9 +3230,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									>post</hi> salutem <hi rend="italics">add.</hi>
 								<foreign xml:lang="grc">αβ</foreign>
 								<hi rend="italics">h, ante</hi> salutem <hi rend="italics">x</hi>
-							</note> voluntatis.</p></div> 
-							
-							<div type="textpart" subtype="section" n="17"><p>
+							</note> voluntatis.</p>
+					</div>
+					<div type="textpart" subtype="section" n="17">
+						<p>
 							<reg>qua</reg> re si quem vestrum forte commovet hoc quod auditum est,
 							lenonem quendam Lentuli concursare circum tabernas, pretio sperare
 							sollicitari posse animos egentium atque imperitorum, est id quidem
@@ -3261,13 +3251,13 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							amantissimum est oti. <reg>etenim</reg> omne instrumentum, omnis opera
 							atque quaestus frequentia civium sustentatur, alitur otio; quorum si
 							quaestus occlusis tabernis minui solet, quid tandem incensis futurum
-							fuit? </p></div>
-								
-								<div type="textpart" subtype="section" n="18"><p>
+							fuit? </p>
+					</div>
+					<div type="textpart" subtype="section" n="18">
+						<p>
 							<reg>quae</reg> cum ita sint, patres conscripti, vobis populi Romani
 							praesidia non desunt: vos ne populo Romano deesse videamini providete.
-					
-					<milestone unit="chapter" n="9"/>
+								<milestone unit="chapter" n="9"/>
 							<reg>habetis</reg> consulem ex plurimis periculis et insidiis atque ex
 							media morte non ad vitam suam sed ad salutem vestram reservatum.
 								<reg>omnes</reg> ordines ad conservandam rem publicam mente, voluntate<note>
@@ -3283,9 +3273,11 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 								<reg>praeterea</reg> de vestra vita, de coniugum vestrarum atque
 							liberorum anima, de fortunis omnium<note>omnibus <hi rend="italics"
 									>x</hi>
-							</note>, de sedibus, de focis vestris hodierno die vobis iudicandum est.</p></div>
-								
-									<div type="textpart" subtype="section" n="19"><p>
+							</note>, de sedibus, de focis vestris hodierno die vobis iudicandum
+							est.</p>
+					</div>
+					<div type="textpart" subtype="section" n="19">
+						<p>
 							<reg>habetis</reg> ducem memorem vestri, oblitum sui, quae non semper
 							facultas datur; habetis omnis ordines, omnis homines, universum populum
 							Romanum, id quod in civili causa hodierno die primum videmus, unum atque
@@ -3305,9 +3297,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							praecurritis excitarem, locutus sum, sed ut mea vox quae debet esse in
 							re publica princeps officio functa consulari videretur. </p>
 					</div>
-					
-					<milestone unit="para"/><milestone unit="chapter" n="10"/>
-						<div type="textpart" subtype="section" n="20">
+					<milestone unit="para"/>
+					<milestone unit="chapter" n="10"/>
+					<div type="textpart" subtype="section" n="20">
 						<p>
 							<reg>nunc</reg> ante quam ad sententiam redeo, de me pauca dicam.
 								<reg>ego</reg>, quanta manus est coniuratorum, quam videtis esse
@@ -3337,10 +3329,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note>, mihi uni conservata re publica<note>conservatae rei p. <hi
 									rend="italics">V</hi>
 								<foreign xml:lang="grc">αβ</foreign>
-							</note> gratulationem decrevistis. </p></div>
-							
-							<div type="textpart" subtype="section" n="21">
-							<p><reg>sit</reg> Scipio clarus ille cuius consilio atque virtute Hannibal
+							</note> gratulationem decrevistis. </p>
+					</div>
+					<div type="textpart" subtype="section" n="21">
+						<p><reg>sit</reg> Scipio clarus ille cuius consilio atque virtute Hannibal
 							in Africam redire atque Italia<note>ex Italia <foreign xml:lang="grc"
 									>αβ</foreign>
 							</note> decedere coactus est, ornetur alter eximia laude Africanus qui
@@ -3352,9 +3344,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							regionibus ac terminis continentur: erit profecto inter horum laudes
 							aliquid loci nostrae gloriae, nisi forte maius est patefacere nobis
 							provincias quo exire possimus quam curare ut etiam illi qui absunt
-							habeant quo victores revertantur. </p></div>
-								
-								<div type="textpart" subtype="section" n="22"><p>
+							habeant quo victores revertantur. </p>
+					</div>
+					<div type="textpart" subtype="section" n="22">
+						<p>
 							<reg>quamquam</reg> est uno loco condicio melior externae victoriae quam
 							domesticae, quod hostes alienigenae aut oppressi serviunt aut recepti<note>
 								<app>
@@ -3378,9 +3371,9 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 							</note> vestram equitumque Romanorum et tantam conspirationem bonorum
 							omnium confringere et labefactare possit. </p>
 					</div>
-					
-					<milestone unit="para"/><milestone unit="chapter" n="11"/>
-							<div type="textpart" subtype="section" n="23">
+					<milestone unit="para"/>
+					<milestone unit="chapter" n="11"/>
+					<div type="textpart" subtype="section" n="23">
 						<p><reg>quae</reg> cum ita sint, pro imperio, pro exercitu, pro provincia
 							quam neglexi, pro triumpho ceterisque laudis insignibus quae sunt a me
 							propter urbis vestraeque salutis custodiam repudiata, pro clientelis hospitiisque<note><app>
@@ -3401,11 +3394,10 @@ schematypens="http://relaxng.org/ns/structure/1.0"?>
 									rend="italics">cett.</hi>
 							</note> periculo conservarit illum filium esse<note>esse filium <hi
 									rend="italics">Zielinski</hi>
-							</note> memineritis. </p></div>
-							
-							<div type="textpart" subtype="section" n="24">
-								<p><reg>quapropter</reg> de summa salute vestra
-								populique Romani, de vestris
+							</note> memineritis. </p>
+					</div>
+					<div type="textpart" subtype="section" n="24">
+						<p><reg>quapropter</reg> de summa salute vestra populique Romani, de vestris
 							coniugibus ac liberis, de aris ac focis, de fanis atque templis, de
 							totius urbis tectis ac sedibus, de imperio ac libertate, de salute
 							Italiae, de universa re publica decernite diligenter, ut instituistis,

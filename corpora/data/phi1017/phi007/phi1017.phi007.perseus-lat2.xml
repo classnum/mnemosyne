@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
-  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
-  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -92,7 +90,7 @@
                <p>This pointer pattern extracts line</p>
             </cRefPattern>
          </refsDecl>
-         <refsDecl n="TEI.2">
+         <refsDecl n="TEI">
             <refState unit="card"/>
          </refsDecl>
       </encodingDesc>
@@ -106,17 +104,13 @@
          <change when="2015-11-12" who="Thibault Clerice">New URN, Epidoc and CTS</change>
       </revisionDesc>
     </teiHeader>
-
    <text n="Oed.">
       <body>
-         <div xml:lang="lat" type="edition" n="urn:cts:latinLit:phi1017.phi007.perseus-lat2">
-        
+         <div xml:lang="lat" type="edition" n="urn:cts:latinLit:phi1017.phi007.perseus-lat2">        
             <milestone n="1" unit="card"/>
             <pb n="p.243"/>
-
             <sp who="#thyestis">
                <speaker>Thyestis Umbra</speaker>
-
                <l n="1">Opaca linquens Ditis inferni loca</l>
                <l n="2">adsum profundo Tartari emissus specu,</l>
                <l n="3">incertus utras oderim sedes magis:</l>
@@ -254,7 +248,6 @@
                <l n="123">quid timida loqueris furta et exilium et fugas?</l>
                <l n="124">soror ista fecit; te decet maius nefas.</l>
             </sp>
-
             <sp who="#nutrix">
                <speaker>Nvtr.</speaker>
                <l n="125">Regina Danaum et inclitum Ledae genus, </l>
@@ -264,7 +257,6 @@
                <l n="129">proin quicquid est, da tempus ac spatium tibi:</l>
                <l n="130">quod ratio non quit saepe sanavit mora. </l>
             </sp>
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="131">Maiora cruciant quam ut moras possim pati;</l>
@@ -282,17 +274,14 @@
                <l n="143">hoc ire pergam; fluctibus dedimus ratem:</l>
                <l n="144">ubi animus errat, optimum est casum sequi.</l>
             </sp>
-
             <sp who="#nutrix">
                <speaker>Nvtr.</speaker>
                <l n="145">Caeca est temeritas quae petit casum ducem. </l>
             </sp>
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="146">Cui ultima est fortuna, quid dubiam timet?</l>
             </sp>
-
             <sp who="#nutrix">
                <speaker>Nvtr.</speaker>
                <l n="147">Tuta est latetque culpa, si pateris, tua.</l>
@@ -302,58 +291,47 @@
                <speaker>Clyt.</speaker>
                <l n="148">Perlucet omne regiae vitium domus.</l>
             </sp>
-
             <sp who="#nutrix">
                <speaker>Nvtr.</speaker>
                <l n="149">Piget prioris et novum crimen struis?</l>
             </sp>
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="150">Res est profecto stulta nequitiae modus. </l>
             </sp>
-
             <sp who="#nutrix">
                <speaker>Nvtr.</speaker>
                <l n="151">Quod metuit auget qui scelus scelere obruit.</l>
             </sp>
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="152">Et ferrum et ignis saepe medicinae loco est</l>
             </sp>
-
             <sp who="#nutrix">
                <speaker>Nvtr.</speaker>
                <l n="153">Extrema primo nemo temptavit loco.</l>
             </sp>
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="154">Rapienda rebus in malis praeceps via est.</l>
             </sp>
-
             <sp who="#nutrix">
                <speaker>Nvtr.</speaker>
                <l n="155">At te reflectat coniugi nomen sacrum. </l>
             </sp>
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="156">Decem per annos vidua respiciam virum?</l>
             </sp>
-
             <sp who="#nutrix">
                <speaker>Nvtr.</speaker>
                <l n="157">Meminisse debes sobolis ex illo tuae.</l>
             </sp>
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="158">Equidem et iugales filiae memini faces</l>
                <l n="159">et generum Achillem: praestitit matri fidem.</l>
             </sp>
-
             <sp who="#nutrix">
                <speaker>Nvtr.</speaker>
                <l n="160">Redemit illa classis immotae moras </l>
@@ -433,7 +411,6 @@
                <l n="224">regesta Danais, comprime affectus truces</l>
                <l n="225">mentemque tibimet ipsa pacifica tuam. </l>
             </sp>
-
             <sp who="#aegisthus clytemestra nutrix">
                <speaker>Aegisthus Clytemestra Nutrix</speaker>
                <l n="226">Quod tempus animo semper ac mente horrui</l>
@@ -459,7 +436,6 @@
                <l n="242">nam sera numquam est ad bonos mores via:</l>
                <l n="243">quem paenitet peccasse paene est innocens.</l>
             </sp>
-
             <sp who="#aegisthus">
                <speaker>Aeg.</speaker>
                <l n="244">Quo raperis amens? credis aut speras tibi</l>
@@ -491,7 +467,6 @@
                <l n="266">non patitur animus turpis admissi memor?</l>
                <l n="267">dat ille veniam facile cui venia est opus.</l>
             </sp>
-
             <sp who="#aegisthus">
                <speaker>Aeg.</speaker>
                <l n="268">Itane est? pacisci mutuam veniam licet?</l>
@@ -501,13 +476,11 @@
                <l n="271">id esse regni maximum pignus putant,</l>
                <l n="272">si quicquid aliis non licet solis licet.</l>
             </sp>
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="273">Ignovit Helenae: iuncta Menelao redit</l>
                <l n="274">quae Europam et Asiam paribus afflixit malis.</l>
             </sp>
-
             <sp who="#aegisthus">
                <speaker>Aeg.</speaker>
                <l n="275">Sed nulla Atriden Venere furtiva abstulit </l>
@@ -520,27 +493,22 @@
                <l n="282">patriasque sedes profuga? non dant exitum</l>
                <l n="283">repudia regum, spe metus falsa levas.</l>
             </sp>
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="284">Delicta novit nemo nisi fidus mea.</l>
             </sp>
-
             <sp who="#aegisthus">
                <speaker>Aeg.</speaker>
                <l n="285">Non intrat umquam regium limen fides. </l>
             </sp>
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="286">Opibus merebor, ut fidem pretio obligem.</l>
             </sp>
-
             <sp who="#aegisthus">
                <speaker>Aeg.</speaker>
                <l n="287">Pretio parata vincitur pretio fides.</l>
             </sp>
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="288">Surgit residuus pristinae mentis pudor—</l>
@@ -548,7 +516,6 @@
                <l n="290">consilia dictas? scilicet nubet tibi, </l>
                <l n="291">regum relicto rege, generosa exuli?</l>
             </sp>
-
             <sp who="#aegisthus">
                <speaker>Aeg.</speaker>
                <l n="292">Et cur Atrida videor inferior tibi,</l>
@@ -558,12 +525,10 @@
                <speaker>Clyt.</speaker>
                <l n="293b" part="F">Si parum est, adde et nepos.</l>
             </sp>
-
             <sp who="#aegisthus">
                <speaker>Aeg.</speaker>
                <l n="294">Auctore Phoebo gignor: haud generis pudet.</l>
             </sp>
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="295">Phoebum nefandae stirpis auctorem vocas, </l>
@@ -575,7 +540,6 @@
                <l n="300">facesse propere ac dedecus nostrae domus </l>
                <l n="301">asporta ab oculis: haec vacat regi ac viro.</l>
             </sp>
-
             <sp who="#aegisthus">
                <speaker>Aeg.</speaker>
                <l n="302">Exilia mihi sunt haud nova, assuevi malis.</l>
@@ -583,7 +547,6 @@
                <l n="304">Argisve cedo: nil moror iussu tuo</l>
                <l n="305">aperire ferro pectus aerumnis grave. </l>
             </sp>
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="306">Siquidem hoc cruenta Tyndaris fieri sinam.</l>
@@ -709,7 +672,6 @@
                <l n="395a">telluris altum remeat Argolicae decus</l>
                <l n="396a">tandem ad penates victor Agamemnon suos,</l>
             </sp>
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="397a">Felix ad aures nuntius venit meas.</l>
@@ -717,13 +679,11 @@
                <pb n="p.257"/>
                <l n="399a">annos moratur? pelagus an terras premit?</l>
             </sp>
-
             <sp who="#eurybates">
                <speaker>Evr.</speaker>
                <l n="400a">Incolumis, auctus gloria, laude inclitus</l>
                <l n="401a">reducem expetito litori impressit pedem.</l>
             </sp>
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="402a">Sacris colamus prosperum tandem diem</l>
@@ -731,7 +691,6 @@
                <l n="404a">tu pande vivat coniugis frater mei</l>
                <l n="405a">et pande teneat quas soror sedes mea.</l>
             </sp>
-
             <sp who="#eurybates">
                <speaker>Evr.</speaker>
                <l n="406a">Meliora votis posco et obtestor deos:</l>
@@ -747,17 +706,14 @@
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="414">Effare casus quis rates hausit meas?</l>
-
                <l n="415">aut quae maris fortuna dispulerit duces. </l>
             </sp>
-
             <sp who="#eurybates">
                <speaker>Evr.</speaker>
                <l n="416">Acerba fatu poscis, infaustum iubes</l>
                <l n="417">miscere laeto nuntium, refugit loqui</l>
                <l n="418">mens aegra tantis atque inhorrescit malis.</l>
             </sp>
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="419">Exprome: clades scire qui refugit suas</l>
@@ -860,13 +816,11 @@
                <l n="507">nil ratio et usus audet: ars cessit malis;</l>
                <l n="508">tenet horror artus, omnis officio stupet</l>
                <l n="509">navita relicto, remus effugit manus,</l>
-
                <l n="510">in vota miseros ultimus cogit timor </l>
                <l n="511">eademque superos Troes et Danai rogant.</l>
                <l n="512">i quid fata possunt! invidet Pyrrhus patri,</l>
                <l n="513">Aiaci Vlixes, Hectori Atrides minor,</l>
                <l n="514">Agamemno Priamo; quisquis ad Troiam iacet</l>
-
                <l n="515">felix vocatur, cadere qui meruit gradu, </l>
                <l n="516">quem fama servat, victa quem tellus tegit,</l>
                <l n="517">'nil nobile ausos pontus atque undae ferunt?</l>
@@ -951,7 +905,6 @@
                <l n="587">Iliades adsunt, quas super celso gradu</l>
                <l n="588">effrena Phoebas entheas laurus quatit.</l>
             </sp>
-
             <sp who="#chorus2 cassandra">
                <speaker>Chorus Iliadum Cassandra</speaker>
                <l n="589">Heu quam dulce malum mortalibus additum</l>
@@ -961,13 +914,11 @@
                <l n="593">nullus hunc terror nec impotentia</l>
                <l n="594">procella Fortunae movet aut iniqui</l>
                <l n="595">flamma Tonantis. </l>
-
                <l n="605">Perrumpet omne servitium </l>
                <l n="606">contemptor levium deorum,</l>
                <l n="607">qui vultus Acherontis atri,</l>
                <l n="608">qui Styga tristem non tristis videt</l>
                <l n="609">audetque vitae ponere finem. </l>
-
                <l n="596">Alta pax<gap reason="omitted"/>nullos </l>
                <l n="597">civium coetus timet aut minaces</l>
                <l n="598">victoris iras, non maria asperis</l>
@@ -978,7 +929,6 @@
                <pb n="p.264"/>
                <l n="603">hostica muros populari te flamma,</l>
                <l n="604">indoinitumve bellum: </l>
-
                <l n="610">par ille regi, par superis erit. </l>
                <l n="611">o quam miserum est nescire mori!</l>
                <l n="612">Vidimus patriam ruentem nocte funesta,</l>
@@ -1000,7 +950,6 @@
                <l n="628">molis immensae Danaumque</l>
                <l n="628b">fatale munus duximus nostra</l>
                <l n="629">creduli dextra tremuitque saepe</l>
-
                <l n="630">limine in primo sonipes, cavernis </l>
                <l n="631">conditos reges bellumque gestans;</l>
                <l n="632">et licuit dolos versare ut ipsi</l>
@@ -1018,7 +967,6 @@
                <l n="642b">haec femineas, ille viriles.</l>
                <l n="643">festae matres votiva ferunt</l>
                <l n="644">munera divis:</l>
-
                <l n="645">festi patres adeunt aras, </l>
                <l n="646">unus tota est vultus in urbe;</l>
                <l n="647">et, quod numquam post Hectoreos</l>
@@ -1108,7 +1056,6 @@
                <l n="718">reserare fauces, verba nunc clauso male</l>
                <l n="719">custodit ore maenaa impatiens dei.</l>
             </sp>
-
             <sp who="#cassandra">
                <speaker>Cass.</speaker>
                <l n="720">Quid me furoris incitam stimulis novi </l>
@@ -1182,7 +1129,6 @@
                <l n="780">et festa coniunx obvios illi tulit </l>
                <l n="781">gressus reditque iuncta concordi gradu.</l>
             </sp>
-
             <sp who="#agamemnon cassandra">
                <speaker>Agamemno Cassandra</speaker>
                <l n="782">Tandem reverter sospes ad patrios lares;</l>
@@ -1200,8 +1146,6 @@
                <speaker>Cass.</speaker>
                <l n="791b" part="F">Festus et Troiae fuit.</l>
             </sp>
-
-
             <sp who="#agamemnon">
                <speaker>Agam.</speaker>
                <l n="792" part="I">Veneremur aras.</l>
@@ -1210,8 +1154,6 @@
                <speaker>Cass.</speaker>
                <l n="792b" part="F">Cecidit ante aras pater.</l>
             </sp>
-
-
             <sp who="#agamemnon">
                <speaker>Agam.</speaker>
                <l n="793" part="I">Iovem precemur pariter.</l>
@@ -1220,8 +1162,6 @@
                <speaker>Cass.</speaker>
                <l n="793b" part="F">Herceum Iovem ?</l>
             </sp>
-
-
             <sp who="#agamemnon">
                <speaker>Agam.</speaker>
                <l n="794" part="I">Credis videre te Ilium?</l>
@@ -1230,8 +1170,6 @@
                <speaker>Cass.</speaker>
                <l n="794b" part="F">Et Priamum simul.</l>
             </sp>
-
-
             <sp who="#agamemnon">
                <speaker>Agam.</speaker>
                <l n="795" part="I">Hic Troia non est.</l>
@@ -1240,8 +1178,6 @@
                <speaker>Cass.</speaker>
                <l n="795b" part="F">Helena ubi est Troiam puto. </l>
             </sp>
-
-
             <sp who="#agamemnon">
                <speaker>Agam.</speaker>
                <l n="796" part="I">Ne metue dominam famula,</l>
@@ -1250,8 +1186,6 @@
                <speaker>Cass.</speaker>
                <l n="796b" part="F">Libertas adest.</l>
             </sp>
-
-
             <sp who="#agamemnon">
                <speaker>Agam.</speaker>
                <l n="797" part="I">Secura vive.</l>
@@ -1260,8 +1194,6 @@
                <speaker>Cass.</speaker>
                <l n="797b" part="F">Mihi mori est securitas.</l>
             </sp>
-
-
             <sp who="#agamemnon">
                <speaker>Agam.</speaker>
                <l n="798" part="I">Nullum est periclum tibimet.</l>
@@ -1270,8 +1202,6 @@
                <speaker>Cass.</speaker>
                <l n="798b" part="F">At magnum tibi.</l>
             </sp>
-
-
             <sp who="#agamemnon">
                <speaker>Agam.</speaker>
                <l n="799" part="I">Victor timere quid potest?</l>
@@ -1280,7 +1210,6 @@
                <speaker>Cass.</speaker>
                <l n="799b" part="F">Quod non timet.</l>
             </sp>
-
             <sp who="#agamemnon">
                <speaker>Agam.</speaker>
                <l n="800">Hanc fida famuli turba, dum excutiat deum, </l>
@@ -1304,21 +1233,18 @@
                <l n="813">bis seno meruit labore</l>
                <l n="813b">adlegi caelo</l>
                <l n="814">magnus Alcides, cui lege mundi</l>
-
                <l n="815">Iuppiter rupta geminavit horas </l>
                <l n="816">roscidae noctis iussitque Phoebum</l>
                <l n="817">tardius celeres agitare currus</l>
                <l n="818">et tuas lente remeare bigas,</l>
                <l n="819">pallida Phoebe;</l>
                <l n="819b">rettulit pedem</l>
-
                <l n="820">nomen alternis stella quae mutat </l>
                <l n="821">seque mirata est Hesperum dici;</l>
                <l n="822">Aurora movit ad solitas vices</l>
                <l n="823">caput et relabens imposuit seni</l>
                <l n="823b">collum marito.</l>
                <l n="824">sensit ortus, sensit occasus</l>
-
                <l n="825">Herculem nasci: violentus ille </l>
                <l n="826">nocte non una poterat creari.</l>
                <l n="827">tibi concitatus substitit mundus,</l>
@@ -1346,7 +1272,6 @@
                <l n="848">vidit Hippolyto ferox</l>
                <l n="849">pectore e medio rapi</l>
                <l n="849b">spolium, et sagittis</l>
-
                <l n="850">nube percussa Stymphalis alto </l>
                <l n="851">decidit caelo;</l>
                <l n="852">arborque pomis fertilis aureis</l>
@@ -1364,7 +1289,6 @@
                <l n="862b">te duce succidit</l>
                <l n="863">mendax Dardanidae domus</l>
                <l n="864">et sensit arcus iterum timendos;</l>
-
                <l n="865">te duce concidit </l>
                <l n="866">totidem diebus Troia quot annis.</l>
             </sp>
@@ -1416,7 +1340,6 @@
                <l n="908">stat ecce Titan dubius emerito die,</l>
                <l n="909">suane currat an Thyestea via.</l>
             </sp>
-
             <sp who="#electra">
                <speaker>Electra</speaker>
                <l n="910">Fuge, o paternae mortis auxilium unicum, </l>
@@ -1440,26 +1363,22 @@
                <l n="923">pavetque maesta? regium agnosco genus.</l>
                <l n="924">Electra, fletus causa quae laeta in domo est?</l>
             </sp>
-
             <sp who="#electra">
                <speaker>El.</speaker>
                <l n="925">Pater peremptus scelere materno iacet, </l>
                <l n="926">comes paternae quaeritur natus neci,</l>
                <l n="927">Aegisthus arces Venere quaesitas tenet.</l>
             </sp>
-
             <sp who="#strophius">
                <speaker>Str.</speaker>
                <l n="928">O nulla longi temporis felicitas!</l>
             </sp>
-
             <sp who="#electra">
                <speaker>El.</speaker>
                <l n="929">Per te parentis memoriam obtestor mei,</l>
                <l n="930">per sceptra terris nota, per dubios deos: </l>
                <l n="931">recipe hunc Oresten ac pium furtum occule.</l>
             </sp>
-
             <sp who="#strophius">
                <speaker>Str.</speaker>
                <l n="932">Etsi timendum caesus Agamemnon docet,</l>
@@ -1490,19 +1409,15 @@
                <l n="951">concedam ad aras. patere me vittis tuis,</l>
                <l n="952">Cassandra, iungi paria metuentem tibi.</l>
             </sp>
-
             <sp who="#clytemestra electra aegisthus cassandra">
                <speaker>Clytemestra Electra Aegisthus Cassandra</speaker>
                <l n="953">Hostis parentis, impium atque audax caput,</l>
                <l n="954">quo more coetus publicos virgo petis?</l>
             </sp>
-
             <sp who="#electra">
                <speaker>El.</speaker>
                <l n="955">Adulterarum virgo deserui domum. </l>
             </sp>
-
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="956" part="I">Quis esse credat virginem?</l>
@@ -1511,8 +1426,6 @@
                <speaker>El.</speaker>
                <l n="956b" part="F">Natam, tuam?</l>
             </sp>
-
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="957" part="I">Modestiae cum matre.</l>
@@ -1521,37 +1434,30 @@
                <speaker>El.</speaker>
                <l n="957b" part="F">Pietatem doces?</l>
             </sp>
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="958">Animos viriles corde tumefacto geris;</l>
                <l n="959">sed agere domita feminam disces malo.</l>
             </sp>
-
             <sp who="#electra">
                <speaker>El.</speaker>
                <l n="960">Nisi forte fallor, feminas ferrum decet. </l>
             </sp>
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="961">Et esse demens te parem nobis putas?</l>
             </sp>
-
             <sp who="#electra">
                <speaker>El.</speaker>
                <l n="962">Vobis? quis iste est alter Agamemnon tuus?</l>
                <l n="963">ut vidua loquere: vir caret vita tuus.</l>
             </sp>
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="964">Indomita posthac virginis verba impiae</l>
                <l n="965">regina frangam; citius interea mihi </l>
                <l n="966">edissere ubi sit natus, ubi frater tuus.</l>
             </sp>
-
-
             <sp who="#electra">
                <speaker>El.</speaker>
                <l n="967" part="I">Extra Mycenas.</l>
@@ -1568,7 +1474,6 @@
                <speaker>Clyt.</speaker>
                <l n="968b" part="F">Quo latitat loco?</l>
             </sp>
-
             <sp who="#electra">
                <speaker>El.</speaker>
                <l n="969">Tuto quietus, regna non metuens nova:</l>
@@ -1597,26 +1502,22 @@
                <l n="979">Aegisthe, gradere, gnata genetricem impie</l>
                <l n="980">probris lacessit, occulit fratrem abditum. </l>
             </sp>
-
             <sp who="#aegisthus">
                <speaker>Aeg.</speaker>
                <l n="981">Furibunda virgo, vocis infandae sonum</l>
                <l n="982">et aure verba indigna materna opprime.</l>
             </sp>
-
             <sp who="#electra">
                <speaker>El.</speaker>
                <l n="983">Etiam monebit sceleris infandi artifex,</l>
                <l n="984">per scelera gnatus, nomen ambiguum suis,</l>
                <l n="985">idem sororis gnatus et patris nepos? </l>
             </sp>
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="986">Aegisthe, cessas impium ferro caput</l>
                <l n="987">demetere? fratrem reddat aut animam statim.</l>
             </sp>
-
             <sp who="#aegisthus">
                <speaker>Aeg.</speaker>
                <l n="988">Abstrusa caeco carcere et saxo exigat</l>
@@ -1626,8 +1527,6 @@
                <l n="992">vidua ante thalamos, exul, invisa omnibus</l>
                <l n="993">aethere negate sero subcumbet malis.</l>
             </sp>
-
-
             <sp who="#electra">
                <speaker>El.</speaker>
                <l n="994" part="I">Concede mortem,</l>
@@ -1637,8 +1536,6 @@
                <l n="994b" part="F">Si recusares, darem,</l>
                <l n="995">rudis est tyrannus morte qui poenam exigit. </l>
             </sp>
-
-
             <sp who="#electra">
                <speaker>El.</speaker>
                <l n="996" part="I">Mortem aliquid ultra est?</l>
@@ -1651,7 +1548,6 @@
                <l n="999">vincite saeptam nocte tenebrosi specus,</l>
                <l n="1000">ut inquietam virginem carcer domet. </l>
             </sp>
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="1001">At ista poenas capite persolvet suo</l>
@@ -1659,7 +1555,6 @@
                <l n="1002">captiva coniunx, regii paelex tori.</l>
                <l n="1003">trahite, ut sequatur coniugem ereptum milli.</l>
             </sp>
-
             <sp who="#cassandra">
                <speaker>Cass.</speaker>
                <l n="1004">Ne trahite. vestros ipsa praecedam gradus.</l>
@@ -1671,8 +1566,6 @@
                <l n="1010">nihil moramur, rapite, quin grates ago. </l>
                <l n="1011">iam, iam iuvat vixisse post Troiam, iuvat.</l>
             </sp>
-
-
             <sp who="#clytemestra">
                <speaker>Clyt.</speaker>
                <l n="1012" part="I">Furiosa, morere.</l>

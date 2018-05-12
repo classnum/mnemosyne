@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
-  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
-  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -77,7 +75,6 @@
                         <persName xml:lang="eng">Chorus Romanorum</persName>
                     </person>
                 </listPerson>
-
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -87,7 +84,7 @@
                     <p>This pointer pattern extracts line</p>
                 </cRefPattern>
             </refsDecl>
-            <refsDecl n="TEI.2">
+            <refsDecl n="TEI">
                 <refState unit="card"/>
             </refsDecl>
         </encodingDesc>
@@ -97,22 +94,17 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2009-01-01" who="gcrane">Tagging</change>
             <change when="2015-11-12" who="Thibault Clerice">New URN, Epidoc and CTS</change>
+            <change when="2009-01-01" who="gcrane">Tagging</change>
         </revisionDesc>
     </teiHeader>
-
     <text>
         <body>
-
             <div type="edition" n="urn:cts:latinLit:phi1017.phi010.perseus-lat2" xml:lang="lat">
-
                 <milestone n="1" unit="card"/>
                 <pb n="p.395"/>
-
                 <sp who="#octavia">
                     <speaker>Octavia</speaker>
-
                     <l n="1">Iam vaga caelo sidera fulgens</l>
                     <l n="2">Aurora fugat.</l>
                     <l n="3">surgit Titan radiante coma</l>
@@ -138,20 +130,16 @@
                     <l n="23">illa illa meis tristis Erinys</l>
                     <pb n="p.398"/>
                     <l n="24">thalamis Stygios praetulit ignes</l>
-
                     <l n="25">teque extinxit, miserande pater, </l>
                     <l n="26">modo cui totus paruit orbis</l>
-
                     <l n="28a">cuique Britanni </l>
                     <l n="27">ultra Oceanum terga dedere,<milestone unit="line" n="28b"/></l>
                     <l n="29">ducibus nostris ante ignoti</l>
-
                     <l n="30">iurisque sui. </l>
                     <l n="31">coniugis, heu me, pater, insidiis</l>
                     <l n="32">oppresse iaces servatque domus</l>
                     <l n="33">cum prole tua capta tyranno.</l>
                 </sp>
-
                 <sp who="#nutrix">
                     <speaker>Nutrix</speaker>
                     <l n="34">Fulgore primo captus et fragili bono</l>
@@ -179,7 +167,6 @@
                     <l n="55">heu quam nefandum prospicit noster timor </l>
                     <l n="56">scelus, quod utinam numen avertat deum.</l>
                 </sp>
-
                 <sp who="#octavia nutrix">
                     <speaker>Octavia Nutrix</speaker>
                     <l n="57">O mea nullis aequanda malis</l>
@@ -205,19 +192,16 @@
                     <l n="73">tristis alumnae; cesset thalamis</l>
                     <l n="74">inferre gradus tarda senectus?</l>
                 </sp>
-
                 <sp who="#octavia">
                     <speaker>Oct.</speaker>
                     <l n="75">Excipe nostras lacrimas, nutrix, </l>
                     <l n="76">testis nostri fida doloris.</l>
                 </sp>
-
                 <sp who="#nutrix">
                     <speaker>Nvtr.</speaker>
                     <l n="77">Quis te tantis solvet curis,</l>
                     <l n="78">miseranda, dies?</l>
                 </sp>
-
                 <sp who="#octavia">
                     <speaker>Oct.</speaker>
                     <l n="79">Qui me Stygias mittet ad umbras.</l>
@@ -227,20 +211,17 @@
                     <speaker>Nvtr.</speaker>
                     <l n="80">Omina quaeso sint ista procul. </l>
                 </sp>
-
                 <sp who="#octavia">
                     <speaker>Oct.</speaker>
                     <l n="81">Non vota meos tua nunc casus,</l>
                     <l n="82">sed fata regunt.</l>
                 </sp>
-
                 <sp who="#nutrix">
                     <speaker>Nvtr.</speaker>
                     <l n="83">Dabit afflictae meliora deus</l>
                     <l n="84">tempora mitis; tu modo blando</l>
                     <l n="85">vince obsequio placata virum </l>
                 </sp>
-
                 <sp who="#octavia">
                     <speaker>Oct.</speaker>
                     <l n="86">Vincam saevos ante leones</l>
@@ -257,14 +238,11 @@
                     <l n="97">feret hunc titulum post fata tamen</l>
                     <l n="98">femina longo semper in aevo.</l>
                 </sp>
-
                 <sp who="#nutrix">
                     <speaker>Nvtr.</speaker>
                     <l n="99">Animi retine verba furentis,</l>
-
                     <l n="99b">temere emissam comprime vocem. </l>
                 </sp>
-
                 <sp who="#octavia">
                     <speaker>Oct.</speaker>
                     <l n="100">Toleranda quamvis patiar, haud umquam queant </l>
@@ -283,13 +261,11 @@
                     <l n="112">haud ferre posset fata post fratris dolor</l>
                     <l n="113">scelere interempti, cuius imperium tenet</l>
                     <l n="114">et sorte gaudet auctor infandae necis.</l>
-
                     <l n="115">quam saepe tristis umbra germani meis </l>
                     <l n="116">offertur oculis, membra cum solvit quies</l>
                     <l n="117">et fessa fletu lumina oppressit sopor:</l>
                     <l n="118">modo facibus atris armat infirmas manus</l>
                     <l n="119">oculosque et ora fratris infestus petit,</l>
-
                     <l n="120">modo trepidus idem refugit in thalamos meos </l>
                     <l n="121">persequitur hostis atque inhaerenti mihi</l>
                     <l n="122">violentus ensem per latus nostrum rapit.</l>
@@ -355,50 +331,40 @@
                     <speaker>Oct.</speaker>
                     <l n="174">Extinguat et me, ne manu nostra cadat!</l>
                 </sp>
-
                 <sp who="#nutrix">
                     <speaker>Nvtr.</speaker>
                     <l n="175">Natura vires non dedit tantas tibi. </l>
                 </sp>
-
                 <sp who="#octavia">
                     <speaker>Oct.</speaker>
                     <l n="176">Dolor ira maeror miseriae luctus dabunt.</l>
                 </sp>
-
                 <sp who="#nutrix">
                     <speaker>Nvtr.</speaker>
                     <l n="177">Vince obsequendo potius immitem virum.</l>
                 </sp>
-
                 <sp who="#octavia">
                     <speaker>Oct.</speaker>
                     <l n="178">Vt fratrem ademptum scelere restituat mihi?</l>
                 </sp>
-
                 <sp who="#nutrix">
                     <speaker>Nvtr.</speaker>
                     <l n="179">Incolumis ut sis ipsa, labentem ut domum</l>
                     <l n="180">genitoris olim subole restituas tua. </l>
                 </sp>
-
                 <sp who="#octavia">
                     <speaker>Oct.</speaker>
                     <l n="181">Expectat aliam principis subolem domus;</l>
                     <l n="182">me dira miseri fata germani trahunt.</l>
                 </sp>
-
                 <sp who="#nutrix">
                     <speaker>Nvtr.</speaker>
                     <l n="183">Confirmet animum civium tantus favor.</l>
                 </sp>
-
                 <sp who="#octavia">
                     <speaker>Oct.</speaker>
                     <l n="184">Solatur iste nostra, non relevat mala.</l>
                 </sp>
-
-
                 <sp who="#nutrix">
                     <speaker>Nvtr.</speaker>
                     <l n="185" part="I">Vis magna populi est.</l>
@@ -407,8 +373,6 @@
                     <speaker>Oct.</speaker>
                     <l part="F">Principis maior tamen. </l>
                 </sp>
-
-
                 <sp who="#nutrix">
                     <speaker>Nvtr.</speaker>
                     <l n="186" part="I">Respiciet ipse coniugem,</l>
@@ -417,8 +381,6 @@
                     <speaker>Oct.</speaker>
                     <l part="F">Paelex vetat.</l>
                 </sp>
-
-
                 <sp who="#nutrix">
                     <speaker>Nvtr.</speaker>
                     <l n="187" part="I">Invisa cunctis nempe.</l>
@@ -427,8 +389,6 @@
                     <speaker>Oct.</speaker>
                     <l part="F">Sed cara est viro.</l>
                 </sp>
-
-
                 <sp who="#nutrix">
                     <speaker>Nvtr.</speaker>
                     <l n="188" part="I">Nondum uxor est.</l>
@@ -437,11 +397,9 @@
                     <speaker>Oct.</speaker>
                     <l part="F">Iam fiet, et genetrix simul.</l>
                 </sp>
-
                 <sp who="#nutrix">
                     <speaker>Nvtr.</speaker>
                     <l n="189">Iuvenilis ardor impetu primo furit,</l>
-
                     <l n="190">languescit idem facile nec durat diu </l>
                     <l n="191">in Venere turpi, ceu levis flammae vapor:</l>
                     <l n="192">amor perennis coniugis castae manet.</l>
@@ -484,7 +442,6 @@
                     <l n="220">soror Augusti coniunxque, graves </l>
                     <l n="221">vince dolores.</l>
                 </sp>
-
                 <sp who="#octavia">
                     <speaker>Oct.</speaker>
                     <l n="222">Iungentur ante saeva sideribus freta</l>
@@ -515,7 +472,6 @@
                     <l n="246">invicta totiens temere regali manu?</l>
                     <l n="247">in tam nocentem dextra cur cessat tua?</l>
                     <l n="248">utinam suorum facinorum poenas luat </l>
-
                     <l n="250">orbis tyrannus, quem premit turpi iugo </l>
                     <l n="251">morumque vitiis nomen Augustum inquinat!</l>
                 </sp>
@@ -523,15 +479,12 @@
                 <sp who="#nutrix">
                     <speaker>Nvtr.</speaker>
                     <l n="252">Indignus ille, fateor, est thalamis tuis, </l>
-
                     <l n="249">Nero insitivus, Domitio genitus patre, </l>
-
                     <l n="253">sed cede fatis atque fortunae tuae, </l>
                     <l n="254">alumna, quaeso neve violentam move</l>
                     <l n="255">iram mariti, forsitan vindex deus </l>
                     <l n="256">existet aliquis, Iactus et veniet dies.</l>
                 </sp>
-
                 <sp who="#octavia">
                     <speaker>Oct.</speaker>
                     <l n="257">Gravi deorum nostra iam pridem domus</l>
@@ -549,14 +502,12 @@
                     <l n="268">extincta luctu; coniugem traxit suum</l>
                     <l n="269">natumque ad umbras, prodidit lapsam domum.</l>
                 </sp>
-
                 <sp who="#nutrix">
                     <speaker>Nvtr.</speaker>
                     <l n="270">Renovare luctus parce cum fletu pios, </l>
                     <l n="271">manes parentis neve sollicita tuae,</l>
                     <l n="272">graves furoris quae sui poenas dedit.</l>
                 </sp>
-
                 <sp who="#chorus">
                     <speaker>Chorus Romanorum</speaker>
                     <l n="273">Quae fama modo venit ad aures?</l>
@@ -573,7 +524,6 @@
                     <l n="284">soror Augusti sociata toris</l>
                     <l n="285">cur a patria pellitur aula? </l>
                     <l n="286">sancta quid illi prodest pietas</l>
-
                     <l n="286b">divusque pater, </l>
                     <l n="287">quid virginitas castusque pudor?</l>
                     <l n="288">nos quoque nostri sumus immemores</l>
@@ -605,7 +555,6 @@
                     <l n="302b">nata Lucreti,</l>
                     <l n="303">stuprum saevi passa tyranni.</l>
                     <l n="304">dedit infandi sceleris poenas</l>
-
                     <l n="305">cum Tarquinio Tullia coniunx, </l>
                     <l n="306">quae per caesi membra parentis</l>
                     <l n="307">egit saevos impia currus</l>
@@ -615,7 +564,6 @@
                     <l n="311">saecula magnum,</l>
                     <l n="312">cum Tyrrhenum rate ferali</l>
                     <l n="313">princeps captam fraude parentem</l>
-
                     <l n="313b">misit in aequor. </l>
                     <l n="314">properant placidos linquere portus</l>
                     <l n="315">iussi nautae, </l>
@@ -661,7 +609,6 @@
                     <l n="354">pelago fractis viribus audent,</l>
                     <l n="355">bracchia quamvis lenta trahentem </l>
                     <l n="356">voce hortantur manibusque levant.</l>
-
                     <l n="356b">quid tibi saevi </l>
                     <l n="357">fugisse maris profuit undas?</l>
                     <l n="358">ferro es nati moritura tui,</l>
@@ -756,25 +703,20 @@
                 <sp who="#nero praefectus seneca">
                     <speaker>Nero Praefectus Seneca</speaker>
                     <l n="438">Perage imperata: mitte, qui Plauti mihi</l>
-
                     <l n="438b">Sullaeque caesi referat abscisum caput. </l>
                 </sp>
-
                 <sp who="#praefectus">
                     <speaker>Praef.</speaker>
                     <l n="439">Iussa haud morabor: castra confestim petam.</l>
                 </sp>
-
                 <sp who="#seneca">
                     <speaker>Sen.</speaker>
                     <l n="440">Nihil in propinquos temere constitui decet. </l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="441">Iustum esse facile est cui vacat pectus metu.</l>
                 </sp>
-
                 <sp who="#seneca">
                     <speaker>Sen.</speaker>
                     <l n="442">Magnum timoris remedium clementia est.</l>
@@ -784,63 +726,50 @@
                     <speaker>Ner.</speaker>
                     <l n="443">Extinguere hostem maxima est virtus ducis.</l>
                 </sp>
-
                 <sp who="#seneca">
                     <speaker>Sen.</speaker>
                     <l n="444">Servare cives maior est patriae patri.</l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="445">Praecipere mitem convenit pueris senem. </l>
                 </sp>
-
                 <sp who="#seneca">
                     <speaker>Sen.</speaker>
                     <l n="446">Regenda magis est fervida adolescentia.</l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="447">Aetate in hac sat esse consilii reor.</l>
                 </sp>
-
                 <sp who="#seneca">
                     <speaker>Sen.</speaker>
                     <l n="448">Vt facta superi comprobent semper tua.</l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="449">Stulte verebor, ipse cum faciam, deos.</l>
                 </sp>
-
                 <sp who="#seneca">
                     <speaker>Sen.</speaker>
                     <l n="450">Hoc plus verere quod licet tantum tibi. </l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="451">Fortuna nostra cuncta permittit mihi.</l>
                 </sp>
-
                 <sp who="#seneca">
                     <speaker>Sen.</speaker>
                     <l n="452">Crede obsequenti parcius: levis est dea.</l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="453">Inertis est nescire quid liceat sibi.</l>
                 </sp>
-
                 <sp who="#seneca">
                     <speaker>Sen.</speaker>
                     <l n="454">Id facere laus est quod decet, non quod licet.</l>
                 </sp>
-
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="455" part="I">Calcat iacentem vulgus.</l>
@@ -849,8 +778,6 @@
                     <speaker>Sen.</speaker>
                     <l part="F">Invisum opprimit. </l>
                 </sp>
-
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="456" part="I">Ferrum tuetur principem.</l>
@@ -859,8 +786,6 @@
                     <speaker>Sen.</speaker>
                     <l part="F">Melius fides.</l>
                 </sp>
-
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="457" part="I">Decet timeri Caesarem.</l>
@@ -869,8 +794,6 @@
                     <speaker>Sen.</speaker>
                     <l part="F">At plus diligi.</l>
                 </sp>
-
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="458" part="I">Metuant necesse est—</l>
@@ -879,8 +802,6 @@
                     <speaker>Sen.</speaker>
                     <l part="F">Quicquid exprimitur grave est.</l>
                 </sp>
-
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="459" part="I">Iussisque nostris pareant.</l>
@@ -889,8 +810,6 @@
                     <speaker>Sen.</speaker>
                     <l part="F">Iusta impera.</l>
                 </sp>
-
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="460" part="I">Statuam ipse.</l>
@@ -899,8 +818,6 @@
                     <speaker>Sen.</speaker>
                     <l part="F">Quae consensus efficiat rata. </l>
                 </sp>
-
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="461" part="I">Respectus ensis faciet.</l>
@@ -909,7 +826,6 @@
                     <speaker>Sen.</speaker>
                     <l part="F">Hoc absit nefas.</l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="462">An patiar ultra sanguinem nostrum peti,</l>
@@ -994,26 +910,22 @@
                     <pb n="p.415"/>
                     <l n="532">dignaque nostram subole fundaro domum.</l>
                 </sp>
-
                 <sp who="#seneca">
                     <speaker>Sen.</speaker>
                     <l n="533">Implebit aulam stirpe caelesti tuam</l>
                     <l n="534">generata divo Claudiae gentis decus,</l>
                     <l n="535">sortita fratris more Iunonis toros. </l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="536">Incesta genetrix detrahit generi fidem,</l>
                     <l n="537">animusque numquam coniugis iunctus mihi.</l>
                 </sp>
-
                 <sp who="#seneca">
                     <speaker>Sen.</speaker>
                     <l n="538">Teneris in annis haud satis clara est fides,</l>
                     <l n="539">pudore victus cum tegit flammas amor.</l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="540">Hoc equidem et ipse credidi frustra diu, </l>
@@ -1024,7 +936,6 @@
                     <l n="545">genere atque forma, victa cui cedat Venus </l>
                     <l n="546">Iovisque coniunx et ferox armis dea.</l>
                 </sp>
-
                 <sp who="#seneca">
                     <speaker>Sen.</speaker>
                     <l n="547">Probitas fidesque coniugis, mores pudor</l>
@@ -1032,7 +943,6 @@
                     <l n="549">subiecta nulli mentis atque animi bona;</l>
                     <l n="550">florem decoris singuli carpunt dies. </l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="551">Omnes in unam contulit laudes deus</l>
@@ -1043,14 +953,12 @@
                     <speaker>Sen.</speaker>
                     <l n="553">Recedet a te (temere ne credas) amor.</l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="554">Quem summovere fulminis dominus nequit,</l>
                     <l n="555">caeli tyrannum, saeva qui penetrat freta </l>
                     <l n="556">Ditisque regna, detrahit superos polo?</l>
                 </sp>
-
                 <sp who="#seneca">
                     <speaker>Sen.</speaker>
                     <l n="557">Volucrem esse Amorem fingit immitem deum</l>
@@ -1062,64 +970,51 @@
                     <l n="563">nutritur inter laeta Fortunae bona.</l>
                     <pb n="p.416"/>
                     <l n="564">quem si fovere atque alere desistas, cadit</l>
-
                     <l n="565">brevique vires perdit extinctus suas. </l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="566">Hanc esse vitae maximam causam reor,</l>
                     <l n="567">per quam voluptas oritur; interitu caret,</l>
                     <l n="568">cum procreetur semper humanum genus</l>
                     <l n="569">Amore grato, qui truces mulcet feras.</l>
-
                     <l n="570">hic mihi iugales praeferat taedas deus </l>
                     <l n="571">iungatque nostris igne Poppaeam toris.</l>
                 </sp>
-
                 <sp who="#seneca">
                     <speaker>Sen.</speaker>
                     <l n="572">Vix sustinere possit hos thalamos dolor</l>
                     <l n="573">videre populi, sancta nec pietas sinat.</l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="574">Prohibebor unus facere quod cunctis licet?</l>
                 </sp>
-
                 <sp who="#seneca">
                     <speaker>Sen.</speaker>
                     <l n="575">Maiora populus semper a summo exigit. </l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="576">Libet experiri, viribus fractus meis</l>
                     <l n="577">an cedat animis temere conceptus favor.</l>
                 </sp>
-
                 <sp who="#seneca">
                     <speaker>Sen.</speaker>
                     <l n="578">Obsequere potius civibus placidus tuis.</l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="579">Male imperatur, cum regit vulgus duces.</l>
                 </sp>
-
                 <sp who="#seneca">
                     <speaker>Sen.</speaker>
                     <l n="580">Nihil impetrare cum valet, iuste dolet. </l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="581">Exprimere ius est, ferre quod nequeunt preces?</l>
                 </sp>
-
-
                 <sp who="#seneca">
                     <speaker>Sen.</speaker>
                     <l n="582" part="I">Negare durum est.</l>
@@ -1128,8 +1023,6 @@
                     <speaker>Ner.</speaker>
                     <l part="F">Principem cogi nefas.</l>
                 </sp>
-
-
                 <sp who="#seneca">
                     <speaker>Sen.</speaker>
                     <l n="583" part="I">Remittat ipse.</l>
@@ -1138,8 +1031,6 @@
                     <speaker>Ner.</speaker>
                     <l part="F">Fama sed victum feret.</l>
                 </sp>
-
-
                 <sp who="#seneca">
                     <speaker>Sen.</speaker>
                     <l n="584" part="I">Levis atque vana.</l>
@@ -1148,8 +1039,6 @@
                     <speaker>Ner.</speaker>
                     <l part="F">Sit licet, multos notat.</l>
                 </sp>
-
-
                 <sp who="#seneca">
                     <speaker>Sen.</speaker>
                     <l n="585" part="I">Excelsa metuit.</l>
@@ -1158,13 +1047,11 @@
                     <speaker>Ner.</speaker>
                     <l part="F">Non minus carpit tamen. </l>
                 </sp>
-
                 <sp who="#seneca">
                     <speaker>Sen.</speaker>
                     <l n="586">Facile opprimetur. merita te divi patris</l>
                     <l n="587">aetasque frangat coniugis, probitas pudor.,</l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="588">Desiste tandem, iam gravis nimium mihi,</l>
@@ -1256,7 +1143,6 @@
                     <l n="667">propera tectis efferre gradus,</l>
                     <l n="668">linque cruentam principis aulam.</l>
                 </sp>
-
                 <sp who="#chorus">
                     <speaker>Chor.</speaker>
                     <l n="669">En illuxit suspecta diu,</l>
@@ -1315,7 +1201,6 @@
                     <l n="712">Confusa tristi proximae noctis metu</l>
                     <l n="713">visuque, nutrix, mente turbata feror,</l>
                     <l n="714">defecta sensu. laeta nam postquam dies</l>
-
                     <l n="715">'sideribus atris cessit et nocti polus, </l>
                     <l n="716">inter Neronis iuncta complexus mei</l>
                     <l n="717">somno resolvor; nec diu placida frui</l>
@@ -1342,7 +1227,6 @@
                     <l n="738">heu quid minantur inferum manes mihi</l>
                     <l n="739">aut quem cruorem coniugis vidi mei?</l>
                 </sp>
-
                 <sp who="#nutrix">
                     <speaker>Nvtr.</speaker>
                     <l n="740">Quaecumque mentis agitat intentus vigor, </l>
@@ -1363,7 +1247,6 @@
                     <l n="754">recollige animum, recipe laetitiam, precor.</l>
                     <l n="755">timore pulso redde te thalamis tuis. </l>
                 </sp>
-
                 <sp who="#poppaea">
                     <speaker>Pop.</speaker>
                     <l n="756">Delubra et aras petere constitui sacras,</l>
@@ -1373,7 +1256,6 @@
                     <l n="760">tu vota pro me suscipe et precibus piis </l>
                     <l n="761">superos adora, maneat ut praesens status.</l>
                 </sp>
-
                 <sp who="#chorus">
                     <speaker>Chorus</speaker>
                     <l n="762">Si vera loquax fama Tonantis</l>
@@ -1405,34 +1287,28 @@
                     <l n="783">praesidia ad urbis, victa nec cedit metu</l>
                     <l n="784">concepta rabies temere, sed vires capit.</l>
                 </sp>
-
                 <sp who="#chorus">
                     <speaker>Chor.</speaker>
                     <l n="785">Quis iste mentes agitat attonitus furor? </l>
                 </sp>
-
                 <sp who="#nuntius">
                     <speaker>Nvnt.</speaker>
                     <l n="786">Octaviae favore percussa agmina</l>
                     <l n="787">et efferata per nefas ingens ruunt.</l>
                 </sp>
-
                 <sp who="#chorus">
                     <speaker>Chor.</speaker>
                     <l n="788">Quid ausa facere quove consilio doce.</l>
                 </sp>
-
                 <sp who="#nuntius">
                     <speaker>Nvnt.</speaker>
                     <l n="789">Reddere penates Claudiae divi parant</l>
                     <l n="790">torosque fratris, debitam partem imperi. </l>
                 </sp>
-
                 <sp who="#chorus">
                     <speaker>Chor.</speaker>
                     <l n="791">Quos iam tenet Poppaea concordi fide?</l>
                 </sp>
-
                 <sp who="#nuntius">
                     <speaker>Nvnt.</speaker>
                     <l n="792">Hic urit animos pertinax nimium favor</l>
@@ -1451,7 +1327,6 @@
                     <l n="804">ut noscat ipse civium motus, mea</l>
                     <l n="805">voce haud morabor iussa praefecti exequi. </l>
                 </sp>
-
                 <sp who="#chorus">
                     <speaker>Chor.</speaker>
                     <l n="806">Quid fera frustra bella movetis?</l>
@@ -1462,18 +1337,15 @@
                     <l n="811">laeso tristes dabitis poenas</l>
                     <l n="812">sanguine vestro.</l>
                     <l n="813">non est patiens fervidus irae</l>
-
                     <l n="813b">facilisque regi: </l>
                     <l n="814">ille ferocem iussit Achillem</l>
                     <l n="815">pulsare lyram, </l>
                     <l n="816">fregit Danaos, fregit Atridem,</l>
                     <l n="817">regna evertit Priami, claras</l>
-
                     <l n="817b">diruit urbes: </l>
                     <l n="818">et nunc animus quid ferat horret</l>
                     <l n="819">vis immitis violenta dei.</l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Nero</speaker>
                     <l n="820">O lenta nimium militis nostri manus </l>
@@ -1482,15 +1354,12 @@
                     <l n="823">extinguit in nos, caede nec populi madet</l>
                     <l n="824">funerea Roma quae viros tales tulit. </l>
                     <pb n="p.425"/>
-
                     <l n="827">at illa. cui me civium subicit furor, </l>
                     <l n="828">suspecta coniunx et soror semper mihi,</l>
                     <l n="829">tandem dolori spiritum reddat meo</l>
                     <l n="830">iramque nostram sanguine extinguat suo. </l>
-
                     <l n="825">admissa sed iam morte puniri parum est: </l>
                     <l n="826">graviora meruit impium plebis scelus: </l>
-
                     <l n="831">mox tecta flammis" concitant urbis meis, </l>
                     <l n="832">ignes ruinae noxium populum premant</l>
                     <l n="833">turpisque egestas, saeva cum luctu fames.</l>
@@ -1513,18 +1382,15 @@
                     <l n="846">Populi furorem caede paucorum, diu</l>
                     <l n="847">qui restiterunt temere, compressum affero.</l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="848">Et hoc sat est? sic miles audisti ducem?</l>
                     <l n="849">compressit! haec vindicta debetur mihi?</l>
                 </sp>
-
                 <sp who="#praefectus">
                     <speaker>Praef.</speaker>
                     <l n="850">Cecidere motus impio ferro duces. </l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="851">Quid illa turba, petere quae flammis meos</l>
@@ -1534,43 +1400,34 @@
                     <l n="854">violare quantum licuit incesta manu</l>
                     <l n="855">et voce dira? debita poena vacat? </l>
                 </sp>
-
                 <sp who="#praefectus">
                     <speaker>Praef.</speaker>
                     <l n="856">Poenam dolor constituet in cives tuos?</l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="857">Constituet, aetas nulla quam famae eximat.</l>
                 </sp>
-
                 <sp who="#praefectus">
                     <speaker>Praef.</speaker>
                     <l n="858">Tua temperet nos ira, non noster timor.</l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="859">Iram expiabit prima quae meruit meam.</l>
                 </sp>
-
                 <sp who="#praefectus">
                     <speaker>Praef.</speaker>
                     <l n="860">Quam poscat ede, nostra ne parcat manus. </l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="861">Caedem sororis poscit et dirum caput.</l>
                 </sp>
-
                 <sp who="#praefectus">
                     <speaker>Praef.</speaker>
                     <l n="862">Horrore vinctum trepidus astrinxit rigor.</l>
                 </sp>
-
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="863" part="I">Parere dubitas?</l>
@@ -1579,8 +1436,6 @@
                     <speaker>Praef.</speaker>
                     <l part="F">Cur meam damnas fidem?</l>
                 </sp>
-
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="864" part="I">Quod parcis hosti.</l>
@@ -1589,8 +1444,6 @@
                     <speaker>Praef.</speaker>
                     <l part="F">Femina hoc nomen capit?</l>
                 </sp>
-
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="865" part="I">Si scelera cepit.</l>
@@ -1599,8 +1452,6 @@
                     <speaker>Praef.</speaker>
                     <l part="F">Estne qui sontem arguat? </l>
                 </sp>
-
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="866" part="I">Populi furor.</l>
@@ -1609,8 +1460,6 @@
                     <speaker>Praef.</speaker>
                     <l part="F">Quis regere dementes valet?</l>
                 </sp>
-
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="867" part="I">Qui concitare potuit.</l>
@@ -1619,14 +1468,11 @@
                     <speaker>Praef.</speaker>
                     <l part="F">Haud quemquam reor.</l>
                 </sp>
-
                 <sp who="#nero">
                     <speaker>Ner.</speaker>
                     <l n="868">Mulier, dedit natura cui pronum malo</l>
                     <l n="869">animum, ad nocendum pectus instruxit dolis.</l>
                 </sp>
-
-
                 <sp who="#praefectus">
                     <speaker>Praef.</speaker>
                     <l n="870" part="I">Sed vim negavit,</l>
@@ -1641,7 +1487,6 @@
                     <l n="875">procul in remotum litus interimi iube, </l>
                     <l n="876">tandem ut residat pectoris nostri timor.</l>
                 </sp>
-
                 <sp who="#chorus octavia">
                     <speaker>Chorus Octavia</speaker>
                     <l n="877">O funestus multis populi</l>
@@ -1649,7 +1494,6 @@
                     <pb n="p.427"/>
                     <l n="879">qui cum flatu vela secundo</l>
                     <l n="880">ratis implevit vexitque procul, </l>
-
                     <l n="880b">languidus idem </l>
                     <l n="881">deserit alto saevoque mari.</l>
                     <l n="882">flevit Gracchos miseranda parens,</l>
@@ -1667,7 +1511,6 @@
                     <l n="894">nunc ad poenam letumque trahi</l>
                     <l n="895">flentem miseram cernere possunt. </l>
                     <l n="896">bene paupertas humili tecto</l>
-
                     <l n="896b">contenta latet: </l>
                     <l n="897">quatiunt altas saepe procellae</l>
                     <l n="898">aut evertit Fortuna domos.</l>
@@ -1702,7 +1545,6 @@
                     <l n="922">ramo pendens querulo possem</l>
                     <l n="923">gutture maestum fundere murmur.</l>
                 </sp>
-
                 <sp who="#chorus">
                     <speaker>Chor.</speaker>
                     <l n="924">Regitur fatis mortale genus,</l>
@@ -1725,7 +1567,6 @@
                     <l n="940">passa catenas, funera, luctus, </l>
                     <l n="941">tandem letum cruciata diu.</l>
                     <l n="942">felix thalamis Livia Drusi</l>
-
                     <l n="942b">natisque ferum </l>
                     <l n="943">ruit in facinus poenamque suam.</l>
                     <l n="944">Iulia matris fata secuta est;</l>
@@ -1743,7 +1584,6 @@
                     <l n="956">mox et ferro lacerata diu</l>
                     <l n="957">saevi iacuit victima nati?</l>
                 </sp>
-
                 <sp who="#octavia">
                     <speaker>Oct.</speaker>
                     <l n="958">Me quoque tristes mittit ad umbras</l>
@@ -1763,7 +1603,6 @@
                     <l n="971">ventisque petat puppis rector</l>
                     <l n="972">Pandatariae litora terrae.</l>
                 </sp>
-
                 <sp who="#chorus">
                     <speaker>Chor.</speaker>
                     <l n="973">Leues aurae zephyrique leves,</l>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader xml:lang="eng">
 		<fileDesc>
@@ -19,14 +20,12 @@
 					<name>David Smith</name>
 				</respStmt>
 				<funder n="org:NEH">National Endowment For The Humanities (NEH)</funder>
-
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Trustees of Tufts University</publisher>
 				<pubPlace>Medford, MA</pubPlace>
 				<authority>Perseus Project</authority>
 			</publicationStmt>
-
 			<sourceDesc>
 				<biblStruct>
 					<monogr>
@@ -47,7 +46,6 @@
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
-
 		<encodingDesc>
 			<refsDecl n="CTS">
 				<cRefPattern n="section" matchPattern="(\w+)"
@@ -58,20 +56,21 @@
 			<refsDecl>
 				<refState unit="section"/>
 			</refsDecl>
-
 			<!--<refsDecl n="CTS">
-        <cRefPattern n="section" matchPattern="(\w+).(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:milestone[@n='$1']/tei:milestone[@n='$2'])">
-          <p>This pointer pattern extracts chapter and section</p>
-        </cRefPattern>
-        <cRefPattern n="chapter" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:milestone[@n='$1'])">
-          <p>This pointer pattern extracts chapter</p>
-        </cRefPattern>
-      </refsDecl>
-      <refsDecl>
-        <refState unit="chapter" delim="."/>
-        <refState unit="section"/>
-      </refsDecl>-->
+				<cRefPattern n="section" matchPattern="(\w+).(\w+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:milestone[@n='$1']/tei:milestone[@n='$2'])">
+					<p>This pointer pattern extracts chapter and section</p>
+				</cRefPattern>
+				<cRefPattern n="chapter" matchPattern="(\w+)"
+					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:milestone[@n='$1'])">
+					<p>This pointer pattern extracts chapter</p>
+				</cRefPattern>
+			</refsDecl>-->
 			<!--<refsDecl>
+				<refState unit="chapter" delim="."/>
+				<refState unit="section"/>
+			</refsDecl>
+			<refsDecl>
 				<refState delim=" " unit="text"/>
 				<refState unit="section"/>
 			</refsDecl>
@@ -87,14 +86,12 @@
 				<refState unit="section"/>
 			</refsDecl>-->
 		</encodingDesc>
-
 		<profileDesc>
 			<langUsage>
 				<language ident="lat">Latin</language>
 				<language ident="grc">Greek</language>
 			</langUsage>
 		</profileDesc>
-
 		<revisionDesc>
 			<change when="2016-02-05" who="Lisa Cerrato">CTS structure</change>
 			<change when="2016-02-02" who="Lisa Cerrato">reorganized change log; added three letter
@@ -149,15 +146,13 @@
 			<change when="1997-03-25" who="DAS">ed.</change>
 		</revisionDesc>
 	</teiHeader>
-
 	<text>
 		<body>
 			<div type="edition" xml:lang="lat" n="urn:cts:latinLit:phi0474.phi004.perseus-lat2">
 				<head>M. Tulli Ciceroni in Q. Caecilium Oratio</head>
 				<head>Quae Divinatio Dicitur</head>
-
-				<milestone n="1" unit="chapter"/><milestone unit="Para"/>
-
+				<milestone n="1" unit="chapter"/>
+				<milestone unit="Para"/>
 				<div type="textpart" subtype="section" n="1">
 					<p>
 						<reg>si</reg> quis vestrum, iudices, aut eorum qui adsunt, forte
@@ -205,8 +200,8 @@
 						flagitiis, crudelitas in suppliciis, avaritia in rapinis, superbia in
 						contumeliis efficere potuisset, eas omnis sese hoc uno praetore per
 						triennium pertulisse; rogare et orare ne illos supplices aspernarer quos me
-						incolumi nemini supplices esse oporteret. <milestone n="2" unit="chapter"/><milestone unit="Para"/>
-
+						incolumi nemini supplices esse oporteret. <milestone n="2" unit="chapter"
+							/><milestone unit="Para"/>
 					</p>
 				</div>
 				<div type="textpart" subtype="section" n="4">
@@ -266,8 +261,8 @@
 						Asia, Cilicia, Pamphylia, Romae denique ante oculos omnium maxima
 						turpissimaque nossemus, me agente in iudicium vocaretur,—quis
 							tandem<note>tamen <hi rend="italic">Hotoman</hi></note> esset qui meum
-						factum aut consilium posset reprehendere? <milestone n="3" unit="chapter"/><milestone unit="Para"/>
-
+						factum aut consilium posset reprehendere? <milestone n="3" unit="chapter"
+							/><milestone unit="Para"/>
 					</p>
 				</div>
 				<div type="textpart" subtype="section" n="7">
@@ -318,8 +313,8 @@
 									xml:lang="grc">p</foreign>ZG1</hi> (<hi rend="italic">cap.</hi>
 							vii, <hi rend="italic">ad init.</hi>): maxime <hi rend="italic"
 									>D<foreign xml:lang="grc">Y</foreign></hi></note> velit is qui
-						eas iniurias fecisse arguatur. <milestone n="4" unit="chapter"/><milestone unit="Para"/>
-
+						eas iniurias fecisse arguatur. <milestone n="4" unit="chapter"/><milestone
+							unit="Para"/>
 					</p>
 				</div>
 				<div type="textpart" subtype="section" n="11">
@@ -400,7 +395,6 @@
 						semper haec in hac re voluntas et sententia, quemvis ut hoc mallem de iis
 						qui essent idonei suscipere quam me, me ut mallem quam neminem. <milestone
 							n="5" unit="chapter"/><milestone unit="Para"/>
-
 					</p>
 				</div>
 				<div type="textpart" subtype="section" n="17">
@@ -444,13 +438,12 @@
 						<reg>in</reg> eius modi re quisquam tam impudens reperietur qui ad alienam
 						causam, invitis iis quorum negotium est, accedere aut adspirare audeat?
 							<milestone n="6" unit="chapter"/><milestone unit="Para"/>
-<reg>si</reg> tibi, Q. Caecili, hoc
-						Siculi dicerent: '<reg>te</reg> non novimus, nescimus qui sis<note>quis sis
-								<hi rend="italic">L</hi></note>, numquam te antea vidimus; sine nos
-						per eum nostras fortunas defendere cuius fides est nobis cognita,' nonne id
-						dicerent quod cuivis probare deberent? <reg>nunc</reg> hoc dicunt, utrumque
-						se nosse; alterum se cupere defensorem esse fortunarum suarum, alterum plane
-						nolle. </p>
+						<reg>si</reg> tibi, Q. Caecili, hoc Siculi dicerent: '<reg>te</reg> non
+						novimus, nescimus qui sis<note>quis sis <hi rend="italic">L</hi></note>,
+						numquam te antea vidimus; sine nos per eum nostras fortunas defendere cuius
+						fides est nobis cognita,' nonne id dicerent quod cuivis probare deberent?
+							<reg>nunc</reg> hoc dicunt, utrumque se nosse; alterum se cupere
+						defensorem esse fortunarum suarum, alterum plane nolle. </p>
 				</div>
 				<div type="textpart" subtype="section" n="21">
 					<p>
@@ -477,15 +470,15 @@
 						<reg>nam</reg> te actore quem eorum adfuturum putas, quos intellegis non ut
 						per te alium, sed ut per alium<note>alium <hi rend="italic">om. pr<foreign
 									xml:lang="grc">d</foreign></hi></note> aliquem te ipsum
-						ulciscantur laborare? <milestone n="7" unit="chapter"/><milestone unit="Para"/>
-<reg>at</reg> enim
-						solum id est, ut me Siculi maxime velint: alterum illud, credo, obscurum
-						est, a quo Verres minime se accusari velit. <reg>ecquis</reg> umquam tam
-						palam de honore, tam vehementer de salute sua contendit quam ille atque
-						illius amici ne<note>ut ne <hi rend="italic">pr<foreign xml:lang="grc"
-									>d</foreign></hi></note> haec mihi delatio detur?
-							<reg>sunt</reg> multa quae Verres in me esse arbitratur, quae scit in
-						te, Caecili<note>Caecili <hi rend="italic">D<foreign xml:lang="grc"
+						ulciscantur laborare? <milestone n="7" unit="chapter"/><milestone
+							unit="Para"/>
+						<reg>at</reg> enim solum id est, ut me Siculi maxime velint: alterum illud,
+						credo, obscurum est, a quo Verres minime se accusari velit.
+							<reg>ecquis</reg> umquam tam palam de honore, tam vehementer de salute
+						sua contendit quam ille atque illius amici ne<note>ut ne <hi rend="italic"
+									>pr<foreign xml:lang="grc">d</foreign></hi></note> haec mihi
+						delatio detur? <reg>sunt</reg> multa quae Verres in me esse arbitratur, quae
+						scit in te, Caecili<note>Caecili <hi rend="italic">D<foreign xml:lang="grc"
 									>Y</foreign>pq</hi>: Q. Caecili <hi rend="italic">r ed.
 								Rom.</hi> (i, §§45, 60; <hi rend="italic">Am. J. Ph.</hi> xxvi. <hi
 								rend="italic">p.</hi> 412)</note>, non esse; quae cuius modi in
@@ -520,8 +513,8 @@
 						si a pueris nobilibus, quos adhuc elusit, si a quadruplatoribus, quos non
 						sine causa contempsit semper ac pro nihilo putavit, accusandi voluntas ad
 						viros fortis spectatosque homines translata sit, sese in iudiciis diutius
-						dominari non posse. <milestone n="8" unit="chapter"/><milestone unit="Para"/>
-
+						dominari non posse. <milestone n="8" unit="chapter"/><milestone unit="Para"
+						/>
 					</p>
 				</div>
 				<div type="textpart" subtype="section" n="25">
@@ -574,16 +567,15 @@
 						iudicum, sed etiam in oculis conspectuque omnium exponere, sociorum salutem,
 						commoda provinciarum, vim legum, gravitatem iudiciorum defendere? <milestone
 							n="9" unit="chapter"/><milestone unit="Para"/>
-<reg>cognosce</reg> ex me, quoniam hoc primum
-						tempus discendi nactus es, quam multa esse oporteat in eo qui alterum
-						accuset; ex quibus si unum aliquod<note>aliquod <hi rend="italic"><foreign
-									xml:lang="grc">p</foreign>G1</hi>: <hi rend="italic">om.
-									D<foreign xml:lang="grc">Y</foreign></hi></note> in te
-						cognoveris, ego iam tibi ipse istuc<note>istud <hi rend="italic"
-							>G2LKZ</hi></note> quod expetis mea voluntate concedam.
-							<reg>primum</reg> integritatem atque innocentiam singularem; nihil est
-						enim quod minus ferendum sit quam rationem ab altero vitae reposcere eum qui
-						non possit suae reddere. </p>
+						<reg>cognosce</reg> ex me, quoniam hoc primum tempus discendi nactus es,
+						quam multa esse oporteat in eo qui alterum accuset; ex quibus si unum
+							aliquod<note>aliquod <hi rend="italic"><foreign xml:lang="grc"
+									>p</foreign>G1</hi>: <hi rend="italic">om. D<foreign
+									xml:lang="grc">Y</foreign></hi></note> in te cognoveris, ego iam
+						tibi ipse istuc<note>istud <hi rend="italic">G2LKZ</hi></note> quod expetis
+						mea voluntate concedam. <reg>primum</reg> integritatem atque innocentiam
+						singularem; nihil est enim quod minus ferendum sit quam rationem ab altero
+						vitae reposcere eum qui non possit suae reddere. </p>
 				</div>
 				<div type="textpart" subtype="section" n="28">
 					<p>
@@ -626,7 +618,6 @@
 						<reg>video</reg> enim permulta esse crimina quorum tibi societas cum Verre
 						eius modi est ut ea in accusando attingere non audeas. <milestone n="10"
 							unit="chapter"/><milestone unit="Para"/>
-
 						<reg>queritur</reg> Sicilia tota C. Verrem ab aratoribus, cum frumentum sibi
 						in cellam imperavisset, et cum esset tritici modius HS II, pro frumento in
 						modios singulos duodenos sestertios exegisse. Magnum crimen, ingens pecunia,
@@ -673,10 +664,9 @@
 						relinques? <reg>ergo</reg> id omnino Verres in iudicio suo non audiet quod,
 						cum faciebat, quem ad modum defensurus esset non reperiebat. <milestone
 							n="11" unit="chapter"/><milestone unit="Para"/>
-<reg>atque</reg> ego haec quae in medio posita
-						sunt commemoro: sunt alia magis occulta furta, quae ille, ut istius, credo,
-						animos atque impetus retardaret, benignissime cum quaestore suo
-						communicavit. </p>
+						<reg>atque</reg> ego haec quae in medio posita sunt commemoro: sunt alia
+						magis occulta furta, quae ille, ut istius, credo, animos atque impetus
+						retardaret, benignissime cum quaestore suo communicavit. </p>
 				</div>
 				<div type="textpart" subtype="section" n="34">
 					<p>
@@ -709,7 +699,6 @@
 						est de me opinionis, quidquid est, aut, si id<note>id <hi rend="italic">om.
 								G2</hi></note> parum est, ego maius id commemorando facere non
 						possum. <milestone n="12" unit="chapter"/><milestone unit="Para"/>
-
 					</p>
 				</div>
 				<div type="textpart" subtype="section" n="37">
@@ -764,7 +753,6 @@
 						quam longe tu te ab his rebus abesse arbitrare, quas non modo antea numquam
 						cogitasti, sed ne nunc quidem, cum in eas ingrederis, quae et quantae sint
 						suspicari potes? <milestone n="13" unit="chapter"/><milestone unit="Para"/>
-
 					</p>
 				</div>
 				<div type="textpart" subtype="section" n="41">
@@ -816,13 +804,12 @@
 						laudo ut non pertimescam, ita probo ut me<note>me <hi rend="italic">om. D
 								al.</hi></note> ab eo delectari facilius quam decipi putem posse.
 							<milestone n="14" unit="chapter"/><milestone unit="Para"/>
-<reg>numquam</reg> ille me opprimet
-						consilio, numquam ullo artificio pervertet, numquam ingenio me suo<note>suo
-							me <hi rend="italic">G2LZ</hi></note> labefactare atque infirmare
-						conabitur; novi omnis hominis petitiones rationesque dicendi; saepe in
-						isdem, saepe in contrariis causis versati sumus; ita contra me ille dicet,
-						quamvis sit ingeniosus, ut non nullum etiam de suo ingenio iudicium fieri
-						arbitretur. </p>
+						<reg>numquam</reg> ille me opprimet consilio, numquam ullo artificio
+						pervertet, numquam ingenio me suo<note>suo me <hi rend="italic"
+							>G2LZ</hi></note> labefactare atque infirmare conabitur; novi omnis
+						hominis petitiones rationesque dicendi; saepe in isdem, saepe in contrariis
+						causis versati sumus; ita contra me ille dicet, quamvis sit ingeniosus, ut
+						non nullum etiam de suo ingenio iudicium fieri arbitretur. </p>
 				</div>
 				<div type="textpart" subtype="section" n="45">
 					<p>
@@ -862,13 +849,13 @@
 						deesse et causae atque officio tuo satis facere arbitrabor; sin mecum in hac
 						prolusione nihil fueris, quem te in ipsa pugna cum acerrimo adversario fore
 						putemus? <milestone n="15" unit="chapter"/><milestone unit="Para"/>
-<reg>esto</reg>, ipse nihil est,
-						nihil potest; at venit paratus cum subscriptoribus exercitatis et disertis.
-							<reg>est</reg> tamen hoc aliquid, tametsi non est satis; omnibus<note>in
-							omnibus <hi rend="italic">Asc.</hi></note> enim rebus is qui princeps in
-						agendo est ornatissimus et paratissimus esse debet. <reg>verum</reg> tamen
-						L. Appuleium esse video proximum subscriptorem, hominem non aetate sed usu
-						forensi atque exercitatione tironem. </p>
+						<reg>esto</reg>, ipse nihil est, nihil potest; at venit paratus cum
+						subscriptoribus exercitatis et disertis. <reg>est</reg> tamen hoc aliquid,
+						tametsi non est satis; omnibus<note>in omnibus <hi rend="italic"
+							>Asc.</hi></note> enim rebus is qui princeps in agendo est ornatissimus
+						et paratissimus esse debet. <reg>verum</reg> tamen L. Appuleium esse video
+						proximum subscriptorem, hominem non aetate sed usu forensi atque
+						exercitatione tironem. </p>
 				</div>
 				<div type="textpart" subtype="section" n="48">
 					<p>
@@ -975,7 +962,6 @@
 						iuris, ultorem iniuriarum, actorem causae totius adoptavit<note>tota
 							adoptavit <hi rend="italic">Zielinski</hi></note>. <milestone n="17"
 							unit="chapter"/><milestone unit="Para"/>
-
 					</p>
 				</div>
 				<div type="textpart" subtype="section" n="55">
@@ -1048,7 +1034,6 @@
 								rend="italic">Gruter,</hi> avertit <hi rend="italic">Zumpt</hi> (ii
 							§19: iii §137)</note>, mulieri reddidit quantulum visum est. <milestone
 							n="18" unit="chapter"/><milestone unit="Para"/>
-
 					</p>
 				</div>
 				<div type="textpart" subtype="section" n="58">
@@ -1098,7 +1083,6 @@
 							>Hachtmann</hi></note> de iniuria, quemquam horum esse putas qui non
 						malit te sine vituperatione quam cum scelere discedere? <milestone n="19"
 							unit="chapter"/><milestone unit="Para"/>
-
 					</p>
 				</div>
 				<div type="textpart" subtype="section" n="61">
@@ -1152,9 +1136,8 @@
 							<reg>semper</reg> haec causa plurimum valuit, semper haec ratio
 						accusandi fuit honestissima, pro sociis, pro salute provinciae, pro
 						exterarum nationum commodis inimicitias suscipere, ad periculum accedere,
-						operam, studium, laborem interponere. 
-						<milestone n="20" unit="chapter"/><milestone unit="Para"/>
-
+						operam, studium, laborem interponere. <milestone n="20" unit="chapter"
+							/><milestone unit="Para"/>
 					</p>
 				</div>
 				<div type="textpart" subtype="section" n="64">
@@ -1211,9 +1194,8 @@
 						<reg>nuper</reg> Cn. Domitium scimus M. Silano<note>M. <hi rend="italic"
 								>Hotom. e</hi> ii. §118: decimo <hi rend="italic">D al.
 							pr.</hi></note> diem dixisse propter unius hominis Aegritomari, paterni
-						amici atque hospitis, iniurias. 
-						
-						<milestone n="21" unit="chapter"/><milestone unit="Para"/>
+						amici atque hospitis, iniurias. <milestone n="21" unit="chapter"/><milestone
+							unit="Para"/>
 						<reg>neque</reg> enim magis animos hominum nocentium res umquam ulla
 						commovit quam haec maiorum consuetudo longo intervallo repetita ac relata,
 						sociorum querimoniae delatae ad hominem non inertissimum, susceptae ab eo
@@ -1266,16 +1248,16 @@
 						non minus de laude, de honore, de fama sua quam illos qui accusantur de
 						capite ac fortunis suis pertimescere. <reg>itaque</reg> semper ii
 						diligentissime laboriosissimeque accusarunt qui se ipsos in discrimen
-						existimationis venire arbitrati sunt. 
-						<milestone n="22" unit="chapter"/><milestone unit="Para"/>
-						<reg>quam</reg> ob rem hoc statuere, iudices, debetis, Q. Caecilium,
-						de quo nulla umquam opinio fuerit nullaque in hoc ipso iudicio exspectatio
-						futura sit, qui neque ut ante collectam famam conservet neque uti reliqui
-						temporis spem confirmet laborat, non nimis hanc causam severe, non nimis
-						accurate, non nimis diligenter acturum. <reg>habet</reg> enim nihil quod in
-						offensione deperdat; ut turpissime flagitiosissimeque discedat, nihil de
-						suis veteribus ornamentis requiret<note>requirit <hi rend="italic">D et
-								pler.</hi></note>. </p>
+						existimationis venire arbitrati sunt. <milestone n="22" unit="chapter"
+							/><milestone unit="Para"/>
+						<reg>quam</reg> ob rem hoc statuere, iudices, debetis, Q. Caecilium, de quo
+						nulla umquam opinio fuerit nullaque in hoc ipso iudicio exspectatio futura
+						sit, qui neque ut ante collectam famam conservet neque uti reliqui temporis
+						spem confirmet laborat, non nimis hanc causam severe, non nimis accurate,
+						non nimis diligenter acturum. <reg>habet</reg> enim nihil quod in offensione
+						deperdat; ut turpissime flagitiosissimeque discedat, nihil de suis veteribus
+						ornamentis requiret<note>requirit <hi rend="italic">D et pler.</hi></note>.
+					</p>
 				</div>
 				<div type="textpart" subtype="section" n="72">
 					<p> A nobis multos obsides habet populus Romanus, quos ut incolumis conservare,

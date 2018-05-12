@@ -1,4 +1,7 @@
-<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"	schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -40,54 +43,63 @@
       </fileDesc>
       <encodingDesc>
          <refsDecl n="CTS">
-            <cRefPattern n="line" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l[@n='$1'])">
+            <cRefPattern n="line" matchPattern="(\w+)"
+               replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l[@n='$1'])">
                <p>This pointer pattern extracts line</p>
             </cRefPattern>
          </refsDecl>
-         <refsDecl n="TEI.2">
+         <refsDecl n="TEI">
             <refState unit="act"/>
             <refState n="chunk" unit="scene"/>
          </refsDecl>
-         <refsDecl n="TEI.2">
+         <refsDecl n="TEI">
             <refState unit="line"/>
          </refsDecl>
       </encodingDesc>
       <profileDesc>
          <langUsage>
             <language ident="lat">Latin</language>
-            <language ident="greek">Greek</language>
+            <language ident="grc">Greek</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-
-
-<change who="Thibault Clérice" when="2016-11-18">CapiTains, Epidoc and Bump</change>
-<change who="balmas01" when="2013-09-13">moving Greg's work-in-progress on CTS-izing greco-roman collection texts to a Work directory</change>
-<change who="gcrane" when="2013-06-08">TEI XML converted to facilitate CTS compatibility</change>
-<change who="gcrane" when="2011-01-16">base sdl file</change>
-<change who="gcrane" when="2011-01-16">not ready -- does not parse -- but the DEL and ADD tags work. Q tags need fixing</change>
-<change who="rsingh04" when="2010-02-26">added back in TLN line chunking for latin texts</change>
-<change who="rsingh04" when="2009-12-07">moved more xml files around based on copyright status</change>
-<change who="rsingh04" when="2009-06-17">don't chunk by TLN line cause they don't seem to be correct and cause problems</change>
-<change who="packel" when="2005-08-01">new XML version</change>
-<change who="packel" when="2005-07-25">Converted to XML</change>
-<change who="mimno" when="2005-03-07">changed refsdecls from step to state</change>
-<change who="yorkc" when="2003-07-01">Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.)</change>
-<change who="amahoney" when="2002-05-23">mark all the apostrophe-s as abbreviations</change>
-<change who="amahoney" when="2002-05-21">use quote entities so the apostrophes are clearly distinct</change>
-<change who="amahoney" when="2001-08-02">correct accents in Greek, which got confounded with ictus marks</change>
-<change who="amahoney" when="2000-03-06">remove title headers so acts go into short toc</change>
-<change who="dasmith" when="2000-03-04">Added separate funder entity to TEI header.</change>
-<change who="amahoney" when="2000-01-28">correct parse errors (capital-U with acute can't be a V, can't putan ictus mark on "st" since no entity for t+acute)</change>
-
-<change who="dasmith" when="2000-01-13">Corrected Latin ID.Fixed Aulularia title.</change>
-
-<change who="dasmith" when="1999-08-10">Tagged through line numbers separately.</change>
-<change who="textgod" when="1999-08-10">Added to repository.</change>
-
-</revisionDesc>
+         <change who="Thibault Clérice" when="2016-11-18">CapiTains, Epidoc and Bump</change>
+         <change who="balmas01" when="2013-09-13">moving Greg's work-in-progress on CTS-izing
+            greco-roman collection texts to a Work directory</change>
+         <change who="gcrane" when="2013-06-08">TEI XML converted to facilitate CTS
+            compatibility</change>
+         <change who="gcrane" when="2011-01-16">base sdl file</change>
+         <change who="gcrane" when="2011-01-16">not ready -- does not parse -- but the DEL and ADD
+            tags work. Q tags need fixing</change>
+         <change who="rsingh04" when="2010-02-26">added back in TLN line chunking for latin
+            texts</change>
+         <change who="rsingh04" when="2009-12-07">moved more xml files around based on copyright
+            status</change>
+         <change who="rsingh04" when="2009-06-17">don't chunk by TLN line cause they don't seem to
+            be correct and cause problems</change>
+         <change who="packel" when="2005-08-01">new XML version</change>
+         <change who="packel" when="2005-07-25">Converted to XML</change>
+         <change who="mimno" when="2005-03-07">changed refsdecls from step to state</change>
+         <change who="yorkc" when="2003-07-01">Updated texts to TEI P4 and Perseus P4 extensions;
+            minor cleanup (esp. character encodings and typos.)</change>
+         <change who="amahoney" when="2002-05-23">mark all the apostrophe-s as
+            abbreviations</change>
+         <change who="amahoney" when="2002-05-21">use quote entities so the apostrophes are clearly
+            distinct</change>
+         <change who="amahoney" when="2001-08-02">correct accents in Greek, which got confounded
+            with ictus marks</change>
+         <change who="amahoney" when="2000-03-06">remove title headers so acts go into short
+            toc</change>
+         <change who="dasmith" when="2000-03-04">Added separate funder entity to TEI
+            header.</change>
+         <change who="amahoney" when="2000-01-28">correct parse errors (capital-U with acute can't
+            be a V, can't putan ictus mark on "st" since no entity for t+acute)</change>
+         <change who="dasmith" when="2000-01-13">Corrected Latin ID.Fixed Aulularia title.</change>
+         <change who="dasmith" when="1999-08-10">Tagged through line numbers separately.</change>
+         <change who="textgod" when="1999-08-10">Added to repository.</change>
+      </revisionDesc>
    </teiHeader>
-   <text xml:lang="">
+   <text>
       <body>
          <div xml:lang="lat" type="edition" n="urn:cts:latinLit:phi0119.phi018.perseus-lat2">
             <div type="textpart" n="1" subtype="act">
@@ -233,7 +245,8 @@
                      <l n="60">vos meministis quot kalendis petere demensum cibum:</l>
                      <l n="61">qui minus méministis quod opus sit facto facere in aedibus?</l>
                      <lb ed="actscene" n="5"/>
-                     <l n="62">iam quidem in súo quicqué loco nisi erit mihi situm supellectilis,</l>
+                     <l n="62">iam quidem in súo quicqué loco nisi erit mihi situm
+                        supellectilis,</l>
                      <l n="63">quom ego revortar, vos monimentis commonefaciam bubulis.</l>
                      <l n="64">non homines habitare mecum mi hic videntur, sed sues.</l>
                      <l n="65">facite sultis, nitidae ut aedes meae sint, quom redeam domum.</l>
@@ -269,13 +282,15 @@
                      <l n="80">si manere hic sese malint potius quam alio nubere.</l>
                      <l n="81">non faciam. quid mi ópust decurso aetatis spatio cum meis</l>
                      <lb ed="actscene" n="25"/>
-                     <l n="82">gerere bellum, quom nil, quam ob rem id faciam, meruisse arbitror?</l>
+                     <l n="82">gerere bellum, quom nil, quam ob rem id faciam, meruisse
+                        arbitror?</l>
                      <l n="83">minime, nolo turbas, séd hoc mihi optumum factu arbitror:</l>
                      <l n="84">
                         <del>sic faciam: adsimulabo quasi quam culpam in sese admiserint.</del>
                      </l>
                      <l n="85">perplexabilitér earum hodie perpavefaciam pectora;</l>
-                     <l n="86">post id <del>agam</del> igitur deinde, ut animus meus erit, faciam palam.</l>
+                     <l n="86">post id <del>agam</del> igitur deinde, ut animus meus erit, faciam
+                        palam.</l>
                      <lb ed="actscene" n="30"/>
                      <l n="87">multa scio faciunda verba. ibo intro. sed apertast foris.</l>
                   </sp>
@@ -840,7 +855,8 @@
                      </l>
                      <lb ed="actscene" n="10"/>
                      <l n="283">quae mísera in exspectatione est Epignomi adventum viri.</l>
-                     <l n="284">proinde út decet, amat vírum suom, cupide expetit. nunc, Pinacium,</l>
+                     <l n="284">proinde út decet, amat vírum suom, cupide expetit. nunc,
+                        Pinacium,</l>
                      <l n="285">age út placet, curre ut lubet, cave quémquam flocci feceris,</l>
                      <l n="286">cubitis depulsa de via, tranquillam concinna viam;</l>
                      <l n="287">si rex obstabit obviam, regem ipsum prius pervortito.</l>
@@ -863,7 +879,8 @@
                      <l n="295">tantum a portu adporto bonum, tam gaudium grande adfero,</l>
                      <l n="296">vix ipsa domina hoc, nisi sciat, exoptare ab deis audeat.</l>
                      <lb ed="actscene" n="25"/>
-                     <l n="297">nunc ultro id deportem? hau placet, neque id viri officium arbitror.</l>
+                     <l n="297">nunc ultro id deportem? hau placet, neque id viri officium
+                        arbitror.</l>
                      <l n="298">sic hoc videtur mihi magis meo cónvenire huic nuntio:</l>
                      <l n="299">adversum veniat, opsecret, se ut nuntio hoc impertiam;</l>
                      <l n="300">secundas fortunas decent superbiae.</l>
@@ -873,15 +890,20 @@
                      <l n="303">erámque ex maerore eximam, bene facta maiorum meum</l>
                      <l n="304">exaugeam atque illam augeam insperato opportuno bono:</l>
                      <l n="305">contundam facta Talthubi contemnamque omnis nuntios;</l>
-                     <l n="306">símulque <del>ad</del> cursuram meditabor <del>me</del> ad ludos Olympios.</l>
+                     <l n="306">símulque <del>ad</del> cursuram meditabor <del>me</del> ad ludos
+                        Olympios.</l>
                      <lb ed="actscene" n="35"/>
                      <l n="307">sed spátium hoc occidit: brevest curriculo; quam me paenitet.</l>
                      <l n="308">quid hoc? occlusam ianuam video. ibo et pultabo fores.</l>
-                     <l n="309">aperíte atque adproperáte, fores facite út pateant, removéte moram;</l>
-                     <l n="310">nimis haéc res sine curá geritur. vide quám dudum hic asto ét pulto.</l>
-                     <l n="311">somnóne operam datis? éxperiar, fores án cubiti ac pedes plús valeant.</l>
+                     <l n="309">aperíte atque adproperáte, fores facite út pateant, removéte
+                        moram;</l>
+                     <l n="310">nimis haéc res sine curá geritur. vide quám dudum hic asto ét
+                        pulto.</l>
+                     <l n="311">somnóne operam datis? éxperiar, fores án cubiti ac pedes plús
+                        valeant.</l>
                      <lb ed="actscene" n="40"/>
-                     <l n="312">nimis véllem hae fores erum fúgissent, ea caúsa ut haberent ma<add>lum mag</add>num;</l>
+                     <l n="312">nimis véllem hae fores erum fúgissent, ea caúsa ut haberent
+                           ma<add>lum mag</add>num;</l>
                      <l n="313">deféssus sum pultándo.</l>
                      <l n="314">hoc póstremumst. vae vobis.</l>
                   </sp>
@@ -1643,7 +1665,8 @@
                <div type="textpart" n="1" subtype="scene">
                   <sp>
                      <speaker>Antipho</speaker>
-                     <l n="505">Íta me di bene amént measque mihi <del>bene</del> servassint filias,</l>
+                     <l n="505">Íta me di bene amént measque mihi <del>bene</del> servassint
+                        filias,</l>
                      <l n="506">ut mihi volup est, Pamphilippe, quia vos in patriam domum</l>
                      <l n="507">rediisse video bene gesta re ambos, te et fratrem tuom.</l>
                   </sp>
@@ -1674,7 +1697,8 @@
                      <lb ed="actscene" n="15"/>
                      <l n="519">pax commersque est vobis mecum. nam hoc tu facito ut cogites:</l>
                      <l n="520">ut cuique homini res paratast, périnde amicis utitur:</l>
-                     <l n="521">si res firma, <add>item</add> fírmi amici sunt; sin res laxe labat,</l>
+                     <l n="521">si res firma, <add>item</add> fírmi amici sunt; sin res laxe
+                        labat,</l>
                      <l n="522">itidem amici conlabascunt: res amicos invenit.</l>
                   </sp>
                   <sp>
@@ -1748,7 +1772,8 @@
                   <sp>
                      <speaker>Ant.</speaker>
                      <l part="M" n="539b">Fuit olim, quasi ego sum, senex; ei filiae</l>
-                     <l n="540">duae erant, quasi nunc meae sunt; eae erant duobus nuptae fratribus,</l>
+                     <l n="540">duae erant, quasi nunc meae sunt; eae erant duobus nuptae
+                        fratribus,</l>
                      <l part="I" n="541">quasi nunc meae sunt vobis.</l>
                   </sp>
                   <sp>
@@ -1806,7 +1831,8 @@
                   </sp>
                   <sp>
                      <speaker>Epig.</speaker>
-                     <l n="555">Videlicet parcum illum fuisse senem, qui <add>illi istaec</add> dixerit,</l>
+                     <l n="555">Videlicet parcum illum fuisse senem, qui <add>illi istaec</add>
+                        dixerit,</l>
                      <l n="556">quóm ille, illi qui pollicetur, eum cibum poposcerit.</l>
                   </sp>
                   <sp>
@@ -1830,7 +1856,8 @@
                      <l n="565">
                         <q>fiat</q> ille inquít adulescens. <q>facis benigne</q> inquit senex.</l>
                      <l n="566">
-                        <q>habeon rem pactam?</q> inquit. <q>faciam ita</q> inquit <q>ut fieri voles.</q>
+                        <q>habeon rem pactam?</q> inquit. <q>faciam ita</q> inquit <q>ut fieri
+                           voles.</q>
                      </l>
                      <l n="567">sed ego ibo intro et gratulabor vostrum adventum filiis.</l>
                      <l n="568">poste ibo lautum ín pyelum, ibi fovebo sénectutem meam.</l>
@@ -2084,7 +2111,8 @@
                   </sp>
                   <sp>
                      <speaker>Epig.</speaker>
-                     <l n="617">Posse edepol tibi opinor etiam uni locum condi <gap reason="omitted"/> 
+                     <l n="617">Posse edepol tibi opinor etiam uni locum condi <gap reason="omitted"
+                        />
                      </l>
                      <lb ed="actscene" n="40"/>
                      <l part="I" n="618">ubi accubes.</l>
@@ -2170,7 +2198,8 @@
                      <l n="634">viden ridiculos nihili fieri, atque ipsos parasitarier?</l>
                      <l n="635">numquam edepol me vivom quisquam in crastinum inspiciet diem;</l>
                      <l n="636">nam mihi iam intus potione iuncea onerabo gulam,</l>
-                     <l n="637">neque ego hoc committam, ut me esse homines mortuom dicant fame.—</l>
+                     <l n="637">neque ego hoc committam, ut me esse homines mortuom dicant
+                        fame.—</l>
                   </sp>
                </div>
             </div>
@@ -2275,7 +2304,8 @@
                      <speaker>Stephanivm</speaker>
                      <l n="673">Mirúm videri némini vestrúm volo, spectatóres,</l>
                      <l n="674">quid ego hinc, quae illic habito, exeam: faciam vos certiores.</l>
-                     <l n="676">domo dúdum huc arcessita sum, <add>nam</add> quoniam nuntiatum est</l>
+                     <l n="676">domo dúdum huc arcessita sum, <add>nam</add> quoniam nuntiatum
+                        est</l>
                      <l n="677">istarum venturos viros, ibi festinamus omnes;</l>
                      <lb ed="actscene" n="5"/>
                      <l n="678">lectis sternendis studuimus munditiisque apparandis.</l>
@@ -2297,7 +2327,8 @@
                      <speaker>Stichvs</speaker>
                      <l part="M" n="686b">Convenit,</l>
                      <lb ed="actscene" n="5"/>
-                     <l n="687">dum quidem hercle quisque veniat, <add>veniat</add> cum vino suo.</l>
+                     <l n="687">dum quidem hercle quisque veniat, <add>veniat</add> cum vino
+                        suo.</l>
                      <l n="688">nam hinc quidem hodie polluctura praeter nos dabitur nemini. †</l>
                      <l part="I" n="689">nosmet inter nos ministrémus monotropi.</l>
                   </sp>
@@ -2310,8 +2341,10 @@
                   <sp>
                      <speaker>Stich.</speaker>
                      <lb ed="actscene" n="10"/>
-                     <l n="692">Sat est: servo homini módeste melius facere sumptum quam ampliter.</l>
-                     <l n="693">suom quemque decet: quibus divitiae domi sunt, scaphiis cantharis</l>
+                     <l n="692">Sat est: servo homini módeste melius facere sumptum quam
+                        ampliter.</l>
+                     <l n="693">suom quemque decet: quibus divitiae domi sunt, scaphiis
+                        cantharis</l>
                      <l n="694">batiocis bibunt, át nos nostro Samiolo poterio:</l>
                      <l n="695">tamen bibimús nos, tamen efficimus pro opibus nostra moenia.</l>
                   </sp>
@@ -2357,12 +2390,14 @@
                      <speaker>Stich.</speaker>
                      <l part="M" n="706b">Tot quot digiti tibi sunt in manu.</l>
                      <lb ed="actscene" n="25"/>
-                     <l n="707">cantio Graecast: <foreign xml:lang="grc">ἢ πέντ' ἢ τρία πῖν' ἢ μὴ τέτταρα</foreign>.</l>
+                     <l n="707">cantio Graecast: <foreign xml:lang="grc">ἢ πέντ' ἢ τρία πῖν' ἢ μὴ
+                           τέτταρα</foreign>.</l>
                   </sp>
                   <sp>
                      <speaker>Sang.</speaker>
                      <l n="708">Tibi propino. decumam a fonte tibi tute inde, si sapis.</l>
-                     <l n="709">bene vos, bene nos, bene te, bene me, bene nostram etiam Stephanium.</l>
+                     <l n="709">bene vos, bene nos, bene te, bene me, bene nostram etiam
+                        Stephanium.</l>
                      <l part="I" n="710"/>
                   </sp>
                   <sp>
@@ -2403,11 +2438,13 @@
                   <sp>
                      <speaker>Sang.</speaker>
                      <l part="M" n="714b">Melius dicis; nil moror cuppedia.</l>
-                     <l n="715">bibe, tibicen. age si quid agis, bíbendum hercle hoc est, ne nega.</l>
+                     <l n="715">bibe, tibicen. age si quid agis, bíbendum hercle hoc est, ne
+                        nega.</l>
                      <l n="716">quid hic fastidis quod faciundum vides esse tibi? quin bibis?</l>
                      <lb ed="actscene" n="35"/>
                      <l n="717">
-                        <del>age si quid agis</del> accipe inquam. non hoc <add>tuo fit sumptu</add>: inpendet publicum.</l>
+                        <del>age si quid agis</del> accipe inquam. non hoc <add>tuo fit
+                        sumptu</add>: inpendet publicum.</l>
                      <l n="718">haud tuom istúc est te vereri. éripe ex ore tibias.</l>
                   </sp>
                   <sp>
@@ -2553,7 +2590,8 @@
                   </sp>
                   <sp>
                      <speaker>Stich.</speaker>
-                     <l n="754">Ita me di ament, numquam enim fíet hodie, haec quin saltet tamen.</l>
+                     <l n="754">Ita me di ament, numquam enim fíet hodie, haec quin saltet
+                        tamen.</l>
                      <l n="755">age, mulsa mea suavitudo, salta: saltabo ego simul.</l>
                   </sp>
                   <sp>

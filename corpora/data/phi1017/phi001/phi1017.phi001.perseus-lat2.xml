@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
-  schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/8.19/tei-epidoc.rng"
-  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -77,7 +75,7 @@
                     <p>This pointer pattern extracts line</p>
                 </cRefPattern>
             </refsDecl>
-            <refsDecl n="TEI.2">
+            <refsDecl n="TEI">
                 <refState unit="card"/>
             </refsDecl>
         </encodingDesc>
@@ -87,18 +85,13 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
-            <change when="2009-01-01" who="#gcrane">Tagging</change>
             <change when="2015-11-12" who="Thibault Clerice">New URN, Epidoc and CTS</change>
+            <change when="2009-01-01" who="#gcrane">Tagging</change>
         </revisionDesc>
-
     </teiHeader>
-
     <text>
         <body>
             <div type="edition" n="urn:cts:latinLit:phi1017.phi001.perseus-lat2" xml:lang="lat">
-
-
-
                 <milestone n="1" unit="card"/>
                 <pb n="p.3"/>
                 <sp who="#iuno">
@@ -125,7 +118,6 @@
                     </l>
                     <l n="19b"><gap reason="omitted"/> una me dira ac fera</l>
                     <pb n="p.4"/>
-
                     <l n="20">Thebana tellus nuribus a! sparsa impiis </l>
                     <l n="21">quotiens novercam fecit! escendat licet</l>
                     <l n="22">meumque victrix teneat Alcmene locum,</l>
@@ -281,7 +273,6 @@
                     <l n="163">urbibus errant trepidique metus.</l>
                     <pb n="p.9"/>
                     <l n="164">Ille superbos aditus regum</l>
-
                     <l n="165">duraeque fores expers somni </l>
                     <l n="166">colit, hic nullo fine beatas</l>
                     <l n="167">componit opes gazis inhians</l>
@@ -298,7 +289,6 @@
                     <l n="178">dum fata sinunt, vivite laeti:</l>
                     <l n="179">properat cursu vita citato</l>
                     <l n="179b">volucrique die </l>
-
                     <l n="180">rota praecipitis vertitur anni; </l>
                     <l n="181">durae peragunt pensa sorores</l>
                     <l n="182">nec sua retro fila revolvunt.</l>
@@ -321,7 +311,6 @@
                     <l n="197b">lare secreto tutoque tegat. <note n="marg">197 b</note></l>
                     <l n="198">venit ad pigros cana senectus,</l>
                     <l n="199">humilique loco sed certa sedet</l>
-
                     <l n="200">sordida parvae fortuna domus: </l>
                     <l n="201">alte virtus animosa cadit. —</l>
                     <l n="202">Sed maesta venit crine soluto</l>
@@ -444,7 +433,6 @@
                     <l n="307">defende reditu sospes aut omnes trahe.</l>
                     <l n="308">trahes nec ullus eriget fractos deus.</l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="309">O socia nostri sanguinis, casta fide</l>
@@ -464,13 +452,11 @@
                     <l n="315">numquam moveri posse nec tolli putant: </l>
                     <l n="316">prona est timori semper in peius fides.</l>
                 </sp>
-
                 <sp who="#megara">
                     <speaker>Meg.</speaker>
                     <l n="317">Demersus ac defossus et toto insuper</l>
                     <l n="318">oppressus orbe quam viam ad superos habet?</l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="319">Quam tunc habebat, cum per arentem plagam</l>
@@ -480,7 +466,6 @@
                     <l n="323">deprensus haesit Syrtium brevibus vadis</l>
                     <l n="324">et puppe fixa maria superavit pedes.</l>
                 </sp>
-
                 <sp who="#megara">
                     <speaker>Meg.</speaker>
                     <l n="325">Iniqua raro maximis virtutibus </l>
@@ -522,7 +507,6 @@
                     <l n="356">velata, iuxta praesides adstat deos</l>
                     <l n="357">laterique adhaeret verus Alcidae sator.</l>
                 </sp>
-
                 <sp who="#megara">
                     <speaker>Meg.</speaker>
                     <l n="358">Quidnam iste, nostri generis exitium ac lues,</l>
@@ -545,7 +529,6 @@
                     <l n="370">sociemur animis, pignus hoc fidei cape: </l>
                     <l n="371">continge dextram, quid truci vultu siles?</l>
                 </sp>
-
                 <sp who="#megara">
                     <speaker>Meg.</speaker>
                     <l n="372">Egone ut parentis sanguine aspersam manum</l>
@@ -596,7 +579,6 @@
                     <l n="412">animo ruinas quod capis magno tuas;</l>
                     <l n="413">es rege coniunx digna: sociemus toros.</l>
                 </sp>
-
                 <sp who="#megara">
                     <speaker>Meg.</speaker>
                     <l n="414">Gelidus per artus vadit exanguis tremor.</l>
@@ -608,28 +590,22 @@
                     <l n="420">mors protrahatur lenta: non vincet fidem </l>
                     <l n="421">vis ulla nostram; moriar, Alcide, tua.</l>
                 </sp>
-
                 <sp who="#lycus">
                     <speaker>Lyc.</speaker>
                     <l n="422">Animosne mersus inferis coniunx facit?</l>
                 </sp>
-
                 <sp who="#megara">
                     <speaker>Meg.</speaker>
                     <l n="423">Inferna tetigit, posset ut supera assequi.</l>
                 </sp>
-
                 <sp who="#lycus">
                     <speaker>Lyc.</speaker>
                     <l n="424">Telluris illum pondus immensae premit.</l>
                 </sp>
-
                 <sp who="#megara">
                     <speaker>Meg.</speaker>
                     <l n="425">Nullo premetur onere, qui caelum tulit. </l>
                 </sp>
-
-
                 <sp who="#lycus">
                     <speaker>Lyc.</speaker>
                     <l n="426" part="I">Cogere.</l>
@@ -638,7 +614,6 @@
                     <speaker>Meg.</speaker>
                     <l n="426b" part="F">Cogi qui potest nescit mori.</l>
                 </sp>
-
                 <sp who="#lycus">
                     <speaker>Lyc.</speaker>
                     <l n="427">Effare potius, quod novis thalamis parem</l>
@@ -648,8 +623,6 @@
                     <speaker>Meg.</speaker>
                     <l n="428b" part="F">Aut tuam mortem aut meam.</l>
                 </sp>
-
-
                 <sp who="#lycus">
                     <speaker>Lyc.</speaker>
                     <l n="429" part="I">Moriere demens,</l>
@@ -663,7 +636,6 @@
                     <speaker>Lyc.</speaker>
                     <l n="430">Sceptrone nostro famulus est potior tibi? </l>
                 </sp>
-
                 <sp who="#megara">
                     <speaker>Meg.</speaker>
                     <l n="431">Quot iste famulus tradidit reges neci.</l>
@@ -672,37 +644,30 @@
                     <speaker>Lyc.</speaker>
                     <l n="432">Cur ergo regi servit et patitur iugum?</l>
                 </sp>
-
                 <sp who="#megara">
                     <speaker>Meg.</speaker>
                     <l n="433">Imperia dura tolle: quid virtus erit?</l>
                 </sp>
-
                 <sp who="#lycus">
                     <speaker>Lyc.</speaker>
                     <l n="434">Obici feris monstrisque virtutem putas?</l>
                 </sp>
-
                 <sp who="#megara">
                     <speaker>Meg.</speaker>
                     <l n="435">Virtutis est domare quae cuncti pavent. </l>
                 </sp>
-
                 <sp who="#lycus">
                     <speaker>Lyc.</speaker>
                     <l n="436">Tenebrae loquentem magna Tartareae premunt.</l>
                 </sp>
-
                 <sp who="#megara">
                     <speaker>Meg.</speaker>
                     <l n="437">Non est ad astra mollis e terris via.</l>
                 </sp>
-
                 <sp who="#lycus">
                     <speaker>Lyc.</speaker>
                     <l n="438">Quo patre genitus caelitum sperat domos? i</l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="439">Miseranda coniunx Herculis magni, sile:</l>
@@ -720,42 +685,34 @@
                     <l n="447b" part="F">Quid violas Iovem?</l>
                     <l n="448">mortale caelo non potest iungi genus.</l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="449">Communis ista pluribus causa est deis.</l>
                 </sp>
-
                 <sp who="#lycus">
                     <speaker>Lyc.</speaker>
                     <l n="450">Famuline fuerant ante quam fierent dei? </l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="451">Pastor Pheraeos Delius pavit greges.</l>
                 </sp>
-
                 <sp who="#lycus">
                     <speaker>Lyc.</speaker>
                     <l n="452">Sed non per omnes exul erravit plagas.</l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="453">Quem profuga terra mater errante edidit?</l>
                 </sp>
-
                 <sp who="#lycus">
                     <speaker>Lyc.</speaker>
                     <l n="454">Num monstra saeva Phoebus aut timuit feras?</l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="455">Primus sagittas imbuit Phoebi draco. </l>
                 </sp>
-
                 <sp who="#lycus">
                     <speaker>Lyc.</speaker>
                     <l n="456">Quam gravia parvus tulerit ignoras mala?</l>
@@ -771,17 +728,14 @@
                     <l n="461">sollicita tanti pretia natales habent</l>
                     <l n="462">semperque magno constitit nasci deum.</l>
                 </sp>
-
                 <sp who="#lycus">
                     <speaker>Lyc.</speaker>
                     <l n="463">Quemcumque miserum videris, hominem scias.</l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="464">Quemcumque fortem videris, miserum neges.</l>
                 </sp>
-
                 <sp who="#lycus">
                     <speaker>Lyc.</speaker>
                     <l n="465">Fortem vocemus cuius ex umeris leo, </l>
@@ -792,7 +746,6 @@
                     <l n="470">ad non virilem tympani movit sonum, </l>
                     <l n="471">mitra ferocem barbara frontem premens?</l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="472">Non erubescit Bacchus effusos tener</l>
@@ -801,7 +754,6 @@
                     <l n="475">auro decorum syrma barbaricum trahit: </l>
                     <l n="476">post multa virtus opera laxari solet.</l>
                 </sp>
-
                 <sp who="#lycus">
                     <speaker>Lyc.</speaker>
                     <l n="477">Hoc Euryti fatetur eversi domus</l>
@@ -832,7 +784,6 @@
                     <l n="493">sin copulari pertinax taedis negat,</l>
                     <l n="494">vel ex coacta nobilem partum feram.</l>
                 </sp>
-
                 <sp who="#megara">
                     <speaker>Meg.</speaker>
                     <l n="495">Vmbrae Creontis et penates Labdaci </l>
@@ -842,7 +793,6 @@
                     <l n="499">adeste multo sanguine infectae manus.</l>
                     <l n="500">dest una numero Danais: explebo nefas. </l>
                 </sp>
-
                 <sp who="#lycus">
                     <speaker>Lyc.</speaker>
                     <l n="501">Coniugia quoniam pervicax nostra abnuis</l>
@@ -854,13 +804,11 @@
                     <l n="507">iniecta fiagrent, coniugem et totum gregem</l>
                     <l n="508">consumat unus igne subiecto rogus.</l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="509">Hoc munus a te genitor Alcidae peto,</l>
                     <l n="510">rogare quod me deceat, ut primus cadam. </l>
                 </sp>
-
                 <sp who="#lycus">
                     <speaker>Lyc.</speaker>
                     <l n="511">Qui morte cunctos luere supplicium iubet</l>
@@ -997,20 +945,17 @@
                     <l n="624">deceptus umbra? tune es? agnosco toros</l>
                     <l n="625">umerosque et alto nobilem trunco manum. </l>
                 </sp>
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="626">Vnde iste, genitor, squalor et lugubribus</l>
                     <l n="627">amicta coniunx? unde tam foedo obsiti</l>
                     <l n="628">paedore nati? quae domum clades gravat?</l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="629">Socer est peremptus, regna possedit Lycus,</l>
                     <l n="630">natos parentem coniugem leto petit. </l>
                 </sp>
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="631">Ingrata tellus, nemo ad Herculeae domus</l>
@@ -1024,7 +969,6 @@
                     <l n="639">coniunxque differ, nuntiet Diti Lycus</l>
                     <l n="640">me iam redisse.</l>
                 </sp>
-
                 <sp who="#theseus">
                     <speaker>Thes.</speaker>
                     <l n="640b">Flebilem ex oculis fuga, </l>
@@ -1042,7 +986,6 @@
                     <l n="648">quam longa maestos ducat ad manes via,</l>
                     <l n="649">ut vincla tulerit dura Tartareus canis.</l>
                 </sp>
-
                 <sp who="#theseus">
                     <speaker>Thes.</speaker>
                     <l n="650">Memorare cogis acta securae quoque </l>
@@ -1058,7 +1001,6 @@
                     <l n="656">frauda laborum: quae fuit durum pati,</l>
                     <l n="657">meminisse dulce est fare casus horridos.</l>
                 </sp>
-
                 <sp who="#theseus">
                     <speaker>Thes.</speaker>
                     <l n="658">Fas omne mundi teque dominantem precor</l>
@@ -1102,12 +1044,10 @@
                     <l n="695">et cincta ferro Bella; in extremo abdita </l>
                     <l n="696">iners Senectus adiuvat baculo gradum.</l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="697">Estne aliqua tellus Cereris aut Bacchi ferax?</l>
                 </sp>
-
                 <sp who="#theseus">
                     <speaker>Thes.</speaker>
                     <l n="698">Non prata viridi laeta facie germinant</l>
@@ -1121,7 +1061,6 @@
                     <pb n="p.27"/>
                     <l n="706">ipsaque morte peior est mortis locus.</l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="707">Quid ille opaca qui regit sceptro loca,</l>
@@ -1157,7 +1096,6 @@
                     <l n="729">sceleris nocentes debitas poenas dare?</l>
                     <l n="730">quis iste veri rector atque aequi arbiter? </l>
                 </sp>
-
                 <sp who="#theseus">
                     <speaker>Thes.</speaker>
                     <l n="731">Non unus alta sede quaesitor sedens</l>
@@ -1185,7 +1123,6 @@
                     <l n="748">locus nocentes? utque fert fama. impios</l>
                     <l n="749">supplicia vinclis saeva perpetuis domant?</l>
                 </sp>
-
                 <sp who="#theseus">
                     <speaker>Thes.</speaker>
                     <l n="750">Rapitur volucri tortus Ixion rota; </l>
@@ -1199,7 +1136,6 @@
                     <l n="758">errant furentes impiae Cadmeides</l>
                     <l n="759">terretque mensas avida Phineas avis.</l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="760">Nunc ede nati nobilem pugnam mei. </l>
@@ -1315,13 +1251,11 @@
                     <l n="862">et color noctis malus ac silentis</l>
                     <l n="863">otium mundi vacuaeque nubes.</l>
                     <l n="864">Sera nos illo referat senectus:</l>
-
                     <l n="865">nemo ad' id sero venit, unde numquam. </l>
                     <l n="866">cum semel venit, potuit reverti;</l>
                     <l n="867">quid iuvat durum properare fatum?</l>
                     <l n="868">omnis haec magnis vaga turba terris</l>
                     <l n="869">ibit ad manes facietque inerti</l>
-
                     <l n="870">vela Cocyto: tibi crescit omne, </l>
                     <l n="871">et quod occasus videt et quod ortus,</l>
                     <l n="872">parce Venturis: tibi, mors, paramur.</l>
@@ -1383,7 +1317,6 @@
                     <l n="918b" part="F">Nate, manantes prius</l>
                     <l n="919">manus cruenta caede et hostili expia.</l>
                 </sp>
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="920">Vtinam cruore capitis invisi deis </l>
@@ -1464,7 +1397,6 @@
                     <l n="974">averte sensus; pectoris sani parum</l>
                     <l n="975">magni tamen compesce dementem impetum. </l>
                 </sp>
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="976">Quid hoc? Gigantes arma pestiferi movent.</l>
@@ -1515,20 +1447,17 @@
                     <l n="1008">at misera, parvum protegens gnatum sinu,</l>
                     <l n="1009">Megara furenti similis e latebris fugit.</l>
                 </sp>
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="1010">Licet tonantis profuga condaris sinu, </l>
                     <pb n="p.37"/>
                     <l n="1011">petet undecumque temet haec dextra et feret.</l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="1012">Quo misera pergis? quam fugam aut latebram petis?</l>
                     <l n="1013">nullus salutis Hercule infesto est locus.</l>
                     <l n="1014">amplectere ipsum potius et blanda prece</l>
-
                     <l n="1015" part="I">lenire tempta,</l>
                 </sp>
                 <sp who="#megara">
@@ -1544,12 +1473,10 @@
                     <l n="1019">iugoque pressum libera turpi Iovem;</l>
                     <l n="1020">sed ante matrem parvulum hoc monstrum occidat. </l>
                 </sp>
-
                 <sp who="#megara">
                     <speaker>Meg.</speaker>
                     <l n="1021">Quo tendis amens? sanguinem fundes tuum?</l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="1022">Pavefactus infans igneo vultu patris</l>
@@ -1566,7 +1493,6 @@
                     <l n="1033">quo pergis amens? profuge et obtectas late</l>
                     <l n="1034">unumque manibus aufer Herculeis scelus.</l>
                 </sp>
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="1035">Bene habet, pudendi regis excisa est domus. </l>
@@ -1575,7 +1501,6 @@
                     <pb n="p.38"/>
                     <l n="1038">te digna, et Argos victimas alias dabit.</l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="1039">Nondum litasti, nate: consumma sacrum.</l>
@@ -1611,7 +1536,6 @@
                     <l n="1065">rectam in melius flectite mentem. </l>
                     <pb n="p.39"/>
                     <l n="1066">tuque, o domitor Somne malorum,</l>
-
                     <l n="1066b">requies animi, </l>
                     <l n="1067">pars humanae melior vitae,</l>
                     <l n="1068">volucre o matris genus Astraeae,</l>
@@ -1630,7 +1554,6 @@
                     <l n="1081">quam mens repetat pristina cursum.</l>
                     <l n="1082">En fusus humi saeva feroci</l>
                     <l n="1083">corde volutat somnia</l>
-
                     <l n="1083b">(nondum est </l>
                     <l n="1084">tanti pestis superata mali</l>
                     <l n="1085">clavaeque gravi lassum solitus </l>
@@ -1644,7 +1567,6 @@
                     <pb n="p.40"/>
                     <l n="1093">pelle insanos fluctus animi,</l>
                     <l n="1094">redeat pietas virtusque viro.</l>
-
                     <l n="1094b">vel sit potius </l>
                     <l n="1095">mens vesano concita motu: </l>
                     <l n="1096">error caecus qua coepit eat;</l>
@@ -1657,7 +1579,6 @@
                     <l n="1103">verbera pulsent victrice manu;</l>
                     <l n="1104">gemitus vastos audiat aether,</l>
                     <l n="1105">audiat atri regina poli </l>
-
                     <l n="1105b">vastisque ferox </l>
                     <l n="1106">qui colla gerit vincta catenis</l>
                     <l n="1107">imo latitans Cerberus antro.</l>
@@ -1673,15 +1594,12 @@
                     <l n="1117">fortis harundo, pharetraeque graves,</l>
                     <l n="1118">date saeva fero verbera tergo;</l>
                     <l n="1119">caedant umeros robora fortes</l>
-
                     <l n="1119b">stipesque potens </l>
                     <l n="1120">duris oneret pectora nodis: </l>
                     <l n="1121">plangant tantos arma dolores.</l>
                     <pb n="p.41"/>
-
                     <l n="1135">Ite infaustum genus, o pueri, </l>
                     <l n="1136">noti per iter triste laboris, </l>
-
                     <l n="1122">non vos patriae laudis comites </l>
                     <l n="1123">ulti saevos vulnere reges,</l>
                     <l n="1124">non Argiva membra palaestra</l>
@@ -1696,7 +1614,6 @@
                     <l n="1132">ite, innocuae,</l>
                     <l n="1133">quas in primo limine vitae</l>
                     <l n="1134">scelus oppressit patriusque furor, </l>
-
                     <l n="1137">ite, iratos visite reges. </l>
                 </sp>
                 <milestone n="1138" unit="card"/>
@@ -1766,12 +1683,10 @@
                     <speaker>Amph.</speaker>
                     <l n="1187b" part="F">Saepe vindicta obfuit.</l>
                 </sp>
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="1188">Quisquamne segnis tanta toleravit mala?</l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="1189" part="I">Maiora quisquis timuit.</l>
@@ -1781,12 +1696,10 @@
                     <l n="1189b" part="F">His etiam, pater,</l>
                     <l n="1190">quicquam timeri maius aut gravius potest? </l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="1191">Cladis tuae pars ista quam nosti quota est?</l>
                 </sp>
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="1192">Miserere, genitor, supplices tendo manus.</l>
@@ -1826,7 +1739,6 @@
                     <l n="1217">cruore corpus impio sparsum cremo?</l>
                     <l n="1218">sic, sic agendum est: inferis reddam Herculem.</l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="1219">Nondum tumultu pectus attonito carens</l>
@@ -1852,22 +1764,18 @@
                     <l n="1235">dent arma poenas, vos quoque infaustas meis </l>
                     <l n="1236">cremabo telis, o novercales manus.</l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="1237">Quis nomen usquam sceleris errori addidit?</l>
                 </sp>
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="1238">Saepe error ingens sederis obtinuit locum.</l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="1239">Nunc Hercule opus est: perfer hanc molem mali.</l>
                 </sp>
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="1240">Non sic furore cessit extinctus pudor, </l>
@@ -1878,7 +1786,6 @@
                     <l n="1244">referte manibus tela; si remanet furor,</l>
                     <l n="1245">pater, recede: mortis inveniam viam. </l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="1246">Per sancta generis sacra, per ius nominis</l>
@@ -1894,7 +1801,6 @@
                     <l n="1256">a me timetur: semper absentis pater</l>
                     <l n="1257">fructum tui factumque et aspectum peto.</l>
                 </sp>
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="1258">Cur animam in ista luce detineam amplius</l>
@@ -1903,8 +1809,6 @@
                     <l n="1261">etiam furorem, nemo polluto queat</l>
                     <l n="1262">animo mederi: morte sanandum est scelus.</l>
                 </sp>
-
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="1263" part="I">Perimes parentem,</l>
@@ -1913,8 +1817,6 @@
                     <speaker>Herc.</speaker>
                     <l part="F" n="1263b">Facere ne possim, occidam.</l>
                 </sp>
-
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="1264" part="I">Genitore coram?</l>
@@ -1929,7 +1831,6 @@
                     <l n="1265">Memoranda potius omnibus facta intuens </l>
                     <l n="1266">unius a te criminis veniam pete.</l>
                 </sp>
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="1267">Veniam dabit sibi ipse, qui nulli dedit?</l>
@@ -1949,7 +1850,6 @@
                     <l n="1276">animum malo resume, nune magna tibi</l>
                     <l n="1277">virtute agendum est: Herculem irasci veta.</l>
                 </sp>
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="1278">Si vivo, feci scelera; si morior, tuli.</l>
@@ -1959,21 +1859,17 @@
                     <l n="1282">ingens opus, labore bis seno amplius.</l>
                     <l n="1283">ignava cessas, fortis in pueros modo</l>
                     <l n="1284">pavidasque matres? arma nisi dantur mihi,</l>
-
                     <l n="1285">aut omne Pindi Thracis excidam nemus </l>
                     <l n="1286">Bacchique lucos et Cithaeronis iuga</l>
                     <l n="1287">mecum cremabo, aut tota cum domibus suis</l>
                     <l n="1288">dominisque tecta, cum deis templa omnibus</l>
                     <l n="1289">Thebana supra corpus excipiam meum</l>
-
                     <l n="1290">atque urbe versa condar, et, si fortibus </l>
                     <l n="1291">leve pondus umeris moenia immissa incident</l>
                     <l n="1292">septemque opertus non satis portis premar,</l>
                     <l n="1293">onus omne media parte quod mundi sedet</l>
                     <l n="1294">dirimitque superos, in meum vertam caput.</l>
                 </sp>
-
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="1295" part="I">Reddo arma.</l>
@@ -1983,13 +1879,10 @@
                     <l part="F" n="295b">Vox est digna genitore Herculis. </l>
                     <l n="1296">hoc en peremptus spiculo cecidit puer—</l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="1297">Hoc Iuno telum manibus immisit tuis.</l>
                 </sp>
-
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="1298" part="I">Hoc nunc ego utar.</l>
@@ -1999,8 +1892,6 @@
                     <l part="F" n="1298b">Ecce quam miserum metu</l>
                     <l n="1299">cor palpitat pectusque sollicitum ferit.</l>
                 </sp>
-
-
                 <sp who="#hercules">
                     <speaker>Herc.</speaker>
                     <l n="1300" part="I">Aptata harundo est.</l>
@@ -2015,7 +1906,6 @@
                     <speaker>Herc.</speaker>
                     <l part="F" n="1301b">Pande, quid fieri iubes?</l>
                 </sp>
-
                 <sp who="#amphitryon">
                     <speaker>Amph.</speaker>
                     <l n="1302">Nihil rogamus: noster in tuto est dolor.</l>
