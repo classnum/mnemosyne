@@ -53,7 +53,7 @@
 				<cRefPattern matchPattern="(.*)"
 					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l[@n='$1'])"
 					n="line">
-					<p>This pointer pattern extracts line</p>
+					<p>This pointer pattern extracts line.</p>
 				</cRefPattern>
 			</refsDecl>
 		</encodingDesc>

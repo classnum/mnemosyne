@@ -50,11 +50,11 @@
             <refsDecl n="CTS">
                 <cRefPattern n="line" matchPattern="(\w+).(\w+)"
                     replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']//tei:l[@n='$2'])">
-                    <p>This pointer pattern extracts Book and Line</p>
+                    <p>This pointer pattern extracts Book and Line.</p>
                 </cRefPattern>
                 <cRefPattern n="book" matchPattern="(\w+)"
                     replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-                    <p>This pointer pattern extracts Book</p>
+                    <p>This pointer pattern extracts Book.</p>
                 </cRefPattern>
             </refsDecl>
             <refsDecl>

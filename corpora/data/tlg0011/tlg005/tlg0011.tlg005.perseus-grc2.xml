@@ -46,13 +46,13 @@
          <refsDecl n="CTS">
             <cRefPattern n="line" matchPattern="(\w+)"
                replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l[@n='$1'])">
-               <p>This pointer pattern extracts line</p>
+               <p>This pointer pattern extracts line.</p>
             </cRefPattern>
          </refsDecl>
          <!--<refsDecl n="CTS">
             
             <cRefPattern n="card" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-               <p>This pointer pattern extracts cards</p>
+               <p>This pointer pattern extracts cards.</p>
             </cRefPattern>
             
          </refsDecl>-->

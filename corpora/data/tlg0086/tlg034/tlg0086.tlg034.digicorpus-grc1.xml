@@ -36,7 +36,7 @@
       <refsDecl n="CTS">
         <cRefPattern n="chapter" matchPattern="(\\w+)"
           replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pointer pattern extracts chapter</p>
+          <p>This pointer pattern extracts chapter.</p>
         </cRefPattern>
       </refsDecl>
       <refsDecl n="text=1">

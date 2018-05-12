@@ -53,11 +53,11 @@
 			<refsDecl n="CTS">
 				<cRefPattern n="section" matchPattern="(\w+).(\w+)"
 					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-					<p>This pointer pattern extracts speech and section</p>
+					<p>This pointer pattern extracts speech and section.</p>
 				</cRefPattern>
 				<cRefPattern n="chapter" matchPattern="(\w+)"
 					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-					<p>This pointer pattern extracts speech</p>
+					<p>This pointer pattern extracts speech.</p>
 				</cRefPattern>
 			</refsDecl>
 			<refsDecl>
@@ -69,11 +69,11 @@
 			<refsDecl n="CTS">
 				<cRefPattern n="chapter" matchPattern="(\w+).(\w+)"
 					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:div[@n='$2'])">
-					<p>This pointer pattern extracts speech and chapter</p>
+					<p>This pointer pattern extracts speech and chapter.</p>
 				</cRefPattern>
 				<cRefPattern n="speech" matchPattern="(\w+)"
 					replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-					<p>This pointer pattern extracts speech</p>
+					<p>This pointer pattern extracts speech.</p>
 				</cRefPattern>
 			</refsDecl>
 			<refsDecl>

@@ -39,12 +39,12 @@
                 <cRefPattern matchPattern="(\w+).(\w+)"
                     replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']/tei:l[@n='$2'])"
                     n="line">
-                    <p>This pointer pattern extracts book and line</p>
+                    <p>This pointer pattern extracts book and line.</p>
                 </cRefPattern>
                 <cRefPattern matchPattern="(\w+)"
                     replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])"
                     n="book">
-                    <p>This pointer pattern extracts book</p>
+                    <p>This pointer pattern extracts book.</p>
                 </cRefPattern>
             </refsDecl>
         </encodingDesc>
