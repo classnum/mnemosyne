@@ -59,6 +59,10 @@
       </langUsage>
     </profileDesc>
     <revisionDesc>
+      <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+        HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines where
+        needed adding letters to numbers in @n, fix Latin content in some bibl tags erroneously in
+        Greek, update EpiDoc schema metadata.</change>
       <change when="2015-11-12" who="Thibault Clerice">New URN, Epidoc and CTS</change>
       <change when="2009-01-01" who="gcrane">Tagging</change>
     </revisionDesc>
@@ -221,7 +225,7 @@
                 futura nisi onus et praeda, si mens illa imperii subtrahatur. <quote
                   rend="blockquote"><l>Rege incolumi mens omnibus una;</l>
                   <l>amisso rupere fidem.</l></quote>
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="2">
               <p>Hic casus Romanae pacis exitium erit, hic tanti fortunam populi in ruinas aget ;
@@ -237,7 +241,7 @@
                 convertit. Olim enim ita se induit rei publicae Caesar, ut seduci alterum non posset
                 sine utriusque pernicie ; nam et illi viribus opus est et huic capite. <pb n="p.370"
                 />
-             </p>
+              </p>
             </div>
           </div>
           <div type="textpart" subtype="chapter" n="5">
@@ -725,7 +729,7 @@
                 degeneri) nec licentiam vagandi errandique passim concedit. Adicias his licet
                 tardiora agentes iumenta, quae, cum ad contumeliam et miserias nata sint, nimia
                 saevitia cogantur iugum detractare. <pb n="p.406"/>
-             </p>
+              </p>
             </div>
           </div>
           <div type="textpart" subtype="chapter" n="17">
@@ -796,7 +800,7 @@
                 ingentium rerum documenta minima largiri.<note> minima argere (agere) O: urgere
                   Haupt: spargere Madvig: largiri ego scripsi: in minima (sc. re) parere Hosius :
                   arguere Ball. </note>
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="4">
               <p>Pudeat ab exiguis animalibus non trahere mores, cum tanto hominum moderatior esse
@@ -1237,7 +1241,7 @@
                 punire ; venia debitae poenae remissio est. Clementia hoc primum praestat, ut, quos
                 dimittit, nihil aliud illos pati debuisse pronuntiet ; plenior est quam venia,
                 honestior est. <pb n="p.446"/>
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="4">
               <p>De verbo, ut mea fert opinio, controversia est, de re quidem convenit. Sapiens
@@ -1250,7 +1254,7 @@
             <div type="textpart" subtype="section" n="5">
               <p>Videbit, quod ingenium qua ratione tractandum sit, quo modo in rectum prava
                 Sectantur." <gap reason="omitted"/>
-             </p>
+              </p>
               <pb n="p.448"/>
               <milestone unit="book" n="frag"/>
               <p>Hildebertus Cenomanensis ep. 1.3 (CLXXI. 145 Mign.) De clementia quoque compendiosa

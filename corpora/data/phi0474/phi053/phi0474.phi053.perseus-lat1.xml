@@ -62,6 +62,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+            HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines
+            where needed adding letters to numbers in @n, fix Latin content in some bibl tags
+            erroneously in Greek, update EpiDoc schema metadata.</change>
          <change who="balmas01" when="2013-09-13">moving Greg's work-in-progress on CTS-izing
             greco-roman collection texts to a Work directory</change>
          <change who="gcrane" when="2013-06-08">TEI XML converted to facilitate CTS
@@ -132,18 +136,17 @@
                <head>M. Tullii Ciceronis de divinatione liber primus.</head>
                <milestone unit="chapter" n="1"/>
                <div type="textpart" n="1" subtype="section">
-                  <p>Vetus opinio est iam usque ab heroicis ducta temporibus, eaque et populi
-                     Romani et omnium gentium firmata consensu, versari quandam inter homines
-                     divinationem, quam Graeci <foreign xml:lang="grc">mantikh/n</foreign>
-                     appellant, id est praesensionem et scientiam rerum futurarum. Magnifica quaedam
-                     res et salutaris, si modo est ulla, quaque proxime ad deorum vim natura
-                     mortalis possit accedere. Itaque ut alia nos melius multa quam Graeci, sic huic
-                     praestantissimae rei nomen nostri a divis, Graeci, ut Plato interpretatur, a
-                     furore duxerunt.</p>
+                  <p>Vetus opinio est iam usque ab heroicis ducta temporibus, eaque et populi Romani
+                     et omnium gentium firmata consensu, versari quandam inter homines divinationem,
+                     quam Graeci <foreign xml:lang="grc">mantikh/n</foreign> appellant, id est
+                     praesensionem et scientiam rerum futurarum. Magnifica quaedam res et salutaris,
+                     si modo est ulla, quaque proxime ad deorum vim natura mortalis possit accedere.
+                     Itaque ut alia nos melius multa quam Graeci, sic huic praestantissimae rei
+                     nomen nostri a divis, Graeci, ut Plato interpretatur, a furore duxerunt.</p>
                </div>
                <div type="textpart" n="2" subtype="section">
-                  <p>Gentem quidem nullam video neque tam humanam <pb n="p.145"/> atque doctam
-                     neque tam inmanem tamque barbaram, quae non significari futura et a quibusdam
+                  <p>Gentem quidem nullam video neque tam humanam <pb n="p.145"/> atque doctam neque
+                     tam inmanem tamque barbaram, quae non significari futura et a quibusdam
                      intellegi praedicique posse censeat. Principio Assyrii, ut ab ultumis
                      auctoritatem repetam, propter planitiam magnitudinemque regionum, quas
                      incolebant, cum caelum ex omni parte patens atque apertum intuerentur,
@@ -168,7 +171,7 @@
                      videretur esse et inpetriendis consulendisque rebus et monstris interpretandis
                      ac procurandis in haruspicum disciplina, omnem hanc ex Etruria scientiam
                      adhibebant, ne genus esset ullum divinationis, quod neglectum ab iis videretur.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="4" subtype="section">
                   <p>Et cum duobus modis animi sine ratione et scientia motu ipsi suo soluto et
@@ -221,7 +224,8 @@
                      libris, quos de natura deorum scripsimus. Nam cum omnibus in rebus temeritas in
                      adsentiendo errorque turpis est, tum in eo loco maxime, in quo iudicandum est,
                      quantum auspiciis rebusque divinis religionique tribuamus; est enim periculum,
-                     ne aut neglectis iis impia fraude aut susceptis anili superstitione obligemur.</p>
+                     ne aut neglectis iis impia fraude aut susceptis anili superstitione
+                     obligemur.</p>
                   <milestone unit="chapter" n="5"/>
                </div>
                <div type="textpart" n="8" subtype="section">
@@ -245,7 +249,7 @@
                      videamus quam habeat vim et quale sit. Ego enim sic existimo, si sint ea genera
                      divinandi vera, de quibus accepimus quaeque colimus, esse deos, vicissimque, si
                      di sint, esse qui divinent. <milestone unit="chapter" n="6"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="10" subtype="section">
                   <p>Arcem tu quidem Stoicorum, inquam, Quinte, defendis, siquidem ista sic
@@ -313,7 +317,7 @@
                         <l>Demersit caput et fluctum cervice recepit.</l>
                      </quote>
                      <milestone unit="chapter" n="9"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="15" subtype="section">
                   <p>Videmus haec signa numquam fere mentientia nec tamen, cur ita fiat, videmus.
@@ -350,7 +354,7 @@
                      inveniretur, haruspices in Tiberim id depulsum esse dixerunt, idque inventum
                      est eo loco, qui est ab haruspicibus demonstratus. <milestone unit="chapter"
                         n="11"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="17" subtype="section">
                   <p>Sed quo potius utar aut auctore aut teste quam te? cuius edidici etiam versus,
@@ -367,7 +371,7 @@
                         <l>Re vera certo lapsu spatioque feruntur,</l>
                         <l>Omnia iam cernes divina mente notata.</l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="18" subtype="section">
                   <p>
@@ -393,7 +397,7 @@
                         <l>Multaque per terras vates oracla furenti</l>
                         <l>Pectore fundebant tristis minitantia casus,</l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="19" subtype="section">
                   <l>Atque ea, quae lapsu tandem cecidere vetusto,</l>
@@ -657,7 +661,8 @@
                      divino adflatu concitabat, evanuisse vetustate, ut quosdam evanuisse et
                      exaruisse amnes aut in alium cursum contortos et deflexos videmus. Sed, ut vis,
                      acciderit; magna enim quaestio est; modo maneat id, quod negari non potest,
-                     nisi omnem historiam perverterimus, multis saeclis verax fuisse id oraculum.</p>
+                     nisi omnem historiam perverterimus, multis saeclis verax fuisse id
+                     oraculum.</p>
                   <milestone unit="chapter" n="20"/>
                </div>
                <div type="textpart" n="39" subtype="section">
@@ -686,7 +691,7 @@
                         </l>
                         <l>Corde capessere; semita nulla pedem stabilibat.</l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="41" subtype="section">
                   <p>
@@ -701,7 +706,7 @@
                         <l>Vix aegro tum corde meo me somnus reliquit.”</l>
                      </quote>
                      <milestone unit="chapter" n="21"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="42" subtype="section">
                   <p>Haec, etiamsi ficta sunt a poe+ta, non absunt tamen a consuetudine somniorum.
@@ -720,7 +725,7 @@
                         <l>Postílla natus, témperaret tóllere;</l>
                         <l>Eum ésse exitium Tróiae, pestem Pérgamo.</l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="43" subtype="section">
                   <p>Sint haec, ut dixi, somnia fabularum, hisque adiungatur etiam Aeneae somnium,
@@ -764,7 +769,7 @@
                         <l>Cépit cursum ab laéva signum praépotens, pulchérrume</l>
                         <l>Aúguratum est rém Romanam públicam summám fore.</l>
                      </quote> Age nunc ad externa redeamus. <milestone unit="chapter" n="23"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="46" subtype="section">
                   <p>Matrem Phalaridis scribit Ponticus Heraclides, doctus vir, auditor et
@@ -792,7 +797,7 @@
                      Dianae deflagravit, eadem constat ex Olympiade natum esse Alexandrum, atque,
                      ubi lucere coepisset, clamitasse magos pestem ac perniciem Asiae proxuma nocte
                      natam. Haec de Indis et magis. <milestone unit="chapter" n="24"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="48" subtype="section">
                   <p>Redeamus ad somnia. Hannibalem Coelius scribit, cum columnam auream, quae esset
@@ -839,7 +844,7 @@
                </div>
                <div type="textpart" n="52" subtype="section">
                   <p>Sed veniamus nunc, si placet, ad somnia philosophorum. <pb n="p.165"/>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="25"/>
                   <p>Est apud Platonem Socrates, cum esset in custodia publica, dicens Critoni, suo
                      familiari, sibi post tertium diem esse moriendum; vidisse se in somnis
@@ -947,7 +952,8 @@
                      mihi ipsi celeriter nuntiatum est, ut audivisses in monumento Marii de tuo
                      reditu magnificentissumum illud senatus consultum esse factum referente optumo
                      et clarissumo viro consule, idque frequentissimo theatro incredibili clamore et
-                     plausu comprobatum, dixisse te nihil illo Atinati somnio fieri posse divinius.</p>
+                     plausu comprobatum, dixisse te nihil illo Atinati somnio fieri posse
+                     divinius.</p>
                   <milestone unit="chapter" n="29"/>
                </div>
                <div type="textpart" n="60" subtype="section">
@@ -1005,7 +1011,7 @@
                      plenus ae+r sit inmortalium animorum, in quibus tamquam insignitae notae
                      veritatis appareant, tertio, quod ipsi di cum dormientibus conloquantur. Idque,
                      ut modo dixi, facilius evenit adpropinquante morte, ut animi futura augurentur.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="65" subtype="section">
                   <p>Ex quo et illud est Callani, de quo ante dixi, et Homerici Hectoris, qui
@@ -1018,9 +1024,9 @@
                      dicitur praesagire, id est futura ante sentire.</p>
                </div>
                <div type="textpart" n="66" subtype="section">
-                  <p>Inest igitur in animis praesagitio extrinsecus iniecta atque inclusa
-                     divinitus. Ea si exarsit acrius, furor appellatur, cum a corpore animus
-                     abstractus divino instinctu concitatur. <quote rend="blockquote">
+                  <p>Inest igitur in animis praesagitio extrinsecus iniecta atque inclusa divinitus.
+                     Ea si exarsit acrius, furor appellatur, cum a corpore animus abstractus divino
+                     instinctu concitatur. <quote rend="blockquote">
                         <sp>
                            <speaker>H.</speaker>
                            <l>Séd quid oculis rábere visa es dérepente ardéntibus?</l>
@@ -1051,7 +1057,7 @@
                         <l>A/dveniet, fera vélivolantibus</l>
                         <l>Návibus complebít manus litora.</l>
                      </quote> Tragoedias loqui videor et fabulas. <milestone unit="chapter" n="32"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="68" subtype="section">
                   <p>At ex te ipso non commenticiam rem, sed factam eiusdem generis audivi: C.
@@ -1093,11 +1099,11 @@
                         semel aliquid esse ita divinatum, ut nihil fortuito cecidisse videatur. Sunt
                         autem eius generis innumerabilia; esse igitur divinationem confitendum
                         est.</quote>
-                 </p>
+                  </p>
                   <p>Quae vero aut coniectura explicantur aut eventis animadversa ac notata sunt, ea
                      genera divinandi, ut supra dixi, non naturalia, sed artificiosa dicuntur;
                         <milestone unit="chapter" n="33"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="72" subtype="section">
                   <p>in quo haruspices, augures coniectoresque numerantur. Haec inprobantur a
@@ -1120,7 +1126,7 @@
                      aspexit, cuius in iuba examen apium consederat. Quod ostentum habuit hanc vim,
                      ut Dionysius paucis post diebus regnare coeperit. <milestone unit="chapter"
                         n="34"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="74" subtype="section">
                   <p>Quid? Lacedaemoniis paulo ante Leuctricam calamitatem quae significatio facta
@@ -1131,7 +1137,7 @@
                      Trophonio res divina fieret, gallos gallinaceos in eo loco sic adsidue canere
                      coepisse, ut nihil intermitterent; tum augures dixisse Boeotios Thebanorum esse
                      victoriam, propterea quod avis illa victa silere soleret, canere, si vicisset.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="75" subtype="section">
                   <p>Eademque tempestate multis signis Lacedaemoniis Leuctricae pugnae calamitas
@@ -1151,7 +1157,7 @@
                      aliud alio dissupavit. Tum ea, quae praeposita erat oraclo, sacerdos dixisse
                      dicitur de salute Lacedaemoniis esse, non de victoria cogitandum. <milestone
                         unit="chapter" n="35"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="77" subtype="section">
                   <p>Quid? bello Punico secundo nonne C. Flaminius consul iterum neglexit signa
@@ -1217,10 +1223,10 @@
                      vis quaedam abstraxisse a sensu mentis videretur.</p>
                </div>
                <div type="textpart" n="81" subtype="section">
-                  <p>Obiciuntur etiam saepe formae, quae reapse nullae sunt, speciem autem
-                     offerunt; quod contigisse Brenno dicitur eiusque Gallicis copiis, cum fano
-                     Apollinis Delphici nefarium bellum intulisset. Tum enim ferunt ex oraclo
-                     ecfatam esse Pythiam: <quote rend="blockquote">
+                  <p>Obiciuntur etiam saepe formae, quae reapse nullae sunt, speciem autem offerunt;
+                     quod contigisse Brenno dicitur eiusque Gallicis copiis, cum fano Apollinis
+                     Delphici nefarium bellum intulisset. Tum enim ferunt ex oraclo ecfatam esse
+                     Pythiam: <quote rend="blockquote">
                         <l>Ego próvidebo rem ístam et albae vírgines.</l>
                      </quote> Ex quo factum, ut viderentur virgines ferre arma contra et nive
                      Gallorum obrueretur exercitus.</p>
@@ -1242,7 +1248,7 @@
                         eventura sunt, (erimus enim cautiores, si sciemus) neque hoc alienum ducunt
                         maiestate sua (nihil est enim beneficentia praestantius) neque non possunt
                         futura praenoscere;</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="83" subtype="section">
                   <p>
@@ -1250,15 +1256,15 @@
                         ergo; et non, si significant, nullas vias dant nobis ad significationis
                         scientiam (frustra enim significarent), nec, si dant vias, non est
                         divinatio; est igitur divinatio.</quote>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="39"/>
                </div>
                <div type="textpart" n="84" subtype="section">
-                  <p>Hac ratione et Chrysippus et Diogenes et Antipater utitur. Quid est igitur,
-                     cur dubitandum sit, quin sint ea, quae disputavi, verissima, si ratio mecum
-                     facit, si eventa, si populi, si nationes, si Graeci, si barbari, si maiores
-                     etiam nostri, si denique hoc semper ita putatum est, si summi philosophi, si
-                     poe+- tae, si sapientissimi viri, qui res publicas constituerunt, qui urbes
+                  <p>Hac ratione et Chrysippus et Diogenes et Antipater utitur. Quid est igitur, cur
+                     dubitandum sit, quin sint ea, quae disputavi, verissima, si ratio mecum facit,
+                     si eventa, si populi, si nationes, si Graeci, si barbari, si maiores etiam
+                     nostri, si denique hoc semper ita putatum est, si summi philosophi, si poe+-
+                     tae, si sapientissimi viri, qui res publicas constituerunt, qui urbes
                      condiderunt? An, dum bestiae loquantur, exspectamus, hominum consentiente
                      auctoritate contenti non sumus?</p>
                </div>
@@ -1271,7 +1277,7 @@
                      cum luna ad ortus puerorum salutaris sit, Saturni Martisve contraria? Cur autem
                      deus dormientes nos moneat, vigilantes neglegat? Quid deinde causae est, cur
                      Cassandra furens futura prospiciat, Priamus sapiens hoc idem facere non queat?
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="86" subtype="section">
                   <p>Cur fiat quidque, quaeris. Recte omnino; sed non nunc id agitur; fiat necne
@@ -1315,7 +1321,7 @@
                      sapere, sic divinare regale ducebant. Testis est nostra civitas, in qua et
                      reges augures et postea privati eodem sacerdotio praediti rem publicam
                      religionum auctoritate rexerunt. <milestone unit="chapter" n="41"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="90" subtype="section">
                   <p>Eaque divinationum ratio ne in barbaris quidem gentibus neglecta est, siquidem
@@ -1434,8 +1440,8 @@
                   <milestone unit="chapter" n="45"/>
                </div>
                <div type="textpart" n="101" subtype="section">
-                  <p>Saepe etiam et in proeliis Fauni auditi et in rebus turbidis veridicae voces
-                     ex occulto missae esse dicuntur; cuius generis duo sint ex multis exempla, sed
+                  <p>Saepe etiam et in proeliis Fauni auditi et in rebus turbidis veridicae voces ex
+                     occulto missae esse dicuntur; cuius generis duo sint ex multis exempla, sed
                      maxuma: Nam non multo ante urbem captam exaudita vox est a luco Vestae, qui a
                      Palatii radice in novam viam devexus est, ut muri et portae reficerentur;
                      futurum esse, nisi provisum esset, ut Roma caperetur. Quod neglectum tum, cum
@@ -1520,7 +1526,7 @@
                         <l>Sic aquilae clarum firmavit Iuppiter omen.</l>
                      </quote>
                      <milestone unit="chapter" n="48"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="107" subtype="section">
                   <p>Atque ille Romuli auguratus pastoralis, non urbanus fuit nec fictus ad
@@ -1537,7 +1543,7 @@
                         <l>Exspectant; veluti, consul quom mittere signum</l>
                         <l>Volt, omnes avidi spectant ad carceris oras,</l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="108" subtype="section">
                   <p>
@@ -1555,7 +1561,7 @@
                         <l>Auspicio regni stabilita scamna solumque.</l>
                      </quote>
                      <milestone unit="chapter" n="49"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="109" subtype="section">
                   <p>Sed ut, unde huc digressa est, eodem redeat oratio: si nihil queam disputare,
@@ -1665,7 +1671,7 @@
                      singulis. Haec si tenemus, quae mihi quidem non videntur posse convelli,
                      profecto hominibus a dis futura significari necesse est. <milestone
                         unit="chapter" n="52"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="118" subtype="section">
                   <p>Sed distinguendum videtur, quonam modo. Nam non placet Stoicis singulis iecorum
@@ -1694,7 +1700,7 @@
                      reperiuntur, sine quibus victuma illa vivere nequisset, intellegendum est in
                      ipso immolationis tempore eas partes, quae absint, interisse. <milestone
                         unit="chapter" n="53"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="120" subtype="section">
                   <p>Eademque efficit in avibus divina mens, <pb n="p.190"/> ut tum huc, tum illuc
@@ -1704,7 +1710,7 @@
                      contorquet, porrigit, contrahit eaque ante efficit paene, quam cogitat, quanto
                      id deo est facilius, cuius numini parent omnia! Idemque mittit et signa nobis
                      eius generis, qualia permulta historia tradidit, quale scriptum illud videmus:
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="121" subtype="section">
                   <p>si luna paulo ante solis ortum defecisset in signo Leonis, fore ut
@@ -1731,7 +1737,7 @@
                         consilium; sed de rebus et obscuris et incertis ad Apollinem censeo
                         referundum</quote>, ad quem etiam Athenienses publice de maioribus rebus
                      semper rettulerunt. <pb n="p.191"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="123" subtype="section">
                   <p>Scriptum est item, cum Critonis, sui familiaris, oculum alligatum vidisset,
@@ -1831,7 +1837,7 @@
                      stella extiterit, pingue et concretum esse caelum, ut eius adspiratio gravis et
                      pestilens futura sit; sin inlustris et perlucida stella apparuerit, significari
                      caelum esse tenue purumque et propterea salubre. <pb n="p.194"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="131" subtype="section">
                   <p>Democritus autem censet sapienter instituisse veteres, ut hostiarum immolatarum
@@ -1873,7 +1879,7 @@
                      arbitror et monere etiam ac multa praedicere, levitate, vanitate, malitia
                      exclusa divinationem probo. Quae cum dixisset Quintus, Praeclare tu quidem,
                      inquam, paratus <gap reason="omitted"/>
-                 </p>
+                  </p>
                </div>
             </div>
             <div type="textpart" n="2arg" subtype="book">
@@ -1964,7 +1970,7 @@
                      adquiescunt; quorum studio legendi meum scribendi studium vehementius in dies
                      incitatur; quos quidem plures, quam rebar, esse cognovi. Magnificum illud etiam
                      Romanisque hominibus gloriosum, ut Graecis de philosophia litteris non egeant;
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="6" subtype="section">
                   <p>quod adsequar profecto, si instituta perfecero. Ac mihi quidem explicandae
@@ -1986,7 +1992,8 @@
                      substitutam putabamus. Nunc quoniam de re publica consuli coepti sumus,
                      tribuenda est opera rei publicae, vel omnis potius in ea cogitatio et cura
                      ponenda, tantum huic studio relinquendum, quantum vacabit a publico officio et
-                     munere. Sed haec alias pluribus; nunc ad institutam disputationem revertamur.</p>
+                     munere. Sed haec alias pluribus; nunc ad institutam disputationem
+                     revertamur.</p>
                   <milestone unit="chapter" n="3"/>
                </div>
                <div type="textpart" n="8" subtype="section">
@@ -2099,17 +2106,17 @@
                      nunc de universis.</p>
                </div>
                <div type="textpart" n="17" subtype="section">
-                  <p>Qui potest provideri quicquam futurum esse, quod neque causam habet ullam
-                     neque notam, cur futurum sit? Solis defectiones itemque lunae praedicuntur in
-                     multos annos ab iis, qui siderum motus numeris persequuntur; ea praedicunt
-                     enim, quae naturae necessitas perfectura est. Vident ex constantissimo motu
-                     lunae, quando illa e regione solis facta incurrat in umbram terrae, quae est
-                     meta noctis, ut eam obscurari necesse sit, quandoque eadem luna subiecta atque
-                     opposita soli nostris oculis eius lumen obscuret, quo in signo quaeque
-                     errantium stellarum quoque tempore futura sit, qui exortus quoque die signi
-                     alicuius aut qui occasus futurus sit. Haec qui ante dicunt, quam rationem
-                     sequantur, vides. <milestone unit="chapter" n="7"/>
-                 </p>
+                  <p>Qui potest provideri quicquam futurum esse, quod neque causam habet ullam neque
+                     notam, cur futurum sit? Solis defectiones itemque lunae praedicuntur in multos
+                     annos ab iis, qui siderum motus numeris persequuntur; ea praedicunt enim, quae
+                     naturae necessitas perfectura est. Vident ex constantissimo motu lunae, quando
+                     illa e regione solis facta incurrat in umbram terrae, quae est meta noctis, ut
+                     eam obscurari necesse sit, quandoque eadem luna subiecta atque opposita soli
+                     nostris oculis eius lumen obscuret, quo in signo quaeque errantium stellarum
+                     quoque tempore futura sit, qui exortus quoque die signi alicuius aut qui
+                     occasus futurus sit. Haec qui ante dicunt, quam rationem sequantur, vides.
+                        <milestone unit="chapter" n="7"/>
+                  </p>
                </div>
                <div type="textpart" n="18" subtype="section">
                   <p>Qui thesaurum inventum iri aut hereditatem venturam dicunt, quid sequuntur? aut
@@ -2132,7 +2139,7 @@
                      sane et plenum superstitionis fati nomen ipsum; sed tamen apud Stoicos de isto
                      fato multa dicuntur; de quo alias; nunc quod necesse est. <milestone
                         unit="chapter" n="8"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="20" subtype="section">
                   <p>Si omnia fato, quid mihi divinatio prodest? Quod enim is, qui divinat,
@@ -2197,7 +2204,7 @@
                      futurum sit, quid est, quod me adiuvent haruspices? <add>qui</add> cum res
                      tristissimas portendi dixerunt, addunt ad extremum omnia levius casura rebus
                      divinis procuratis; <milestone unit="chapter" n="10"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="25" subtype="section">
                   <p>si enim nihil fit extra fatum, nihil levari re divina potest. Hoc sentit
@@ -2257,7 +2264,7 @@
                      vel argutissima haec exta esse dicant), sed tauri opimi iecur aut cor aut pulmo
                      quid habet naturale, quod declarare possit, quid futurum sit? <milestone
                         unit="chapter" n="13"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="30" subtype="section">
                   <p>Democritus tamen non inscite nugatur, ut physicus, quo genere nihil
@@ -2287,7 +2294,7 @@
                      et vitale tractant; caput iecoris ex omni parte diligentissime considerant; si
                      vero id non est inventum, nihil putant accidere potuisse tristius. <milestone
                         unit="chapter" n="14"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="33" subtype="section">
                   <p>Haec observari certe non potuerunt, ut supra docui. Sunt igitur artis inventa,
@@ -2358,7 +2365,7 @@
                      oriatur aut in nihilum subito occidat. Quis hoc physicus dixit umquam?
                      haruspices dicunt; his igitur quam physicis credendum potius existumas?
                         <milestone unit="chapter" n="17"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="38" subtype="section">
                   <p>Quid? cum pluribus deis immolatur, qui tandem evenit, ut litetur aliis, aliis
@@ -2398,18 +2405,18 @@
                   <milestone unit="chapter" n="18"/>
                </div>
                <div type="textpart" n="42" subtype="section">
-                  <p>Atque hac extispicum divinatione sublata omnis haruspicina sublata est.
-                     Ostenta enim sequuntur et fulgura. Valet autem in fulguribus observatio
-                     diuturna, in ostentis ratio plerumque coniecturaque adhibetur. <pb n="p.210"/>
-                     Quid est igitur, quod observatum sit in fulgure? Caelum in sedecim partis
-                     diviserunt Etrusci. Facile id quidem fuit, quattuor, quas nos habemus,
-                     duplicare, post idem iterum facere, ut ex eo dicerent, fulmen qua ex parte
-                     venisset. Primum id quid interest? deinde quid significat? Nonne perspicuum est
-                     ex prima admiratione hominum, quod tonitrua iactusque fulminum extimuissent,
-                     credidisse ea efficere rerum omnium praepotentem Iovem? Itaque in nostris
-                     commentariis scriptum habemus: <quote>Iove tonante, fulgurante comitia populi
-                        habere nefas.</quote>
-                 </p>
+                  <p>Atque hac extispicum divinatione sublata omnis haruspicina sublata est. Ostenta
+                     enim sequuntur et fulgura. Valet autem in fulguribus observatio diuturna, in
+                     ostentis ratio plerumque coniecturaque adhibetur. <pb n="p.210"/> Quid est
+                     igitur, quod observatum sit in fulgure? Caelum in sedecim partis diviserunt
+                     Etrusci. Facile id quidem fuit, quattuor, quas nos habemus, duplicare, post
+                     idem iterum facere, ut ex eo dicerent, fulmen qua ex parte venisset. Primum id
+                     quid interest? deinde quid significat? Nonne perspicuum est ex prima
+                     admiratione hominum, quod tonitrua iactusque fulminum extimuissent, credidisse
+                     ea efficere rerum omnium praepotentem Iovem? Itaque in nostris commentariis
+                     scriptum habemus: <quote>Iove tonante, fulgurante comitia populi habere
+                        nefas.</quote>
+                  </p>
                </div>
                <div type="textpart" n="43" subtype="section">
                   <p>Hoc fortasse rei publicae causa constitutum est; comitiorum enim non habendorum
@@ -2460,7 +2467,7 @@
                      ex te causas unius cuiusque divinationis exquirerem, multa verba fecisti te,
                      cum res videres, rationem causamque non quaerere; quid fieret, non cur fieret,
                      ad rem pertinere. Quasi ego aut fieri concederem aut esset philosophi causam,
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="47" subtype="section">
                   <p>cur quidque fieret, non quaerere! Et eo quidem loco et Prognostica nostra
@@ -2617,7 +2624,7 @@
                      videmus austro, sudorem videtur imitari. Atque haec in bello plura et maiora
                      videntur timentibus, eadem non tam animadvertuntur in pace; accedit illud
                      etiam, quod in metu et periculo cum creduntur facilius, tum finguntur inpunius.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="59" subtype="section">
                   <p>Nos autem ita leves atque inconsiderati sumus, ut, si mures corroserint
@@ -2669,7 +2676,7 @@
                      quidem, credo, aliqua morbi gravioris, non emissione serpentis; neque enim
                      tanta est infelicitas haruspicum, ut ne casu quidem umquam fiat, quod futurum
                      illi esse dixerint. <milestone unit="chapter" n="30"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="63" subtype="section">
                   <p>Nam illud mirarer, si crederem, quod apud Homerum <pb n="p.218"/> Calchantem
@@ -2693,7 +2700,7 @@
                         <l>Nona super tremulo genetrix clangore volabat;</l>
                         <l>Cui ferus inmani laniavit viscera morsu.</l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="64" subtype="section">
                   <p>
@@ -2727,8 +2734,8 @@
                   <milestone unit="chapter" n="31"/>
                </div>
                <div type="textpart" n="66" subtype="section">
-                  <p>Atque haec ostentorum genera mirabile nihil habent; quae cum facta sunt, tum
-                     ad coniecturam aliqua interpretatione revocantur, ut illa tritici grana in os
+                  <p>Atque haec ostentorum genera mirabile nihil habent; quae cum facta sunt, tum ad
+                     coniecturam aliqua interpretatione revocantur, ut illa tritici grana in os
                      pueri Midae congesta aut apes, quas dixisti in labris Platonis consedisse
                      pueri, non tam mirabilia sint quam coniecta belle; quae tamen vel ipsa falsa
                      esse vel ea, quae praedicta sunt, fortuito cecidisse potuerunt. De ipso Roscio
@@ -2749,7 +2756,7 @@
                      aperuerunt, eaque scuta, quae fuerant sublime fixa, sunt humi inventa. Horum
                      cum fieri nihil potuerit sine aliquo motu, quid est, cur divinitus ea potius
                      quam casu facta esse dicamus? <milestone unit="chapter" n="32"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="68" subtype="section">
                   <p>At in Lysandri statuae capite Delphis extitit corona ex asperis herbis, et
@@ -2814,7 +2821,7 @@
                      pavire (terripavium primo, post terripudium dictum est; <pb n="p.222"/> hoc
                      quidem iam tripudium dicitur)—cum igitur offa cecidit ex ore pulli, tum
                      auspicanti tripudium solistimum nuntiatur. <milestone unit="chapter" n="35"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="73" subtype="section">
                   <p>Ergo hoc auspicium divini quicquam habere potest, quod tam sit coactum et
@@ -2826,10 +2833,10 @@
                      hoc modo Romulum auspicari solitum putas?</p>
                </div>
                <div type="textpart" n="74" subtype="section">
-                  <p>Iam de caelo servare non ipsos censes solitos, qui auspicabantur? Nunc
-                     imperant pullario; ille renuntiat. Fulmen sinistrum auspicium optumum habemus
-                     ad omnis res praeterquam ad comitia; quod quidem institutum rei publicae causa
-                     est, ut comitiorum vel in iudiciis populi vel in iure legum vel in creandis
+                  <p>Iam de caelo servare non ipsos censes solitos, qui auspicabantur? Nunc imperant
+                     pullario; ille renuntiat. Fulmen sinistrum auspicium optumum habemus ad omnis
+                     res praeterquam ad comitia; quod quidem institutum rei publicae causa est, ut
+                     comitiorum vel in iudiciis populi vel in iure legum vel in creandis
                      magistratibus principes civitatis essent interpretes. At Ti. Gracchi litteris
                      Scipio et Figulus consules, cum augures iudicassent eos vitio creatos esse,
                      magistratu se abdicaverunt. Quis negat augurum disciplinam esse? divinationem
@@ -2846,7 +2853,7 @@
                      fuerunt, existimoque ius augurum, etsi divinationis opinione principio
                      constitutum sit, tamen postea rei publicae causa conservatum ac retentum. <pb
                         n="p.223"/>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="36"/>
                </div>
                <div type="textpart" n="76" subtype="section">
@@ -2894,7 +2901,7 @@
                      regem. Sed labor longius; ad propositum revertar. Si eventa quaerimus, quae
                      exquiruntur avibus, nullo modo prospera Deiotaro; sin officia, a virtute
                      ipsius, non ab auspiciis petita sunt. <milestone unit="chapter" n="38"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="80" subtype="section">
                   <p>Omitte igitur lituum Romuli, quem in maximo incendio negas potuisse comburi;
@@ -2912,8 +2919,8 @@
                   <milestone unit="chapter" n="39"/>
                </div>
                <div type="textpart" n="81" subtype="section">
-                  <p>At omnes reges, populi, nationes utuntur auspiciis. Quasi vero quicquam sit
-                     tam valde quam nihil sapere vulgare, aut quasi tibi ipsi in iudicando placeat
+                  <p>At omnes reges, populi, nationes utuntur auspiciis. Quasi vero quicquam sit tam
+                     valde quam nihil sapere vulgare, aut quasi tibi ipsi in iudicando placeat
                      multitudo! Quotus quisque est, qui voluptatem neget esse bonum? plerique etiam
                      summum bonum dicunt. Num igitur eorum frequentia Stoici de sententia
                      deterrentur? <pb n="p.225"/> aut num plerisque in rebus sequitur eorum
@@ -2968,7 +2975,7 @@
                      perfracto saxo sortis erupisse in robore insculptas priscarum litterarum notis.
                      Is est hodie locus saeptus religiose propter Iovis pueri, qui lactens cum
                      Iunone Fortunae in gremio sedens mammam adpetens castissime colitur a matribus.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="86" subtype="section">
                   <p>Eodemque tempore in eo loco, ubi Fortunae nunc est aedes, mel ex olea fluxisse
@@ -3016,7 +3023,7 @@
                      perinde, utcumque temperatus sit ae+r, ita pueros orientis animari atque
                      formari, ex eoque ingenia, mores, animum, corpus, actionem vitae, casus
                      cuiusque eventusque fingi. <milestone unit="chapter" n="43"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="90" subtype="section">
                   <p>O delirationem incredibilem! non enim omnis error stultitia dicenda est. Quibus
@@ -3027,9 +3034,9 @@
                      Lacedaemoniorum reges, gemini fratres fuerunt.</p>
                </div>
                <div type="textpart" n="91" subtype="section">
-                  <p>At ii nec totidem annos vixerunt; anno enim Procli vita brevior fuit,
-                     multumque is fratri rerum gestarum gloria praestitit. At ego id ipsum, quod vir
-                     optumus, Diogenes, Chaldaeis quasi quadam praevaricatione concedit, nego posse
+                  <p>At ii nec totidem annos vixerunt; anno enim Procli vita brevior fuit, multumque
+                     is fratri rerum gestarum gloria praestitit. At ego id ipsum, quod vir optumus,
+                     Diogenes, Chaldaeis quasi quadam praevaricatione concedit, nego posse
                      intellegi. Etenim cum, ut ipsi dicunt, ortus nascentium luna moderetur, eaque
                      animadvertant et notent sidera natalicia Chaldaei, quaecumque lunae iuncta
                      videantur, oculorum fallacissimo sensu iudicant ea, quae ratione atque animo
@@ -3039,7 +3046,7 @@
                      intervallo distet a sole, cuius lumine conlustrari putatur; reliqua vero tria
                      intervalla infinita et inmensa, a sole ad Martis, inde ad Iovis, ab eo ad
                      Saturni stellam, inde ad caelum ipsum, quod extremum atque ultumum mundi est.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="92" subtype="section">
                   <p>Quae potest igitur contagio ex infinito paene intervallo pertinere ad lunam vel
@@ -3065,7 +3072,7 @@
                      incidere naturas propter caeli dissimilitudinem; quod minime illis placet;
                      volunt enim illi omnis eodem tempore ortos, qui ubique sint nati, eadem
                      condicione nasci. <milestone unit="chapter" n="45"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="94" subtype="section">
                   <p>Sed quae tanta dementia est, ut in maxumis motibus mutationibusque caeli nihil
@@ -3088,7 +3095,7 @@
                      casus habent, parumne declarat nihil ad agendam vitam nascendi tempus
                      pertinere? nisi forte putamus neminem eodem tempore ipso et conceptum et natum,
                      quo Africanum. Num quis igitur talis fuit? <pb n="p.230"/>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="46"/>
                </div>
                <div type="textpart" n="96" subtype="section">
@@ -3163,7 +3170,7 @@
                         quae sunt futura, aut ea ne ipsi quidem di significare possunt; at neque non
                         diligunt nos (sunt enim benefici generique hominum amici) neque ignorant ea,
                         quae ab ipsis constituta et designata sunt;</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="102" subtype="section">
                   <p>
@@ -3174,7 +3181,7 @@
                         ergo; et non, si significant futura, nullas dant vias nobis ad
                         significationum scientiam (frustra enim significarent) nec, si dant vias,
                         non est divinatio; est igitur divinatio.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="103" subtype="section">
                   <p>O acutos homines! quam paucis verbis confectum negotium putant! ea sumunt ad
@@ -3188,7 +3195,7 @@
                         extrinsecus.</quote> Hoc quoque est concedendum. <quote>At, quod omne est,
                         id non cernitur ex alio extrinsecus.</quote> Ne hoc quidem negari potest.
                         <quote>Nihil igitur cum habeat extremum, infinitum sit necesse est.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="104" subtype="section">
                   <p>Videsne, ut ad rem dubiam <add>a</add> concessis rebus pervenerit? Hoc vos
@@ -3203,7 +3210,7 @@
                      </quote> Et quidem, cur sic opinetur, rationem subicit; sed nihil est necesse
                      dicere, quae sequuntur; tantum sat est intellegi, id sumere istos pro certo,
                      quod dubium controversumque sit. <milestone unit="chapter" n="51"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="105" subtype="section">
                   <p>Sequitur porro, nihil deos ignorare, quod omnia sint ab iis constituta. Hic
@@ -3273,18 +3280,19 @@
                      et Chaldaeos? quorum generum nullum est, ex quo non aliquid, sicut praedictum
                      sit, evaserit. Ergo aut ea quoque genera divinandi sunt, quae tu rectissume
                      inprobas, aut, si ea non sunt, non intellego, cur haec duo sint, quae
-                     relinquis. Qua ergo ratione haec inducis, eadem illa possunt esse, quae tollis.</p>
+                     relinquis. Qua ergo ratione haec inducis, eadem illa possunt esse, quae
+                     tollis.</p>
                   <milestone unit="chapter" n="54"/>
                </div>
                <div type="textpart" n="110" subtype="section">
-                  <p>Quid vero habet auctoritatis furor iste, quem divinum vocatis, ut, quae
-                     sapiens non videat, ea videat insanus, et is, qui humanos sensus amiserit,
-                     divinos adsecutus sit? Sibyllae versus observamus, quos illa furens fudisse
-                     dicitur. Quorum interpres nuper falsa quadam hominum fama dicturus in senatu
-                     putabatur eum, quem re vera regem habebamus, appellandum quoque esse regem, si
-                     salvi esse vellemus. Hoc si est in libris, in quem hominem et in quod tempus
-                     est? callide enim, qui illa composuit, perfecit, ut, quodcumque accidisset,
-                     praedictum videretur hominum et temporum definitione sublata.</p>
+                  <p>Quid vero habet auctoritatis furor iste, quem divinum vocatis, ut, quae sapiens
+                     non videat, ea videat insanus, et is, qui humanos sensus amiserit, divinos
+                     adsecutus sit? Sibyllae versus observamus, quos illa furens fudisse dicitur.
+                     Quorum interpres nuper falsa quadam hominum fama dicturus in senatu putabatur
+                     eum, quem re vera regem habebamus, appellandum quoque esse regem, si salvi esse
+                     vellemus. Hoc si est in libris, in quem hominem et in quod tempus est? callide
+                     enim, qui illa composuit, perfecit, ut, quodcumque accidisset, praedictum
+                     videretur hominum et temporum definitione sublata.</p>
                </div>
                <div type="textpart" n="111" subtype="section">
                   <p>Adhibuit etiam latebram obscuritatis, ut iidem versus alias in aliam rem posse
@@ -3364,7 +3372,7 @@
                         Romanos</quote> nihilo magis in se quam in Romanos valere; nam illa
                      amphibolia, quae Croesum <pb n="p.238"/> decepit, vel Chrysippum potuisset
                      fallere, haec vero ne Epicurum quidem. <milestone unit="chapter" n="57"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="117" subtype="section">
                   <p>Sed, quod caput est, cur isto modo iam oracla Delphis non eduntur non modo
@@ -3414,7 +3422,7 @@
                      dissensionem ac seditionem <del>moveri</del>. Iam ex insanorum aut ebriorum
                      visis innumerabilia coniectura trahi possunt, <milestone unit="chapter" n="59"
                      />
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="121" subtype="section">
                   <p>quae futura videantur <gap reason="omitted"/> Quis est enim, qui totum diem
@@ -3509,20 +3517,20 @@
                      falsa, alia vera, qua nota internoscantur, scire sane velim. Si nulla est, quid
                      istos interpretes audiamus? sin quaepiam est, aveo audire, quae sit; sed
                      haerebunt. <milestone unit="chapter" n="63"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="129" subtype="section">
-                  <p>Venit enim iam in contentionem, utrum sit probabilius, deosne inmortalis,
-                     rerum omnium praestantia excellentis, concursare <add>circum</add> omnium
-                     mortalium, qui ubique sunt, non modo lectos, verum etiam grabatos et, cum
-                     stertentem aliquem viderint, obicere iis visa quaedam tortuosa et obscura, quae
-                     illi exterriti somno ad coniectorem mane deferant, an natura fieri, ut
-                     mobiliter animus agitatus, quod vigilans viderit, dormiens videre videatur.
-                     Utrum philosophia dignius, sagarum superstitione ista interpretari an
-                     explicatione naturae? ut, si iam fieri possit vera coniectura somniorum, tamen
-                     isti, qui profitentur, eam facere non possint; ex levissimo enim et
-                     indoctissimo genere constant. Stoici autem tui negant quemquam nisi sapientem
-                     divinum esse posse.</p>
+                  <p>Venit enim iam in contentionem, utrum sit probabilius, deosne inmortalis, rerum
+                     omnium praestantia excellentis, concursare <add>circum</add> omnium mortalium,
+                     qui ubique sunt, non modo lectos, verum etiam grabatos et, cum stertentem
+                     aliquem viderint, obicere iis visa quaedam tortuosa et obscura, quae illi
+                     exterriti somno ad coniectorem mane deferant, an natura fieri, ut mobiliter
+                     animus agitatus, quod vigilans viderit, dormiens videre videatur. Utrum
+                     philosophia dignius, sagarum superstitione ista interpretari an explicatione
+                     naturae? ut, si iam fieri possit vera coniectura somniorum, tamen isti, qui
+                     profitentur, eam facere non possint; ex levissimo enim et indoctissimo genere
+                     constant. Stoici autem tui negant quemquam nisi sapientem divinum esse
+                     posse.</p>
                </div>
                <div type="textpart" n="130" subtype="section">
                   <p>Chrysippus quidem divinationem definit his verbis: vim cognoscentem et videntem
@@ -3533,7 +3541,7 @@
                      in somnis. Quid ergo? ad haec mediocri opus est prudentia an et ingenio
                      praestanti et eruditione perfecta? Talem <pb n="p.243"/> autem cognovimus
                      neminem. <milestone unit="chapter" n="64"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="131" subtype="section">
                   <p>Vide igitur, ne, etiamsi divinationem tibi esse concessero, quod numquam
@@ -3619,7 +3627,7 @@
                      velimus, accurrant? etiamne earum rerum, quae nullae sunt? quae est enim forma
                      tam invisitata, tam nulla, quam non sibi ipse fingere animus possit? ut, quae
                      numquam vidimus, ea tamen informata habeamus, oppidorum situs, hominum figuras.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="139" subtype="section">
                   <p>Num igitur, cum aut muros Babylonis aut Homeri faciem cogito, imago illorum me
@@ -3654,7 +3662,7 @@
                      magnum somnianti. Quaero autem, cur Alexandro tam inlustre somnium, tam certum,
                      nec huic eidem alias, nec multa ceteris; mihi quidem praeter hoc Marianum nihil
                      sane, quod meminerim. Frustra igitur consumptae tot noctes tam longa in aetate.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="142" subtype="section">
                   <p>Nunc quidem propter intermissionem forensis operae et lucubrationes detraxi et
@@ -3735,7 +3743,7 @@
                      somniorum visis effecerit, neque coniectura, quae in varias partis duci possit,
                      non numquam etiam in contrarias, quicquam sit incertius. <milestone
                         unit="chapter" n="72"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="148" subtype="section">
                   <p>Explodatur <add>igitur</add> haec quoque somniorum divinatio pariter cum

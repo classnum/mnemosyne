@@ -57,6 +57,10 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS
+                via HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate
+                lines where needed adding letters to numbers in @n, fix Latin content in some bibl
+                tags erroneously in Greek, update EpiDoc schema metadata.</change>
             <change><date>1988</date><label>tagging</label><name>EM, Scott Ettinger and Roger
                     Travis</name>Text scanned at U. Chicago in 1988. Basic SGML tagging by Lowell
                 Bowditch</change>

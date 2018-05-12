@@ -61,6 +61,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+            HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines
+            where needed adding letters to numbers in @n, fix Latin content in some bibl tags
+            erroneously in Greek, update EpiDoc schema metadata.</change>
          <change when="2016-11-20" who="Thibault Clérice">CapiTainS and Epidoc</change>
       </revisionDesc>
    </teiHeader>
@@ -1108,7 +1112,7 @@
                   virtus ad ea quae summa sunt pervenire, coniuncta et consociata cum altera
                   perveniret. <reg>quae</reg> si quos inter societas aut est aut fuit aut futura
                   est, eorum est habendus ad summum naturae bonum optimus beatissimusque comitatus.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="84" subtype="section">
                <p>
@@ -1312,7 +1316,7 @@
                      <l>ut me hodie ante omnis comicos stultos sense</l>
                      <l>versaris atque illusseris lautissime!</l>
                   </quote>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="100" subtype="section">
                <p>

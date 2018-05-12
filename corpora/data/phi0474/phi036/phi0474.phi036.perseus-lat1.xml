@@ -55,6 +55,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+            HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines
+            where needed adding letters to numbers in @n, fix Latin content in some bibl tags
+            erroneously in Greek, update EpiDoc schema metadata.</change>
          <change when="2016-11-20" who="Thibault Clérice">CapiTainS and Epidoc</change>
       </revisionDesc>
    </teiHeader>
@@ -169,28 +173,28 @@
                      considerare poterit.</p>
                </div>
                <div type="textpart" n="6" subtype="section">
-                  <p>Civilis quaedam ratio est, quae multis et magnis ex rebus constat. eius
-                     quaedam magna et ampla pars est artificiosa eloquentia, quam rhetoricam vocant.
-                     nam neque cum iis sentimus, qui civilem scientiam eloquentia non putant
-                     indigere, et ab iis, qui eam pu- tant omnem rhetoris vi et artificio contineri,
-                     magnopere dissentimus. quare hanc oratoriam facultatem in eo genere ponemus, ut
-                     eam civilis scientiae partem esse dicamus. Officium autem eius facultatis
-                     videtur esse dicere adposite ad persuasionem; finis persuadere dictione. inter
-                     officium et finem hoc interest, quod in officio, quid fieri, in fine, quid
-                     effici conveniat, con- sideratur. ut medici officium dicimus esse curare ad
-                     sanandum apposite, finem sanare curatione, item, ora- toris quid officium et
-                     quid finem esse dicamus, intel- legimus, cum id, quod facere debet, officium
-                     esse di- cimus, illud, cuius causa facere debet, finem appel- lamus.</p>
+                  <p>Civilis quaedam ratio est, quae multis et magnis ex rebus constat. eius quaedam
+                     magna et ampla pars est artificiosa eloquentia, quam rhetoricam vocant. nam
+                     neque cum iis sentimus, qui civilem scientiam eloquentia non putant indigere,
+                     et ab iis, qui eam pu- tant omnem rhetoris vi et artificio contineri, magnopere
+                     dissentimus. quare hanc oratoriam facultatem in eo genere ponemus, ut eam
+                     civilis scientiae partem esse dicamus. Officium autem eius facultatis videtur
+                     esse dicere adposite ad persuasionem; finis persuadere dictione. inter officium
+                     et finem hoc interest, quod in officio, quid fieri, in fine, quid effici
+                     conveniat, con- sideratur. ut medici officium dicimus esse curare ad sanandum
+                     apposite, finem sanare curatione, item, ora- toris quid officium et quid finem
+                     esse dicamus, intel- legimus, cum id, quod facere debet, officium esse di-
+                     cimus, illud, cuius causa facere debet, finem appel- lamus.</p>
                </div>
                <div type="textpart" n="7" subtype="section">
-                  <p>Materiam artis eam dicimus, in qua omnis ars et ea facultas, quae conficitur
-                     ex arte, versatur. ut si medi- cinae materiam dicamus morbos ac vulnera, quod
-                     in his omnis medicina versetur, item, quibus in rebus ver- satur ars et
-                     facultas oratoria, eas res materiam artis rhetoricae nominamus. has autem res
-                     alii plures, alii pauciores existimarunt. nam Gorgias Leontinus, anti-
-                     quissimus fere rhetor, omnibus de rebus oratorem op- time posse dicere
-                     existimavit; hic infinitam et inmensam <pb/> huic artificio materiam subicere
-                     videtur. Aristoteles autem, qui huic arti plurima adiumenta atque orna- menta
+                  <p>Materiam artis eam dicimus, in qua omnis ars et ea facultas, quae conficitur ex
+                     arte, versatur. ut si medi- cinae materiam dicamus morbos ac vulnera, quod in
+                     his omnis medicina versetur, item, quibus in rebus ver- satur ars et facultas
+                     oratoria, eas res materiam artis rhetoricae nominamus. has autem res alii
+                     plures, alii pauciores existimarunt. nam Gorgias Leontinus, anti- quissimus
+                     fere rhetor, omnibus de rebus oratorem op- time posse dicere existimavit; hic
+                     infinitam et inmensam <pb/> huic artificio materiam subicere videtur.
+                     Aristoteles autem, qui huic arti plurima adiumenta atque orna- menta
                      subministravit, tribus in generibus rerum ver- sari rhetoris officium putavit,
                      demonstrativo, delibera- tivo, iudiciali. demonstrativum est, quod tribuitur in
                      alicuius certae personae laudem aut vituperationem; deliberativum, quod positum
@@ -300,7 +304,7 @@
                      ut omnia tria genera sint cau- sarum. <del>deliberatio et demonstratio non
                         possunt recte <pb/> partes alicuius generis causae putari. male igitur eas
                         generalis constitutionis partes esse dixit.</del>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="13" subtype="section">
                   <p>Quodsi generis causae partes non possunt recte pu- tari, multo minus recte
@@ -361,15 +365,15 @@
                      commissum.</p>
                </div>
                <div type="textpart" n="16" subtype="section">
-                  <p>In quarta constitutione, quam translativam nomi- namus, eius constitutionis
-                     est controversia, cum aut quem aut quicum aut quomodo aut apud quos aut quo
-                     iure aut quo tempore agere oporteat, quaeritur aut omnino aliquid de
-                     commutatione aut infirmatione actionis agitur. huius constitutionis Hermagoras
-                     in- ventor esse existimatur, non quo non usi sint ea ve- <pb/> teres oratores
-                     saepe multi, sed quia non animadverte- runt artis scriptores eam superiores nec
-                     rettulerunt in numerum constitutionum. post autem ab hoc inventam multi
-                     reprehenderunt, quos non tam inprudentia falli putamus (res enim perspicua est)
-                     quam invidia atque obtrectatione quadam inpediri.</p>
+                  <p>In quarta constitutione, quam translativam nomi- namus, eius constitutionis est
+                     controversia, cum aut quem aut quicum aut quomodo aut apud quos aut quo iure
+                     aut quo tempore agere oporteat, quaeritur aut omnino aliquid de commutatione
+                     aut infirmatione actionis agitur. huius constitutionis Hermagoras in- ventor
+                     esse existimatur, non quo non usi sint ea ve- <pb/> teres oratores saepe multi,
+                     sed quia non animadverte- runt artis scriptores eam superiores nec rettulerunt
+                     in numerum constitutionum. post autem ab hoc inventam multi reprehenderunt,
+                     quos non tam inprudentia falli putamus (res enim perspicua est) quam invidia
+                     atque obtrectatione quadam inpediri.</p>
                   <p>Et constitutiones quidem et earum partes exposui- mus, exempla autem cuiusque
                      generis tum commodius exposituri videamur, cum in unum quodque eorum
                      argumentorum copiam dabimus; nam argumentandi ratio dilucidior erit, cum et ad
@@ -386,7 +390,7 @@
                      quid potissimum <del>sit</del>, quaeritur, ad hunc modum: <q>utrum exercitus in
                         Mace- doniam contra Philippum mittatur, qui sociis sit auxilio, an teneatur
                         in Italia, ut quam maximae contra Hannibalem copiae sint.</q>
-                 </p>
+                  </p>
                   <p>Deinde considerandum est, in ratione an in scripto sit controversia; nam
                      scripti controversia est ea, quae ex scriptionis genere nascitur. eius autem
                      genera, <pb/> quae separata sunt a constitutionibus, quinque sunt. nam tum
@@ -477,7 +481,8 @@
                      principium poterit vel, si commodum fuerit, aut a narratione incipiemus aut a
                      lege aut ab aliqua <pb/> firmissima ratione nostrae dictionis; sin uti prin-
                      cipio placebit, benivolentiae partibus utendum est, ut id, quod est, augeatur.
-                     in obscuro causae genere per principium dociles auditores efficere oportebit.</p>
+                     in obscuro causae genere per principium dociles auditores efficere
+                     oportebit.</p>
                   <p>Nunc quoniam quas res exordio conficere oporteat dictum est, reliquum est, ut
                      ostendatur, quibus quae- que rationibus res confici possit.</p>
                </div>
@@ -552,7 +557,8 @@
                      satietas et fasti- dium aut subamara aliqua re relevatur aut dulci miti- gatur,
                      sic animus defessus audiendo aut admiratione integratur aut risu novatur.</p>
                   <p>Ac separatim quidem, quae de principio et de insi- nuatione dicenda videbantur,
-                     haec fere sunt: nunc quiddam brevi communiter de utroque praecipiendum videtur.</p>
+                     haec fere sunt: nunc quiddam brevi communiter de utroque praecipiendum
+                     videtur.</p>
                   <p>Exordium sententiarum et gravitatis plurimum debet habere et omnino omnia, quae
                      pertinent ad dignitatem, in se continere, propterea quod id optime faciendum
                      est, quod oratorem auditori maxime commendat; splendoris et festivitatis et
@@ -648,8 +654,8 @@
                      poterit:</p>
                </div>
                <div type="textpart" n="30" subtype="section">
-                  <p>illud autem praeterea considerare oportebit, ne, aut cum obsit narratio aut
-                     cum nihil prosit, tamen inter- ponatur; aut non loco aut non, quemadmodum causa
+                  <p>illud autem praeterea considerare oportebit, ne, aut cum obsit narratio aut cum
+                     nihil prosit, tamen inter- ponatur; aut non loco aut non, quemadmodum causa
                      postulet, narretur. obest tum, cum ipsius rei gestae expositio magnam excipit
                      offensionem, quam argu- mentando et causam agendo leniri oportebit. quod cum
                      accidet, membratim oportebit partes rei gestae disper- gere in causam et ad
@@ -718,7 +724,8 @@
                      demonstraturos nos dicamus, hoc modo: <q>ostendam adversarios, quod arguamus,
                         et potuisse facere et voluisse et fecisse;</q> nam fecisse satis est
                      ostendere: aut, cum in causa partitio nulla sit, <del>et</del> cum simplex
-                     quiddam agatur, tamen utamur distributione, id quod perraro potest accidere.</p>
+                     quiddam agatur, tamen utamur distributione, id quod perraro potest
+                     accidere.</p>
                   <p>Ac sunt alia quoque praecepta partitionum, quae ad hunc usum oratorium non
                      tanto opere pertineant, quae versantur in philosophia, ex quibus haec ipsa
                      trans- tulimus, quae convenire viderentur, quorum nihil in ceteris artibus
@@ -754,7 +761,7 @@
                      na- turam, victum, fortunam, habitum, affectionem, studia, consilia, facta,
                      casus, orationes. nomen est, quod uni cuique personae datur, quo suo quaeque
                      proprio et certo vocabulo appellatur. naturam ipsam definire difficile est;
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="35" subtype="section">
                   <p>partes autem eius enumerare eas, quarum indigemus ad hanc praeceptionem,
@@ -796,9 +803,9 @@
                   <p>Ac personis quidem haec videntur esse adtributa:</p>
                </div>
                <div type="textpart" n="37" subtype="section">
-                  <p>negotiis autem quae sunt adtributa, partim sunt con- tinentia cum ipso
-                     negotio, partim in gestione negotii <pb/> considerantur, partim adiuncta
-                     negotio sunt, partim negotium consequuntur.</p>
+                  <p>negotiis autem quae sunt adtributa, partim sunt con- tinentia cum ipso negotio,
+                     partim in gestione negotii <pb/> considerantur, partim adiuncta negotio sunt,
+                     partim negotium consequuntur.</p>
                   <p>Continentia cum ipso negotio sunt ea, quae semper affixa esse videntur ad rem
                      neque ab ea possunt se- parari. ex his prima est brevis conplexio totius neg-
                      otii, quae summam continet facti, hoc modo: parentis occisio, patriae proditio;
@@ -832,7 +839,7 @@
                      potueritne aut magnitudo negotii aut multitudo rerum in eo transigi tempore.
                         <del>consideratur autem tem- pus et anni et mensis et diei et noctis et
                         vigiliae et horae et in aliqua parte alicuius horum.</del>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="40" subtype="section">
                   <p>occasio au- tem est pars temporis habens in se alicuius rei idoneam faciendi
@@ -860,11 +867,11 @@
                      magnum et quod simile erit ei negotio, quo de agitur, et quod contrarium et
                      quod disparatum, et genus et pars et eventus. maius et minus et aeque magnum ex
                      vi et ex numero et ex figura negotii, sicut ex statura corporis, consideratur.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="42" subtype="section">
-                  <p>simile autem ex specie conparabili aut ex conferunda at- que assimulanda
-                     natura iudicatur. contrarium est, quod positum in genere diverso ab eodem, cui
+                  <p>simile autem ex specie conparabili aut ex conferunda at- que assimulanda natura
+                     iudicatur. contrarium est, quod positum in genere diverso ab eodem, cui
                      contrarium di- citur, plurimum distat, ut frigus calori, vitae mors. disparatum
                      autem est id, quod ab aliqua re praeposi- tione negationis separatur, hoc modo:
                      sapere et non <pb/> sapere. genus est, quod partes aliquas amplectitur, ut
@@ -940,7 +947,7 @@
                      tum vera sunt, hoc pacto: <q>quoniam cicatrix est, fuit vulnus;</q> tum veri
                      similia, hoc modo: <q>si multus erat in calceis pulvis, ex itinere eum venire
                         oportebat.</q>
-                 </p>
+                  </p>
                   <p>Omne autem—ut certas quasdam in partes tri- buamus—probabile, quod sumitur ad
                      argumen- <pb/> tationem, aut signum est aut credibile aut iudicatum aut
                      comparabile.</p>
@@ -968,7 +975,7 @@
                      re ex simili- tudine conferens. exemplum est, quod rem auctoritate aut casu
                      alicuius hominis aut negotii confirmat aut in- firmat. horum exempla et
                      descriptiones in praeceptis elocutionis cognoscentur. <pb/>
-                 </p>
+                  </p>
                   <p>Ac fons quidem confirmationis, ut facultas tulit, apertus est nec minus
                      dilucide, quam rei natura fere- bat, demonstratus est; quemadmodum autem
                      quaeque constitutio et pars constitutionis et omnis contro- versia, sive in
@@ -1077,7 +1084,7 @@
                         videri, iudices. quodsi litteris corrigi neque ab illo ne- que a vobis
                         scriptoris voluntas potest, videte, ne multo indignius sit id re et iudicio
                         vestro mutari, quod ne verbo quidem commutari potest.</q>
-                 </p>
+                  </p>
                   <p>Ac de inductione quidem satis in praesentia dictum videtur.</p>
                </div>
                <div type="textpart" n="57" subtype="section">
@@ -1090,7 +1097,7 @@
                      eorum controversiam non incommodum vi- detur cum utrorumque ratione exponere.
                      nam et brevis est et non eiusmodi, ut alteri prorsus nihil dicere pu- tentur,
                      et locus hic nobis in dicendo minime neglegen- dus videtur. <pb/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="58" subtype="section">
                   <p>Qui putant in quinque tribui partes oportere, aiunt primum convenire exponere
@@ -1104,7 +1111,7 @@
                         stultitia et temeritate alicuius admini- stratur. eadem navigii ratio est.
                         nam navis optime cur- sum conficit ea, quae scientissimo gubernatore
                         utitur.</q>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="59" subtype="section">
                   <p>cum propositio sit hoc pacto adprobata et duae partes transierint
@@ -1185,12 +1192,12 @@
                      demus. separata igitur est ab adsumptione approbatio.</p>
                </div>
                <div type="textpart" n="65" subtype="section">
-                  <p>Ostendemus autem, quod polliciti sumus, hoc modo: <pb/> quae perspicuam
-                     omnibus veritatem continet assump- tio, nihil indiget approbationis. ea est
-                     huiusmodi: <q>si oportet velle sapere, dare operam philosophiae con- venit.</q>
-                     hic propositio indiget approbationis; non enim perspicua est neque constat
-                     inter omnes, propterea quod multi nihil prodesse philosophiam, plerique etiam
-                     obesse arbitrantur; assumptio perspicua; est enim haec: <q>oportet autem velle
+                  <p>Ostendemus autem, quod polliciti sumus, hoc modo: <pb/> quae perspicuam omnibus
+                     veritatem continet assump- tio, nihil indiget approbationis. ea est huiusmodi:
+                        <q>si oportet velle sapere, dare operam philosophiae con- venit.</q> hic
+                     propositio indiget approbationis; non enim perspicua est neque constat inter
+                     omnes, propterea quod multi nihil prodesse philosophiam, plerique etiam obesse
+                     arbitrantur; assumptio perspicua; est enim haec: <q>oportet autem velle
                         sapere.</q> hoc quia ipsum ex se perspicitur et verum esse intellegitur,
                      nihil attinet approbari. quare statim concludenda est argumentatio. est ergo
                      assumptio quaedam, quae approbationis non indiget; nam quandam indigere
@@ -1198,8 +1205,8 @@
                      est non esse plus quam tripertitam argumenta-</p>
                </div>
                <div type="textpart" n="66" subtype="section">
-                  <p>tionem. Atque ex his illud iam perspicuum est, esse quandam argumentationem,
-                     in qua neque propositio neque assumptio indigeat approbationis, huiusmodi, ut
+                  <p>tionem. Atque ex his illud iam perspicuum est, esse quandam argumentationem, in
+                     qua neque propositio neque assumptio indigeat approbationis, huiusmodi, ut
                      certum quiddam et breve exempli causa ponamus: <q>si summopere sapientia
                         petenda est, summo opere stul- titia vitanda est: summo autem opere
                         sapientia pe- tenda est: summo igitur opere stultitia vitanda est.</q> hic
@@ -1271,7 +1278,7 @@
                         scriptoris voluntatem interpretari. quodsi vos, iudices, legibus optemperare
                         debetis et id facere non potestis, nisi id, quod scriptum est in lege,
                         sequa- mini, quin istum contra legem fecisse iudicatis?</q>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="71" subtype="section">
                   <p>assumptionis autem approbatione praeterita quadri- pertita sic fiet
@@ -1281,14 +1288,14 @@
                         primo quidem decipi in- commodum est; iterum, stultum; tertio, turpe.
                         Cartha- ginienses autem persaepe iam nos fefellerunt. summa igitur amentia
                         est in eorum fide spem habere, quorum perfidia totiens deceptus sis.</q>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="72" subtype="section">
                   <p>Utraque approbatione praeterita tripertita fit, hoc pacto: <q>aut metuamus
                         Carthaginienses oportet, si incolumes eos reliquerimus, aut eorum urbem
                         dirua- <pb/> mus. at metuere quidem non oportet. restat igitur, ut urbem
                         diruamus.</q>
-                 </p>
+                  </p>
                   <p>Sunt autem, qui putant nonnumquam posse com- plexione supersederi, cum id
                      perspicuum sit, quod conficiatur ex ratiocinatione; quod si fiat, bipertitam
                      quoque fieri argumentationem, hoc modo: <q>si peperit, virgo non est: peperit
@@ -1382,11 +1389,11 @@
                      enume- ratio falsa ostenditur, aut simplex conclusio falsi ali- quid continere
                      demonstratur. nam omne, quod su- mitur ad argumentandum sive pro probabili sive
                      pro <pb/> necessario, necesse est sumatur ex his locis, ut ante ostendimus.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="80" subtype="section">
-                  <p>Quod pro credibili sumptum erit, id infirmabitur, si aut perspicue falsum
-                     erit, hoc modo: <q>nemo est, quin pecuniam quam sapientiam malit;</q> aut ex
+                  <p>Quod pro credibili sumptum erit, id infirmabitur, si aut perspicue falsum erit,
+                     hoc modo: <q>nemo est, quin pecuniam quam sapientiam malit;</q> aut ex
                      contrario quoque credibile aliquid habebit, hoc modo: <q>quis est, qui non
                         officii cupidior quam pecuniae sit?</q> aut erit omnino incredibile, ut si
                      aliquis, quem constet esse avarum, dicat alicuius mediocris officii causa se
@@ -1397,7 +1404,7 @@
                         homo occidi qui potuit?</q> aut si id, quod raro fit, fieri omnino negatur,
                      ut Curio pro Fulvio: <q>nemo potest uno aspectu neque praeteriens in amorem
                         incidere.</q>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="81" subtype="section">
                   <p>Quod autem pro signo sumetur, id ex isdem locis, quibus confirmatur,
@@ -1409,7 +1416,7 @@
                      dicemus. ergo horum unum quodque in reprehensione aut non esse signo aut parum
                      magno esse aut a se potius quam ab ad- versariis stare aut omnino falso dici
                      aut in aliam quo- que suspicionem duci posse demonstrabitur. <pb/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="82" subtype="section">
                   <p>Cum autem pro conparabili aliquid inducetur, quon- iam id per similitudinem
@@ -1449,12 +1456,12 @@
                         vero accusandus est. nam si veretur, accuses; non enim parvi auditum aesti-
                         mabit. sin inverecundum animi ingenium possidet, tamen accuses; non enim
                         probus est.</q>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="84" subtype="section">
-                  <p>alterius autem partis infirmatione hoc modo reprehendetur: <q>verum si
-                        veretur, accusatione tua correctus ab errato recedet.</q>
-                 </p>
+                  <p>alterius autem partis infirmatione hoc modo reprehendetur: <q>verum si veretur,
+                        accusatione tua correctus ab errato recedet.</q>
+                  </p>
                   <p>Enumeratio vitiosa intellegitur, si aut praeteritum quiddam dicimus, quod
                      velimus concedere, aut infir- mum aliquid adnumeratum, quod aut contra dici
                      possit aut causa non sit, quare non honeste possimus con- <pb/> cedere.
@@ -1463,7 +1470,7 @@
                         domi tibi natus sit aut, si eorum nihil est, subripueris ne- cesse est: si
                         neque emisti neque hereditate venit ne- que donatus est neque domi natus
                         est: necesse est ergo subripueris.</q>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="85" subtype="section">
                   <p>hoc commode reprehenditur, si dici possit ex hostibus equus esse captus, cuius
@@ -1498,7 +1505,7 @@
                      argumentatione: <q>si venisses ad exercitum, a tri- bunis militaribus visus
                         esses; non es autem ab his visus: non es igitur ad exercitum profectus.</q>
                      hic cum concesseris propositionem et assumptionem, conplexio est infirmanda.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="88" subtype="section">
                   <p>aliud enim, quam cogebatur, inlatum est. ac nunc quidem, quo facilius res
@@ -1518,7 +1525,7 @@
                         plus habere. ex quibus conces- sionibus non conficitur hoc: pauperes igitur
                         estis; con- ficeretur autem, si tibi primo quoque hoc concessissem, qui
                         pecuniam maiorem vellet habere, eum pecuniam non habere.</q>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="89" subtype="section">
                   <p>saepe autem oblitum putant, quid con- cesseris, et idcirco id, quod non
@@ -1547,7 +1554,7 @@
                      modo: <quote rend="blockquote">
                         <lb/>Cum te expetebant omnes florentissimo <lb/>Regno, reliqui: nunc
                         desertum ab omnibus <lb/>Summo periclo sola ut restituam paro.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="91" subtype="section">
                   <p>remotum est, quod ultra quam satis est petitur, huius- modi: <q>quodsi non P.
@@ -1567,7 +1574,7 @@
                      demon- strandum dubia causa affertur, hoc modo: <quote rend="blockquote">
                         <lb/>Eho tu, di, quibus est potestas motus superum atque inferum, <lb/>Pacem
                         inter sese conciliant, conferunt concordiam.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="92" subtype="section">
                   <p>perspicuum est, de quo non est controversia: ut si quis, cum Orestem accuset,
@@ -1579,7 +1586,7 @@
                      indignum propter inhonestam rem videtur. offensum est, quod eorum, qui audiunt,
                      voluntatem laedit: ut, si quis apud equites Romanos cupidos iudicandi Caepionis
                      <pb/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="93" subtype="section">
                   <p>legem iudiciariam laudet. contrarium est, quod contra dicitur atque ii, qui
@@ -1619,18 +1626,18 @@
                         <q>malum est avaritia; multos enim magnis incommodis affecit pecuniae
                         cupiditas;</q> aut parum idonea, hoc modo: <q>maximum bonum est amicitia;
                         plurimae enim delectationes sunt in amicitia.</q>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="96" subtype="section">
-                  <p>Quartus modus erat reprehensionis, per quem contra firmam argumentationem
-                     aeque firma aut firmior po- nitur. hoc genus in deliberationibus maxime versa-
-                     bitur, cum aliquid, quod contra dicatur, aequum esse concedimus, sed id, quod
-                     nos defendimus, necessarium esse demonstramus; aut cum id, quod illi defendant,
+                  <p>Quartus modus erat reprehensionis, per quem contra firmam argumentationem aeque
+                     firma aut firmior po- nitur. hoc genus in deliberationibus maxime versa- bitur,
+                     cum aliquid, quod contra dicatur, aequum esse concedimus, sed id, quod nos
+                     defendimus, necessarium esse demonstramus; aut cum id, quod illi defendant,
                      utile esse fateamur, quod nos dicamus, honestum esse demonstremus.</p>
                   <p>Ac de reprehensione haec <del>quidem</del> existimavimus esse dicenda.
                         <del>deinceps nunc de conclusione ponemus.</del>
                      <pb/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="97" subtype="section">
                   <p>Hermagoras digressionem deinde, tum postremam conclusionem ponit. in hac autem
@@ -1696,9 +1703,9 @@
                      tamen ea, quae se- paratim de indignatione praecipi possunt, considere-</p>
                </div>
                <div type="textpart" n="101" subtype="section">
-                  <p>mus. primus locus sumitur ab auctoritate, cum com- memoramus, quantae curae
-                     res ea fuerit iis, quorum auctoritas gravissima debeat esse: diis inmortalibus,
-                     qui locus sumetur ex sortibus, ex oraculis, vatibus, ostentis, prodigiis,
+                  <p>mus. primus locus sumitur ab auctoritate, cum com- memoramus, quantae curae res
+                     ea fuerit iis, quorum auctoritas gravissima debeat esse: diis inmortalibus, qui
+                     locus sumetur ex sortibus, ex oraculis, vatibus, ostentis, prodigiis,
                      responsis, similibus rebus; item maioribus nostris, regibus, civitatibus,
                      gentibus, ho- <pb/> minibus sapientissimis, senatui, populo, legum scripto-
                      ribus. secundus locus est, per quem, illa res ad quos pertineat, cum
@@ -1722,7 +1729,7 @@
                      dentiae concedi nonnumquam convenire. septimus lo- cus est, per quem
                      indignamur, quod taetrum, crudele, nefarium, tyrannicum factum esse dicamus per
                      vim <pb/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="103" subtype="section">
                   <p>manum opulentiam; quae res ab legibus et ab aequabili iure remotissima sit.
@@ -1764,7 +1771,7 @@
                <div type="textpart" n="106" subtype="section">
                   <p>
                      <del>conquestionis autem huiusmodi de rebus partes petere oportebit.</del>
-                 </p>
+                  </p>
                   <p>Conquestio est oratio auditorum misericordiam cap- tans. in hac primum animum
                      auditoris mitem et misericordem conficere oportet, quo facilius conque- stione
                      commoveri possit. id locis communibus efficere oportebit, per quos fortunae vis
@@ -1796,7 +1803,7 @@
                         non extremum spiritum eius excepi.</q> item: <q>inimicorum in manibus
                         mortuus est, hostili in terra turpiter iacuit insepultus, a feris diu
                         vexatus, communi quoque honore in morte caruit.</q>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="109" subtype="section">
                   <p>nonus, per quem oratio ad mutas et expertes animi res referetur, ut si ad
@@ -1820,21 +1827,21 @@
                      humilitas et obsecratio. commotis au- tem animis diutius in conquestione morari
                      non opor- tebit. quemadmodum enim dixit rhetor Apollonius, <q>lacrima nihil
                         citius arescit.</q>
-                 </p>
+                  </p>
                   <p>Sed quoniam satis, ut videmur, de omnibus orationis partibus diximus et huius
                      voluminis magnitudo lon- gius processit, quae sequuntur deinceps, in secundo
                      libro dicemus. <pb/>
-                 </p>
+                  </p>
                </div>
             </div>
             <div type="textpart" n="2" subtype="book">
-               <p></p>
+               <p/>
                <div type="textpart" n="1" subtype="section">
-                  <p>Crotoniatae quondam, cum florerent omnibus copiis et in Italia cum primis
-                     beati numerarentur, templum Iunonis, quod religiosissime colebant, egregiis
-                     picturis locupletare voluerunt. itaque Heracleoten Zeuxin, qui tum longe
-                     ceteris excellere pictoribus existimabatur, magno pretio conductum adhibuerunt.
-                     is et ceteras conplures tabulas pinxit, quarum nonnulla pars us- que ad nostram
+                  <p>Crotoniatae quondam, cum florerent omnibus copiis et in Italia cum primis beati
+                     numerarentur, templum Iunonis, quod religiosissime colebant, egregiis picturis
+                     locupletare voluerunt. itaque Heracleoten Zeuxin, qui tum longe ceteris
+                     excellere pictoribus existimabatur, magno pretio conductum adhibuerunt. is et
+                     ceteras conplures tabulas pinxit, quarum nonnulla pars us- que ad nostram
                      memoriam propter fani religionem remansit, et, ut excellentem muliebris formae
                      pulchri- tudinem muta in se imago contineret, Helenae pingere simulacrum velle
                      dixit; quod Crotoniatae, qui eum mu- liebri in corpore pingendo plurimum aliis
@@ -1854,7 +1861,7 @@
                      <q>Praebete igitur mihi, quaeso,</q> inquit, <q>ex istis virgini- bus
                         formonsissimas, dum pingo id, quod pollicitus sum vobis, ut mutum in
                         simulacrum ex animali exemplo veritas transferatur.</q>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="3" subtype="section">
                   <p>tum Crotoniatae publico de con- silio virgines unum in locum conduxerunt et
@@ -1865,7 +1872,7 @@
                      ideo, quod nihil simplici in genere omnibus ex partibus per- fectum natura
                      expolivit. itaque, tamquam ceteris non sit habitura quod largiatur, si uni
                      cuncta concesserit, aliud alii commodi aliquo adiuncto incommodo mu- neratur.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="4" subtype="section">
                   <p>Quod quoniam nobis quoque voluntatis accidit, ut artem dicendi perscriberemus,
@@ -1927,7 +1934,7 @@
                      eleganter se- cuti videbimur, docti ab aliquo facile et libenter senten- tiam
                      commutabimus. non enim parum cognosse, sed in parum cognito stulte et diu
                      perseverasse turpe est, propterea quod alterum communi hominum infirmitati,
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="10" subtype="section">
                   <p>alterum singulari cuiusque vitio est adtributum. quare nos quidem sine ulla
@@ -1950,7 +1957,7 @@
                      exponentur simpliciter sine ulla exornatione, ut ex hoc inventa ipsa, ex
                      superiore autem expolitio inventorum petatur. quare haec, quae nunc
                      praecipientur, ad confirmationis et reprehensionis partes referre oportebit.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="12" subtype="section">
                   <p>Omnis et demonstrativa et deliberativa et iudicialis causa necesse est in
@@ -2005,7 +2012,7 @@
                      aliquibus, non ex omnibus litteris scribitur, sic omnem in causam non omnis
                      argumentorum copia, sed eorum necessario pars aliqua conveniet. omnis igitur ex
                      causa, ex persona, ex facto ipso coniectura capienda est. <pb/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="17" subtype="section">
                   <p>Causa tribuitur in inpulsionem et in ratiocinationem. inpulsio est, quae sine
@@ -2065,8 +2072,8 @@
                      esse visum;</p>
                </div>
                <div type="textpart" n="23" subtype="section">
-                  <p>quod sumi oportet ex iis, quae ad personam pertinent, de quo post dicendum
-                     est. even- tus autem tum fallit, cum aliter accidit, atque ii, qui arguuntur,
+                  <p>quod sumi oportet ex iis, quae ad personam pertinent, de quo post dicendum est.
+                     even- tus autem tum fallit, cum aliter accidit, atque ii, qui arguuntur,
                      arbitrati esse dicuntur: ut, si qui dicatur alium occidisse ac voluerit, quod
                      aut similitudine aut suspicione aut demonstratione falsa deceptus sit; aut eum
                      necasse, cuius testamento non sit heres, quod eo testamento se heredem
@@ -2148,7 +2155,7 @@
                      ostendat. nam af- fectionis quidem ratio perspicuam solet prae se gerere
                      coniecturam, ut amor, iracundia, molestia, propterea quod et ipsorum vis
                      intellegitur et, quae res harum aliquam rem consequatur, facile est cognitu.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="31" subtype="section">
                   <p>studium autem quod est adsidua et vehementer aliquam ad rem adplicata magna cum
@@ -2172,7 +2179,7 @@
                      poterit, simili quo in genere eiusdemmodi causa aliqua commotum peccasse aut in
                      aeque magna re aut in maiore aut in minore, ut si qui, quem pecunia dicat
                      inductum fecisse, possit demonstrare aliqua in re eius aliquod factum avarum.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="33" subtype="section">
                   <p>item in omni causa naturam aut victum aut studium aut fortunam aut aliquid
@@ -2186,17 +2193,16 @@
                      detractum est, tantundem de facul-</p>
                </div>
                <div type="textpart" n="34" subtype="section">
-                  <p>tate <del>eius</del> totius est defensionis deminutum. si nulli affinis
-                     poterit vitio reus ante admisso demonstrari, locus inducetur ille, per quem
-                     hortandi iudices erunt, ut veterem famam hominis nihil ad rem putent per-
-                     tinere. nam eum ante celasse, nunc manifesto teneri; quare non oportere hanc
-                     rem ex superiore vita spec- tari, sed superiorem vitam ex hac re inprobari, et
-                     aut potestatem ante peccandi non fuisse aut causam; aut, si haec dici non
-                     poterunt, dicendum erit illud extremum, non esse mirum, si nunc primum
-                     deliquerit: nam necesse esse eum, qui velit peccare, aliquando primum
-                     delinquere. sin vita ante acta ignorabitur, hoc loco praeterito et, cur
-                     praetereatur, demonstrato argu- mentis accusationem statim confirmare
-                     oportebit.</p>
+                  <p>tate <del>eius</del> totius est defensionis deminutum. si nulli affinis poterit
+                     vitio reus ante admisso demonstrari, locus inducetur ille, per quem hortandi
+                     iudices erunt, ut veterem famam hominis nihil ad rem putent per- tinere. nam
+                     eum ante celasse, nunc manifesto teneri; quare non oportere hanc rem ex
+                     superiore vita spec- tari, sed superiorem vitam ex hac re inprobari, et aut
+                     potestatem ante peccandi non fuisse aut causam; aut, si haec dici non poterunt,
+                     dicendum erit illud extremum, non esse mirum, si nunc primum deliquerit: nam
+                     necesse esse eum, qui velit peccare, aliquando primum delinquere. sin vita ante
+                     acta ignorabitur, hoc loco praeterito et, cur praetereatur, demonstrato argu-
+                     mentis accusationem statim confirmare oportebit.</p>
                </div>
                <div type="textpart" n="35" subtype="section">
                   <p>Defensor autem primum, si poterit, debebit vitam eius, qui insimulabitur, quam
@@ -2210,15 +2216,15 @@
                      aliquid faciendi minus honeste fuisse dicetur, voluntas a faciendo demon-</p>
                </div>
                <div type="textpart" n="36" subtype="section">
-                  <p>strabitur afuisse. hoc autem ipsum genus erit eo firmius, si eo ipso in
-                     genere, quo arguetur, integer ante fuisse demonstrabitur: ut si, cum avaritiae
-                     causa fecisse arguatur, minime omni in vita pecuniae cupi- dus fuisse doceatur.
-                     hic illa magna cum gravitate inducetur indignatio, iuncta conquestioni, per
-                     quam miserum facinus esse et indignum demonstrabitur<del>; ut</del>, cum animus
-                     in vita fuerit omni a vitiis remotissimus, eam causam putare, quae homines
-                     audaces in fraudem rapere soleat, castissimum quoque hominem ad pec- candum
-                     potuisse inpellere; aut: iniquum esse et op- timo cuique perniciosissimum non
-                     vitam honeste actam tali in tempore quam plurimum prodesse, sed subita ex
+                  <p>strabitur afuisse. hoc autem ipsum genus erit eo firmius, si eo ipso in genere,
+                     quo arguetur, integer ante fuisse demonstrabitur: ut si, cum avaritiae causa
+                     fecisse arguatur, minime omni in vita pecuniae cupi- dus fuisse doceatur. hic
+                     illa magna cum gravitate inducetur indignatio, iuncta conquestioni, per quam
+                     miserum facinus esse et indignum demonstrabitur<del>; ut</del>, cum animus in
+                     vita fuerit omni a vitiis remotissimus, eam causam putare, quae homines audaces
+                     in fraudem rapere soleat, castissimum quoque hominem ad pec- candum potuisse
+                     inpellere; aut: iniquum esse et op- timo cuique perniciosissimum non vitam
+                     honeste actam tali in tempore quam plurimum prodesse, sed subita ex
                      criminatione, quae confingi quamvis false possit, non ex ante acta vita, quae
                      neque ad tempus fingi neque ullo modo mutari possit, facere iudicium.</p>
                </div>
@@ -2268,10 +2274,10 @@
                      metus, laetitia, titubatio, audacia.</p>
                </div>
                <div type="textpart" n="42" subtype="section">
-                  <p>Quarta autem pars rebus erat ex iis, quas negotiis di- cebamus esse
-                     adtributas, consecutio. in ea quaeruntur ea, quae gestum negotium confestim aut
-                     intervallo con- sequuntur. in quo videbimus, ecqua consuetudo sit, ecqua lex,
-                     ecqua pactio, ecquod eius rei artificium aut usus aut exercitatio, hominum aut
+                  <p>Quarta autem pars rebus erat ex iis, quas negotiis di- cebamus esse adtributas,
+                     consecutio. in ea quaeruntur ea, quae gestum negotium confestim aut intervallo
+                     con- sequuntur. in quo videbimus, ecqua consuetudo sit, ecqua lex, ecqua
+                     pactio, ecquod eius rei artificium aut usus aut exercitatio, hominum aut
                      adprobatio aut offensio; ex quibus nonnumquam elicitur aliquid suspicionis.</p>
                   <p>Sunt autem aliae suspiciones, quae communiter et ex negotiorum et ex personarum
                      adtributionibus su- muntur. nam et ex fortuna et ex natura et ex victu, studio,
@@ -2291,13 +2297,13 @@
                      familiarem tam aequo animo reli-</p>
                </div>
                <div type="textpart" n="44" subtype="section">
-                  <p>querit, quod cruentum gladium habuerit. rursum, utrum videatur diligenter
-                     ratio faciendi esse habita et excogitata, an ita temere, ut non veri simile sit
-                     quem- quam tam temere ad maleficium accessisse. in quo quaeritur, num quo alio
-                     modo commodius potuerit fieri vel a fortuna administrari. nam saepe, si
-                     pecuniae, adiumenta, adiutores desint, facultas fuisse faciundi non videtur.
-                     hoc modo si diligenter attendamus, apta inter se esse intellegimus haec, quae
-                     negotiis, et illa, quae personis sunt adtributa.</p>
+                  <p>querit, quod cruentum gladium habuerit. rursum, utrum videatur diligenter ratio
+                     faciendi esse habita et excogitata, an ita temere, ut non veri simile sit quem-
+                     quam tam temere ad maleficium accessisse. in quo quaeritur, num quo alio modo
+                     commodius potuerit fieri vel a fortuna administrari. nam saepe, si pecuniae,
+                     adiumenta, adiutores desint, facultas fuisse faciundi non videtur. hoc modo si
+                     diligenter attendamus, apta inter se esse intellegimus haec, quae negotiis, et
+                     illa, quae personis sunt adtributa.</p>
                   <p>Hic non facile est neque necessarium est distinguere, ut in superioribus
                      partibus, quo pacto quicque accu- satorem et quomodo defensorem tractare
                      oporteat. non est necessarium, propterea quod causa posita, quid <pb/> in
@@ -2351,7 +2357,7 @@
                      non oportere. ac pars locorum communium per indignationem aut per con-
                      questionem inducitur, de quibus ante dictum est, pars per aliquam probabilem
                      utraque ex parte rationem. <pb/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="49" subtype="section">
                   <p>distinguitur autem oratio atque inlustratur maxime raro inducendis locis
@@ -2376,7 +2382,7 @@
                      eiusdem esse, qui in illa re peccarit, et hoc quoque admisisse et non esse
                      eiusdem; causam maxime spectari <del>causam</del> oportere et non oportere.
                      atque hi quidem et si qui <pb/> eiusmodi ex proprio argumento communes loci na-
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="51" subtype="section">
                   <p>scentur, in contrarias partes diducuntur. certus autem locus est accusatoris,
@@ -2411,7 +2417,8 @@
                      constitutionem in hanc causam, eam nos partem solam sumimus, in quam praecepta
                      nobis danda sunt. omnibus autem partibus hoc in libro explicatis quivis omni in
                      causa, si diligenter adtendet, omnes videbit constitutiones et earum partes et
-                     contro- versias, si quae forte in eas incident; nam de omnibus praescribemus.</p>
+                     contro- versias, si quae forte in eas incident; nam de omnibus
+                     praescribemus.</p>
                   <p>Primus ergo accusatoris locus est eius nominis, cuius de vi quaeritur, brevis
                      et aperta et ex opinione hominum definitio, hoc modo: Maiestatem minuere est de
                      dignitate aut amplitudine aut potestate populi aut eorum, quibus populus
@@ -2498,7 +2505,7 @@
                      equiti Romano quidam ex armatis resistenti gladio manum praecidit. agit is, cui
                      manus praecisa est, iniuriarum. postulat is, quicum agitur, a praetore
                      exceptionem: <hi rend="7">extra quam in reum capitis prae-</hi>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="60" subtype="section">
                   <p>
@@ -2716,7 +2723,7 @@
                      quibus in locis ab accusatore aliae constitutiones erunt inductae, in iis ipse
                      quoque ex isdem constitutionibus defen- <pb/> sionem comparabit; ceteros autem
                      omnes locos, qui ad ipsam comparationem pertinebunt, ex contrario tractabit.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="77" subtype="section">
                   <p>Loci communes autem erunt: accusatoris in eum, qui, cum de facto turpi aliquo
@@ -2887,7 +2894,7 @@
                      est quondam cum Samnitibus, quidam adulescens nobilis porcum sustinuit iussu
                      im- peratoris. foedere autem ab senatu inprobato et im- peratore Samnitibus
                      dedito quidam in senatu eum quoque dicit, qui porcum tenuerit, dedi oportere.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="92" subtype="section">
                   <p>in- tentio est: <q>dedi oportet.</q> depulsio est: <q>non oportet.</q> quaestio
@@ -2949,16 +2956,15 @@
                      nullo modo possent.</p>
                </div>
                <div type="textpart" n="97" subtype="section">
-                  <p>redemptor suae voluntatis ostendendae causa hostias constituit omnes in
-                     litore, ut, qui trans flumen essent, videre possent. cum omnes studio eius
-                     subitam flu- minis magnitudinem scirent fuisse inpedimento, tamen quidam
-                     capitis arcesserunt. intentio est: <q>hostiae, quas debuisti ad sacrificium,
-                        praesto non fuerunt.</q> depulsio <pb/> concessio. ratio: <q>flumen enim
-                        subito accrevit et ea re traduci non potuerunt.</q> infirmatio: <q>tamen,
-                        quon- iam, quod lex iubet, factum non est, supplicio dignus es.</q>
-                     iudicatio est: cum in ea re contra legem redemptor <del>aliquid</del> fecerit,
-                     qua in re studio eius subita fluminis obstiterit magnitudo, supplicio dignusne
-                     sit?</p>
+                  <p>redemptor suae voluntatis ostendendae causa hostias constituit omnes in litore,
+                     ut, qui trans flumen essent, videre possent. cum omnes studio eius subitam flu-
+                     minis magnitudinem scirent fuisse inpedimento, tamen quidam capitis
+                     arcesserunt. intentio est: <q>hostiae, quas debuisti ad sacrificium, praesto
+                        non fuerunt.</q> depulsio <pb/> concessio. ratio: <q>flumen enim subito
+                        accrevit et ea re traduci non potuerunt.</q> infirmatio: <q>tamen, quon-
+                        iam, quod lex iubet, factum non est, supplicio dignus es.</q> iudicatio est:
+                     cum in ea re contra legem redemptor <del>aliquid</del> fecerit, qua in re
+                     studio eius subita fluminis obstiterit magnitudo, supplicio dignusne sit?</p>
                </div>
                <div type="textpart" n="98" subtype="section">
                   <p>Necessitudo autem infertur, cum vi quadam reus id, quod fecerit, fecisse
@@ -2973,19 +2979,19 @@
                      portum coniecta sit, oporteatne eam publicari?</p>
                </div>
                <div type="textpart" n="99" subtype="section">
-                  <p>Horum trium generum idcirco in unum locum con- tulimus exempla, quod similis
-                     in ea praeceptio argu- mentorum traditur. nam in his omnibus primum, si quid
-                     res ipsa dabit facultatis, coniecturam induci ab accusatore oportebit, ut id,
-                     quod voluntate factum ne- gabitur, consulto factum suspicione aliqua demon-
-                     stretur; deinde inducere definitionem necessitudinis aut casus aut inprudentiae
-                     et exempla ad eam defini- tionem adiungere, in quibus inprudentia fuisse
-                     videatur aut casus aut necessitudo, et ab his id, quod reus in- ferat,
-                     separare, id est ostendere dissimile, quod <del>le- vius, facilius</del> non
-                     ignorabile, non fortuitum, non ne- <pb/> cessarium fuerit; postea demonstrare
-                     potuisse vitari: hac ratione provideri potuisse, si hoc aut illud fe- cisset,
-                     aut, nisi fecisset, praecaveri; et definitionibus ostendere non hanc
-                     inprudentiam aut casum aut ne- cessitudinem, sed inertiam, neglegentiam,
-                     fatuitatem nominari oportere.</p>
+                  <p>Horum trium generum idcirco in unum locum con- tulimus exempla, quod similis in
+                     ea praeceptio argu- mentorum traditur. nam in his omnibus primum, si quid res
+                     ipsa dabit facultatis, coniecturam induci ab accusatore oportebit, ut id, quod
+                     voluntate factum ne- gabitur, consulto factum suspicione aliqua demon- stretur;
+                     deinde inducere definitionem necessitudinis aut casus aut inprudentiae et
+                     exempla ad eam defini- tionem adiungere, in quibus inprudentia fuisse videatur
+                     aut casus aut necessitudo, et ab his id, quod reus in- ferat, separare, id est
+                     ostendere dissimile, quod <del>le- vius, facilius</del> non ignorabile, non
+                     fortuitum, non ne- <pb/> cessarium fuerit; postea demonstrare potuisse vitari:
+                     hac ratione provideri potuisse, si hoc aut illud fe- cisset, aut, nisi
+                     fecisset, praecaveri; et definitionibus ostendere non hanc inprudentiam aut
+                     casum aut ne- cessitudinem, sed inertiam, neglegentiam, fatuitatem nominari
+                     oportere.</p>
                </div>
                <div type="textpart" n="100" subtype="section">
                   <p>ac si qua necessitudo turpitudi- nem videbitur habere, oportebit per locorum
@@ -3007,7 +3013,7 @@
                      omnibus rebus voluntatem spectari opor- tere; et se convinci non posse, quod
                      absit a culpa; suo nomine communem hominum infirmitatem posse dam- nari. deinde
                      nihil esse indignius quam eum, qui culpa careat, supplicio non carere. <pb/>
-                 </p>
+                  </p>
                   <p>Loci autem communes: accusatoris in confessionem, et quanta potestas peccandi
                      relinquatur, si semel in- stitutum sit, ut non de facto, sed de facti causa
                      quaera-</p>
@@ -3032,10 +3038,10 @@
                   <p>Nunc in alteram concessionis partem consideratio-</p>
                </div>
                <div type="textpart" n="104" subtype="section">
-                  <p>nem iam intendemus. Deprecatio est, in qua non de- fensio facti, sed
-                     ignoscendi postulatio continetur. hoc genus vix in iudicio probari potest, ideo
-                     quod con- cesso peccato difficile est ab eo, qui peccatorum vindex esse debet,
-                     ut ignoscat, impetrare. quare parte eius <pb/> generis, cum causam non in eo
+                  <p>nem iam intendemus. Deprecatio est, in qua non de- fensio facti, sed ignoscendi
+                     postulatio continetur. hoc genus vix in iudicio probari potest, ideo quod con-
+                     cesso peccato difficile est ab eo, qui peccatorum vindex esse debet, ut
+                     ignoscat, impetrare. quare parte eius <pb/> generis, cum causam non in eo
                      constitueris, uti licebit; ut si pro aliquo claro aut forti viro, cuius in rem
                      publi- cam multa sunt beneficia, diceres, posses, cum videaris non uti
                      deprecatione, uti tamen, ad hunc modum: <q>quodsi, iudices, hic pro suis
@@ -3058,9 +3064,9 @@
                      ignosceretur, cum deprecationis partes ad- iungeret.</p>
                </div>
                <div type="textpart" n="106" subtype="section">
-                  <p>Oportebit igitur eum, qui sibi ut ignoscatur, postu- labit, commemorare, si
-                     qua sua poterit beneficia et, si poterit, ostendere ea maiora esse quam haec,
-                     quae deliquerit, ut plus ab eo boni quam mali profectum esse videatur; deinde
+                  <p>Oportebit igitur eum, qui sibi ut ignoscatur, postu- labit, commemorare, si qua
+                     sua poterit beneficia et, si poterit, ostendere ea maiora esse quam haec, quae
+                     deliquerit, ut plus ab eo boni quam mali profectum esse videatur; deinde
                      maiorum suorum beneficia, si <pb/> qua exstabunt, proferre; deinde ostendere
                      non odio neque crudelitate fecisse, quod fecerit, sed aut stultitia aut inpulsu
                      alicuius aut aliqua honesta aut probabili causa; postea polliceri et confirmare
@@ -3095,7 +3101,8 @@
                <div type="textpart" n="109" subtype="section">
                   <p>ficio poenam sumi oportere. deinde turpe esse aut inutile ignosci. deinde, de
                      quo ut potestas esset saepe optarint, in eum * ob potestatem non uti summam
-                     esse stultitiam; cogitare oportere, quem animum in eum et quod odium habuerint.</p>
+                     esse stultitiam; cogitare oportere, quem animum in eum et quod odium
+                     habuerint.</p>
                   <p>Locus autem communis erit indignatio maleficii et alter eorum misereri
                      oportere, qui propter fortunam, non propter malitiam in miseriis sint.</p>
                   <p>Quoniam ergo in generali constitutione tamdiu prop- ter eius partium
@@ -3198,7 +3205,7 @@
                      primum, si fieri poterit, demonstrandum est non esse ambigue scrip- tum,
                      propterea quod omnes in consuetudine sermo- nis sic uti solent eo verbo uno
                      pluribusve in eam sen- tentiam, in quam is, qui dicet, accipiendum esse demon-
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="117" subtype="section">
                   <p>strabit. deinde ex superiore et ex inferiore scriptura docendum id, quod
@@ -3294,38 +3301,38 @@
                      doceatur.</p>
                </div>
                <div type="textpart" n="125" subtype="section">
-                  <p>Ergo is, qui scriptum defendet, his locis plerumque omnibus, maiore autem
-                     parte semper poterit uti: pri- mum scriptoris conlaudatione et loco communi,
-                     nihil eos, qui iudicent, nisi id, quod scriptum, spectare oportere; et hoc eo
-                     magis, si legitimum scriptum pro- feretur, id est aut lex ipsa aut aliquid ex
-                     lege; postea, <pb/> quod vehementissimum est, facti aut intentionis adver-
-                     sariorum cum ipso scripto contentione, quid scriptum sit, quid factum, quid
-                     iuratus iudex; quem locum mul- tis modis variare oportebit, tum ipsum secum
-                     admi- rantem, quidnam contra dici possit, tum ad iudicis officium revertentem
-                     et ab eo quaerentem, quid prae- terea audire aut exspectare debeat; tum ipsum
-                     ad- versarium quasi in testis loco producendo, hoc est interrogando, utrum
+                  <p>Ergo is, qui scriptum defendet, his locis plerumque omnibus, maiore autem parte
+                     semper poterit uti: pri- mum scriptoris conlaudatione et loco communi, nihil
+                     eos, qui iudicent, nisi id, quod scriptum, spectare oportere; et hoc eo magis,
+                     si legitimum scriptum pro- feretur, id est aut lex ipsa aut aliquid ex lege;
+                     postea, <pb/> quod vehementissimum est, facti aut intentionis adver- sariorum
+                     cum ipso scripto contentione, quid scriptum sit, quid factum, quid iuratus
+                     iudex; quem locum mul- tis modis variare oportebit, tum ipsum secum admi-
+                     rantem, quidnam contra dici possit, tum ad iudicis officium revertentem et ab
+                     eo quaerentem, quid prae- terea audire aut exspectare debeat; tum ipsum ad-
+                     versarium quasi in testis loco producendo, hoc est interrogando, utrum
                      scriptumne neget esse eo modo, an ab se contra factum esse aut contra contendi
                      neget;</p>
                </div>
                <div type="textpart" n="126" subtype="section">
-                  <p>utrum negare ausus sit, se dicere desiturum. si neu- trum neget et contra
-                     tamen dicat: nihil esse quo hominem inpudentiorem quisquam se visurum arbi-
-                     tretur. in hoc ita commorari conveniet, quasi nihil praeterea dicendum sit et
-                     quasi contra dici nihil possit, saepe id, quod scriptum est, recitando, saepe
-                     cum scrip- to factum adversarii confligendo atque interdum acri- ter ad iudicem
+                  <p>utrum negare ausus sit, se dicere desiturum. si neu- trum neget et contra tamen
+                     dicat: nihil esse quo hominem inpudentiorem quisquam se visurum arbi- tretur.
+                     in hoc ita commorari conveniet, quasi nihil praeterea dicendum sit et quasi
+                     contra dici nihil possit, saepe id, quod scriptum est, recitando, saepe cum
+                     scrip- to factum adversarii confligendo atque interdum acri- ter ad iudicem
                      ipsum revertendo. quo in loco iudici demonstrandum est, quid iuratus sit, quid
                      sequi debeat: duabus de causis iudicem dubitare oportere, si aut scriptum sit
                      obscure aut neget aliquid adversarius;</p>
                </div>
                <div type="textpart" n="127" subtype="section">
-                  <p>cum et scriptum aperte sit et adversarius omnia con- fiteatur, tum iudicem
-                     legi parere, non interpretari legem oportere.</p>
+                  <p>cum et scriptum aperte sit et adversarius omnia con- fiteatur, tum iudicem legi
+                     parere, non interpretari legem oportere.</p>
                   <p>Hoc loco confirmato tum diluere ea, quae contra dici poterunt, oportebit.
                      contra autem dicetur, si aut pror- sus aliud sensisse scriptor et scripsisse
                      aliud demon- strabitur, ut in illa de testamento, quam posuimus, controversia,
                      aut causa assumptiva inferetur, quamob- rem scripto non potuerit aut non
                      oportuerit optem- perari. <pb/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="128" subtype="section">
                   <p>Si aliud sensisse scriptor, aliud scripsisse dicetur, is, qui scripto utetur,
@@ -3548,10 +3555,10 @@
                      fieri necesse sit, utrum habeat aliquam moram et sustentationem;</p>
                </div>
                <div type="textpart" n="147" subtype="section">
-                  <p>nam id, quod statim faciendum sit, perfici prius oportet; de- inde operam
-                     dare, ut sua lex ipso scripto videatur niti, contraria autem aut per ambiguum
-                     aut per ratio- cinationem aut per definitionem induci, <add>cum</add> sanctius
-                     et firmius id videatur esse, quod apertius scriptum sit; deinde suae legis ad
+                  <p>nam id, quod statim faciendum sit, perfici prius oportet; de- inde operam dare,
+                     ut sua lex ipso scripto videatur niti, contraria autem aut per ambiguum aut per
+                     ratio- cinationem aut per definitionem induci, <add>cum</add> sanctius et
+                     firmius id videatur esse, quod apertius scriptum sit; deinde suae legis ad
                      scriptum ipsum sententiam quoque adiungere, contrariam legem item ad aliam
                      sententiam transducere, ut, si fieri poterit, ne discrepare quidem videantur
                      inter se; postremo facere, si causa facultatem dabit, ut nostra ratione utraque
@@ -3572,7 +3579,7 @@
                         pater-</hi>
                      <pb/>
                      <hi rend="7">familias intestato moritur, familia pecuniaque eius</hi>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="149" subtype="section">
                   <p>
@@ -3601,9 +3608,9 @@
                      de hac is, qui scribebat, dubita-</p>
                </div>
                <div type="textpart" n="151" subtype="section">
-                  <p>turum neminem arbitratus sit; postea multis in le- gibus multa praeterita
-                     esse, quae idcirco praeterita nemo arbitretur, quod ex ceteris, de quibus
-                     scriptum sit, intellegi possint; deinde aequitas rei demon- stranda est, ut in
+                  <p>turum neminem arbitratus sit; postea multis in le- gibus multa praeterita esse,
+                     quae idcirco praeterita nemo arbitretur, quod ex ceteris, de quibus scriptum
+                     sit, intellegi possint; deinde aequitas rei demon- stranda est, ut in
                      iuridiciali absoluta.</p>
                   <p>Contra autem qui dicet, similitudinem infirmare de- bebit; quod faciet, si
                      demonstrabit illud, quod confera- tur, diversum esse genere, natura, vi,
@@ -3636,18 +3643,18 @@
                      adplicarunt, hominem ad se sustulerunt.</p>
                </div>
                <div type="textpart" n="154" subtype="section">
-                  <p>postea aliquanto ipsos quoque tempestas vehementius iactare coepit, usque
-                     adeo, ut dominus navis, cum idem gubernator esset, in scapham confugeret et
-                     inde funiculo, qui a puppi religatus scapham adnexam tra- hebat, navi, quod
-                     posset, moderaretur, ille autem, cuius merces erant, in gladium in navi ibidem
-                     in- cumberet. hic ille naufragus ad gubernaculum ac- cessit et navi, quod
-                     potuit, est opitulatus. sedatis autem fluctibus et tempestate iam commutata
-                     navis in portum pervehitur. ille autem, qui in gladium in- cubuerat, leviter
-                     saucius facile ex vulnere est recrea- tus. navem cum onere horum trium suam
-                     quisque esse dicit. Hic omnes scripto ad causam accedunt et ex nominis vi
-                     nascitur controversia. nam et relinquere navem et remanere in navi, denique
-                     navis ipsa quid sit, definitionibus quaeretur. isdem autem ex locis om- nibus,
-                     quibus definitiva constitutio, tractabitur.</p>
+                  <p>postea aliquanto ipsos quoque tempestas vehementius iactare coepit, usque adeo,
+                     ut dominus navis, cum idem gubernator esset, in scapham confugeret et inde
+                     funiculo, qui a puppi religatus scapham adnexam tra- hebat, navi, quod posset,
+                     moderaretur, ille autem, cuius merces erant, in gladium in navi ibidem in-
+                     cumberet. hic ille naufragus ad gubernaculum ac- cessit et navi, quod potuit,
+                     est opitulatus. sedatis autem fluctibus et tempestate iam commutata navis in
+                     portum pervehitur. ille autem, qui in gladium in- cubuerat, leviter saucius
+                     facile ex vulnere est recrea- tus. navem cum onere horum trium suam quisque
+                     esse dicit. Hic omnes scripto ad causam accedunt et ex nominis vi nascitur
+                     controversia. nam et relinquere navem et remanere in navi, denique navis ipsa
+                     quid sit, definitionibus quaeretur. isdem autem ex locis om- nibus, quibus
+                     definitiva constitutio, tractabitur.</p>
                </div>
                <div type="textpart" n="155" subtype="section">
                   <p>Nunc expositis iis argumentationibus, quae in iudi- ciale causarum genus
@@ -3655,7 +3662,7 @@
                      argumentandi locos et praecepta dabimus, non quo non in aliqua constitutione
                      omnis semper causa versetur, sed quia proprii tamen harum causarum quidam loci
                      sunt, non a constitutione separati, sed ad fines horum generum accommodati.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="156" subtype="section">
                   <p>nam placet in iudiciali genere finem esse aequitatem, hoc est partem quandam
@@ -3722,15 +3729,15 @@
                      antecedentes cultu quodam et honore dignantur;</p>
                </div>
                <div type="textpart" n="162" subtype="section">
-                  <p>veritas, per quam inmutata ea, quae sunt <del>ante</del> aut fuerunt aut
-                     futura sunt, dicuntur. consuetudine ius est, quod aut leviter a natura tractum
-                     aluit et maius fecit usus, ut religionem, aut si quid eorum, quae ante diximus,
-                     ab natura profectum maius factum propter consuetudinem videmus, aut quod in
-                     morem vetustas vulgi adprobatione perduxit; quod genus pac- tum est, par,
-                     iudicatum. pactum est, quod inter ali- quos convenit; par, quod in omnes
-                     aequabile est; iudi- <pb/> catum, de quo alicuius aut aliquorum iam senten-
-                     tiis constitutum est. lege ius est, quod in eo scripto, quod populo expositum
-                     est, ut observet, continetur.</p>
+                  <p>veritas, per quam inmutata ea, quae sunt <del>ante</del> aut fuerunt aut futura
+                     sunt, dicuntur. consuetudine ius est, quod aut leviter a natura tractum aluit
+                     et maius fecit usus, ut religionem, aut si quid eorum, quae ante diximus, ab
+                     natura profectum maius factum propter consuetudinem videmus, aut quod in morem
+                     vetustas vulgi adprobatione perduxit; quod genus pac- tum est, par, iudicatum.
+                     pactum est, quod inter ali- quos convenit; par, quod in omnes aequabile est;
+                     iudi- <pb/> catum, de quo alicuius aut aliquorum iam senten- tiis constitutum
+                     est. lege ius est, quod in eo scripto, quod populo expositum est, ut observet,
+                     continetur.</p>
                </div>
                <div type="textpart" n="163" subtype="section">
                   <p>Fortitudo est considerata periculorum susceptio et laborum perpessio. eius
@@ -3753,8 +3760,8 @@
                      pertinet et a brevitate praecipiendi remo-</p>
                </div>
                <div type="textpart" n="165" subtype="section">
-                  <p>tum est. propter se autem vitanda sunt non ea modo, quae his contraria sunt,
-                     ut fortitudini ignavia et <pb/> iustitiae iniustitia, verum etiam illa, quae
+                  <p>tum est. propter se autem vitanda sunt non ea modo, quae his contraria sunt, ut
+                     fortitudini ignavia et <pb/> iustitiae iniustitia, verum etiam illa, quae
                      propinqua videntur et finitima esse, absunt autem longissume; quod genus
                      fidentiae contrarium est diffidentia et ea re vitium est; audacia non
                      contrarium, sed appositum est ac propinquum et tamen vitium est. sic uni cuique
@@ -3787,7 +3794,8 @@
                      partim sunt religioni- bus iunctae, partim non sunt, et quia partim veteres
                      sunt, partim novae, partim ab illorum, partim ab nostro beneficio profectae,
                      partim utiliores, partim minus utiles, ex causarum dignitatibus, ex temporum
-                     opportunitatibus, ex officiis, ex religionibus, ex vetu- statibus habebitur.</p>
+                     opportunitatibus, ex officiis, ex religionibus, ex vetu- statibus
+                     habebitur.</p>
                   <p>Utilitas autem aut in corpore posita est aut in extrariis rebus; quarum tamen
                      rerum multo maxima pars ad corporis commodum revertitur, ut in re pu- blica
                      quaedam sunt, quae, ut sic dicam, ad corpus pertinent civitatis, ut agri,
@@ -3795,7 +3803,7 @@
                      libertatem retinent civitates, aliae vero, quae iam quid- dam magis amplum et
                      minus necessarium conficiunt, ut urbis egregia exornatio atque amplitudo, ut
                      quae- dam excellens pecuniae magnitudo, amicitiarum ac societatum multitudo.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="169" subtype="section">
                   <p>quibus rebus non illud solum conficitur, ut salvae et incolumes, verum etiam,
@@ -3846,7 +3854,7 @@
                         <del>ut</del> homines <del>mortales</del> necesse est interire, sine ad-
                      iunctione; ut cibo utantur, non necesse est nisi cum illa exceptione <q>extra
                         quam si nolint fame perire.</q>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="173" subtype="section">
                   <p>ergo, ut dico, illud, quod adiungitur, semper, cuius- modi sit, erit
@@ -3913,7 +3921,7 @@
                      inventione, prima ac maxima parte rhetoricae, satis dictum videtur. quare,
                      quoniam et una pars ad exitum hoc ac superiore libro per- ducta est et hic
                      liber non parum continet litterarum, quae restant, in reliquis dicemus. <pb/>
-                 </p>
+                  </p>
                </div>
             </div>
          </div>

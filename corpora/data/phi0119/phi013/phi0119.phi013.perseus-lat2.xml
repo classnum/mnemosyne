@@ -60,6 +60,10 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc>
+			<change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS
+				via HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate
+				lines where needed adding letters to numbers in @n, fix Latin content in some bibl
+				tags erroneously in Greek, update EpiDoc schema metadata.</change>
 			<change who="Thibault Clérice" when="2016-02-02">CTS and Epidoc. Switched numbering :
 				"\d+-\d+" to \d+ and changed \d+.\d+ to \d+[a-d]. Some \d+[a] collided, changed
 				original variation of line to α</change>

@@ -62,6 +62,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+            HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines
+            where needed adding letters to numbers in @n, fix Latin content in some bibl tags
+            erroneously in Greek, update EpiDoc schema metadata.</change>
          <change when="2016-11-20" who="Thibault Clérice">CapiTainS and Epidoc</change>
       </revisionDesc>
    </teiHeader>
@@ -95,14 +99,14 @@
                   <hi rend="italics">H </hi>= cod. Neapolitanus iv. B 36</quote>
                <quote rend="blockquote">
                   <hi rend="italics">M</hi> = cod. Mutinensis vi. D 6</quote>
-           </p>
+            </p>
             <p>Ex his <hi rend="italics">FOG </hi>magis inter se affines esse videntur, et <hi
                   rend="italics">BHM</hi> cognatione quadam artiore esse coniuncti: illis vero
                potius fides est habenda: neque parvi faciendae sunt correctiones in <hi
                   rend="italics">O</hi> (<hi rend="italics">O2 vetus</hi>). <quote rend="blockquote">
                   <hi rend="italics">L </hi>= consensus codicum <hi rend="italics">FBOGHM.</hi>
                </quote>
-           </p>
+            </p>
             <p>De codice (<hi rend="italics">D</hi>) Parisino 7704, quem laudaverunt Orelli et
                Ellendt, non satis constat unde ductus sit. Sed lectiones hic illic non spernendas
                praebet. Venetum priorem utpote <pb n="p.-005"/>
@@ -183,7 +187,7 @@
                <hi rend="italics">M</hi> = cod. Mutinensis vi D 6</p>
             <p>
                <hi rend="italics">L </hi>= consensus codicum <hi rend="italics">FBOGHM</hi>
-           </p>
+            </p>
             <p>
                <hi rend="italics">N </hi>= Venetus prior (Ellendt) Nannianus</p>
             <p>
@@ -258,7 +262,7 @@
                   </note>, summam eius felicitatem non satis grato animo interpretamur.</p>
                <p>
                   <milestone n="2" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="6" subtype="section">
                <p>
@@ -292,7 +296,7 @@
                   honesti, cumque ipsa oratio iam nostra canesceret haberetque suam quandam
                   maturitatem et quasi senectutem, tum arma sunt ea sumpta, quibus illi ipsi, qui
                   didicerant eis uti gloriose, quem ad modum salutariter uterentur, non reperiebant.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="9" subtype="section">
                <p>
@@ -303,7 +307,7 @@
                   incidissemus.</p>
                <p>
                   <milestone n="3" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="10" subtype="section">
                <p>
@@ -380,7 +384,7 @@
                   remunerandum si non pari, at grato tamen munere: quamquam illud Hesiodium laudatur
                   a doctis, quod eadem mensura reddere iubet quae acceperis aut etiam cumulatiore,
                   si possis. <pb n="p.1006"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="16" subtype="section">
                <p>
@@ -412,7 +416,7 @@
                   <note>incommodo se tuo <hi rend="italics">Eberhard</hi>: incommodo <hi
                         rend="italics">L</hi>: se incommodo tuo <hi rend="italics">Lambinus</hi>
                   </note> exacturum negat. <milestone n="5" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="18" subtype="section">
                <p>
@@ -519,7 +523,7 @@
                      habeat<note>habeat <hi rend="italics">G2</hi>: habeant <hi rend="italics"
                         >L</hi>
                   </note> existimari potest. <milestone n="7" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="26" subtype="section">
                <p>
@@ -564,7 +568,7 @@
                      comprehensione <hi rend="italics">Stangl</hi>
                   </note> rerum breves et ob eam ipsam causam interdum subobscuri. <milestone n="8"
                      unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="30" subtype="section">
                <p>
@@ -638,7 +642,7 @@
                   plenum, quid inane sit iudicant et spiritu quasi necessitate aliqua verborum com-
                   prehensio terminatur; in quo non modo defici sed etiam laborare turpe est.
                      <milestone n="9" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="35" subtype="section">
                <p>
@@ -686,7 +690,7 @@
                   quibus esset auditus.</p>
                <p>
                   <milestone n="10" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="39" subtype="section">
                <p>
@@ -770,7 +774,7 @@
                   </note>. Huius suavitate maxime hilaratae Athenae sunt, huius ubertatem et copiam
                   admiratae eius- dem vim dicendi terroremque timuerunt. <milestone n="12"
                      unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="45" subtype="section">
                <p>
@@ -833,7 +837,7 @@
                         Martha</hi>
                   </note>' saepe ipse in iudicium vocaretur, orationes aliis destitisse scribere
                   totumque se ad artes componendas transtulisse. <milestone n="13" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="49" subtype="section">
                <p>
@@ -877,7 +881,7 @@
                   certe mihi fuerunt neque solum non longa, sed etiam breviora quam vellem. Optime,
                   inquam, sed veniamus ad nostros, de quibus difficile est plus intellegere quam
                   quantum ex monumentis suspicari licet. <milestone n="14" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="53" subtype="section">
                <p>
@@ -1061,7 +1065,7 @@
                   </note> fieri nihil possit valentius; verum est certe genere toto strigo- sior—,
                   sed habet tamen suos laudatores, qui hac ipsa eius subtilitate admodum gaudeant.
                      <milestone n="17" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="65" subtype="section">
                <p>
@@ -1193,7 +1197,7 @@
                   </note> si aequalis fuerit Livius, minor fuit aliquanto is, qui primus fabulam
                   dedit, quam ei, qui multas docuerant ante hos consules, et Plautus et Naevius.
                      <milestone n="19" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="74" subtype="section">
                <p>
@@ -1236,7 +1240,7 @@
                   fuisse. Filius quidem eius, is qui hunc minorem Scipionem a Paullo adoptavit, si
                   corpore valuisset, in primis habitus esset disertus; indicant cum oratiunculae tum
                   historia quaedam Graeca scripta dulcissime. <milestone n="20" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="78" subtype="section">
                <p>
@@ -1276,7 +1280,7 @@
                   vita, cum quidem eo ipso anno contra Ser. Galbam ad populum summa contentione
                   dixisset, quam etiam orationem scriptam reliquit—<milestone n="21" unit="chapter"
                   />
-              </p>
+               </p>
             </div>
             <div type="textpart" n="81" subtype="section">
                <p>
@@ -1356,7 +1360,7 @@
                   partim etiam liberi<note>liberti <hi rend="italics">Corradus</hi>
                   </note> societatis eius, quae picarias de P. Cornelio L. Mummio censoribus
                   redemisset, decrevisse senatum, ut de ea re cognoscerent et statuerent consules.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="86" subtype="section">
                <p>
@@ -1371,7 +1375,7 @@
                         rend="italics">L</hi>: asperior <hi rend="italics">Martha</hi>: ardentior
                         <hi rend="italics">Corradus, alii alia temptaverunt</hi>
                   </note> acriorque esset, gravius et vehementius posse defendi. Itaque auctoritate
-              </p>
+               </p>
             </div>
             <div type="textpart" n="87" subtype="section">
                <p>C. Laeli publicanos causam detulisse ad Galbal; illum autem, quod ei viro
@@ -1399,7 +1403,7 @@
                   dixisse Galbam ut nulla fere pars orationis silentio praeteriretur. Itaque multis
                   querelis multaque miseratione adhibita socios omnibus approbantibus illa die
                   quaestione liberatos esse. <milestone n="23" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="89" subtype="section">
                <p>
@@ -1523,7 +1527,7 @@
                      Pompei<note>Sex. <hi rend="italics">Madvig</hi>: sed <hi rend="italics">L</hi>
                   </note> sunt scripta nec nimis extenuata, quamquam veterum est similis, et plena
                   prudentiae. P. Crassum<milestone n="26" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="98" subtype="section">
                <p>valde probatum oratorem isdem fere temporibus accepimus, qui et ingenio valuit et
@@ -1584,7 +1588,7 @@
                   peritus, multorum etiam ut L. Crassi magister.</p>
                <p>
                   <milestone n="27" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="103" subtype="section">
                <p>
@@ -1594,7 +1598,7 @@
                   ex invidia foederis Numantini bonis iratus accesserat, ab ipsa re publica est
                   interfectus; alter propter perpetuam in populari ratione levitatem morte
                   voluntaria se a severitate iudicum vindicavit. Sed fuit uterque summus orator.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="104" subtype="section">
                <p>
@@ -1640,7 +1644,7 @@
                   </note>.</p>
                <p>
                   <milestone n="28" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="107" subtype="section">
                <p>
@@ -1689,7 +1693,7 @@
                   </note>, quem ipse vidi, nihil accepi nisi Latine diligenter locutum.</p>
                <p>
                   <milestone n="29" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="110" subtype="section">
                <p>
@@ -1784,7 +1788,7 @@
                   molesta.</p>
                <p>
                   <milestone n="31" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="117" subtype="section">
                <p>
@@ -1855,7 +1859,7 @@
                   </note> et illorum in iudicia pacatior.</p>
                <p>
                   <milestone n="32" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="122" subtype="section">
                <p>
@@ -1897,7 +1901,7 @@
                         rend="italics">Jahn</hi>
                   </note> suppeditavisset et splendor ei non defuisset, consulem non fuisse.
                      <milestone n="33" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="125" subtype="section">
                <p>
@@ -1932,7 +1936,7 @@
                   est. Exstat eius peroratio, qui epilogus dicitur; qui tanto in honore pueris nobis
                   erat ut eum etiam edisceremus. Hic, qui in conlegio sacerdotum esset, primus post
                   Romam conditam iudicio publico est condemnatus. <milestone n="34" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="128" subtype="section">
                <p>P. Scipio, qui est in consulatu mortuus, non multum ille quidem nec saepe dicebat,
@@ -2038,7 +2042,7 @@
                   appellandarum litterarum, quoniam filium cognovisti, noli exspectare quid dicam.
                   Quamquam filius quidem non fuit in oratorum numero, sed non deerat ei tamen in
                   sententia dicenda cum prudentia tum elegans quoddam et eruditum orationis genus.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="134" subtype="section">
                <p>
@@ -2060,7 +2064,7 @@
                         >O2B</hi>: qui fortuna <hi rend="italics">L</hi>
                   </note> belli crimini, invidia populi calamitati fuit. <milestone n="36"
                      unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="136" subtype="section">
                <p>
@@ -2095,7 +2099,7 @@
                   et in his primum cum Graecorum gloria Latine dicendi copiam aequatam.</p>
                <p>
                   <milestone n="37" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="139" subtype="section">
                <p>Omnia veniebant Antonio in mentem; eaque suo quaeque loco, ubi plurimum proficere
@@ -2165,7 +2169,7 @@
                      disputaretur<note>disputaretur <hi rend="italics">L</hi>: disputabatur <hi
                         rend="italics">Eberhard</hi>
                   </note>, argumentorum et similitudinum copia. <milestone n="39" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="144" subtype="section">
                <p>
@@ -2229,7 +2233,7 @@
                   me quodam modo; res se tamen sic habet. Cum omnis virtus sit, ut vestra, Brute,
                   vetus Academia dixit, mediocritas, uterque horum medium quiddam volebat sequi; sed
                   ita cadebat ut alter ex alterius laude partem, uterque autem suam totam haberet.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="150" subtype="section">
                <p>
@@ -2242,7 +2246,7 @@
                   </note> tueri; aetatesque vestrae, ut illorum, nihil aut non fere
                      multum<note>nihil fere aut non multum <hi rend="italics">Madvig</hi>
                   </note> differunt. <milestone n="41" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="151" subtype="section">
                <p>
@@ -2334,7 +2338,7 @@
                   principio, de re publica ut sileremus; itaque faciamus. Nam si isto modo volumus
                   singulas res desiderare, non modo querendi sed ne lugendi quidem finem reperiemus.
                      <milestone n="43" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="158" subtype="section">
                <p>
@@ -2382,7 +2386,7 @@
                   intellegeretur iam ad summum paene esse perductam, ut eo nihil ferme quisquam
                   addere posset, nisi qui a philosophia, a iure civili, ab historia fuisset
                   instructior. <milestone n="44" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="162" subtype="section">
                <p>
@@ -2470,7 +2474,7 @@
                   </note>.</p>
                <p>
                   <milestone n="46" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="169" subtype="section">
                <p>
@@ -2533,7 +2537,7 @@
                   </note>.</p>
                <p>
                   <milestone n="47" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="173" subtype="section">
                <p>Duobus igitur summis, Crasso et Antonio, L. Philippus proximus accedebat, sed
@@ -2559,7 +2563,7 @@
                   excogitandum nec Romanarum rerum immemor et verbis solutus satis; sed in magnos
                   oratores inciderat eius aetas; multam tamen operam amicis et utilem praebuit,
                   atque ita diu vixit ut multarum aetatum <pb n="p.1051"/> oratoribus implicaretur.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="175" subtype="section">
                <p>
@@ -2592,7 +2596,7 @@
                   inquit Atticus; eloquentis enim videbare, non sedulos velle conquirere.</p>
                <p>
                   <milestone n="48" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="177" subtype="section">
                <p>
@@ -2649,7 +2653,7 @@
                   infirma atque etiam aegra valetudine fuisset.</p>
                <p>
                   <milestone n="49" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="181" subtype="section">
                <p>
@@ -2722,7 +2726,7 @@
                   </note> ita afficiantur ut orator velit, vulgi adsensu et populari adprobatione
                   iudicari solet. Itaque numquam de bono oratore aut non bono doctis hominibus cum
                   populo dissensio fuit. <milestone n="50" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="186" subtype="section">
                <p>
@@ -2774,7 +2778,7 @@
                      cui<note>cui <hi rend="italics">vulg.</hi>: quo <hi rend="italics">L</hi>
                   </note> quidem eligendi potestas esset, quemquam his anteponebat? <milestone
                      n="51" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="190" subtype="section">
                <p>
@@ -2888,7 +2892,7 @@
                   sentiret esse quoddam uberius dicendi genus et ornatius. Ab utroque autem causa
                   perorata si quaereretur, uter praestaret orator, numquam profecto sapientis
                   iudicium a iudicio vulgi discreparet. <milestone n="54" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="199" subtype="section">
                <p>
@@ -2923,7 +2927,7 @@
                   intelleget.</p>
                <p>
                   <milestone n="55" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="201" subtype="section">
                <p>
@@ -3061,7 +3065,7 @@
                   hanc consuetudinem libenter adscivimus.</p>
                <p>
                   <milestone n="58" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="210" subtype="section">
                <p>
@@ -3185,7 +3189,7 @@
                   anno post et deinceps reliquis annis administravisset<note>administravit <hi
                         rend="italics">M</hi>: administravisset <hi rend="italics">C</hi>
                   </note> in Gallia. <milestone n="61" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="219" subtype="section">
                <p>Tum Brutus admirans: Tantamne fuisse oblivionem, inquit, in scripto praesertim, ut
@@ -3221,7 +3225,7 @@
                <pb n="p.1065"/>
                <p>
                   <milestone n="62" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="221" subtype="section">
                <p>In eodem igitur numero eiusdem aetatis C. Carbo fuit<note>fuit <hi rend="italics"
@@ -3319,7 +3323,7 @@
                   quaedam in foro solitudo. Sulpicius occiderat, Cotta aberat et Curio, vivebat e
                   reliquis patronis eius aetatis nemo praeter Carbonem et Pomponium, quorum utrumque
                   facile superabat. <milestone n="64" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="228" subtype="section">
                <p>Inferioris autem aetatis erat proximus L. Sisenna, doctus vir et studiis optimis
@@ -3371,7 +3375,7 @@
                         rend="italics">Rivius</hi>
                   </note> eiusdem laudis exercuit et tecum simul, sicut ego pro multis, sic ille pro
                   Appio Claudio dixit paulo ante mortem. <milestone n="65" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="231" subtype="section">
                <p>
@@ -3434,7 +3438,7 @@
                         rend="italics">Orelli</hi>: scilicet <hi rend="italics">Stangl qui et
                         secl.</hi> scilicet... superiore</note> in hoc nihil praeter actionem fuit,
                   cetera etiam minora quam in superiore. <milestone n="67" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="236" subtype="section">
                <p>M. Piso quidquid habuit, habuit ex disciplina maximeque ex omnibus, qui ante
@@ -3473,7 +3477,7 @@
                   citius veteratoriam quam oratoriam diceres. Hic etsi etiam in publicis causis
                   probabatur, tamen in privatis inlustriorem obtinebat locum. <milestone n="68"
                      unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="239" subtype="section">
                <p>C. deinde Piso statarius et sermonis plenus orator, minime ille quidem tardus in
@@ -3505,7 +3509,7 @@
                   fervido quodam et petulanti et furioso genere dicendi; quod quia multis gratum
                   erat et probabatur, ascendisset ad honores, nisi in facinore manifesto deprehensus
                   poenas legibus et iudicio dedisset. <milestone n="69" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="242" subtype="section">
                <p>
@@ -3542,7 +3546,7 @@
                         rend="italics">C</hi>: tam <hi rend="italics">OG</hi>
                   </note> multos fuisse. Sed ad sermonem institutum revertamur. <milestone n="70"
                      unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="245" subtype="section">
                <p>T. Torquatus T. F. et doctus vir ex Rhodia disciplina Molonis et a natura ad
@@ -3551,7 +3555,7 @@
                   </note> si vita suppeditavisset, sublato ambitu consul factus esset, plus
                   facultatis habuit ad dicendum quam voluntatis. Itaque studio huic non satis fecit,
                   officio vero nec in suorum necessariorum causis nec in sententia senatoria defuit.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="246" subtype="section">
                <p>
@@ -3582,7 +3586,7 @@
                   laborem, tantum sibi de facultate detraxit quantum imminuit industriae.</p>
                <p>
                   <milestone n="71" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="248" subtype="section">
                <p>
@@ -3623,7 +3627,7 @@
                   enim Mytilenis nuper virum atque, ut dixi, vidi plane virum. Itaque cum eum antea
                   tui similem in dicendo viderim, tum vero nunc a doctissimo viro tibique, ut
                   intellexi, amicissimo Cratippo instructum omni copia multo videbam similiorem.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="251" subtype="section">
                <p>Hic ego: Etsi, inquam, de optimi viri nobisque amicissimi laudibus libenter audio,
@@ -3669,7 +3673,7 @@
                         rend="italics">L</hi>: derelicto <hi rend="italics">Lambinus</hi>: reiculo
                         <hi rend="italics">Madvig</hi>: delicto <hi rend="italics">Schütz</hi>
                   </note> est habendum? <milestone n="73" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="254" subtype="section">
                <p>Tum Brutus: Amice hercule, inquit, et magnifice te laudatum puto, quem non solum
@@ -3708,7 +3712,7 @@
                   </note>. Qua re non quantum quisque prosit, sed quanti quisque sit ponderandum
                   est; praesertim cum pauci pingere egregie possint aut fingere, operarii autem aut
                   baiuli deesse non possint. <milestone n="74" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="258" subtype="section">
                <p>
@@ -3793,7 +3797,7 @@
                   vita excesserunt, revertamur.</p>
                <p>
                   <milestone n="76" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="263" subtype="section">
                <p>C. Sicinius<note>Sicinius <hi rend="italics">vulg.</hi> (<hi rend="italics"
@@ -3846,7 +3850,7 @@
                   quisque dicendo potuerit, quoniam id quaerimus, praedicemus.</p>
                <p>
                   <milestone n="77" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="267" subtype="section">
                <p>Sunt etiam<note>sunt enim <hi rend="italics">Kayser</hi>
@@ -3885,7 +3889,7 @@
                   diu conligis viverent. Omnis enim commemoras, qui ausi aliquando sunt stantes
                   loqui, ut mihi imprudens M. Servilium praeterisse videare. <milestone n="78"
                      unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="270" subtype="section">
                <p>
@@ -3920,7 +3924,7 @@
                   plura quam fuerint in illo dicere; quod non ita est; alia enim de illo maiora dici
                   possunt. Nam nec continentia nec pietate nec ullo genere virtutis quemquam eiusdem
                   aetatis cum illo conferendum puto. <milestone n="79" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="273" subtype="section">
                <p>
@@ -3964,7 +3968,7 @@
                   iuris consultorum includitur formulis, id<note>id <hi rend="italics"
                      >Corradus</hi>: et <hi rend="italics">L</hi>
                   </note> ubi esset videbat. <milestone n="80" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="276" subtype="section">
                <p>
@@ -3983,7 +3987,7 @@
                   quod non consuesset sive quod non nosset<note>nosset <hi rend="italics"
                         >Friedrich</hi>: posset <hi rend="italics">L</hi>
                   </note>. Hoc unum illi, si nihil utilitatis habebat, afuit; si opus erat, defuit.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="277" subtype="section">
                <p>
@@ -4018,7 +4022,7 @@
                   </note> tantum afuit ut inflammares nostros animos, somnum isto loco vix
                   tenebamus.' Sic nos summi oratoris vel sanitate vel vitio pro argumento ad
                   diluendum crimen usi sumus. <pb n="p.1084"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="279" subtype="section">
                <p>
@@ -4077,7 +4081,7 @@
                   Cyri et Alexandri similis esse voluit, qui suum cursum transcurrerant, et L.
                   Crassi et multorum Crassorum in ventus est dissimillimus. <milestone n="82"
                      unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="283" subtype="section">
                <p>
@@ -4105,7 +4109,7 @@
                   probat neminem. In- <pb n="p.1086"/> sulsitatem enim et insolentiam tamquam
                   insaniam quandam orationis odit, sanitatem autem et integritatem quasi religionem
                   et verecundiam oratoris probat. Haec omnium debet oratorum eadem esse sententia.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="285" subtype="section">
                <p>
@@ -4128,7 +4132,7 @@
                   quaedam aut voluntas ita dicendi fuit.</p>
                <p>
                   <milestone n="83" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="286" subtype="section">
                <p>
@@ -4209,7 +4213,7 @@
                   Hortensium.</p>
                <p>
                   <milestone n="85" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="292" subtype="section">
                <p>
@@ -4262,7 +4266,7 @@
                   Brutone te id censebas an mihi probaturum? Quos enim ne e Graecis quidem quisquam
                   imitari potest, his tu comparas hominem Tusculanum nondum suspicantem quale esset
                   copiose et ornate dicere. <milestone n="86" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="295" subtype="section">
                <p>
@@ -4322,7 +4326,7 @@
                      ut tu <hi rend="italics">C</hi>
                   </note> melius existimare videris de ea, si quam nunc habemus, facultate, tamen
                   adulescentes quid in Latinis potius <pb n="p.1091"/> imitaremur non habebamus.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="299" subtype="section">
                <p>
@@ -4344,7 +4348,7 @@
                   sumus revertamur.</p>
                <p>
                   <milestone n="88" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="301" subtype="section">
                <p>
@@ -4390,7 +4394,7 @@
                   refellendum. Vox canora et suavis, motus et gestus etiam plus artis habebat quam
                   erat oratori satis. Hoc igitur florescente Crassus est mortuus, Cotta pulsus,
                   iudicia intermissa bello, nos in forum venimus. <milestone n="89" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="304" subtype="section">
                <p>Erat Hortensius in bello primo anno miles, altero tribunus militum, Sulpicius
@@ -4483,7 +4487,7 @@
                      putant<note>quam ... putant <hi rend="italics">secl. Eberhard</hi>
                   </note>, consequi non posse. Huic ego doctori et eius artibus variis atque multis
                   ita eram tamen deditus ut ab exercitationibus oratoriis nullus dies vacuus esset.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="310" subtype="section">
                <p>
@@ -4593,7 +4597,7 @@
                   </note> mediocris habitus accesserat.</p>
                <p>
                   <milestone n="92" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="317" subtype="section">
                <p>
@@ -4697,7 +4701,7 @@
                         rend="italics">vulg.</hi>: traduceret... impelleret <hi rend="italics"
                         >L</hi>
                   </note>. <milestone n="94" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="323" subtype="section">
                <p>
@@ -4730,7 +4734,7 @@
                   etiam posteris nostris indicabunt.</p>
                <p>
                   <milestone n="95" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="325" subtype="section">
                <p>
@@ -4756,7 +4760,7 @@
                         <hi rend="italics">Eberhard</hi>
                   </note> Aeschylus Cnidius et meus aequalis Milesius <pb n="p.1100"/> Aeschines. In
                   his erat admirabilis orationis cursus, ornata sententiarum concinnitas non erat.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="326" subtype="section">
                <p>
@@ -4847,7 +4851,7 @@
                      saluti <hi rend="italics">L</hi>
                   </note> rei publicae, sin secus, interitu ipso testimonium meorum de re publica
                   consiliorum darent. <pb n="p.1102"/> . <milestone n="97" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="331" subtype="section">
                <p>
@@ -5149,7 +5153,7 @@
             <p>Iunius Brutus (M.) 222 (pater <foreign xml:lang="grc">tou=
                turannokto/nou</foreign>).</p>
             <p>Iunius Brutus (M.) 22, 120, 331 <hi rend="italics">et passim.</hi>
-           </p>
+            </p>
             <p>Iunius Pennus (M.) 109.</p>
             <p>Iunius Pennus (M.) (filius) 1o9.</p>
             <p>Iunius Silanus (D.) 240.</p>
@@ -5307,7 +5311,7 @@
             <p>Pomponius (Cn.) 182, 207, 221,</p>
             <p>227, 305, 308, 311.</p>
             <p>Pomponius Atticus (T.) 10 sq., 13 sq., 72 sq. <hi rend="italics">et passim.</hi>
-           </p>
+            </p>
             <p>Pontidius (M.) 246.</p>
             <p>Popilius Laenas (C.) 95.</p>
             <p>Popilius Laenas (M.) 56.</p>

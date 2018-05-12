@@ -57,6 +57,10 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS
+                via HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate
+                lines where needed adding letters to numbers in @n, fix Latin content in some bibl
+                tags erroneously in Greek, update EpiDoc schema metadata.</change>
             <change><date>1988</date><label>tagging</label><name>EM, Scott Ettinger and Roger
                     Travis</name>Text scanned at U. Chicago in 1988. Basic SGML tagging by Lowell
                 Bowditch</change>
@@ -82,7 +86,7 @@
                 typos.) Revision 1.7 2000/03/06 20:10:31 amahoney remove spurious headers, which
                 mess up short toc Revision 1.6 2000/03/04 20:33:54 dasmith Added separate funder
                 entity to TEI header. Revision 1.5 2000/02/01 22:11:29 amahoney bring up to P3
-           </change>
+            </change>
         </revisionDesc>
     </teiHeader>
     <text xml:id="stoa0045.stoa0" xml:lang="grc">

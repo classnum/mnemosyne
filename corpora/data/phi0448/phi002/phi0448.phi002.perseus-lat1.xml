@@ -59,6 +59,10 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS
+                via HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate
+                lines where needed adding letters to numbers in @n, fix Latin content in some bibl
+                tags erroneously in Greek, update EpiDoc schema metadata.</change>
             <change when="2000-11-22" who="AEM">$Log: caes.bc_lat.xml,v $ Revision 1.1 2013-09-13
                 11:17:35 balmas01 moving Greg's work-in-progress on CTS-izing greco-roman collection
                 texts to a Work directory Revision 1.2 2013-06-08 12:13:27 gcrane TEI XML converted
@@ -221,7 +225,7 @@
                                 turbulentissimi superioribus temporibus tribuni plebis post octo
                                 denique menses variarum actionum respicere ac timere
                                     <sic>consuerant.</sic>
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="3">
                             <p>decurritur ad illud extremum atque ultimum senatus consultum, quo
@@ -435,7 +439,7 @@
                             <p>itaque ab Arimino M. Antonium cum cohortibus <num>v</num> Arretium
                                 mittit, ipse Arimini cum duabus subsistit ibique dilectum habere
                                 instituit; Pisaurum, Fanum, Anconam singulis cohortibus occupat.
-                           </p>
+                            </p>
                         </div>
                     </div>
                     <div type="textpart" subtype="chapter" n="12">
@@ -647,7 +651,7 @@
                                 omnia trepidantius timidiusque ageret, quam superioribus diebus
                                 consuesset, multumque cum suis consiliandi causa secreto praeter
                                 consuetudinem colloqueretur, concilia conventusque hominum fugeret,
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="4">
                             <p>res diutius tegi dissimularique non potuit. Pompeius enim
@@ -658,7 +662,7 @@
                         </div>
                         <div type="textpart" subtype="section" n="5">
                             <p>id ne fieri posset, obsidione atque oppidi circummunitione fiebat.
-                           </p>
+                            </p>
                         </div>
                     </div>
                     <div type="textpart" subtype="chapter" n="20">
@@ -773,7 +777,7 @@
                             <p>hos omnes productos a contumeliis militum conviciisque prohibet;
                                 pauca apud eos loquitur, quod sibi a parte eorum gratia relata non
                                 sit pro suis in eos maximis beneficiis; dimittit omnes incolumes.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="4">
                             <p>HS <num>lx</num>, quod advexerat Domitius atque in publico
@@ -937,7 +941,7 @@
                         <div type="textpart" subtype="section" n="6">
                             <p>hos certo signo revocare constituit, cum omnes milites naves
                                 conscendissent, atque iis expedito loco actuaria navigia relinquit.
-                           </p>
+                            </p>
                         </div>
                     </div>
                     <div type="textpart" subtype="chapter" n="28">
@@ -1134,7 +1138,7 @@
                             <p>supra Massiliam incolebant, ad se vocaverant, frumentum ex finitimis
                                 regionibus atque ex omnibus castellis in urbem convexerant, armorum
                                 officinas in urbe instituerant, muros portas classem reficiebant.
-                           </p>
+                            </p>
                         </div>
                     </div>
                     <div type="textpart" subtype="chapter" n="35">
@@ -1216,7 +1220,7 @@
                                 quorum unus Hispaniam citeriorem tribus legionibus, alter
                                 ulteriorem; a saltu Castulonensi ad Anam duabus legionibus, tertius
                                 ab Ana Vettonum agrum Lusitaniamque pari numero legionum obtinebat,
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="2">
                             <p>officia inter se partiuntur, uti Petreius ex Lusitania per Vettones
@@ -1254,7 +1258,7 @@
                             <p>audierat Pompeium per Mauretaniam cum legionibus iter in Hispaniam
                                 facere confestimque esse venturum. simul a tribunis militum
                                 centurionibusque mutuas pecunias sumpsit; has exercitui distribuit.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="4">
                             <p>quo facto duas res consecutus est, quod pignore animos centurionum
@@ -1325,7 +1329,7 @@
                             <p>et, ne in opere faciundo milites repentino hostium incursu
                                 exterrerentur atque opere prohiberentur, vallo muniri vetuit, quod
                                 eminere et procul videri necesse erat, sed a fronte contra hostem
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="5">
                             <p>pedum <num>xv</num> fossam fieri iussit. et prima et secunda acies in
@@ -1385,7 +1389,7 @@
                             <p>occupandum locum mittuntur. contenditur proelio, et, quod prius in
                                 tumulum Afraniani venerant, nostri repelluntur atque aliis submissis
                                 subsidiis terga vertere seque ad signa legionum recipere coguntur.
-                           </p>
+                            </p>
                         </div>
                     </div>
                     <div type="textpart" subtype="chapter" n="44">
@@ -1571,7 +1575,7 @@
                         <div type="textpart" subtype="section" n="2">
                             <p>quod illis prohibere erat facile cum ipsius fluminis natura atque
                                 aquae magnitudine, tum quod ex totis ripis in unum atque angustum
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="3">
                             <p>locum tela iaciebantur; atque erat difficile eodem tempore
@@ -1733,7 +1737,7 @@
                             <p>atque hi modo digressi a Massiliensibus recentem eorum
                                 pollicitationem animis continebant, pastoresque Domiti spe
                                 libertatis excitati sub oculis domini suam probare operam studebant.
-                           </p>
+                            </p>
                         </div>
                     </div>
                     <div type="textpart" subtype="chapter" n="58">
@@ -1765,7 +1769,7 @@
                         <div type="textpart" subtype="section" n="5">
                             <p>hominibus capiunt, reliquas in portum compellunt. eo die naves
                                 Massiliensium cum his, quae sunt captae, intereunt <num>viiii</num>.
-                           </p>
+                            </p>
                         </div>
                     </div>
                     <div type="textpart" subtype="chapter" n="59">
@@ -2064,7 +2068,7 @@
                                 attigissent, ipsi periculum vitarent, impedimenta totius exercitus
                                 cohortisque in castris relictas servare non possent; quibus
                                 interclusis exercitu Caesaris auxilium ferri nulla ratione poterat.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="3">
                             <p>confecit prior iter Caesar atque ex magnis rupibus nactus planitiem
@@ -2102,7 +2106,7 @@
                                 rebus sui timoris signa misisse: quod suis non subvenissent, quod de
                                 colle non decederent, quod vix equitum incursus sustinerent
                                 collatisque in unum locum signis conferti neque ordines neque signa
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="4">
                             <p>servarent. quodsi iniquitatem loci timeret, datum iri tamen aliquo
@@ -2114,7 +2118,7 @@
                         <div type="textpart" subtype="section" n="1">
                             <p>Caesar in eam spem venerat se sine pugna et sine volnere suorum rem
                                 conficere posse, quod re frumentaria adversarios interclusisset.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="2">
                             <p>cur etiam secundo proelio aliquos ex suis amitteret? cur volnerari
@@ -2131,7 +2135,7 @@
                                 inter se loquebantur, quoniam talis occasio victoriae dimitteretur,
                                 etiam cum vellet Caesar, sese non esse pugnaturos. ille in sua
                                 sententia perseverat et paulum ex eo loco digreditur, ut timorem
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="5">
                             <p>adversariis minuat. Petreius atque Afranius oblata facultate in
@@ -2217,7 +2221,7 @@
                                 equitibus paucis, beneficiariis suis, quos suae custodiae causa
                                 habere consueverat, improviso ad vallum advolat, colloquia militum
                                 interrumpit, nostros repellit a castris, quos deprendit, interficit.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="3">
                             <p>reliqui coeunt inter se et repentino periculo exterriti sinistras
@@ -2241,13 +2245,13 @@
                         <div type="textpart" subtype="section" n="3">
                             <p>princeps in haec verba iurat ipse; idem iusiurandum adigit Afranium;
                                 subsequuntur tribuni militum centurionesque; centuriatim producti
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="4">
                             <p>milites idem iurant. edicunt, penes quem quisque sit Caesaris miles,
                                 ut producat: productos palam in praetorio interficiunt. sed
                                 plerosque ii qui receperant celant noctuque per vallum emittunt.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="5">
                             <p>sic terror oblatus a ducibus, crudelitas in supplicio, nova religio
@@ -2313,7 +2317,7 @@
                                 esset adpropinquatum, legionum signa consistere iuberent magnoque
                                 impetu equitatum repellerent, eo submoto repente incitati cursu sese
                                 in vallis universi demitterent atque ita transgressi rursus in locis
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="5">
                             <p>superioribus consisterent. nam tantum ab equitum suorum auxiliis
@@ -2371,7 +2375,7 @@
                         <div type="textpart" subtype="section" n="4">
                             <p>sed quantum opere processerant et castra protulerant, tanto aberant
                                 ab aqua longius, et praesenti malo aliis malis remedia dabantur.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="5">
                             <p>prima nocte aquandi causa nemo egreditur ex castris; proximo die
@@ -2472,7 +2476,7 @@
                             <p>itaque se victos confiteri; orare atque obsecrare, siqui locus
                                 misericordiae relinquatur, ne ad ultimum supplicium progredi necesse
                                 habeant. haec quam potest demississime et subiectissime exponit.
-                           </p>
+                            </p>
                         </div>
                     </div>
                     <div type="textpart" subtype="chapter" n="85">
@@ -2487,7 +2491,7 @@
                                 suisque interfectis, quos in sua potestate habuerit, conservarit et
                                 texerit; illius denique exercitus milites, qui per se de concilianda
                                 pace egerint, qua in re omnium suorum vitae consulendum putarint.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="3">
                             <p>sic omnium ordinum partis in misericordia constitisse, ipsos duces a
@@ -2572,7 +2576,7 @@
                                 daturum pollicetur. addit etiam, ut quid quisque eorum in bello
                                 amiserit, quae sint penes milites suos, iis qui amiserant
                                 restituatur; militibus aequa facta aestimatione pecuniam pro his
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="2">
                             <p>rebus dissolvit. quascumque postea controversias inter se milites
@@ -2680,7 +2684,7 @@
                         <div type="textpart" subtype="section" n="2">
                             <p>piscatoriasque adiecerant atque contexerant, ut essent ab ictu
                                 telorum remiges tuti; has sagittariis tormentisque conpleverunt.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="3">
                             <p>tali modo instructa classe omnium seniorum, matrum familiae, virginum
@@ -2707,7 +2711,7 @@
                             <p>Eodem Brutus contendit aucto navium numero. nam ad eas, quae factae
                                 erant Arelate per Caesarem, captivae Massiliensium accesserant sex.
                                 has superioribus diebus refecerat atque omnibus rebus instruxerat.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="2">
                             <p>itaque suos cohortatus, quos integros superavissent, ut victos
@@ -2759,7 +2763,7 @@
                             <p>conspicataeque naves triremes duae navem D. Bruti, quae ex insigni
                                 facile agnosci poterat, duabus ex partibus sese in eam incitaverant.
                                 sed tantum re provisa Brutus celeritate navis enisus est ut parvo
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="5">
                             <p>momento antecederet. illae adeo graviter inter se incitatae
@@ -2827,7 +2831,7 @@
                                 iniecerunt non longe ab extremis parietibus, quibus suspenderent eam
                                 contignationem quae turri tegimento esset futura, supraque ea tigna
                                 derecto transversas trabes iniecerunt easque axibus religaverunt.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="3">
                             <p>has trabes paulo longiores atque eminentiores quam extremi parietes
@@ -2882,7 +2886,7 @@
                             <p>cuius musculi haec erat forma. duae primum trabes in solo aeque
                                 longae distantes inter se pedes <num>iiii</num> collocantur inque
                                 eis columellae pedum in altitudinem <num>v</num>
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="3">
                             <p>defiguntur. has inter se capreolis molli fastigio coniungunt, ubi
@@ -2893,7 +2897,7 @@
                             <p>laminis clavisque religant. ad extremum musculi tectum trabesque
                                 extremas quadratas regulas <num>iiii</num> patentis digitos
                                 defigunt, quae lateres, qui super musculo struantur, contineant.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="5">
                             <p>ita fastigato atque ordinatim structo ut trabes erant in capreolis
@@ -3117,7 +3121,7 @@
                             <p>quibus rebus perterritos civis Romanos eius provinciae sibi ad rem
                                 publicam administrandam HS <num>ccxxx</num> et argenti pondo
                                     <num>xx</num>
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="5">
                             <p>milia, tritici modios <num>cxx</num> milia polliceri coegit. quas
@@ -3180,7 +3184,7 @@
                                 litterae Gadibus redduntur, simulatque sit cognitum de edicto
                                 Caesaris, consensisse Gaditanos principes cum tribunis cohortium
                                 quae essent ibi in praesidio, ut Gallonium ex oppido expellerent,
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="3">
                             <p>urbem insulamque Caesari servarent. hoc inito consilio denuntiavisse
@@ -3196,7 +3200,7 @@
                         </div>
                         <div type="textpart" subtype="section" n="5">
                             <p>quod factum adeo eius conventus cives Romani comprobaverunt, ut domum
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="6">
                             <p>ad se quisque hospitio cupidissime reciperet. quibus rebus
@@ -3346,7 +3350,7 @@
                                 coniuncta ad portam, quae appellatur Belica, admodum munita natura
                                 loci, una ex parte ipso oppido Utica, altera a theatro, quod est
                                 ante oppidum, substructionibus eius operis maximis, aditu ad castra
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="2">
                             <p>difficili et angusto. simul animadvertit multa undique portari atque
@@ -3391,7 +3395,7 @@
                             <p>prope oppidum castra ponit. nondum opere castrorum perfecto equites
                                 ex statione nuntiant magna auxilia equitum peditumque ab rege missa
                                 Uticam venire; eodemque tempore vis magna pulveris cernebatur, et
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="3">
                             <p>vestigio temporis primum agmen erat in conspectu. novitate rei Curio
@@ -3418,7 +3422,7 @@
                                 quae sentimus ipsi, reliquos sentire speramus – confirmant quidem
                                 certe totius exercitus animos alienos esse a Curione, maximeque opus
                                 esse in conspectum exercitus venire et colloquendi dare facultatem.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="3">
                             <p>qua opinione adductus Varus postero die mane legiones ex castris
@@ -3842,14 +3846,14 @@
                                 habere consuerat, et peditum eam partem, cui maxime confidebat,
                                 Saburrae summittit; ipse cum reliquis copiis elephantisque
                                     <num>lx</num>
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="2">
                             <p>lentius subsequitur. suspicatus praemissis equitibus ipsum adfore
                                 Curionem Saburra copias equitum peditumque instruit atque his
                                 imperat, ut simulatione timoris paulatim cedant ac pedem referant;
                                 sese, cum opus esset, signum proelii daturum et quod rem postulare
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="3">
                             <p>cognovisset imperaturum. Curio ad superiorem spem addita praesentis
@@ -3937,7 +3941,7 @@
                                 Curione cohortatur suos, ne animo deficiant. illi orant atque
                                 obsecrant, ut in Siciliam navibus reportentur. pollicetur
                                 magistrisque imperat navium, ut primo vespere omnes scaphas ad litus
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="2">
                             <p>adpulsas habeant. sed tantus fuit omnium terror, ut alii adesse
@@ -3968,7 +3972,7 @@
                             <p>quorum cohortes militum postero die ante oppidum Iuba conspicatus,
                                 suam esse praedicans praedam, magnam partem eorum interfici iussit,
                                 paucos electos in regnum remisit, cum Varus suam fidem ab eo laedi
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="3">
                             <p>quereretur neque resistere auderet. ipse equo in oppidum vectus
@@ -4187,7 +4191,7 @@
                         <div type="textpart" subtype="section" n="2">
                             <p>conventum Salonis cum neque pollicitationibus neque denuntiatione
                                 periculi permovere posset, oppidum oppugnare instituit. est autem
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="3">
                             <p>oppidum et loci natura et colle munitum. sed celeriter cives Romani
@@ -4271,7 +4275,7 @@
                         <div type="textpart" subtype="section" n="9">
                             <p>interesse id rei publicae et ipsis placere oportere, si uterque in
                                 contione statim iuravisset se triduo proximo exercitum dimissurum.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="10">
                             <p>depositis armis auxiliisque, quibus nunc confiderent, necessario
@@ -4342,7 +4346,7 @@
                                 dicebatur; tantusque terror incidit eius exercitu, quod properans
                                 noctem die coniunxerat neque iter intermiserat, ut paene omnes ex
                                 Epiro finitimisque regionibus signa relinquerent, complures arma
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="3">
                             <p>proicerent, ac fugae simile iter videretur. sed cum prope Dyrrachium
@@ -4470,7 +4474,7 @@
                         </div>
                         <div type="textpart" subtype="section" n="3">
                             <p>sic belli rationem esse divisam, ut illi classe naves auxiliaque sua
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="4">
                             <p>impedirent, ipse ut aqua terraque eos prohiberet. si hoc sibi remitti
@@ -4511,7 +4515,7 @@
                                 prohibuit. 'quid mihi' inquit 'aut vita aut civitate opus est, quam
                                 beneficio Caesaris habere videbor? cuius rei opinio tolli non
                                 poterit, cum in Italiam, ex qua profectus sum reductus existimabor.'
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="5">
                             <p>bello perfecto ab iis Caesar haec facta cognovit, qui sermoni
@@ -4645,7 +4649,7 @@
                         <div type="textpart" subtype="section" n="4">
                             <p>ita magnarum initia rerum, quae occupatione magistratuum et temporum
                                 sollicitam Italiam habebant, celerem et facilem exitum habuerunt.
-                           </p>
+                            </p>
                         </div>
                     </div>
                     <div type="textpart" subtype="chapter" n="23">
@@ -4712,7 +4716,7 @@
                             <p>quibus rebus permotus Caesar Brundisium ad suos severius scripsit,
                                 nacti idoneum ventum ne occasionem navigandi dimitterent, si vel ad
                                 litora Apolloniatium cursum dirigere atque eo naves eicere possent.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="4">
                             <p>haec a custodiis classium loca maxime vacabant, quod se longius a
@@ -4736,7 +4740,7 @@
                             <p>neque vero ille ob eam causam conatu desistebat, sed labore et
                                 perseverantia nautarum et vim tempestatis superari posse sperabat
                                 praetervectosque Dyrrachium magna vi venti nihilo setius sequebatur.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="4">
                             <p>nostri usi fortunae beneficio tamen impetum classis timebant, si
@@ -4898,7 +4902,7 @@
                                 tributum imponebatur; columnaria ostiaria frumentum milites arma
                                 remiges tormenta vecturae imperabantur; cuius modo rei nomen
                                 reperiri poterat, hoc satis esse ad cogendas pecunias videbatur.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="3">
                             <p>non solum urbibus, sed paene vicis castellisque singuli cum imperio
@@ -5058,7 +5062,7 @@
                                 collocavit, quo in loco superioribus fere diebus nostri pabulari
                                 consueverant; et cum cotidiana consuetudine Q. Varus, praefectus
                                 equitum Domiti, venisset, subito illi ex insidiis consurrexerunt.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="6">
                             <p>sed nostri fortiter impetum eorum tulerunt, celeriterque ad suos
@@ -5078,7 +5082,7 @@
                                     <num>iii</num> loco idoneo et occulto omnem exercitum
                                 equitatumque collocavit. Scipio ad sequendum paratus equitatus
                                 magnam partem ad explorandum iter Domiti et cognoscendum praemisit.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="3">
                             <p>qui cum essent progressi primaeque turmae insidias intravissent, ex
@@ -5090,7 +5094,7 @@
                                     frustra reliquos expectarent, duas nacti turmas exceperunt. in
                                     his fuit M. Opimius praefectus equitum. reliquos</sic> omnes
                                 earum turmarum aut interfecerunt aut captos ad Domitium deduxerunt.
-                           </p>
+                            </p>
                         </div>
                     </div>
                     <div type="textpart" subtype="chapter" n="39">
@@ -5099,7 +5103,7 @@
                                     <num>iii</num> cohortes Orici oppidi tuendi causa reliquit
                                 isdemque custodiam navium longarum tradidit, quas ex Italia
                                 traduxerat. huic officio oppidoque M'. Acilius legatus praeerat.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="2">
                             <p>is naves nostras interiorem in portum post oppidum reduxit et ad
@@ -5152,7 +5156,7 @@
                                 Pompeius praesidium habebat, tertio die <del>Macedoniam</del> ad
                                 Pompeium pervenit iuxtaque eum castra posuit et postridie eductis
                                 omnibus copiis acie instructa decernendi potestatem Pompeio fecit.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="2">
                             <p>ubi illum suis locis se tenere animum advertit, reducto in castra
@@ -5163,7 +5167,7 @@
                                 omnibus copiis magno circuitu difficili angustoque itinere
                                 Dyrrachium profectus est sperans Pompeium aut Dyrrachium compelli
                                 aut ab eo intercludi posse, quod omnem commeatum totiusque belli
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="4">
                             <p>adparatum eo contulisset: ut accidit. Pompeius enim primo ignorans
@@ -5281,7 +5285,7 @@
                         <div type="textpart" subtype="section" n="2">
                             <p>in his cum legio Caesaris nona praesidium quoddam occupavisset et
                                 munire coepisset, huic loco propinquum et contrarium collem Pompeius
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="3">
                             <p>occupavit nostrosque opere prohibere coepit, et cum una ex parte
@@ -5311,7 +5315,7 @@
                             <p>Caesar receptui suorum timens crates ad extremum tumulum contra
                                 hostem proferri et adversas locari, intra has mediocri latitudine
                                 fossam tectis militibus obduci iussit, locumque in omnis partes quam
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="2">
                             <p>maxime impediri. ipse idoneis locis funditores instruxit, ut
@@ -5353,7 +5357,7 @@
                                 infirmos hostes adorti aut proelio superatos aut aliqua offensione
                                 permotos continuerunt, cum ipsi numero equitum militumque
                                 praestarent; causa autem obsidionis haec fere esse consuevit, ut
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="3">
                             <p>frumento hostes prohiberent. at tum integras atque incolumes copias
@@ -5479,7 +5483,7 @@
                         <div type="textpart" subtype="section" n="1">
                             <p>Eodem tempore duobus praeterea locis pugnatum est; nam plura castella
                                 Pompeius pariter distinendae manus causa temptaverat, ne ex proximis
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="2">
                             <p>praesidiis succurri posset. uno loco Volcacius Tullus impetum
@@ -5635,7 +5639,7 @@
                                 fratres, Roucillus et Aecus, Adbucilli filii, qui principatum in
                                 civitate multis annis obtinuerat, singulari virtute homines, quorum
                                 opera Caesar omnibus Gallicis bellis optima fortissimaque erat usus.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="2">
                             <p>his domi ob has causas amplissimos magistratus mandaverat atque eos
@@ -5760,7 +5764,7 @@
                         <div type="textpart" subtype="section" n="5">
                             <p>contingeret, nondum perfecerat. quae res nota erat Pompeio, delata
                                 per Allobroges perfugas, magnumque nostris attulerat incommodum.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="6">
                             <p>nam ut ad mare nostrae cohortes nonae legionis excubuerant, accessere
@@ -5805,7 +5809,7 @@
                         <div type="textpart" subtype="section" n="4">
                             <p>incolumemque ad eum deferte.' hoc casu aquila conservatur omnibus
                                 primae cohortis centurionibus interfectis praeter principem priorem.
-                           </p>
+                            </p>
                         </div>
                     </div>
                     <div type="textpart" subtype="chapter" n="65">
@@ -6016,7 +6020,7 @@
                                 vel culpa tribuni in exercitu esset offensum. sed proinde ac si
                                 virtute vicissent neque ulla commutatio rerum posset accidere, per
                                 orbem terrarum fama ac litteris victoriam eius diei concelebrabant.
-                           </p>
+                            </p>
                         </div>
                     </div>
                     <div type="textpart" subtype="chapter" n="73">
@@ -6356,7 +6360,7 @@
                                 spatio temporis a Dyrrachinis proeliis intermisso, quo satis
                                 perspectum habere militum animum videretur, temptandum existimavit,
                                 quidnam Pompeius propositi aut voluntatis ad dimicandum haberet.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="2">
                             <p>itaque exercitum ex castris eduxit aciemque instruxit, primum suis
@@ -6377,7 +6381,7 @@
                             <p>his erat rebus effectum, ut equitum mille etiam apertioribus locis
                                     <num>vii</num> milium Pompeianorum inpetum, cum adesset usus,
                                 sustinere auderent, neque magnopere eorum multitudine terrerentur.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="5">
                             <p>namque etiam per eos dies proelium secundum equestre fecit atque unum
@@ -6440,7 +6444,7 @@
                             <p>est, cum tantum equitatu valeamus.' simul denuntiavit, ut essent
                                 animo parati in posterum, et quoniam fieret dimicandi potestas, ut
                                 saepe rogitavissent, ne suam neu reliquorum opinionem fallerent.
-                           </p>
+                            </p>
                         </div>
                     </div>
                     <div type="textpart" subtype="chapter" n="87">
@@ -6563,7 +6567,7 @@
                         <div type="textpart" subtype="section" n="1">
                             <p>Erat Crastinus evocatus in exercitu Caesaris, qui superiore anno apud
                                 eum primum pilum in legione <num>x</num>
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="2">
                             <p>duxerat, vir singulari virtute. hic signo dato 'sequimini me' inquit
@@ -6701,7 +6705,7 @@
                         <div type="textpart" subtype="section" n="3">
                             <p>castra a cohortibus, quae ibi praesidio erant relictae, industrie
                                 defendebantur, multo etiam acrius a Thracibus barbarisque auxiliis.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="4">
                             <p>nam qui acie refugerant milites, et animo perterriti et lassitudine
@@ -6793,7 +6797,7 @@
                         <div type="textpart" subtype="section" n="1">
                             <p>In eo proelio non amplius ducentos milites desideravit, sed
                                 centuriones fortes viros circiter <num>xxx</num>
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="2">
                             <p>amisit. interfectus est etiam fortissime pugnans Crastinus, cuius
@@ -6812,7 +6816,7 @@
                                 castellis fuerant, sese Sullae dediderunt – multi praeterea in
                                 finitimas civitates refugerunt, signaque militaria ex proelio ad
                                 Caesarem sunt relata <num>clxxx</num> et aquilae <num>viiii</num>.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="5">
                             <p>L. Domitius ex castris in montem refugiens, cum vires eum lassitudine
@@ -6952,7 +6956,7 @@
                         <div type="textpart" subtype="section" n="3">
                             <p>ad eum Pompeius misit, ut pro hospitio atque amicitia patris
                                 Alexandria reciperetur atque illius opibus in calamitate tegeretur.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="4">
                             <p>sed qui ab eo missi erant, confecto legationis officio liberius cum
@@ -7065,7 +7069,7 @@
                                 consulto societas erat facta, ostendit sibi placere regem Ptolomaeum
                                 atque eius sororem Cleopatram exercitus, quos haberent, dimittere et
                                 de controversiis iure apud se potius quam inter se armis disceptare.
-                           </p>
+                            </p>
                         </div>
                     </div>
                     <div type="textpart" subtype="chapter" n="108">
@@ -7132,7 +7136,7 @@
                                 ut in sua potestate haberet, Caesar effecit, magnam regium nomen
                                 apud suos auctoritatem habere existimans, et ut potius privato
                                 paucorum et latronum quam regio consilio susceptum bellum videretur.
-                           </p>
+                            </p>
                         </div>
                     </div>
                     <div type="textpart" subtype="chapter" n="110">
@@ -7188,7 +7192,7 @@
                                 ad Pompeium proelioque in Thessalia facto domum redierant,
                                 quadriremes omnes et quinqueremes aptae instructaeque omnibus rebus
                                 ad navigandum, praeter has <num>xxii</num>, quae praesidii causa
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="4">
                             <p>Alexandriae esse consueverant, constratae omnes. quas si
@@ -7229,7 +7233,7 @@
                         <div type="textpart" subtype="section" n="5">
                             <p>portum. hoc tum veritus Caesar hostibus in pugna occupatis
                                 militibusque expositis Pharon prehendit atque ibi praesidium posuit.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="6">
                             <p>quibus est rebus effectum, ut tuto frumentum auxiliaque navibus ad
@@ -7259,7 +7263,7 @@
                             <p>unaque bellum administrare coepit. sed celeriter est inter eos de
                                 principatu controversia orta, quae res apud milites largitiones
                                 auxit; magnis enim iacturis sibi quisque eorum animos conciliabat.
-                           </p>
+                            </p>
                         </div>
                         <div type="textpart" subtype="section" n="12">
                             <p>haec dum apud hostes geruntur, Pothinus, nutricius pueri et

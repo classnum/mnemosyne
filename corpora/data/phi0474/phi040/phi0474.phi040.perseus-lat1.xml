@@ -62,6 +62,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+            HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines
+            where needed adding letters to numbers in @n, fix Latin content in some bibl tags
+            erroneously in Greek, update EpiDoc schema metadata.</change>
          <change when="2016-11-20" who="Thibault Clérice">CapiTainS and Epidoc</change>
       </revisionDesc>
    </teiHeader>
@@ -228,7 +232,7 @@
                   popularis et disertis elegans doctrina defuit.</p>
                <p>
                   <milestone n="4" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="14" subtype="section">
                <p>
@@ -267,7 +271,7 @@
                         rend="italics">Schenkl</hi>: quidquamne <hi rend="italics">Bake</hi>
                   </note> sine multa earum ipsarum rerum disciplina aut dici aut intellegi. potest?
                      <milestone n="5" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="17" subtype="section">
                <p>
@@ -454,7 +458,7 @@
                   auferri?</p>
                <p>
                   <milestone n="9" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="28" subtype="section">
                <p>
@@ -569,7 +573,7 @@
                   errorem laus tibi dati muneris compensabit.</p>
                <p>
                   <milestone n="11" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="36" subtype="section">
                <p>
@@ -659,7 +663,7 @@
                   quodam modo bellicum; primisque ab his, ut ait Theophrastus, historia commota est,
                   ut auderet uberius quam superiores et ornatius dicere. <milestone n="13"
                      unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="40" subtype="section">
                <p>
@@ -720,7 +724,7 @@
                   </note> in aciem dimicationemque veniamus.</p>
                <p>
                   <milestone n="14" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="43" subtype="section">
                <p>
@@ -771,7 +775,7 @@
                   </note>, exercuit; idemque locos—sic enim appellat—quasi argumentorum notas
                   tradidit unde omnis in utramque partem traheretur oratio. <milestone n="15"
                      unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="47" subtype="section">
                <p>
@@ -807,7 +811,7 @@
                <p>quonam modo ille in bonis haerebit et habitabit suis aut molliet dura aut
                   occultabit quae dilui non poterunt atque omnino opprimet, si licebit, aut abducet
                   animos aut aliud adferet, quod oppositum probabilius sit quam illud quod obstabit?
-              </p>
+               </p>
             </div>
             <div type="textpart" n="50" subtype="section">
                <p>
@@ -825,7 +829,7 @@
                <pb n="p.2017"/>
                <p>
                   <milestone n="16" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="51" subtype="section">
                <p>
@@ -868,7 +872,7 @@
                   reperiuntur.</p>
                <p>
                   <milestone n="17" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="54" subtype="section">
                <p>
@@ -957,7 +961,7 @@
                   quibus agetur temperabunt.</p>
                <p>
                   <milestone n="19" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="61" subtype="section">
                <p>
@@ -1035,7 +1039,7 @@
                      definiunt<note>definiunt <hi rend="italics">L</hi>: finiuntur <hi
                         rend="italics">maluit Bake</hi>
                   </note>. <milestone n="20" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="66" subtype="section">
                <p>
@@ -1082,7 +1086,7 @@
                   est nobis qualis futurus sit.</p>
                <p>
                   <milestone n="21" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="69" subtype="section">
                <p>
@@ -1171,7 +1175,7 @@
                   forma dicendi esse tractandas.</p>
                <p>
                   <milestone n="23" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="75" subtype="section">
                <p>
@@ -1316,7 +1320,7 @@
                         >transtulit Schütz</hi>
                   </note> quaesitae venustates, ne elaborata concinnitas et quoddam aucupium
                   delectationis manifesto deprehensum appareat; <pb n="p.2027"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="85" subtype="section">
                <p>itemque si quae verborum iterationes contentionem aliquam et clamorem requirent,
@@ -1340,7 +1344,7 @@
                   quo sensu quidque pronuntient.</p>
                <p>
                   <milestone n="26" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="87" subtype="section">
                <p>
@@ -1350,7 +1354,7 @@
                   </note> quantum valent; quorum duo genera sunt, unum facetiarum, alterum
                   dicacitatis. Vtetur utroque; sed altero in narrando aliquid venuste, altero in
                   iaciendo mittendoque ridiculo, cuius genera plura sunt; sed nunc aliud agimus.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="88" subtype="section">
                <p>
@@ -1394,7 +1398,7 @@
                   </note> autem est vel plurimum. Est enim plenius quam hoc enucleatum, quam
                      autem<note>autem si <hi rend="italics">A</hi>
                   </note> illud ornatum copiosumque summissius. <milestone n="27" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="92" subtype="section">
                <p>
@@ -1472,7 +1476,7 @@
                   </note> qua loquor mediocritate consedit.</p>
                <p>
                   <milestone n="28" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="97" subtype="section">
                <p>
@@ -1598,7 +1602,7 @@
                   satis faciat ipse Demosthenes; qui quamquam unus eminet inter omnis in omni genere
                   dicendi, tamen non semper implet auris meas; ita sunt avidae et capaces et saepe
                   aliquid immensum infinitumque desiderant. <milestone n="30" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="105" subtype="section">
                <p>
@@ -1661,7 +1665,7 @@
                   </note> pro Habito, pro Cornelio compluresque aliae. Nemo enim orator tam multa ne
                   in Graeco quidem otio scripsit quam multa sunt nostra, eaque hanc ipsam habent
                   quam probo varietatem. <milestone n="31" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="109" subtype="section">
                <p>
@@ -1724,7 +1728,7 @@
                   tamen nomine divulgari necesse est.</p>
                <p>
                   <milestone n="32" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="113" subtype="section">
                <p>
@@ -1777,7 +1781,7 @@
                   orationis nitor.</p>
                <p>
                   <milestone n="33" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="116" subtype="section">
                <p>
@@ -1829,7 +1833,7 @@
                   explicari potest.</p>
                <p>
                   <milestone n="34" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="119" subtype="section">
                <p>
@@ -1879,7 +1883,7 @@
                   aliud in verbis, genus est quoddam ambigui quod ex praeterito verbo fieri solet,
                   in quo quod est ambiguorum proprium res duas significari videmus. <milestone
                      n="35" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="122" subtype="section">
                <p>
@@ -1955,7 +1959,7 @@
                   in universi generis quaestione pono, quam, ut supra dixi, Graeci appellant
                      <foreign xml:lang="grc">qe/sin</foreign>, alteram in augendis amplificandisque
                   rebus, quae ab isdem <foreign xml:lang="grc">au)/chsis</foreign> est nominata.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="126" subtype="section">
                <p>
@@ -1991,7 +1995,7 @@
                   vel minuendi locus, et paene infinite in perorando.</p>
                <p>
                   <milestone n="37" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="128" subtype="section">
                <p>
@@ -2033,7 +2037,7 @@
                   spiritu illo, propter quem maiora eadem illa cum aguntur<note>quae aguntur <hi
                         rend="italics">A</hi>
                   </note> quam cum leguntur videri solent. <milestone n="38" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="131" subtype="section">
                <p>
@@ -2076,7 +2080,7 @@
                   </note> quidem.</p>
                <p>
                   <milestone n="39" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="134" subtype="section">
                <p>
@@ -2141,7 +2145,7 @@
                   </note> omnis aut certe plerasque aliqua specie inluminare sententias: quas cum tu
                   optime, Brute, teneas, quid attinet nominibus uti aut exemplis? <reg>tantum</reg>
                   modo notetur locus. <milestone n="40" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="137" subtype="section">
                <p>
@@ -2246,7 +2250,7 @@
                   posse pulcherrimum est id non gloriosum est docere?</p>
                <p>
                   <milestone n="42" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="143" subtype="section">
                <p>'<reg>at</reg> alterum factitatum est, alterum novum.' <reg>fateor</reg>; sed
@@ -2350,7 +2354,7 @@
                   </del> litterae respondebunt. Sed ad institutam disputationem revertamur.</p>
                <p>
                   <milestone n="44" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="149" subtype="section">
                <p>
@@ -2374,7 +2378,7 @@
                         </note> ut tesserulae omnes</l>
                      <l>arte pavimento atque emblemate vermiculato!</l>
                   </quote>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="150" subtype="section">
                <p>
@@ -2405,7 +2409,7 @@
                   </note> concursio, quam magna ex parte ut vitiosam fugit Demosthenes.</p>
                <p>
                   <milestone n="45" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="152" subtype="section">
                <p>
@@ -2426,7 +2430,7 @@
                         <hi rend="italics">Seyffert</hi>
                   </note>: <quote rend="blockquote">hoc motu radiantis etesiae in vada
                      ponti.</quote>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="153" subtype="section">
                <p>
@@ -2465,7 +2469,7 @@
                   </note>.</p>
                <p>
                   <milestone n="46" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="155" subtype="section">
                <p>
@@ -2516,7 +2520,7 @@
                   </note> nummorum, quod in his consuetudo varia non est.</p>
                <p>
                   <milestone n="47" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="157" subtype="section">
                <p>
@@ -2605,7 +2609,7 @@
                   </note>, sustulit.</p>
                <p>
                   <milestone n="48" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="159" subtype="section">
                <p>
@@ -2722,7 +2726,7 @@
                      </note> arva Asiae<note>Asiae <hi rend="italics">A</hi>: Asia <hi
                            rend="italics">L</hi>
                      </note> tenet.</quote>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="164" subtype="section">
                <p>
@@ -2834,7 +2838,7 @@
                   sententiarum, quam non habent. <milestone n="51" unit="chapter"/>
                   <reg>post</reg> inventa conclusio est, qua credo usuros veteres illos fuisse, si
                   iam nota atque usurpata res esset; qua inventa omnis usos magnos oratores videmus.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="170" subtype="section">
                <p>
@@ -2914,7 +2918,7 @@
                   graviumque vocum iudicium ipsa natura in auribus nostris conlocavit.</p>
                <p>
                   <milestone n="52" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="174" subtype="section">
                <p>
@@ -2971,7 +2975,7 @@
                   </note>.</p>
                <p>
                   <milestone n="53" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="177" subtype="section">
                <p>
@@ -3065,7 +3069,7 @@
                   rei natura quaerenda sit.</p>
                <p>
                   <milestone n="55" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="183" subtype="section">
                <p>
@@ -3207,7 +3211,7 @@
                   numeros eosdemque esse oratorios qui sint poetici.</p>
                <p>
                   <milestone n="57" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="191" subtype="section">
                <p>
@@ -3266,7 +3270,7 @@
                         <hi rend="italics">Stangl</hi>: eis <hi rend="italics">Ernesti</hi>
                   </note> singulis modus insit aut sesqui lex aut duplex aut par. Itaque illi de
                   quibus ante dixi tantum modo commoditatis habuerunt rationem, nullam dignitatis.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="194" subtype="section">
                <p>
@@ -3352,7 +3356,7 @@
                   et ter- minata est, quod voluptate aurium iudicatur.</p>
                <p>
                   <milestone n="59" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="199" subtype="section">
                <p>
@@ -3419,7 +3423,7 @@
                   </note> sine arte definiunt.</p>
                <p>
                   <milestone n="61" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="204" subtype="section">
                <p>
@@ -3472,7 +3476,7 @@
                   numerumque sententias. Nam cum is est auditor qui non vereatur ne compositae
                   orationis insidiis sua fides attemptetur, gratiam quoque habet oratori voluptati
                   aurium servienti. <milestone n="62" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="209" subtype="section">
                <p>
@@ -3530,7 +3534,7 @@
                   </note> aut novum facere verbum aut a simili mutuari.</p>
                <p>
                   <milestone n="63" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="212" subtype="section">
                <p>
@@ -3637,7 +3641,7 @@
                   ut est hoc: Amicos tenes, quovis loco aptus est, dum semel ponatur: iteratus aut
                   continuatus numerum apertum et nimis insignem facit. <milestone n="65"
                      unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="219" subtype="section">
                <p>
@@ -3672,7 +3676,7 @@
                   dissipata et inculta et fluens est oratio.</p>
                <p>
                   <milestone n="66" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="221" subtype="section">
                <p>
@@ -3696,7 +3700,7 @@
                      plena comprehensio<note>E quattuor... comprehensio <hi rend="italics">damnat
                            Heerdegen, secl. Stangl</hi>
                      </note>.</del>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="222" subtype="section">
                <p>
@@ -3786,7 +3790,7 @@
                   dicemus.</p>
                <p>
                   <milestone n="68" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="227" subtype="section">
                <p>
@@ -3841,7 +3845,7 @@
                   secuti non tenuerunt simile faciamus, ne aut<note>ne aut <hi rend="italics"
                      >L</hi>: ut <hi rend="italics">Manutius</hi>
                   </note> verba traiciamus aperte, quo melius aut cadat aut volvatur oratio; quod se
-              </p>
+               </p>
             </div>
             <div type="textpart" n="230" subtype="section">
                <p>L. Caelius Antipater in prooemio belli Punici nisi necessario facturum negat. O
@@ -3881,7 +3885,7 @@
                   </note>. Nam de laudibus multa diximus, quibus sunt illa<note>illa <hi
                         rend="italics">codd. dett. Madvig</hi>: alia <hi rend="italics">AL</hi>
                   </note> perspicue vitia contraria. <milestone n="70" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="232" subtype="section">
                <p>

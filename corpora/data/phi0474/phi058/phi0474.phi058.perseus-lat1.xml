@@ -59,6 +59,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+            HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines
+            where needed adding letters to numbers in @n, fix Latin content in some bibl tags
+            erroneously in Greek, update EpiDoc schema metadata.</change>
          <change who="balmas01" when="2013-09-13">moving Greg's work-in-progress on CTS-izing
             greco-roman collection texts to a Work directory</change>
          <change who="gcrane" when="2013-06-08">TEI XML converted to facilitate CTS
@@ -106,7 +110,7 @@
                         esset, tamen tibi ego spem maturae decessionis adferebam, non solum ut quam
                         diutissime te iucunda opinione oblectarem sed etiam quia tanta adhibebatur
                         et a nobis et a praetoribus contentio ut rem posse confici non diffiderem.
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="2" subtype="section">
                      <p>
@@ -144,7 +148,7 @@
                         ratio possit et diligentia. <reg>quod</reg> si tibi bellum aliquod magnum et
                         periculosum administranti prorogatum imperium viderem, tremerem, animo quod
                         eodem tempore esse intellegerem etiam fortunae potestatem in nos prorogatam.
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="5" subtype="section">
                      <p>
@@ -166,7 +170,7 @@
                         publicani sunt nos summa necessitudine attingunt aut quod ita negotiantur ut
                         locupletes sint nostri consulatus beneficio se incolumis fortunas habere
                         arbitrantur. <milestone n="2" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="7" subtype="section">
                      <p>
@@ -193,7 +197,7 @@
                         triennium sic ut nullum te signum, nulla pictura, nullum vas, nulla vestis,
                         nullum mancipium, nulla forma cuiusquam, nulla condicio pecuniae, quibus
                         rebus abundat ista provincia, ab summa integritate continentiaque deduxerit.
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="9" subtype="section">
                      <p>
@@ -205,7 +209,7 @@
                         quocumque veneris et publice et privatim maximam laetitiam, cum urbs
                         custodem non tyrannum, domus hospitem non expilatorem recepisse videatur?
                            <milestone n="3" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="10" subtype="section">
                      <p>
@@ -235,18 +239,18 @@
                         tantum cuique committere <reg>atque</reg> inter hos eos, quos tibi comites
                         et adiutores negotiorum publicorum dedit ipsa res publica, dumtaxat finibus
                         iis praestabis quos ante praescripsi ; <milestone n="4" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="12" subtype="section">
-                     <p>quos vero aut ex domesticis convictionibus aut ex necessariis
-                        apparitionibus tecum esse voluisti, qui quasi ex cohorte praetoris appellari
-                        solent horum non modo facta sed etiam dicta omnia praestanda nobis sunt.
-                           <reg>sed</reg> habes eos tecum, quos possis recte facientis facile
-                        diligere, minus consulentis existimationi tuae facillime coercere A quibus,
-                        rudis cum esses, videtur potuisse tua liberalitas decipi ; nam ut quisque
-                        est vir optimus, ita difficillime esse alios improbos suspicatur ; nunc vero
-                        tertius hic annus habeat integritatem eandem quam superiores, cautiorem
-                        etiam ac diligentiorem.</p>
+                     <p>quos vero aut ex domesticis convictionibus aut ex necessariis apparitionibus
+                        tecum esse voluisti, qui quasi ex cohorte praetoris appellari solent horum
+                        non modo facta sed etiam dicta omnia praestanda nobis sunt. <reg>sed</reg>
+                        habes eos tecum, quos possis recte facientis facile diligere, minus
+                        consulentis existimationi tuae facillime coercere A quibus, rudis cum esses,
+                        videtur potuisse tua liberalitas decipi ; nam ut quisque est vir optimus,
+                        ita difficillime esse alios improbos suspicatur ; nunc vero tertius hic
+                        annus habeat integritatem eandem quam superiores, cautiorem etiam ac
+                        diligentiorem.</p>
                   </div>
                   <div type="textpart" n="13" subtype="section">
                      <p>
@@ -276,7 +280,7 @@
                         putem ; sed si quis est in quo iam offenderis, de quo aliquid senseris, huic
                         nihil credideris, nullam partem existimationis tuae commiseris. <milestone
                            n="5" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="15" subtype="section">
                      <p>
@@ -308,7 +312,7 @@
                         familiaritates eorum neque tam fideles sunt (non enim audent adversari
                         nostris voluntatibus) et invident non nostris solum verum etiam suis.
                            <milestone n="6" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="17" subtype="section">
                      <p>
@@ -349,7 +353,7 @@
                         aut Tusceni, hominis furiosi ac sordidi, vocibus, cuius tu ex impurissimis
                         faucibus inhonestissimam cupiditatem eripuisti summa cum aequitate
                            <milestone n="7" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="20" subtype="section">
                      <p>
@@ -363,7 +367,7 @@
                         maxime sustineri ; in qua scientiae praesertim provincialis ratio ipsa
                         expedita est, constantia est adhibenda et gravitas quae resistat non solum
                         gratiae verum etiam suspicioni. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="21" subtype="section">
                      <p>
@@ -389,7 +393,7 @@
                         moderati tum vero etiam doctrina atque optimarum artium studiis eruditi sic
                         se adhibere in tanta potestate ut nulla alia potestas ab iis quibus is
                         praesit desideretur. <milestone n="8" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="23" subtype="section">
                      <p>Cyrus ille a Xenophonte non ad historiae fidem scriptus sed ad effigiem
@@ -400,7 +404,7 @@
                         numquam fuit, quonam modo retinenda sunt iis quibus imperium ita datum est
                         ut redderent, et ab iis legibus datum est ad quas revertendum est?
                            <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="24" subtype="section">
                      <p>
@@ -431,7 +435,7 @@
                         acerbum esse, nihil crudele atque omnia plena clementiae, mansuetudinis,
                         humanitatis <milestone unit="para"/>
                         <milestone n="9" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="26" subtype="section">
                      <p>
@@ -475,7 +479,7 @@
                         generi praecipue debere videmur, ut quorum praeceptis sumus eruditi apud eos
                         ipsos quod ab iis didicerimus velimus expromere. <milestone unit="para"/>
                         <milestone n="10" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="29" subtype="section">
                      <p>
@@ -513,7 +517,7 @@
                         medeare incommodis hominum, provideas saluti, ut te parentem Asiae et dici
                         et haberi velis. <milestone unit="para"/>
                         <milestone n="11" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="32" subtype="section">
                      <p>
@@ -557,7 +561,7 @@
                         non teneretur. <reg>id</reg> autem imperium cum retineri sine vectigalibus
                         nullo modo possit, aequo animo parte aliqua suorum fructuum pacem sibi
                         sempiternam redimat atque otium. <milestone n="12" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="35" subtype="section">
                      <p>
@@ -572,7 +576,7 @@
                         tibi omnia debent hoc petas, ut facilitate sua nos eam necessitudinem quae
                         est nobis cum publicanis obtinere et conservare patiantur. <milestone
                            unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="36" subtype="section">
                      <p>
@@ -587,7 +591,7 @@
                         virtutis delectavit ; quamquam in his litteris longior fui quam aut vellem
                         aut quam me putavi fore. <milestone unit="para"/>
                         <milestone n="13" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="37" subtype="section">
                      <p>
@@ -635,7 +639,7 @@
                         summa levitas, quae tamen ut in malis acerbitati anteponenda est. <milestone
                            unit="para"/>
                         <milestone n="14" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="40" subtype="section">
                      <p>
@@ -669,16 +673,16 @@
                         vocesque referantur, contende, quaeso,atque elabora non modo ut his rebus
                         dignus fuisse sed etiam ut illa omnia tuis artibus superasse videare,
                            <milestone n="15" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="43" subtype="section">
-                     <p>et quoniam mihi casus urbanam in magistratibus administrationem rei
-                        publicae , tibi provincialem dedit, si mea pars nemini cedit, fac ut tua
-                        ceteros vincat. <reg>simul</reg> et illud cogita, nos non de reliqua et
-                        sperata gloria iam laborare sed de parta dimicare, quae quidem non tam
-                        expetenda nobis fuit quam tuenda est. <reg>ac</reg> si mihi quicquam esset
-                        abs te separatum, nihil amplius desiderarem hoc statu qui mihi iam partus
-                        est. <reg>nunc</reg> vero sic res sese habet ut , nisi omnia tua facta atque
+                     <p>et quoniam mihi casus urbanam in magistratibus administrationem rei publicae
+                        , tibi provincialem dedit, si mea pars nemini cedit, fac ut tua ceteros
+                        vincat. <reg>simul</reg> et illud cogita, nos non de reliqua et sperata
+                        gloria iam laborare sed de parta dimicare, quae quidem non tam expetenda
+                        nobis fuit quam tuenda est. <reg>ac</reg> si mihi quicquam esset abs te
+                        separatum, nihil amplius desiderarem hoc statu qui mihi iam partus est.
+                           <reg>nunc</reg> vero sic res sese habet ut , nisi omnia tua facta atque
                         dicta nostris rebus istinc respondeant, ego me tantis meis laboribus
                         tantisque periculis quorum tu omnium particeps fuisti nihil consecutum
                            <add>putem</add>. <reg>quod</reg> si ut amplissimum nomen consequeremur
@@ -695,7 +699,7 @@
                            <reg>sed</reg> ea est tibi communicanda mecum, prodenda liberis nostris ;
                         in qua cavendum est ne, si neglegentior fueris, tibi parum consuluisse sed
                         etiam tuis invidisse videaris. <milestone n="16" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="45" subtype="section">
                      <p>
@@ -767,7 +771,7 @@
                         sermonum eorum qui de te detrahere vellent Statium dedisse; antea tantum
                         intellegi potuisse, iratos tuae severitati esse non nullos, hoc manumisso
                         iratis quod loquerentur non defuisse. <milestone n="2" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="4" subtype="section">
                      <p>
@@ -834,7 +838,7 @@
                         noverint, quorum regum summo imperio nemo umquam verbum ullum asperius
                         audivit. <milestone unit="para"/>
                         <milestone n="3" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="8" subtype="section">
                      <p>
@@ -860,7 +864,7 @@
                         si sunt occupationibus tuis minus animadversa nunc perspice et purga.
                            <reg>legi</reg> epistulam, quam ipse scripsisse Sulla nomenclator dictus
                         est, non probandam, legi non nullas iracundas. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="10" subtype="section">
                      <p>
@@ -899,7 +903,7 @@
                         agat. <reg>hoc</reg> te ita rogo ut maiore studio rogare non possim.
                            <milestone unit="para"/>
                         <milestone n="4" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="12" subtype="section">
                      <p>
@@ -922,7 +926,7 @@
                         haberemus. <reg>quae</reg> ad te aliqua cum monitione aut obiurgatione
                         scripsi, scripsi propter diligentiam cautionis meae, in qua et maneo et
                         manebo et idem ut facias non desistam rogare. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="14" subtype="section">
                      <p>Attalus Hypaepenus mecum egit ut se ne impedires quo minus quod ad Q.
@@ -942,7 +946,7 @@
                         scelus et audaciam ut nihil ei gratius facere possis quam si illum per te
                         reci perarit. <milestone unit="para"/>
                         <milestone n="5" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="15" subtype="section">
                      <p>
@@ -1069,7 +1073,7 @@
                         beatissimus, dignitate, auctoritate, existimatione, gratia non inferior quam
                         qui umquam fuerunt amplissimi, is nunc in hac iam adflicta perditaque
                         fortuna neque me neque meos lugere diutius possim. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="7" subtype="section">
                      <p>
@@ -1103,7 +1107,7 @@
                         precor ut his infinitis nostris malis contenti sint ; in quibus non modo
                         tamen nullius inest peccati infamia sed omnis dolor est quod optime factis
                         poena maxima est constituta. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="10" subtype="section">
                      <p>
@@ -1263,7 +1267,7 @@
                         otio recogitasse. <reg>ego</reg> adhuc emi nihil. Culleonis auctio facta
                         est. Tusculano emptor nemo fuit. <reg>si</reg> condicio valde bona fuerit,
                         fortassis non amittam. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="2" subtype="section">
                      <p>
@@ -1273,7 +1277,7 @@
                         sunt <add>in</add> a. d. <date>xi K. Febr.</date>
                         <reg>te</reg> tamen sollicitum esse nolo ; omne genus a nobis cautionis
                         adhibebitur. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="3" subtype="section">
                      <p>
@@ -1290,7 +1294,7 @@
                         suppeditant contra Lentulum. Sine dubio res a Lentulo remota videtur esse
                         cum magno meo dolore, quamquam multa fecit qua re, si fas esset, iure ei
                         suscensere possemus. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="4" subtype="section">
                      <p>
@@ -1298,7 +1302,7 @@
                         conscendas ad meque venias ; innumerabiles enim res sunt in quibus te
                         cotidie in omni genere desiderem. <reg>tui</reg> nostrique valent.
                            x<date>iiii K. Februarias.</date>
-                    </p>
+                     </p>
                   </div>
                </div>
                <div type="textpart" n="3" subtype="letter">
@@ -1319,7 +1323,7 @@
                         publica interponendis nulla transacta est C. Cato legem promulgavit de
                         imperio Lentulo abrogando. <reg>vestitum</reg> filius mutavit. <milestone
                            unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="2" subtype="section">
                      <p>A. d. <date>viii Id. Febr.</date> Milo, adfuit. <reg>dixit</reg> Pompeius
@@ -1346,7 +1350,7 @@
                         Servilio filio) animos bonorum virorum offenderem. <reg>res</reg> in
                         posterum dilata est. Clodius in Quirinalia prodixit diem. <milestone
                            unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="3" subtype="section">
                      <p>A. d. <date>vii Id. Febr.</date> senatus ad Apollinis fuit, ut Pompeius
@@ -1373,7 +1377,7 @@
                         sumus superiores ipsius copiis ; sed magna manus ex Piceno et Gallia
                         exspectatur, ut etiam Catonis rogationibus de Milone et Lentulo resistamus.
                            <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="5" subtype="section">
                      <p>A. d. <date>iiii Idus Febr.</date> Sestius ab indice Cn. Nerio Pupinia de
@@ -1386,7 +1390,7 @@
                            <reg>eodem</reg> die senatus consultum factum est ut sodalitates
                         decuriatique discederent lexque de iis ferretur, ut qui non discessissent ea
                         poena quae est de vi tenerentur. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="6" subtype="section">
                      <p>A. d. <date>iii Idus Febr.</date> dixi pro Bestia de ambitu apud praetorem
@@ -1398,7 +1402,7 @@
                         crimina, et eum ornavi veris laudibus magno adsensu omnium. <reg>res</reg>
                         homini fuit vehementer grata. <reg>quae</reg> tibi eo scribo, quod me de
                         retinenda Sesti gratia litteris saepe monuisti. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="7" subtype="section">
                      <p>
@@ -1414,7 +1418,7 @@
                         et ut te oblectes scire cupio maximeque te ipsum videre quam primum.
                            <reg>cura</reg>, mi frater, ut valeas et, quamquam est hiems, tamen
                         Sardiniam istam esse cogites. <date>xv K. Martias.</date>
-                    </p>
+                     </p>
                   </div>
                </div>
                <div type="textpart" n="4" subtype="letter">
@@ -1448,7 +1452,7 @@
                         amantissima spero cum Crassipede nos confecisse. <reg>dies</reg> erant duo
                         qui post is Latinas habentur religiosi ; †cetero confectum erat Latiar
                         erat†. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="3" subtype="section">
                      <p>
@@ -1504,7 +1508,7 @@
                         Sevius adlisus est, ceteri conciduntur. C. Cato contionatus est comitia
                         haberi non siturum si sibi cum populo dies agendi essent exempti. Appius a
                         Caesare nondum redierat. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="7" subtype="section">
                      <p>
@@ -1535,7 +1539,7 @@
                         quidem M. Furium Flaccum, equitem Romanum, hominem nequam, Capitolini et
                         Mercuriales de conlegio eiecerunt praesentem ad pedes unius cuiusque
                         iacentem. <reg>exiturus</reg>
-                    </p>
+                     </p>
                      <p>
                         <milestone unit="para"/>
                         <note>VI 1-3</note> a. d. <date>viii Idus Aprilis</date> sponsalia
@@ -1545,7 +1549,7 @@
                         mecum sermonem habuit et perhumanum de dis cordus mulierum nostrarum.
                            <reg>quid</reg> quaeris? nihil festivius. Pomponia autem etiam de te
                         questa est ; sed haec coram agemus. A puero ut discessi, in aream tuam veni.
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="3" subtype="section">
                      <p>
@@ -1628,7 +1632,7 @@
                         Crasso locutus est. <reg>videntur</reg> negotium suscepisse. <reg>si</reg>
                         perficiunt, optime ; si minus, ad nostrum Iovem revertamur. <milestone
                            unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="3" subtype="section">
                      <p>A. d. <date>iii Idus Febr.</date> senatus consultum est factum de a ambitu
@@ -1853,7 +1857,7 @@
                         ex sententia successerit, bene erit opera posita, sin minus, in illud ipsum
                         mare deiciemus quod spectantes scribimus, adgrediemur alia, quoniam
                         quiescere non possumus. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="2" subtype="section">
                      <p>
@@ -1913,18 +1917,18 @@
                            <reg>sed</reg> quid ago,? quod mihi tempus Romae praesertim, ut iste me
                         rogat, manenti vacuum ostenditur? <reg>sed</reg> videro ; fortasse enim, ut
                         fit, vincet tuus amor omnis difficultates. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="3" subtype="section">
-                     <p>Trebatium quod ad se miserim persalse et humaniter a etiam gratias mihi
-                        agit ; negat enim in tanta multitudine eorum qui una essent quemquam fuisse
-                        qui vadimonium concipere posset. M. Curtio tribunatum ab eo petivi (nam
-                        Domitius se derideri putasset, si esset a me rogatus ; hoc enim est eius
-                        cotidianum, se ne tribunum militum quidem facere. <reg>etiam</reg> in senatu
-                        lusit Appium conlegam propterea isse ad Caesarem ut aliquem tribunatum
-                        auferret), sed in alterum annum. <reg>id</reg> et Curtius ita volebat.
-                           <milestone unit="para"/>
-                    </p>
+                     <p>Trebatium quod ad se miserim persalse et humaniter a etiam gratias mihi agit
+                        ; negat enim in tanta multitudine eorum qui una essent quemquam fuisse qui
+                        vadimonium concipere posset. M. Curtio tribunatum ab eo petivi (nam Domitius
+                        se derideri putasset, si esset a me rogatus ; hoc enim est eius cotidianum,
+                        se ne tribunum militum quidem facere. <reg>etiam</reg> in senatu lusit
+                        Appium conlegam propterea isse ad Caesarem ut aliquem tribunatum auferret),
+                        sed in alterum annum. <reg>id</reg> et Curtius ita volebat. <milestone
+                           unit="para"/>
+                     </p>
                   </div>
                   <div type="textpart" n="4" subtype="section">
                      <p>
@@ -1937,7 +1941,7 @@
                         quam nosmet ipsi. <quote xml:lang="grc"><l>τοιαῦτ' ὁ τλήμων πόλεμοσ
                               ἐξεργάζεται.</l>
                         </quote>
-                    </p>
+                     </p>
                   </div>
                </div>
                <div type="textpart" n="14" subtype="letter">
@@ -1954,7 +1958,7 @@
                         occupatus eram neque perturbatus nec iratus alicui, sed hoc facio semper ut,
                         quicumque calamus in manus meas venerit, eo sic utar tamquam bono.
                            <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="2" subtype="section">
                      <p>
@@ -2022,7 +2026,7 @@
                         ita erant progressi candidati consulares ut non esset ferendum, in senatu
                         non fui ; statui ad nullam medicinam rei publicae sine magno praesidio
                         accedere. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="3" subtype="section">
                      <p>
@@ -2034,7 +2038,7 @@
                            '<foreign xml:lang="grc">Συνδείπνουσ Σοφοκλέουσ</foreign>' quamquam a te
                         factam fabellam video esse '0 festive, nullo modo probavi. <milestone
                            unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="4" subtype="section">
                      <p>
@@ -2106,7 +2110,7 @@
                         spero paucis mensibus opus Diphili perfectum fore ; curat enim
                         diligentissime Caesius, qui tum mecum fuit. <milestone unit="para"/>
                         <milestone n="2" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="3" subtype="section">
                      <p>
@@ -2151,7 +2155,7 @@
                         hedera, qua basim villae, qua intercolumnia ambulationis, ut denique illi
                         palliati topiariam facere videantur et hederam vendere. <reg>iam</reg>
                         <foreign xml:lang="grc">ἀποδυτηρίῳ</foreign> nihil alsius, nihil muscosius.
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="6" subtype="section">
                      <p>
@@ -2160,7 +2164,7 @@
                         facile factu. <reg>quam</reg> ob rem ea te cura liberatum volo. <milestone
                            unit="para"/>
                         <milestone n="3" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="7" subtype="section">
                      <p>
@@ -2173,7 +2177,7 @@
                         Romae respirandi non est locus. <reg>id</reg> me scis antea gratis tibi esse
                         pollicitum, quid nunc putas tanta mihi abs te mercede proposita? <milestone
                            unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="8" subtype="section">
                      <p>
@@ -2216,7 +2220,7 @@
                         negotiis quae vis ad te Tironem scribere, neglegentius ad te ante scribebam
                         quod omnia minima maxima ad Caesarem mitti sciebam. <milestone unit="para"/>
                         <milestone n="4" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="11" subtype="section">
                      <p>
@@ -2232,7 +2236,7 @@
                         Plancio absolvi. <reg>poema</reg> ad Caesarem quod composueram incidi ; tibi
                         quod rogas, quoniam ipsi fontes iam sitiunt, si quid habebo spati, scribam.
                            <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="12" subtype="section">
                      <p>
@@ -2241,7 +2245,7 @@
                         pergratum perque iucundum. <reg>quod</reg> me in eadem epistula sicut saepe
                         antea cohortaris ad ambitionem et ad laborem, faciam equidem, sed quando
                         vivemus? <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="13" subtype="section">
                      <p>
@@ -2254,7 +2258,7 @@
                         maximum fuisse plausum. <reg>et</reg> prorsus ita fuit ; et tamen ille
                         plausus qui illi datur quodam modo nobis videtur dari. <milestone
                            unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="14" subtype="section">
                      <p>
@@ -2272,7 +2276,7 @@
                            <add>sic</add> suscipio, ut me putem praestare debere. <milestone
                            unit="para"/>
                         <milestone n="5" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="15" subtype="section">
                      <p>Gabinium tres adhuc factiones postulant, L. Lentulus, flaminis filius, qui
@@ -2319,7 +2323,7 @@
                         id iudicio facere ; iam enim debeo, sed tamen amore sum incensus. <milestone
                            unit="para"/>
                         <milestone n="6" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="19" subtype="section">
                      <p>Cum scripsissem haec infima quae sunt mea manu, venit ad nos Cicero tuus ad
@@ -2331,7 +2335,7 @@
                            <reg>nihil</reg> puero illo suavius, nihil nostri amantius.
                            <reg>hoc</reg> inter cenam Tironi dictavi, ne mirere alia manu esse.
                            <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="20" subtype="section">
                      <p>
@@ -2359,7 +2363,7 @@
                         multum. <reg>qua</reg> re, uti instituisti, complectere adulescentem.
                            <milestone unit="para"/>
                         <milestone n="7" unit="chapter"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="23" subtype="section">
                      <p>
@@ -2386,7 +2390,7 @@
                         cogito in secundum librum meorum temporum includere, dicentem Apollinem in
                         concilio deorum, qualis reditus duorum imperatorum futurus esset, quorum
                         alter exercitum perdidisset, alter vendidisset. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="25" subtype="section">
                      <p>
@@ -2435,7 +2439,7 @@
                         addo etiam malevolentiam hominum, et timeo ne illi me accusante aliquid
                         accidat, nec despero rem et sine me <add>et</add> non nihil per me confici
                         posse. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="3" subtype="section">
                      <p>
@@ -2477,7 +2481,7 @@
                         iam te rogo ut ad me de te, de rebus istis scribas (numquam enim, cum potes,
                         praetermittis), sed hoc te scire volo, nihil fere umquam me sic exspectasse
                         ut, cum haec scribebam, tuas litteras. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="2" subtype="section">
                      <p>
@@ -2500,7 +2504,7 @@
                            <reg>quid</reg> futurum sit nescio ; locum tamen illi in civitate non
                         video. <reg>animum</reg> praebeo ad illius perniciem moderatum, ad rerum
                         eventum lenissimum. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="4" subtype="section">
                      <p>
@@ -2565,7 +2569,7 @@
                         illud iucundum est quod, cum testimonium secundum fidem et religionem
                         gravissime dixissem, reus dixit, si in civitate licuisset sibi esse, mihi se
                         satis facturum, neque me quicquam interrogavit. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="4" subtype="section">
                      <p>
@@ -2575,7 +2579,7 @@
                         omnino sine cura venientis anni, etsi sumus sine timore. <reg>simul</reg> et
                         illud (sine ulla me hercule ironia loquor): <reg>tibi</reg> istius generis
                         in scribendo priores partis tribuo quam mihi. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="5" subtype="section">
                      <p>
@@ -2637,14 +2641,14 @@
                         loquar ipse tecum et tamen illa quae institueram ad te, si Romam venero,
                         mittam. <reg>puto</reg> enim te existimaturum a me illos libros non sine
                         aliquo meo stomacho esse relictos. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="3" subtype="section">
                      <p>Caesaris amore quem ad me perscripsit unice delector ; promissis iis quae
                         ostendit non valde pendeo. <reg>nec</reg> sitio honores nec desidero gloriam
                         magisque eius voluntatis perpetuitatem quam promissorum exitum exspecto ;
                         vivo tamen in ea ambitione et labore, quasi id quod non postulo exspectem.
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="4" subtype="section">
                      <p>
@@ -2668,7 +2672,7 @@
                         tamen nihil est eius modi ut ego me non multa consolatione cotidie leniam ;
                         sed illa erit consolatio maxima si una erimus. <reg>nunc</reg> ad illa vel
                         gravissimum accedit desiderium tui. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="5" subtype="section">
                      <p>Gabinium si, ut Pansa putat oportuisse, defendissem, concidissem.
@@ -2676,7 +2680,7 @@
                         oderunt, me ipsum odisse coepissent. <reg>tenui</reg> me, ut puto, egregie,
                         tantum ut facerem quantum omnes viderent; et in omni summa, ut mones, valde
                         me ad otium pacemque converto. <reg>de</reg> libris Tyrannio est cessator.
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="6" subtype="section">
                      <p>Chrysippo dicam ; sed res operosa est et hominis perdiligentis. Sentio ipse
@@ -2686,7 +2690,7 @@
                         scripsi, Romae est, et qui omnia †adiurat, debere tibi valde renuntiant†.
                            <reg>ab</reg> aerario puto confectum esse dum absum. <milestone
                            unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="7" subtype="section">
                      <p>
@@ -2716,7 +2720,7 @@
                               βίῃ εἰν ἀγορῇ σκολιὰσ κρίνωσι θέμιστας,</l>
                            <l>ἐκ δὲ δίκην ἐλάσωσι, θεῶν ὄπιν οὐκ ἀλέγοντες.</l>
                         </quote>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="2" subtype="section">
                      <p>
@@ -2761,7 +2765,7 @@
                         mittemus, Caesarisne tabellariis ut is ad te protinus mittat, an Labieni.
                         Vbi enim isti sint Nervii et quam longe absint nescio. <milestone
                            unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="3" subtype="section">
                      <p>
@@ -2792,7 +2796,7 @@
                      <p>Serrani <reg>domestici</reg> fili funus perluctuosum fuit a. d. <date>viii
                            K. Decembr.</date>
                         <reg>laudavit</reg> pater scripto meo. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="6" subtype="section">
                      <p>
@@ -2838,7 +2842,7 @@
                            <num>†cccↃ†</num> comparet. <reg>cuius</reg> in hoc uno inconsiderantiam
                         et ego sustinebo ut potero, et tu ut possis est tuorum nervorum. <milestone
                            unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="3" subtype="section">
                      <p>
@@ -2867,7 +2871,7 @@
                      <p>
                         <reg>de</reg> epistula Vatini risi ; sed me ab eo ita observari scio ut eius
                         ista odia non sorbeam solum sed etiam concoquam. <milestone unit="para"/>
-                    </p>
+                     </p>
                   </div>
                   <div type="textpart" n="6" subtype="section">
                      <p>

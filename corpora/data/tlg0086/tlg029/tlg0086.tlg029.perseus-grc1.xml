@@ -59,6 +59,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+            HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines
+            where needed adding letters to numbers in @n, fix Latin content in some bibl tags
+            erroneously in Greek, update EpiDoc schema metadata.</change>
          <change when="1993" who="wpm">Tagged in conformance with Prose.g dtd.</change>
          <change when="1993-08" who="wpm">Made the cardbreaks in Bk 3 same as english</change>
          <change when="2009-05-27" who="RS">
@@ -71,7 +75,7 @@
                reorganizing texts module by collection. created separate work directory in texts
                module to keep hopper files separate from in progress files Revision 1.4 2009/05/27
                15:55:14 rsingh04 added cvs log keyword</p>
-        </change>
+         </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -242,7 +246,7 @@
                   χρὴ γὰρ ἓν ἕκαστον ἐν τῇ αὑτοῦ χώρᾳ κεῖσθαι· οὕτω γὰρ ἂν ἕτοιμον ὂν οὐ
                   ζητοῖτο.</p>
                <milestone unit="Book" n="2"/>
-               <p></p>
+               <p/>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1345b2">
                <p>

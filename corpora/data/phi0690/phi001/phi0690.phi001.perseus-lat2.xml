@@ -63,6 +63,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+            HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines
+            where needed adding letters to numbers in @n, fix Latin content in some bibl tags
+            erroneously in Greek, update EpiDoc schema metadata.</change>
          <change when="2014-11-06" who="Thibault Clerice">Moving to Epidoc with new URN</change>
          <change when="2011-10-31" who="lcerrato">fixed typo at start of line 68 of ecl 1</change>
          <change when="2011-01-17" who="gcrane">base SDL files</change>

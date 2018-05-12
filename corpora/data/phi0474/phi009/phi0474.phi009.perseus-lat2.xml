@@ -86,6 +86,10 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc>
+			<change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS
+				via HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate
+				lines where needed adding letters to numbers in @n, fix Latin content in some bibl
+				tags erroneously in Greek, update EpiDoc schema metadata.</change>
 			<change when="2016-04-13" who="Lisa Cerrato">CTS and EpiDoc review; bumped URN; minor
 				edits</change>
 			<change when="2016-03-10" who="Zach Himes">Converted milestone sections to divs</change>
@@ -707,10 +711,10 @@
 						offensione L<note>L. <hi rend="italic">om. HE</hi></note>.</p>
 				</div>
 				<div type="textpart" subtype="section" n="26">
-					<p>Lucullus, qui tamen aliqua ex parte eis incommodis mederi fortasse
-						potuisset, vestro iussu coactus qui<note>qui <hi rend="italic">H</hi>: quod
-								<hi rend="italic">cett.</hi></note> imperi diuturnitati modum
-						statuendum vetere exemplo putavistis, partim militum qui iam stipendiis
+					<p>Lucullus, qui tamen aliqua ex parte eis incommodis mederi fortasse potuisset,
+						vestro iussu coactus qui<note>qui <hi rend="italic">H</hi>: quod <hi
+								rend="italic">cett.</hi></note> imperi diuturnitati modum statuendum
+						vetere exemplo putavistis, partim militum qui iam stipendiis
 							confectis<note>confectis <hi rend="italic">H, Naugerius</hi>: confecti
 								<hi rend="italic">cett.</hi></note> erant dimisit,
 							partim<note>partim... partim <hi rend="italic">Gulielmius</hi>:

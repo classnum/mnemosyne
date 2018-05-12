@@ -72,6 +72,10 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS
+                via HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate
+                lines where needed adding letters to numbers in @n, fix Latin content in some bibl
+                tags erroneously in Greek, update EpiDoc schema metadata.</change>
             <change who="Lisa Cerrato" when="2016-09-20">added missing info in header; reviewed
                 quotes</change>
             <change who="Gregory Crane" when="2016-09-19">reviewed and fixed quote tags</change>

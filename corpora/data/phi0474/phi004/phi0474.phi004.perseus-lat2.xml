@@ -93,6 +93,10 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc>
+			<change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS
+				via HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate
+				lines where needed adding letters to numbers in @n, fix Latin content in some bibl
+				tags erroneously in Greek, update EpiDoc schema metadata.</change>
 			<change when="2016-02-05" who="Lisa Cerrato">CTS structure</change>
 			<change when="2016-02-02" who="Lisa Cerrato">reorganized change log; added three letter
 				langs; revised refsDecl to make section canonical as chapter does not always contain
@@ -718,8 +722,8 @@
 						tam varias voce, memoria, consilio, ingenio sustinere?</p>
 				</div>
 				<div type="textpart" subtype="section" n="38">
-					<p>Putasne te posse<note>posse <hi rend="italic">codd. praeter b</hi> (te
-							posse) eius modi <hi rend="italic">Dp et pler.</hi>: huius modi <hi
+					<p>Putasne te posse<note>posse <hi rend="italic">codd. praeter b</hi> (te posse)
+							eius modi <hi rend="italic">Dp et pler.</hi>: huius modi <hi
 								rend="italic">G1, tres Lgg., ed. Rom.</hi> (i, §17)</note> quae C.
 						Verres in quaestura, quae in legatione, quae in praetura, quae Romae, quae
 						in Italia, quae in Achaia, Asia Pamphyliaque peccarit, ea, quem ad modum
@@ -731,7 +735,7 @@
 				</div>
 				<div type="textpart" subtype="section" n="39">
 					<p>Magna sunt ea quae dico, mihi crede; noli haec contemnere.
-							<reg>dicenda</reg>, demonstranda, explicanda sunt omnia, causa non solum
+						<reg>dicenda</reg>, demonstranda, explicanda sunt omnia, causa non solum
 						exponenda, sed etiam graviter copioseque agenda est; perficiendum est, si
 						quid agere aut proficere vis, ut homines te non solum audiant, verum etiam
 						libenter studioseque audiant. <reg>in</reg> quo si te multum natura
@@ -895,9 +899,9 @@
 					</p>
 				</div>
 				<div type="textpart" subtype="section" n="50">
-					<p>ex quibus alienissimis hominibus ita paratus venis ut tibi hospes aliquis
-						sit recipiendus. <reg>quibus</reg> ego non sum tantum honorem habiturus ut
-						ad ea quae dixerint certo loco aut singillatim uni cuique respondeam: sic
+					<p>ex quibus alienissimis hominibus ita paratus venis ut tibi hospes aliquis sit
+						recipiendus. <reg>quibus</reg> ego non sum tantum honorem habiturus ut ad ea
+						quae dixerint certo loco aut singillatim uni cuique respondeam: sic
 						breviter, quoniam non consulto sed casu in eorum mentionem incidi, quasi
 						praeteriens satis faciam universis. <milestone n="16" unit="chapter"
 							/><reg>tantane</reg> vobis inopia videor esse amicorum ut mihi non ex

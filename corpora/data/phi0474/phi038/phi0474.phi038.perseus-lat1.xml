@@ -62,6 +62,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+            HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines
+            where needed adding letters to numbers in @n, fix Latin content in some bibl tags
+            erroneously in Greek, update EpiDoc schema metadata.</change>
          <change when="2016-11-20" who="Thibault Clérice">CapiTainS and Epidoc</change>
       </revisionDesc>
    </teiHeader>
@@ -121,7 +125,7 @@
                   </note> animos duae, princi- <pb n="p.3003"/> pium et peroratio. C. Quid ?
                   Quaestio quasnam habet partis? P. Infinitam, quam consultationem appello, et
                   definitam, quam causam nomino. <milestone n="2" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="5" subtype="section">
                <p>C. Quoniam igitur invenire primum est oratoris, quid quaeret? P. Vt inveniat, quem
@@ -157,7 +161,7 @@
                   quibus inest aliquid argumenti; ut rerum contentiones, quid maius, quid par, quid
                   minus sit, in quibus aut naturae rerum aut facultates comparantur. <milestone
                      n="3" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="8" subtype="section">
                <p>C. Omnibusne igitur ex istis locis argumenta sumemus? P. Immo vero scrutabimur et
@@ -199,7 +203,7 @@
                   </note> maxime conferatur, proprium iam<note>iam <hi rend="italics">Stangl</hi>:
                      tamen <hi rend="italics">P</hi>
                   </note> habet ex eo nomen. <milestone n="4" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="11" subtype="section">
                <p>C. Quas res<note>res <hi rend="italics">om. P</hi>
@@ -241,7 +245,7 @@
                   </note> praeceptis, quae ad incitandos animos valent, et in reliqua oratione
                   paulum digrediens de cursu dicendi utitur et vehementius in perorando. Est enim
                   propositum, ut iratum efficiat iudicem. <milestone n="5" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="15" subtype="section">
                <p>C. Quid faciendum est contra reo? P. Omnia longe secus. Principia sumenda ad
@@ -260,7 +264,7 @@
                   sunt, coniunctio conlocanda est. Et simplicia verba partim nativa sunt partim
                   reperta. Nativa ea, quae significata sunt sensu; reperta, quae ex eis facta sunt
                   et novata aut similitudine aut imitatione aut inflexione aut adiunctione verborum.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="17" subtype="section">
                <p>
@@ -272,7 +276,7 @@
                   tamquam abutimur, aut ea quae obscuramus, quae incredibiliter tollimus, quaeque
                   admirabilius quam sermonis consuetudo patitur ornamus. <milestone n="6"
                      unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="18" subtype="section">
                <p>C. Habeo de simplicibus verbis, nunc de coniunctione quaero. P. Numeri quidam sunt
@@ -344,7 +348,7 @@
                   praecepta, quae orationem aut magis obscuram aut minus probabilem faciunt. Itaque
                   hoc etiam loco nobis est ipsis quid causa postulet iudicandum. <milestone n="7"
                      unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="23" subtype="section">
                <p>C. Reliquum est igitur ut dicas de conversa oratione atque mutata. P. Est
@@ -391,7 +395,7 @@
                   litteras conlocat.</p>
                <p>
                   <milestone n="8" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="27" subtype="section">
                <p>C. Quoniam igitur vis oratoris omnis exposita est, quid habes de orationis
@@ -445,7 +449,7 @@
                   poterunt ad principiorum praecepta transferri.</p>
                <p>
                   <milestone n="9" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="31" subtype="section">
                <p>C. Quid, in narratione quae tandem observanda sunt? P. Quoniam narratio est rerum
@@ -481,7 +485,7 @@
                   in controversiam venit, id aut sit necne sit aut quid sit aut quale sit quaeritur,
                   in primo coniectura valet, in altero definitio, in tertio ratio. C. Teneo istam
                   distributionem. Nunc coniecturae locos quaero. <milestone n="10" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="34" subtype="section">
                <p>P. In veri similibus<note>simillimis <hi rend="italics">P</hi>
@@ -511,7 +515,7 @@
                   salubres an pestilentes, opaci an aprici, et illa fortuita, culti an inculti,
                   celebres an deserti, coaedificati an vasti, obscuri an rerum gestarum vestigiis
                   nobilitati, consecrati an profani. <milestone n="11" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="37" subtype="section">
                <p>
@@ -565,7 +569,7 @@
                   commovet.</p>
                <p>
                   <milestone n="12" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="41" subtype="section">
                <p>C. Quid, definitionis quae ratio est et quae via? P. Non dubium est id quidem quin
@@ -618,7 +622,7 @@
                   si ingeniis hominum criminosorum sit exposita vita innocentium.</p>
                <p>
                   <milestone n="13" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="45" subtype="section">
                <p>C. Quoniam unde inveniuntur quae ad fidem pertinent <pb n="p.3014"/> habeo, quem
@@ -646,7 +650,7 @@
                   </note>, atque his confirmatis ad propositum sese rettulit atque conclusit. Illa
                   autem altera argumentatio quasi retro et contra prius sumit quae vult eaque
                   confirmat, deinde id quod proponendum fruit permotis animis iacit ad extremum.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="47" subtype="section">
                <p>
@@ -660,7 +664,7 @@
                   efficietur, si id apertum, non habebimus necesse semper concludere.</p>
                <p>
                   <milestone n="14" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="48" subtype="section">
                <p>C. Quid illa quae sine arte appellantur, quae iam<note>iam <hi rend="italics">om.
@@ -706,7 +710,7 @@
                   etiam aliter ab alio dicta, subtiliter reprehenduntur.</p>
                <p>
                   <milestone n="15" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="52" subtype="section">
                <p>C. Extrema tibi restat pars orationis quae posita in perorando est, de qua sane
@@ -741,7 +745,7 @@
                   et in actione causa erit ponderanda et pro re agendum. Nam haec quia videntur
                   perabsurda, cum graviora sunt quam causa fert, diligenter quid quamque deceat
                   iudicandum est. <milestone n="16" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="55" subtype="section">
                <p>
@@ -770,7 +774,7 @@
                   liberalitatem valent. Ex his et cohortationes sumuntur ad ea retinenda et in eos a
                   quibus ea violata sunt odia inci- tantur, et miseratio nascitur. <milestone n="17"
                      unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="57" subtype="section">
                <p>
@@ -818,7 +822,7 @@
                <pb n="p.3018"/>
                <p>
                   <milestone n="18" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="61" subtype="section">
                <p>C. Quoniam et de ipso oratore et de oratione dixisti, expone eum mihi nunc quem ex
@@ -862,7 +866,7 @@
                   quidque fiat, ut quonam pacto virtus pariatur, naturane an ratione an usu ? Cuius
                   generis omnes sunt in quibus, ut in obscuris natura- libusque quaestionibus,
                   causae rationesque rerum expli- cantur. <milestone n="19" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="65" subtype="section">
                <p>
@@ -898,7 +902,7 @@
                   quidem generi contrarium est disputandi genus ad eosdem illos animi motus, quod in
                   amplificanda oratione saepe faciendum est, vel gignendos vel concitandos.
                      <milestone n="20" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="68" subtype="section">
                <p>
@@ -972,7 +976,7 @@
                   oraculis sive quae videbuntur ei de quo agemus cecidisse divina atque fatalia.
                   Omnis enim exspectatio eius qui audit et admiratio et improvisi exitus habent
                   aliquam in audiendo voluptatem. <milestone n="22" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="74" subtype="section">
                <p>
@@ -1095,7 +1099,7 @@
                   rebus quae post mortem erunt consecutae.</p>
                <p>
                   <milestone n="24" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="83" subtype="section">
                <p>C. Accepi ista didicique breviter non solum quem ad modum laudarem alterum, sed
@@ -1151,7 +1155,7 @@
                         Norimb.</hi>
                   </note> honestate coniuncta, ut honos, ut gloria; alia diversa, ut vires forma
                   valetudo, ut nobilitas divitiae clientelae. <milestone n="25" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="88" subtype="section">
                <p>
@@ -1184,7 +1188,7 @@
                   immanissimus quisque acerrime sequitur neque solum honestis rebus sed etiam
                   necessariis anteponit, in suadendo, cum ei generi hominum consilium des, saepe
                   sane laudanda est. <milestone n="26" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="91" subtype="section">
                <p>
@@ -1235,7 +1239,7 @@
                   conficientes vocantur. Cum autem quaeritur quid sit optimum factu, aut utilitas
                   aut spes efficiendi ad adsentiendum impellit animos. <milestone n="27"
                      unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="95" subtype="section">
                <p>
@@ -1273,7 +1277,7 @@
                   simplex et gravis et sententiis debet ornatior esse quam verbis.</p>
                <p>
                   <milestone n="28" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="98" subtype="section">
                <p>C. Cognovi iam laudationis et suasionis locos. Nunc quae iudiciis accommodata sint
@@ -1316,7 +1320,7 @@
                   disceptantur cadunt in eam formam causa- rum, in qua quale quid sit ambigitur, de
                   qua dicturi sumus, quae in aequitate et in iure maxime consistit. <milestone
                      n="29" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="101" subtype="section">
                <p>
@@ -1367,7 +1371,7 @@
                   esset, quid defenderet non haberet; firma- mentun autem, quod contra ad
                   labefactandam rationed refertur, sine quo accusatio stare non posset. <milestone
                      n="30" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="104" subtype="section">
                <p>
@@ -1408,7 +1412,7 @@
                   controversiis oriuntur, quae sunt certis personis ac temporibus notatae, fiunt
                   rursus infinitae detractis personis et tempori- bus et rursum ad consultationum
                   formam rationemque revocantur. <milestone n="31" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="107" subtype="section">
                <p>
@@ -1442,7 +1446,7 @@
                   quamquam satis est ei qui videt quid in quoque loco lateat quique illos locos
                   tamquam thesauros aliquos argumentorum notatos habet tamen ea quae sunt certarum
                   causarum propria tangemus. <milestone n="32" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="110" subtype="section">
                <p>
@@ -1492,7 +1496,7 @@
                   </note> repentinus<note>reperitur <hi rend="italics">P codd dett.</hi>
                   </note> animi motus, qui etiam citius in fraudem quam ratio utilitatis impellit.
                   Quam ob rem haec sint dicta de causa. <milestone n="33" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="114" subtype="section">
                <p>C. Teneo et quaero qui<note>qui <hi rend="italics">codd.</hi>: si <hi
@@ -1524,7 +1528,7 @@
                   <reg>sequitur</reg> ille autem locus ad augendum, non esse exspectandum, dum
                   fateatur; argumentis peccata con- vinci; et hic etiam exempla ponentur. <milestone
                      n="34" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="117" subtype="section">
                <p>
@@ -1559,7 +1563,7 @@
                   dicenda. Tum facienda fides diligenter esse et sine cupiditate quaesitum dictaque
                   quaestionis argumentis et coniectura ponderanda. Atque haec accusationis fere
                   membra sunt. <milestone n="35" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="119" subtype="section">
                <p>
@@ -1617,7 +1621,7 @@
                   miseratione ad extremum.</p>
                <p>
                   <milestone n="36" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="123" subtype="section">
                <p>C. Scire mihi iam videor quem ad modum coniectura tractanda sit. Nunc de
@@ -1708,7 +1712,7 @@
                   invidia aut dignitas postulabit.</p>
                <p>
                   <milestone n="37" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="129" subtype="section">
                <p>C. Habeo ista; nunc ea quae, cum quale sit quippiam disceptatur, quaeri ex utraque
@@ -1748,7 +1752,7 @@
                   nisi praeterea tu quid requiris.</p>
                <p>
                   <milestone n="38" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="132" subtype="section">
                <p>C. Illud equidem<note>quidem <hi rend="italics">P</hi>
@@ -1806,7 +1810,7 @@
                   atque legis. Deinde amplificandi causa de conservandis legibus, de periculo
                   publicarum rerum atque privatarum cum aliis locis tum in perorando maxime graviter
                   erit vehementerque dicendum. <milestone n="39" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="136" subtype="section">
                <p>
@@ -1837,7 +1841,7 @@
                   modo de scripto sententiaque praecepimus, eadem huc omnia transferemus.</p>
                <p>
                   <milestone n="40" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="139" subtype="section">
                <p>

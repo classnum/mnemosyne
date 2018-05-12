@@ -49,6 +49,10 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc>
+			<change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS
+				via HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate
+				lines where needed adding letters to numbers in @n, fix Latin content in some bibl
+				tags erroneously in Greek, update EpiDoc schema metadata.</change>
 			<change when="2006" who="GRC">tagging</change>
 		</revisionDesc>
 	</teiHeader>
@@ -3430,14 +3434,13 @@
 							quoque uno? quod enim tempus, quo non innumerabiles nascantur?</p>
 					</div>
 					<div type="textpart" subtype="section" n="98">
-						<p>at certe similis nemo Homeri. <reg>et</reg>, si ad rem pertinet, quo
-							modo caelo affecto compositisque sideribus quodque animal oriatur,
-							valeat id necesse est etiam in rebus inanimis; quo quid dici potest
-							absurdius? L. quidem Tarutius Firmanus, familiaris noster, in primis
-							Chaldaicis rationibus eruditus, urbis etiam nostrae natalem diem
-							repetebat ab iis Parilibus, quibus eam a Romulo conditam accepimus,
-							Romamque, in iugo cum esset luna, natam esse dicebat, nec eius fata
-							canere dubitabat.</p>
+						<p>at certe similis nemo Homeri. <reg>et</reg>, si ad rem pertinet, quo modo
+							caelo affecto compositisque sideribus quodque animal oriatur, valeat id
+							necesse est etiam in rebus inanimis; quo quid dici potest absurdius? L.
+							quidem Tarutius Firmanus, familiaris noster, in primis Chaldaicis
+							rationibus eruditus, urbis etiam nostrae natalem diem repetebat ab iis
+							Parilibus, quibus eam a Romulo conditam accepimus, Romamque, in iugo cum
+							esset luna, natam esse dicebat, nec eius fata canere dubitabat.</p>
 					</div>
 					<div type="textpart" subtype="section" n="99">
 						<p>O vim maximam erroris! <reg>etiamne</reg> urbis natalis dies ad vim

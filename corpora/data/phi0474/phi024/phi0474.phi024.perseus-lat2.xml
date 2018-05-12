@@ -67,6 +67,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+            HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines
+            where needed adding letters to numbers in @n, fix Latin content in some bibl tags
+            erroneously in Greek, update EpiDoc schema metadata.</change>
          <change when="2014-11-06" who="Thibault Clerice">Moving to Epidoc with new URN</change>
          <change when="2015-10-29" who="Thibault Clerice">CTS according to Capitains Guidelines +
             Epidoc</change>
@@ -178,7 +182,7 @@
                      </hi>
                   </note> ignoscendum sed etiam acriter est resistendum. <milestone n="2"
                      unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="3">
                <p>
@@ -270,7 +274,7 @@
                   suorum. <reg>neque</reg> enim vobis satis commendata huius aetas esse posset, si
                   non modo parenti, tali viro, verum etiam municipio tam inlustri ac tam gravi
                   displiceret. <reg>equidem</reg>, <milestone n="3" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="6">
                <p>ut ad me revertar, ab his fontibus profluxi ad hominum famam, et meus hic forensis
@@ -349,7 +353,7 @@
                   </note> argumento male dicere? <reg>sed</reg> istarum partium culpa est eorum qui
                   te agere voluerunt; laus pudoris tui, quod ea te invitum dicere videbamus, ingeni,
                   quod ornate politeque dixisti. <milestone n="4" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="9">
                <p>
@@ -413,7 +417,7 @@
                   illi ne advocatus quidem venit umquam. <reg>deinceps</reg> fuit annus quo ego
                   consulatum petivi; petebat Catilina mecum. <reg>numquam</reg> ad illum accessit, a
                   me numquam recessit. <milestone n="5" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="11">
                <p>
@@ -467,7 +471,7 @@
                      </hi>: et <hi rend="italics">unus det.</hi>
                   </note> inter se pugnantibus naturae studiis cupiditatibusque conflatum.
                      <milestone n="6" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="13">
                <p>
@@ -531,7 +535,7 @@
                   errasse se, sicuti non numquam in eodem homine me quoque erroris mei paenitet,
                   quam ut istius<note>ipsius <foreign xml:lang="grc">ς</foreign>
                   </note> amicitiae crimen reformidet. <milestone n="7" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="15">
                <p>
@@ -636,7 +640,8 @@
                   <reg>quo</reg> loco possum dicere id quod vir clarissimus, <choice>
                      <abbr>M.</abbr>
                      <expan>M<ex>arcus</ex></expan>
-                  </choice> Crassus, cum de adventu regis Ptolemaei quereretur, paulo ante dixit:</p>
+                  </choice> Crassus, cum de adventu regis Ptolemaei quereretur, paulo ante
+                  dixit:</p>
                <p>Vtinam ne in nemore Pelio — <reg>ac</reg> longius mihi<note>mihi quidem <foreign
                         xml:lang="grc">ς</foreign>: quidem mihi <hi rend="italics">P<foreign
                            xml:lang="grc">πδ</foreign>
@@ -650,7 +655,7 @@
                      migrationemque huic <hi rend="italics">P<foreign xml:lang="grc">πδ</foreign>
                      </hi>: eamque migrationem huic <hi rend="italics">Kayser</hi>
                   </note> hanc adulescenti causam sive malorum omnium sive potius sermonum fuisse.
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="19">
                <p>
@@ -685,7 +690,7 @@
                            >ς</foreign>, <hi rend="italics">om. P<foreign xml:lang="grc"
                               >πδ</foreign>
                         </hi> (<hi rend="italics">cf. Mur.</hi> 57)</note>.</quote>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="20">
                <p>
@@ -761,7 +766,7 @@
                   </note>, nullo negotio flecti ac detorqueri potest. <reg>argumentis</reg> agemus,
                   signis luce omni clarioribus crimina refellemus; res cum re, causa cum causa,
                   ratio cum ratione pugnabit. <milestone n="10" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="23">
                <p>
@@ -791,7 +796,7 @@
                         >ς</foreign>: tuum maledictum <hi rend="italics">P</hi>
                      <foreign xml:lang="grc">πδ</foreign>
                   </note> qui istius facti non modo suspicione sed ne infamia quidem est aspersus?
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="24">
                <p>
@@ -842,7 +847,7 @@
                      <foreign xml:lang="grc">πδ</foreign>
                   </note>, ut aliquando, in quibus causa nititur, ad ea veniamus. <milestone n="11"
                      unit="chapter"/>
-              </p>
+               </p>
                <p>
                   <reg>animadverti</reg> enim, iudices, audiri a vobis meum familiarem, <choice>
                      <abbr>L.</abbr>
@@ -934,7 +939,7 @@
                      <foreign xml:lang="grc">πδ</foreign>
                   </note>, qui unguenta sumpserit, qui Baias viderit. <milestone n="12"
                      unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="28">
                <p>
@@ -1008,7 +1013,7 @@
                      <reg>atque</reg> ego idem qui haec postulo quin criminibus quae in hunc proprie
                   conferuntur diligentissime respondeam non recuso. <milestone n="13" unit="chapter"
                   />
-              </p>
+               </p>
                <p>
                   <reg>sunt</reg> autem duo crimina, auri et veneni; in quibus una atque eadem
                   persona versatur. <reg>aurum</reg> sumptum a Clodia, venenum quaesitum quod
@@ -1094,7 +1099,7 @@
                         rend="italics">om. Quintil.</hi>
                   </note> amicam omnium potius quam cuiusquam inimicam putaverunt. <milestone n="14"
                      unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="33">
                <p>
@@ -1162,7 +1167,7 @@
                   Pyrrhi diremi ut tu amorum turpissimorum cotidie foedera ferires, ideo aquam
                   adduxi ut ea tu inceste uterere, ideo viam munivi ut eam tu alienis viris comitata
                   celebrares?' <milestone n="15" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="35">
                <p>
@@ -1202,7 +1207,7 @@
                      <foreign xml:lang="grc">πδ</foreign>
                   </note> falsa esse doceas aut nihil neque crimini tuo neque testimonio credendum
                   esse fateare. <milestone n="16" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="36">
                <p>
@@ -1289,7 +1294,7 @@
                      <l>
                         <reg>mihi</reg> sat est qui aetatis quod relicuom est oblectem meae.</l>
                   </quote>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="38">
                <p>
@@ -1340,7 +1345,7 @@
                         <lem>quis</lem>
                      </app> qui <hi rend="italics">Quintil.</hi> viii. 4. 1</note> hanc paulo
                   liberius salutasset? <milestone n="17" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="39">
                <p>
@@ -1487,7 +1492,7 @@
                   multis postea virtutibus obtecta<note>obiecta <foreign xml:lang="grc">ς</foreign>
                   </note> adulescentiae qui vellet excusatione defenderet. <milestone n="19"
                      unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="44">
                <p>
@@ -1565,7 +1570,7 @@
                      discendi <hi rend="italics">bh</hi>
                      <foreign xml:lang="grc">ψ2</foreign>
                   </note> a studioque deterret, non quo aut ingenia deficiant aut doctrina puerilis.
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="47">
                <p>
@@ -1686,7 +1691,7 @@
                      se <foreign xml:lang="grc">ς</foreign>: <hi rend="italics">om. P</hi>
                      <foreign xml:lang="grc">πδ</foreign>
                   </note> defendendum facultatem dabit. <milestone n="21" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="51">
                <p>
@@ -1746,7 +1751,7 @@
                      <foreign xml:lang="grc">πδ</foreign>
                   </note>? <reg>huic</reg> facinori tanto tua mens liberalis conscia, tua domus
                   popularis ministra, tua denique hospitalis illa Venus adiutrix esse non debuit.
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="53">
                <p>
@@ -1763,7 +1768,7 @@
                      <hi rend="italics">h</hi>
                      <foreign xml:lang="grc">ψ</foreign>: rursus <hi rend="italics">cett.</hi>
                   </note> dicere, non dedisti. <milestone n="22" unit="chapter"/>
-              </p>
+               </p>
                <p>
                   <reg>quid</reg> ego nunc argumentis huic crimini, quae sunt innumerabilia,
                   resistam? <reg>possum</reg> dicere mores <choice>
@@ -1900,7 +1905,7 @@
                   auctoritas, ut res minime dubitanda in contentione ponatur, utrum temeraria,
                   procax, irata mulier finxisse crimen, an gravis sapiens moderatusque vir religiose
                   testimonium dixisse videatur. <milestone n="23" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="56">
                <p>
@@ -1999,7 +2004,7 @@
                         xml:lang="grc">ς</foreign>, <hi rend="italics">Madvig</hi>: ad eadem rem <hi
                         rend="italics">P</hi>1: ad rem <hi rend="italics">cett.</hi>
                   </note> ipsam parato; cuius perceleri interitu esse ab hoc comprobatum venenum.
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="59">
                <p>
@@ -2070,7 +2075,7 @@
                      <foreign xml:lang="grc">πδ</foreign>
                   </note> haec facta illius clarissimi ac fortissimi viri mentio et vocem meam fletu
                   debilitavit et mentem dolore impedivit. <milestone n="25" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="61">
                <p>
@@ -2103,7 +2108,7 @@
                      <foreign xml:lang="grc">πδ</foreign>
                   </note> suberat simultas, exstincta erat consuetudo, discidium exstiterat, hinc
                   illae lacrimae nimirum et haec causa est omnium horum scelerum atque criminum.
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="62">
                <p>'<reg>immo</reg>' inquit 'cum servi ad dominam rem totam<note>rem totam <foreign
@@ -2185,7 +2190,7 @@
                      <hi rend="italics">P</hi>1<foreign xml:lang="grc">ψ2</foreign>: ipsam <hi
                         rend="italics">cett.</hi>
                   </note> defendat! <milestone n="27" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="64">
                <p>
@@ -2250,7 +2255,7 @@
                            xml:lang="grc">πδ</foreign>
                      </hi>
                   </note> scabilla concrepant, aulaeum tollitur. <milestone n="28" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="66">
                <p>
@@ -2276,7 +2281,7 @@
                         rend="italics">T<foreign xml:lang="grc">ς</foreign>
                      </hi>
                   </note> non modo sine ullo timore sed etiam cum aliqua spe delectationis exspecto.
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="67">
                <p>
@@ -2322,7 +2327,7 @@
                   </note>, vigeant apud istam mulierem venustate, dominentur sumptibus, haereant,
                   iaceant, deserviant; capiti vero innocentis fortunisque parcant. <milestone n="29"
                      unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="68">
                <p>
@@ -2345,7 +2350,7 @@
                         <foreign xml:lang="grc">σψ</foreign>, <hi rend="italics">ed. R</hi>: tu (tu
                      || <hi rend="italics">P</hi>) rem te <hi rend="italics">cett.</hi>
                   </note> ad eos non ab aliis tibi adlatam sed a te ipsa compertam deferre diceres?
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="69">
                <p>
@@ -2398,7 +2403,7 @@
                            xml:lang="grc">πδ</foreign>
                      </hi>
                   </note> et delicias deposcitur. <milestone n="30" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="71">
                <p>
@@ -2506,7 +2511,7 @@
                      </app> viri et clarissimi viri et <foreign xml:lang="grc">ς</foreign>
                   </note> clarissimi cives exstiterunt industriam suam a populo Romano ex aliqua
                   inlustri accusatione cognosci. <milestone n="31" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="74">
                <p>
@@ -2600,7 +2605,7 @@
                         rend="italics">P2 in ras.</hi>: iam usus iam <hi rend="italics">Rau</hi>
                         (<hi rend="italics">cf. Mur.</hi> 65)</note> dies mitigarit. <milestone
                      n="32" unit="chapter"/>
-              </p>
+               </p>
                <p>
                   <reg>conservate</reg> igitur rei publicae, iudices, civem bonarum artium, bonarum
                   partium, bonorum virorum<note>
@@ -2679,7 +2684,7 @@
                            xml:lang="grc">πδ</foreign>
                      </hi>
                   </note> latronem eripuisse et honestissimum adulescentem oppressisse videatur.
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="79">
                <p>

@@ -66,6 +66,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+            HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines
+            where needed adding letters to numbers in @n, fix Latin content in some bibl tags
+            erroneously in Greek, update EpiDoc schema metadata.</change>
          <change when="2016-11-20" who="Thibault Clérice">CapiTainS and Epidoc</change>
       </revisionDesc>
    </teiHeader>
@@ -86,20 +90,19 @@
                      orationis facultate. Quam quidem ad rem nos, ut videmur, magnum attulimus
                      adiumentum hominibus nostris, ut non modo Graecarum litterarum rudes, sed etiam
                      docti aliquantum se arbitrentur adeptos et ad dicendum et ad iudicandum.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="2" subtype="section">
-                  <p>Quam ob rem disces tu quidem a principe huius aetatis philosophorum, et
-                     disces, quam diu voles; tam diu autem velle debebis, quoad te, quantum
-                     proficias, non paenitebit; sed tamen nostra legens non multum a Peripateticis
-                     dissidentia, quoniam utrique Socratici et Platonici volumus esse, de rebus
-                     ipsis utere tuo iudicio (nihil enim impedio), orationem autem Latinam <pb
-                        n="p.4"/> efficies profecto legendis nostris pleniorem. Nec vero hoc
-                     arroganter dictum existimari velim. Nam philosophandi scientiam concedens
-                     multis, quod est oratoris proprium, apte, distincte, ornate dicere, quoniam in
-                     eo studio aetatem consumpsi, si id mihi assumo, videor id meo iure quodam modo
-                     vindicare.</p>
-                  <p></p>
+                  <p>Quam ob rem disces tu quidem a principe huius aetatis philosophorum, et disces,
+                     quam diu voles; tam diu autem velle debebis, quoad te, quantum proficias, non
+                     paenitebit; sed tamen nostra legens non multum a Peripateticis dissidentia,
+                     quoniam utrique Socratici et Platonici volumus esse, de rebus ipsis utere tuo
+                     iudicio (nihil enim impedio), orationem autem Latinam <pb n="p.4"/> efficies
+                     profecto legendis nostris pleniorem. Nec vero hoc arroganter dictum existimari
+                     velim. Nam philosophandi scientiam concedens multis, quod est oratoris
+                     proprium, apte, distincte, ornate dicere, quoniam in eo studio aetatem
+                     consumpsi, si id mihi assumo, videor id meo iure quodam modo vindicare.</p>
+                  <p/>
                </div>
                <div type="textpart" n="3" subtype="section">
                   <p>Quam ob rem magnopere te hortor, mi Cicero, ut non solum orationes meas, sed
@@ -111,7 +114,7 @@
                      numero haberi potest, disputator subtilis, orator parum vehemens, dulcis tamen,
                      ut Theophrasti discipulum possis agnoscere. Nos autem quantum in utroque
                      profecerimus, aliorum sit iudicium, utrumque certe secuti sumus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="4" subtype="section">
                   <p>Equidem et Platonem existimo, si genus forense dicendi tractare voluisset,
@@ -129,7 +132,7 @@
                      neque publicis neque privatis neque forensibus neque domesticis in rebus, neque
                      si tecum agas quid, neque si cum altero contrahas, vacare officio potest, in
                      eoque et colendo sita vitae est honestas omnis et neglegendo turpitude.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="5" subtype="section">
                   <p>Atque haec quidem quaestio communis est omnium philosophorum; quis est enim,
@@ -141,7 +144,7 @@
                      colere possit nec iustitiam nec liberalitatem; fortis vero dolorem summum malum
                      iudicans aut temperans voluptatem summum bonum statuens esse certe nullo modo
                      potest.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="6" subtype="section">
                   <p>Quae quamquam ita sunt in promptu, ut res disputatione non egeat, tamen sunt a
@@ -156,7 +159,7 @@
                      quidem tempore et hac in quaestione potissimum Stoicos non ut interpretes, sed,
                      ut solemus, e fontibus eorum iudicio arbitrioque nostro, quantum quoque modo
                      videbitur, hauriemus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="7" subtype="section">
                   <p>Placet igitur, quoniam omnis disputatio de officio futura est, ante definire,
@@ -164,7 +167,7 @@
                         <del>a</del> ratione suscipitur de aliqua re institutio, debet a definitione
                      proficisci, ut intellegatur, quid sit id, de quo disputetur <gap
                         reason="omitted"/>
-                 </p>
+                  </p>
                   <p>
                      <milestone unit="chapter" n="3"/> Omnis de officio duplex est quaestio: unum
                      genus est, quod pertinet ad finem bonorum, alterum, quod positum est in
@@ -175,29 +178,29 @@
                      minus id apparet, quia magis ad institutionem vitae communis spectare videntur;
                         <pb n="p.10"/> de quibus est nobis his libris explicandum. Atque etiam alia
                      divisio est officii.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="8" subtype="section">
-                  <p>Nam et medium quoddam officium dicitur et perfectum. Perfectum officium
-                     rectum, opinor, vocemus, quoniam Graeci <foreign xml:lang="grc"
-                        >kato/rqwma,</foreign> hoc autem commune officium <foreign xml:lang="grc"
-                        >kaqh=kon</foreign> vocant. Atque ea sic definiunt, ut, rectum quod sit, id
-                     officium perfectum esse definiant; medium autem officium id esse dicunt, quod
-                     cur factum sit, ratio probabilis reddi possit.</p>
-                  <p></p>
+                  <p>Nam et medium quoddam officium dicitur et perfectum. Perfectum officium rectum,
+                     opinor, vocemus, quoniam Graeci <foreign xml:lang="grc">kato/rqwma,</foreign>
+                     hoc autem commune officium <foreign xml:lang="grc">kaqh=kon</foreign> vocant.
+                     Atque ea sic definiunt, ut, rectum quod sit, id officium perfectum esse
+                     definiant; medium autem officium id esse dicunt, quod cur factum sit, ratio
+                     probabilis reddi possit.</p>
+                  <p/>
                </div>
                <div type="textpart" n="9" subtype="section">
-                  <p>Triplex igitur est, ut Panaetio videtur, consilii capiendi deliberatio. Nam
-                     aut honestumne factu sit an turpe dubitant id, quod in deliberationem cadit; in
-                     quo considerando saepe animi in contraries sententias distrahuntur. Tum autem
-                     aut anquirunt aut consultant, ad vitae commoditatem iucunditatemque, ad
-                     facultates rerum atque copias, ad opes, ad potentiam, quibus et se possint
-                     iuvare et suos, conducat id necne, de quo deliberant; quae deliberatio omnis in
-                     rationem utilitatis cadit. Tertium dubitandi genus est, cum pugnare videtur cum
-                     honesto id, quod videtur esse utile; cum enim utilitas ad se rapere, honestas
-                     contra revocare ad se videtur, fit ut distrahatur in deliberando animus
-                     afferatque ancipitem curam cogitandi.</p>
-                  <p></p>
+                  <p>Triplex igitur est, ut Panaetio videtur, consilii capiendi deliberatio. Nam aut
+                     honestumne factu sit an turpe dubitant id, quod in deliberationem cadit; in quo
+                     considerando saepe animi in contraries sententias distrahuntur. Tum autem aut
+                     anquirunt aut consultant, ad vitae commoditatem iucunditatemque, ad facultates
+                     rerum atque copias, ad opes, ad potentiam, quibus et se possint iuvare et suos,
+                     conducat id necne, de quo deliberant; quae deliberatio omnis in rationem
+                     utilitatis cadit. Tertium dubitandi genus est, cum pugnare videtur cum honesto
+                     id, quod videtur esse utile; cum enim utilitas ad se rapere, honestas contra
+                     revocare ad se videtur, fit ut distrahatur in deliberando animus afferatque
+                     ancipitem curam cogitandi.</p>
+                  <p/>
                </div>
                <div type="textpart" n="10" subtype="section">
                   <p>Hac divisione, cum praeterire aliquid maximum vitium in dividendo sit, duo
@@ -207,7 +210,7 @@
                      rationem, in quinque partes distribui debere reperitur. Primum igitur est de
                      honesto, sed dupliciter, turn pari ratione de utili, post de comparatione eorum
                      disserendum.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="11" subtype="section">
                   <p>
@@ -223,7 +226,7 @@
                      earumque praegressus et quasi antecessiones non ignorat, similitudines comparat
                      rebusque praesentibus adiungit atque annectit futuras, facile totius vitae
                      cursum videt ad eamque degendam praeparat res necessarias.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="12" subtype="section">
                   <p>Eademque natura vi rationis hominem conciliat homini et ad orationis et ad
@@ -233,19 +236,19 @@
                      quae suppeditent ad cultum et ad victum, nec sibi soli, sed coniugi, liberis
                      ceterisque, quos caros habeat tuerique debeat; quae cura exsuscitat etiam
                      animos et maiores ad rem gerendam facit.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="13" subtype="section">
-                  <p>In primisque hominis est propria veri inquisitio atque investigatio. Itaque
-                     cum sumus necessariis negotiis curisque vacui, tum avemus aliquid videre,
-                     audire, addiscere cognitionemque rerum aut occultarum aut admirabilium ad beate
+                  <p>In primisque hominis est propria veri inquisitio atque investigatio. Itaque cum
+                     sumus necessariis negotiis curisque vacui, tum avemus aliquid videre, audire,
+                     addiscere cognitionemque rerum aut occultarum aut admirabilium ad beate
                      vivendum necessariam ducimus. Ex quo intellegitur, quod verum, simplex
                      sincerumque sit, id esse naturae hominis aptissimum. Huic veri videndi
                      cupiditati adiuncta est appetitio quaedam principatus, ut nemini parere animus
                      bene informatus a natura velit nisi praecipienti aut docenti aut utilitatis
                      causa iuste et legitime imperanti; ex quo magnitudo animi exsistit humanarumque
                      rerum contemptio.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="14" subtype="section">
                   <p>Nec vero illa parva vis naturae est rationisque. quod unum hoc animal sentit,
@@ -259,7 +262,7 @@
                   <p>Quibus ex rebus conflatur et efficitur id, quod quaerimus, honestum, quod
                      etiamsi nobilitatum non sit, tamen honestum sit, quodque vere dicimus, etiamsi
                      a nullo laudetur, natura esse laudabile.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="15" subtype="section">
                   <p>
@@ -283,7 +286,7 @@
                         n="p.18"/> quique acutissime et celerrime potest et videre et explicare
                      rationem, is prudentissimus et sapientissimus rite haberi solet. Quocirca huic
                      quasi materia, quam tractet et in qua versetur, subiecta est veritas.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="17" subtype="section">
                   <p>Reliquis autem tribus virtutibus necessitates propositae sunt ad eas res
@@ -294,7 +297,7 @@
                      his similia, versantur in eo genere, ad quod est adhibenda actio quaedam, non
                      solum mentis agitatio. Iis enim rebus, quae tractantur in vita, modum quendam
                      et ordinem adhibentes honestatem et decus conservabimus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="18" subtype="section">
                   <p>
@@ -321,7 +324,7 @@
                      consiliis capiendis de rebus honestis et pertinentibus ad bene beateque
                      vivendum aut in studiis scientiae cognitionisque versabitur.</p>
                   <p>Ac de primo quidem officii fonte diximus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="20" subtype="section">
                   <p>
@@ -332,7 +335,7 @@
                      benignitatem vel liberalitatem appellari licet.</p>
                   <p>Sed iustitiae primum munus est, ut ne cui quis noceat nisi lacessitus iniuria,
                      deinde ut communibus pro communibus utatur, privatis ut suis.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="21" subtype="section">
                   <p>Sunt autem privata nulla natura, sed aut vetere occupatione, ut qui quondam in
@@ -342,7 +345,7 @@
                      suum cuiusque fit eorum, quae natura fuerant communia, quod cuique obtigit, id
                      quisque teneat; e quo si quis sibi appetet, violabit ius humanae
                      societatis.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="22" subtype="section">
                   <p>Sed quoniam, ut praeclare scriptum est a Platone, non nobis solum nati sumus
@@ -352,7 +355,7 @@
                      naturam debemus ducem sequi, communes utilitates in medium afferre mutatione
                      officiorum, dando accipiendo, <pb n="p.24"/> tum artibus, tum opera, tum
                      facultatibus devincire hominum inter homines societatem.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="23" subtype="section">
                   <p>Fundamentum autem est iustitiae fides, id est dictorum conventorumque
@@ -364,7 +367,7 @@
                      impetum in quempiam facit aut ira aut aliqua perturbatione incitatus, is quasi
                      manus afferre videtur socio; qui autem non defendit nec obsistit, si potest,
                      iniuriae, tam est in vitio, quam si parentes aut amicos aut patriam deserat.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="24" subtype="section">
                   <p>Atque illae quidem iniuriae, quae nocendi causa de industria inferuntur, saepe
@@ -372,7 +375,7 @@
                      fecerit, ipse aliquo afficiatur incommodo. Maximam autem partem ad iniuriam
                      faciendam aggrediuntur, ut adipiscantur ea, quae concupiverunt; in quo vitio
                      latissime patet avaritia.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="25" subtype="section">
                   <p>
@@ -385,7 +388,7 @@
                      copia; quibus rebus effectum est, ut infinita pecuniae cupiditas esset. Nec
                      vero rei familiaris amplificatio nemini nocens vituperanda est, sed fugienda
                      semper iniuria est.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="26" subtype="section">
                   <p>Maxime autem adducuntur plerique, ut eos iustitiae capiat oblivio, cum in
@@ -401,7 +404,7 @@
                      animis splendidissimisque ingeniis plerumque exsistunt honoris, imperii,
                      potentiae, gloriae cupiditates. Quo magis cavendum est, ne quid in eo genere
                      peccetur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="27" subtype="section">
                   <p>Sed in omni iniustitia permultum interest, utrum <pb n="p.28"/> perturbatione
@@ -409,7 +412,7 @@
                      fiat iniuria. Leviora enim sunt ea, quae repentino aliquo motu accidunt, quam
                      ea, quae meditata et praeparata inferuntur.</p>
                   <p>Ac de inferenda quidem iniuria satis dictum est.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="28" subtype="section">
                   <p>
@@ -426,7 +429,7 @@
                      deserunt. Itaque eos ne ad rem publicam quidem accessuros putat nisi coactos.
                      Aequius autem erat id voluntate fieri; namhoc ipsum ita iustum est, quod recte
                      fit, si est voluntarium.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="29" subtype="section">
                   <p>Sunt etiam, qui aut studio rei familiaris tuendae aut odio quodam hominum suum
@@ -447,7 +450,7 @@
                      de illis ac de nobis iudicamus. Quocirca bene praecipiunt, qui vetant quicquam
                      agere, quod dubites aequum sit an iniquum. Aequitas enim lucet ipsa per se,
                      dubitatio cogitationem significat iniuriae.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="31" subtype="section">
                   <p>
@@ -474,7 +477,7 @@
                      esse quis non videt, quae coactus quis metu, <pb n="p.34"/> quae deceptus dolo
                      promiserit? quae quidem pleraque iure praetorio liberantur, non nulla
                      legibus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="33" subtype="section">
                   <p>Exsistunt etiam saepe iniuriae calumnia quadam et nimis callida, sed malitiosa
@@ -496,13 +499,13 @@
                      modus; atque haud scio an satis sit eum, qui lacessierit, iniuriae suae
                      paenitere, <pb n="p.36"/> ut et ipse ne quid tale posthac et ceteri sint ad
                      iniuriam tardiores.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="34" subtype="section">
-                  <p>Atque in re publica maxime conservanda sunt iura belli. Nam cum sint duo
-                     genera decertandi, unum per disceptationem, alterum per vim, cumque illud
-                     proprium sit hominis, hoc beluarum, confugiendum est ad posterius, si uti non
-                     licet superiore.</p>
+                  <p>Atque in re publica maxime conservanda sunt iura belli. Nam cum sint duo genera
+                     decertandi, unum per disceptationem, alterum per vim, cumque illud proprium sit
+                     hominis, hoc beluarum, confugiendum est ad posterius, si uti non licet
+                     superiore.</p>
                </div>
                <div type="textpart" n="35" subtype="section">
                   <p>Quare suscipienda quidem bella sunt ob earn causam, ut sine iniuria in pace
@@ -519,11 +522,11 @@
                      quo tantopere apud nostros iustitia culta est, ut ii, qui <pb n="p.38"/>
                      civitates aut nationes devictas bello in fidem recepissent, earum patroni
                      essent more maiorum.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="36" subtype="section">
-                  <p>Ac belli quidem aequitas sanctissime fetiali populi Romani iure perscripta
-                     est. Ex quo intellegi potest nullum bellum esse iustum, nisi quod aut rebus
+                  <p>Ac belli quidem aequitas sanctissime fetiali populi Romani iure perscripta est.
+                     Ex quo intellegi potest nullum bellum esse iustum, nisi quod aut rebus
                      repetitis geratur aut denuntiatum ante sit et indictum. <del>Popilius imperator
                         tenebat provinciam, in cuius exercitu Catonis filius tiro militabat. Cum
                         autem Popilio videretur unam dimittere legionem, Catonis quoque filium, qui
@@ -532,7 +535,7 @@
                         remanere, secundo eum obliget militiae sacramento, quia priore amisso iure
                         cum hostibus pugnare non poterat.Adeo summa erat observatio in bello
                         movendo.</del>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="37" subtype="section">
                   <p>M. quidem Catonis senis est epistula ad M. filium, in qua scribit se audisse
@@ -549,16 +552,16 @@
                      mansuetudinem addi potest, eum, quicum bellum geras, tam molli nomine
                      appellare? Quamquam id nomen durius effect iam vetustas; a peregrino enim
                      recessit et proprie in eo, qui arma contra ferret, remansit.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="38" subtype="section">
-                  <p>Cum vero de imperio decertatur belloque quaeritur gloria, causas omnino
-                     subesse tamen oportet easdem, quas dixi paulo ante iustas causas esse bellorum.
-                     Sed ea bella, quibus imperii proposita gloria est, minus acerbe gerenda sunt Ut
-                     enim cum civi aliter contendimus, si est inimicus, aliter, si competitor (cum
-                     altero certamen honoris et dignitatis est, cum altero capitis et famae), sic
-                     cum Celtiberis, cum Cimbris bellum ut cum inimicis gerebatur, uter esset, non
-                     uter imperaret, cum Latinis, Sabinis, Samnitibus, Poenis, Pyrrho de imperio
+                  <p>Cum vero de imperio decertatur belloque quaeritur gloria, causas omnino subesse
+                     tamen oportet easdem, quas dixi paulo ante iustas causas esse bellorum. Sed ea
+                     bella, quibus imperii proposita gloria est, minus acerbe gerenda sunt Ut enim
+                     cum civi aliter contendimus, si est inimicus, aliter, si competitor (cum altero
+                     certamen honoris et dignitatis est, cum altero capitis et famae), sic cum
+                     Celtiberis, cum Cimbris bellum ut cum inimicis gerebatur, uter esset, non uter
+                     imperaret, cum Latinis, Sabinis, Samnitibus, Poenis, Pyrrho de imperio
                      dimicabatur. Poeni foedifragi, crudelis Hannibal, reliqui iustiores. Pyrrhi
                      quidem de captivis reddendis illa praeclara: <quote rend="blockquote">
                         <l>Nec mi aurum posco nec mi pretium dederitis,</l>
@@ -571,9 +574,9 @@
                         <l>Eorundem libertati me parcere certum est.</l>
                         <l>Dono, ducite, doque volentibus cum magnis dis.</l>
                      </quote>
-                 </p>
+                  </p>
                   <p>Regalis sane et digna Aeacidarum genere sententia.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="39" subtype="section">
                   <p>
@@ -583,7 +586,7 @@
                      iurassetque se rediturum, primum, ut venit, captivos reddendos in senatu non
                      censuit, deinde, cum retineretur a propinquis et ab amicis, ad supplicium
                      redire maluit quam fidem hosti datam fallere.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="40" subtype="section">
                   <p>
@@ -596,15 +599,15 @@
                         egressus e castris iure iurando se solutum putabat, et erat verbis, re non
                         erat. Semper autem in fide quid senseris, non quid dixeris,
                         cogitandum.</del>
-                 </p>
+                  </p>
                   <p>
                      <del>Maximum autem exemplum est iustitiae in hostem a maioribus nostris
                         constitutum, cum a Pyrrho perfuga senatui est pollicitus se venenum regi
                         daturum et cum necaturum, senatus et C. Fabricius perfugam Pyrrho dedidit.
                         Ita ne hostis quidem et potentis et bellum ultro inferentis interitum cum
                         scelere approbavit.</del>
-                 </p>
-                  <p></p>
+                  </p>
+                  <p/>
                </div>
                <div type="textpart" n="41" subtype="section">
                   <p>Ac de bellicis quidem officiis satis dictum est.</p>
@@ -616,7 +619,7 @@
                      digna <pb n="p.46"/> maiore. Totius autem iniustitiae nulla capitalior quam
                      eorum, qui tum, cum maxime fallunt, id agunt, ut viri boni esse videantur.</p>
                   <p>De iustitia satis dictum.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="42" subtype="section">
                   <p>
@@ -630,7 +633,7 @@
                      benefici neque liberales, sed perniciosi assentatores iudicandi sunt, et qui
                      aliis nocent, ut in alios liberales sint, in eadem sunt iniustitia, ut si in
                      suam rem aliena convertant.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="43" subtype="section">
                   <p>Sunt autem multi, et quidem cupidi splendoris et gloriae, qui eripiunt aliis,
@@ -640,7 +643,7 @@
                      liberalitate utamur, quae prosit amicis, noceat nemini. Quare L. Sullae, C.
                      Caesaris pecuniarum translatio a iustis <pb n="p.48"/> dominis ad alienos non
                      debet liberalis videri; nihil est enim liberale, quod non idem iustum.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="44" subtype="section">
                   <p>Alter locus erat cautionis, ne benignitas maior esset quam facultates, quod,
@@ -652,15 +655,15 @@
                      quadam gloria ductos, ut benefici videantur, facere multa, quae proficisci ab
                      ostentatione magis quam a voluntate videantur. Talis autem sinulatio vanitati
                      est coniunctior quam aut liberalitati aut honestati.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="45" subtype="section">
-                  <p>Tertium est propositum, ut in beneficentia dilectus esset dignitatis; in quo
-                     et mores eius erunt spectandi, in quem beneficium conferetur, et animus erga
-                     nos et communitas ac societas vitae et ad nostras utilitates officia ante
-                     collata; quae ut concurrant omnia, optabile est; si minus, plures causae
-                     maioresque ponderis plus habebunt.</p>
-                  <p></p>
+                  <p>Tertium est propositum, ut in beneficentia dilectus esset dignitatis; in quo et
+                     mores eius erunt spectandi, in quem beneficium conferetur, et animus erga nos
+                     et communitas ac societas vitae et ad nostras utilitates officia ante collata;
+                     quae ut concurrant omnia, optabile est; si minus, plures causae maioresque
+                     ponderis plus habebunt.</p>
+                  <p/>
                </div>
                <div type="textpart" n="46" subtype="section">
                   <p>
@@ -674,7 +677,7 @@
                      ferventior plerumque est, illae virtutes bonum virum videntur potius
                      attingere.</p>
                   <p>Atque haec in moribus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="47" subtype="section">
                   <p>De benivolentia autem, quam quisque habeat erga nos, primum illud est in
@@ -683,17 +686,17 @@
                      constantia iudicemus. Sin erunt merita, ut non ineunda, sed referenda sit
                      gratia, maior quaedam cura adhibenda est; nullum enim officium referenda gratia
                      magis necessarium est.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="48" subtype="section">
-                  <p>Quodsi ea, quae utenda acceperis, maiore mensura, si modo possis, iubet
-                     reddere Hesiodus, quidnam beneficio provocati facere debemus? an imitari agros
+                  <p>Quodsi ea, quae utenda acceperis, maiore mensura, si modo possis, iubet reddere
+                     Hesiodus, quidnam beneficio provocati facere debemus? an imitari agros
                      fertiles, qui multo plus efferunt quam acceperunt? Etenim si in eos, quos
                      speramus nobis profuturos, non dubitamus officia conferre, quales in eos esse
                      debemus, qui iam profuerunt? Nam cum duo genera <pb n="p.52"/> liberalitatis
                      sint, unum dandi beneficii, alterum reddendi, demus necne, in nostra potestate
                      est, non reddere viro bono non licet, modo id facere possit sine iniuria.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="49" subtype="section">
                   <p>Acceptorum autem beneficiorum sunt dilectus habendi, nec dubium, quin maximo
@@ -706,7 +709,7 @@
                      maxime officii est, ut quisque maxime opis indigeat, ita ei potissimum
                      opitulari; quod contra fit a plerisque; a quo enim plurimum sperant, etiamsi
                      ille iis non eget, tamen ei potissimum inserviunt.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="50" subtype="section">
                   <p>
@@ -721,7 +724,7 @@
                      natura ferarum, in quibus inesse fortitudinem saepe dicimus, ut in equis, in
                      leonibus, iustitiam, aequitatem, bonitatem non dicimus; sunt enim rationis et
                      orationis expertes.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="51" subtype="section">
                   <p>Ac latissime quidem patens hominibus inter ipsos, omnibus inter omnes societas
@@ -745,7 +748,7 @@
                      singulorum sunt, eorum autem, qui his egeant, infinita est multitudo, vulgaris
                      liberalitas referenda est ad illum Ennii finem: <quote>Nihilo minus ipsi
                         lucet,</quote> ut facultas sit, qua in nostros simus liberales.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="53" subtype="section">
                   <p>
@@ -787,7 +790,7 @@
                   <p>Magna etiam illa communitas est, quae conficitur ex beneficiis ultro et citro
                      datis acceptis, quae et mutua et grata dum sunt, inter quos ea sunt, firma
                      devinciuntur societate.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="57" subtype="section">
                   <p>Sed cum omnia ratione animoque lustraris, omnium societatum nulla est gravior,
@@ -797,7 +800,7 @@
                      oppetere, si ei sit profuturus? Quo est detestabilior istorum immanitas, qui
                      lacerarunt omni scelere patriam et in ea funditus delenda occupati et sunt et
                      fuerunt.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="58" subtype="section">
                   <p>Sed si contentio quaedam et comparatio fiat, quibus plurimum tribuendum sit
@@ -809,7 +812,7 @@
                      vita autem victusque communis, consilia, sermones, cohortationes,
                      consolationes, interdum etiam obiurgationes in amicitiis vigent maxime, estque
                      ea iucundissima amicitia, quam similitudo morum coniugavit.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="59" subtype="section">
                   <p>
@@ -823,7 +826,7 @@
                      omni officio <del>et consuetudo exercitatioque capienda</del>, ut boni
                      ratiocinatores officiorum esse possimus et addendo deducendoque videre, quae
                      reliqui summa fiat, ex quo, quantum cuique debeatur, intellegas.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="60" subtype="section">
                   <p>Sed ut nec medici nec imperatores nec oratores, quamvis artis praecepta
@@ -832,7 +835,7 @@
                      ipsi, sed rei magnitude usum quoque exercitationemque desiderat.</p>
                   <p>Atque ab iis rebus, quae sunt in iure societatis humanae, quem ad modum ducatur
                      honestum, ex quo aptum est officium, satis fere diximus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="61" subtype="section">
                   <p>Intelligendum autem est, cum proposita sint genera quattuor, e quibus honestas
@@ -853,7 +856,7 @@
                      innumerabiles alii, maximeque ipse populus Romanus animi magnitudine excellit.
                      Declaratur autem studium bellicae gloriae, quod statuas quoque videmus ornatu
                      fere militari.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="62" subtype="section">
                   <p>
@@ -864,7 +867,7 @@
                      Stoicis fortitudo, cum eam virtutem esse dicunt propugnantem pro aequitate.
                      Quocirca nemo, qui fortitudinis gloriam consecutus est insidiis et malitia,
                      laudem est adeptus; nihil enim honestum esse potest, quod iustitia vacat.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="63" subtype="section">
                   <p>Praeclarum igitur illud Platonis: <quote>Non,</quote> inquit, <quote>solum
@@ -875,7 +878,7 @@
                      simplices, veritatis amicos minimeque fallaces esse volumus; quae sunt ex media
                      laude iustitiae.</p>
                   <pb n="p.66"/>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="64" subtype="section">
                   <p>Sed illud odiosum est, quod in hac elatione et magnitudine animi facillime
@@ -889,7 +892,7 @@
                      maximas consequantur et sint vi potius superiores quam iustitia pares. Sed quo
                      difficilius, hoc praeclarius; nullum enim est tempus, quod iustitia vacare
                      debeat.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="65" subtype="section">
                   <p>Fortes igitur et magnanimi sunt habendi, non qui faciunt, sed qui propulsant
@@ -901,7 +904,7 @@
                      quod vix invenitur, qui laboribus susceptis periculisque aditis non quasi
                      mercedem rerum gestarum desideret gloriam.</p>
                   <pb n="p.68"/>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="66" subtype="section">
                   <p>
@@ -913,7 +916,7 @@
                      ut supra dixi, res geras magnas illas quidem et maxime utiles, sed
                         <del>ut</del> vehementer arduas plenasque laborum et periculorum cum vitae,
                      tum multarum rerum, quae ad vitam pertinent.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="67" subtype="section">
                   <p>Harum rerum duarum splendor omnis, amplitudo, addo etiam utilitatem, in
@@ -925,7 +928,7 @@
                      fortis animi magnique ducendum est, et ea, quae videntur acerba, quae multa et
                      varia in hominum vita fortunaque versantur, ita ferre, ut nihil a statu naturae
                      discedas, nihil a dignitate sapientis, robusti animi est magnaeque constantiae.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="68" subtype="section">
                   <p>Non est autem consentaneum, qui metu non frangatur, eum frangi cupiditate nec,
@@ -937,7 +940,7 @@
                   <p>Cavenda etiam est gloriae cupiditas, ut supra dixi; eripit enim libertatem, pro
                      qua magnanimis viris omnis debet esse contentio. Nee vero imperia expetenda ac
                      potius aut non accipienda interdum aut deponenda non numquam.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="69" subtype="section">
                   <p>Vacandum autem omni est animi perturbatione, cum cupiditate et metu, tum etiam
@@ -960,7 +963,7 @@
                      tutior et minus aliis gravis aut molesta vita est otiosorum, fructuosior autem
                      hominum generi et ad claritatem amplitudinemque aptior eorum, qui se ad rem
                      publicam et ad magnas res gerendas accommodaverunt.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="71" subtype="section">
                   <p>Quapropter et iis forsitan concedendum sit rem publicam non capessentibus, qui
@@ -975,7 +978,7 @@
                      contrariis parum sibi constent, voluptatem severissime contemnant, in dolore
                      sint molliores, gloriam neglegant, frangantur infamia, atque ea quidem non
                      satis constanter.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="72" subtype="section">
                   <p>Sed iis, qui habent a natura adiumenta rerum gerendarum, abiecta omni
@@ -998,7 +1001,7 @@
                      considerandum est, ne aut temere desperet propter ignaviam aut nimis confidat
                      propter cupiditatem. In omnibus autem negotiis, prius quam aggrediare,
                      adhibenda est praeparatio diligens.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="74" subtype="section">
                   <p>
@@ -1008,7 +1011,7 @@
                      plerumque contingit, eoque magis, si sunt ad rem militarem apti et cupidi
                      bellorum <pb n="p.76"/> gerendorum; vere autem si volumus iudicare, multae res
                      exstiterunt urbanae maiores clarioresque quam bellicae.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="75" subtype="section">
                   <p>Quamvis enim Themistocles iure laudetur et sit eius nomen quam Solonis
@@ -1019,7 +1022,7 @@
                      Themistocles quidem nihil dixerit, in quo ipse Areopagum adiuverit, at ille
                      vere a se adiutum Themistoclem; est enim bellum gestum consilio senatus eius,
                      qui a Solone erat constitutus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="76" subtype="section">
                   <p>Licet eadem de Pausania Lysandroque dicere, quorum rebus gestis quamquam
@@ -1033,7 +1036,7 @@
                      Gracchum interemit; quamquam haec quidem res non solum ex domestica est ratione
                      (attingit etiam bellicam, quoniam vi manuque confecta est), sed tamen id ipsum
                      est gestum consilio urbano sine exercitu.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="77" subtype="section">
                   <p>Illud autem optimum est, in quod invadi solere ab improbis et invidis audio:
@@ -1055,7 +1058,7 @@
                      triumpharet, esset habiturus.</p>
                   <p>Sunt igitur domesticae fortitudines non inferiores <pb n="p.80"/> militaribus;
                      in quibus plus etiam quam in his operae studiique ponendum est.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="79" subtype="section">
                   <p>
@@ -1076,19 +1079,19 @@
                   <p>Fortis vero animi et constantis est non perturbari in rebus asperis nec
                      tumultuantem de gradu deici, ut dicitur, sed praesenti animo uti et consilio
                      nec a ratione discedere.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="81" subtype="section">
                   <p>Quamquam hoc animi, illud etiam ingenii magni est, praecipere cogitatione
                      futura et aliquanto ante <pb n="p.82"/> constituere, quid accidere possit in
                      utramque partem, et quid agendum sit, cum quid evenerit, nec committere, ut
                      aliquando dicendum sit: <quote>Non putaram.</quote>
-                 </p>
+                  </p>
                   <p>Haec sunt opera magni animi et excelsi et prudentia consilioque fidentis;
                      temere autem in acie versari et manu cum hoste confligere immane quiddam et
                      beluarum simile est; sed cum tempus necessitasque postulat, decertandum manu
                      est et mors servituti turpitudinique anteponenda.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="82" subtype="section">
                   <p>
@@ -1098,7 +1101,7 @@
                      recta atque honesta retinere. Ut enim sunt, quem ad modum supra dixi, qui
                      urbanis rebus bellicas anteponant, sic reperias multos, quibus periculosa et
                      calida consilia quietis et cogitatis splendidiora et maiora videantur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="83" subtype="section">
                   <p>Numquam omnino periculi fuga committendum est, ut imbelles timidique videamur,
@@ -1113,29 +1116,29 @@
                      rei publicae. Itemque alii de vita, alii de gloria et benivolentia civium in
                      discrimen vocantur. Promptiores igitur debemus esse ad nostra pericula quam ad
                      communia dimicareque paratius de honore et gloria quam de ceteris commodis.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="84" subtype="section">
-                  <p>Inventi autem multi sunt, qui non modo pecuniam, sed etiam vitam profundere
-                     pro patria parati essent, iidem gloriae iacturam ne minimam quidem facere
-                     vellent, ne re publica quidem postulante; ut Callicratidas, qui, cum
-                     Lacedaemoniorum dux fuisset Peloponnesiaco bello multaque fecisset egregie,
-                     vertit ad extremum omnia, cum consilio non paruit eorum, qui classem ab
-                     Arginusis removendam nec cum Atheniensibus dimicandum putabant; quibus ille
-                     respondit Lacedaemonios classe illa amissa aliam parare posse, se fugere sine
-                     suo dedecore non posse. Atque haec quidem Lacedaemoniis plaga mediocris, illa
-                     pestifera, qua, cum Cleombrotus invidiam timens temere cum Epaminonda
-                     conflixisset, Lacedaemoniorum opes corruerunt.</p>
+                  <p>Inventi autem multi sunt, qui non modo pecuniam, sed etiam vitam profundere pro
+                     patria parati essent, iidem gloriae iacturam ne minimam quidem facere vellent,
+                     ne re publica quidem postulante; ut Callicratidas, qui, cum Lacedaemoniorum dux
+                     fuisset Peloponnesiaco bello multaque fecisset egregie, vertit ad extremum
+                     omnia, cum consilio non paruit eorum, qui classem ab Arginusis removendam nec
+                     cum Atheniensibus dimicandum putabant; quibus ille respondit Lacedaemonios
+                     classe illa amissa aliam parare posse, se fugere sine suo dedecore non posse.
+                     Atque haec quidem Lacedaemoniis plaga mediocris, illa pestifera, qua, cum
+                     Cleombrotus invidiam timens temere cum Epaminonda conflixisset, Lacedaemoniorum
+                     opes corruerunt.</p>
                   <pb n="p.86"/>
                   <p>Quanto Q. Maximus melius! de quo Ennius: <quote rend="blockquote">
                         <l>Unus homo nobis cunctando restituit rem.</l>
                         <l>Noenum rumores ponebat ante salutem.</l>
                         <l>Ergo postque magisque viri nunc gloria claret.</l>
                      </quote>
-                 </p>
+                  </p>
                   <p>Quod genus peccandi vitandum est etiam in rebus urbanis. Sunt enim, qui, quod
                      sentiunt, etsi optimum sit, tamen invidiae metu non audeant dicere.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="85" subtype="section">
                   <p>
@@ -1148,7 +1151,7 @@
                      consulunt, partem neglegunt, rem perniciosissimam in civitatem inducunt,
                      seditionem atque discordiam; ex quo evenit, ut alii populares, alii studiosi
                      optimi cuiusque videantur, pauci universorum.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="86" subtype="section">
                   <p>Hinc apud Atheniensis magnae discordiae, in nostra re publica non solum
@@ -1159,21 +1162,21 @@
                      quemquam vocabit omninoque ita iustitiae honestatique adhaerescet, ut, dum ea
                      conservet, quamvis graviter offendat mortemque oppetat potius quam deserat
                      illa, quae dixi.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="87" subtype="section">
-                  <p>Miserrima omnino est ambitio honorumque contentio, de qua praeclare apud
-                     eundem est Platonem, <quote>similiter facere eos, qui inter se contenderent,
-                        uter potius rem publicam administraret, ut si nautae certarent, quis eorum
+                  <p>Miserrima omnino est ambitio honorumque contentio, de qua praeclare apud eundem
+                     est Platonem, <quote>similiter facere eos, qui inter se contenderent, uter
+                        potius rem publicam administraret, ut si nautae certarent, quis eorum
                         potissimum gubernaret.</quote> Idemque praecipit, ut <quote>eos adversaries
                         existimemus, qui arma contra ferant, non eos, qui suo iudicio tueri rem
                         publicam velint,</quote> qualis fuit inter P. Africanum et Q. Metellum sine
                      acerbitate dissensio.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="88" subtype="section">
-                  <p>Nec vero audiendi, qui graviter inimicis irascendum putabunt idque magnanimi
-                     et fortis viri esse censebunt; nihil enim laudabilius, nihil magno et praeclaro
+                  <p>Nec vero audiendi, qui graviter inimicis irascendum putabunt idque magnanimi et
+                     fortis viri esse censebunt; nihil enim laudabilius, nihil magno et praeclaro
                      viro dignius placabilitate atque clementia. In liberis vero populis et in iuris
                      aequabilitate exercenda <pb n="p.90"/> etiam est facilitas et altitudo animi,
                      quae dicitur, ne, si irascamur aut intempestive accedentibus aut impudenter
@@ -1182,7 +1185,7 @@
                      qua administrari civitas non potest. Omnis autem et animadversio et castigatio
                      contumelia vacare debet neque ad eius, qui punitur aliquem aut verbis castigat,
                      sed ad rei publicae utilitatem referri.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="89" subtype="section">
                   <p>Cavendum est etiam, ne maior poena quam culpa sit, et ne isdem de causis alii
@@ -1193,7 +1196,7 @@
                      vero omnibus in rebus repudianda est optandumque, ut ii, qui praesunt rei
                      publicae, legum similes sint, quae ad puniendum non iracundia, sed aequitate
                      dicuntur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="90" subtype="section">
                   <p>
@@ -1212,8 +1215,8 @@
                         sibique praefidentes tamquam in gyrum rationis et doctrinae duci oportere,
                         ut perspicerent rerum humanarum imbecillitatem varietatemque
                         fortunae.</quote>
-                 </p>
-                  <p></p>
+                  </p>
+                  <p/>
                </div>
                <div type="textpart" n="91" subtype="section">
                   <p>Atque etiam in secundissimis rebus maxime est utendum consilio amicorum iisque
@@ -1223,7 +1226,7 @@
                      quo nascuntur innumerabilia peccata, cum homines inflati opinionibus turpiter
                      irridentur et in maximis versantur erroribus.</p>
                   <p>Sed haec quidem hactenus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="92" subtype="section">
                   <p>Illud autem sic est iudicandum, maximas geri res et maximi animi ab iis, qui
@@ -1239,7 +1242,7 @@
                      potius luxuriaeque quam liberalitati et beneficentiae pareat.</p>
                   <p>Haec praescripta servantem licet magnifice, graviter animoseque vivere atque
                      etiam simpliciter, fideliter, ° vere hominum amice.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="93" subtype="section">
                   <p>
@@ -1262,7 +1265,7 @@
                      turpia, sic indecora.</p>
                   <p>Similis est ratio fortitudinis. Quod enim viriliter animoque magno fit, id
                      dignum viro et decorum videtur, quod contra, id ut turpe, sic indecorum.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="95" subtype="section">
                   <p>Quare pertinet quidem ad omnem honestatem hoc, quod dico, decorum, et ita
@@ -1272,18 +1275,17 @@
                      pulchritudo corporis secerni non potest a valetudine, sic hoc, de quo loquimur,
                      decorum totum illud quidem est cum virtute confusum, sed mente et cogitatione
                      distinguitur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="96" subtype="section">
-                  <p>Est autem eius discriptio duplex; nam et generale quoddam decorum
-                     intellegimus, quod in omni honestate versatur, et aliud huic subiectum, quod
-                     pertinet ad singulas partes honestatis. Atque illud superius sic fere definiri
-                     solet: decorum id esse, quod consentaneum sithominis excellentiae in eo, in quo
-                     natura eius a reliquis animantibus differat. Quae autem pars subiecta generi
-                     est, earn sic definiunt, ut id decorum velint esse, quod ita naturae
-                     consentaneum sit, ut in eo moderatio et temperantia appareat cum specie quadam
-                     liberali.</p>
-                  <p></p>
+                  <p>Est autem eius discriptio duplex; nam et generale quoddam decorum intellegimus,
+                     quod in omni honestate versatur, et aliud huic subiectum, quod pertinet ad
+                     singulas partes honestatis. Atque illud superius sic fere definiri solet:
+                     decorum id esse, quod consentaneum sithominis excellentiae in eo, in quo natura
+                     eius a reliquis animantibus differat. Quae autem pars subiecta generi est, earn
+                     sic definiunt, ut id decorum velint esse, quod ita naturae consentaneum sit, ut
+                     in eo moderatio et temperantia appareat cum specie quadam liberali.</p>
+                  <p/>
                </div>
                <div type="textpart" n="97" subtype="section">
                   <p>
@@ -1300,11 +1302,11 @@
                      dicente plausus excitantur; est enim digna persona oratio. Sed poëtae, quid
                      quemque deceat, ex persona iudicabunt; nobis autem personam imposuit ipsa
                      natura magna cum excellentia praestantiaque animantium reliquarum.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="98" subtype="section">
-                  <p>Quocirca poëtae in magna varietate personarum, etiam vitiosis quid conveniat
-                     et quid deceat, videbunt, nobis autem cum a natura constantiae, moderationis,
+                  <p>Quocirca poëtae in magna varietate personarum, etiam vitiosis quid conveniat et
+                     quid deceat, videbunt, nobis autem cum a natura constantiae, moderationis,
                      temperantiae, verecundiae partes datae sint, cumque eadem natura doceat non
                      neglegere, quem ad modum nos adversus homines geramus, efficitur, ut et illud,
                      quod ad omnem honestatem pertinet, decorum quam late fusum sit, appareat et
@@ -1313,7 +1315,7 @@
                      omnes partes cum quodam lepore consentiunt, sic hoc decorum, quod elucet in
                      vita, movet approbationem eorum, quibuscum vivitur, ordine et constantia et
                      moderatione dictorum omnium atque factorum.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="99" subtype="section">
                   <p>Adhibenda est igitur quaedam reverentia adversus homines et optimi cuiusque et
@@ -1323,7 +1325,7 @@
                      non violare homines, verecundiae non offendere; in quo maxime vis perspicitur
                      decori.</p>
                   <p>His igitur expositis, quale sit id, quod decere dicimus, intellectum puto.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="100" subtype="section">
                   <p>Officium autem, quod ab eo ducitur, hanc primum habet viam, quae deducit ad
@@ -1333,7 +1335,7 @@
                      maxima vis decori in hac inest parte, de qua disputamus; neque enim solum
                      corporis, qui ad naturam apti sunt, sed multo etiam magis animi motus probandi,
                      qui item ad naturam accommodati sunt.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="101" subtype="section">
                   <p>Duplex est enim vis animorum atque natura; una pars in appetitu posita est,
@@ -1344,7 +1346,7 @@
                      <milestone unit="chapter" n="29"/> Omnis autem actio vacare debet temeritate et
                      neglegentia nec vero agere quicquam, cuius non possit causam probabilem
                      reddere; haec est enim fere discriptio officii.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="102" subtype="section">
                   <p>Efficiendum autem est, ut appetitus rationi <pb n="p.104"/> oboediant eamque
@@ -1357,7 +1359,7 @@
                      perturbantur, sed etiam corpora. Licet ora ipsa cernere iratorum aut eorum, qui
                      aut libidine aliqua aut metu commoti sunt aut voluptate nimia gestiunt; quorum
                      omnium voltus, voces, motus statusque mutantur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="103" subtype="section">
                   <p>Ex quibus illud intellegitur, ut ad officii formam revertamur, appetitus omnes
@@ -1384,7 +1386,7 @@
                   <p>Ludendi etiam est quidam modus retinendus, ut ne nimis omnia profundamus
                      elatique voluptate in aliquam turpitudinem delabamur. Suppeditant autem et
                      campus noster et studia venandi honesta exempla ludendi.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="105" subtype="section">
                   <p>
@@ -1397,7 +1399,7 @@
                      homines non re, sed nomine), sed si quis est paulo <pb n="p.108"/> erectior,
                      quamvis voluptate capiatur, occultat et dissimulat appetitum voluptatis propter
                      verecundiam.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="106" subtype="section">
                   <p>Ex quo intellegitur corporis voluptatem non satis esse dignam hominis
@@ -1407,17 +1409,17 @@
                      voluptatem. Atque etiam si considerare volumus, quae sit in natura excellentia
                      et dignitas, intellegemus, quam sit turpe diffluere luxuria et delicate ac
                      molliter vivere quamque honestum parce, continenter, severe, sobrie.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="107" subtype="section">
-                  <p>Intellegendum etiam cst duabus quasi nos a natura indutos esse personis;
-                     quarum una communis est ex eo, quod omnes participes sumus rationis
-                     praestantiaeque eius, qua antecellimus bestiis, a qua omne honestum decorumque
-                     trahitur, et ex qua ratio inveniendi officii exquiritur, altera autem, quae
-                     proprie singulis est tributa. Ut enim in corporibus magnae dissimilitudines
-                     sunt (alios videmus velocitate ad cursum, alios viribus ad luctandum valere,
-                     itemque in formis aliis dignitatem inesse, aliis venustatem), sic in animis
-                     exsistunt maiores etiam varietates.</p>
+                  <p>Intellegendum etiam cst duabus quasi nos a natura indutos esse personis; quarum
+                     una communis est ex eo, quod omnes participes sumus rationis praestantiaeque
+                     eius, qua antecellimus bestiis, a qua omne honestum decorumque trahitur, et ex
+                     qua ratio inveniendi officii exquiritur, altera autem, quae proprie singulis
+                     est tributa. Ut enim in corporibus magnae dissimilitudines sunt (alios videmus
+                     velocitate ad cursum, alios viribus ad luctandum valere, itemque in formis
+                     aliis dignitatem inesse, aliis venustatem), sic in animis exsistunt maiores
+                     etiam varietates.</p>
                </div>
                <div type="textpart" n="108" subtype="section">
                   <p>Erat in L. Crasso, in L. Philippo multus lepos, maior etiam magisque de
@@ -1433,15 +1435,15 @@
                      anteponunt; in primisque versutum et callidum factum Solonis, qui, quo et
                      tutior eius vita esset et plus aliquanto rei publicae prodesset, furere se
                      simulavit.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="109" subtype="section">
-                  <p>Sunt his alii multum dispares, simplices et aperti. qui nihil ex occulto,
-                     nihil de insidiis agendum putant, veritatis cultores, fraudis inimici, itemque
-                     alii, qui quidvis perpetiantur, cuivis deserviant, dum, quod velint,
-                     consequantur, ut Sullam et M. Crassum videbamus. Quo in genere versutissimum et
-                     patientissimum Lacedaemonium Lysandrum accepimus, contraque Callicratidam, qui
-                     praefectus classis proximus post Lysandrum fuit; itemque in sermonibus alium
+                  <p>Sunt his alii multum dispares, simplices et aperti. qui nihil ex occulto, nihil
+                     de insidiis agendum putant, veritatis cultores, fraudis inimici, itemque alii,
+                     qui quidvis perpetiantur, cuivis deserviant, dum, quod velint, consequantur, ut
+                     Sullam et M. Crassum videbamus. Quo in genere versutissimum et patientissimum
+                     Lacedaemonium Lysandrum accepimus, contraque Callicratidam, qui praefectus
+                     classis proximus post Lysandrum fuit; itemque in sermonibus alium
                         <del>quemque</del>, quamvis praepotens sit, efficere, ut unus <pb n="p.112"
                      /> de multis esse videatur; quod in Catulo, et in patre et in filio, itemque in
                      Q. Mucio ° Mancia vidimus. Audivi ex maioribus natu hoc idem fuisse in P.
@@ -1451,7 +1453,7 @@
                      fuisse.</p>
                   <p>Innumerabiles aliae dissimilitudines sunt naturae morumque, minime tamen
                      vituperandorum.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="110" subtype="section">
                   <p>
@@ -1463,7 +1465,7 @@
                      metiamur; neque enim attinet naturae repugnare nec quicquam sequi, quod assequi
                      non queas. Ex quo magis emergit, quale sit decorum illud, ideo quia nihil decet
                      invita Minerva, ut aiunt, id est adversante et repugnante natura.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="111" subtype="section">
                   <p>Omnino si quicquam est decorum, nihil est profecto magis quam aequabilitas <hi
@@ -1482,7 +1484,7 @@
                      incredibilem tribuisset natura gravitatem eamque ipse perpetua constantia
                      roboravisset semperque in proposito susceptoque consilio permansisset,
                      moriendum potius quam tyranni vultus aspiciendus fuit.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="113" subtype="section">
                   <p>Quam multa passus est Ulixes in illo errore diuturno, cum et mulieribus, si
@@ -1494,7 +1496,7 @@
                   <p>Quae contemplantes expendere oportebit, quid <pb n="p.116"/> quisque habeat
                      sui, eaque moderari nee velle experiri, quam se aliena deceant; id enim maxime
                      quemque decet, quod est cuiusque maxime suum.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="114" subtype="section">
                   <p>
@@ -1510,7 +1512,7 @@
                      adhibenda erit cura, meditatio, diligentia, ut ea si non decore, at quam minime
                      indecore facere possimus; nec tam est enitendum, ut bona, quae nobis data non
                      sint, sequamur, quam ut vitia fugiamus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="115" subtype="section">
                   <p>
@@ -1522,7 +1524,7 @@
                      voluntate proficiscitur. Itaque se alii ad philosophiam, alii ad ius civile,
                      alii ad eloquentiam applicant, ipsarumque virtutum in alia alius mavult
                      excellere.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="116" subtype="section">
                   <p>Quorum vero patres aut maiores aliqua gloria praestiterunt, ii student
@@ -1534,7 +1536,7 @@
                      gloriam adiecit. Fit autem interdum, ut non nulli omissa imitatione maiorum
                      suum quoddam institutum consequantur, maximeque in eo plerumque elaborant ii,
                      qui magna sibi proponunt obscuris orti maioribus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="117" subtype="section">
                   <p>Haec igitur omnia, cum quaerimus, quid deceat, complecti animo et cogitatione
@@ -1544,7 +1546,7 @@
                      aetatis degendae constituit, quod maxime adamavit; itaque ante implicatur
                      aliquo <pb n="p.120"/> certo genere cursuque vivendi, quam potuit, quod optimum
                      esset, iudicare.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="118" subtype="section">
                   <p>Nam quodHerculem Prodicus dicit, ut est apud Xenophontem, cum primum
@@ -1558,7 +1560,7 @@
                      feruntur, quaeque maiori parti pulcherrima videntur, ea maxime exoptant; non
                      nulli tamen sive felicitate quadam sive bonitate naturae sine parentium
                      disciplina rectam vitae secuti sunt viam.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="119" subtype="section">
                   <p>
@@ -1571,7 +1573,7 @@
                      tota <pb n="p.122"/> vita constituenda multo est ei rei cura maior adhibenda,
                      ut constare in perpetuitate vitae possimus nobismet ipsis nec in ullo officio
                      claudicare.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="120" subtype="section">
                   <p>Ad hanc autem rationem quoniam maximam vim natura habet, fortuna proximam,
@@ -1600,7 +1602,7 @@
                      hereditas a patribus traditur liberis omnique patrimonio praestantior gloria
                      virtutis rerumque gestarum, cui dedecori esse nefas <del>et vitium</del>
                      iudicandum est.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="122" subtype="section">
                   <p>
@@ -1616,7 +1618,7 @@
                      intemperantiam, meminerint verecundiae, quod erit facilius, si <hi
                         rend="italics">ne</hi> in eius modi quidem rebus maiores natu nolent
                      interesse.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="123" subtype="section">
                   <p>Senibus autem labores corporis minuendi, exercitationes <pb n="p.126"/> animi
@@ -1626,7 +1628,7 @@
                      omni aetati turpis, tum senectuti foedissima est; sin autem etiam libidinum
                      intemperantia accessit, duplex malum est, quod et ipsa senectus dedecus
                      concipit et facit adulescentium impudentioren intemperantiarn.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="124" subtype="section">
                   <p>Ac ne illud quidem alienum est, de magistratuum, de privatorum, <del>de
@@ -1637,7 +1639,7 @@
                   <p>Privatum autem oportet aequo et pari cum civibus iure vivere neque summissum et
                      abiectum neque se efferentem, tum in re publica ea velle, quae tranquilla et
                      honesta sint; talem enim solemus et sentire bonum civem et dicere.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="125" subtype="section">
                   <p>Peregrini autem atque incolae officium est nihil praeter suurn negotium agere,
@@ -1645,7 +1647,7 @@
                   <p>Ita fere officia reperientur, cum quaeretur, quid deceat, et quid aptum sit
                      personis, temporibus, <pb n="p.128"/> aetatibus. Nihil est autem, quod tam
                      deceat, quam in omni re gerenda consilioque capiendo servare constantiam.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="126" subtype="section">
                   <p>
@@ -1669,7 +1671,7 @@
                      Itaque nec actio rerum illarum aperta petulantia vacat nec orationis
                      obscenitas.</p>
                   <pb n="p.130"/>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="128" subtype="section">
                   <p>Nec vero audiendi sunt Cynici, aut si qui filerunt Stoici paene Cynici, qui
@@ -1680,7 +1682,7 @@
                      verecundiam disputantur. Nos autem naturam sequamur et ab omni, quod abhorret
                      ab oculorum auriumque approbatione, fugiamus; status incessus, sessio
                      accubitio, vultus oculi manuum motus teneat illud decorum.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="129" subtype="section">
                   <p>Quibus in rebus duo maxime sunt fugienda, ne quid effeminatum aut molle et ne
@@ -1691,7 +1693,7 @@
                      aperiantur, aspiciantur non decore. Nostro quidem more cum parentibus puberes
                      filii, cum soceris generi non lavantur. Retinenda igitur est huius generis
                      verecundia, praesertim natura ipsa magistra et duce.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="130" subtype="section">
                   <p>
@@ -1706,7 +1708,7 @@
                      exquisita nimis, tantum quae fugiat agrestem et inhumanam neglegentiam. Eadem
                      ratio est habenda vestitus, in quo, sicut in plerisque rebus, mediocritas
                      optima est.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="131" subtype="section">
                   <p>Cavendum autem est, ne aut tarditatibus utamur</p>
@@ -1718,13 +1720,13 @@
                      ne animi motus a natura recedant; quod assequemur, si cavebimus, ne in
                      perturbationes atque exanimationes incidamus, et si attentos animos ad decoris
                      conservationem tenebimus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="132" subtype="section">
-                  <p>Motus autem animorum duplices sunt, alteri cogitationis, <pb n="p.134"/>
-                     alteri appetitus; cogitatio in vero exquirendo maxime versatur, appetitus
-                     impellit ad agendum. Curandum est igitur, ut cogitatione ad res quam optimas
-                     utamur, appetitum rationi oboedientem praebeamus.</p>
+                  <p>Motus autem animorum duplices sunt, alteri cogitationis, <pb n="p.134"/> alteri
+                     appetitus; cogitatio in vero exquirendo maxime versatur, appetitus impellit ad
+                     agendum. Curandum est igitur, ut cogitatione ad res quam optimas utamur,
+                     appetitum rationi oboedientem praebeamus.</p>
                   <p>
                      <milestone unit="chapter" n="37"/> Et quoniam magna vis orationis est, eaque
                      duplex, altera contentionis, altera sermonis, contentio disceptationibus
@@ -1734,7 +1736,7 @@
                      quoque esse. Sed discentium studiis inveniuntur magistri, huic autem qui
                      studeant, sunt nulli, rhetorum turba referta omnia; quamquam, quae verborum
                      sententiarumque praecepta sunt, eadem ad sermonem pertinebunt.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="133" subtype="section">
                   <p>Sed cum orationis indicem vocem habeamus, in voce autem duo sequamur, ut clara
@@ -1750,7 +1752,7 @@
                      sermone vinceret.</p>
                   <p>In omnibus igitur his elaborandum est, si in omni re quid deceat
                      exquirimus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="134" subtype="section">
                   <p>Sit ergo hic sermo, in quo Socratici maxime excellunt, lenis minimeque
@@ -1761,7 +1763,7 @@
                      provideat, ne sermo vitium aliquod indicet inesse in moribus; quod maxime tum
                      solet evenire, cum studiose de absentibus detrahendi causa aut per ridiculum
                      aut severe maledice contumelioseque dicitur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="135" subtype="section">
                   <p>Habentur autem plerumque sermones aut de domesticis negotiis aut de re publica
@@ -1770,7 +1772,7 @@
                      aderunt; neque enim isdem de rebus nec omni tempore nec similiter delectamur.
                      Animadvertendum est etiam, quatenus sermo delectationem habeat, et, ut
                      incipiendi ratio fuerit, ita sit desinendi modus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="136" subtype="section">
                   <p>
@@ -1786,7 +1788,7 @@
                      genus castigandi raro invitique veniemus nec umquam nisi necessario, si nulla
                      reperietur alia medicina; sed tamen ira procul absit,cum qua nihil recte fieri,
                      nihil considerate potest.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="137" subtype="section">
                   <p>Magnam autem partem clementi castigatione licet uti, gravitate tamen adiuncta,
@@ -1800,7 +1802,7 @@
                      iis, qui adsunt, probari.</p>
                   <p>Deforme etiam est de se ipsum praedicare falsa praesertim et cum irrisione
                      audientium imitari militem gloriosum.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="138" subtype="section">
                   <p>
@@ -1827,7 +1829,7 @@
                         <l>O domus ántiqua, heu quam dispari</l>
                         <l part="I">domináre domino!</l>
                      </quote> quod quidem his temporibus in multis licet dicere.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="140" subtype="section">
                   <p>Cavendum autem est, praesertim si ipse aedifices, ne extra modum sumptu et
@@ -1839,7 +1841,7 @@
                      est.</p>
                   <p>Sed haec hactenus.</p>
                   <pb n="p.144"/>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="141" subtype="section">
                   <p>In omni autem actione suscipienda tria sunt tenenda, primum ut appetitus
@@ -1850,7 +1852,7 @@
                      autem est optimus decus ipsum tenere, de quo ante diximus, nec progredi
                      longius. Horum tamen trium praestantissimum est appetitum optemperare
                      rationi.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="142" subtype="section">
                   <p>
@@ -1867,15 +1869,15 @@
                         <foreign xml:lang="grc">eu)kairi/a</foreign> Latine appellatur occasio. Sic
                      fit, ut modestia haec, quam ita interpretamur, ut <pb n="p.146"/> dixi,
                      scientia sit opportunitatis idoneorum ad agendum temporum.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="143" subtype="section">
-                  <p>Sed potest eadem esse prudentiae definitio, de qua principio diximus; hoc
-                     autem loco de moderatione et temperantia et harum similibus virtutibus
-                     quaerimus. Itaque, quae erant prudentiae propria, suo loco dicta sunt; quae
-                     autem harum virtutum, de quibus iam diu loquimur, quae pertinent ad verecundiam
-                     et ad eorum approbationem, quibuscum vivimus, nunc dicenda sunt.</p>
-                  <p></p>
+                  <p>Sed potest eadem esse prudentiae definitio, de qua principio diximus; hoc autem
+                     loco de moderatione et temperantia et harum similibus virtutibus quaerimus.
+                     Itaque, quae erant prudentiae propria, suo loco dicta sunt; quae autem harum
+                     virtutum, de quibus iam diu loquimur, quae pertinent ad verecundiam et ad eorum
+                     approbationem, quibuscum vivimus, nunc dicenda sunt.</p>
+                  <p/>
                </div>
                <div type="textpart" n="144" subtype="section">
                   <p>Talis est igitur ordo actionum adhibendus, ut, quem ad modum in oratione
@@ -1891,7 +1893,7 @@
                      secum ipse meditetur, aut si quid aliud attentius cogitet, non reprehendatur,
                      at <pb n="p.148"/> hoc idem si in convivio faciat, inhumanus videatur inscitia
                      temporis.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="145" subtype="section">
                   <p>Sed ea, quae multum ab humanitate discrepant, ut si qui in foro cantet, aut si
@@ -1901,7 +1903,7 @@
                      tibiis, quamvis paulum discrepent, tamen id a sciente animadverti solet, sic
                      videndum est in vita ne forte quid diserepet, vel multo etiam magis, quo maior
                      et melior actionum quam sonorum concentus est.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="146" subtype="section">
                   <p>
@@ -1917,7 +1919,7 @@
                      nobismet ipsis, si quid delinquitur. Itaque facillime corriguntur in discendo,
                      quorum vitia imitantur emendandi causa magistri.</p>
                   <pb n="p.150"/>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="147" subtype="section">
                   <p>Nec vero alienum est ad ea eligenda, quae dubitationem afferunt, adhibere
@@ -1929,27 +1931,26 @@
                      considerari vult, ut, si quid reprehensum sit a pluribus, id corrigatur, iique
                      et secum et ab aliis, quid in eo peccatum sit, exquirunt, sic aliorum iudicio
                      permulta nobis et facienda et non facienda et mutanda et corrigenda sunt.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="148" subtype="section">
-                  <p>Quae vero more agentur institutisque civilibus, de iis nihil est
-                     praecipiendum; illa enim ipsa praecepta sunt, nec quemquam hoc errore duci
-                     oportet, ut, si quid Socrates aut Aristippus contra rnorem consuetudinemque
-                     civilem fecerint locutive sint, idem sibi arbitretur licere; magnis illi et
-                     divinis bonis hane licentiam assequebantur. Cynicorum vero ratio tota est
-                     eicienda; est enim inimica verecundiae, sine qua nihil rectum esse potest,
-                     nihil honestum.</p>
-                  <p></p>
+                  <p>Quae vero more agentur institutisque civilibus, de iis nihil est praecipiendum;
+                     illa enim ipsa praecepta sunt, nec quemquam hoc errore duci oportet, ut, si
+                     quid Socrates aut Aristippus contra rnorem consuetudinemque civilem fecerint
+                     locutive sint, idem sibi arbitretur licere; magnis illi et divinis bonis hane
+                     licentiam assequebantur. Cynicorum vero ratio tota est eicienda; est enim
+                     inimica verecundiae, sine qua nihil rectum esse potest, nihil honestum.</p>
+                  <p/>
                </div>
                <div type="textpart" n="149" subtype="section">
-                  <p>Eos autem, quorum vita perspecta in rebus honestis atque magnis est, bene de
-                     re publica sentientes ac bene meritos aut merentes sic ut aliquo honore aut <pb
+                  <p>Eos autem, quorum vita perspecta in rebus honestis atque magnis est, bene de re
+                     publica sentientes ac bene meritos aut merentes sic ut aliquo honore aut <pb
                         n="p.152"/> imperio affectos observare et colere debemus, tribuere etiam
                      multum senectuti, cedere iis, qui magistratum habebunt, habere dilectum civis
                      et peregrini in ipsoque peregrino, privatimne an publice venerit. Ad summam, ne
                      agam de singulis, communem totius generis hominum conciliationem et
                      consociationem colere, tueri, servare debemus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="150" subtype="section">
                   <p>
@@ -1967,7 +1968,7 @@
                      </quote>
                      <pb n="p.154"/> ut ait Terentius; adde hue, si placet, unguentarios, saltatores
                      totumque ludum talarium.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="151" subtype="section">
                   <p>Quibus autem artibus aut prudentia maior inest aut non mediocris utilitas
@@ -1980,7 +1981,7 @@
                      rerum, ex quibus aliquid acquiritur, nihil est agri cultura melius, nihil
                      uberius, nihil dulcius, nihil homine libero dignius; de qua quoniam in Catone
                      Maiore satis multa diximus, illim assumes, quae ad hunc locum pertinebunt.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="152" subtype="section">
                   <p>
@@ -1991,7 +1992,7 @@
                      honestas manet a partibus quattuor, quarum una sit cognitionis, altera
                      communitatis, tertia magnanimitatis, <pb n="p.156"/> quarta moderationis, haec
                      in deligendo officio saepe inter se comparentur necesse est.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="153" subtype="section">
                   <p>Placet igitur aptiora esse naturae ea officia, quae ex communitate, quam ea,
@@ -2010,17 +2011,17 @@
                      inchoata sit, si nulla actio rerum consequatur. Ea autem actio in hominum
                      commodis tuendis maxime cernitur; pertinet igitur ad societatem <pb n="p.158"/>
                      generis humani; ergo haec cognition anteponenda est.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="154" subtype="section">
-                  <p>Atque id optimus quisque re ipsa ostencit et iudicat. Quis enim est tam
-                     cupidus in perspicienda cognoscendaque rerum natura, ut, si ei tractanti
+                  <p>Atque id optimus quisque re ipsa ostencit et iudicat. Quis enim est tam cupidus
+                     in perspicienda cognoscendaque rerum natura, ut, si ei tractanti
                      contemplantique res cognitione dignissimas subito sit allatum periculum
                      discrimenque patriae, cui subvenire opitularique possit, non illa omnia
                      relinquat atque abiciat, etiamsi dinumerare se stellas aut metiri mundi
                      magnitudinem posse arbitretur? atque hoc idem in parentis, in amici re aut
                      periculo fecerit.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="155" subtype="section">
                   <p>Quibus rebus intellegitur studiis officiisque scientiae praeponenda esse
@@ -2036,16 +2037,16 @@
                      instructi ad eam et ornati accessimus.</p>
                </div>
                <div type="textpart" n="156" subtype="section">
-                  <p>Neque solum vivi atque praesentes studiosos discendi erudiunt atque docent,
-                     sed hoc <pb n="p.160"/> idem etiam post mortem monumentis litterarum
-                     assequuntur. Nec enim locus ullus est praetermissus ab iis, qui ad leges, qui
-                     ad mores, qui ad disciplinam rei publicae pertineret, ut otium suum ad nostrum
-                     negotium contulisse videantur. Ita illi ipsi doctrinae studiis et sapientiae
-                     dediti ad hominum utilitatem suam prudentiam intellegentiamque potissimum
-                     conferunt; ob eamque etiam causam eloqui copiose, modo prudenter, melius est
-                     quam vel acutissime sine eloquentia cogitare, quod cogitatio in se ipsa
-                     vertitur, eloquentia complectitur eos, quibuscum communitate iuncti sumus.</p>
-                  <p></p>
+                  <p>Neque solum vivi atque praesentes studiosos discendi erudiunt atque docent, sed
+                     hoc <pb n="p.160"/> idem etiam post mortem monumentis litterarum assequuntur.
+                     Nec enim locus ullus est praetermissus ab iis, qui ad leges, qui ad mores, qui
+                     ad disciplinam rei publicae pertineret, ut otium suum ad nostrum negotium
+                     contulisse videantur. Ita illi ipsi doctrinae studiis et sapientiae dediti ad
+                     hominum utilitatem suam prudentiam intellegentiamque potissimum conferunt; ob
+                     eamque etiam causam eloqui copiose, modo prudenter, melius est quam vel
+                     acutissime sine eloquentia cogitare, quod cogitatio in se ipsa vertitur,
+                     eloquentia complectitur eos, quibuscum communitate iuncti sumus.</p>
+                  <p/>
                </div>
                <div type="textpart" n="157" subtype="section">
                   <p>Atque ut apium examina non fingendorum favorum causa congregantur, sed, cum
@@ -2056,7 +2057,7 @@
                      magnitudo animi remota communitate coniunctioneque humana feritas sit quaedam
                      et immanitas. Ita fit, ut vincat cognitionis studium consociatio hominum atque
                      communitas.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="158" subtype="section">
                   <p>Nec verum est, quod dicitur a quibusdam, propter necessitatem vitae, quod ea,
@@ -2069,7 +2070,7 @@
                      turn dicere. Ergo omne officium, quod ad coniunctionem hominum et ad societatem
                      tuendam valet, anteponendum est illi officio, quod cognitione et scientia
                      continetur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="159" subtype="section">
                   <p>
@@ -2082,20 +2083,20 @@
                      publica quidem pro se suscipi volet. Sed hoc commodius se res habet, quod non
                      potest accidere tempus, ut intersit rei publicae quicquam illorum facere
                      sapientem.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="160" subtype="section">
                   <p>Quare hoc quidem effectum sit, in officiis deligendis id genus officiorum
                      excellere, quod teneatur hominum societate. <del>Etenim cognitionem
                         prudentiamque <pb n="p.164"/> sequetur considerata actio; ita fit, ut agere
                         considerate pluris sit quam cogitare prudenter.</del>
-                 </p>
+                  </p>
                   <p>Atque haec quidem hactenus. Patefactus enim locus est ipse, ut non difficile
                      sit in exquirendo officio, quid cuique sit praeponendum, videre. In ipsa autem
                      communitate sunt gradus officiorum, ex quibus, quid cuique praestet, intellegi
                      possit, ut prima dis immortalibus, secunda patriae, tertia parentibus, deinceps
                      gradatim reliquis debeantur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="161" subtype="section">
                   <p>Quibus ex rebus breviter disputatis intellegi potest non solum id homines
@@ -2116,7 +2117,7 @@
                      ad copias <del>; in quo tur quaeri dixi, quid utile, quid inutile, tur ex
                         utilibus quid utilius aut quid maxime utile</del>. De quibus dicere
                      aggrediar, si pauca prius de instituto ac de iudicio meo dixero.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="2" subtype="section">
                   <p>Quamquam enim libri nostri complures non modo ad legendi, sed etiam ad
@@ -2129,7 +2130,7 @@
                      denique tuendae rei publicae, summos viros, amisissem, nec me angoribus dedidi,
                      quibus essem confectus, nisi <pb n="p.170"/> iis restitissem, nec rursum
                      indignis homine docto voluptatibus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="3" subtype="section">
                   <p>Atque utinam res publica stetisset, quo coeperat, statu nec in homines non tam
@@ -2148,7 +2149,7 @@
                      erat philosophiae loci, quantum superfuerat amicorum et rei publicae
                      temporibus; id autem omne consumebatur in legendo, scribendi otium non
                      erat.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="5" subtype="section">
                   <p>
@@ -2163,18 +2164,17 @@
                      haud sane intellego, quidnam sit, quod laudandum putet.</p>
                </div>
                <div type="textpart" n="6" subtype="section">
-                  <p>Nam sive oblectatio quaeritur animi requiesque curarum, quae conferri cum
-                     eorum studiis potest, qui semper aliquid anquirunt, quod spectet et valeat ad
-                     bene beateque vivendum? sive ratio constantiae virtutisque ducitur, aut haec
-                     ars est aut nulla omnino, per quam eas assequamur. Nullam dicere maximarum
-                     rerum artem esse, cum minimarum sine arte nulla sit, hominum est parum
-                     considerate loquentium atque in maximis rebus errantium. Si autem est aliqua
-                     disciplina virtutis, ubi ea quaeretur, cum ab hoc discendi genere
-                     discesseris?</p>
+                  <p>Nam sive oblectatio quaeritur animi requiesque curarum, quae conferri cum eorum
+                     studiis potest, qui semper aliquid anquirunt, quod spectet et valeat ad bene
+                     beateque vivendum? sive ratio constantiae virtutisque ducitur, aut haec ars est
+                     aut nulla omnino, per quam eas assequamur. Nullam dicere maximarum rerum artem
+                     esse, cum minimarum sine arte nulla sit, hominum est parum considerate
+                     loquentium atque in maximis rebus errantium. Si autem est aliqua disciplina
+                     virtutis, ubi ea quaeretur, cum ab hoc discendi genere discesseris?</p>
                   <p>Sed haec, cum ad philosophiam cohortamur, accuratius disputari solent, quod
                      alio quodam libro fecimus; hoc autem tempore tantum nobis declarandum fuit, cur
                      orbati rei publicae muneribus ad hoc nos studium potissimum contulissemus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="7" subtype="section">
                   <p>Occurritur autem nobis, et quidem a doctis et <pb n="p.174"/> eruditis
@@ -2186,7 +2186,7 @@
                      disputandi, sed etiam vivendi ratione sublata? Nos autem, ut ceteri alia certa,
                      alia incerta esse dicunt, sic ab his dissentientes alia probabilia, contra alia
                      dicimus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="8" subtype="section">
                   <p>Quid est igitur, quod me impediat ea, quae probabilia mihi videantur, sequi,
@@ -2199,7 +2199,7 @@
                      Cratippo auctore versaris iis simillimo, qui ista <pb n="p.176"/> praeclara
                      pepererunt, tamen haec nostra finitima vestris ignota esse nolui.</p>
                   <p>Sed iam ad instituta pergamus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="9" subtype="section">
                   <p>
@@ -2213,7 +2213,7 @@
                      est, ut honestatem ab utilitate secernens constitueret esse honestum aliquid,
                      quod utile non esset, et utile, quod non honestum, qua nulla pernicies maior
                      hominum vitae potuit afferri.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="10" subtype="section">
                   <p>Summa quidem auctoritate philosophi severe sane atque honeste haec tria genera
@@ -2224,7 +2224,7 @@
                      sapientiam iudicant. Quorum error eripiendus est opinioque omnis ad eam spem
                      traducenda, ut honestis consiliis iustisque factis, non fraude et malitia se
                      intellegant ea, quae velint, consequi posse.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="11" subtype="section">
                   <p>Quae ergo ad vitam hominum tuendam pertinent, partim sunt inanima, ut aurum,
@@ -2235,7 +2235,7 @@
                      hominum atque vitam; ratione autem utentium duo genera ponunt, deorum unum,
                      alterum hominum. Deos placatos pietas efficiet et sanctitas, proxime autem et
                      secundum deos homines hominibus maxime utiles esse possunt.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="12" subtype="section">
                   <p>Earumque item rerum, quae noceant et obsint, eadem divisio est. Sed quia deos
@@ -2272,7 +2272,7 @@
                      aut pascere eas aut domare aut tueri aut tempestivos fructus ex iis capere
                      possemus; ab eisdemque et, quae nocent, interficiuntur et, quae usui possunt
                      esse, capiuntur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="15" subtype="section">
                   <p>Quid enumerem artium multitudinem, sine quibus vita omnino nulla esse
@@ -2284,7 +2284,7 @@
                      disciplina; quas res et mansuetudo animorum consecuta et verecundia est
                      effectumque, ut esset vita munitior, atque ut dando et accipiendo mutuandisque
                      facultatibus et commodandis nulla re egeremus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="16" subtype="section">
                   <p>
@@ -2303,14 +2303,14 @@
                      genera esse consumpta, deinde comparat, quanto plures deleti sint homines
                      hominum impetu, id est bellis aut seditionibus, quam omni reliqua
                      calamitate.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="17" subtype="section">
-                  <p>Cum igitur hie locus nihil habeat dubitationis, quin homines plurimum
-                     hominibus et prosint et obsint, proprium hoc statuo esse virtutis, conciliare
-                     animos hominum et ad usus suos adiungere. Itaque, quae in rebus inanimis
-                     quaeque in usu et tractatione beluarum fiunt utiliter ad hominum vitam, artibus
-                     ea tribuuntur operosis, hominum autem studia ad amplificationem nostrarum rerum
+                  <p>Cum igitur hie locus nihil habeat dubitationis, quin homines plurimum hominibus
+                     et prosint et obsint, proprium hoc statuo esse virtutis, conciliare animos
+                     hominum et ad usus suos adiungere. Itaque, quae in rebus inanimis quaeque in
+                     usu et tractatione beluarum fiunt utiliter ad hominum vitam, artibus ea
+                     tribuuntur operosis, hominum autem studia ad amplificationem nostrarum rerum
                      prompta ac parata <del>virorum praestantium</del> sapientia et virtute
                      excitantur.</p>
                </div>
@@ -2326,7 +2326,7 @@
                      nobis incommodi, propulsemus ulciscamurque eos, qui nocere nobis conati sint,
                         <pb n="p.186"/> tantaque poena afficiamus, quantam aequitas humanitasque
                      patitur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="19" subtype="section">
                   <p>
@@ -2350,7 +2350,7 @@
                      nostras allicere atque excitare possimus. Quae si longior fuerit oratio, <pb
                         n="p.188"/> cum magnitudine utilitatis comparetur; ita fortasse etiam
                      brevior videbitur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="21" subtype="section">
                   <p>Quaecumque igitur homines homini tribuunt ad eum augendum atque honestandum,
@@ -2372,7 +2372,7 @@
                      dignitatis praestantia aut spe sibi id utile futurum aut metu ne vi parere
                      cogantur, aut spe largitionis <pb n="p.190"/> promissisque capti aut postremo,
                      ut saepe in nostra re publica videmus, mercede conducti.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="23" subtype="section">
                   <p>
@@ -2386,7 +2386,7 @@
                      hominum valeat ad pestem, sed reliquorum similes exitus tyrannorum, quorum haud
                      fere quisquam talem interitum effugit; malus enim est custos diuturnitatis
                      metus contraque benivolentia fidelis vel ad perpetuitatem.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="24" subtype="section">
                   <p>Sed iis, qui vi oppresses imperio coercent, sit sane adhibenda saevitia, ut
@@ -2414,7 +2414,7 @@
                      putaret quam coniugem! Nec eum fefellit; ab ea est enim ipsa propter pelicatus
                      suspicionem interfectus.</p>
                   <p>Nec vero ulla vis imperii tanta est, quae premente metu possit esse diuturna.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="26" subtype="section">
                   <p>Testis est Phalaris, cuius est praeter ceteros nobilitata crudelitas, qui non
@@ -2444,7 +2444,7 @@
                         se suam <pb n="p.196"/> vendere.</quote> Secutus est, qui in causa impia,
                      victoria etiam foediore non singulorum civium bona publicaret, sed universas
                      provincias regionesque uno calamitatis iure comprehenderet.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="28" subtype="section">
                   <p>Itaque vexatis ac perditis exteris nationibus ad exemplum amissi imperii
@@ -2469,16 +2469,15 @@
                      quid debent putare singuli? Quod cum perspicuum sit, benivolentiae vim esse
                      magnam, metus imbecillam, sequitur, ut disseramus, quibus rebus facillime
                      possimus eam, quam volumus, adipisci cum honore et fide caritatem.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="30" subtype="section">
-                  <p>Sed ea non pariter omnes egemus; nam ad cuiusque vitam institutam
-                     accommodandum est, a multisne opus sit an satis sit a paucis diligi. Certum
-                     igitur hoc sit, idque et primum et maxime necessarium, familiaritates habere
-                     fidas amantium nos amicorum et nostra mirantium; haec enim una res prorsus, ut
-                     non multum differat inter summos et mediocris viros, aeque utrisque est
-                     propemodum comparanda.</p>
-                  <p></p>
+                  <p>Sed ea non pariter omnes egemus; nam ad cuiusque vitam institutam accommodandum
+                     est, a multisne opus sit an satis sit a paucis diligi. Certum igitur hoc sit,
+                     idque et primum et maxime necessarium, familiaritates habere fidas amantium nos
+                     amicorum et nostra mirantium; haec enim una res prorsus, ut non multum differat
+                     inter summos et mediocris viros, aeque utrisque est propemodum comparanda.</p>
+                  <p/>
                </div>
                <div type="textpart" n="31" subtype="section">
                   <p>Honore et gloria et benivolentia civium fortasse non aeque omnes egent, sed
@@ -2494,7 +2493,7 @@
                      putat. Haec autem, si est simpliciter breviterque dicendum, quibus rebus
                      pariuntur a singulis, eisdem fere a multitudine. Sed est alius quoque quidam
                      aditus ad multitudinem, ut in universorum animos tamquam influere possimus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="32" subtype="section">
                   <p>Ac primum de illis tribus, quae ante dixi, benivolentiae praecepta videamus;
@@ -2508,7 +2507,7 @@
                      in quibus eas virtutes esse remur, a natura ipsa diligere cogimur. Atque hae
                      quidem causae diligendi gravissimae; possunt enim praetcrea non nullae esse
                      leviores.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="33" subtype="section">
                   <p>Fides autem ut habeatur, duabus rebus effici potest, si existimabimur adepti
@@ -2519,16 +2518,16 @@
                      Iustis autem et fidis hominibus, id est bonis viris, ita fides habetur, ut
                      nulla sit in iis fraudis iniuriaeque suspicio. Itaque his salutem nostram, his
                      fortunas, his liberos rectissime committi arbitramur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="34" subtype="section">
-                  <p>Harum igitur duarum ad fidem faciendam iustitia plus pollet, quippe cum ea
-                     sine prudentia satis habeat auctoritatis, prudentia sine iustitia nihil valet
-                     ad faciendam fidem. Quo enim quis versutior et callidior, hoc invisior et
+                  <p>Harum igitur duarum ad fidem faciendam iustitia plus pollet, quippe cum ea sine
+                     prudentia satis habeat auctoritatis, prudentia sine iustitia nihil valet ad
+                     faciendam fidem. Quo enim quis versutior et callidior, hoc invisior et
                      suspectior est detracta opinione probitatis. Quam ob rem intellegentiae
                      iustitia coniuncta, quantum volet, habebit ad faciendam fidem virium; iustitia
                      sine prudentia multum poterit, sine iustitia nihil valebit prudentia.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="35" subtype="section">
                   <p>
@@ -2541,7 +2540,7 @@
                      alios fortes, alios viros bonos, alios prudentes esse dicamus; popularibus enim
                      verbis est agendum et usitatis, cum loquimur de opinione populari, idque eodem
                      modo fecit Panaetius. Sed ad propositum revertamur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="36" subtype="section">
                   <p>Erat igitur ex iis tribus, quae ad gloriam pertinerent, hoc tertium, ut cum
@@ -2556,7 +2555,7 @@
                      eos haud contemnunt quidem, sed de iis male existimant. Quam ob rem, ut ante
                      dixi, contemnuntur ii, qui <quote>nec sibi nec alteri,</quote> ut dicitur, in
                      quibus nullus labor, nulla industria, nulla cura est.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="37" subtype="section">
                   <p>Admiratione autem afficiuntur ii, qui anteire ceteris virtute putantur et cum
@@ -2568,7 +2567,7 @@
                      despiciunt, cumque aliqua iis ampla et honesta res obiecta est, totos ad se
                      convertit et rapit, tum quis non admiretur splendorem pulchritudinemque
                      virtutis?</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="38" subtype="section">
                   <p>
@@ -2583,7 +2582,7 @@
                      benivolentiam, quod prodesse vult plurimis, et ob eandem causam fidem et
                      admirationem, quod eas res spernit et neglegit, ad quas plerique inflammati
                      aviditate rapiuntur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="39" subtype="section">
                   <p>Ac mea quidem sententia omnis ratio atque institutio vitae adiumenta hominum
@@ -2610,7 +2609,7 @@
                   <p>Cum igitur tanta vis iustitiae sit, ut ea etiam latronum opes firmet atque
                      augeat, quantam eius vim inter leges et iudicia et in constituta re publica
                      fore putamus?</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="41" subtype="section">
                   <p>
@@ -2651,7 +2650,7 @@
                   <p>
                      <milestone unit="chapter" n="13"/> Qui igitur adipisci veram gloriam volet,
                      iustitiae fungatur officiis. Ea quae essent, dictum est in libro superiore.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="44" subtype="section">
                   <p>
@@ -2678,7 +2677,7 @@
                      Atque ea quidem tua laus pariter cum re publica cecidit.</p>
                   <p>Mihi autem haec oratio suscepta non de te est, sed de genere toto; quam ob rein
                      pergarnus ad ea, quae restant.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="46" subtype="section">
                   <p>Ut igitur in reliquis rebus multo maiora opera sunt animi quam corporis, sic
@@ -2697,7 +2696,7 @@
                      nobili et gloriosa, et, qua aetate qui exercentur, laude affici solent, ut de
                      Demosthene accepimus, ea aetate L. Crassus ostendit id se in foro optime iam
                      facere, quod etiam tum poterat domi cum laude meditari.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="48" subtype="section">
                   <p>
@@ -2715,7 +2714,7 @@
                      sapere plus quam ceteros <pb n="p.218"/> arbitrantur. Si vero inest in oratione
                      mixta modestia gravitas, nihil admirabilius fieri potest, eoque magis, si ea
                      sunt in adulescente.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="49" subtype="section">
                   <p>Sed cum sint plura causarum genera, quae eloquentiam desiderent, multique in
@@ -2738,7 +2737,7 @@
                      periculosum ipsi est, turn etiam sordidum ad famam, committere, ut accusator
                      nominere; quod contigit M. Bruto summo genere nato, illius filio, qui iuris
                      civilis in primis peritus fuit.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="51" subtype="section">
                   <p>Atque etiam hoc praeceptum officii diligenter tenendum est, ne quem umquam
@@ -2755,7 +2754,7 @@
                      alicuius opibus circumveniri urguerique videatur, ut nos et saepe alias et
                      adulescentes contra L. Sullae <pb n="p.222"/> dominantis opes pro Sex. Roscio
                      Amerino fecimus, quae, ut scis, exstat oratio.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="52" subtype="section">
                   <p>
@@ -2770,20 +2769,20 @@
                      minus in multos uti possis.</p>
                </div>
                <div type="textpart" n="53" subtype="section">
-                  <p>At qui opera, id est virtute et industria, benefici et liberales erunt,
-                     primum, quo pluribus profuerint, eo plures ad benigne faciendum adiutores
-                     habebunt, dein consuetudine beneficentiae paratiores erunt et tamquam
-                     exercitatiores ad bene de multis promerendum.</p>
+                  <p>At qui opera, id est virtute et industria, benefici et liberales erunt, primum,
+                     quo pluribus profuerint, eo plures ad benigne faciendum adiutores habebunt,
+                     dein consuetudine beneficentiae paratiores erunt et tamquam exercitatiores ad
+                     bene de multis promerendum.</p>
                   <p>Praeclare in epistula quadam Alexandrum filium Philippus accusat, quod
                      largitione benivolentiam Macedonum consectetur:<quote>Quae te, malum!</quote>
                      inquit, <quote>ratio in istam spem induxit, ut eos tibi fideles putares <pb
                            n="p.224"/> fore, quos pecunia corrupisses? An tu id agis, ut Macedones
                         non te regem suum, sed ministrum et praebitorem sperent fore?</quote>
-                 </p>
+                  </p>
                   <p>Bene <quote>ministrum et praebitorem,</quote> quia sordidum regi, melius etiam,
                      quod largitionem <quote>corruptelam</quote> dixit esse; fit enim deterior, qui
                      accipit, atque ad idem semper exspectandum paratior.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="54" subtype="section">
                   <p>Hoc ille filio, sed praeceptum putemus omnibus.</p>
@@ -2797,11 +2796,11 @@
                      rapinae; cum enim dando egere coeperunt, alienis bonis manus afferre coguntur.
                      Ita, cum benivolentiae comparandae causa benefici esse velint, non tanta studia
                      assequuntur eorum, quibus dederunt, quanta odia eorum, quibus ademerunt.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="55" subtype="section">
-                  <p>Quam ob rem nec ita claudenda res est familiaris, ut eam benignitas aperire
-                     non possit, nec ita reseranda, ut pateat omnibus; modus adhibeatur, isque <pb
+                  <p>Quam ob rem nec ita claudenda res est familiaris, ut eam benignitas aperire non
+                     possit, nec ita reseranda, ut pateat omnibus; modus adhibeatur, isque <pb
                         n="p.226"/> referatur ad facultates. Omnino meminisse debemus, id quod a
                      nostris hominibus saepissime usurpatum iam in proverbii consuetudinem venit,
                         <quote>largitionem fundum non habere</quote>; etenim quis potest modus esse,
@@ -2833,13 +2832,13 @@
                         augeatur ipsaque illa delectatio multitudinis ad breve exiguumque tempus <hi
                            rend="italics">capiatur,</hi> eaque a levissimo quoque, in quo tamen ipso
                         una cum satietate memoria quoque moriatur voluptatis.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="57" subtype="section">
                   <p>Bene etiam colligit, <quote>haec pueris et mulierculis et servis et servorum
                         simillimis liberis esse grata, gravi vero homini et ea, quae fiunt, iudicio
                         certo ponderanti probari posse nullo modo.</quote>
-                 </p>
+                  </p>
                   <p>Quamquam intellego in nostra civitate inveterasse iam bonis temporibus, ut
                      splendor aedilitatum ab optimis viris postuletur. Itaque et P. Crassus cum
                      cognomine dives, turn copiis functus est aedilicio maximo munere, et paulo post
@@ -2848,7 +2847,7 @@
                      Hortensius, Silanus; omnes autem P. Lentulus me consule vicit superiores; hunc
                      est Scaurus imitatus; magnificentissima <pb n="p.230"/> vero nostri Pompei
                      munera secundo consulatu; in quibus omnibus quid mihi placeat, vides.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="58" subtype="section">
                   <p>
@@ -2872,7 +2871,7 @@
                      Curio. Nobis quoque licet in hoc quodam modo gloriari; nam pro amplitudine
                      honorum, quos cunctis suffragiis adepti sumus nostro quidem anno, quod contigit
                      eorum nemini, quos modo nominavi, sane exiguus sumptus aedilitatis fuit.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="60" subtype="section">
                   <p>Atque etiam illae impensae meliores, muri, navalia, portus, aquarum ductus
@@ -2886,7 +2885,7 @@
                      disputatum.</p>
                   <p>Tota igitur ratio talium largitionum genere vitiosa est, temporibus necessaria,
                      et turn ipsum et ad facultates accommodanda et mediocritate moderanda est.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="61" subtype="section">
                   <p>
@@ -2903,8 +2902,8 @@
                         <quote rend="blockquote">
                         <l>Bene fácta male locáta male facta árbitror.</l>
                      </quote>
-                 </p>
-                  <p></p>
+                  </p>
+                  <p/>
                </div>
                <div type="textpart" n="63" subtype="section">
                   <p>Quod autem tributum est bono viro et grato, in eo cum ex ipso fructus est, tum
@@ -2921,7 +2920,7 @@
                      consuetudinem benignitatis largitioni munerum longe antepono; haec est gravium
                      hominum atque magnorum, illa quasi assentatorum populi multitudinis levitatem
                      voluptate quasi titillantium.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="64" subtype="section">
                   <p>Conveniet autem cum in dando munificum esse, tum in exigendo non acerbum in
@@ -2942,7 +2941,7 @@
                      suos curiales Laciadas hospitalem fuisse; ita enim instituisse et vilicis
                      imperavisse, ut omnia praeberentur, quicumque Laciades in villam suam
                      devertisset.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="65" subtype="section">
                   <p>
@@ -2959,7 +2958,7 @@
                      superiores, quibus honore par esset, scientia facile vicisset. Haec igitur
                      opera grata multis et ad beneficiis obstringendos homines accommodata.</p>
                   <pb n="p.240"/>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="66" subtype="section">
                   <p>Atque huic arti finitima est dicendi <del>gravior</del> facultas et gratior et
@@ -2968,7 +2967,7 @@
                      maioribus nostris est in toga dignitatis principatus datus. Diserti igitur
                      hominis et facile laborantis, quodque in patriis est moribus, multorum causas
                      et non gravate et gratuito defendentis beneficia et patrocinia late patent.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="67" subtype="section">
                   <p>Admonebat me res, ut hoc quoque loco intermissionem eloquentiae, ne dicam
@@ -2980,7 +2979,7 @@
                      pro re alterius, eos ipsos, qui aut consuluntur aut defendunt, rogantem; quod
                      qui faciunt, plurimum gratiae consequuntur, latissimeque eorum manat
                      industria.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="68" subtype="section">
                   <p>Iam illud non sunt admonendi (est enim in promptu), ut animadvertant, cum
@@ -2990,7 +2989,7 @@
                      adversus eos, quos invitus offendas, quacumque possis, quare id, quod feceris,
                      necesse fuerit nec aliter facere potueris, ceterisque aperis et officiis erit
                      id, quod violatum videbitur, compensandum.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="69" subtype="section">
                   <p>
@@ -3005,7 +3004,7 @@
                      potest. Commode autem, quicumque dixit, <quote>pecuniam qui habeat, non
                         reddidisse, qui reddiderit, non habere, gratiam autem et, qui rettulerit,
                         habere et, qui habeat, rettulisse.</quote>
-                 </p>
+                  </p>
                   <p>At qui se locupletes, honoratos, beatos putant, ii ne obligari quidem beneficio
                      volunt; quin etiam beneficium se dedisse arbitrantur, cum ipsi quamvis <pb
                         n="p.244"/> magnum aliquod acceperint, atque etiam a se aut postulari aut
@@ -3020,7 +3019,7 @@
                      opulentum fortunatumque defenderis, in uno illo aut, si forte, in liberis eius
                      manet gratia; sin autem inopem, probum tamen et modestum, omnes non improbi
                      humiles, quae magna in populo multitudo est, praesidium sibi paratum vident.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="71" subtype="section">
                   <p>Quam ob rem melius apud bonos quam apud fortunatos beneficium collocari
@@ -3038,7 +3037,7 @@
                   <p>Extremum autem praeceptum in beneficiis operaque danda, ne quid contra
                      aequitatem contendas, ne quid pro iniuria; fundamentum enim est perpetuae
                      commendationis et famae iustitia, sine qua nihil potest esse laudabile.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="72" subtype="section">
                   <p>
@@ -3051,7 +3050,7 @@
                      prosit aut certe ne obsit rei publicae. C. Gracchi frumentaria magna largitio;
                      exhauriebat igitur aerarium; modica M. Octavi et rei publicae <pb n="p.248"/>
                      tolerabilis et plebi necessaria; ergo et civibus et rei publicae salutaris.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="73" subtype="section">
                   <p>In primis autem videndum erit ei, qui rem publicam administrabit, ut suum
@@ -3064,7 +3063,7 @@
                      maxime, ut sua tenerentur, res publicae civitatesque constitutae sunt. Nam,
                      etsi duce natura congregabantur hominess, tamen spe custodiae rerum suarum
                      urbium praesidia quaerebant.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="74" subtype="section">
                   <p>Danda etiam opera est, ne, quod apud maiores nostros saepe fiebat propter
@@ -3077,7 +3076,7 @@
                      sit, quae sunt necessariae. Quarum qualis comparatio fieri soleat et debeat,
                      non est necesse disputare; est enim in promptu; tantum locus attingendus
                      fuit.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="75" subtype="section">
                   <p>Caput autem est in omni procuratione negotii et muneris publici, ut avaritiae
@@ -3092,7 +3091,7 @@
                      tantum <del>Italicum</del> bellum propter iudiciorum metum excitatum, tanta
                      sublatis legibus et iudiciis expilatio direptioque sociorum, ut imbecillitate
                      aliorum, non nostra virtute valeamus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="76" subtype="section">
                   <p>
@@ -3106,7 +3105,7 @@
                      fuit in censura. L. Mummius, numquid copiosior, cum copiosissimam urbem
                      funditus sustulisset? Italiam ornare quam domum suam maluit; quamquam Italia
                      ornata domus ipsa mihi videtur ornatior.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="77" subtype="section">
                   <p>Nullum igitur vitium taetrius est, ut eo, unde egressa est, referat se oratio,
@@ -3117,7 +3116,7 @@
                      omnibus opulentis populis praedixisse. Nulla autem re conciliare facilius
                      benivolentiam multitudinis possunt ii, qui rei publicae praesunt, quam
                      abstinentia et continentia.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="78" subtype="section">
                   <p>Qui vero se populares volunt ob eamque causam aut agrariam rem temptant, ut
@@ -3138,7 +3137,7 @@
                      numero haec iudicantur, sed pondere. Quam autem habet aequitatem, ut agrum
                      multis annis aut etiam saeculis ante possessum, qui nullum habuit, habeat, qui
                      autem habuit, amittat?</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="80" subtype="section">
                   <p>
@@ -3150,7 +3149,7 @@
                      sed etiam reliquam Graeciam evertit contagionibus malorum, quae a Lacedaemoniis
                      profectae manarunt latius. Quid? nostros Gracchos, Ti. Gracchi summi viri
                      filios, Africani nepotes, nonne agrariae contentiones perdiderunt?</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="81" subtype="section">
                   <p>At vero Aratus Sicyonius iure laudatur, qui, cum eius civitas quinquaginta
@@ -3178,7 +3177,7 @@
                      possessionibus cederent, aliis, ut commodius putarent numerari sibi, quod tanti
                      esset, quam suum recuperare. Ita perfectum est, ut omnes concordia constituta
                      sine querella discederent.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="83" subtype="section">
                   <p>O virum magnum dignumque, qui in re publica nostra natus esset! Sic par est
@@ -3207,7 +3206,7 @@
                      eius iam nihil interesset. Tanta in eo peccandi libido fuit, ut hoc ipsum eum
                      delectaret, peccare, etiamsi causa non esset.</p>
                   <pb n="p.262"/>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="85" subtype="section">
                   <p>Ab hoc igitur genere largitionis, ut aliis detur, aliis auferatur, aberunt ii,
@@ -3219,7 +3218,7 @@
                   <p>Haec magnorum hominum sunt, haec apud maiores nostros factitata, haec genera
                      officiorum qui persequentur, cum summa utilitate rei publicae magnam ipsi
                      adipiscentur et gratiam et gloriam.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="86" subtype="section">
                   <p>In his autem utilitatum praeceptis Antipater Tyrius Stoicus, qui Athenis nuper
@@ -3231,7 +3230,7 @@
                      voluptatibus</del>, postremo arte eorum, quorum ad scientiam haec
                      pertinent.</p>
                   <pb n="p.264"/>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="87" subtype="section">
                   <p>Res autem famniliaris quaeri debet iis rebus, a quibus abest turpitude,
@@ -3243,7 +3242,7 @@
                      medium sedentibus quam ab ullis philosophis ulla in schola disputatur. Sunt
                      tamen ea cognoscenda; pertinent enim ad utilitatem, de qua hoc libro disputatum
                      est.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="88" subtype="section">
                   <p>
@@ -3263,7 +3262,7 @@
                      tertium: <quote>Male pascere</quote>; quid quartum: <quote>Arare</quote>; et
                      cum ille, qui quaesierat, dixisset: <quote>Quid faenerari?</quote>, tum Cato:
                         <quote>Quid hominem,</quote> inquit, <quote>occidere?</quote>
-                 </p>
+                  </p>
                   <p>Ex quo et multis aliis intellegi debet utilitatum comparationes fieri solere,
                      recteque hoc adiunctum esse quartum exquirendorum officiorum genus.</p>
                   <p>Reliqua deinceps persequemur.</p>
@@ -3286,7 +3285,7 @@
                      accedirnus; nam et a re publica forensibusque negotiis armis impiis vique
                      prohibiti otium persequimur et ob eam causam urbe relicta rura peragrantes
                      saepe soli sumus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="2" subtype="section">
                   <p>Sed nec hoc otium cum Africani otio nec haec solitudo cum illa comparanda est.
@@ -3304,7 +3303,7 @@
                      quid inesset boni, propterea et otio fruor, non illo quidem, quo debebat is,
                      qui quondam peperisset otium civitati, nec eam solitudinem languere patior,
                      quam mihi affert necessitas, non voluntas.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="4" subtype="section">
                   <p>Quamquam Africanus maiorem laudem meo iudicio assequebatur. Nulla enim eius
@@ -3315,7 +3314,7 @@
                      abstrahamur, ad hanc scribendi operam omne studium curamque convertimus. Itaque
                      plura brevi tempore eversa quam multis annis stante re publica scripsimus.</p>
                   <pb n="p.274"/>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="5" subtype="section">
                   <p>
@@ -3339,7 +3338,7 @@
                      tute tibi defuisse videare.</p>
                   <p>Sed haec hactenus; multa enim saepe ad te <pb n="p.276"/> cohortandi gratia
                      scripsimus; nune ad reliquam partem propositae divisionis revertamur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="7" subtype="section">
                   <p>Panaetius igitur, qui sine controversia de officiis accuratissime disputavit,
@@ -3356,7 +3355,7 @@
                      annis vixisse Panaetium, posteaquam illos libros edidisset. Quen locum miror a
                      Posidonio breviter esse tactum in quibusdam commentariis, praesertim cum
                      scribat nullum esse locum in tota philosophia tam necessarium.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="9" subtype="section">
                   <p>Minime vero assentior iis, qui negant eum locum a Panaetio praetermissum, sed
@@ -3369,14 +3368,13 @@
                      se deinceps esse dicturum.</p>
                </div>
                <div type="textpart" n="10" subtype="section">
-                  <p>Accedit eodem testis locuples Posidonius, qui etiam scribit in quadarn
-                     epistula P. Rutilium Rufum dicere solere, qui Panaetium audierat, ut nemo
-                     pictor esset inventus, qui in Coa Venere earn partem, quam Apelles inchoatam
-                     reliquisset, absolveret (oris enim pulchritudo reliqui corporis imitandi spem
-                     auferebat), sic ea, quae Panaetius praetermisisset <del>et non
-                        perfecisset</del> propter eorum, quae perfecisset, praestantiam neminem
-                     persecutum.</p>
-                  <p></p>
+                  <p>Accedit eodem testis locuples Posidonius, qui etiam scribit in quadarn epistula
+                     P. Rutilium Rufum dicere solere, qui Panaetium audierat, ut nemo pictor esset
+                     inventus, qui in Coa Venere earn partem, quam Apelles inchoatam reliquisset,
+                     absolveret (oris enim pulchritudo reliqui corporis imitandi spem auferebat),
+                     sic ea, quae Panaetius praetermisisset <del>et non perfecisset</del> propter
+                     eorum, quae perfecisset, praestantiam neminem persecutum.</p>
+                  <p/>
                </div>
                <div type="textpart" n="11" subtype="section">
                   <p>
@@ -3390,7 +3388,7 @@
                      primum haec natura cohaerentia opinione distraxissent. Cui quidem ita sunt
                      Stoici assensi, ut et, quicquid honestum esset, id <pb n="p.280"/> utile esse
                      censerent nec utile quicquam, quod non honestum.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="12" subtype="section">
                   <p>Quodsi is esset Panaetius, qui virtutem propterea colendam diceret, quod ea
@@ -3443,7 +3441,7 @@
                      et nominati, M. Cato et C. Laelius, sapientes fuerunt, ne illi quidem septem,
                      sed ex mediorum officiorum frequentia similitudinem quandam gerebant speciemque
                      sapientium.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="17" subtype="section">
                   <p>Quocirca nec id, quod vere honestum est, fas est cum utilitatis repugnantia
@@ -3454,13 +3452,13 @@
                      honestum, sapientibus; aliter enim teneri non potest, si qua ad virtutem est
                      facta progressio.</p>
                   <p>Sed haec quidem de iis, qui conservatione officiorum existimantur boni.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="18" subtype="section">
-                  <p>Qui autem omnia metiuntur emolumentis et commodis neque ea volunt
-                     praeponderari honestate, ii solent in deliberando honestum cum eo, quod utile
-                     putant, comparare, boni viri non solent. Itaque existimo Panaetium, cum dixerit
-                     homines solere in hac comparatione dubitare, hoc ipsum sensisse, quod dixerit,
+                  <p>Qui autem omnia metiuntur emolumentis et commodis neque ea volunt praeponderari
+                     honestate, ii solent in deliberando honestum cum eo, quod utile putant,
+                     comparare, boni viri non solent. Itaque existimo Panaetium, cum dixerit homines
+                     solere in hac comparatione dubitare, hoc ipsum sensisse, quod dixerit,
                         <quote>solere</quote> modo, non etiam <quote>oportere.</quote> Etenim non
                      modo pluris putare, quod utile videatur, <pb n="p.286"/> quam quod honestum
                      sit, sed etiam haec inter se comparare et in his addubitare turpissimum
@@ -3492,7 +3490,7 @@
                      honestum aliquid non utile et utile non honestum. Nobis autem nostra Academia
                      magnam licentiam dat, ut, quodcumque maxime probabile occurrat, id nostro iure
                      liceat defendere. Sed redeo ad formulam.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="21" subtype="section">
                   <p>
@@ -3505,15 +3503,15 @@
                      societatem.</p>
                </div>
                <div type="textpart" n="22" subtype="section">
-                  <p>Ut, si unum quodque membrum sensum hunc haberet, ut posse putaret se valere,
-                     si proximi membri valetudinem ad se traduxisset, debilitari et interire totum
+                  <p>Ut, si unum quodque membrum sensum hunc haberet, ut posse putaret se valere, si
+                     proximi membri valetudinem ad se traduxisset, debilitari et interire totum
                      corpus necesse esset, sic, si unus quisque nostrum ad se rapiat commoda aliorum
                      detrahatque, quod cuique possit, emolumenti sui gratia, societas hominum et
                      communitas evertatur necesse est. Nam sibi ut quisque malit, quod ad usum vitae
                      pertineat, quam alteri acquirere, concessum est non repugnante natura, <pb
                         n="p.290"/> illud natura non patitur, ut aliorum spoliis nostras facultates,
                      copias, opes augeamus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="23" subtype="section">
                   <p>Neque vero hoc solum natura, id est iure gentium, sed etiam legibus populorum,
@@ -3532,8 +3530,8 @@
                      quidem contemnere et pro nihilo ducere comparantem cum utilitate communi magni
                      animi et excelsi est. <del>Detrahere autem de altero sui commodi causa magis
                         est contra naturam quam mors, quam dolor, quam cetera generis eiusdem.</del>
-                 </p>
-                  <p></p>
+                  </p>
+                  <p/>
                </div>
                <div type="textpart" n="25" subtype="section">
                   <p>Itemque magis est secundum naturam pro omnibus gentibus, si fieri possit,
@@ -3545,7 +3543,7 @@
                   <p>Quocirca optimo quisque et splendidissimo ingenio longe illam vitam huic
                      anteponit. Ex quo efficitur hominem naturae oboedientem homini nocere non
                      posse.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="26" subtype="section">
                   <p>Deinde, qui alterum violat, ut ipse aliquid commodi consequatur, aut nihil
@@ -3560,7 +3558,7 @@
                      <milestone unit="chapter" n="6"/> Ergo unum debet esse omnibus propositum, ut
                      eadem sit utilitas unius cuiusque et universorum; quam si ad se quisque rapiet,
                      dissolvetur omnis humana consortio.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="27" subtype="section">
                   <p>Atque etiam, si hoc natura praescribit, ut homo <pb n="p.294"/> homini,
@@ -3585,7 +3583,7 @@
                      ipsius animi, quae vacent iustitia; haec enim una virtus omnium est domina et
                      regina virtutum.</p>
                   <pb n="p.296"/>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="29" subtype="section">
                   <p>Forsitan quispiam dixerit: Nonne igitur sapiens, si fame ipse conficiatur,
@@ -3594,7 +3592,7 @@
                         commodi mei gratia.</del> Quid? si Phalarim, crudelem tyrannum et immanem,
                      vir bonus, ne ipse frigore conficiatur, vestitu spoliare possit, nonne
                      faciat?</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="30" subtype="section">
                   <p>Haec ad iudicandum sunt facillima. Nam, si quid ab homine ad nullam partem
@@ -3615,7 +3613,7 @@
                      bene existimans seseque diligens hanc causam habeat ad iniuriam. <pb n="p.298"
                      /> Ita semper officio fungetur utilitati consulens hominum et ei, quam saepe
                      commemoro, humanae societati.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="32" subtype="section">
                   <p>Nam quod ad Phalarim attinet, perfacile iudicium est. Nulla est enim societas
@@ -3628,7 +3626,7 @@
                      est.</p>
                   <p>Huius generis quaestiones sunt omnes eae, in quibus ex tempore officium
                      exquiritur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="33" subtype="section">
                   <p>
@@ -3645,7 +3643,7 @@
                      certe dabis, quod honestum sit, id esse maxime propter se expetendum. Mihi
                      utrumvis satis est et turn hoc, tum illud probabilius videtur nec praeterea
                      quicquam probabile.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="34" subtype="section">
                   <p>Ac primum in hoc Panaetius defendendus est, quod non utilia cum honestis
@@ -3660,7 +3658,7 @@
                      explicatum, quod quidem mihi probaretur, de iis, quae in manus meas
                      venerunt.</p>
                   <pb n="p.302"/>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="35" subtype="section">
                   <p>
@@ -3676,7 +3674,7 @@
                      visum est, aut certe omni pondere gravior habenda quam reliqua omnia, quod
                      Aristoteli placet, necesse est, quod honestum sit, id esse aut solum aut summum
                      bonum; quod autem bonum, id certe utile; ita, quicquid honestum, id utile.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="36" subtype="section">
                   <p>Quare error hominum non proborum, cum aliquid, quod utile visum est, arripuit,
@@ -3687,7 +3685,7 @@
                      foedius excogitari potest. <pb n="p.304"/> Emolumenta enim rerum fallacibus
                      iudiciis vident, poenam non dico legum, quam saepe perrumpunt, sed ipsius
                      turpitudinis, quae acerbissima est, non vident.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="37" subtype="section">
                   <p>Quam ob rem hoc quidem deliberantium genus pellatur e medio (est enim totum
@@ -3699,7 +3697,7 @@
                      removenda est. Satis enim nobis, si modo in philosophia aliquid profecimus,
                      persuasum esse debet, si omnes deos hominesque celare possimus, nihil tamen
                      avare, nihil iniuste, nihil libidinose, nihil incontinenter esse faciendum.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="38" subtype="section">
                   <p>
@@ -3717,7 +3715,7 @@
                   <p>Hunc igitur ipsum anulum si habeat sapiens, nihilo plus sibi licere putet
                      peccare, quam si non haberet; honesta enim bonis viris, non occulta
                      quaeruntur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="39" subtype="section">
                   <p>Atque hoc loco philosoplis quidam, minime mali illi quidem, sed non satis
@@ -3734,7 +3732,7 @@
                      facturos, quod expediat, facinorosos se esse fateantur, si negent, omnia turpia
                      per se ipsa fugienda esse concedant.</p>
                   <p>Sed iam ad propositum revertamur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="40" subtype="section">
                   <p>
@@ -3757,7 +3755,7 @@
                         <pb n="p.310"/> assequi posset, et tamen muri causamopposuit, speciem
                      honestatis nec probabilem nec sane idoneam. Peccavit igitur, pace vel Quirini
                      vel Romuli dixerim.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="42" subtype="section">
                   <p>Nec tamen nostrae nobis utilitates omittendae sunt aliisque tradendae, cum iis
@@ -3767,8 +3765,8 @@
                         supplantare eum, quicum certet, aut manu depellere nullo modo debet; sic in
                         vita sibi quemque petere, quod pertineat ad usum, non iniquum est, alteri
                         deripere ius non est.</quote>
-                 </p>
-                  <p></p>
+                  </p>
+                  <p/>
                </div>
                <div type="textpart" n="43" subtype="section">
                   <p>Maxime autem perturbantur officia in amicitiis, quibus et non tribuere, quod
@@ -3799,7 +3797,7 @@
                      sit alter eius sistendi, ut, si ille non revertisset, moriendum esset ipsi. Qui
                      cum ad diem se recepisset, admiratus eorum fidem tyrannus petivit, ut se ad
                      amicitiam tertium ascriberent.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="46" subtype="section">
                   <p>Cum igitur id, quod utile videtur in amicitia, cum eo, quod honestum est,
@@ -3824,19 +3822,19 @@
                      bello <pb n="p.316"/> Punico secundo; quae Cannensi calamitate accepta maiores
                      animos habuit quam umquam rebus secundis; nulla timoris significatio, nulla
                      mentio pacis. Tanta vis est honesti, ut speciem utilitatis obscuret.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="48" subtype="section">
-                  <p>Athenienses cum Persarum impetum nullo modo possent sustinere statuerentque,
-                     ut urbe relicta coniugibus et liberis Troezene depositis naves conscenderent
+                  <p>Athenienses cum Persarum impetum nullo modo possent sustinere statuerentque, ut
+                     urbe relicta coniugibus et liberis Troezene depositis naves conscenderent
                      libertatemque Graeciae classe defenderent, Cyrsilum quendam suadentem ut in
                      urbe manerent Xerxemque reciperent, lapidibus obruerunt. Atqui ille utilitatem
                      sequi videbatur; sed ea nulla erat repugnante honestate.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="49" subtype="section">
-                  <p>Themistocles post victoriam eius belli, quod cum Persis fuit, dixit in
-                     contione se habere consilium rei publicae salutare, sed id sciri non opus ese;
+                  <p>Themistocles post victoriam eius belli, quod cum Persis fuit, dixit in contione
+                     se habere consilium rei publicae salutare, sed id sciri non opus ese;
                      postulavit, ut aliquem populus daret, quicum communicaret; datus est Aristides;
                      huic ille, classem Lacedaemoniorum, quae subducta esset ad Gytheum, clam
                      incendi posse, quo facto frangi Lacedaemoniorum opes necesse esset. Quod
@@ -3861,7 +3859,7 @@
                      sit id Rhodiis an silentio suum quam plurimo venditurus. Sapientem et bonum
                      virum fingimus; de eius deliberatione et consultatione quaerimus, qui celaturus
                      Rhodios non sit, si id turpe iudicet, sed dubitet, an turpe non sit.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="51" subtype="section">
                   <p>In huius modi causis aliud Diogeni Babylonio videri solet, magno et gravi
@@ -3873,8 +3871,8 @@
                   <p>
                      <quote>Advexi, exposui, vendo meum non pluris quain ceteri, fortasse etiam
                         minoris, cum maior est copia. Cui fit iniuria?</quote>
-                 </p>
-                  <p></p>
+                  </p>
+                  <p/>
                </div>
                <div type="textpart" n="52" subtype="section">
                   <p>Exoritur Antipatri ratio ex altera parte: <quote>Quid ais? tu cum horninibus
@@ -3882,31 +3880,31 @@
                         habeas principia naturae, quibus parere et quae sequi debeas, ut utilitas
                         tua communis sit utilitas vicissimque communis utilitas tua sit, celabis
                         homines, quid iis adsit commoditatis et copiae?</quote>
-                 </p>
+                  </p>
                   <p>Respondebit Diogenes fortasse sic: <quote>Aliud est celare, aliud tacere; neque
                         ego nune te celo, si tibi non dico, quae natura deorum sit, qui sit finis
                         bonorum, quae tibi plus prodessent cognita quam tritici vilitas; sed non,
                         quicquid tibi audire utile est, idern mihi dicere necesse est.</quote>
-                 </p>
-                  <p></p>
+                  </p>
+                  <p/>
                </div>
                <div type="textpart" n="53" subtype="section">
                   <p>
                      <quote>Immo vero,</quote> inquiet ille, <quote>necesse est, siquidem <pb
                            n="p.322"/> meministi esse inter homines natura coniunctam
                         societatem.</quote>
-                 </p>
+                  </p>
                   <p>
                      <quote>Memini,</quote> inquiet ille; <quote>sed num ista societas talis est, ut
                         nihil suum cuiusque sit? Quod si ila est, ne vendendum quidem quicquam est,
                         sed donandum.</quote>
-                 </p>
+                  </p>
                   <p>
                      <milestone unit="chapter" n="13"/> Vides in hac tota disceptatione non illud
                      dici: <quote>Quamvis hoc turpe sit, tamen, quoniam expedit, faciam,</quote> sed
                      ita expedire, ut turpe non sit, ex altera autem parte, ea re, quia turpe sit,
                      non esse faciendum.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="54" subtype="section">
                   <p>Vendat aedes vir bonus propter aliqua vitia, quae ipse norit, ceteri ignorent,
@@ -3915,7 +3913,7 @@
                      praeter dominum nemo sciat; quaero, si haec emptoribus venditor non dixerit
                      aedesque vendiderit pluris multo, quam se venditurun putarit, num id iniuste
                      aut improbe fecerit.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="55" subtype="section">
                   <p>
@@ -3924,7 +3922,7 @@
                         hoc non est, emptorem pati ruere et per errorem in maximam fraudem
                         incurrere? Plus etiam est quam viam non <pb n="p.324"/> monstrare; nam est
                         scientem in errorem alterum inducere.</quote>
-                 </p>
+                  </p>
                   <p>
                      <milestone unit="alternatesection" n="55"/> Diogenes contra: <quote>Num te
                         emere coegit, qui ne hortatus quidem est? Ille, quod non placebat,
@@ -3936,8 +3934,8 @@
                         Quid vero est stultius quam venditorem eius rei, quam vendat, vitia narrare?
                         quid autem tam absurdum, quam si domini iussu ita praeco praedicet: 'Domum
                         pestilentem vendo'?</quote>
-                 </p>
-                  <p></p>
+                  </p>
+                  <p/>
                </div>
                <div type="textpart" n="56" subtype="section">
                   <p>Sic ergo in quibusdam causis dubiis ex altera parte defenditur honestas, ex
@@ -3947,15 +3945,14 @@
                      quaereremus, exposuimus, sed ut explicaremus.</p>
                </div>
                <div type="textpart" n="57" subtype="section">
-                  <p>Non igitur videtur nec frumentarius ille Rhodios nec hic aedium venditor
-                     celare emptores debuisse. Neque enim id est celare, quicquid reticeas, sed cum,
-                     quod tu scias, <pb n="p.326"/> id ignorare emolumenti tui causa velis eos,
-                     quorum intersit id scire. Hoc autem celandi genus quale sit et cuius hominis,
-                     quis non videt? Certe non aperti, non simplicis, non ingenui, non iusti, non
-                     viri boni, versuti potius, obscuri, astuti, fallacis, malitiosi, callidi,
-                     veteratoris, vafri. Haec tot et alia plura nonne inutile est vitiorum subire
-                     nomina?</p>
-                  <p></p>
+                  <p>Non igitur videtur nec frumentarius ille Rhodios nec hic aedium venditor celare
+                     emptores debuisse. Neque enim id est celare, quicquid reticeas, sed cum, quod
+                     tu scias, <pb n="p.326"/> id ignorare emolumenti tui causa velis eos, quorum
+                     intersit id scire. Hoc autem celandi genus quale sit et cuius hominis, quis non
+                     videt? Certe non aperti, non simplicis, non ingenui, non iusti, non viri boni,
+                     versuti potius, obscuri, astuti, fallacis, malitiosi, callidi, veteratoris,
+                     vafri. Haec tot et alia plura nonne inutile est vitiorum subire nomina?</p>
+                  <p/>
                </div>
                <div type="textpart" n="58" subtype="section">
                   <p>
@@ -3973,16 +3970,16 @@
                      cenam tempori venit Canius; opipare a Pythio apparatum convivium, cumbarum ante
                      oculos multitudo; pro se <pb n="p.328"/> quisque, quod ceperat, afferebat, ante
                      pedes Pythi pisces abiciebantur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="59" subtype="section">
-                  <p>Tum Canius: <quote>Quaeso,</quote> inquit, <quote>quid est hoc, Pythi?
-                        tantumne piscium? tantumne cumbarum?</quote>
-                 </p>
+                  <p>Tum Canius: <quote>Quaeso,</quote> inquit, <quote>quid est hoc, Pythi? tantumne
+                        piscium? tantumne cumbarum?</quote>
+                  </p>
                   <p>Et ille: <quote>Quid mirum?</quote> inquit, <quote>hoc loco est Syracusis
                         quicquid est piscium, hic aquatio, hac villa isti carere non
                         possunt.</quote>
-                 </p>
+                  </p>
                   <p>Incensus Canius cupiditate contendit a Pythio, ut venderet; gravate ille primo;
                      quid multa? impetrat. Emit homo cupidus et locuples tanti, quanti Pythius
                      voluit, et emit instructos; nomina facit, negotium conficit. Invitat Canius
@@ -3992,8 +3989,8 @@
                   <p>
                      <quote>Nullae, quod sciam,</quote> inquit; <quote>sed hic piscari nulli solent;
                         itaque heri mirabar, quid accidisset.</quote>
-                 </p>
-                  <p></p>
+                  </p>
+                  <p/>
                </div>
                <div type="textpart" n="60" subtype="section">
                   <p>Stomachari Canius; sed quid faceret? nondum enim C. Aquilius, collega et
@@ -4003,7 +4000,7 @@
                      Pythius et omnes aliud agentes, aliud simulantes <pb n="p.330"/> perfidi,
                      improbi, malitiosi. Nullum igitur eorum factum potest utile esse, cum sit tot
                      vitiis inquinatum.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="61" subtype="section">
                   <p>
@@ -4032,7 +4029,7 @@
                         <quote>nequiquam sapere sapientem, qui ipse sibi prodesse non
                         quiret.</quote> Vere id quidem, si, quid esset <quote>prodesse,</quote> mihi
                      cum Ennio conveniret.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="63" subtype="section">
                   <p>Hecatonem quidem Rhodium, discipulum Panaeti, video in iis libris, quos de
@@ -4043,7 +4040,7 @@
                         civitatis.</quote> Huic Scaevolae factum, de quo paulo ante dixi, placere
                      nullo modo potest; etenim omnino tantum se negat facturum compendii sui causa,
                      quod non liceat. Huic nec laus magna tribuenda nec gratia est.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="64" subtype="section">
                   <p>Sed, sive et simulatio et dissimulatio dolus malus est, perpaucae res sunt, in
@@ -4052,7 +4049,7 @@
                      reperimus.</p>
                   <p>Numquam igitur est utile peccare, quia semper est turpe, et, quia semper est
                      honestum virum bonum esse, semper est utile.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="65" subtype="section">
                   <p>
@@ -4077,8 +4074,8 @@
                      hic, qui illud lumen progenuit, ex filio est nominandus)—is igitur iudex ita
                      pronuntiavit: <quote>cum in vendendo rem eam scisset et non pronuntiasset,
                         emptori damnum praestari oportere.</quote>
-                 </p>
-                  <p></p>
+                  </p>
+                  <p/>
                </div>
                <div type="textpart" n="67" subtype="section">
                   <p>Ergo ad fidem bonam statuit pertinere notum esse emptori vitium, quod nosset
@@ -4093,12 +4090,11 @@
                         quoniam id vitium <pb n="p.338"/> ignotum Sergio non fuisset, qui illas
                         aedes vendidisset, nihil fuisse necesse dici, nec eum esse deceptum, qui,
                         id, quod emerat, quo iure esset, teneret.</quote>
-                 </p>
-                  <p></p>
+                  </p>
+                  <p/>
                </div>
                <div type="textpart" n="68" subtype="section">
-                  <p>Quorsus haec? Ut illud intellegas, non placuisse maioribus nostris
-                     astutos.</p>
+                  <p>Quorsus haec? Ut illud intellegas, non placuisse maioribus nostris astutos.</p>
                   <p>
                      <milestone unit="chapter" n="17"/> Sed aliter leges, aliter philosophi tollunt
                      astutias, leges, quatenus manu tenere possunt, philosophi, quatenus ratione et
@@ -4107,7 +4103,7 @@
                      non sis nec agitaturus? ipsae enim ferae nullo insequente saepe incidunt. Sic
                      tu aedes proscribas, tabulam tamquam plagam ponas, <del>domum propter vitia
                         vendas,</del> in ear aliquis incurrat imprudens?</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="69" subtype="section">
                   <p>Hoc quamquam video propter depravationem consuetudinis neque more turpe haberi
@@ -4133,19 +4129,19 @@
                      rebus emptis venditis, conductis locatis, quibus vitae societas contineretur;
                      in iis magni esse iudicis statuere, praesertim cum in plerisque essent iudicia
                      contraria, quid quemque cuique praestare oporteret.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="71" subtype="section">
-                  <p>Quocirca astutiae tollendae sunt eaque malitia, quae volt illa quidem videri
-                     se esse prudentiam, sed abest ab ea distatque plurimum. Prudentia est enim
-                     locata in dilectu bonorum et malorum, malitia, si omnia, quae turpia sunt, mala
-                     sunt, mala bonis ponit ante.</p>
+                  <p>Quocirca astutiae tollendae sunt eaque malitia, quae volt illa quidem videri se
+                     esse prudentiam, sed abest ab ea distatque plurimum. Prudentia est enim locata
+                     in dilectu bonorum et malorum, malitia, si omnia, quae turpia sunt, mala sunt,
+                     mala bonis ponit ante.</p>
                   <pb n="p.342"/>
                   <p>Nec vero in praediis solum ius civile ductum a natura malitiam fraudemque
                      vindicat, sed etiam in mancipiorum venditione venditoris fraus omnis
                      excluditur. Qui enim scire debuit de sanitate, de fuga, de furtis, praestat
                      edicto aedilium. Heredum alia causa est.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="72" subtype="section">
                   <p>Ex quo intellegitur, quoniam iuris natura fons sit, hoc secundum naturam esse,
@@ -4154,7 +4150,7 @@
                      innumerabilia nascuntur, ut utilia cum honestis pugnare videantur. Quotus enirn
                      quisque reperietur, qui impunitate et ignoratione omnium proposita abstinere
                      possit iniuria?</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="73" subtype="section">
                   <p>
@@ -4208,7 +4204,7 @@
                         expediat?</quote> Immo intellegat nihil nec <pb n="p.348"/> expedire nec
                      utile esse, quod sit iniustum; hoc qui non didicerit, bonus vir esse non
                      poterit.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="77" subtype="section">
                   <p>C. Fimbriam consularem audiebam de patre nostro puer iudicem M. Lutatio
@@ -4226,7 +4222,7 @@
                         in tenebris mices.</quote> Hoc quam habet vim nisi illam, nihil expedire,
                      quod <pb n="p.350"/> non deceat, etiamsi id possis nullo refellente
                      optinere?</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="78" subtype="section">
                   <p>Videsne hoc proverbio neque Gygi illi posse veniam dari neque huic, quem paulo
@@ -4234,7 +4230,7 @@
                      enim, quod turpe est, id, quamvis occultetur, tamen honestum fieri nullo modo
                      potest, sic, quod honestum non est, id utile ut sit, effici non potest
                      adversante et repugnante natura.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="79" subtype="section">
                   <p>
@@ -4248,19 +4244,19 @@
                      potestatem populi Romani redacturum. Itaque factus est ille quidem consul, sed
                      a fide iustitiaque discessit, qui optimum et gravissimum civem, cuius legatus
                      et a quo missus esset, in invidiam falso crimine adduxerit.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="80" subtype="section">
-                  <p>Ne noster quidem Gratidianus officio viri boni <pb n="p.352"/> functus est
-                     tum, cum praetor esset collegiumque praetorium tribuni plebi adhibuissent, ut
-                     res nummaria de communi sententia constitueretur; iactabatur enim temporibus
-                     illis nummus sic, ut nemo posset scire, quid haberet. Conscripserunt communiter
+                  <p>Ne noster quidem Gratidianus officio viri boni <pb n="p.352"/> functus est tum,
+                     cum praetor esset collegiumque praetorium tribuni plebi adhibuissent, ut res
+                     nummaria de communi sententia constitueretur; iactabatur enim temporibus illis
+                     nummus sic, ut nemo posset scire, quid haberet. Conscripserunt communiter
                      edictum cum poena atque iudicio constitueruntque, ut omnes simul in rostra post
                      meridiem escenderent. Et ceteri quidem alius alio, Marius ab subselliis in
                      rostra recta idque, quod communiter compositum fuerat, solus edixit. Et ea res,
                      si quaeris, ei magno honori fuit; omnibus vicis statuae, ad eas tus, cerei;
                      quid multa? nemo umquam multitudini fuit carior.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="81" subtype="section">
                   <p>Haec sunt, quae conturbent in deliberatione non numquam, cum id, in quo
@@ -4274,7 +4270,7 @@
                      sit in ea <del>species</del> forma et notio viri boni. Cadit ergo in virum
                      bonum mentiri emolumenti sui causa, criminari, praeripere, fallere? Nihil
                      profecto minus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="82" subtype="section">
                   <p>Est ergo ulla res tanti aut commodum ullum tam expetendum, ut viri boni et
@@ -4309,7 +4305,7 @@
                      obstrinxerit, ab oppressis civibus parens nominetur? Honestate igitur dirigenda
                      utilitas est, et quidem sic, ut haec duo verbo inter se discrepare, re unum
                      sonare videantur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="84" subtype="section">
                   <p>Non habeo, ad volgi opinionem quae maior utilitas quam regnandi esse possit;
@@ -4329,7 +4325,7 @@
                      illam eripuerit, in maxima et gratia futurus sit et gloria? Quodsi haec utilia
                      non sunt, quae maxime videntur, quia plena sunt dedecoris ac turpitudinis,
                      satis persuasum esse debet nihil esse utile, quod non honestum sit.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="86" subtype="section">
                   <p>
@@ -4344,7 +4340,7 @@
                      magnum illud bellum perfuga unus et gravem adversarium imperii sustulisset, sed
                      magnum dedecus et flagitium, quicum laudis certamen fuisset, eum non virtute,
                      sed scelere superatum.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="87" subtype="section">
                   <p>Utrum igitur utilius vel Fabricio, qui talis in hac urbe, qualis Aristides
@@ -4370,14 +4366,14 @@
                      semper autem addebat: <quote>Vincat utilitas!</quote> Potius doceret non esse
                      aequam, quia non esset utilis rei publieae, quam, cum utilem non esse diceret,
                      esse aequam fateretur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="89" subtype="section">
                   <p>
                      <milestone unit="chapter" n="23"/> Plenusestsextus liber de officiis Hecatonis
                      talium quaestionum: <quote>sitne boni viri in maxima caritate annonae familiam
                         non alere.</quote>
-                 </p>
+                  </p>
                   <p>In utramque partem disputat, sed tamen ad extremum utilitate, ut putat,
                      officium dirigit magis quam humanitate.</p>
                   <p>Quaerit, si in mari iactura facienda sit, equine pretiosi <pb n="p.364"/>
@@ -4386,76 +4382,76 @@
                   <p>
                      <quote>Si tabulam de naufragio stultus arripuerit, extorquebitne earn sapiens,
                         si potuerit?</quote>
-                 </p>
+                  </p>
                   <p>Negat, quia sit iniurium.</p>
                   <p>
                      <quote>Quid? dominus navis eripietne suum?</quote>
-                 </p>
+                  </p>
                   <p>
                      <quote>Minime, non plus quam navigantem in alto eicere de navi velit, quia sua
                         sit. Quoad enim perventum est eo, quo sumpta navis est, non domini est
                         navis, sed navigantium.</quote>
-                 </p>
-                  <p></p>
+                  </p>
+                  <p/>
                </div>
                <div type="textpart" n="90" subtype="section">
                   <p>
                      <quote>Quid? si una tabula sit, duo naufragi, eique sapientes, sibine uter<hi
                            rend="italics">que</hi> rapiat, an alter cedat alteri?</quote>
-                 </p>
+                  </p>
                   <p>
                      <quote>Cedat vero, sed ei, cuius magis intersit vel sua vel rei publicae causa
                         vivere.</quote>
-                 </p>
+                  </p>
                   <p>
                      <quote>Quid, si haec paria in utroque?</quote>
-                 </p>
+                  </p>
                   <p>
                      <quote>Nullum erit certamen, sed quasi sorte aut micando victus alteri cedet
                         alter.</quote>
-                 </p>
+                  </p>
                   <p>
                      <quote>Quid? si pater fana expilet, cuniculos agat ad aerarium, indicetne id
                         magistratibus filius?</quote>
-                 </p>
+                  </p>
                   <p>
                      <quote>Nefas id quidem est, quin etiam defendat patrem, si arguatur.</quote>
-                 </p>
+                  </p>
                   <p>
                      <quote>Non igitur patria praestat omnibus officiis?</quote>
-                 </p>
+                  </p>
                   <pb n="p.366"/>
                   <p>
                      <quote>Immo vero, sed ipsi patriae conducit pios habere cives in
                         parentes.</quote>
-                 </p>
+                  </p>
                   <p>
                      <quote>Quid? si tyrannidem occupare, si patriam prodere conabitur pater,
                         silebitne filius?</quote>
-                 </p>
+                  </p>
                   <p>
                      <quote>Immo vero obsecrabit patrem, ne id faciat. Si nihil proficiet,
                         accusabit, minabitur etiam, ad extremum, si ad perniciem patriae res
                         spectabit, patriae salutem anteponet saluti patris.</quote>
-                 </p>
-                  <p></p>
+                  </p>
+                  <p/>
                </div>
                <div type="textpart" n="91" subtype="section">
-                  <p>Quaerit etiam, si sapiens adulterinos nummos acceperit imprudens pro bonis,
-                     cum id rescierit, soluturusne sit eos, si cui debeat, pro bonis. Diogenes ait,
+                  <p>Quaerit etiam, si sapiens adulterinos nummos acceperit imprudens pro bonis, cum
+                     id rescierit, soluturusne sit eos, si cui debeat, pro bonis. Diogenes ait,
                      Antipater negat, cui potius assentior.</p>
                   <p>Qui vinum fugiens vendat sciens, debeatne dicere. Non necesse putat Diogenes,
                      Antipater viri boni existimat. Haec sunt quasi controversa iura Stoicorum.
                         <quote>In mancipio vendendo dicendane vitia, non ea, quae nisi dixeris,
                         redhibeatur mancipium iure civili, sed haec, mendacem esse, aleatorem,
                         furacem, ebriosum?</quote> Alteri dicenda videntur, alteri non videntur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="92" subtype="section">
                   <p>
                      <quote>Si quis aurum vendens orichalcum se putet vendere, indicetne ei vir
                         bonus aurum illud esse an emat denario, quod sit mille denarium?</quote>
-                 </p>
+                  </p>
                   <p>Perspictum est iam, et quid mihi videatur, et quae sit inter eos philosophos,
                      quos nominavi, controversia.</p>
                   <pb n="p.368"/>
@@ -4463,14 +4459,14 @@
                      <milestone unit="chapter" n="24"/> Pacta et promissa semperne servanda sint,
                         <quote rend="smallcaps">QUAE NEC VI NEC DOLO MALO,</quote> ut praetores
                      solent, <quote rend="smallcaps">FACTA SINT.</quote>
-                 </p>
+                  </p>
                   <p>Si quis medicamentum cuipiam dederit ad aquam intercutem pepigeritque, si eo
                      medicamento sanus factus esset, ne illo medicamento umquam postea uteretur, si
                      eo medicamento sanus factus sit et annis aliquot post incident in eundem morbum
                      nec ab eo, quicumpepigerat, impetret,ut iterum eo liccat uti, quid faciendum
                      sit. Cum sit is inhumanus, qui non concedat, nec ei quicquam fiat iniuriae,
                      vitae et saluti consulendum.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="93" subtype="section">
                   <p>Quid? si qui sapiens rogatus sit ab eo, qui eum heredem faciat, cum ei
@@ -4481,7 +4477,7 @@
                      ducet, honestius mentietur, si ex hereditate nihil ceperit, quam si ceperit,
                      nisi forte <pb n="p.370"/> eam pecuniam in rei publicae magnum aliquod tempus
                      contulerit, ut vel saltare, cum patriae consulturus sit, turpe non sit.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="94" subtype="section">
                   <p>
@@ -4496,10 +4492,10 @@
                      luctibus.</p>
                </div>
                <div type="textpart" n="95" subtype="section">
-                  <p>Quid, <hi rend="italics">quod</hi> Agamemnon cum devovisset Dianae, quod in
-                     suo regno pulcherrimum natum esset illo anno, immolavit Iphigeniam, qua nihil
-                     erat eo quidem anno natum pulchrius? Promissum potius non faciendum quam tam
-                     taetrum facinus admittendum fuit.</p>
+                  <p>Quid, <hi rend="italics">quod</hi> Agamemnon cum devovisset Dianae, quod in suo
+                     regno pulcherrimum natum esset illo anno, immolavit Iphigeniam, qua nihil erat
+                     eo quidem anno natum pulchrius? Promissum potius non faciendum quam tam taetrum
+                     facinus admittendum fuit.</p>
                   <p>Ergo et promissa non facienda non numquam, neque semper deposita reddenda. Si
                      gladium quis apud te sana mente deposuerit, repetat insaniens, reddere peccatum
                      sit, officium non reddere. Quid? si is, qui apud te pecuniam deposuerit, bellum
@@ -4509,7 +4505,7 @@
                      reddere deposita commutata utilitate fiunt non honesta.</p>
                   <p>Ac de iis quidem, quae videntur esse utilitates contra iustitiam simulatione
                      prudentiae, satis arbitror dictum.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="96" subtype="section">
                   <p>Sed quoniam a quattuor fontibus honestatis primo libro officia duximus, in
@@ -4519,7 +4515,7 @@
                      partes honestatis, quarum altera in animi excellentis magnitudine et
                      praestantia cernitur, altera in conforrnatione et moderatione continentiae et
                      temperantiae.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="97" subtype="section">
                   <p>
@@ -4535,9 +4531,9 @@
                      utilem quidem esse arbitror.</p>
                </div>
                <div type="textpart" n="98" subtype="section">
-                  <p>Quid enim auditurum putas fuisse Ulixem,si in illa simulatione
-                     perseveravisset? qui cummaximas res gesserit in bello, tamen haec audiat ab
-                     Aiace: <quote rend="blockquote">
+                  <p>Quid enim auditurum putas fuisse Ulixem,si in illa simulatione perseveravisset?
+                     qui cummaximas res gesserit in bello, tamen haec audiat ab Aiace: <quote
+                        rend="blockquote">
                         <l>Cuius ípse princeps iúris iurandí fuit,</l>
                         <l>Quod ómnes scitis, sólus neglexít fidem;</l>
                         <l>Furere ássimulare, né coiret, ínstitit.</l>
@@ -4545,7 +4541,7 @@
                         <l>Istíus percepset málitiosam audáciam,</l>
                         <l>Fidé sacratae iús perpetuo fálleret.</l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="99" subtype="section">
                   <p>Illi vero non modo cum hostibus, verum etiam cum fluctibus, id quod fecit,
@@ -4578,7 +4574,7 @@
                      putabat. Itaque turn, cum vigilando necabatur, erat in meliore causa, <pb
                         n="p.378"/> quam si domi senex captivus, periurus consularis
                      remansisset.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="101" subtype="section">
                   <p>At stulte, qui non modo non censuerit captivos remittendos, verum etiam
@@ -4593,7 +4589,7 @@
                      nusquam possumus nisi in laude, decore, honestate utilia reperire, propterea
                      illa prima et summa habemus, utilitatis nomen non tam splendidum quam
                      necessarium ducimus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="102" subtype="section">
                   <p>Quid est igitur, dixerit quis, in iure iurando? num iratum timemus lovem? At
@@ -4609,7 +4605,7 @@
                         <l part="F">Fregistín fidem?</l>
                         <l>Néque dedi neque do ínfideli cuíquam</l>
                      </quote> quamquam ab impio rege dicitur, luculente tamen dicitur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="103" subtype="section">
                   <p>Addunt etiam, quem ad modum nos dicamus videri quaedam utilia, quae non sint,
@@ -4617,19 +4613,19 @@
                         videtur honestum, conservandi iris iurandi causa ad cruciatum revertisse;
                         sed fit non honestum, quia, quod per vim hostium esset actum, ratum esse non
                         debuit.</quote>
-                 </p>
+                  </p>
                   <p>Addunt etiam, quicquid valde utile sit, id fieri honestum, etiamsi antea non
                      videretur.</p>
                   <p>Haec fere contra Regulum. Sed prima <hi rend="italics">quaeque</hi>
                      videamus.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="104" subtype="section">
                   <p>
                      <milestone unit="chapter" n="29"/>
                      <quote>Non fuit Iuppiter metuendus ne iratus noceret, qui neque irasci solet
                         nec nocere.</quote>
-                 </p>
+                  </p>
                   <pb n="p.382"/>
                   <p>Haec quidem ratio non magis contra Reguli quam contra omne ius iurandum valet.
                      Sed in iure iurando non qui metus, sed quae vis sit, debet intellegi; est enim
@@ -4641,7 +4637,7 @@
                      </quote> Qui ius igitur iurandum violat, is Fidem violat, quam in Capitolio
                         <quote>vicinam Iovis optimi maximi,</quote> ut in Catonis oratione est,
                      maiores nostri esse voluerunt.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="105" subtype="section">
                   <p>At enim ne iratus quidem Iuppiter plus Regulo nocuisset, quam sibi nocuit ipse
@@ -4664,7 +4660,7 @@
                      </quote> idcirco recte a poeta, quia, cum tractaretur Atreus, personae
                      serviendum fuit. Sed si hoc sibi sument, nullam esse fidem, quae infideli data
                      sit, videant, ne quaeratur latebra periurio.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="107" subtype="section">
                   <p>Est autem ius etiam bellicum fidesque iuris iurandi saepe cum hoste servanda.
@@ -4674,7 +4670,7 @@
                      feceris; nam pirata non est ex perduellium nurnero definitus, sed communis
                      hostis omnium; cum hoc nec fides debet nec ius iurandum esse commune. <pb
                         n="p.386"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="108" subtype="section">
                   <p>Non enim falsum iurare periurare est, sed, quod <quote rend="smallcaps">EX
@@ -4685,7 +4681,7 @@
                      perturbare periurio. Cum iusto enim et legitimo hoste res gerebatur, adversus
                      quem et totum ius fetiale et multa sunt iura communia. Quod ni ita esset,
                      numquam claros viros senatus vinctos hostibus dedidisset.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="109" subtype="section">
                   <p>
@@ -4703,7 +4699,7 @@
                      causa esset, deprecante accepta lex non est. Hic ea, quae videbatur utilitas,
                      plus valuit quam honestas, apud superiores utilitatis species falsa ab
                      honestatis auctoritate superata est.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="110" subtype="section">
                   <p>At non debuit ratum esse, quod erat actum per vim.—Quasi vero forti viro vis
@@ -4720,7 +4716,7 @@
                      utile, honestum, sed, quia honestum, utile.</p>
                   <p>Quare ex multis mirabilibus exemplis haud facile quis dixerit hoc exemplo aut
                      laudabilius aut praestantius.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="111" subtype="section">
                   <p>
@@ -4732,11 +4728,11 @@
                      tabulis, indicant sacratae, indicant foedera, quibus etiam cum hoste devincitur
                      fides, indicant notiones animadversionesque censorum, qui nulla de re
                      diligentius quam de iure iurando iudicabant.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="112" subtype="section">
-                  <p>L. Manlio A. f., cum dictator fuisset, M. Pomponius tr. pl. diem dixit, quod
-                     is paucos sibi dies ad dictaturam gerendam addidisset; criminabatur etiam, quod
+                  <p>L. Manlio A. f., cum dictator fuisset, M. Pomponius tr. pl. diem dixit, quod is
+                     paucos sibi dies ad dictaturam gerendam addidisset; criminabatur etiam, quod
                      Titum filium, qui postea est Torquatus appellatus, ab hominibus relegasset et
                      ruri habitare iussisset. <pb n="p.392"/> Quod cum audivisset adulescens filius,
                      negotium exhiberi patri, accurrisse Romam et cum primo luci Pomponi domum
@@ -4751,7 +4747,7 @@
                      occiderat, torque detracto cognomen invenit, cuius tertio consulatu Latini ad
                      Veserim fusi et fugati, magnus vir in primis et, qui perindulgens in patrem,
                      idem acerbe severus in filium.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="113" subtype="section">
                   <p>
@@ -4767,7 +4763,7 @@
                      astringit, non dissolvit periurium. Fuit igitur stulta calliditas perverse
                      imitata prudentiam. Itaque decrevit senatus, ut ille veterator et callidus
                      vinctus ad Hannibalem duceretur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="114" subtype="section">
                   <p>Sed illud maximum: octo hominum milia tenebat Hannibal, non quos in acie
@@ -4777,7 +4773,7 @@
                      vincere aut emori. Qua quidem re audita fractum animum Hannibalis scribit idem,
                      quod senatus populusque Romanus rebus afflictis tam excelso animo fuisset. Sic
                      honestatis comparatione ea, quae videntur utilia, vincuntur.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="115" subtype="section">
                   <p>
@@ -4788,7 +4784,7 @@
                      demisso fractoque fiant, quale fuisset Reguli factum, si aut de captivis, quod
                      ipsi opus esse videretur, non quod rei publicae, censuisset aut domi remanere
                      voluisset, non esse utilia, quia sint flagitiosa, foeda, turpia.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="116" subtype="section">
                   <p>
@@ -4801,7 +4797,7 @@
                      eiusdem fere adiutor auctorque sententiae. Cum his <quote>viris
                         equisque,</quote> ut dicitur, si honestatem tueri ac retinere sententia est,
                      decertandum est.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="117" subtype="section">
                   <p>Nam si non modo utilitas, sed vita omnis beata corporis firma constitutione
@@ -4820,7 +4816,7 @@
                      multis locis, sed aqua haeret, ut aiunt; nam qui potest temperantiam laudare
                      is, qui ponat summum bonurn in voluptate? est enim temperantia libidinum
                      inimica, libidines autem consectatrices voluptatis.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="118" subtype="section">
                   <p>Atque in his tamen tribus generibus, quoquo modo possunt, non incallide
@@ -4834,7 +4830,7 @@
                      esse potest, non plus quam amicitia, si haec non per se expetantur, sed ad
                      voluptatem utilitatemve referantur.</p>
                   <p>Conferamus igitur in pauca.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="119" subtype="section">
                   <p>Nam ut utilitatem nullam esse docuimus, quae honestati esset contraria, sic
@@ -4845,7 +4841,7 @@
                      bonorum <del>et malorum</del>, qui simplex esse debet, ex dissimillimis rebus
                      misceri et temperari potest. Sed de hoc (magna enim res est) alio loco
                      pluribus; nunc ad propositum.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="120" subtype="section">
                   <p>Quem ad modum igitur, si quando ea, quae videtur utilitas, honestati repugnat,
@@ -4853,17 +4849,17 @@
                      etiam voluptas habere dicetur, nulla potest esse ei cum honestate coniunctio.
                      Nam, ut tribuamus aliquid <pb n="p.402"/> voluptati, condimenti fortasse non
                      nihil, utilitatis certe nihil habebit.</p>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="121" subtype="section">
-                  <p>Habes a patre munus, Marce fili, mea quidem sententia magnum, sed perinde
-                     erit, ut acceperis. Quamquam hi tibi tres libri inter Cratippi commentarios
-                     tamquam hospites erunt recipiendi; sed, ut, si ipse venissem Athenas (quod
-                     quidem esset factum, nisi me e medio cursu clara voce patria revocasset),
-                     aliquando me quoque audires, sic, quoniam his voluminibus ad te profecta vox
-                     est mea, tribues iis temporis quantum poteris, poteris autem, quantum voles.
-                     Cum vero intellexero te hoc scientiae genere gaudere, tum et praesens tecum
-                     propediem, ut spero, et, dum aberis, absens loquar.</p>
+                  <p>Habes a patre munus, Marce fili, mea quidem sententia magnum, sed perinde erit,
+                     ut acceperis. Quamquam hi tibi tres libri inter Cratippi commentarios tamquam
+                     hospites erunt recipiendi; sed, ut, si ipse venissem Athenas (quod quidem esset
+                     factum, nisi me e medio cursu clara voce patria revocasset), aliquando me
+                     quoque audires, sic, quoniam his voluminibus ad te profecta vox est mea,
+                     tribues iis temporis quantum poteris, poteris autem, quantum voles. Cum vero
+                     intellexero te hoc scientiae genere gaudere, tum et praesens tecum propediem,
+                     ut spero, et, dum aberis, absens loquar.</p>
                   <p>Vale igitur, mi Cicero, tibique persuade esse te quidem mihi carissimum, sed
                      multo fore cariorem, si talibus monitis praeceptisque laetabere.</p>
                </div>

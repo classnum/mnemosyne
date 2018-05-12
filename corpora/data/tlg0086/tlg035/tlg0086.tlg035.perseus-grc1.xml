@@ -59,6 +59,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+            HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines
+            where needed adding letters to numbers in @n, fix Latin content in some bibl tags
+            erroneously in Greek, update EpiDoc schema metadata.</change>
          <change when="1993" who="JN">Tagged in conformance with Prose.g dtd.</change>
          <change when="2009-05-27" who="RS">
             <p>$Log: aristot.pol_gk.xml,v $ Revision 1.3 2011-03-30 17:16:22 gcrane small fixes
@@ -70,7 +74,7 @@
                1.1 2009/10/08 19:12:40 rsingh04 began reorganizing texts module by collection.
                created separate work directory in texts module to keep hopper files separate from in
                progress files Revision 1.6 2009/05/27 15:55:14 rsingh04 added cvs log keyword</p>
-        </change>
+         </change>
       </revisionDesc>
    </teiHeader>
    <text>
@@ -746,7 +750,7 @@
                   λόγους, ἄλλην ἀρχὴν ποιησάμενοι λέγωμεν, καὶ πρῶτον ἐπισκεψώμεθα περὶ τῶν
                   ἀποφηναμένων περὶ τῆς πολιτείας τῆς ἀρίστης.</p>
                <milestone n="2" unit="Book"/>
-               <p></p>
+               <p/>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1260b2">
                <p>
@@ -764,7 +768,7 @@
                   μὲν οὖν μηδενὸς κοινωνεῖν φανερὸν <milestone n="40" ed="Bekker" unit="line"/>ὡς
                   ἀδύνατον ʽἡ γὰρ πολιτεία κοινωνία τίς ἐστι, καὶ πρῶτον ἀνάγκη τοῦ τόπου κοινωνεῖν·
                   ὁ μὲν γὰρ τόπος εἷς ὁ τῆς μιᾶς πόλεως, οἱ δὲ πολῖται κοινωνοὶ τῆς μιᾶς πόλεωσ̓·
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1261a">
                <p>
@@ -914,7 +918,7 @@
                   κατασκευάζεσθαι τοῖς μέλλουσι πολιτεύεσθαι τὴν ἀρίστην πολιτείαν, πότερον κοινὴν ἢ
                   μὴ κοινὴν <milestone n="40" ed="Bekker" unit="line"/>εἶναι τὴν κτῆσιν. τοῦτο δʼ ἄν
                   τις καὶ χωρὶς σκέψαιτο ἀπὸ τῶν περὶ τὰ τέκνα καὶ τὰς γυναῖκας νενομοθετημένων,
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1263a">
                <p>
@@ -954,7 +958,7 @@
                   τοιοῦτοι, τοῦ νομοθέτου <milestone n="40" ed="Bekker" unit="line"/>τοῦτʼ ἔργον
                   ἴδιόν ἐστιν. ἔτι δὲ καὶ πρὸς ἡδονὴν ἀμύθητον ὅσον διαφέρει τὸ νομίζειν ἴδιόν τι.
                   μὴ γὰρ οὐ μάτην τὴν πρὸς αὑτὸν αὐτὸς ἔχει φιλίαν ἕκαστος, ἀλλʼ ἔστι τοῦτο φυσικόν.
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1263b">
                <p>
@@ -993,7 +997,7 @@
                   πόλιν σπουδαίαν ἄτοπον τοῖς τοιούτοις οἴεσθαι διορθοῦν, ἀλλὰ μὴ τοῖς <milestone
                      n="40" ed="Bekker" unit="line"/>ἔθεσι καὶ τῇ φιλοσοφίᾳ καὶ τοῖς νόμοις, ὥσπερ
                   τὰ περὶ τὰς κτήσεις ἐν Λακεδαίμονι καὶ Κρήτῃ τοῖς συσσιτίοις ὁ νομοθέτης ἐκοίνωσε.
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1264a">
                <p>
@@ -1748,7 +1752,7 @@
                   καὶ δημοκρατίαν καταστῆσαι τὴν πάτριον, μείξαντα καλῶς τὴν πολιτείαν· εἶναι γὰρ
                   τὴν μὲν ἐν Ἀρείῳ <milestone n="40" ed="Bekker" unit="line"/>πάγῳ βουλὴν
                   ὀλιγαρχικόν, τὸ δὲ τὰς ἀρχὰς αἱρετὰς ἀριστοκρατικόν, τὰ δὲ δικαστήρια δημοτικόν.
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1274a">
                <p>
@@ -1814,7 +1818,7 @@
                   αὐτοῦ λέγειν ἔχοι τις ἄν. τὰ μὲν οὖν περὶ τὰς πολιτείας, τάς τε κυρίας καὶ τὰς ὑπὸ
                   τινῶν εἰρημένας, ἔστω τεθεωρημένα τὸν τρόπον τοῦτον.</p>
                <milestone n="3" unit="Book"/>
-               <p></p>
+               <p/>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1274b2">
                <p>
@@ -2470,7 +2474,7 @@
                      unit="line"/>τὰς ἄλλας· ἀλλὰ μὴν καὶ οἱ πλείους πρὸς τοὺς ἐλάττους, καὶ γὰρ
                   κρείττους καὶ πλουσιώτεροι καὶ βελτίους εἰσίν, ὡς λαμβανομένων τῶν πλειόνων πρὸς
                   τοὺς ἐλάττους. <milestone ed="P" unit="para"/>ἆρʼ οὖν εἰ πάντες εἶεν ἐν μιᾷ πόλει,
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1283b">
                <p>
@@ -2629,7 +2633,7 @@
                      <l>Πίττακον πόλιος τᾶς ἀχόλω καὶ βαρυδαίμονος</l>
                      <l>ἐστάσαντο τύραννον μέγʼ ἐπαινέοντες ἀόλλεες.</l>
                   </quote>
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1285b">
                <p>
@@ -2865,7 +2869,7 @@
                   ἀνδρὸς ἀρετὴν εἶναι καὶ πολίτου τῆς πόλεως τῆς ἀρίστης, φανερὸν ὅτι τὸν αὐτὸν
                   τρόπον <milestone n="40" ed="Bekker" unit="line"/>καὶ διὰ τῶν αὐτῶν ἀνήρ τε
                   γίνεται σπουδαῖος καὶ πόλιν συστήσειεν ἄν τις ἀριστοκρατουμένην ἢ βασιλευομένην,
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1288b">
                <p>
@@ -2875,9 +2879,9 @@
                   πέφυκε γίγνεσθαι τρόπον καὶ καθίστασθαι πῶς. <milestone n="5" ed="Bekker"
                      unit="line"/>
                   <del>ἀνάγκη δὴ τὸν μέλλοντα περὶ αὐτῆς ποιήσασθαι τὴν προσήκουσαν σκέψιν.</del>
-              </p>
+               </p>
                <milestone n="4" unit="Book"/>
-               <p></p>
+               <p/>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1288b2">
                <p>
@@ -3364,7 +3368,7 @@
                   τοῦθʼ ὑπάρχον̓ ἀλλὰ τῷ μηδʼ ἂν βούλεσθαι πολιτείαν ἑτέραν μηθὲν τῶν τῆς πόλεως
                   μορίων <milestone n="40" ed="Bekker" unit="line"/>ὅλως. τίνα μὲν οὖν τρόπον δεῖ
                   καθιστάναι πολιτείαν, ὁμοίως δὲ καὶ τὰς ὀνομαζομένας ἀριστοκρατίας, νῦν εἴρηται.
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1295a">
                <p>
@@ -3403,7 +3407,7 @@
                   βίον βέλτιστον, <add>τὸ</add> τῆς ἑκάστοις ἐνδεχομένης τυχεῖν μεσότητος· τοὺς δὲ
                   αὐτοὺς τούτους ὅρους ἀναγκαῖον εἶναι <milestone n="40" ed="Bekker" unit="line"
                   />καὶ πόλεως ἀρετῆς καὶ κακίας καὶ πολιτείας· ἡ γὰρ πολιτεία βίος τίς ἐστι πόλεως.
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1295b">
                <p>
@@ -3774,7 +3778,7 @@
                   πάντων ἢ αἱρέσει καθιστάναι ἢ κλήρῳ ἢ ἀμφοῖν ʽ τὰς μὲν κλήρῳ τὰς δʼ αἱρέσεἰ
                      <milestone n="40" ed="Bekker" unit="line"/>ὀλιγαρχικόν· ὀλιγαρχικώτερον δὲ καὶ
                   τὸ ἐξ ἀμφοῖν. τὸ δὲ τὰς μὲν ἐκ πάντων τὰς δʼ ἐκ τινῶν πολιτικὸν ἀριστοκρατικῶς,
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1300b">
                <p>
@@ -3829,7 +3833,7 @@
                   τρίτα ἀριστοκρατικὰ καὶ πολιτικά, ὅσα τὰ μὲν ἐκ πάντων τὰ δʼ <milestone n="15"
                      ed="Bekker" unit="line"/>ἐκ τινῶν.</p>
                <milestone n="5" unit="Book"/>
-               <p></p>
+               <p/>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1301a2">
                <p>
@@ -3998,7 +4002,7 @@
                      n="35" ed="Bekker" unit="line"/>φυγάδας εἰσδεξάμενοι διὰ μάχης ἐξέβαλον·
                   Ζαγκλαῖοι δὲ Σαμίους ὑποδεξάμενοι ἐξέπεσον αὐτοί· καὶ Ἀπολλωνιᾶται οἱ ἐν τῷ
                   Εὐξείνῳ πόντῳ ἐποίκους ἐπαγαγόμενοι ἐστασίασαν· καὶ Συρακούσιοι μετὰ τὰ τυραννικὰ
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1303b">
                <p>
@@ -4690,7 +4694,7 @@
                   τυγχάνουσιν οὖσαι διαιρεταὶ τυραννίδες. βασιλεία δʼ ὑπὸ μὲν τῶν ἔξωθεν ἥκιστα
                   φθείρεται, διὸ καὶ πολυχρόνιός ἐστιν· ἐξ αὐτῆς δʼ αἱ πλεῖσται φθοραὶ <milestone
                      n="40" ed="Bekker" unit="line"/>συμβαίνουσιν. φθείρεται δὲ κατὰ δύο τρόπους,
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1313a">
                <p>
@@ -4914,7 +4918,7 @@
                      unit="line"/>
                   <milestone ed="P" unit="para"/>τὰ μὲν οὖν περὶ τὰς πολιτείας καὶ τὰ περὶ τὰς
                   μοναρχίας, ἐξ ὧν τε φθείρονται καὶ πάλιν σῴζονται, σχεδὸν εἴρηται περὶ πάντων.
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1316a">
                <p>
@@ -4979,7 +4983,7 @@
                   πλειόνων δʼ οὐσῶν ὀλιγαρχιῶν καὶ δημοκρατιῶν, ὡς μιᾶς οὔσης ἑκατέρας λέγει τὰς
                   μεταβολὰς ὁ Σωκράτης.</p>
                <milestone n="6" unit="Book"/>
-               <p></p>
+               <p/>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1316b2">
                <p>
@@ -5179,7 +5183,7 @@
                   κατὰ τὴν χώραν πλήθους. πῶς μὲν οὖν δεῖ κατασκευάζειν τὴν βελτίστην καὶ πρώτην
                   δημοκρατίαν, εἴρηται· φανερὸν <milestone n="40" ed="Bekker" unit="line"/>δὲ καὶ
                   πῶς τὰς ἄλλας. ἑπομένως γὰρ δεῖ παρεκβαίνειν καὶ τὸ χεῖρον ἀεὶ πλῆθος χωρίζειν.
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1319b">
                <p>
@@ -5448,7 +5452,7 @@
                   περὶ μὲν οὖν τῶν <milestone n="10" ed="Bekker" unit="line"/>ἀρχῶν, ὡς ἐν τύπῳ,
                   σχεδὸν εἴρηται περὶ πασῶν.</p>
                <milestone n="7" unit="Book"/>
-               <p></p>
+               <p/>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1323a2">
                <p>
@@ -5816,7 +5820,7 @@
                   ὅπερ γάρ φασί τινες δεῖν ὑπάρχειν τοῖς φύλαξι, τὸ φιλητικοὺς μὲν <milestone n="40"
                      ed="Bekker" unit="line"/>εἶναι τῶν γνωρίμων πρὸς δὲ τοὺς ἀγνῶτας ἀγρίους, ὁ
                   θυμός ἐστιν ὁ ποιῶν τὸ φιλητικόν· αὕτη γάρ ἐστιν ἡ τῆς ψυχῆς δύναμις ᾗ φιλοῦμεν.
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1328a">
                <p>
@@ -6054,7 +6058,7 @@
                   τὴν ὑπεροχὴν γίγνεσθαι τῶν ἐπιόντων τῆς ἀνθρωπίνης τῆς ἐν τοῖς ὀλίγοις ἀρετῆς, εἰ
                   δεῖ σῴζεσθαι <milestone n="40" ed="Bekker" unit="line"/>καὶ μὴ πάσχειν κακῶς μηδὲ
                   ὑβρίζεσθαι, τὴν ἀσφαλεστάτην ἐρυμνότητα τῶν τειχῶν οἰητέον εἶναι πολεμικωτάτην,
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1331a">
                <p>
@@ -6512,7 +6516,7 @@
                   τὴν ἐπιμέλειαν αὐτῶν ἢ κατʼ ἴδιον τρόπον ʽὃ γίγνεται καὶ νῦν ἐν ταῖς πλείσταις τῶν
                   πόλεων̓, τρίτον δὲ ποίαν τινὰ δεῖ ταύτην <add>εἶναι</add>.</p>
                <milestone n="8" unit="Book"/>
-               <p></p>
+               <p/>
             </div>
             <div type="textpart" subtype="bekkerpage" n="1337a2">
                <p>

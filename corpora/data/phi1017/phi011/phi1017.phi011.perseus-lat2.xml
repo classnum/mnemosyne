@@ -59,6 +59,10 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS
+                via HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate
+                lines where needed adding letters to numbers in @n, fix Latin content in some bibl
+                tags erroneously in Greek, update EpiDoc schema metadata.</change>
             <change when="2015-11-12" who="Thibault Clerice">New URN, Epidoc and CTS</change>
             <change when="2007-01-01" who="gcrane">Tagging</change>
         </revisionDesc>
@@ -106,7 +110,7 @@
                             <l>et propior nocti fessas quatiebat habenas</l>
                             <l>obliquo flexam deducens tramite lucem:</l>
                         </quote>
-                   </p>
+                    </p>
                 </div>
                 <div type="textpart" subtype="section" n="3">
                     <p>Claudius animam agere coepit nec invenire exitum poterat. Tum Mercurius, qui
@@ -270,7 +274,7 @@
                             causidicos audirem diem et noctem, in quos si incidisses, valde fortis
                             licet tibi videaris, maluisses cloacas Augeae purgare: multo plus ego
                             stercoris exhausi. Sed quoniam volo</quote>
-                   </p>
+                    </p>
                 </div>
                 <div type="textpart" subtype="section" n="8">
                     <p><quote>Non mirum quod in curiam impetum fecisti: nihil tibi clausi est. Modo

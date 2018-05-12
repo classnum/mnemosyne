@@ -52,6 +52,10 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc>
+			<change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS
+				via HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate
+				lines where needed adding letters to numbers in @n, fix Latin content in some bibl
+				tags erroneously in Greek, update EpiDoc schema metadata.</change>
 			<change><date>31-Jan-00</date><label>ed.</label><name>AEM</name>convert to P3 $Log:
 				aristot.vir_gk.xml,v $ Revision 1.1 2011-01-01 21:59:46 gcrane QUOTE tags added DEL
 				tags added ADD tags added GAP entities added Revision 1.3 2010/06/16 19:18:48
@@ -222,7 +226,8 @@
 					ἄτην καὶ ἀτυχίαν κρίνειν μεγάλην, ὀδύρεσθαι δʼ ἐπὶ πᾶσι καὶ δυσφορεῖν. ἔτι δὲ
 					τοιοῦτός ἐστιν ὁ μικρόψυχος οἷος πάντα τὰ ὀλιγωρήματα καλεῖν ὕβριν καὶ ἀτιμίαν,
 					καὶ τὰ διʼ ἄγνοιαν ἢ λήθην γιγνόμενα. ἀκολουθεῖ δὲ τῇ μικροψυχίᾳ μικρολογία,
-						<milestone n="25" unit="bekkerline"/>μεμψιμοιρία, δυσελπιστία, ταπεινότης.</p>
+						<milestone n="25" unit="bekkerline"/>μεμψιμοιρία, δυσελπιστία,
+					ταπεινότης.</p>
 				<p>καθόλου δὲ τῆς μὲν ἀρετῆς ἐστὶ τὸ ποιεῖν σπουδαίαν τὴν διάθεσιν περὶ τὴν ψυχήν,
 					ἠρεμαίαις καὶ τεταγμέναις κινήσεσι χρωμένην, συμφωνοῦσαν κατὰ πάντα τὰ μέρη· διὸ
 					καὶ δοκεῖ παράδειγμα πολιτείας ἀγαθῆς εἶναι ψυχῆς <milestone n="30"

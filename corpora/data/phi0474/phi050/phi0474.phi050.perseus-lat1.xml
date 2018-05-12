@@ -62,6 +62,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+            HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines
+            where needed adding letters to numbers in @n, fix Latin content in some bibl tags
+            erroneously in Greek, update EpiDoc schema metadata.</change>
          <change who="balmas01" when="2013-09-13">moving Greg's work-in-progress on CTS-izing
             greco-roman collection texts to a Work directory</change>
          <change who="gcrane" when="2013-06-08">TEI XML converted to facilitate CTS
@@ -228,11 +232,11 @@
                      ut in is nulla insit certa iudicandi et adsentiendi nota. ex quo exsistit et
                      illud, multa esse probabilia, quae quamquam non perciperentur, tamen, quia
                      visum quendam haberent insignem et inlustrem, his sapientis vita regeretur.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="13" subtype="section">
-                  <p>Sed iam, ut omni me invidia liberem, ponam in medio sententias philosophorum
-                     de natura deorum. quo quidem loco convocandi omnes videntur, qui quae sit earum
+                  <p>Sed iam, ut omni me invidia liberem, ponam in medio sententias philosophorum de
+                     natura deorum. quo quidem loco convocandi omnes videntur, qui quae sit earum
                      vera iudicent; tum demum mihi procax Academia videbitur, si aut consenserint
                      omnes aut erit inventus aliquis qui quid verum sit invenerit. itaque mihi libet
                      exclamare ut in Synephebis: <quote rend="blockquote">
@@ -248,7 +252,7 @@
                <div type="textpart" n="14" subtype="section">
                   <p>profecto eos ipsos, qui se aliquid certi habere arbitrantur, addubitare coget
                      doctissimorum hominum de maxuma re tanta dissensio. <pb n="p.7"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="15" subtype="section">
                   <p>Quod cum saepe alias tum maxime animadverti cum apud C. Cottam familiarem meum
@@ -261,7 +265,7 @@
                   <p>Tum ut me Cotta vidit <quote>Peroportune</quote> inquit <quote>venis; oritur
                         enim mihi magna de re altercatio cum Velleio, cui pro tuo studio non est
                         alienum te interesse.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="16" subtype="section">
                   <p>
@@ -269,13 +273,13 @@
                         oportune. tres enim trium disciplinarum principes convenistis. M. enim Piso
                         si adesset, nullius philosophiae, earum quidem quae in honore sunt, vacaret
                         locus.</quote>
-                 </p>
+                  </p>
                   <p>Tum Cotta <quote>Si</quote> inquit <quote>liber Antiochi nostri, qui ab eo
                         nuper ad hunc Balbum missus est, vera loquitur, nihil est quod Pisonem
                         familiarem tuum desideres; Antiocho enim Stoici cum Peripateticis re
                         concinere videntur verbis discrepare; quo de libro Balbe velim scire quid
                         sentias.</quote>
-                 </p>
+                  </p>
                   <p>
                      <quote>Egone</quote> inquit ille, <quote>miror Antiochum hominem in primis
                         acutum non vidisse interesse plurimum inter Stoicos, qui honesta a commodis
@@ -292,17 +296,17 @@
                         deorum, quae cum mihi videretur perobscura, ut semper videri solet, Epicuri
                         ex Velleio sciscitabar sententiam. quam ob rem</quote> inquit <quote>Vellei,
                         nisi molestum est, repete quae coeperas.</quote>
-                 </p>
+                  </p>
                   <p>
                      <quote>Repetam vero, quamquam non mihi sed tibi hic venit adiutor; ambo
                         enim</quote> inquit adridens <quote>ab eodem Philone nihil scire
                         didicistis.</quote>
-                 </p>
+                  </p>
                   <p>Tum ego: <quote>Quid didicerimus Cotta viderit, tu autem nolo existimes me
                         adiutorem huic venisse sed auditorem, et quidem aecum, libero iudicio, nulla
                         eius modi adstrictum necessitate, ut mihi velim nolim sit certa quaedam
                         tuenda sententia.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="18" subtype="section">
                   <p>Tum Velleius fidenter sane, ut solent isti, nihil tam verens quam ne dubitare
@@ -549,7 +553,7 @@
                      perpetuae et aeternae vim, quae quasi dux vitae et magistra officiorum sit,
                      Iovem dicit esse, eandemque fatalem necessitatem appellat sempiternam rerum
                      futurarum veritatem; quorum nihil tale est ut in eo vis divina inesse videatur.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="41" subtype="section">
                   <p>et haec quidem in primo libro de natura deorum; in secundo autem volt Orphei
@@ -646,9 +650,9 @@
                      sit et beata natura et aeterna.</p>
                </div>
                <div type="textpart" n="50" subtype="section">
-                  <p>Summa vero vis infinitatis et magna ac diligenti contemplatione dignissima
-                     est. in qua intellegi necesse est eam esse naturam ut omnia omnibus paribus
-                     paria respondeant; hanc <foreign xml:lang="grc">i)sonomi/an</foreign> appellat
+                  <p>Summa vero vis infinitatis et magna ac diligenti contemplatione dignissima est.
+                     in qua intellegi necesse est eam esse naturam ut omnia omnibus paribus paria
+                     respondeant; hanc <foreign xml:lang="grc">i)sonomi/an</foreign> appellat
                      Epicurus id est aequabilem tributionem. ex hac igitur illud efficitur, si <pb
                         n="p.21"/> mortalium tanta multitudo sit, esse inmortalium non minorem, et
                      si quae interimant innumerabilia sint, etiam ea quae conservent infinita esse
@@ -701,7 +705,7 @@
                      videantur omnia. sequitur <foreign xml:lang="grc">mantikh\</foreign> vestra,
                      quae Latine divinatio dicitur, qua tanta inbueremur superstitione si vos audire
                      vellemus, ut haruspices augures harioli vates coniectores nobis essent colendi.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="56" subtype="section">
                   <p>His terroribus ab Epicuro soluti et in libertatem vindicati nec metuimus eos
@@ -819,7 +823,7 @@
                      corpusculis tam praeclara opera nulla moderante natura nulla ratione
                      fingentibus? Sed oblitus liberalitatis meae, qua tecum paulo ante uti coeperam,
                      plura complector. Concedam igitur ex individuis constare omnia; quid ad rem?
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="68" subtype="section">
                   <p>deorum enim natura quaeritur. sint sane ex atomis; non igitur aeterni. †quia
@@ -829,7 +833,7 @@
                      significatis deum? Quod cum efficere vultis, in dumeta conrepitis. ita enim
                      dicebas, non corpus esse in deo sed quasi corpus, nec sanguinem sed tamquam
                      sanguinem. <pb n="p.27"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="69" subtype="section">
                   <p>Hoc persaepe facitis, ut, cum aliquid non veri simile dicatis et effugere
@@ -1129,7 +1133,7 @@
                      ut concedamus eandem hominum esse et deorum figuram. omnis cultus et curatio
                      corporis erit eadem adhibenda deo quae adhibetur homini, ingressus cursus
                      accubitio inclinatio sessio conprehensio, ad extremum etiam sermo et oratio.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="95" subtype="section">
                   <p>nam quod et maris deos et feminas esse dicitis, quid sequatur videtis. equidem
@@ -1277,7 +1281,7 @@
                      collibitum est praesto est imago; quid quod etiam ad dormientem veniunt
                      invocatae. tota res Vellei nugatoria est. Vos autem non modo oculis imagines
                      sed etiam animis inculcatis: tanta est inpunitas garriendi. At quam licenter.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="109" subtype="section">
                   <p>"Fluentium frequenter transitio fit visionum, ut e multis una <pb n="p.43"/>
@@ -1389,7 +1393,7 @@
                      cognoscitur quam deorum.</p>
                </div>
                <div type="textpart" n="120" subtype="section">
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="121" subtype="section">
                   <p>Mihi quidem etiam Democritus vir magnus in primis, cuius fontibus Epicurus
@@ -1457,7 +1461,7 @@
                         nec subtilitate sententiarum si orationis est siccitas. tu autem Cotta
                         utraque re valuisti; corona tibi et iudices defuerunt. Sed ad ista alias,
                         nunc Lucilium, si ipsi commodum est, audiamus.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="2" subtype="section">
                   <p>Tum Balbus: 'Eundem equidem mallem audire Cottam, dum qua eloquentia falsos
@@ -1470,7 +1474,7 @@
                         talibus praesertim de rebus, quid non sentirem quam quid sentirem posse
                         dicere? quod si haberem aliquid quod liqueret, tamen te vicissim audire
                         vellem, cum ipse tam multa dixissem.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="3" subtype="section">
                   <p>Tum Balbus: <quote>Geram tibi morem et agam quam brevissume potero; etenim
@@ -1480,11 +1484,11 @@
                         administrari, postremo consulere eos rebus humanis. nos autem hoc sermone
                         quae priora duo sunt sumamus; tertium et <pb n="p.50"/> quartum, quia maiora
                         sunt, puto esse in aliud tempus differenda.</quote>
-                 </p>
+                  </p>
                   <p>
                      <quote>Minime vero</quote> inquit Cotta; <quote>nam et otiosi sumus et his de
                         rebus agimus, quae sunt etiam negotiis anteponenda.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="4" subtype="section">
                   <p>Tum Lucilius <quote>Ne egere quidem videtur</quote> inquit “oratione prima
@@ -1683,11 +1687,11 @@
                      premebat:</p>
                </div>
                <div type="textpart" n="21" subtype="section">
-                  <p>"Quod ratione utitur id melius est quam id quod ratione non utitur; nihil
-                     autem mundo melius; ratione igitur mundus utitur". similiter effici potest
-                     sapientem esse mundum, similiter beatum, similiter aeternum; omnia enim haec
-                     meliora sunt quam ea quae sunt his carentia, nec mundo quicquam melius. ex quo
-                     efficietur esse mundum deum.</p>
+                  <p>"Quod ratione utitur id melius est quam id quod ratione non utitur; nihil autem
+                     mundo melius; ratione igitur mundus utitur". similiter effici potest sapientem
+                     esse mundum, similiter beatum, similiter aeternum; omnia enim haec meliora sunt
+                     quam ea quae sunt his carentia, nec mundo quicquam melius. ex quo efficietur
+                     esse mundum deum.</p>
                </div>
                <div type="textpart" n="22" subtype="section">
                   <p>Idemque hoc modo: "Nullius sensu carentis pars aliqua potest esse sentiens;
@@ -2034,7 +2038,7 @@
                      autem hanc propius a terra Iovis stella fertur, quae <foreign xml:lang="grc"
                         >*fae/qwn</foreign> dicitur, eaque eundem duodecim signorum orbem annis
                      duodecim conficit easdemque quas Saturni stella efficit in cursu varietates.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="53" subtype="section">
                   <p>Huic autem proximum inferiorem orbem tenet <foreign xml:lang="grc"
@@ -2068,7 +2072,7 @@
                      secretam et liberam. earum autem perennes cursus atque perpetui cum admirabili
                      incredibilique constantia declarant in his vim et mentem esse divinam, ut haec
                      ipsa qui non sentiat deorum vim habere is nihil omnino sensurus esse videatur.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="56" subtype="section">
                   <p>Nulla igitur in caelo nec fortuna nec temeritas nec erratio nec vanitas inest
@@ -2102,11 +2106,11 @@
                      sit atque omnis ornatus.</p>
                </div>
                <div type="textpart" n="59" subtype="section">
-                  <p>Dictum est de universo mundo, dictum etiam est de sideribus, ut iam prope
-                     modum appareat multitudo nec cessantium deorum nec ea quae agant molientium cum
-                        <pb n="p.72"/> labore operoso ac molesto. non enim venis et nervis et
-                     ossibus continentur nec his escis aut potionibus vescuntur, ut aut nimis acres
-                     aut nimis concretos umores colligant, nec is corporibus sunt ut casus aut ictus
+                  <p>Dictum est de universo mundo, dictum etiam est de sideribus, ut iam prope modum
+                     appareat multitudo nec cessantium deorum nec ea quae agant molientium cum <pb
+                        n="p.72"/> labore operoso ac molesto. non enim venis et nervis et ossibus
+                     continentur nec his escis aut potionibus vescuntur, ut aut nimis acres aut
+                     nimis concretos umores colligant, nec is corporibus sunt ut casus aut ictus
                      extimescant aut morbos metuant ex defetigatione membrorum, quae verens Epicurus
                      monogrammos deos et nihil agentes commentus est.</p>
                </div>
@@ -2184,22 +2188,22 @@
                         <l>qui terram tenero circumiectu amplectitur: </l>
                         <l>hunc summum habeto divum, hunc perhibeto Iovem.</l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="66" subtype="section">
-                  <p>Aer autem, ut Stoici disputant, interiectus inter mare <pb n="p.75"/> et
-                     caelum Iunonis nomine consecratur, quae est soror et coniux Iovis, quod
-                        <add>ei</add> et similitudo est aetheris et cum eo summa coniunctio.
-                     effeminarunt autem eum Iunonique tribuerunt, quod nihil est eo mollius. sed
-                     Iunonem a iuvando credo nominatam. Aqua restabat et terra, ut essent ex fabulis
-                     tria regna divisa. datum est igitur Neptuno alterum, Iovis ut volumus fratri,
-                     maritimum omne regnum, nomenque productum ut Portunus a porta sic Neptunus a
-                     nando, paulum primis litteris immutatis. Terrena autem vis omnis atque natura
-                     Diti patri dedicata est, qui dives ut apud Graecos <foreign xml:lang="grc"
-                        >*plou/- twn</foreign>, quia et recidunt omnia in terras et oriuntur e
-                     terris. †Cui Proserpinam (quod Graecorum nomen est, ea enim est quae <foreign
-                        xml:lang="grc">*persefo/nh</foreign> Graece nominatur)—quam frugum semen
-                     esse volunt absconditamque quaeri a matre fingunt.</p>
+                  <p>Aer autem, ut Stoici disputant, interiectus inter mare <pb n="p.75"/> et caelum
+                     Iunonis nomine consecratur, quae est soror et coniux Iovis, quod <add>ei</add>
+                     et similitudo est aetheris et cum eo summa coniunctio. effeminarunt autem eum
+                     Iunonique tribuerunt, quod nihil est eo mollius. sed Iunonem a iuvando credo
+                     nominatam. Aqua restabat et terra, ut essent ex fabulis tria regna divisa.
+                     datum est igitur Neptuno alterum, Iovis ut volumus fratri, maritimum omne
+                     regnum, nomenque productum ut Portunus a porta sic Neptunus a nando, paulum
+                     primis litteris immutatis. Terrena autem vis omnis atque natura Diti patri
+                     dedicata est, qui dives ut apud Graecos <foreign xml:lang="grc">*plou/-
+                        twn</foreign>, quia et recidunt omnia in terras et oriuntur e terris. †Cui
+                     Proserpinam (quod Graecorum nomen est, ea enim est quae <foreign xml:lang="grc"
+                        >*persefo/nh</foreign> Graece nominatur)—quam frugum semen esse volunt
+                     absconditamque quaeri a matre fingunt.</p>
                </div>
                <div type="textpart" n="67" subtype="section">
                   <p>Mater autem est a gerendis frugibus Ceres tamquam geres, casuque prima littera
@@ -2359,7 +2363,7 @@
                      nanctumque sit materiam qua ali augerique possit, ita fingat et efficiat in suo
                      quidque genere, partim ut tantum modo per stirpes alantur suas, partim ut
                      moveri etiam et sentire et appetere possint et ex sese similia sui gignere.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="82" subtype="section">
                   <p>Sunt autem qui <pb n="p.82"/> omnia naturae nomine appellent, ut Epicurus qui
@@ -2511,7 +2515,7 @@
                      templum cur domum cur urbem non potest, quae sunt minus operosa; et multa
                      quidem faciliora. certe ita temere de mundo effuttiunt, ut mihi quidem numquam
                      hunc admirabilem caeli ornatum (qui locus est proxumus) suspexisse videantur.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="95" subtype="section">
                   <p>Praeclare ergo Aristoteles "Si essent" inquit "qui sub terra semper
@@ -2618,7 +2622,7 @@
                         <l>cetera labuntur celeri caelestia motu </l>
                         <l>cum caeloque simul noctesque diesque feruntur,</l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="105" subtype="section">
                   <p>quorum contemplatione nullius expleri potest animus naturae constantiam videre
@@ -2634,7 +2638,7 @@
                         rend="blockquote">
                         <l>nostri Septem soliti vocitare Triones;</l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="106" subtype="section">
                   <p>paribusque stellis similiter distinctis eundem caeli verticem lustrat parva
@@ -2650,7 +2654,7 @@
                         <l>torvus Draco serpit supter supraque revolvens</l>
                         <l>sese conficiensque sinus e corpore flexos.</l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="107" subtype="section">
                   <p>eius cum totius est praeclara species <add>tum</add> in primis aspicienda est
@@ -2662,7 +2666,7 @@
                         <l>opstipum caput, a<add>t</add> tereti cervice reflexum</l>
                         <l>optutum in cauda maioris figere dicas.</l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="108" subtype="section">
                   <p>et relicum quidem corpus Draconis totis noctibus cernimus, <quote
@@ -2682,7 +2686,7 @@
                         rend="blockquote">
                         <l>quem claro perhibent Ophiuchum nomine Graii.</l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="109" subtype="section">
                   <p>
@@ -2749,7 +2753,7 @@
                         <l>et magis horriferis aquilonis tangitur auris.</l>
                      </quote>
                      <pb n="p.94"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="112" subtype="section">
                   <p>Ad pedes Andromedae Perseus describitur, <quote rend="blockquote">
@@ -2771,7 +2775,7 @@
                         <l>quem cum perpetuo vestivit lumine Titan,</l>
                         <l>brumali flectens contorquet tempore currum.</l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="113" subtype="section">
                   <p>Hic autem aspicitur <quote rend="blockquote">
@@ -2786,7 +2790,7 @@
                         <l>exinde Orion obliquo corpore nitens.</l>
                      </quote>
                      <pb n="p.95"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="114" subtype="section">
                   <p>quem subsequens <quote rend="blockquote">
@@ -2818,7 +2822,7 @@
                         <l>rostro tundit, et hic Geminis est ille sub ipsis</l>
                         <l>Ante Canem, Procyon Graio qui nomine fertur.</l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="115" subtype="section">
                   <p>Haec omnis descriptio siderum atque hic tantus caeli <pb n="p.96"/> ornatus ex
@@ -3092,17 +3096,17 @@
                      /> admodum multas in omnes partes corporis pertinentes.</p>
                </div>
                <div type="textpart" n="138" subtype="section">
-                  <p>Quem ad modum autem reliquiae cibi depellantur tum astringentibus se
-                     intestinis tum relaxantibus, haud sane difficile dictu est, sed tamen
-                     praetereundum est, ne quid habeat iniucunditatis oratio. Illa potius explicetur
-                     incredibilis fabrica naturae: nam quae spiritu in pulmones anima ducitur, ea
-                     calescit primum ipso ab spiritu, deinde contagione pulmonum, ex eaque pars
-                     redditur respirando, pars concipitur cordis parte quadam quam ventriculum
-                     cordis appellant, cui similis alter adiunctus est, in quem sanguis a iecore per
-                     venam illam cavam influit. eoque modo ex is partibus et sanguis per venas in
-                     omne corpus diffunditur et spiritus per arterias; utraeque autem crebrae
-                     multaeque toto corpore intextae vim quandam incredibilem artificiosi operis
-                     divinique testantur.</p>
+                  <p>Quem ad modum autem reliquiae cibi depellantur tum astringentibus se intestinis
+                     tum relaxantibus, haud sane difficile dictu est, sed tamen praetereundum est,
+                     ne quid habeat iniucunditatis oratio. Illa potius explicetur incredibilis
+                     fabrica naturae: nam quae spiritu in pulmones anima ducitur, ea calescit primum
+                     ipso ab spiritu, deinde contagione pulmonum, ex eaque pars redditur respirando,
+                     pars concipitur cordis parte quadam quam ventriculum cordis appellant, cui
+                     similis alter adiunctus est, in quem sanguis a iecore per venam illam cavam
+                     influit. eoque modo ex is partibus et sanguis per venas in omne corpus
+                     diffunditur et spiritus per arterias; utraeque autem crebrae multaeque toto
+                     corpore intextae vim quandam incredibilem artificiosi operis divinique
+                     testantur.</p>
                </div>
                <div type="textpart" n="139" subtype="section">
                   <p>Quid dicam de ossibus; quae subiecta corpori mirabiles commissuras habent et ad
@@ -3249,7 +3253,7 @@
                      aptas et ad ornatum decoras. Arborum autem confectione omnique materia et culta
                      et silvestri partim ad calficiendum corpus igni adhibito et ad mitigandum cibum
                      utimur, partim ad aedificandum, ut tectis saepti frigora caloresque pellamus;
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="152" subtype="section">
                   <p>magnos vero usus adfert ad navigia facienda, quorum cursibus suppeditantur
@@ -3311,9 +3315,9 @@
                      ut dixi fruuntur, domini palam et libere;</p>
                </div>
                <div type="textpart" n="158" subtype="section">
-                  <p>hominum igitur causa eas rerum copias comparatas fatendum est. nisi forte
-                     tanta ubertas varietas<add>que</add> pomorum eorumque iucundus non gustatus
-                     solum sed <pb n="p.114"/> odoratus etiam et aspectus dubitationem adfert quin
+                  <p>hominum igitur causa eas rerum copias comparatas fatendum est. nisi forte tanta
+                     ubertas varietas<add>que</add> pomorum eorumque iucundus non gustatus solum sed
+                        <pb n="p.114"/> odoratus etiam et aspectus dubitationem adfert quin
                      hominibus solis ea natura donaverit. Tantumque abest ut haec bestiarum etiam
                      causa parata sint, ut ipsas bestias hominum gratia generatas esse videamus.
                      quid enim oves aliud adferunt nisi ut earum villis confectis atque contextis
@@ -3412,7 +3416,7 @@
                      invisum deo aut neglectum a deo iudicemus. magna di curant, parva neglegunt.
                      magnis autem viris prosperae semper omnes res, si quidem satis a nostris et a
                      principe philosophiae Socrate dictum est de ubertatibus virtutis et copiis.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="168" subtype="section">
                   <p>Haec mihi fere in mentem veniebant quae dicenda putarem de natura deorum. tu
@@ -3433,19 +3437,19 @@
                         contra dicerem mecum ipse meditabar, neque tam refellendi tui causa quam ea
                         quae minus intellegebam requirendi. cum autem suo cuique iudicio sit
                         utendum, difficile factu est me id sentire quod tu velis.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="2" subtype="section">
                   <p>Hic Velleius <quote>Nescis</quote> inquit <quote>quanta cum expectatione Cotta
                         sim te auditurus. iucundus enim Balbo nostro sermo tuus contra Epicurum
                         fuit; praebebo igitur ego me tibi vicissim attentum contra Stoicos
                         auditorem. spero enim te ut soles bene paratum venire.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="3" subtype="section">
                   <p>Tum Cotta <quote>Sic mehercule</quote> inquit <quote>Vellei; neque enim mihi
                         par ratio cum Lucilio est ac tecum fuit.</quote>
-                 </p>
+                  </p>
                   <p>
                      <quote>Qui tandem</quote> inquit ille.</p>
                   <p>“Quia mihi videtur Epicurus vester de dis immortalibus non magnopere pugnare:
@@ -3465,7 +3469,7 @@
                         me interrogare non tam intellegendi causa quam refellendi, utrum voles
                         faciam, vel ad singula quae requires statim respondebo vel cum peroraris ad
                         omnia.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="5" subtype="section">
                   <p>Tum Cotta <quote>Optime</quote> inquit; 'quam ob rem sic agamus ut nos ipsa
@@ -3485,7 +3489,7 @@
                      religionum nullam umquam contemnendam putavi mihique ita persuasi, Romulum
                      auspiciis Numam sacris constitutis fundamenta iecisse nostrae civitatis, quae
                      numquam profecto sine summa placatione deorum inmortalium tanta esse potuisset.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="6" subtype="section">
                   <p>Habes Balbe quid Cotta quid pontifex sentiat; fac nunc ego intellegam <pb
@@ -3493,32 +3497,32 @@
                      religionis, maioribus autem nostris etiam nulla ratione reddita credere.'</p>
                   <p>Tum Balbus <quote>Quam igitur a me rationem</quote> inquit <quote>Cotta
                         desideras?</quote>
-                 </p>
+                  </p>
                   <p>Et ille <quote>Quadripertita</quote> inquit <quote>fuit divisio tua, primum ut
                         velles docere deos esse, deinde quales essent, tum ab is mundum regi,
                         postremo consulere eos rebus humanis. haec, si recte memini, partitio
                         fuit.</quote>
-                 </p>
+                  </p>
                   <p>
                      <quote>Rectissume</quote> inquit Balbus; <quote>sed expecto quid
                         requiras.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="7" subtype="section">
                   <p>Tum Cotta <quote>Primum quidque videamus</quote> inquit <quote>et si id est
                         primum, quod inter omnis nisi admodum impios convenit, mihi quidem ex animo
                         exuri non potest, esse deos, id tamen ipsum, quod mihi persuasum est
                         auctoritate maiorum, cur ita sit nihil tu me doces.</quote>
-                 </p>
+                  </p>
                   <p>
                      <quote>Quid est</quote> inquit Balbus, <quote>si tibi persuasum est, cur a me
                         velis discere?</quote>
-                 </p>
+                  </p>
                   <p>Tum Cotta <quote>Quia sic adgredior</quote> inquit <quote>ad hanc
                         disputationem, quasi nihil umquam audierim de dis immortalibus nihil
                         cogitaverim; rudem me et integrum discipulum accipe et ea quae requiro
                         doce.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="8" subtype="section">
                   <p>
@@ -3527,7 +3531,7 @@
                      <quote>Egone, primum illud, cur, quom <del>perspicuum in</del> istam partem ne
                         egere quidem oratione dixisses, quod esset perspicuum et inter omnis
                         constaret <add>deos esse</add>, de eo ipso tam multa dixeris.</quote>
-                 </p>
+                  </p>
                   <p>
                      <quote>Quia te quoque</quote> inquit <quote>animadverti Cotta saepe cum in foro
                         diceres quam plurimis posses argumentis onerare iudicem, si modo eam
@@ -3535,7 +3539,7 @@
                            <pb n="p.121"/> potui feci. tu autem quod quaeris similiter facis ac si
                         me roges cur te duobus contuear oculis et non altero coniveam, cum idem uno
                         adsequi possim.</quote>
-                 </p>
+                  </p>
                   <p>Tum Cotta <quote>Quam simile istud sit</quote> inquit “tu videris.</p>
                </div>
                <div type="textpart" n="9" subtype="section">
@@ -3585,7 +3589,7 @@
                         nonne senatus consultum de Vatinio vides? nam de Sagra Graecorum etiam est
                         volgare proverbium, qui quae adfirmant certiora esse dicunt quam illa quae
                         apud Sagram. his igitur auctoribus nonne debes moveri?</quote>
-                 </p>
+                  </p>
                   <p>Tum Cotta <quote>Rumoribus</quote> inquit “mecum pugnas Balbe, ego autem a te
                      rationes requiro * * * * <pb n="p.123"/> * secuntur quae futura sunt;</p>
                </div>
@@ -3654,7 +3658,7 @@
                         quaestionibus tu quidem strictim nostri autem multa solent dicere, sed ab
                         hac ea quaestione quae nunc in manibus est separantur; quare si videtur noli
                         agere confuse, ut hoc explicemus, hac disputatione quod quaeritur.</quote>
-                 </p>
+                  </p>
                   <p>
                      <quote>Optime</quote> inquit Cotta.</p>
                </div>
@@ -3751,7 +3755,7 @@
                      cohaeret et permanet naturae viribus non deorum, estque in ea iste quasi
                      consensus, quam <foreign xml:lang="grc">sunpa/qeian</foreign> Graeci vocant;
                      sed ea quo sua sponte maior est eo minus divina ratione fieri existimanda est.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="29" subtype="section">
                   <p>Illa autem, quae Carneades adferebat, quem ad <pb n="p.129"/> modum
@@ -3889,17 +3893,16 @@
                      facit ab Ulixe sicut ceteros qui excesserant vita.</p>
                </div>
                <div type="textpart" n="42" subtype="section">
-                  <p>Quamquam quem potissimum Herculem colamus scire sane velim; pluris enim
-                     tradunt nobis i qui interiores <pb n="p.134"/> scrutantur et reconditas
-                     litteras, antiquissimum Iove natum—sed item Iove antiquissimo, nam Ioves quoque
-                     pluris in priscis Graecorum litteris invenimus: ex eo igitur et Lysithoe est is
-                     Hercules quem concertavisse cum Apolline de tripode accepimus. alter traditur
-                     Nilo natus Aegyptius, quem aiunt Phrygias litteras conscripsisse. tertius est
-                     ex Idaeis Digitis, cui inferias adferunt †cui. quartus Iovis est <add>et</add>
-                     Asteriae Latonae sororis, qui Tyri maxime colitur, cuius Carthaginem filiam
-                     ferunt, quintus in India qui Belus dicitur, sextus hic ex Alcmena quem Iuppiter
-                     genuit, sed tertius Iuppiter, quoniam ut iam docebo pluris Ioves etiam
-                     accepimus.</p>
+                  <p>Quamquam quem potissimum Herculem colamus scire sane velim; pluris enim tradunt
+                     nobis i qui interiores <pb n="p.134"/> scrutantur et reconditas litteras,
+                     antiquissimum Iove natum—sed item Iove antiquissimo, nam Ioves quoque pluris in
+                     priscis Graecorum litteris invenimus: ex eo igitur et Lysithoe est is Hercules
+                     quem concertavisse cum Apolline de tripode accepimus. alter traditur Nilo natus
+                     Aegyptius, quem aiunt Phrygias litteras conscripsisse. tertius est ex Idaeis
+                     Digitis, cui inferias adferunt †cui. quartus Iovis est <add>et</add> Asteriae
+                     Latonae sororis, qui Tyri maxime colitur, cuius Carthaginem filiam ferunt,
+                     quintus in India qui Belus dicitur, sextus hic ex Alcmena quem Iuppiter genuit,
+                     sed tertius Iuppiter, quoniam ut iam docebo pluris Ioves etiam accepimus.</p>
                </div>
                <div type="textpart" n="43" subtype="section">
                   <p>Quando enim me in hunc locum deduxit oratio, docebo meliora me didicisse de
@@ -3991,7 +3994,7 @@
                      Alabandenses quidem sanctius Alabandum colunt, a quo est urbs illa condita,
                      quam quemquam nobilium deorum; apud quos non inurbane Stratonicus ut multa, cum
                      quidam ei molestus Alabandum deum esse confirmaret Herculem negaret, "ergo"
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="51" subtype="section">
                   <p>inquit "mihi Alabandus tibi Hercules sit iratus". Illa autem Balbe, quae tu a
@@ -4017,8 +4020,8 @@
                      nihil ergo horum probandum est.</p>
                </div>
                <div type="textpart" n="53" subtype="section">
-                  <p>Dicamus igitur Balbe oportet contra illos etiam, qui hos deos ex hominum
-                     genere in caelum translatos non re sed opinione esse dicunt, quos auguste omnes
+                  <p>Dicamus igitur Balbe oportet contra illos etiam, qui hos deos ex hominum genere
+                     in caelum translatos non re sed opinione esse dicunt, quos auguste omnes
                      sancteque veneramur. Principio Ioves tres numerant <pb n="p.139"/> i qui
                      theologi nominantur, ex quibus primum et secundum natos in Arcadia, alterum
                      patre Aethere, ex quo etiam Proserpinam natam ferunt et Liberum, alterum patre
@@ -4151,7 +4154,7 @@
                   <p>
                      <quote>Mihi vero</quote> inquit Velleius <quote>valde videtur; nam et maiora
                         exspecto et is quae dicta sunt vehementer adsentior.</quote>
-                 </p>
+                  </p>
                   <p>Tum Balbus <quote>Interpellare te</quote> inquit <quote>Cotta nolo, sed sumemus
                         tempus aliud; efficiam profecto ut fateare. sed * * </quote>
                      <note>
@@ -4186,7 +4189,7 @@
                               habeant de sideribus pastus indigentibus</quote>
                            <quote>de natura artificiose ambulante</quote>
                            <quote>mundum non aedificatum sed a natura conformatum</quote>
-                       </p>
+                        </p>
                      </note> * * * <pb n="p.145"/> Primum igitur non est probabile eam materiam
                      rerum unde omnia orta sunt esse divina providentia effectam, sed et habere et
                      habuisse vim et naturam suam. ut igitur faber cum quid aedificaturus est non
@@ -4229,7 +4232,7 @@
                            <quote>homines omnibus bestiis antecedunt</quote>
                            <bibl>Diom. GL. 1.313.10</bibl>
                         </cit>
-                    </p>
+                     </p>
                   </note>
                   <p>
                      <gap reason="omitted"/>homines omnibus bestiis antecedunt</p>
@@ -4239,7 +4242,7 @@
                         <l>nam ut ego illi supplicarem tanta blandiloquentia,</l>
                         <l>ni ob rem:</l>
                      </quote> parumne ratiocinari videtur et sibi ipsa nefariam pestem machinari?
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="66" subtype="section">
                   <p>illud vero quam callida ratione: <quote rend="blockquote">
@@ -4463,7 +4466,7 @@
                      excarnificatum accepimus, Zenonem Eleatem in tormentis necatum; quid dicam de
                      Socrate, cuius morti inlacrimare soleo Platonem legens? Videsne igitur <pb
                         n="p.154"/> deorum iudicio, si vident res humanas, discrimen esse sublatum?
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="83" subtype="section">
                   <p>Diogenes quidem Cynicus dicere solebat Harpalum, qui temporibus illis praedo
@@ -4585,7 +4588,7 @@
                      universae fictricem et moderatricem divinam esse providentiam; haec igitur
                      quocumque se moveat, efficere posse quicquid velit. Itaque aut nescit quid
                      possit, aut neglegit res humanas, aut quid sit optimum non potest iudicare.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="93" subtype="section">
                   <p>"Non curat singulos homines." Non mirum: ne civitates quidem; non eas: ne
@@ -4613,7 +4616,7 @@
                         muris, quos vos pontifices sanctos esse dicitis diligentiusque urbem
                         religione quam ipsis moenibus cingitis; quae deseri a me, dum quidem spirare
                         potero, nefas iudico.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="95" subtype="section">
                   <p>Tum Cotta: 'Ego vero et opto redargui me Balbe, et ea quae disputavi disserere
@@ -4622,7 +4625,7 @@
                      <quote>Quippe</quote> inquit Velleius <quote>qui etiam somnia putet ad nos
                         mitti ab Iove, quae ipsa tamen tam levia non sunt quam est Stoicorum de
                         natura deorum oratio.</quote>
-                 </p>
+                  </p>
                   <p>Haec cum essent dicta, ita discessimus, ut Velleio Cottae disputatio verior,
                      mihi Balbi ad veritatis similitudinem videretur esse propensior.</p>
                </div>

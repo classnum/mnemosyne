@@ -89,6 +89,10 @@
       </langUsage>
     </profileDesc>
     <revisionDesc>
+      <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+        HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines where
+        needed adding letters to numbers in @n, fix Latin content in some bibl tags erroneously in
+        Greek, update EpiDoc schema metadata.</change>
       <change when="2016-02-08" who="Lisa Cerrato">CTS structure and minor formatting
         changes</change>
       <change when="2016-02-03" who="Lisa Cerrato">integrating log revisions and other markup;
@@ -655,7 +659,7 @@
                 praeclarum existimassem, eos velle meae fidei diligentiaeque periculum facere qui
                 innocentiae abstinentiaeque fecissent, tum suscepto negotio maius quiddam mihi
                 proposui, in quo meam in rem publicam voluntatem populus Romanus perspicere posset.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="35">
               <p><reg>nam</reg> illud mihi nequaquam dignum industria conatuque meo videbatur, istum
@@ -1109,7 +1113,7 @@
                   dimiserit <hi rend="italics"><foreign xml:lang="grc">p</foreign>b</hi>: <hi
                     rend="italics">om. D<foreign xml:lang="grc">Y</foreign></hi></note> eos, si qui
                 istum tot tantis tam nefariis sceleribus coopertum iurati sententia sua liberarint?
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="10">
               <p><reg>non</reg> est, non est in hoc homine cuiquam peccandi locus, iudices; non is
@@ -1124,7 +1128,7 @@
                     rend="italics">D<foreign xml:lang="grc">Y</foreign></hi></note>, tot
                 civitatibus, tot hominibus honestissimis ex tam inlustri provincia, tot populorum
                 privatorumque litteris non credidisse, tantae populi Romani voluntati restitisse?
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="11">
               <p><reg>sustineant</reg>: reperiemus, si istum vivum ad aliud iudicium perducere
@@ -1170,7 +1174,7 @@
                 Romanus qui ad vos ante<note>antea <hi rend="italics">pb<foreign xml:lang="grc"
                       >d</foreign></hi></note> producti testes ipsis inspectantibus ab isto civem
                 Romanum, qui cognitores homines honestos daret, sublatum esse in crucem dixerunt;
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="14">
               <p>credent omnes v et xxx tribus homini gravissimo atque ornatissimo, M. Annio, qui se
@@ -1479,7 +1483,7 @@
                     >codd.</hi>: scripserunt <hi rend="italics">Hugh E. P. Platt</hi>: <hi
                     rend="italics">fort.</hi> indixerunt</note> ita caverent, 'si post Kalendas
                 Ianuarias in consilium iretur',— in eam diem ego, cum potuissem vitare, incidissem?
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="32">
               <p><reg>nunc</reg> mihi temporis eius quod mihi ad dicendum datur, quoniam in animo
@@ -1992,7 +1996,7 @@
                   ab<note>ab <hi rend="italics">om. Dp</hi></note> eo tabulas postularemus, usque ad
                 M. Terentium et<note>et <hi rend="italics">Dp rell.</hi>: <hi rend="italics">om.
                     Asc.</hi> (v, §34)</note> C. Cassium consules confecisse, postea destitisse.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="61">
               <p>Alio loco hoc cuius modi sit considerabimus; nunc nihil ad me attinet; horum enim
@@ -2116,7 +2120,7 @@
                 ut in convivio virorum accumberent mulieres. <reg>hic</reg> tum alius ex alia parte,
                   '<reg>enim</reg> vero ferendum hoc quidem non est; vocetur mulier!' <reg>et</reg>
                 simul servis suis Rubrius ut ianuam clauderent et ipsi ad foris adsisterent imperat.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="67">
               <p><reg>quod</reg> ubi ille intellexit, id agi atque id parari ut filiae suae vis
@@ -2305,7 +2309,7 @@
                   <reg>expertus</reg> igitur es istius perfidiam tum cum ipse se ad inimicos tuos
                 contulit, cum in te homo ipse nocens acerrimum testimonium dixit, cum rationes ad
                 aerarium nisi damnato te referre noluit. <milestone n="31" unit="chapter"/>
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="78">
               <p><milestone unit="Para"/><reg>tantaene</reg> tuae, Verres, libidines erunt ut eas
@@ -2352,7 +2356,7 @@
                 proposuimus cum illorum testimonia tum istius taciturnitas perpetua
                   confirmat<note>perpetua confirmat <hi rend="italics">Dp rell.</hi>: conf. perp.
                     <hi rend="italics">qr</hi> (<hi rend="italics">Zielinski, p.</hi> 193)</note>?
-             </p>
+              </p>
             </div>
             <milestone n="32" unit="chapter"/>
             <div type="textpart" subtype="section" n="81">
@@ -2768,7 +2772,7 @@
                     rend="italics">SDp</hi>: leges <hi rend="italics">Prisc.</hi></note> aequitas,
                 voluntas patris, edicta praetorum, consuetudo iuris eius quod erat tum cum
                   <reg>asellus</reg> est mortuus<note>mortuus est <hi rend="italics">Kr</hi></note>.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="105">
               <p><reg>iste</reg> praetor designatus—utrum admonitus an temptatus<note>an temptatus
@@ -2791,7 +2795,7 @@
                   ediceret<note>diceret <hi rend="italics">Vb</hi></note>, quam ut hoc edictum
                   tam<note>tam <hi rend="italics">V</hi>: <hi rend="italics">om. SDZpbr</hi>: <hi
                     rend="italics">K Harl.</hi> 5428</note> improbum et tam inhumanum interponeret.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="106">
               <p><reg>tutores</reg> pecuniam praetori si pupillae nomine dedissent, grandem
@@ -3270,7 +3274,7 @@
                 templum in oculis cotidianoque aspectu populi Romani positum est, quo saepe numero
                 senatus convocatur, quo maximarum rerum frequentissimae cotidie advocationes
                 fiunt—in eo loco in sermone hominum audaciae suae monumentum aeternum relinquere.
-             </p>
+              </p>
             </div>
             <milestone n="50" unit="chapter"/>
             <div type="textpart" subtype="section" n="130">
@@ -3542,7 +3546,7 @@
                     >d</foreign></note> sit et novum inductum. <reg>quodsi</reg> tanta pecunia
                 columnas dealbari putassem, certe numquam aedilitatem petivissem<note>petivissem <hi
                     rend="italics">Vpr</hi>: petissem <hi rend="italics">q Prisc. May</hi></note>.
-             </p>
+              </p>
             </div>
             <milestone n="56" unit="chapter"/>
             <milestone unit="Para"/>
@@ -3588,7 +3592,7 @@
                 dubitat quin multo maius sit novam facere. <reg>ostendam</reg> in aedibus privatis
                 longa difficilique vectura columnas singulas ad impluvium HS CCI33 CCI33<note>HS
                   quadragenis milibus <hi rend="italics">pb</hi></note> non minus magnas locatas.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="148">
               <p><reg>sed</reg> ineptum est de tam perspicua eius<note>eius <hi rend="italics"
@@ -3745,7 +3749,7 @@
                 tantum dicam, paucos homines, ut levissime appellem<note>appellem <foreign
                     xml:lang="grc">p</foreign>: dicam <hi rend="italics">Asc.</hi></note>,
                 adrogantes hoc adiutore Q. Opimium per ludum et iocum fortunis omnibus evertisse.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="156">
               <p><milestone unit="Para"/><reg>is</reg> mihi etiam queritur quod a nobis<note>ab
@@ -3760,7 +3764,7 @@
                   <reg>iam</reg> vero in bonis Q. Opimi vendendis quas iste praedas, quam aperte,
                 quam improbe fecerit, longum est dicere: hoc dico, nisi vobis id hominum
                 honestissimorum tabulis planum fecero, fingi a me hoc totum temporis causa putatote.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="157">
               <p><reg>iam</reg> qui ex calamitate senatoris populi Romani, cum praetor iudicio eius
@@ -4007,8 +4011,8 @@
                     >om. CO1</hi></note> praesto fuerunt:</p>
             </div>
             <div type="textpart" subtype="section" n="12">
-              <p>his<note>his <hi rend="italics">CO<foreign xml:lang="grc">p</foreign>b</hi>: hi
-                    <hi rend="italics">rell.</hi></note> porro qui successerunt, vehementer istius
+              <p>his<note>his <hi rend="italics">CO<foreign xml:lang="grc">p</foreign>b</hi>: hi <hi
+                    rend="italics">rell.</hi></note> porro qui successerunt, vehementer istius
                 cupidi, liberaliter ex istius cibariis tractati, non minus acres contra me fuerunt.
                   <reg>videte</reg> quid potuerit qui quattuor in una<note>una <hi rend="italics"
                     >COprk</hi>: <hi rend="italics">om. rell.</hi></note> provincia quaestores
@@ -4446,7 +4450,7 @@
                   Rom. <hi rend="italics">VO</hi>: civ. Rom. conv. <hi rend="italics"><foreign
                       xml:lang="grc">p</foreign>b Asc.</hi></note> proponi solent. <reg>inter</reg>
                 aratores et decumanos lege frumentaria, quam Hieronicam appellant, iudicia fiunt.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="33">
               <p><reg>haec</reg> omnia isto praetore non modo perturbata, sed plane et Siculis et
@@ -4542,7 +4546,7 @@
                 Rupilia vetaret diebus xxx sortiri dicam quibus scripta esset. <reg>dies</reg> xxx
                 nondum fuerant. <reg>sperabat</reg> Heraclius, si illum diem effugisset, ante
                 alteram sortitionem Q. Arrium, quem provincia tum maxime exspectabat, successurum.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="38">
               <p>
@@ -4755,7 +4759,7 @@
                 etiam ipsi illi<note>illi ipsi <hi rend="italics">O</hi></note> auctores iniuriae et
                 ex aliqua particula socii praedae ac rapinarum clamare coeperunt sibi ut haberet
                 hereditatem. <reg>tantus</reg> in curia clamor factus est ut populus concurreret.
-             </p>
+              </p>
             </div>
             <milestone n="20" unit="chapter"/>
             <div type="textpart" subtype="section" n="48">
@@ -5020,7 +5024,7 @@
                   >O</hi></note> constitueretur, et simul illud idem<note>illud idem (item <hi
                     rend="italics">V</hi>) <hi rend="italics">VO</hi>: idem illud <hi rend="italics"
                     >p rell.</hi></note> postulare non desistebant ut se ad leges suas reiceret.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="61">
               <p>
@@ -5160,7 +5164,7 @@
                 quo praeda erat maxima, ut nomine iudiciorum omnium bona atque fortunae in istius
                 unius essent potestatem<note>potestatem <hi rend="italics">cO</hi>: potestate <hi
                     rend="italics">rell.</hi> (<hi rend="italics">Div.</hi> §66: v, §98)</note>?
-             </p>
+              </p>
             </div>
             <milestone n="28" unit="chapter"/>
             <div type="textpart" subtype="section" n="68">
@@ -5322,7 +5326,7 @@
                 omnia dicat et sentiat; minus haec ad nos, minus ad vitae nostrae discrimen, minus
                 ad fortunarum nostrarum periculum pertinent<note>haec... pertinent <hi
                     rend="italics">p rell.</hi>: hoc... pertinet <hi rend="italics">O</hi></note>.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="77">
               <p>
@@ -5342,7 +5346,7 @@
                 iudicem, si vultis, habeatis; de se homines, si qui extra istum ordinem sunt, quibus
                 ne reiciendi quidem amplius quam trium iudicum praeclarae leges Corneliae faciunt
                 potestatem, hunc hominem tam crudelem, tam sceleratum, tam nefarium nolunt iudicare.
-             </p>
+              </p>
             </div>
             <milestone n="32" unit="chapter"/>
             <div type="textpart" subtype="section" n="78">
@@ -5598,7 +5602,7 @@
                     rend="italics">add. Halm</hi></note> EXACTVRVM, bonaque eius statim coepit
                 vendere; et vendidisset, si tantulum morae fuisset<note>si tant. morae fuisset <hi
                     rend="italics">add. s.l. p2</hi></note> quo minus ei pecunia illa numeraretur.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="94">
               <p><reg>ea</reg> posteaquam numerata est, contentus hac iniquitate iste non fuit;
@@ -5614,7 +5618,7 @@
                     rend="italics">Op rell.</hi>: nom. abs. <hi rend="italics">b vulg.</hi></note>
                 deferre se velle. <reg>iste</reg> vero et licere et fieri solere, et se recepturum;
                 itaque defertur; edicit statim ut Kalendis Decembribus adsit Sthenius Syracusis.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="95">
               <p><reg>hic</reg> qui Romam pervenisset, satisque feliciter anni iam adverso tempore
@@ -6745,7 +6749,7 @@
                 Siculorum erga te voluntatis argumenta colligere videor, utrum statuas voluerint
                 tibi statuere an coacti sint<note><del>utrum... coacti sint</del>
                   <hi rend="italics">Pluygers</hi> (<hi rend="italics">Ziel. p.</hi> 194)</note>.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="158">
               <p><milestone unit="Para"/><reg>de</reg> quo hoc<note>hoc <hi rend="italics">CO</hi>:
@@ -7200,7 +7204,7 @@
                   videbitis teneri <hi rend="italics">CO</hi></note>. <reg>nam</reg> quod in
                 publicanorum causis vel plurimum aetatis meae versor vehementerque illum ordinem
                 observo, satis commode mihi videor eorum consuetudinem usu tractandoque cognosse.
-             </p>
+              </p>
             </div>
             <milestone n="74" unit="chapter"/>
             <div type="textpart" subtype="section" n="182">
@@ -7223,7 +7227,7 @@
                     >qk</hi>: mensum <hi rend="italics">Cp</hi> (<hi rend="italics">prob.
                     Luterbacher</hi>): mensium <hi rend="italics">Ob edd.</hi> (§§184, 188)</note>
                 complurium rerum exportatarum istius nomine sine portorio: itaque obsignavi statim.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="183">
               <p>
@@ -7251,7 +7255,7 @@
                     rend="italics">O</hi></note> Melitensium, quasi etiam amicorum uxores, tantum
                 lectorum, quasi omnium istorum villas ornaturus esses?<milestone n="75"
                   unit="chapter"/>
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="184">
               <p><reg>et</reg><note>Et <hi rend="italics">O1</hi>: <hi rend="italics">om.
@@ -7414,7 +7418,7 @@
                   b</hi></note> vivebat ut nulla eius vitae pars summae turpitudinis esset expers;
                 nemo ita in manifesto peccato<note>peccatu <hi rend="italics">Gell.</hi></note>
                 tenebatur ut, cum impudens fuisset in facto, tum impudentior videretur si negaret.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="192">
               <p>
@@ -7683,7 +7687,7 @@
                   Kayser</hi></note></del> ac liberae, Centuripina, Halaesina, Segestana,
                 Halicyensis, Panhormitana; praeterea omnis ager Siciliae civitatum decumanus est,
                 itemque ante imperium populi Romani ipsorum Siculorum voluntate et institutis fuit.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="14">
               <p><reg>videte</reg> nunc maiorum sapientiam<note>sap. maiorum <hi rend="italics"
@@ -8093,7 +8097,7 @@
                 sicut ostendam, neque<note>ostendam neque <hi rend="italics">cO</hi>: ostendemus nec
                     <hi rend="italics">p rell.</hi></note> ad ullam utilitatem rei publicae
                 pertinuit, tum vero ad calumnias, in quas omnes inciderent quos vellet Apronius.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="39">
               <p>Vt enim quisque contra voluntatem eius dixerat, ita in eum iudicium de professione
@@ -8132,7 +8136,7 @@
                 quod non licebat quam ceteros quod oportebat vendidisse? <reg>pluris</reg> decumas
                   vendidisti<note>decum. vend. <hi rend="italics">cO</hi> (<hi rend="italics">prob.
                     Ziel.</hi>): vend. decum. <hi rend="italics">Vp rell.</hi></note> quam ceteri.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="41">
               <p><reg>quibus</reg> rebus id adsecutus es? innocentia? <reg>aspice</reg> aedem
@@ -8574,7 +8578,7 @@
                   atque<note>atque <hi rend="italics">O</hi></note> exitio suo risum tenere non
                   possit<note>istis <hi rend="italics">O</hi></note>. <reg>ne</reg> multa, iudices:
                 his contumeliis scitote Q. Lollium coactum ad Aproni leges condicionesque venisse.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="63">
               <p>Lollius aetate et morbo impeditus ad testimonium dicendum venire non potuit.
@@ -8711,7 +8715,7 @@
                 Agyrinensibus iniciebat: recuperatores se de cohorte sua daturum minabatur.
                 Agyrinenses, viri fortissimi, iudicio<note>iudicio <hi rend="italics">VO</hi> (iii,
                   §60): iudicium <hi rend="italics">p rell.</hi></note> se passuros esse dicebant.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="69">
               <p>
@@ -9183,19 +9187,19 @@
                   O</hi></note> genere sunt cetera.</p>
             </div>
             <div type="textpart" subtype="section" n="93">
-              <p>Diocles est Panhormitanus, Phimes cognomine, homo inlustris ac
-                  nobilis<note>nobilis <hi rend="italics">cO</hi>: nobilis arator <hi rend="italics"
-                    >p rell.</hi> (<hi rend="italics">om.</hi> Arabat)</note>. <reg>arabat</reg> is
-                agrum conductum in Segestano; nam commercium in eo agro nemini est; conductum
-                habebat HS sex milibus. <reg>pro</reg> decuma<note>Pro decuma <hi rend="italics">om.
-                    cO</hi></note>, cum pulsatus a Venerio esset, decidit<note>decidit <hi
-                    rend="italics">cO</hi>: dedit <hi rend="italics">rell.</hi></note> HS xvi et
-                  medimnis<note>medimnis <hi rend="italics">om. codd.</hi></note> DCLIIII.
-                  <reg>id</reg> ex tabulis ipsius<note>ipsius tabulis <hi rend="italics"
-                  >O</hi></note> cognoscite. NOMEN DIOCLIS PANHORMITANI. <reg>huic</reg> eidem
-                Symmacho C. Annaeus Brocchus senator, homo eo splendore, ea virtute, qua omnes
-                existimatis, nummos praeter frumentum coactus est dare. Venerione servo te praetore
-                talis vir, senator populi Romani, quaestui fuit?</p>
+              <p>Diocles est Panhormitanus, Phimes cognomine, homo inlustris ac nobilis<note>nobilis
+                    <hi rend="italics">cO</hi>: nobilis arator <hi rend="italics">p rell.</hi> (<hi
+                    rend="italics">om.</hi> Arabat)</note>. <reg>arabat</reg> is agrum conductum in
+                Segestano; nam commercium in eo agro nemini est; conductum habebat HS sex milibus.
+                  <reg>pro</reg> decuma<note>Pro decuma <hi rend="italics">om. cO</hi></note>, cum
+                pulsatus a Venerio esset, decidit<note>decidit <hi rend="italics">cO</hi>: dedit <hi
+                    rend="italics">rell.</hi></note> HS xvi et medimnis<note>medimnis <hi
+                    rend="italics">om. codd.</hi></note> DCLIIII. <reg>id</reg> ex tabulis
+                  ipsius<note>ipsius tabulis <hi rend="italics">O</hi></note> cognoscite. NOMEN
+                DIOCLIS PANHORMITANI. <reg>huic</reg> eidem Symmacho C. Annaeus Brocchus senator,
+                homo eo splendore, ea virtute, qua omnes existimatis, nummos praeter frumentum
+                coactus est dare. Venerione servo te praetore talis vir, senator populi Romani,
+                quaestui fuit?</p>
             </div>
             <milestone n="41" unit="chapter"/>
             <milestone unit="Para"/>
@@ -9352,7 +9356,7 @@
                 superfuisse; si cui quid <del>autem<note>autem <hi rend="italics">om. O al.</hi>:
                       <hi rend="italics">ego seclusi</hi></note></del> aut relictum aut remissum
                 sit, id fuisse tantum quantum ex eo quo istius avaritia contenta fuit redundarit.
-             </p>
+              </p>
             </div>
             <milestone n="44" unit="chapter"/>
             <div type="textpart" subtype="section" n="104">
@@ -9684,7 +9688,7 @@
                 reposcit. <reg>ager</reg> Herbitensis primo anno habuit aratores CCLII, tertio cxx:
                 hinc CXXXII patres familias extorres profugerunt. Agyrinensis ager—quorum hominum,
                 quam honestorum, quam locupletium!—CCL aratores habuit primo anno praeturae tuae.
-             </p>
+              </p>
             </div>
             <milestone n="52" unit="chapter"/>
             <div type="textpart" subtype="section" n="121">
@@ -9798,7 +9802,7 @@
                 ne post abitum quidem huius importunissimae pestis quisquam reperiretur qui sua
                 voluntate araret, pauci essent reliqui qui L. Metelli auctoritate in agros atque ad
                 suum larem familiarem<note>familiarem <hi rend="italics">om. O</hi></note> redirent?
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="126">
               <p><milestone unit="Para"/><reg>his</reg> te litteris, homo<note>homo <hi
@@ -10055,7 +10059,7 @@
                   i. e. `al. iud. idon.': <hi rend="italics">cf. Cluent.</hi> §25</note> aut
                 recuperatorem nullum posse reperiri, postulat abs te ut Romam rem<note>rem <hi
                     rend="italics">VcO</hi>: <hi rend="italics">om. p rell.</hi></note> reicias.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="139">
               <p>
@@ -10288,7 +10292,7 @@
                     rend="italics">p rell.</hi>: praestare <hi rend="italics">O</hi></note>, magno
                 te decumas vendidisse, cum fuisse fateare qui multo pluris voluerit<note>voluerit
                     <hi rend="italics">O</hi>: -int <hi rend="italics">p rell.</hi></note> emere.
-             </p>
+              </p>
             </div>
             <milestone n="65" unit="chapter"/>
             <milestone unit="Para"/>
@@ -10361,7 +10365,7 @@
                 resistat. <reg>bono</reg> praesidio munitur existimatio tua, siquidem in Aproni
                 constituitur diligentia atque auctoritate. HABES VIRTVTEM, ELOQVENTIAM<note>eloq.
                     <hi rend="italics">VO</hi>: atque eloq. <hi rend="italics">p rell.</hi></note>.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="155">
               <p><reg>quam</reg> copiose laudatur Apronius a Timarchide, quam magnifice!
@@ -11023,7 +11027,7 @@
                     rend="italics">VcO</hi>: -ti <hi rend="italics">p rell.</hi></note> virtute
                 auctoritate copiis, corona et phaleris et torque donasti, M. Cossutium, sanctissimum
                 virum atque honestissimum, M. Castricium, summo splendore ingenio gratia praeditum.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="186">
               <p><reg>quid</reg> haec sibi horum trium civium Romanorum dona voluerunt? Siculos
@@ -11406,7 +11410,7 @@
                 nullo modo possunt: ut omnia remittantur, ut omnibus iniuriis et calamitatibus quas
                 te praetore tulerunt in posterum liberentur, istam se<note>se <hi rend="italics">om.
                     V</hi></note> cellam atque istam aestimationem negant ullo modo ferre posse.
-             </p>
+              </p>
             </div>
             <milestone n="88" unit="chapter"/>
             <div type="textpart" subtype="section" n="204">
@@ -11487,7 +11491,7 @@
                   audacias<note>audaciam <hi rend="italics">O</hi></note> ac libidines aliqua ex
                 parte resecare? <reg>desinite</reg> dubitare utrum sit utilius propter multos
                 improbos uni parcere, an unius improbi supplicio multorum improbitatem coercere.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="209">
               <p>
@@ -11663,7 +11667,7 @@
                 sed me omnium provinciarum defensorem esse profitebor. <reg>etenim</reg> hoc dico,
                 et magna voce dico, Vbicumque hoc factum est, improbe factum est; quicumque
                   hoc<note>hoc <hi rend="italics">om. O</hi></note> fecit, supplicio dignus est.
-             </p>
+              </p>
             </div>
             <milestone n="94" unit="chapter"/>
             <div type="textpart" subtype="section" n="218">
@@ -11708,7 +11712,7 @@
                 si vos semel in iudicando finem aequitatis et legis transieritis, scitote vos nullum
                 ceteris in aestimando finem improbitatis<note>improbitati <hi rend="italics">p et
                     pler.</hi>: <hi rend="italics">fort. recte</hi></note> et avaritiae reliquisse.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="221">
               <p><milestone unit="Para"/>
@@ -11927,7 +11931,7 @@
                 hominibus apertissima maximeque hospitalis. <reg>ea</reg> domus ante istius adventum
                 ornata sic fuit ut urbi quoque esset ornamento; nam ipsa Messana, quae situ moenibus
                 portuque ornata sit, ab his rebus quibus iste delectatur sane vacua atque nuda est.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="4">
               <p><reg>erat</reg> apud Heium sacrarium magna cum dignitate in aedibus a maioribus
@@ -12718,7 +12722,7 @@
                   >Nohl</hi></note> divisoribus ut praetor renuntiarere dedisti, trecenta accusatori
                 ne tibi odiosus esset, ea re contemnis equestrem ordinem et despicis? ea re tibi
                 indignum visum est quicquam, quod tibi placeret, Calidium potius habere quam te?
-             </p>
+              </p>
             </div>
             <milestone n="21" unit="chapter"/>
             <milestone unit="Para"/>
@@ -12782,7 +12786,7 @@
                 egregia. <reg>iste</reg> continuo ut vidit, non dubitavit illud insigne penatium
                 hospitaliumque deorum ex hospitali mensa tollere, sed tamen, quod ante de istius
                 abstinentia dixeram, sigillis avulsis reliquum argentum sine ulla avaritia reddidit.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="49">
               <p><reg>quid</reg>? Eupolemo Calactino, homini nobili, Lucullorum<note>incoliorum <hi
@@ -13445,7 +13449,7 @@
                 senatus mandasset populusque<note>populusque <hi rend="italics">Rpr</hi>: populus
                     <hi rend="italics">SD<foreign xml:lang="grc">Y</foreign></hi></note> Romanus
                 iussisset, ita continuo signum ut demolirentur et Messanam deportarent imperavit.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="85">
               <p>
@@ -13643,7 +13647,7 @@
                       >d</foreign></hi> praetoria manum <hi rend="italics">Hp</hi>: praetoris
                   amanumZZZ <hi rend="italics">R</hi>: praetoris ac manum <hi rend="italics"
                   >SD</hi></note> cohorte praetoria manum fugitivorum instructam armatamque venisse.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="95">
               <p><reg>nemo</reg> Agrigenti neque aetate tam adfecta neque viribus tam
@@ -14115,7 +14119,7 @@
                   <hi rend="italics">edd.</hi></note> maximum, praeterea duo templa sunt egregia,
                 Cereris unum, alterum Liberae, signumque Apollinis, qui Temenites vocatur,
                 pulcherrimum et maximum; quod iste si portare potuisset, non dubitasset auferre.
-             </p>
+              </p>
             </div>
             <milestone n="54" unit="chapter"/>
             <milestone unit="Para"/>
@@ -14609,7 +14613,7 @@
                       >del. Halm</hi></note></del>—quos etiam intra Syracusanam insulam
                   recepisset<note>recepisset <hi rend="italics">RS et rell.</hi> (<hi rend="italics"
                     >Zielinski, p.</hi> 197): recepit <hi rend="italics">Halm, edd.</hi></note>.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="145">
               <p><milestone unit="Para"/>
@@ -14940,7 +14944,7 @@
                     rend="italics">RS</hi>: eveniunt <hi rend="italics">p</hi>, veniunt <foreign
                     xml:lang="grc">d</foreign>: haec ubi even. <hi rend="italics">secl. Ern.
                     Kays.</hi></note>; nemo est qui ullam spem salutis reliquam esse arbitretur.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="13">
               <p><reg>atque</reg> haec sicubi facta sunt<note>facta sunt <hi rend="italics">add.
@@ -15109,7 +15113,7 @@
                 tantumque in hoc crimine suspicionis esse adfirmabo ut iam ipsis iudicibus sine mea
                 argumentatione coniecturam facere permittam quod hoc genus praedandi, quam improbum,
                 quam indignum, quamque ad magnitudinem quaestus immensum infinitumque esse videatur.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="23">
               <p><reg>nam</reg> quae iste in Apollonio fecit, ea primum breviter
@@ -15130,7 +15134,7 @@
                   a<note>atque a <hi rend="italics">RS al.</hi>: ac <hi rend="italics">G2L</hi>: et
                     <hi rend="italics">p<foreign xml:lang="grc">d</foreign></hi></note> communi luce
                 seclusum,—haec vero, quae vel vita redimi recte possunt, aestimare pecunia non queo.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="24">
               <p><reg>haec</reg> omnia sero redemit Apollonius iam maerore ac miseriis perditus, sed
@@ -15259,7 +15263,7 @@
                 amicitia, digni vita illa conviviisque veniebant. <reg>inter</reg> eius modi viros
                 et mulieres adulta aetate filius versabatur, ut eum, etiamsi natura a parentis
                 similitudine abriperet, consuetudo tamen ac disciplina patris similem esse cogeret.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="31">
               <p><reg>huc</reg> Tertia illa perducta per dolum atque insidias ab Rhodio
@@ -15352,7 +15356,7 @@
                 datos, antiquiorem in senatu sententiae dicendae locum, togam praetextam, sellam
                 curulem, ius imaginis ad memoriam posteritatemque prodendae<note>prodendae <hi
                     rend="italics">Gronovius</hi>: prodendam <hi rend="italics">codd.</hi></note>.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="37">
               <p><reg>ex</reg> his ego omnibus rebus, iudices,—ita mihi omnis deos propitios velim,—
@@ -15435,7 +15439,7 @@
                   his <hi rend="italics">S pr., corr.</hi> sed is: et is <foreign xml:lang="grc"
                     >d</foreign></note> tot criminibus testimoniisque convictus in eorum tabella
                 spem sibi aliquam proponit, quorum omnium palam causa incognita voce damnatus est?
-             </p>
+              </p>
             </div>
             <milestone n="17" unit="chapter"/>
             <div type="textpart" subtype="section" n="42">
@@ -16300,17 +16304,16 @@
                 praefectoque classis, eundem necessario cursum tenere coeperunt.</p>
             </div>
             <div type="textpart" subtype="section" n="90">
-              <p>Helorum<note>Helorum <hi rend="italics">Augustinus</hi>: Pelorum <hi
-                    rend="italics">codd.</hi></note> versus, ut ipse Cleomenes, ita ceteri
-                navigabant, neque ii tam praedonum impetum fugiebant quam imperatorem sequebantur.
-                  <reg>tum</reg> ut quisque in fuga postremus, ita in periculo princeps erat;
-                postremam enim quamque navem piratae primam adoriebantur. <reg>ita</reg> prima
-                Haluntinorum navis capitur, cui praeerat Haluntinus homo nobilis<note>nobilis <hi
-                    rend="italics">RS</hi>: nobilissimus <hi rend="italics">pqk</hi></note>,
-                  <reg>phylarchus</reg>, quem ab illis praedonibus Locrenses postea publice
-                redemerunt; ex quo vos priore actione iurato rem omnem causamque cognostis.
-                  <reg>deinde</reg> Apolloniensis navis capitur, et eius praefectus Anthropinus
-                occiditur.</p>
+              <p>Helorum<note>Helorum <hi rend="italics">Augustinus</hi>: Pelorum <hi rend="italics"
+                    >codd.</hi></note> versus, ut ipse Cleomenes, ita ceteri navigabant, neque ii
+                tam praedonum impetum fugiebant quam imperatorem sequebantur. <reg>tum</reg> ut
+                quisque in fuga postremus, ita in periculo princeps erat; postremam enim quamque
+                navem piratae primam adoriebantur. <reg>ita</reg> prima Haluntinorum navis capitur,
+                cui praeerat Haluntinus homo nobilis<note>nobilis <hi rend="italics">RS</hi>:
+                  nobilissimus <hi rend="italics">pqk</hi></note>, <reg>phylarchus</reg>, quem ab
+                illis praedonibus Locrenses postea publice redemerunt; ex quo vos priore actione
+                iurato rem omnem causamque cognostis. <reg>deinde</reg> Apolloniensis navis capitur,
+                et eius praefectus Anthropinus occiditur.</p>
             </div>
             <milestone n="35" unit="chapter"/>
             <div type="textpart" subtype="section" n="91">
@@ -16960,7 +16963,7 @@
                       xml:lang="grc">d</foreign></hi> iis <hi rend="italics">VR</hi>: his <hi
                     rend="italics">p</hi>: is <hi rend="italics">q</hi></note> sunt.'
                   <reg>multum</reg> vero haec iis iura profuerunt in istius imperio ac potestate!
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="125">
               <p>
@@ -17051,7 +17054,7 @@
                 aliquo modo poterant; nunc vero iam adempta est non modo resistendi verum etiam
                 suppeditandi facultas. <reg>itaque</reg> res suas neglegunt; pecunias, quo nomine
                 iudicium hoc appellatur, non repetunt, relinquunt; hoc iam ornatu ad vos confugiunt.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="128">
               <p>
@@ -17247,8 +17250,8 @@
                 capta et incensa est;</p>
             </div>
             <div type="textpart" subtype="section" n="138">
-              <p>post Syracusas conditas quem in portum numquam hostis accesserat, in eo te
-                praetore primum piratae navigaverunt; neque haec tot et tanta<note>tot tanta <hi
+              <p>post Syracusas conditas quem in portum numquam hostis accesserat, in eo te praetore
+                primum piratae navigaverunt; neque haec tot et tanta<note>tot tanta <hi
                     rend="italics">p</hi></note> dedecora dissimulatione tua neque oblivione hominum
                 ac taciturnitate tegere voluisti, sed etiam navium praefectos sine ulla causa de
                 complexu parentum<note>parentium <hi rend="italics">p</hi> (<hi rend="italics"
@@ -17371,7 +17374,7 @@
                   <foreign xml:lang="grc">p</foreign></note> huiusce multitudinis in oculis animoque
                 versata est? numquam te in horum conspectum rediturum, numquam in forum populi
                 Romani venturum, numquam sub legum et iudiciorum potestatem casurum esse duxisti?
-             </p>
+              </p>
             </div>
             <milestone n="56" unit="chapter"/>
             <milestone unit="Para"/>
@@ -17477,7 +17480,7 @@
                 est apud omnis nationes ut ista in nostros homines crudelitas nemini concessa esse
                 videatur. <reg>nunc</reg> tibi ego ullam salutem, ullum perfugium putem, cum te
                 implicatum severitate iudicum, circumretitum frequentia populi Romani esse videam?
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="151">
               <p>
@@ -17591,7 +17594,7 @@
                 ultima Syria atque Aegypto navigarent, qui apud barbaros propter togae nomen in
                 honore aliquo fuissent, qui ex praedonum insidiis, qui ex tempestatum periculis
                 profugissent, in Sicilia securi ferirentur, cum se iam domum venisse arbitrarentur?
-             </p>
+              </p>
             </div>
             <milestone n="61" unit="chapter"/>
             <milestone unit="Para"/>
@@ -17794,7 +17797,7 @@
                 societate iuncti sunt, fore se tutos arbitrantur, sed, quocumque venerint, hanc sibi
                 rem praesidio sperant futuram<note>futuram <hi rend="italics">prk</hi> (futurum <hi
                     rend="italics">Gell. l. c.</hi>): esse futuram <hi rend="italics">q</hi></note>.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="168">
               <p><reg>tolle</reg> hanc spem, tolle hoc praesidium civibus Romanis, constitue nihil
@@ -18020,7 +18023,7 @@
                       >Y</foreign></hi>: suisque <hi rend="italics">R</hi>: usque <hi rend="italics"
                       >p<foreign xml:lang="grc">d</foreign></hi></note> ad summam senectutem
                   summa<note>senect. summa <hi rend="italics">om. RSD</hi></note> cum gloria vixit.
-             </p>
+              </p>
             </div>
             <div type="textpart" subtype="section" n="181">
               <p>
@@ -18151,26 +18154,26 @@
                 caelo lapsam arbitrarentur,</p>
             </div>
             <div type="textpart" subtype="section" n="188">
-              <p>— vos etiam atque etiam imploro et appello, sanctissimae deae, quae illos
-                Hennensis lacus lucosque incolitis, cunctaeque Siciliae, quae mihi defendenda
-                tradita est, praesidetis, a quibus inventis frugibus<note>fructibus <hi
-                    rend="italics">RS<foreign xml:lang="grc">Y</foreign></hi></note> et in orbem
-                terrarum distributis omnes<note>si omnes <hi rend="italics">RS</hi></note> gentes ac
-                nationes vestri religione numinis<note>nominis <hi rend="italics">RS</hi></note>
-                continentur; ceteros item deos deasque omnis imploro et obtestor, quorum templis et
-                religionibus iste nefario quodam furore et audacia instinctus bellum sacrilegum
-                semper impiumque habuit indictum, ut, si in hoc reo atque in hac causa omnia mea
-                consilia ad salutem sociorum, dignitatem rei publicae<note>rei pub. <hi
-                    rend="italics">RS<foreign xml:lang="grc">Y</foreign>p</hi>: populi Romani <hi
-                    rend="italics">q<foreign xml:lang="grc">d</foreign></hi></note>, fidem meam
-                spectaverunt, si nullam ad rem nisi ad officium et virtutem<note>virtutem <hi
-                    rend="italics">RS<foreign xml:lang="grc">Y</foreign></hi>: veritatem <hi
-                    rend="italics">p<foreign xml:lang="grc">d</foreign></hi> (§130 <hi
-                    rend="italics">supra</hi>)</note> omnes meae curae vigiliae cogitationesque
-                  elaborarunt<note>elaborarunt <hi rend="italics">K vulg.</hi>: -abunt <hi
-                    rend="italics">RSD</hi>: laborarunt <hi rend="italics">p</hi>: -abunt <foreign
-                    xml:lang="grc">d</foreign> (v, §§126, 158)</note>, quae mea mens in suscipienda
-                causa fuit, fides in agenda, eadem vestra sit in iudicanda;</p>
+              <p>— vos etiam atque etiam imploro et appello, sanctissimae deae, quae illos Hennensis
+                lacus lucosque incolitis, cunctaeque Siciliae, quae mihi defendenda tradita est,
+                praesidetis, a quibus inventis frugibus<note>fructibus <hi rend="italics">RS<foreign
+                      xml:lang="grc">Y</foreign></hi></note> et in orbem terrarum distributis
+                  omnes<note>si omnes <hi rend="italics">RS</hi></note> gentes ac nationes vestri
+                religione numinis<note>nominis <hi rend="italics">RS</hi></note> continentur;
+                ceteros item deos deasque omnis imploro et obtestor, quorum templis et religionibus
+                iste nefario quodam furore et audacia instinctus bellum sacrilegum semper impiumque
+                habuit indictum, ut, si in hoc reo atque in hac causa omnia mea consilia ad salutem
+                sociorum, dignitatem rei publicae<note>rei pub. <hi rend="italics">RS<foreign
+                      xml:lang="grc">Y</foreign>p</hi>: populi Romani <hi rend="italics">q<foreign
+                      xml:lang="grc">d</foreign></hi></note>, fidem meam spectaverunt, si nullam ad
+                rem nisi ad officium et virtutem<note>virtutem <hi rend="italics">RS<foreign
+                      xml:lang="grc">Y</foreign></hi>: veritatem <hi rend="italics">p<foreign
+                      xml:lang="grc">d</foreign></hi> (§130 <hi rend="italics">supra</hi>)</note>
+                omnes meae curae vigiliae cogitationesque elaborarunt<note>elaborarunt <hi
+                    rend="italics">K vulg.</hi>: -abunt <hi rend="italics">RSD</hi>: laborarunt <hi
+                    rend="italics">p</hi>: -abunt <foreign xml:lang="grc">d</foreign> (v, §§126,
+                  158)</note>, quae mea mens in suscipienda causa fuit, fides in agenda, eadem
+                vestra sit in iudicanda;</p>
             </div>
             <div type="textpart" subtype="section" n="189">
               <p>deinde uti C. Verrem, si eius omnia sunt inaudita et singularia facinora sceleris,

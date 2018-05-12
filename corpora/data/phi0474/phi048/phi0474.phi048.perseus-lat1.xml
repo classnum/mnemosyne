@@ -63,6 +63,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+            HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines
+            where needed adding letters to numbers in @n, fix Latin content in some bibl tags
+            erroneously in Greek, update EpiDoc schema metadata.</change>
          <!--
    C. 70 instances where the app crit contains abbreviations and graphic oddities trying to capture what is in the MSS. Not easily represented and not worth adding at this stage. These are for the most part just listed as .
 -->
@@ -787,7 +791,7 @@ academica. 2 partes. Berolini
                            >erasa)</hi> A<hi rend="sup">2</hi>; licinius BER, N (litin.), V; Licinus
                            <hi rend="italics">C.F.W. Mue.</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="5" subtype="section">
                   <p>'ferreum scriptorem', verum, opinor, scriptorem tamen, ut legendus sit. rudem
@@ -799,7 +803,7 @@ academica. 2 partes. Berolini
                            V</note> ne in nemore <gap reason="omitted"/>
                      </quote> nihilo minus legimus quam hoc idem Graecum, quae autem de bene
                      beateque vivendo a Platone disputata sunt, haec explicari non placebit Latine?
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="6" subtype="section">
                   <p>Quid?<note>quod BEN<hi rend="sup">2</hi>
@@ -880,7 +884,7 @@ academica. 2 partes. Berolini
                                  rend="sup">2</hi>
                            </note> hostis mi Albucius, hinc inimicus.</l>
                      </quote>
-                 </p>
+                  </p>
                   <pb n="p.5"/>
                   <p>Sed iure Mucius.</p>
                </div>
@@ -927,7 +931,7 @@ academica. 2 partes. Berolini
                         tribuat,<note>tribuat A<hi rend="sup">1</hi> tribuit (<hi rend="italics"
                            >in</hi> N <hi rend="italics">cum ras. 1 vel 2 litt. post alteram</hi>
                         t)</note> quid in omni munere vitae optimum et verissimum sit, exquirere?
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="12" subtype="section">
                   <p>an, partus ancillae sitne in fructu habendus, disseretur inter principes
@@ -1285,7 +1289,7 @@ academica. 2 partes. Berolini
                      laboriosam, nisi ut aliquid ex ea commodi consequatur? quis autem vel eum iure
                      reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae
                      consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur?
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="33" subtype="section">
                   <p>At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis
@@ -1421,7 +1425,7 @@ academica. 2 partes. Berolini
                      aegritudines ad dolorem referuntur, nec praeterea est res ulla, quae sua natura
                      aut sollicitare possit aut angere.<note>aut angere <hi rend="italics"
                            >Vict.</hi> aut tangere</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="42" subtype="section">
                   <p>Praeterea et appetendi et refugiendi et omnino rerum gerendarum <pb n="p.19"/>
@@ -1448,10 +1452,10 @@ academica. 2 partes. Berolini
                      conquirendae et</p>
                </div>
                <div type="textpart" n="43" subtype="section">
-                  <p>comparandae voluptatis—quam autem ego dicam voluptatem, iam videtis, ne
-                     invidia verbi labefactetur oratio mea—. nam cum ignoratione rerum bonarum et
-                     malarum maxime hominum vita vexetur, ob eumque errorem et voluptatibus maximis
-                     saepe priventur et durissimis<note>durissimis <hi rend="italics">cod. Leidens.
+                  <p>comparandae voluptatis—quam autem ego dicam voluptatem, iam videtis, ne invidia
+                     verbi labefactetur oratio mea—. nam cum ignoratione rerum bonarum et malarum
+                     maxime hominum vita vexetur, ob eumque errorem et voluptatibus maximis saepe
+                     priventur et durissimis<note>durissimis <hi rend="italics">cod. Leidens.
                            Madvigii,</hi> purissimis ABERV pravissimis (pravi <hi rend="italics">in
                            ras.</hi>) N</note> animi doloribus torqueantur, sapientia est
                         adhibenda,<note>adhibenda est BE</note> quae et terroribus<note>et erroribus
@@ -1485,7 +1489,7 @@ academica. 2 partes. Berolini
                            rend="italics">(in</hi> N e <hi rend="italics">ex corr. alt. m.)</hi>
                      </note> et terminatas habet; inanium autem cupiditatum nec modus ullus nec
                      finis inveniri potest. <milestone unit="chapter" n="14"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="46" subtype="section">
                   <p>quodsi<note>Quid si A<hi rend="sup">1</hi>
@@ -1497,16 +1501,16 @@ academica. 2 partes. Berolini
                      expetendam et insipientiam propter molestias esse fugiendam?</p>
                </div>
                <div type="textpart" n="47" subtype="section">
-                  <p>Eademque ratione ne temperantiam quidem propter se expetendam esse dicemus,
-                     sed quia pacem animis <pb n="p.21"/> afferat et eos quasi concordia quadam
-                     placet ac leniat. temperantia est enim, quae in rebus aut expetendis aut
-                     fugiendis ut rationem sequamur monet. nec enim satis est iudicare quid
-                     faciendum non faciendumve sit, sed stare etiam oportet in eo, quod sit
-                     iudicatum. plerique autem, quod tenere atque servare id, quod ipsi statuerunt,
-                     non possunt, victi et debilitati obiecta specie voluptatis tradunt se
-                     libidinibus constringendos nec quid eventurum<note>proventurum R</note> sit
-                     provident ob eamque causam propter voluptatem et parvam et non<note>non <hi
-                           rend="italics">om.</hi> A<hi rend="sup">1</hi>RN<hi rend="sup">1</hi>
+                  <p>Eademque ratione ne temperantiam quidem propter se expetendam esse dicemus, sed
+                     quia pacem animis <pb n="p.21"/> afferat et eos quasi concordia quadam placet
+                     ac leniat. temperantia est enim, quae in rebus aut expetendis aut fugiendis ut
+                     rationem sequamur monet. nec enim satis est iudicare quid faciendum non
+                     faciendumve sit, sed stare etiam oportet in eo, quod sit iudicatum. plerique
+                     autem, quod tenere atque servare id, quod ipsi statuerunt, non possunt, victi
+                     et debilitati obiecta specie voluptatis tradunt se libidinibus constringendos
+                     nec quid eventurum<note>proventurum R</note> sit provident ob eamque causam
+                     propter voluptatem et parvam et non<note>non <hi rend="italics">om.</hi> A<hi
+                           rend="sup">1</hi>RN<hi rend="sup">1</hi>
                      </note> necessariam et quae vel aliter pararetur et qua etiam carere possent
                      sine dolore tum in morbos gravis, tum in damna, tum in dedecora incurrunt,
                      saepe etiam legum iudiciorumque poenis obligantur.</p>
@@ -1574,7 +1578,7 @@ academica. 2 partes. Berolini
                      multi etiam, ut te consule, ipsi se indicaverunt.<note>indicaverunt A<hi
                            rend="sup">2</hi>RN indicaverat A<hi rend="sup">1</hi> iudicaverunt
                         BEV</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="51" subtype="section">
                   <p>quodsi qui <pb n="p.23"/> satis sibi contra hominum<note>
@@ -1661,7 +1665,7 @@ academica. 2 partes. Berolini
                      intellegi potest quanta voluptas sit non dolere.<note>dolore ERV<hi rend="sup"
                            >1</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="57" subtype="section">
                   <p>Sed ut iis bonis erigimur, quae expectamus, sic laetamur iis, quae recordamur.
@@ -1671,7 +1675,7 @@ academica. 2 partes. Berolini
                      meminerimus. sed cum ea, quae praeterierunt, acri animo et attento<note>intento
                         BE</note> intuemur, tum fit ut aegritudo sequatur, si illa mala sint,
                      laetitia, si bona.<note>si bona laetitia BE</note>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="18"/>
                   <p>O praeclaram beate vivendi et apertam et simplicem et directam viam! cum enim
                      certe nihil homini possit melius esse quam vacare omni dolore et molestia
@@ -1734,7 +1738,7 @@ academica. 2 partes. Berolini
                      nescio quam illam umbram, quod appellant honestum non tam solido quam splendido
                      nomine, virtutem autem nixam hoc honesto nullam requirere voluptatem atque ad
                      beate vivendum se ipsa esse contentam. <pb n="p.27"/>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="19"/>
                </div>
                <div type="textpart" n="62" subtype="section">
@@ -1854,16 +1858,15 @@ academica. 2 partes. Berolini
                            <w>scientia</w> sententia BE</note> confirmavit animum, ne quod aut
                         sempiternum aut diuturnum timeret malum, quae perspexit in hoc ipso vitae
                         spatio amicitiae praesidium esse firmissimum.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="69" subtype="section">
-                  <p>Sunt autem quidam Epicurei timidiores paulo contra vestra
-                        convicia,<note>nostra convitia V convicia nostra BE</note> sed tamen satis
-                     acuti, qui verentur ne, si amicitiam propter nostram voluptatem expetendam
-                     putemus, tota amicitia quasi claudicare videatur. itaque primos congressus
-                     copulationesque et consuetudinum instituendarum voluntates fieri propter
-                        voluptatem;<note>voluntates A voluptates R voluptatum NV <hi rend="italics"
-                           >om.</hi> BE</note>
+                  <p>Sunt autem quidam Epicurei timidiores paulo contra vestra convicia,<note>nostra
+                        convitia V convicia nostra BE</note> sed tamen satis acuti, qui verentur ne,
+                     si amicitiam propter nostram voluptatem expetendam putemus, tota amicitia quasi
+                     claudicare videatur. itaque primos congressus copulationesque et consuetudinum
+                     instituendarum voluntates fieri propter voluptatem;<note>voluntates A
+                        voluptates R voluptatum NV <hi rend="italics">om.</hi> BE</note>
                      <note>
                         <w>voluptatem</w> voluptates R</note> cum autem usus progrediens
                      familiaritatem effecerit, tum amorem efflorescere tantum, ut, etiamsi nulla sit
@@ -1888,7 +1891,7 @@ academica. 2 partes. Berolini
                      summum bonum in voluptate ponatur, sed sine hoc institutionem omnino amicitiae
                      non posse reperiri.<note>
                         <hi rend="italics">et</hi> 26 repp. A</note>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="21"/>
                </div>
                <div type="textpart" n="71" subtype="section">
@@ -1978,7 +1981,7 @@ academica. 2 partes. Berolini
                      praescribere primum debet ut quibusdam in formulis <hi rend="7">ea res
                         agetur</hi>, ut, inter quos disseritur, conveniat quid sit id, de quo
                      disseratur. <milestone unit="chapter" n="2"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="4" subtype="section">
                   <p>hoc positum in Phaedro a Platone probavit Epicurus sensitque in omni
@@ -2073,7 +2076,7 @@ academica. 2 partes. Berolini
                         <w>verum ... vocant</w>
                         <hi rend="italics">Non. p. 121</hi>
                      </note>
-                 </p>
+                  </p>
                   <p>Quid est igitur, inquit, quod requiras?</p>
                   <p>Dicam, inquam, et quidem discendi causa magis, quam quo te aut Epicurum
                      reprehensum velim.</p>
@@ -2207,7 +2210,7 @@ academica. 2 partes. Berolini
                            <hi rend="italics">P. Man.</hi> etiam (eciam V)</note> in vulgus
                      pervagata loquitur.<note>loquitur (i <hi rend="italics">in ras.</hi>) N
                         loquatur (<hi rend="italics">etiam</hi> A)</note>
-                 </p>
+                  </p>
                   <p>Quamquam non negatis nos intellegere quid sit voluptas, sed quid ille dicat. e
                      quo efficitur, non ut nos non intellegamus quae vis sit istius verbi, sed ut
                      ille suo more loquatur, nostrum neglegat.</p>
@@ -2237,8 +2240,8 @@ academica. 2 partes. Berolini
                      interiectam non vides nec laetantium nec dolentium?</p>
                </div>
                <div type="textpart" n="17" subtype="section">
-                  <p>Non prorsus, inquit, omnisque, qui sine dolore sint, in voluptate, et ea
-                     quidem summa, esse dico.</p>
+                  <p>Non prorsus, inquit, omnisque, qui sine dolore sint, in voluptate, et ea quidem
+                     summa, esse dico.</p>
                   <p>Ergo in eadem voluptate eum, qui alteri misceat mulsum ipse non sitiens, et
                      eum, qui illud sitiens bibat?</p>
                   <pb n="p.40"/>
@@ -2295,7 +2298,7 @@ academica. 2 partes. Berolini
                      nomine umquam utitur pro illa indolentia, quippe qui ne in expetendis quidem rebus<note>
                         <w>quidem rebus</w> rebus quidem BE quidem tibi V</note> numeret voluptatem.
                         <milestone unit="chapter" n="7"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="20" subtype="section">
                   <p>duae sunt enim res quoque, ne tu verba solum putes. unum est sine dolore esse,
@@ -2349,7 +2352,7 @@ academica. 2 partes. Berolini
                      doloris medicamenta illa Epicurea tamquam de narthecio proment: <quote>Si
                         gravis, brevis; si longus, levis.</quote> Unum nescio, quo modo possit, si
                      luxuriosus sit, finitas cupiditates habere. <milestone unit="chapter" n="8"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="23" subtype="section">
                   <p>quid ergo attinet dicere: 'Nihil haberem, quod reprehenderem, si finitas
@@ -2447,8 +2450,8 @@ academica. 2 partes. Berolini
                   <milestone unit="chapter" n="9"/>
                </div>
                <div type="textpart" n="26" subtype="section">
-                  <p>Semovenda est igitur voluptas, non solum ut recta sequamini, sed etiam ut
-                     loqui deceat frugaliter. possumusne ergo in vita summum bonum dicere, cum id<note>
+                  <p>Semovenda est igitur voluptas, non solum ut recta sequamini, sed etiam ut loqui
+                     deceat frugaliter. possumusne ergo in vita summum bonum dicere, cum id<note>
                         <w>cum id</w> cum igitur V quod <hi rend="italics">Bentl.</hi>
                      </note> ne in cena quidem posse videamur? Quo modo autem philosophus loquitur?<note>
                         <w>loquitur</w>
@@ -2522,7 +2525,7 @@ academica. 2 partes. Berolini
                      voluptas sit summa, non esse in voluptate dolor sit maximus? cur id
                         non<note>non id A</note> ita fit? <quote>Quia dolori non voluptas contraria
                         est, sed doloris privatio.</quote>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="10"/>
                </div>
                <div type="textpart" n="29" subtype="section">
@@ -2564,7 +2567,7 @@ academica. 2 partes. Berolini
                      oratione solum,<note>solum in oratione R</note> sed etiam in moribus. luxuriam
                      non reprehendit, modo sit vacua infinita cupiditate et timore. hoc loco
                      discipulos quaerere videtur, ut, qui asoti esse velint, philosophi ante fiant.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="31" subtype="section">
                   <p>A primo, ut opinor, animantium ortu petitur origo summi boni. <quote>Simul
@@ -2630,7 +2633,7 @@ academica. 2 partes. Berolini
                         tum<note>tum BE tunc</note> discernere incipit, ut ea, quae prima data
                         sunt<note>sunt RN sint</note> natura, appetat
                         asperneturque<note>aspernaturque A<hi rend="sup">1</hi>R</note> contraria.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="34" subtype="section">
                   <p>in his primis naturalibus voluptas insit necne, magna quaestio est. nihil vero
@@ -2829,8 +2832,8 @@ academica. 2 partes. Berolini
                      memoria forte defecerit.</p>
                </div>
                <div type="textpart" n="45" subtype="section">
-                  <p>Honestum igitur id intellegimus, quod tale est, ut detracta omni utilitate
-                     sine ullis praemiis fructibusve per se<note>fructibusve per se A<hi rend="sup"
+                  <p>Honestum igitur id intellegimus, quod tale est, ut detracta omni utilitate sine
+                     ullis praemiis fructibusve per se<note>fructibusve per se A<hi rend="sup"
                            >2</hi> fructibus vespere A<hi rend="sup">1</hi>BER fructibus ve (<hi
                            rend="italics">om.</hi> per se) NV</note> ipsum possit iure laudari. quod
                      quale sit, non tam definitione, qua sum usus, intellegi potest, quamquam
@@ -3099,7 +3102,7 @@ academica. 2 partes. Berolini
                      imitatus quarto consulatu suo filius, neque porro ex eo natus cum
                         Pyrrho<note>pirro ARNV pyrro BE</note> bellum gerens consul cecidisset in
                      proelio seque e continenti genere tertiam victimam rei publicae praebuisset.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="62" subtype="section">
                   <p>Contineo me ab exemplis. Graecis hoc modicum est: Leonidas, Epaminondas, tres
@@ -3225,7 +3228,7 @@ academica. 2 partes. Berolini
                         sic natae sumus, ut tibi serviremus, aliud negotii<note>aliud negotii nihil
                               <hi rend="italics">dett.</hi> aliud negotium nihil ARNV aliud negocium
                            non BE</note> nihil habemus.</quote>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="22"/>
                </div>
                <div type="textpart" n="70" subtype="section">
@@ -3246,17 +3249,17 @@ academica. 2 partes. Berolini
                      rebus detractis negat se reperire in asotorum vita quod reprehendat.</p>
                </div>
                <div type="textpart" n="71" subtype="section">
-                  <p>Non igitur potestis voluptate omnia dirigentes aut tueri aut retinere
-                     virtutem. nam nec vir bonus ac iustus haberi debet qui, ne malum habeat,
-                     abstinet se ab iniuria. nosti, credo, illud: 'Ne/mo pius est, qui/ pietatem—';
-                     cave putes quicquam esse verius. nec enim, dum metuit, iustus est, et certe, si
-                     metuere destiterit, non erit; non metuet autem, sive celare
-                        poterit,<note>potuerit BE</note> sive opibus magnis quicquid fecerit
-                     optinere, certeque malet<note>malet <hi rend="italics">edd.</hi> mallet</note>
-                     existimari bonus vir,<note>vir bonus BE</note> ut non sit, quam esse, ut non
-                     putetur. ita, quod certissimum est, pro vera certaque iustitia simulationem
-                     nobis iustitiae traditis praecipitisque <pb n="p.65"/> quodam modo ut nostram
-                     stabilem conscientiam contemnamus, aliorum errantem opinionem aucupemur.</p>
+                  <p>Non igitur potestis voluptate omnia dirigentes aut tueri aut retinere virtutem.
+                     nam nec vir bonus ac iustus haberi debet qui, ne malum habeat, abstinet se ab
+                     iniuria. nosti, credo, illud: 'Ne/mo pius est, qui/ pietatem—'; cave putes
+                     quicquam esse verius. nec enim, dum metuit, iustus est, et certe, si metuere
+                     destiterit, non erit; non metuet autem, sive celare poterit,<note>potuerit
+                        BE</note> sive opibus magnis quicquid fecerit optinere, certeque
+                        malet<note>malet <hi rend="italics">edd.</hi> mallet</note> existimari bonus
+                        vir,<note>vir bonus BE</note> ut non sit, quam esse, ut non putetur. ita,
+                     quod certissimum est, pro vera certaque iustitia simulationem nobis iustitiae
+                     traditis praecipitisque <pb n="p.65"/> quodam modo ut nostram stabilem
+                     conscientiam contemnamus, aliorum errantem opinionem aucupemur.</p>
                </div>
                <div type="textpart" n="72" subtype="section">
                   <p>Quae dici eadem de ceteris virtutibus possunt, quarum omnium fundamenta vos in
@@ -3352,7 +3355,8 @@ academica. 2 partes. Berolini
                      opiniones, quae honestae, quae laudabiles, quae gloriosae, quae in senatu, quae
                      apud populum, quae in omni coetu concilioque profitendae sint,<note>sunt
                         R</note> ne id non pudeat<note>
-                        <w>non pudeat</w> pudeat non (ne E) BE</note> sentire, quod pudeat dicere.</p>
+                        <w>non pudeat</w> pudeat non (ne E) BE</note> sentire, quod pudeat
+                     dicere.</p>
                   <p>Amicitiae vero locus ubi esse potest aut quis amicus esse cuiquam, quem non
                      ipsum amet propter ipsum?</p>
                </div>
@@ -3401,7 +3405,7 @@ academica. 2 partes. Berolini
                            rend="italics">edit. Venet. 1480</hi>
                      </note>
                      <milestone unit="chapter" n="25"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="80" subtype="section">
                   <p>Faceres tu quidem, Torquate, haec omnia; nihil enim arbitror esse magna laude
@@ -3514,7 +3518,7 @@ academica. 2 partes. Berolini
                         ARNV</note>
                      <quote>At quicum ioca seria, ut dicitur, quicum arcana, quicum occulta
                         omnia?</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="85" subtype="section">
                   <p>Tecum optime, deinde etiam cum mediocri amico. sed fac ista esse non
@@ -3605,8 +3609,8 @@ academica. 2 partes. Berolini
                   <milestone unit="chapter" n="28"/>
                </div>
                <div type="textpart" n="90" subtype="section">
-                  <p>Age, inquies, ista parva sunt. Sapientem locupletat ipsa natura, cuius
-                     divitias Epicurus parabiles esse docuit.<note>
+                  <p>Age, inquies, ista parva sunt. Sapientem locupletat ipsa natura, cuius divitias
+                     Epicurus parabiles esse docuit.<note>
                         <w>docuit</w>
                         <hi rend="italics">p. 20, 20 sq.</hi>
                      </note> Haec bene dicuntur, nec ego repugno, sed inter sese ipsa pugnant. negat
@@ -3630,12 +3634,12 @@ academica. 2 partes. Berolini
                         ... anteponere <hi rend="italics">Non. p. 550</hi>
                      </note> cui vero in voluptate summum bonum est, huic omnia sensu, non ratione
                      sunt iudicanda, eaque dicenda optima, quae sint<note>sunt BE</note> suavissima.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="92" subtype="section">
-                  <p>Verum esto; consequatur summas voluptates non modo parvo, sed per me nihilo,
-                     si potest; sit voluptas non minor in nasturcio illo, quo vesci Persas esse
-                     solitos scribit Xenophon, quam in Syracusanis mensis, quae a Platone graviter
+                  <p>Verum esto; consequatur summas voluptates non modo parvo, sed per me nihilo, si
+                     potest; sit voluptas non minor in nasturcio illo, quo vesci Persas esse solitos
+                     scribit Xenophon, quam in Syracusanis mensis, quae a Platone graviter
                      vituperantur; sit, inquam, tam facilis, quam vultis, comparatio voluptatis,
                      quid de dolore dicemus? cuius tanta tormenta sunt, ut in iis<note>iis <hi
                            rend="italics">Mdu.</hi> his AER hys B hijs NV</note> beata vita, si modo
@@ -3700,7 +3704,7 @@ academica. 2 partes. Berolini
                            </note> víperino mórsu venae víscerum</l>
                         <l>Venéno inbutae taétros cruciatús cient!</l>
                      </quote>
-                 </p>
+                  </p>
                   <p>Sic Epicurus: <quote>Philocteta, st! brevis dolor.</quote>
                      <note>st! brevis dolor <hi rend="italics">Mdv.</hi> si brevis dolor levis
                            ABERN<hi rend="sup">1</hi> si brevis dolor lenis V si gravis dolor brevis
@@ -3708,7 +3712,7 @@ academica. 2 partes. Berolini
                         <hi rend="italics">in marg.</hi>
                      </note> At iam decimum annum in spelunca iacet. <quote>Si longus,
                            levis;<note>lenis AR</note> dat enim intervalla et relaxat.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="95" subtype="section">
                   <p>Primum non saepe, deinde quae est ista relaxatio, cum<note>
@@ -3741,7 +3745,7 @@ academica. 2 partes. Berolini
                               >1</hi>RN me philosophia BE me et philosophia et A<hi rend="sup"
                               >2</hi>V</note> voluntate ab adolescentulo suscepta, fac ut Metrodori
                         tueare liberos.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="97" subtype="section">
                   <p>non ego iam Epaminondae, non Leonidae mortem huius morti antepono, quorum alter
@@ -3759,19 +3763,18 @@ academica. 2 partes. Berolini
                         <hi rend="italics">add. Mdv.</hi>
                      </note> sibi videtur<note>videbatur BE</note> esse moriens. magna laus.
                      'Compensabatur', inquit, <quote>cum summis doloribus laetitia.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="98" subtype="section">
-                  <p>Audio equidem philosophi vocem, Epicure, sed quid tibi dicendum sit oblitus
-                     es. primum enim, si vera sunt ea, quorum recordatione te gaudere dicis, hoc
-                     est, si vera sunt tua scripta et inventa, gaudere non potes. nihil enim iam
-                     habes, quod ad corpus referas; est autem a te semper dictum nec gaudere
-                     quemquam nisi propter corpus nec dolere. 'Praeteritis', inquit,
-                        <quote>gaudeo.</quote> Quibusnam praeteritis? si ad corpus pertinentibus,
-                     rationes tuas te video compensare cum istis doloribus, non memoriam corpore
-                     perceptarum voluptatum; sin autem ad animum, falsum est, quod negas animi ullum
-                     esse gaudium, quod non referatur ad corpus. cur deinde Metrodori liberos
-                     commendas? quid <add>in</add>
+                  <p>Audio equidem philosophi vocem, Epicure, sed quid tibi dicendum sit oblitus es.
+                     primum enim, si vera sunt ea, quorum recordatione te gaudere dicis, hoc est, si
+                     vera sunt tua scripta et inventa, gaudere non potes. nihil enim iam habes, quod
+                     ad corpus referas; est autem a te semper dictum nec gaudere quemquam nisi
+                     propter corpus nec dolere. 'Praeteritis', inquit, <quote>gaudeo.</quote>
+                     Quibusnam praeteritis? si ad corpus pertinentibus, rationes tuas te video
+                     compensare cum istis doloribus, non memoriam corpore perceptarum voluptatum;
+                     sin autem ad animum, falsum est, quod negas animi ullum esse gaudium, quod non
+                     referatur ad corpus. cur deinde Metrodori liberos commendas? quid <add>in</add>
                      <note>
                         <hi rend="italics">add. Mdv.</hi> ('ex <hi rend="italics">addidit, opinor,
                            A. Man.</hi> Ex (de?) <hi rend="italics">an</hi> in (cum tam officiose
@@ -3813,7 +3816,7 @@ academica. 2 partes. Berolini
                      dissolutum sit, id esse sine sensu, id eius modi est, ut non satis plane dicat
                      quid sit dissolutum. sed tamen intellego quid velit.<note>qui velit A<hi
                            rend="sup">1</hi>R</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="101" subtype="section">
                   <p>quaero autem quid sit, quod, cum dissolutione, id est morte, sensus omnis
@@ -3870,7 +3873,7 @@ academica. 2 partes. Berolini
                      quid meminerimus? Themistocles quidem, cum ei Simonides an quis alius artem
                      memoriae polliceretur, 'Oblivionis', inquit, <quote>mallem. Nam memini etiam
                         quae nolo, oblivisci non possum quae volo.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="105" subtype="section">
                   <p>Magno hic ingenio, sed res se tamen sic habet, ut nimis imperiosi philosophi
@@ -3889,7 +3892,7 @@ academica. 2 partes. Berolini
                      perduci poterit, si prima quaeque bene ab eo consulta atque facta ipsius
                      oblivione obruentur.<note>obruentur <hi rend="italics">dett.</hi>
                         obruerentur</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="106" subtype="section">
                   <p>sed vobis voluptatum perceptarum recordatio vitam beatam facit, et quidem
@@ -3932,7 +3935,7 @@ academica. 2 partes. Berolini
                            <w>ac</w> et R nihilne te] nichil tene BE</note> dolores <hi
                            rend="italics">om.</hi> BE</note> pertinere? <milestone unit="chapter"
                         n="33"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="107" subtype="section">
                   <p>nihilne te delectat umquam —video, quicum loquar—, te igitur, Torquate, ipsum
@@ -3957,7 +3960,7 @@ academica. 2 partes. Berolini
                         quid ARNV</note> probari potest, ut is, qui propter me aliquid gaudeat, plus
                      quam ego ipse gaudeat?<note>plus quam ego ipse gaudeat E <hi rend="italics"
                            >om.</hi> ABRNV</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="108" subtype="section">
                   <p>
@@ -3997,7 +4000,7 @@ academica. 2 partes. Berolini
                      voluptatis causa nulla erit? et homini, qui ceteris animantibus plurimum
                      praestat, praecipue<note>praecipui <hi rend="italics">P. Man. sec. Mdv.</hi>
                      </note> a natura nihil datum esse dicemus?<note>esse dicemus datum BE</note>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="34"/>
                </div>
                <div type="textpart" n="111" subtype="section">
@@ -4034,7 +4037,7 @@ academica. 2 partes. Berolini
                      considera, qui tibi,<note>que tibi B</note> ut reliquae corporis<note>corporis
                            <hi rend="italics">om.</hi> BE</note> partes, non comites solum virtutum,
                      sed ministri etiam videbuntur.<note>videbantur R</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="114" subtype="section">
                   <p>Quid?<note>quod BE <hi rend="italics">cf.</hi> p. 3, 6 <hi rend="italics"
@@ -4086,7 +4089,7 @@ academica. 2 partes. Berolini
                            j (j <hi rend="italics">ex corr. m. alt.; voluisse videtur scriba</hi>
                            uno cui) N ymo cum V</note> plurimae consentiunt gentes populi primarium
                         fuisse virum.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="117" subtype="section">
                   <p>Idne <pb n="p.85"/> consensisse de Calatino plurimas gentis arbitramur,
@@ -4109,10 +4112,10 @@ academica. 2 partes. Berolini
                      in sapientem non est facile defendere.</p>
                </div>
                <div type="textpart" n="118" subtype="section">
-                  <p>Ac ne plura complectar—sunt enim innumerabilia—, bene laudata virtus
-                     voluptatis aditus intercludat necesse est. quod iam a me expectare noli. tute
-                     introspice in mentem tuam ipse eamque omni cogitatione pertractans percontare
-                     ipse te perpetuisne malis voluptatibus perfruens in ea, quam saepe usurpabas,
+                  <p>Ac ne plura complectar—sunt enim innumerabilia—, bene laudata virtus voluptatis
+                     aditus intercludat necesse est. quod iam a me expectare noli. tute introspice
+                     in mentem tuam ipse eamque omni cogitatione pertractans percontare ipse te
+                     perpetuisne malis voluptatibus perfruens in ea, quam saepe usurpabas,
                      tranquillitate degere omnem aetatem sine dolore, adsumpto etiam illo, quod vos
                      quidem adiungere soletis, sed fieri non potest, sine doloris metu, an, cum de
                      omnibus gentibus optime mererere,<note>mererere <hi rend="italics">cod. Paris.
@@ -4188,7 +4191,7 @@ academica. 2 partes. Berolini
                      rebus novis nomina. quod quidem nemo mediocriter doctus mirabitur cogitans in
                      omni arte, cuius usus vulgaris communisque non sit, multam novitatem nominum
                      esse, cum constituantur earum rerum vocabula, quae in quaque arte versentur.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="4" subtype="section">
                   <p>itaque et dialectici et physici verbis utuntur iis, quae ipsi Graeciae nota
@@ -4234,7 +4237,7 @@ academica. 2 partes. Berolini
                      communia tecum sunt, existimatorem et iudicem. attendes igitur, ut soles,
                      diligenter eamque controversiam diiudicabis, quae mihi fuit cum avunculo tuo,
                      divino ac singulari viro.<note>mihi cum ... viro fuit BE</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="7" subtype="section">
                   <p>nam in Tusculano cum essem vellemque e bibliotheca pueri Luculli quibusdam
@@ -4292,7 +4295,7 @@ academica. 2 partes. Berolini
                            <hi rend="overline">cu</hi> ul si venerit paratior sit Et quidem N<hi
                            rend="sup">1</hi> veniet paratior sit quidem N<hi rend="sup">2</hi>
                         veniet paratior sic equidem V</note>
-                 </p>
+                  </p>
                   <p>Sic, et quidem diligentius saepiusque ista loquemur inter nos agemusque
                      communiter. sed residamus, inquit, si placet. Itaque fecimus.</p>
                   <milestone unit="chapter" n="3"/>
@@ -4348,8 +4351,8 @@ academica. 2 partes. Berolini
                   <milestone unit="chapter" n="4"/>
                </div>
                <div type="textpart" n="12" subtype="section">
-                  <p>Quae adhuc, Cato, a te<note>a te B ate E ante</note> dicta sunt, eadem,
-                     inquam, dicere posses, si sequerere Pyrrhonem aut Aristonem. nec enim ignoras
+                  <p>Quae adhuc, Cato, a te<note>a te B ate E ante</note> dicta sunt, eadem, inquam,
+                     dicere posses, si sequerere Pyrrhonem aut Aristonem. nec enim ignoras
                         his<note>his <hi rend="italics">edd.</hi> siis A, si BE; is (<hi
                            rend="italics">post eras. breviss. vocabul., cuius initium</hi>
                         <gap reason="illegible"/>
@@ -4616,7 +4619,7 @@ academica. 2 partes. Berolini
                      sententiis rhetorice et augeri et ornari, sed consectaria me Stoicorum brevia
                      et acuta delectant. concluduntur igitur eorum argumenta sic: <milestone
                         unit="chapter" n="8"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="27" subtype="section">
                   <p>Quod est bonum, omne laudabile est; quod autem laudabile est, omne est
@@ -4646,7 +4649,7 @@ academica. 2 partes. Berolini
                         <w>honestate</w> honeste AB</note> cernitur, quod honestum est, id bonum
                      solum habendum est. Quid vero?<note>Quid vero? negarine ullo <hi rend="italics"
                            >Dav.</hi> quod vero negari nullo ARNV qui vero negari nullo BE</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="29" subtype="section">
                   <p>negarine ullo modo possit <add>numquam</add>
@@ -4893,9 +4896,9 @@ academica. 2 partes. Berolini
                   <milestone unit="chapter" n="13"/>
                </div>
                <div type="textpart" n="42" subtype="section">
-                  <p>An vero certius quicquam potest esse quam illorum ratione,<note>illorum
-                        ratione <hi rend="italics">Lamb.</hi> illo ratione (rōe R) AR illa ratione
-                        BEV illa ratio est N</note> qui dolorem in malis ponunt, non posse sapientem
+                  <p>An vero certius quicquam potest esse quam illorum ratione,<note>illorum ratione
+                           <hi rend="italics">Lamb.</hi> illo ratione (rōe R) AR illa ratione BEV
+                        illa ratio est N</note> qui dolorem in malis ponunt, non posse sapientem
                      beatum esse, cum eculeo<note>equuleo R</note> torqueatur? eorum autem, qui
                      dolorem in malis non habent, ratio certe cogit ut in omnibus<note>ut in omnibus
                         NV uti n<hi rend="overline">oi</hi>ibus R uti nominibus ABE</note> tormentis
@@ -4964,7 +4967,7 @@ academica. 2 partes. Berolini
                      oportunitate finitur, nec plura paucioribus nec longinquiora brevioribus
                         anteponent.<note>anteponent <hi rend="italics">Bentl. Mdv.</hi>;
                         anteponentur A RN V anteponerentur BE</note> Nec vero satis acute dicunt:
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="47" subtype="section">
                   <p>si bona valitudo pluris aestimanda sit longa quam brevis, sapientiae quoque
@@ -5017,7 +5020,7 @@ academica. 2 partes. Berolini
                         V</note> quod sit in bonis, contineri potest, ob eamque causam, quia
                      cognitiones comprehensionesque rerum, e quibus efficiuntur artes, adpetitionem
                      movent, cum divitiae non sint in bonis, nulla ars divitiis contineri potest.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="50" subtype="section">
                   <p>quod si de artibus concedamus, virtutis tamen non sit eadem ratio, propterea
@@ -5036,7 +5039,7 @@ academica. 2 partes. Berolini
                      illa, quae nihil valerent ad beate misereve vivendum, aliquid tamen, quod
                      differret, esse voluerunt, ut essent eorum alia aestimabilia, alia contra, alia
                         neutrum.<note>alia neutrum RNV aliane verum A alia neutrumque BE</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="51" subtype="section">
                   <p>quae autem aestimanda essent, eorum in aliis satis esse causae, quam ob rem
@@ -5120,7 +5123,7 @@ academica. 2 partes. Berolini
                      efficiens dici potest.<note>
                         <hi rend="italics">secl. Mdv.</hi>
                      </note>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="17"/>
                </div>
                <div type="textpart" n="56" subtype="section">
@@ -5149,8 +5152,8 @@ academica. 2 partes. Berolini
                      mortem famae tamen esse propter rem, etiam detracto usu, consulendum.</p>
                </div>
                <div type="textpart" n="58" subtype="section">
-                  <p>Sed cum, quod honestum sit, id solum bonum esse dicamus, consentaneum tamen
-                     est fungi officio, cum id officium nec in bonis ponamus nec in malis. est enim
+                  <p>Sed cum, quod honestum sit, id solum bonum esse dicamus, consentaneum tamen est
+                     fungi officio, cum id officium nec in bonis ponamus nec in malis. est enim
                      aliquid in his rebus probabile, et quidem ita, ut eius ratio reddi possit, ergo
                      ut etiam probabiliter acti ratio reddi possit. est autem officium, quod ita
                      factum est, ut eius facti probabilis ratio reddi possit. ex quo intellegitur
@@ -5167,12 +5170,12 @@ academica. 2 partes. Berolini
                   <milestone unit="chapter" n="18"/>
                </div>
                <div type="textpart" n="59" subtype="section">
-                  <p>Atque<note>Atque <hi rend="italics">dett.</hi> Atqui (At qui)</note>
-                     perspicuum etiam illud est, in istis rebus mediis aliquid agere sapientem.
-                     iudicat igitur, cum agit, officium illud esse. quod quoniam numquam fallitur in
-                     iudicando, erit in mediis rebus officium. quod efficitur hac etiam conclusione
-                     rationis: Quoniam enim videmus esse quiddam, quod recte factum appellemus, id
-                     autem est perfectum officium, erit <del>autem</del> etiam<note>
+                  <p>Atque<note>Atque <hi rend="italics">dett.</hi> Atqui (At qui)</note> perspicuum
+                     etiam illud est, in istis rebus mediis aliquid agere sapientem. iudicat igitur,
+                     cum agit, officium illud esse. quod quoniam numquam fallitur in iudicando, erit
+                     in mediis rebus officium. quod efficitur hac etiam conclusione rationis:
+                     Quoniam enim videmus esse quiddam, quod recte factum appellemus, id autem est
+                     perfectum officium, erit <del>autem</del> etiam<note>
                         <hi rend="italics">del. Lamb.</hi>
                      </note> inchoatum, ut, si iuste depositum reddere in recte factis sit, in
                      officiis ponatur depositum reddere; illo enim addito <quote>iuste</quote>
@@ -5187,7 +5190,7 @@ academica. 2 partes. Berolini
                      sapientem sumpturum, quae secundum naturam sint, reiecturumque contraria. ita
                      est quoddam commune officium sapientis et insipientis, ex quo efficitur versari
                      in iis,<note>iis <hi rend="italics">edd.</hi> his</note> quae media dicamus.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="60" subtype="section">
                   <p>Sed cum ab his omnia proficiscantur officia, non sine causa dicitur ad ea
@@ -5256,7 +5259,7 @@ academica. 2 partes. Berolini
                            rend="italics">Non.</hi> RV</note> civitates.<note>itaque ... civitatis
                            (<hi rend="italics">v. 18</hi>) <hi rend="italics">Non. p. 234</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="64" subtype="section">
                   <p>mundum autem censent regi numine deorum, eumque esse quasi communem urbem et
@@ -5276,7 +5279,7 @@ academica. 2 partes. Berolini
                      deflagratio consequatur—quod vulgari quodam versu Graeco pronuntiari solet—,
                      certe verum est etiam iis, qui aliquando futuri sint, esse propter ipsos
                      consulendum. <milestone unit="chapter" n="20"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="65" subtype="section">
                   <p>ex hac animorum affectione testamenta commendationesque morientium natae sunt.
@@ -5300,7 +5303,7 @@ academica. 2 partes. Berolini
                      igitur membris utimur prius, quam didicimus, cuius ea causa utilitatis
                      habeamus, sic inter nos natura ad civilem communitatem coniuncti et consociati
                      sumus. quod ni ita se haberet, nec iustitiae ullus esset nec bonitati locus.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="67" subtype="section">
                   <p>Et<note>
@@ -5326,13 +5329,14 @@ academica. 2 partes. Berolini
                      amores quidem sanctos a sapiente alienos esse arbitrantur.<note>arbitramur
                         BE</note> Cynicorum autem rationem atque vitam alii cadere in sapientem
                      dicunt, si qui<note>qui ARN<hi rend="sup">1</hi>V quis BEN<hi rend="sup">2</hi>
-                     </note> eius modi forte casus inciderit, ut id faciendum sit, alii nullo modo.</p>
+                     </note> eius modi forte casus inciderit, ut id faciendum sit, alii nullo
+                     modo.</p>
                   <milestone unit="chapter" n="21"/>
                </div>
                <div type="textpart" n="69" subtype="section">
-                  <p>Ut vero conservetur omnis homini erga hominem societas, coniunctio, caritas,
-                     et emolumenta et detrimenta, quae <foreign xml:lang="grc">w)felh/mata</foreign>
-                     et <foreign xml:lang="grc">bla/mmata</foreign> appellant, communia esse
+                  <p>Ut vero conservetur omnis homini erga hominem societas, coniunctio, caritas, et
+                     emolumenta et detrimenta, quae <foreign xml:lang="grc">w)felh/mata</foreign> et
+                        <foreign xml:lang="grc">bla/mmata</foreign> appellant, communia esse
                      voluerunt; quorum altera prosunt, nocent altera. neque solum ea communia, verum
                      etiam paria esse dixerunt. incommoda autem et commoda—ita enim <foreign
                         xml:lang="grc">eu)xrhsth/mata</foreign> et <foreign xml:lang="grc"
@@ -5356,7 +5360,7 @@ academica. 2 partes. Berolini
                            rend="italics">Mdv.</hi> iusticie nec amicicie</note> esse omnino
                         poterunt,<note>poterunt esse omnino BE</note> nisi ipsae per se
                         expetuntur.<note>expetantur V</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="71" subtype="section">
                   <p>Ius autem, quod ita dici appellarique possit, id esse natura,<note>natura <hi
@@ -5380,7 +5384,7 @@ academica. 2 partes. Berolini
                      abduci fallique posse. recte igitur, si omnibus in rebus temeritas ignoratioque
                      vitiosa est, ars ea, quae tollit haec, virtus nominata est. <milestone
                         unit="chapter" n="22"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="73" subtype="section">
                   <p>physicae quoque<note>
@@ -5405,7 +5409,7 @@ academica. 2 partes. Berolini
                         <hi rend="italics">Lindsay</hi>) <hi rend="italics">Non.</hi>
                      </note> gratia debeatur sine explicatione naturae intellegi potest.<note>nec
                         vero ... potest <hi rend="italics">Non. p. 232 s. v.</hi> advorsum</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="74" subtype="section">
                   <p>Sed iam sentio me esse longius provectum, quam proposita ratio postularet.
@@ -5498,15 +5502,14 @@ academica. 2 partes. Berolini
                   <milestone unit="chapter" n="2"/>
                </div>
                <div type="textpart" n="3" subtype="section">
-                  <p>Existimo igitur, inquam, Cato, veteres illos Platonis
-                        auditores,<note>auditores Platonis BE</note> Speusippum, Aristotelem,
-                     Xenocratem, deinde <pb n="p.121"/> eorum, Polemonem, Theophrastum, satis et
-                     copiose et eleganter habuisse constitutam disciplinam, ut non esset causa
-                     Zenoni, cum Polemonem audisset, cur et ab eo ipso et a superioribus dissideret.
-                     quorum fuit haec institutio, in qua animadvertas velim quid mutandum putes nec
-                     expectes, dum ad omnia dicam, quae a te<note>a te <hi rend="italics">ed. princ.
-                           Rom.</hi> ante</note> dicta sunt; universa enim illorum ratione cum tota
-                     vestra confligendum puto.</p>
+                  <p>Existimo igitur, inquam, Cato, veteres illos Platonis auditores,<note>auditores
+                        Platonis BE</note> Speusippum, Aristotelem, Xenocratem, deinde <pb n="p.121"
+                     /> eorum, Polemonem, Theophrastum, satis et copiose et eleganter habuisse
+                     constitutam disciplinam, ut non esset causa Zenoni, cum Polemonem audisset, cur
+                     et ab eo ipso et a superioribus dissideret. quorum fuit haec institutio, in qua
+                     animadvertas velim quid mutandum putes nec expectes, dum ad omnia dicam, quae a
+                        te<note>a te <hi rend="italics">ed. princ. Rom.</hi> ante</note> dicta sunt;
+                     universa enim illorum ratione cum tota vestra confligendum puto.</p>
                </div>
                <div type="textpart" n="4" subtype="section">
                   <p>qui cum viderent ita nos esse natos, ut et communiter ad eas virtutes apti
@@ -5791,7 +5794,7 @@ academica. 2 partes. Berolini
                      humani, quaeque ab eisdem<note>eisdem RNV hisdem BE</note> de temperantia, de
                      modestia, de magnitudine animi, de omni honestate dicuntur? fatebuntur Stoici
                      haec omnia dicta esse praeclare, neque eam causam Zenoni desciscendi fuisse.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="20" subtype="section">
                   <p>Alia quaedam dicent, credo, magna antiquorum esse peccata, quae ille
@@ -6045,7 +6048,7 @@ academica. 2 partes. Berolini
                            >Se.</hi> sic BE sit RNV</note> nihil nisi corpus, summa erunt<note>
                         <w>erunt</w> erit N esset V</note> illa: valitudo, vacuitas doloris,
                      pulchritudo, cetera. <milestone unit="chapter" n="14"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="36" subtype="section">
                   <p>nunc de hominis summo bono quaeritur;<note>queritur bono BE</note> quid
@@ -6171,10 +6174,10 @@ academica. 2 partes. Berolini
                   <milestone unit="chapter" n="16"/>
                </div>
                <div type="textpart" n="43" subtype="section">
-                  <p>Itaque mihi videntur omnes quidem illi errasse, qui finem bonorum esse
-                     dixerunt honeste vivere, sed alius alio magis, Pyrrho scilicet maxime, qui
-                     virtute constituta nihil omnino, quod appetendum sit, relinquat, deinde Aristo,
-                     qui nihil relinquere non est ausus, introduxit autem, quibus commotus sapiens
+                  <p>Itaque mihi videntur omnes quidem illi errasse, qui finem bonorum esse dixerunt
+                     honeste vivere, sed alius alio magis, Pyrrho scilicet maxime, qui virtute
+                     constituta nihil omnino, quod appetendum sit, relinquat, deinde Aristo, qui
+                     nihil relinquere non est ausus, introduxit autem, quibus commotus sapiens
                      appeteret <pb n="p.139"/> aliquid, quodcumque<note>quodcumque (<hi
                            rend="italics">ante</hi> in) N quod cuique BEV cuique R</note> in mentem
                      incideret, et quodcumque tamquam occurreret. is hoc melior quam Pyrrho, quod
@@ -6328,7 +6331,7 @@ academica. 2 partes. Berolini
                      in quo iure possit<note>possit iure BE</note> gloriari, etsi illi quidem etiam
                      voluptates faciunt interdum <pb n="p.143"/> gloriosas. <milestone
                         unit="chapter" n="19"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="52" subtype="section">
                   <p>vides igitur te aut ea sumere, quae non concedantur, aut ea, quae etiam
@@ -6416,7 +6419,7 @@ academica. 2 partes. Berolini
                      propterea quod alia peccata plures, alia pauciores quasi numeros officii
                      praeterirent. iam insipientes alios ita esse, ut nullo modo ad sapientiam
                      possent pervenire, alios, qui possent, si id egissent, sapientiam consequi.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="57" subtype="section">
                   <p>hic loquebatur aliter atque omnes, sentiebat<note>sentiebat <hi rend="italics"
@@ -6452,7 +6455,7 @@ academica. 2 partes. Berolini
                      habeant in omni animante, sed in homine rationem etiam. ex ea quae sint apta,
                      ea honesta, ea pulchra, ea laudabilia, illa autem superiora naturalia
                      nominantur, quae coniuncta cum honestis vitam beatam perficiunt et absolvunt.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="59" subtype="section">
                   <p>omnium autem eorum commodorum, quibus non illi plus tribuunt, qui illa bona
@@ -6494,7 +6497,7 @@ academica. 2 partes. Berolini
                      </note> verbis discrepare?<note>cum iis ... discrepare <hi rend="italics">Non.
                            p. 43 </hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="61" subtype="section">
                   <p>quid, si reviviscant Platonis illi et deinceps qui eorum auditores fuerunt, et
@@ -6523,10 +6526,10 @@ academica. 2 partes. Berolini
                      dixissent, quid tandem talibus viris responderes?</p>
                </div>
                <div type="textpart" n="62" subtype="section">
-                  <p>Rogarem te, inquit, ut diceres pro me tu idem, qui illis orationem
-                     dictavisses, vel potius paulum loci mihi, <pb n="p.148"/> ut iis responderem,
-                     dares, nisi et te audire nunc mallem et istis tamen alio tempore responsurus
-                     essem, tum scilicet, cum tibi.</p>
+                  <p>Rogarem te, inquit, ut diceres pro me tu idem, qui illis orationem dictavisses,
+                     vel potius paulum loci mihi, <pb n="p.148"/> ut iis responderem, dares, nisi et
+                     te audire nunc mallem et istis tamen alio tempore responsurus essem, tum
+                     scilicet, cum tibi.</p>
                   <milestone unit="chapter" n="23"/>
                   <p>Atque, si verum respondere velles, Cato, haec erant dicenda, non eos tibi non
                      probatos, tantis ingeniis homines tantaque auctoritate, sed te animadvertisse,
@@ -6572,7 +6575,7 @@ academica. 2 partes. Berolini
                      videbat sapientiam, aeque caecum<note>
                         <w>caecum</w> ceco R</note> animo ac<note>ac RNV et BE</note> Phalarim
                      fuisse? <milestone unit="chapter" n="24"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="65" subtype="section">
                   <p>ista similia non sunt, Cato, in quibus quamvis multum processeris tamen illud
@@ -6593,7 +6596,7 @@ academica. 2 partes. Berolini
                      </note> quam filium, cum alter stabilire rem publicam studuerit, alter
                      evertere. nec tamen ille erat sapiens— quis enim hoc aut quando aut ubi aut
                      unde?—; sed quia studebat laudi et dignitati, multum in virtute processerat.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="66" subtype="section">
                   <p>conferam avum<note>avum BE autem avum N avū aut R avum autem V</note> tuum
@@ -6685,7 +6688,7 @@ academica. 2 partes. Berolini
                         BE</note> esse, quod interesset.—Et nunc idem dico, inquiet, sed ad virtutes
                      et ad vitia nihil interesse. <pb n="p.152"/> — <milestone unit="chapter" n="26"
                      />
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="72" subtype="section">
                   <p>Quis istud, quaeso,<note>quaeso <hi rend="italics">Man., Lamb.</hi>;
@@ -6733,10 +6736,10 @@ academica. 2 partes. Berolini
                   <milestone unit="chapter" n="27"/>
                </div>
                <div type="textpart" n="74" subtype="section">
-                  <p>Nam ex eisdem verborum praestrigiis<note>praestrigiis BEN praestigiis</note>
-                     et regna nata vobis sunt et imperia et divitiae, et tantae quidem, ut omnia,
-                     quae ubique sint, sapientis esse dicatis. solum praeterea formosum, solum
-                     liberum, solum civem, <add>stultos</add> omnia contraria,<note>
+                  <p>Nam ex eisdem verborum praestrigiis<note>praestrigiis BEN praestigiis</note> et
+                     regna nata vobis sunt et imperia et divitiae, et tantae quidem, ut omnia, quae
+                     ubique sint, sapientis esse dicatis. solum praeterea formosum, solum liberum,
+                     solum civem, <add>stultos</add> omnia contraria,<note>
                         <hi rend="italics">add. hoc loco Mdv., post</hi> contraria <hi
                            rend="italics">Morel.</hi>
                      </note> quos etiam insanos esse vultis. haec <foreign xml:lang="grc"
@@ -6791,12 +6794,12 @@ academica. 2 partes. Berolini
                      his rebus, aut</p>
                </div>
                <div type="textpart" n="78" subtype="section">
-                  <p>maiora sint aut minora! Itaque—iam enim concludatur oratio—hoc uno vitio
-                     maxime mihi premi videntur tui Stoici, quod se posse putant duas contrarias
-                     sententias optinere. quid enim est tam repugnans quam eundem dicere, quod
-                     honestum sit, solum id bonum esse, qui dicat appetitionem rerum ad vivendum <pb
-                        n="p.155"/> accommodatarum<note>accomodatarum N<hi rend="sup">2</hi>V
-                        accomodarum RN<hi rend="sup">1</hi> accommodare BE</note>
+                  <p>maiora sint aut minora! Itaque—iam enim concludatur oratio—hoc uno vitio maxime
+                     mihi premi videntur tui Stoici, quod se posse putant duas contrarias sententias
+                     optinere. quid enim est tam repugnans quam eundem dicere, quod honestum sit,
+                     solum id bonum esse, qui dicat appetitionem rerum ad vivendum <pb n="p.155"/>
+                        accommodatarum<note>accomodatarum N<hi rend="sup">2</hi>V accomodarum RN<hi
+                           rend="sup">1</hi> accommodare BE</note>
                      <add>a</add> natura profectam? ita cum<note>
                         <hi rend="italics">add. P. Man.</hi>
                      </note> ea volunt retinere, quae superiori sententiae conveniunt, in Aristonem
@@ -6815,7 +6818,7 @@ academica. 2 partes. Berolini
                <div type="textpart" n="80" subtype="section">
                   <p>verum hoc idem<note>
                         <w>idem</w> quidem NV</note> saepe faciamus.<note>faciamus sepe BE</note>
-                 </p>
+                  </p>
                   <p>Nos vero, inquit ille; nam quid possumus facere melius? et hanc quidem primam
                      exigam a te operam, ut audias me quae a te dicta sunt refellentem. sed memento
                      te, quae nos sentiamus, omnia probare, nisi<note>nisi <hi rend="italics">cod.
@@ -6855,14 +6858,15 @@ academica. 2 partes. Berolini
                      memoriae ducta sit disciplina.</p>
                </div>
                <div type="textpart" n="3" subtype="section">
-                  <p>Tum Quintus: Est plane, Piso, ut dicis, inquit. nam me ipsum huc modo
-                     venientem convertebat ad sese Coloneus ille locus,<note>
+                  <p>Tum Quintus: Est plane, Piso, ut dicis, inquit. nam me ipsum huc modo venientem
+                     convertebat ad sese Coloneus ille locus,<note>
                         <w>locus</w> lucus <hi rend="italics">Valckenarius ad Callimach. p. 216 cf.
                            Va. II p. 545 sqq.</hi>
                      </note> cuius incola Sophocles ob oculos versabatur, quem scis quam admirer
                      quamque eo delecter. me quidem ad altiorem memoriam Oedipodis huc venientis et
                      illo mollissimo carmine quaenam essent ipsa haec<note>hec ipsa BE</note> loca
-                     requirentis species quaedam commovit, inaniter scilicet, sed commovit tamen.</p>
+                     requirentis species quaedam commovit, inaniter scilicet, sed commovit
+                     tamen.</p>
                   <pb n="p.157"/>
                   <p>Tum Pomponius: At ego, quem vos ut deditum Epicuro insectari soletis, sum
                      multum equidem cum Phaedro, quem unice diligo, ut scitis, in Epicuri hortis,
@@ -6877,12 +6881,12 @@ academica. 2 partes. Berolini
                         <w>anulis</w> anellis <hi rend="italics">Non.</hi> anelis R ambus anulis
                         V</note> habent.<note>habebant <hi rend="italics">Non.</hi>
                      </note>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="2"/>
                </div>
                <div type="textpart" n="4" subtype="section">
-                  <p>Hic ego: Pomponius quidem, inquam, noster iocari videtur, et fortasse suo
-                     iure. ita enim se Athenis collocavit, ut sit paene unus ex Atticis, ut id etiam
+                  <p>Hic ego: Pomponius quidem, inquam, noster iocari videtur, et fortasse suo iure.
+                     ita enim se Athenis collocavit, ut sit paene unus ex Atticis, ut id etiam
                      cognomen videatur habiturus. Ego autem tibi, Piso, assentior usu hoc venire, ut
                      acrius aliquanto et attentius de claris viris locorum admonitu<note>admonitum
                            <hi rend="italics">Non.</hi>
@@ -6948,9 +6952,10 @@ academica. 2 partes. Berolini
                      nemo sine eo instrumento ad ullam rem illustriorem satis ornatus possit
                      accedere. ab his oratores, ab his imperatores ac rerum publicarum principes
                      extiterunt. ut ad minora veniam, mathematici, poe+tae, musici, medici denique
-                     ex hac tamquam omnium artificum<note>artificiū R</note> officina profecti sunt.</p>
+                     ex hac tamquam omnium artificum<note>artificiū R</note> officina profecti
+                     sunt.</p>
                   <p>Atque ego:<note>At ego R Et ego V</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="8" subtype="section">
                   <p>Scis me, inquam, istud idem sentire, Piso, sed a te oportune facta mentio est.
@@ -6977,8 +6982,8 @@ academica. 2 partes. Berolini
                   <milestone unit="chapter" n="4"/>
                </div>
                <div type="textpart" n="9" subtype="section">
-                  <p>Sic est igitur locutus: Quantus ornatus in Peripateticorum disciplina sit
-                     satis est a me, ut brevissime potuit, paulo ante dictum. sed est forma eius
+                  <p>Sic est igitur locutus: Quantus ornatus in Peripateticorum disciplina sit satis
+                     est a me, ut brevissime potuit, paulo ante dictum. sed est forma eius
                      disciplinae, sicut fere ceterarum, triplex: una pars est naturae,<note>naturae
                            <hi rend="italics">edd.</hi> natura (<hi rend="italics">etiam</hi>
                         B)</note> disserendi altera, vivendi tertia. Natura sic ab iis investigata
@@ -7000,7 +7005,7 @@ academica. 2 partes. Berolini
                      utramque partem dicendi exercitatio est instituta, ut non contra omnia semper,
                      sicut Arcesilas, diceret, et tamen ut in omnibus rebus, quicquid ex utraque
                      parte dici posset, expromeret.<note>exprimeret R</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="11" subtype="section">
                   <p>Cum autem tertia pars bene vivendi praecepta quaereret, ea quoque est ab isdem
@@ -7039,7 +7044,7 @@ academica. 2 partes. Berolini
                      quidem esse Aristoteli, sed non video, cur non potuerit patri similis esse
                      filius. Theophrastum tamen adhibeamus ad pleraque, dum modo plus in virtute
                      teneamus, quam ille tenuit, firmitatis et roboris. Simus igitur contenti his.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="13" subtype="section">
                   <p>namque horum posteri meliores illi quidem mea sententia quam reliquarum
@@ -7197,11 +7202,11 @@ academica. 2 partes. Berolini
                         </note> cum Torquato et de honestate, in qua una omne bonum poneretur, cum
                         Catone est disputatum, primum, quae contra voluptatem dicta sunt, eadem fere
                         cadunt contra vacuitatem doloris.</del>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="22" subtype="section">
-                  <p>nec vero alia sunt quaerenda contra Carneadeam illam sententiam. quocumque
-                     enim modo summum bonum sic exponitur, ut id vacet honestate, nec officia nec
+                  <p>nec vero alia sunt quaerenda contra Carneadeam illam sententiam. quocumque enim
+                     modo summum bonum sic exponitur, ut id vacet honestate, nec officia nec
                      virtutes in ea ratione nec amicitiae constare possunt. coniunctio autem cum
                      honestate vel voluptatis vel non dolendi id ipsum honestum, quod amplecti vult,
                         id<note>id (<hi rend="italics">post</hi> vult) <hi rend="italics">om.</hi>
@@ -7269,7 +7274,7 @@ academica. 2 partes. Berolini
                      illa et summa, quae quaerimus, inter animalium genera distincta et dispertita
                         sint<note>sunt RNV</note> et sua cuique propria et ad id apta, quod cuiusque
                      natura desideret.<note>desiderat RNV</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="26" subtype="section">
                   <p>quare cum dicimus omnibus animalibus extremum esse secundum naturam vivere, non
@@ -7387,7 +7392,7 @@ academica. 2 partes. Berolini
                         (intelligi ne quidem ut N<hi rend="sup">2</hi>)</note> intellegi quidem,
                         <add>ut</add> propter aliam quampiam rem, verbi gratia propter voluptatem,
                      nos amemus; propter nos enim illam, non propter eam nosmet ipsos diligimus.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="31" subtype="section">
                   <p>Quamquam quid est, quod magis perspicuum sit, <add>quam</add> non modo carum
@@ -7481,11 +7486,11 @@ academica. 2 partes. Berolini
                      quaedam et flexi fractique motus, quales protervorum hominum aut mollium esse
                      solent, contra naturam sunt, ut, etiamsi animi vitio id eveniat, <pb n="p.173"
                      /> tamen in corpore immutari<note>mutari BE</note> hominis natura videatur.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="36" subtype="section">
-                  <p>itaque e contrario moderati aequabilesque habitus, affectiones ususque
-                     corporis apti esse ad naturam videntur.</p>
+                  <p>itaque e contrario moderati aequabilesque habitus, affectiones ususque corporis
+                     apti esse ad naturam videntur.</p>
                   <p>Iam vero animus non esse solum, sed etiam cuiusdam modi<note>
                         <w>cuiusdam modi</w> cuiusmodi BE</note> debet esse, ut et omnis partis suas
                      habeat incolumis et de virtutibus nulla desit. atque<note>atque BE atqui NV at
@@ -7504,7 +7509,7 @@ academica. 2 partes. Berolini
                      voluntarias, ut<note>ut N<hi rend="sup">2</hi> et</note> prudentiam,
                      temperantiam, fortitudinem, iustitiam et reliquas eiusdem generis.<note>generis
                         eiusdem BE</note>
-                 </p>
+                  </p>
                   <p>Et summatim quidem haec erant de corpore animoque dicenda, quibus quasi
                      informatum est quid<note>quid NV quod</note> hominis natura postulet.</p>
                </div>
@@ -7615,17 +7620,17 @@ academica. 2 partes. Berolini
                   <milestone unit="chapter" n="15"/>
                </div>
                <div type="textpart" n="41" subtype="section">
-                  <p>Cum igitur ea sit, quam exposui, forma naturae, si, ut initio dixi, simul
-                     atque ortus esset, se quisque cognosceret iudicareque posset quae vis et totius
-                     esset naturae et partium singularum, continuo videret quid esset hoc, quod
-                     quaerimus, omnium rerum, quas expetimus, summum et ultimum nec ulla in re
-                     peccare posset. nunc vero a primo quidem mirabiliter occulta natura est nec
-                     perspici nec cognosci potest. progredientibus autem aetatibus sensim tardeve
-                     potius quasi nosmet ipsos cognoscimus. itaque prima illa commendatio, quae a
-                     natura nostri facta est nobis, incerta et obscura est, primusque appetitus ille
-                     animi tantum agit, ut salvi atque integri esse possimus. cum autem
-                        dispicere<note>dispicere NV despicere BER</note> coepimus<note>cepimus RNV
-                        ceperimus BE</note> et sentire quid simus et quid <add>ab</add>
+                  <p>Cum igitur ea sit, quam exposui, forma naturae, si, ut initio dixi, simul atque
+                     ortus esset, se quisque cognosceret iudicareque posset quae vis et totius esset
+                     naturae et partium singularum, continuo videret quid esset hoc, quod quaerimus,
+                     omnium rerum, quas expetimus, summum et ultimum nec ulla in re peccare posset.
+                     nunc vero a primo quidem mirabiliter occulta natura est nec perspici nec
+                     cognosci potest. progredientibus autem aetatibus sensim tardeve potius quasi
+                     nosmet ipsos cognoscimus. itaque prima illa commendatio, quae a natura nostri
+                     facta est nobis, incerta et obscura est, primusque appetitus ille animi tantum
+                     agit, ut salvi atque integri esse possimus. cum autem dispicere<note>dispicere
+                        NV despicere BER</note> coepimus<note>cepimus RNV ceperimus BE</note> et
+                     sentire quid simus et quid <add>ab</add>
                      <note>
                         <hi rend="italics">add. ed. Veneta 1494</hi>
                      </note> animantibus ceteris differamus, tum ea sequi incipimus, ad quae nati
@@ -7680,8 +7685,8 @@ academica. 2 partes. Berolini
                   <milestone unit="chapter" n="16"/>
                </div>
                <div type="textpart" n="44" subtype="section">
-                  <p>Intrandum est igitur<note>igitur est BE</note> in rerum naturam et penitus
-                     quid ea postulet pervidendum; aliter enim nosmet ipsos nosse non possumus. quod
+                  <p>Intrandum est igitur<note>igitur est BE</note> in rerum naturam et penitus quid
+                     ea postulet pervidendum; aliter enim nosmet ipsos nosse non possumus. quod
                      praeceptum quia maius erat, quam ut ab homine videretur, idcirco assignatum est
                      deo. iubet igitur nos Pythius Apollo noscere nosmet ipsos. cognitio autem haec
                      est una nostri, ut vim corporis<note>nostri, ut vim corporis <hi rend="italics"
@@ -7797,7 +7802,7 @@ academica. 2 partes. Berolini
                         <l>Omniaque e latis rerum<note>rerum <hi rend="italics">Marsus</hi>
                               regum</note> vestigia terris.</l>
                      </quote>
-                 </p>
+                  </p>
                   <p>Vidit Homerus probari fabulam non posse, si cantiunculis tantus irretitus vir
                      teneretur; scientiam pollicentur, quam non erat mirum sapientiae cupido patria
                         esse<note>patria esse (pat<gap reason="illegible"/>a <gap reason="illegible"
@@ -7808,7 +7813,7 @@ academica. 2 partes. Berolini
                   <p>Atque omnia quidem scire, cuiuscumque modi sint, cupere curiosorum, duci vero
                      maiorum rerum contemplatione ad cupiditatem scientiae summorum virorum est
                      putandum. <milestone unit="chapter" n="19"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="50" subtype="section">
                   <p>quem enim ardorem studii censetis fuisse in Archimede, qui dum in pulvere
@@ -7866,7 +7871,7 @@ academica. 2 partes. Berolini
                      miseriarum. itaque multi, cum in<note>in <hi rend="italics">om.</hi> BER</note>
                      potestate essent hostium aut tyrannorum, multi in custodia, multi in exilio
                      dolorem suum doctrinae studiis levaverunt.<note>levarunt BE</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="54" subtype="section">
                   <p>princeps huius civitatis Phalereus<note>phalereus R phalerius BEN phalerus
@@ -7885,7 +7890,7 @@ academica. 2 partes. Berolini
                      pateremur, qui<note>qui N<hi rend="sup">2</hi> quin</note> etiam nunc agendi
                      aliquid discendique causa prope contra naturam vigilias suscipere soleamus.<note>
                         <w>soleamus</w> valeamus R</note>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="20"/>
                </div>
                <div type="textpart" n="55" subtype="section">
@@ -7973,11 +7978,11 @@ academica. 2 partes. Berolini
                      satis dictum est, nunc de maioribus consequentibusque videamus.</p>
                </div>
                <div type="textpart" n="59" subtype="section">
-                  <p>Natura igitur corpus quidem hominis sic et genuit et formavit, ut alia in
-                     primo ortu perficeret, alia progrediente <pb n="p.186"/> aetate fingeret neque
-                     sane multum adiumentis externis et adventiciis uteretur. animum autem reliquis
-                     rebus ita perfecit, ut corpus; sensibus enim ornavit ad res percipiendas
-                     idoneis, ut nihil aut non multum adiumento ullo ad suam confirmationem
+                  <p>Natura igitur corpus quidem hominis sic et genuit et formavit, ut alia in primo
+                     ortu perficeret, alia progrediente <pb n="p.186"/> aetate fingeret neque sane
+                     multum adiumentis externis et adventiciis uteretur. animum autem reliquis rebus
+                     ita perfecit, ut corpus; sensibus enim ornavit ad res percipiendas idoneis, ut
+                     nihil aut non multum adiumento ullo ad suam confirmationem
                         indigerent;<note>indigerent <hi rend="italics">Brem.</hi> indigeret</note>
                      quod autem in homine praestantissimum atque optimum est, id deseruit. etsi
                      dedit talem mentem, quae omnem virtutem accipere posset, ingenuitque sine
@@ -8170,7 +8175,7 @@ academica. 2 partes. Berolini
                         RNV</note> festo illo die tanto gaudio affecit, quanto L. Paulum, cum regem
                      Persem captum adduceret, eodem flumine invectio?<note>invectio BEN<hi
                            rend="sup">1</hi> invecto RN<hi rend="sup">2</hi> inventio V</note>
-                 </p>
+                  </p>
                   <p>Age<note>age N<hi rend="sup">2</hi> auge</note> nunc, Luci noster, extrue animo
                      altitudinem excellentiamque virtutum:</p>
                </div>
@@ -8204,7 +8209,7 @@ academica. 2 partes. Berolini
                      laudibus amplificantis oratio, denique haec est undique completa et perfecta
                      explicatio summi boni. hinc ceteri particulas arripere conati suam quisque
                      videri voluit afferre sententiam. <milestone unit="chapter" n="25"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="73" subtype="section">
                   <p>saepe ab Aristotele, a Theophrasto mirabiliter est laudata per se ipsa rerum
@@ -8246,7 +8251,7 @@ academica. 2 partes. Berolini
                         commentatus?<note>comentatus R commentatus (<hi rend="italics">prior</hi> t
                            <hi rend="italics">in ras. paulo capaciore</hi>) N commendatus (conm. E)
                         BE comendatus V</note>
-                 </p>
+                  </p>
                   <p>Et ego: Tu vero, inquam, Piso, ut saepe alias,<note>alias N<hi rend="sup"
                            >2</hi> alia</note> sic hodie ita nosse ista visus es, ut, si tui nobis
                      potestas saepius fieret, non multum Graecis supplicandum putarem. quod quidem
@@ -8347,7 +8352,7 @@ academica. 2 partes. Berolini
                      deformitatem, morbum, debilitatem<note>
                         <hi rend="italics">add. Lamb.</hi>
                      </note> mala.<note>mala <hi rend="italics">om.</hi> R</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="81" subtype="section">
                   <p>iam illa externa parce tu quidem; sed haec cum corporis bona sint, eorum
@@ -8473,7 +8478,7 @@ academica. 2 partes. Berolini
                      </note> beate enim vivendi cupiditate incensi omnes sumus. hoc mihi cum tuo
                      fratre convenit.<note>vivendi ... convenit <hi rend="italics">Non. p. 271</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="87" subtype="section">
                   <p>quare hoc<note>
@@ -8533,7 +8538,8 @@ academica. 2 partes. Berolini
                         essent,<note>essent V si B se E <hi rend="italics">et</hi> R (<hi
                            rend="italics">in quo</hi> s <hi rend="italics">non satis cognosci
                            potest</hi>)</note> usitate loquerentur—, dum res maneant,<note>maneant
-                           <hi rend="italics">dett.</hi> maneat</note> verba fingant arbitratu suo.</p>
+                           <hi rend="italics">dett.</hi> maneat</note> verba fingant arbitratu
+                     suo.</p>
                   <milestone unit="chapter" n="30"/>
                </div>
                <div type="textpart" n="90" subtype="section">
@@ -8670,7 +8676,7 @@ academica. 2 partes. Berolini
                            BE praeterea separatim, receptae)</hi>
                      </note> Sed tempus est, si videtur, et recta quidem ad me.<note>
                         <w>ad me</w> a me ERV</note>
-                 </p>
+                  </p>
                   <p>Quod cum ille dixisset et satis disputatum videretur, in oppidum ad Pomponium
                      perreximus omnes.</p>
                </div>
@@ -8986,7 +8992,8 @@ academica. 2 partes. Berolini
                <p>Miltiades 63 10</p>
                <p>Mnesarchus Stoicus 3 15</p>
                <p>P. Mucius Scaevoia (tribunusplebis a. 141, consul a. 133)6 4 57 17 154 25sq.</p>
-               <p>Q. Muclus Scaevola augur (consul a. 117). Athenis praetorirrisit Albucium 4 18sqq.</p>
+               <p>Q. Muclus Scaevola augur (consul a. 117). Athenis praetorirrisit Albucium 4
+                  18sqq.</p>
                <p>Murena <hi rend="italics">v.</hi> L. Licinius Murena</p>
                <p>Mycenenses 40 29</p>
                <p>Nicomachus, Aristotelis filus161 22</p>

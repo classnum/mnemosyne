@@ -57,6 +57,10 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc>
+			<change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS
+				via HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate
+				lines where needed adding letters to numbers in @n, fix Latin content in some bibl
+				tags erroneously in Greek, update EpiDoc schema metadata.</change>
 			<change><date>wpm May, 1993</date><label>(n/a)</label><name>DAS</name>Tagged in
 				conformance with Prose.g dtd.</change>
 			<change><date>5/27/09</date><label>(n/a)</label><name>RS</name> $Log:

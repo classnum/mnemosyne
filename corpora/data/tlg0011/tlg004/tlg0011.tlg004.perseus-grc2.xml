@@ -60,6 +60,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+            HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines
+            where needed adding letters to numbers in @n, fix Latin content in some bibl tags
+            erroneously in Greek, update EpiDoc schema metadata.</change>
          <change when="2017-02-06" who="Lisa Cerrato">restructing to lines; minor cleanup such as
             change log.</change>
          <change when="2016-01-15" who="TDBuck">p4 to p5</change>

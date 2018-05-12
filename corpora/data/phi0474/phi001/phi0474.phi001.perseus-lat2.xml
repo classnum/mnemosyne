@@ -85,6 +85,10 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc>
+			<change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS
+				via HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate
+				lines where needed adding letters to numbers in @n, fix Latin content in some bibl
+				tags erroneously in Greek, update EpiDoc schema metadata.</change>
 			<change when="2016-01-22" who="Lisa Cerrato">bumped urn; CTS work</change>
 			<change when="2015-12-18" who="Zach Himes">Cleaned up teiHeader. Converted to TEI P5 and
 				EpiDoc.</change>

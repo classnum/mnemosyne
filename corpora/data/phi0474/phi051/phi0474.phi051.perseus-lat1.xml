@@ -61,6 +61,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+            HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines
+            where needed adding letters to numbers in @n, fix Latin content in some bibl tags
+            erroneously in Greek, update EpiDoc schema metadata.</change>
          <change when="2016-11-20" who="Thibault Clérice">CapiTainS and Epidoc</change>
       </revisionDesc>
    </teiHeader>
@@ -218,7 +222,7 @@
                               rend="italics">MSS.</hi>
                         </note> magisque viri nunc gloria claret.</l>
                   </quote>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="11" subtype="section">
                <p>Tarentum vero qua vigilantia, quo consilio recepit! <reg>cum</reg> quidem me
@@ -261,7 +265,7 @@
                   complevit annos, neque umquam in suo studio atque opere cessavit. <reg>qui</reg>,
                   cum ex eo quaereretur cur tam diu vellet esse in vita, <quote>nihil habeo,</quote>
                   inquit, <quote>quod accusem senectutem.</quote>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="14" subtype="section">
                <p>
@@ -406,7 +410,7 @@
                   <reg>nec</reg> vero dubitat agricola, quamvis sit senex, quaerenti cui serat
                   respondere: <quote>dis immortalibus, qui me non accipere modo haec a maioribus
                      voluerunt, sed etiam posteris prodere.</quote>
-              </p>
+               </p>
                <p>
                   <milestone unit="chapter" n="8"/>
                   <reg>et</reg> melius Caecilius de sene alteri saeculo prospiciente, quam illud
@@ -588,7 +592,7 @@
                      illa domo patrius mos et disciplina <hi rend="italics">Müller;</hi> in illo
                      animus patrius et disciplina <hi rend="italics">Reid, Moore.</hi>
                   </note>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="38" subtype="section">
                <p>Ita enim senectus honesta est, si se ipsa defendit, si ius suum retinet, si nemini
@@ -885,8 +889,8 @@
                   igitur arma,</p>
             </div>
             <div type="textpart" n="58" subtype="section">
-               <p>sibi equos, sibi hastas, sibi clavam et pilam, sibi natationes<note>natationes
-                        <hi rend="italics">Mss.;</hi> venationes <hi rend="italics">Reid.</hi>
+               <p>sibi equos, sibi hastas, sibi clavam et pilam, sibi natationes<note>natationes <hi
+                        rend="italics">Mss.;</hi> venationes <hi rend="italics">Reid.</hi>
                   </note> atque cursus; nobis senibus ex lusionibus multis talos relinquant et
                   tesseras; id ipsum ut<note>ut <hi rend="italics">Reid, Bennett;</hi> utrum <hi
                         rend="italics">codd., Müller, Moore;</hi> unum P</note> lubebit, quoniam
@@ -914,7 +918,7 @@
                   <pb n="p.72"/> Lysandrum, intuentem purpuram eius et nitorem corporis ornatumque
                   Persicum multo auro multisque gemmis, dixisse: <quote>recte vero te, Cyre, beatum
                      ferunt, quoniam virtuti tuae fortuna coniuncta est!</quote>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="60" subtype="section">
                <p>
@@ -965,7 +969,7 @@
                   consessu locum nusquam ei datum a suis civibus, cum autem ad Lacedaemonios
                   accessisset, qui, legati cum essent, certo in loco considerant, consurrexisse
                   omnes illi dicuntur et senem sessum recepisse; <pb n="p.76"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="64" subtype="section">
                <p>quibus cum a cuncto consessu plausus esset multiplex datus, dixisse ex eis quendam

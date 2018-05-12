@@ -72,6 +72,10 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc>
+			<change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS
+				via HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate
+				lines where needed adding letters to numbers in @n, fix Latin content in some bibl
+				tags erroneously in Greek, update EpiDoc schema metadata.</change>
 			<!--
 <change><date>3/26/97</date>
 <respStmt><name>DAS</name><resp>ed.</resp></respStmt>
@@ -1149,7 +1153,8 @@ passed SGML validation
 						est, quaeso, alia vis, quae<note>quaeso <hi rend="italics">mg. Lamb.</hi>:
 							quasi <hi rend="italics">codd. praeter t</hi> (enim)</note> sententia
 						Caeciliae legis et Didiae nisi haec, ne populo necesse sit in coniunctis
-						rebus compluribus aut id quod nolit accipere aut id quod velit repudiare?</p>
+						rebus compluribus aut id quod nolit accipere aut id quod velit
+						repudiare?</p>
 					<p><reg>quid</reg>? si per vim tulisti, tamenne lex est? aut quicquam iure
 						gestum videri potest quod per vim gestum esse constet? <reg>an</reg>, si in
 						ipsa latione tua capta iam urbe lapides iacti, si manus conlata non est,

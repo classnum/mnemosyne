@@ -63,6 +63,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+            HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines
+            where needed adding letters to numbers in @n, fix Latin content in some bibl tags
+            erroneously in Greek, update EpiDoc schema metadata.</change>
          <change who="balmas01" when="2013-09-13">moving Greg's work-in-progress on CTS-izing
             greco-roman collection texts to a Work directory</change>
          <change who="gcrane" when="2013-06-08">TEI XML converted to facilitate CTS
@@ -198,7 +202,7 @@
                      ceterique ita fugerent, ut multa de suis rebus asportarent, cum esset admonitus
                      a quodam ut idem ipse faceret, <quote>ego vero</quote> inquit <quote>facio; nam
                         omnia mecum porto mea.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="9" subtype="section">
                   <p>ille haec ludibria fortunae ne sua quidem putavit, quae nos appellamus etiam
@@ -259,11 +263,11 @@
                      meliorem facit?</p>
                </div>
                <div type="textpart" n="15" subtype="section">
-                  <p>ut enim est quisque maxime boni particeps, ita est laudabilis maxime, neque
-                     est ullum bonum, de quo non is, qui id habeat, honeste possit gloriari. quid
-                     autem est horum in voluptate? melioremne efficit aut laudabiliorem virum? an
-                     quisquam in potiendis voluptatibus gloriando se et praedicatione ecfert? atqui
-                     si voluptas, quae plurimorum patrociniis defenditur, in rebus bonis habenda non
+                  <p>ut enim est quisque maxime boni particeps, ita est laudabilis maxime, neque est
+                     ullum bonum, de quo non is, qui id habeat, honeste possit gloriari. quid autem
+                     est horum in voluptate? melioremne efficit aut laudabiliorem virum? an quisquam
+                     in potiendis voluptatibus gloriando se et praedicatione ecfert? atqui si
+                     voluptas, quae plurimorum patrociniis defenditur, in rebus bonis habenda non
                      est, eaque quo est maior, eo magis mentem ex sua sede et statu demovet,
                      profecto nihil est aliud bene et beate vivere nisi honeste et recte vivere.</p>
                </div>
@@ -339,13 +343,13 @@
                      peccata nascuntur aequalia sint oportet.</p>
                </div>
                <div type="textpart" n="21" subtype="section">
-                  <p>quod si virtutes sunt pares inter se, paria esse etiam vitia necesse est:
-                     atqui paris esse virtutes nec bono viro meliorem nec temperante temperantiorem
-                     nec. forti fortiorem nec sapienti sapientiorem posse fieri, facillume potest
+                  <p>quod si virtutes sunt pares inter se, paria esse etiam vitia necesse est: atqui
+                     paris esse virtutes nec bono viro meliorem nec temperante temperantiorem nec.
+                     forti fortiorem nec sapienti sapientiorem posse fieri, facillume potest
                      perspici. an virum bonum dices, qui depositum nullo teste, cum lucrari inpune
                      posset auri pondo decem, reddiderit, si idem in decem milibus non idem fecerit?
                      aut temperantem, qui se in aliqua libidine continuerit, in aliqua effuderit?
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="22" subtype="section">
                   <p>una virtus est consentiens cum ratione et perpetua constantia; nihil huc addi
@@ -381,24 +385,23 @@
                      est, paria fiant necesse est.</p>
                </div>
                <div type="textpart" n="25" subtype="section">
-                  <p>illud tamen interest, quod in servo necando, si id fit iniuria, semel
-                     peccatur, in patris vita violanda multa peccantur: violatur is qui procreavit,
-                     is qui aluit, is qui erudivit, is qui in sede ac domo atque in re publica
-                     conlocavit; multitudine peccatorum praestat eoque poena maiore dignus est. sed
-                     nos in vita non quae cuique peccato poena sit, sed quantum cuique liceat
-                     spectare debemus: quicquid non oportet scelus esse, quicquid non licet nefas
-                     putare debemus. etiamne in minimis rebus? etiam, si quidem rerum modum figere
-                     non possumus, animorum modum tenere possumus.</p>
+                  <p>illud tamen interest, quod in servo necando, si id fit iniuria, semel peccatur,
+                     in patris vita violanda multa peccantur: violatur is qui procreavit, is qui
+                     aluit, is qui erudivit, is qui in sede ac domo atque in re publica conlocavit;
+                     multitudine peccatorum praestat eoque poena maiore dignus est. sed nos in vita
+                     non quae cuique peccato poena sit, sed quantum cuique liceat spectare debemus:
+                     quicquid non oportet scelus esse, quicquid non licet nefas putare debemus.
+                     etiamne in minimis rebus? etiam, si quidem rerum modum figere non possumus,
+                     animorum modum tenere possumus.</p>
                </div>
                <div type="textpart" n="26" subtype="section">
-                  <p>histrio si paulum se movit extra numerum aut si versus pronuntiatus est
-                     syllaba una brevior aut longior, exsibilatur, exploditur: in vita tu, quae omni
-                     gestu moderatior, omni versu aptior esse debet, in syllaba te peccasse dices?
-                     poetam non audio in nugis: in vitae societate audiam civem digitis peccata
-                     dimetientem sua? si vis, sane sint breviora, leviora qui possunt videri? cum
-                     quicquid peccatur perturbatione peccetur rationis atque ordinis, perturbata
-                     autem semel ratione et ordine nihil possit addi, quo magis peccari posse
-                     videatur.</p>
+                  <p>histrio si paulum se movit extra numerum aut si versus pronuntiatus est syllaba
+                     una brevior aut longior, exsibilatur, exploditur: in vita tu, quae omni gestu
+                     moderatior, omni versu aptior esse debet, in syllaba te peccasse dices? poetam
+                     non audio in nugis: in vitae societate audiam civem digitis peccata dimetientem
+                     sua? si vis, sane sint breviora, leviora qui possunt videri? cum quicquid
+                     peccatur perturbatione peccetur rationis atque ordinis, perturbata autem semel
+                     ratione et ordine nihil possit addi, quo magis peccari posse videatur.</p>
                </div>
             </div>
             <div type="textpart" n="4" subtype="book">
@@ -446,7 +449,7 @@
                      potest. an tu civem ab hoste natura ac loco, non animo factisque
                      distinguis?</p>
                   <milestone unit="chapter" n="2"/>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="30" subtype="section">
                   <p>caedem in foro fecisti, armatis latronibus templa tenuisti, privatorum domos,
@@ -496,10 +499,10 @@
                      igitur ab eruditissimis viris nisi sapientem liberum esse neminem.</p>
                </div>
                <div type="textpart" n="34" subtype="section">
-                  <p>quid est enim libertas? potestas vivendi, ut velis. quis igitur vivit, ut
-                     volt, nisi qui recte vivit, qui gaudet officio, cui vivendi via considerata
-                     atque provisa est? qui ne legibus quidem propter metum paret, sed eas sequitur
-                     et colit, quod id salutare esse maxime iudicat; qui nihil dicit, nihil facit,
+                  <p>quid est enim libertas? potestas vivendi, ut velis. quis igitur vivit, ut volt,
+                     nisi qui recte vivit, qui gaudet officio, cui vivendi via considerata atque
+                     provisa est? qui ne legibus quidem propter metum paret, sed eas sequitur et
+                     colit, quod id salutare esse maxime iudicat; qui nihil dicit, nihil facit,
                      nihil cogitat denique nisi lubenter ac libere; cuius omnia consilia resque
                      omnes, quas gerit, ab ipso proficiscuntur eodemque referuntur, nec est ulla
                      res, quae plus apud eum polleat quam ipsius voluntas atque iudicium; cui quidem
@@ -529,8 +532,8 @@
                      principes estis;</p>
                </div>
                <div type="textpart" n="37" subtype="section">
-                  <p>sed ut in magna familia sunt alii lautiores, ut sibi videntur, servi, sed
-                     tamen servi, ut atrienses, at qui tractant ista, qui tergent, qui ungunt, qui
+                  <p>sed ut in magna familia sunt alii lautiores, ut sibi videntur, servi, sed tamen
+                     servi, ut atrienses, at qui tractant ista, qui tergent, qui ungunt, qui
                      verrunt, qui spargunt, non honestissimum locum servitutis tenent, sic in
                      civitate, qui se istarum rerum cupiditatibus dediderunt, ipsius servitutis <pb
                         n="p.1012"/> locum paene infimum obtinent. <quote>magna</quote> inquit
@@ -538,7 +541,7 @@
                      igitur animum laude dignum: Aetionis tabula te stupidum detinet aut signum
                      aliquod Polycleti; mitto unde sustuleris, quo modo habeas: intuentem te,
                      admirantem, clamores tollentem cum video, servum esse ineptiarum omnium iudico.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="38" subtype="section">
                   <p>
@@ -554,9 +557,9 @@
                      iudicet, ut ne in familia quidem dignum maiore aliquo negotio putet?</p>
                </div>
                <div type="textpart" n="39" subtype="section">
-                  <p>an eorum servitus dubia est, qui cupiditate peculii nullam condicionem
-                     recusant durissimae servitutis? hereditatis spes quid iniquitatis in serviendo
-                     non suscipit? quem nutum locupletis orbi senis non observat? loquitur ad
+                  <p>an eorum servitus dubia est, qui cupiditate peculii nullam condicionem recusant
+                     durissimae servitutis? hereditatis spes quid iniquitatis in serviendo non
+                     suscipit? quem nutum locupletis orbi senis non observat? loquitur ad
                      voluntatem, quicquid denuntiatum est facit, adsectatur, adsidet, muneratur.
                      quid horum est liberi?</p>
                </div>
@@ -573,7 +576,7 @@
                      serviendum; omnes, qui aliquid scire videntur, tamquam domini timentur; iudex
                      vero quantum habet dominatum, quo timore nocentis adficiti an non est omnis
                      metus servitus? <pb n="p.1013"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="41" subtype="section">
                   <p>quid valet igitur illa eloquentissimi viri, L. Crassi, copiosa magis quam
@@ -649,7 +652,7 @@
                      homines, qui denique omnia venalia, edictum, decretum, alienam suam sententiam,
                      forum, domum, vocem, silentium: quis hunc non putet confiteri sibi quaesito
                      opus esse? cui quaesito autem opus sit, quis umquam hunc vere dixerit divitem?
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="47" subtype="section">
                   <p>etenim divitiarum est fructus in copia, copiam autem declarat satietas rerum
@@ -689,21 +692,21 @@
                      terminatur pecuniae modus.</p>
                </div>
                <div type="textpart" n="51" subtype="section">
-                  <p>non esse cupidum pecunia est, non esse emacem vectigal est: contentum vero
-                     suis rebus esse maximae sunt certissimaeque divitiae. etenim si isti callidi
-                     rerum aestimatores prata et areas quasdam magno aestimant, quod ei generi
+                  <p>non esse cupidum pecunia est, non esse emacem vectigal est: contentum vero suis
+                     rebus esse maximae sunt certissimaeque divitiae. etenim si isti callidi rerum
+                     aestimatores prata et areas quasdam magno aestimant, quod ei generi
                      possessionum minime quasi noceri potest, quanti est aestimanda virtus, quae nec
                      eripi nec subripi potest, neque naufragio neque incendio <pb n="p.1016"/>
                      amittitur, nec tempestatum nec temporum perturbatione mutatur!</p>
                </div>
                <div type="textpart" n="52" subtype="section">
-                  <p>qua praediti qui sunt, soli sunt divites. soli enim possident res et
-                     fructuosas et sempiternas solique, quod est proprium divitiarum, contenti sunt
-                     rebus suis, satis esse putant quod est, nihil adpetunt, nulla re egent, nihil
-                     sibi deesse sentiunt, nihil requirunt: inprobi autem et avari, quoniam incertas
-                     atque in casu positas possessiones habent et plus semper adpetunt nec eorum
-                     quisquam adhuc inventus est, cui quod haberet esset satis, non modo non copiosi
-                     ac divites, sed etiam inopes ac pauperes existinandi sunt.</p>
+                  <p>qua praediti qui sunt, soli sunt divites. soli enim possident res et fructuosas
+                     et sempiternas solique, quod est proprium divitiarum, contenti sunt rebus suis,
+                     satis esse putant quod est, nihil adpetunt, nulla re egent, nihil sibi deesse
+                     sentiunt, nihil requirunt: inprobi autem et avari, quoniam incertas atque in
+                     casu positas possessiones habent et plus semper adpetunt nec eorum quisquam
+                     adhuc inventus est, cui quod haberet esset satis, non modo non copiosi ac
+                     divites, sed etiam inopes ac pauperes existinandi sunt.</p>
                </div>
             </div>
          </div>

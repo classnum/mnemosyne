@@ -62,6 +62,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+            HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines
+            where needed adding letters to numbers in @n, fix Latin content in some bibl tags
+            erroneously in Greek, update EpiDoc schema metadata.</change>
          <change when="2016-11-20" who="Thibault Clérice">CapiTainS and Epidoc</change>
       </revisionDesc>
    </teiHeader>
@@ -80,7 +84,7 @@
             <p>
                <hi rend="italics">A</hi> (<hi rend="italics">A</hi>) (<hi rend="italics">B</hi>) <hi
                   rend="italics">m</hi>
-           </p>
+            </p>
             <p>(<hi rend="italics">a</hi>) = cod. Einsiedlensis 324, saec. x</p>
             <p>(<hi rend="italics">b</hi>) = cod. Sangallensis 830, saec. x</p>
             <p>(<hi rend="italics">c</hi>) = cod. Sangallensis 854, saec. xi</p>
@@ -153,7 +157,7 @@
                   instituimus accedere.</p>
                <p>
                   <milestone n="2" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="6" subtype="section">
                <p>Cum omnis ratio diligens disserendi duas habeat partis<note>partis <hi
@@ -173,7 +177,7 @@
                   quae absconditae sunt demonstrate et notato loco facilis inventio est, sic, cum
                   pervestigare argumentum aliquod volumus, locos nosse debemus; sic enim appellatae
                   ab Aristotele sunt eae quasi <pb n="p.4004"/> sedes, e quibus argumenta promuntur.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="8" subtype="section">
                <p>
@@ -205,7 +209,7 @@
                   </note> assiduus, ut ait L. Aelius<note>laelius <hi rend="italics">AadVL</hi>
                   </note>, appellatus ab<note>ab asse <hi rend="italics">vulg., cf. Gell.</hi> xvi.
                      10. 16</note> aere dando. <milestone n="3" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="11" subtype="section">
                <p>
@@ -272,7 +276,7 @@
                         contraria<note>Ea... contraria <hi rend="italics">secl. Hammer</hi>
                      </note>.</del>
                   <milestone n="4" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="18" subtype="section">
                <p>
@@ -304,7 +308,7 @@
                   potest. Repugnat<note>repugnat <hi rend="italics">O</hi>: pugnat <hi
                         rend="italics">codd.</hi>
                   </note> enim recte accipere et invitum reddere. Ab efficientibus rebus hoc modo:
-              </p>
+               </p>
             </div>
             <div type="textpart" n="22" subtype="section">
                <p>
@@ -365,7 +369,7 @@
                   membra, ea quam subtilissime persequamur, et pri- mum de ipsa definitione dicatur.
                   Definitio est oratio, quae id quod definitur explicat quid sit. Definitionum autem
                   duo genera prima: unum earum rerum quae sunt, alterum earum quae intelleguntur.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="27" subtype="section">
                <p>
@@ -523,7 +527,7 @@
                   intellegi posse.</p>
                <p>
                   <milestone n="9" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="38" subtype="section">
                <p>Sequitur is locus, qui constat ex eis rebus quae quodam modo adfectae sunt ad id
@@ -562,7 +566,7 @@
                   solet.</p>
                <p>
                   <milestone n="10" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="41" subtype="section">
                <p>
@@ -621,7 +625,7 @@
                   </del> quaestionibus argumenta ducuntur.</p>
                <p>
                   <milestone n="11" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="46" subtype="section">
                <p>
@@ -674,7 +678,7 @@
                   locus hic <pb n="p.4014"/> magis ad coniecturales causas, quae versantur in
                   iudiciis, valet, cum quaeritur quid aut sit aut evenerit aut futurum sit aut quid
                   omnino fieri possit. <milestone n="12" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="51" subtype="section">
                <p>
@@ -753,10 +757,10 @@
                      <l>male merere? id quod scis prodest nihil; id quod nescis</l>
                      <l>obest?</l>
                   </quote>
-              </p>
+               </p>
                <p>
                   <milestone n="14" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="56" subtype="section">
                <p>
@@ -907,7 +911,7 @@
                   argumentorum cognitis locis non modo oratoribus et philosophis, sed iuris etiam
                   peritis copiose de consultationibus suis disputare. <milestone n="18"
                      unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="67" subtype="section">
                <p>
@@ -968,7 +972,7 @@
                   argumenti quaerenda sit.</p>
                <p>
                   <milestone n="19" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="72" subtype="section">
                <p>
@@ -1021,7 +1025,7 @@
                      quiddam de Lacedaemonio Pausania accepi- mus<note>Huic... accepimus <hi
                            rend="italics">secl. Friedrich</hi>
                      </note>.</del>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="76" subtype="section">
                <p>
@@ -1057,7 +1061,7 @@
                   quorum et dictis et scriptis saepe auctoritas petitur ad faciendam fidem.</p>
                <p>
                   <milestone n="21" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="79" subtype="section">
                <p>
@@ -1106,7 +1110,7 @@
                   virtus. Causa autem efficiens sic quaeritur, quibus rebus eloquentia efficiatur.
                   De commutatione sic: possitne eloquentia commutatione aliqua converti in
                   infantiam. <milestone n="22" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="83" subtype="section">
                <p>
@@ -1133,7 +1137,7 @@
                   alterum de maiore et minore. De ex- petendo et fugiendo huius modi: Si expetendae
                   divitiae, si fugienda paupertas. De aequo et iniquo: Aequumne sit ulcisci a
                   quocumque iniuriam acceperis. De honesto et turpi: Honestumne sit pro patria mori?
-              </p>
+               </p>
             </div>
             <div type="textpart" n="85" subtype="section">
                <p>
@@ -1155,7 +1159,7 @@
                   </note> quaestionibus genera sint, eadem in causas transferuntur.</p>
                <p>
                   <milestone n="23" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="87" subtype="section">
                <p>
@@ -1186,7 +1190,7 @@
                   illud autem genus in quo de expetendo fugiendoque quaeritur adhibentur ea quae
                   sunt aut animi aut corporis aut externa vel commoda vel incommoda. Item- que cum
                   de honesto turpique quaeritur, ad animi bona aut mala omnis oratio dirigenda est.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="90" subtype="section">
                <p>

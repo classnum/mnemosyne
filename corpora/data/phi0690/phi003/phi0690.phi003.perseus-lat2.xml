@@ -65,16 +65,22 @@
             </langUsage>
         </profileDesc>
         <revisionDesc>
+            <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS
+                via HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate
+                lines where needed adding letters to numbers in @n, fix Latin content in some bibl
+                tags erroneously in Greek, update EpiDoc schema metadata.</change>
             <change when="2015-12-01" who="Thibault Clérice"> Fixed numbering issue. Line numbering
                 was probably made using l@n (by group of 5, starting from last point every time). It
                 did not take l@n@part into account. Fixed. So some numbers did change</change>
             <change when="2015-08-14" who="Zach Himes"> Converted from TEI edition at
                 https://github.com/PerseusDL/canonical-latinLit/blob/master/data/phi0690/phi003/phi0690.phi003.perseus-lat1.xml
                 Conversion involved: converting to CTS EpiDoc, converting div1 to div changed
-                ldquo,rdquo,uuml,ouuml,iuml to corresponding correct characters. fixed gap at 12.732</change>
+                ldquo,rdquo,uuml,ouuml,iuml to corresponding correct characters. fixed gap at
+                12.732</change>
             <change when="1996-10-16" who="WM"> Mark up public domain text downloaded from Libellus;
                 did diereses; pathetic lines tagged as L PART="Y"; needs line nos.</change>
-            <change when="2011-10-28" who="lcerrato"> fixed line number issue 795 appeared twice</change>
+            <change when="2011-10-28" who="lcerrato"> fixed line number issue 795 appeared
+                twice</change>
             <change when="2011-01-17" who="gcrane"> base SDL files</change>
             <change when="2010-07-13" who="lcerrato"> 2.338 ullo fremitus changed to quo fremitus
                 verified against source</change>
@@ -90,8 +96,10 @@
             <change when="2004-04-02" who="mimno"> added line 1 cards</change>
             <change when="2003-07-01" who="yorkc"> Updated texts to TEI P4 and Perseus P4
                 extensions; minor cleanup (esp. character encodings and typos.)</change>
-            <change when="2003-02-06" who="lcerrato"> fixed typo 5.627 eum freta to cum freta</change>
-            <change when="2000-03-04" who="dasmith"> Added separate funder entity to TEI header</change>
+            <change when="2003-02-06" who="lcerrato"> fixed typo 5.627 eum freta to cum
+                freta</change>
+            <change when="2000-03-04" who="dasmith"> Added separate funder entity to TEI
+                header</change>
             <change when="2000-02-22" who="textgod"> fixed multiple typos</change>
             <change when="1999-10-25" who="lcerrato"> fixed typo 1.90</change>
             <change when="1999-10-16" who="lcerrato"> fixed typo</change>

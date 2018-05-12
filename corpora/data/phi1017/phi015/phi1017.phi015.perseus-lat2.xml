@@ -67,6 +67,10 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc>
+			<change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS
+				via HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate
+				lines where needed adding letters to numbers in @n, fix Latin content in some bibl
+				tags erroneously in Greek, update EpiDoc schema metadata.</change>
 			<change when="2015-11-12" who="Thibault Clerice">New URN, Epidoc and CTS</change>
 			<change when="2009-01-01" who="gcrane">Tagging</change>
 		</revisionDesc>
@@ -5859,12 +5863,12 @@
 								habet quam habuit;</p>
 						</div>
 						<div type="textpart" subtype="section" n="25">
-							<p>ordinem mutat. "Quid ista," inquis, "mihi subtilitas proderit?" Si
-								me interrogas, nihil. Sed quemadmodum ille caelator oculos diu
-								intentos ac fatigatos remittit atque avocat et, ut dici solet,
-								pascit; sic nos animum aliquando debemus relaxare et quibusdam
-								oblectamentis reficere. Sed ipsa oblectamenta opera sint. Ex his
-								quoque, si observaveris, sumes, quod possit fieri salutare.</p>
+							<p>ordinem mutat. "Quid ista," inquis, "mihi subtilitas proderit?" Si me
+								interrogas, nihil. Sed quemadmodum ille caelator oculos diu intentos
+								ac fatigatos remittit atque avocat et, ut dici solet, pascit; sic
+								nos animum aliquando debemus relaxare et quibusdam oblectamentis
+								reficere. Sed ipsa oblectamenta opera sint. Ex his quoque, si
+								observaveris, sumes, quod possit fieri salutare.</p>
 						</div>
 						<div type="textpart" subtype="section" n="26">
 							<p>Hoc ego, Lucili, facere soleo: ex omni notione, <note
@@ -9941,12 +9945,12 @@
 								solum sapientem referre gratiam scire</p>
 						</div>
 						<div type="textpart" subtype="section" n="12">
-							<p>Deinde idem admiratur, cum dicimus : "Solus sapiens scit amare.
-								Solus sapiens amicus est." Atqui et amoris et amicitiae pars est
-								referre gratiam, immo hoc magis vulgare est et in plures cadit quam
-								vera amicitia. Deinde idem admiratur, quod dicimus fidem nisi in
-								sapiente non esse, tamquam non ipse idem dicat. An tibi videtur
-								fidem habere, qui referre gratiam nescit?</p>
+							<p>Deinde idem admiratur, cum dicimus : "Solus sapiens scit amare. Solus
+								sapiens amicus est." Atqui et amoris et amicitiae pars est referre
+								gratiam, immo hoc magis vulgare est et in plures cadit quam vera
+								amicitia. Deinde idem admiratur, quod dicimus fidem nisi in sapiente
+								non esse, tamquam non ipse idem dicat. An tibi videtur fidem habere,
+								qui referre gratiam nescit?</p>
 						</div>
 						<div type="textpart" subtype="section" n="13">
 							<p>Desinant itaque infamare nos tam quam incredibilia iactantes et
@@ -10679,9 +10683,9 @@
 								sine ulla opera nostra facere naturam:</p>
 						</div>
 						<div type="textpart" subtype="section" n="6">
-							<p>alimenta, quae <pb n="v2.p.280"/> accepimus, quamdiu in sua
-								qualitate perdurant et solida innatant stomacho, onera sunt; at cum
-								ex eo, quod erant, mutata sunt, tum demum in vires et in sanguinem
+							<p>alimenta, quae <pb n="v2.p.280"/> accepimus, quamdiu in sua qualitate
+								perdurant et solida innatant stomacho, onera sunt; at cum ex eo,
+								quod erant, mutata sunt, tum demum in vires et in sanguinem
 								transeunt. Idem in his, quibus aluntur ingenia, praestemus, ut
 								quaecumque hausimus, non patiantur integra esse, ne aliena sint.
 							</p>
@@ -11613,8 +11617,8 @@
 								magnitudinis falsa.</p>
 						</div>
 						<div type="textpart" subtype="section" n="33">
-							<p>" Isto modo," inquit, " etiam malum sunt divitia non tantum bonum
-								non sunt." Essent malum, ipsae nocerent, si, ut dixi, haberent
+							<p>" Isto modo," inquit, " etiam malum sunt divitia non tantum bonum non
+								sunt." Essent malum, ipsae nocerent, si, ut dixi, haberent
 								efficientem causam ; nunc praecedentem habent et quidem non
 								inritantem tantum animos, sed adtrahentem. Specie enim boni
 								offundunt veri similem ac plerisque credibilem.</p>
@@ -14158,8 +14162,8 @@
 							</p>
 						</div>
 						<div type="textpart" subtype="section" n="53">
-							<p>Haec sunt, per quae probatur hanc philosophiae partem supervacuam
-								non esse.</p>
+							<p>Haec sunt, per quae probatur hanc philosophiae partem supervacuam non
+								esse.</p>
 							<p>Quaeritur deinde, an ad faciendum sapientem sola sufficiat. Huic
 								quaestioni suum diem dabimus; interim omissis argumentis nonne
 								apparet opus esse nobis aliquo advocato, qui contra populi praecepta

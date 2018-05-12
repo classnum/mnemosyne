@@ -62,6 +62,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+            HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines
+            where needed adding letters to numbers in @n, fix Latin content in some bibl tags
+            erroneously in Greek, update EpiDoc schema metadata.</change>
          <change who="balmas01" when="2013-09-13">moving Greg's work-in-progress on CTS-izing
             greco-roman collection texts to a Work directory</change>
          <change who="gcrane" when="2013-06-08">TEI XML converted to facilitate CTS
@@ -355,7 +359,7 @@
                   <figure/> TULLII. CICERONIS TUSCULANARU<figure/> INCIPIT LIBER
                         PRI<figure/>US.<note>R<hi rend="sup">1</hi> inscriptiones omisit. M. TULLII
                      CICERONIS TVSCV- LANARVM QVAESTIONVM LIBRI V add. m. rec.</note>
-              </p>
+               </p>
                <p>Cum defensionum laboribus senatoriisque muneribus aut omnino aut magna exparte
                   essem ali quando liberatus<figure/> r&amp;ulime bru te te hortante maxime adea
                   studia quę retenta animo re missa temporibus longo inter vallo intermissa
@@ -487,7 +491,7 @@
                            >pyrroniserilli</hi> K ( add. K<hi rend="sup">c</hi>).</p>
                      <p>296, 2 <hi rend="italics">intueris</hi> pro <hi rend="italics">intuens,</hi>
                         296, 15 <hi rend="italics">audiens</hi> pro <hi rend="italics">audieris</hi>
-                    </p>
+                     </p>
                      <p>367,6 <hi rend="italics">iniecta</hi> pro <hi rend="italics">inlecta</hi> X,
                         326, 7 <hi rend="italics">lu&amp;verbar;&amp;verbar;sisse</hi> V sed <hi
                            rend="italics">l</hi> V<hi rend="sup">2?</hi>, <hi rend="italics"
@@ -530,7 +534,7 @@
                         rend="sup">c</hi>), 451, 11 <hi rend="italics">heraditum</hi> V 385, 16 <hi
                         rend="italics">dastidium</hi> G<hi rend="sup">1</hi>
                   </note>
-              </p>
+               </p>
                <p>De codice X haec addo: inscriptiones habuisse videtur quales nunc GV<hi rend="sup"
                      >1</hi> praebent<note>KR eas omittunt spatio rubricatori relicto; in K tamen
                      ante alterum librum olim fuit inscriptio a manu antiqua facta, cuius nunc
@@ -681,7 +685,7 @@
                      rend="italics">lessus</hi> in codicibus glossemate <hi rend="italics">fle-
                      tus</hi> expulsum est, solus V<hi rend="sup">c</hi> addit <figure/>
                   <hi rend="italics">pessus.</hi>
-              </p>
+               </p>
                <p>atque ex hoc loco vel solo illud quoque apparet genuina Ciceronis verba hac via ad
                   nos pervenisse. addi possunt multi velut p. 258,19: <hi rend="italics"
                      >similitudines</hi> X <figure/> initio recte suprascr. V<hi rend="sup">2</hi>,
@@ -994,13 +998,13 @@
                   servatos mea causa evolvit.</p>
                <p>
                   <hi rend="bold">SIGLA</hi>
-              </p>
+               </p>
                <p>
                   <hi rend="bold">CODICES</hi>
-              </p>
+               </p>
                <p>
                   <hi rend="bold">MEMORIA X:</hi>
-              </p>
+               </p>
                <p>G = Guelferbytanus Gud. 294</p>
                <p>K = Cameracensis 842</p>
                <p>R = Parisinus Regius 6332</p>
@@ -1013,7 +1017,7 @@
                <p>X = GKRV et (ubi excerpta extant) H</p>
                <p>
                   <hi rend="bold">ALTERA MEMORIA (Y)</hi>
-              </p>
+               </p>
                <p>recuperatur e correcturis Vaticani (V<hi rend="sup">1</hi>V<hi rend="sup"
                      >c</hi>V<hi rend="sup">2</hi>)</p>
                <p>et e recentioribus codicibus (<foreign xml:lang="grc">s</foreign>)</p>
@@ -1021,7 +1025,7 @@
                   <foreign xml:lang="grc">W</foreign> = consensus omnium codicum</p>
                <p>
                   <hi rend="bold">COMMENTATIONES</hi>
-              </p>
+               </p>
                <p>
                   <hi rend="italics">Ba.</hi> = Bake Scholia hypomne- mata IV . 68–114</p>
                <p>
@@ -1233,7 +1237,7 @@
                            >1</hi>
                      </note> otiosi.<note>ut... otiosi <hi rend="italics">Non. 355, 2</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="6" subtype="section">
                   <p>in quo eo magis nobis est elaborandum, quod multi iam esse libri Latini
@@ -1252,7 +1256,7 @@
                      philosophiae fontis aperiemus, e quibus etiam illa manabant.</p>
                </div>
                <div type="textpart" n="7" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Sed ut Aristoteles, vir summo ingenio, scientia,<note>
                         <w>scientia</w> scientiae X -a <hi rend="italics">pro</hi> -ae <hi
                            rend="italics">in r.</hi> V<hi rend="sup">2</hi>
@@ -1412,7 +1416,7 @@
                      pictorum portenta convincere?<note>aut <gap reason="omitted"/> convincere <hi
                            rend="italics">Non. 375, 29</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="11" subtype="section">
                   <p>Atqui pleni libri sunt contra ista ipsa disserentium<note>dissenentium G<hi
@@ -1424,7 +1428,7 @@
                         <hi rend="sup">c</hi>
                      </note> tam excors, quem ista moveant?<note>commoveant V<hi rend="sup">2</hi>
                      </note>
-                 </p>
+                  </p>
                   <p>Si ergo apud inferos miseri non sunt, ne sunt quidem apud inferos ulli.</p>
                   <p>Ita prorsus<note>prossus G</note> existimo.</p>
                   <p>Ubi sunt<note>
@@ -1432,7 +1436,7 @@
                            >multa in K madore corrupta</hi>
                      </note> ergo i, quos miseros dicis, aut quem locum incolunt? si enim sunt,
                      nusquam esse non possunt. <pb n="p.223"/>
-                 </p>
+                  </p>
                   <p>Ego vero nusquam esse illos puto.</p>
                   <p>Igitur ne esse quidem?</p>
                   <p>Prorsus isto modo, et tamen miseros<note>miseros <hi rend="italics">cf. Serv.
@@ -1441,7 +1445,7 @@
                      quia nulli sint.</p>
                </div>
                <div type="textpart" n="12" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Iam mallem Cerberum metueres quam ista tam inconsiderate diceres.</p>
                   <p>Quid<note>qui <hi rend="italics">We.</hi>
                      </note> tandem?</p>
@@ -1469,7 +1473,8 @@
                      sunt.</p>
                   <p>Non dico fortasse etiam,<note>etiam <hi rend="italics">exp.</hi> V<hi
                            rend="sup">vet</hi>
-                     </note> quod sentio; nam istuc ipsum, non esse, cum fueris, miserrimum puto.</p>
+                     </note> quod sentio; nam istuc ipsum, non esse, cum fueris, miserrimum
+                     puto.</p>
                   <p>Quid?</p>
                </div>
                <div type="textpart" n="13" subtype="section">
@@ -1481,12 +1486,12 @@
                         <figure/>quid K (<hi rend="italics">add.</hi>
                         <hi rend="sup">2 aut c</hi>) recordere <foreign xml:lang="grc">s</foreign>
                         recordare X</note>
-                 </p>
+                  </p>
                   <p>Ita iocaris, quasi ego dicam eos miseros, qui nati non sint, et non eos
                      miseros, qui mortui sunt.<note>m. sint V<hi rend="sup">c</hi>
                      </note>
                      <pb n="p.224"/>
-                 </p>
+                  </p>
                   <p>Esse ergo eos dicis.</p>
                   <p>Immo, quia non sint, cum fuerint, eo miseros esse.</p>
                   <p>Pugnantia te loqui non vides? quid enim tam pugnat, quam non modo<note>
@@ -1500,7 +1505,7 @@
                            rend="sup">c</hi>
                      </note> posthac non ita dicam, miseros esse, sed tantum miseros, ob id ipsum,
                      quia non sint.<note>si<figure/>nt V</note>
-                 </p>
+                  </p>
                   <p>Non dicis igitur: <quote>miser est M. Crassus</quote>
                      <note>miser e mori crassus K <hi rend="italics">m. rec. quae ductus evanidos
                            restituit</hi>
@@ -1543,7 +1548,7 @@
                      </note> qui vivimus, cum moriendum sit, nonne miseri sumus? quae enim potest in
                      vita esse iucunditas, cum dies et noctes cogitandum sit iam iamque esse
                      moriendum? <pb n="p.225"/>
-                 </p>
+                  </p>
                   <p>Ecquid<note>ecqui X(<foreign xml:lang="grc">W</foreign>?)</note> ergo
                      intellegis, quantum mali de humana condicione deieceris?</p>
                </div>
@@ -1574,7 +1579,7 @@
                                  vett.</hi>
                            </note> ae/stimo.</l>
                      </quote>
-                 </p>
+                  </p>
                   <p>Iam adgnosco<note>adgnosco RV <hi rend="italics">(sed</hi> d <hi rend="italics"
                            >erasum)</hi>
                         <figure/>adn. G<hi rend="sup">1</hi> agn. K</note>
@@ -1585,12 +1590,12 @@
                      quidem esse miserum putem.</p>
                </div>
                <div type="textpart" n="16" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Iam istuc quidem nihil negotii est, sed ego maiora molior.<note>sed ego maiora
                         molior <hi rend="italics">add.</hi> V<hi rend="sup">c</hi> (sed maiora
                         molior <hi rend="italics">vel</hi> sed getiam maiora molior <foreign
                            xml:lang="grc">s</foreign>) <hi rend="italics">om.</hi> X</note>
-                 </p>
+                  </p>
                   <p>Quo modo hoc nihil negotii est? aut quae sunt tandem ista maiora?</p>
                   <p>Quia, quoniam post mortem mali nihil est,<note>nihil est <hi rend="italics"
                            >add.</hi> K<hi rend="sup">2</hi>V<hi rend="sup">2</hi>
@@ -1602,7 +1607,7 @@
                      </note>
                      <note>idem R idẽ GK<hi rend="sup">1</hi>V</note> est enim perveniendum esse ad
                      id, quod non esse malum confitemur. <pb n="p.226"/>
-                 </p>
+                  </p>
                   <p>Uberius ista, quaeso. haec enim spinosiora, prius ut confitear me cogunt quam
                      ut adsentiar. sed quae sunt ea, quae dicis te maiora moliri?</p>
                   <p>Ut doceam, si possim, non modo malum non esse, sed bonum etiam esse mortem.</p>
@@ -1610,7 +1615,8 @@
                            >1</hi> habeo V<hi rend="sup">2</hi>GKR aveo <foreign xml:lang="grc"
                            >s</foreign>
                      </note> tamen audire. ut enim non efficias quod vis, tamen, mors ut malum non
-                     sit, efficies. sed nihil te interpellabo; continentem orationem audire malo.</p>
+                     sit, efficies. sed nihil te interpellabo; continentem orationem audire
+                     malo.</p>
                   <p>Quid, si te rogavero<note>siero- gavero V<hi rend="sup">1</hi>
                         <hi rend="italics">(corr.</hi>
                         <hi rend="sup">c</hi>
@@ -1622,7 +1628,7 @@
                   <p>nonne respondebis?</p>
                   <p>Superbum id quidem est, sed, nisi quid necesse erit, malo non
                         roges.<note>non<figure/>roges V</note>
-                 </p>
+                  </p>
                   <p>Geram tibi morem et ea quae vis, ut potero, explicabo, nec tamen quasi Pythius
                      Apollo, certa ut sint et fixa, quae dixero, sed ut homunculus unus e multis
                      probabilia coniectura sequens. ultra enim quo progrediar, quam ut veri similia
@@ -1633,7 +1639,7 @@
                   <p>Tu, ut videtur; nos ad audiendum parati sumus.</p>
                </div>
                <div type="textpart" n="18" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Mors igitur ipsa, quae videtur notissima res esse, quid sit, primum est
                      videndum. sunt enim qui discessum animi a corpore putent<note>putent <foreign
                            xml:lang="grc">s</foreign> (<hi rend="italics">cf.</hi> censeant) putant
@@ -1712,7 +1718,7 @@
                            >1</hi> (<figure/>l sup <hi rend="italics">ss.</hi> K<hi rend="sup"
                            >2</hi>) collocavit V<hi rend="sup">2</hi>
                      </note> praecordia locavit.<note>Plato ... 228, 2 locavit H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="21" subtype="section">
                   <p>Dicaearchus<note>dice archus KRV</note>
@@ -1778,7 +1784,7 @@
                      enim apud istos, quod non atomorum turba conficiat.<note>nihil... eorum t.
                         conficiat <hi rend="italics">Non. 269,12</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="23" subtype="section">
                   <p>Harum sententiarum quae vera sit, deus aliqui<note>aliquis V<hi rend="sup"
@@ -1841,10 +1847,10 @@
                      efficiet animis manentibus aut non miseros sensu carentis.<note>carentes V<hi
                            rend="sup">2</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="26" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Expone igitur, nisi molestum est, primum, si potes,<note>potest G<hi rend="sup"
                            >1</hi>
                      </note> animos remanere post mortem, tum, si minus id obtinebis<note>obtenebis
@@ -1864,7 +1870,7 @@
                            rend="sup">1</hi>
                         <hi rend="italics">(corr. ipse)</hi> R cernebant K cerneba<figure/>t V (-bat
                            <foreign xml:lang="grc">s</foreign>)</note>
-                 </p>
+                  </p>
                   <p>Itaque unum illud erat insitum priscis illis, quos cascos<note>cassos R cassus
                            K<hi rend="sup">1</hi>
                         <hi rend="italics">ann. 24</hi>
@@ -1958,7 +1964,7 @@
                      </note> qui vita excesserant, vivere.</p>
                </div>
                <div type="textpart" n="30" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Ut porro firmissimum hoc adferri videtur<note>videretur V<hi rend="sup">c</hi>
                      </note> cur deos esse credamus, quod<note>
                         <w>quod</w> quia K<hi rend="sup">2</hi>
@@ -2102,7 +2108,7 @@
                      contemnenda gloria, sua nomina inscribunt?</p>
                </div>
                <div type="textpart" n="35" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Quodsi omnium consensus naturae vox est, omnesque<note>
                         <w>omnesque</w> huiusque H</note> qui ubique sunt consentiunt esse aliquid,
                      quod ad eos pertineat qui vita cesserint,<note>cesserint GK, <hi rend="italics"
@@ -2117,7 +2123,7 @@
                      mortem sensum sit habiturus.</p>
                </div>
                <div type="textpart" n="36" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Sed ut deos esse natura opinamur, qualesque<note>que <hi rend="italics">del.
                            Bai.</hi>
                      </note> sint, ratione cognoscimus,<note>quodsi ... 235, 6 cognoscimus (<hi
@@ -2208,7 +2214,7 @@
                      videre poterant, ad oculos omnia referebant.</p>
                </div>
                <div type="textpart" n="38" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Magni autem est ingenii sevocare<note>sevocare <hi rend="italics">Aug.</hi>
                         revocare <foreign xml:lang="grc">W</foreign>
                      </note> mentem a sensibus et cogitationem ab consuetudine<note>a consuetudine V
@@ -2270,7 +2276,7 @@
                      </note> istis vera sentire.</p>
                </div>
                <div type="textpart" n="40" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Macte<note>mac <hi rend="italics">in r.</hi> V<hi rend="sup">c</hi>
                      </note> virtute!<note>Macte virtute <hi rend="italics">Non. 341, 37</hi>
                      </note> ego enim ipse cum eodem ipso<note>ipso <hi rend="italics">cf. div. 2,
@@ -2351,7 +2357,7 @@
                      <note>
                         <hi rend="italics">cf. Arist. Ve. 1431 Cic. Att. 5, 10,3</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="42" subtype="section">
                   <p>illam vero funditus eiciamus individuorum corporum levium et
@@ -2422,7 +2428,7 @@
                            rend="sup">1</hi> sustentur K<hi rend="sup">1</hi> sustantur V<hi
                            rend="sup">1</hi>
                      </note> et aluntur. <pb n="p.240"/>
-                 </p>
+                  </p>
                   <p>Cumque corporis facibus inflammari soleamus ad omnis fere cupiditates eoque
                      magis incendi, quod is aemulemur, qui ea habeant quae nos habere cupiamus,
                      profecto beati erimus, cum corporibus relictis et cupiditatum et aemulationum
@@ -2498,7 +2504,7 @@
                      </note> liber animus pervenerit.<note>illam ... 24 vult 239, 15 nulla vero est
                         celeritas...240, 16 excitavit 240, 26 quod tandem ... 241,17 pervenerit
                         H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="47" subtype="section">
                   <p>nam nunc quidem, quamquam foramina illa, quae patent ad animum<note>animos <hi
@@ -2557,7 +2563,7 @@
                      persuasisse videatur.</p>
                </div>
                <div type="textpart" n="50" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Sed plurimi contra nituntur animosque quasi capite damnatos<note>dampnatos
                         GK</note> morte multant, neque aliud est quicquam cur incredibilis is
                      animorum videatur aeternitas, nisi quod nequeunt qualis animus sit vacans
@@ -2574,7 +2580,7 @@
                      </note> si iam possent in homine vivo<note>vivo <hi rend="italics">Bentl.</hi>
                         uno</note> cerni omnia quae nunc tecta sunt, casurusne in conspectum
                      videatur animus, an tanta <pb n="p.243"/> sit eius tenuitas, ut fugiat aciem?
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="51" subtype="section">
                   <p>haec reputent isti qui negant animum sine corpore se intellegere posse:
@@ -2598,7 +2604,7 @@
                         <hi rend="italics">in</hi> quae <hi rend="italics">corr.</hi> V<hi
                            rend="sup">2</hi>
                      </note> aut qualis esset intellegentia, nullum omnino animum esse dixerunt.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="52" subtype="section">
                   <p>est illud quidem vel maxumum animo ipso animum<note>animum<figure/> v. V</note>
@@ -2683,7 +2689,7 @@
                         <hi rend="sup">1</hi>
                      </note> interiore <pb n="p.245"/> et suo; nam haec est propria natura animi
                      atque vis. quae si est una ex omnibus quae se ipsa <del>semper</del>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="55" subtype="section">
                   <p>moveat,<note>quae se ipsa moveat (<foreign xml:lang="grc">to\ au)to\ e(auto\
@@ -2708,7 +2714,7 @@
                            rend="italics">post</hi> haec <hi rend="italics">add.</hi> V<hi
                            rend="sup">2</hi>
                      </note>
-                 </p>
+                  </p>
                   <p>Ego vero facile sim<note>sim <hi rend="italics">def. Plasb. ad ac. 2,147 cl.
                            Ter. Andr. 203</hi> sum <foreign xml:lang="grc">s</foreign>
                      </note> passus ne in mentem quidem mihi aliquid contra venire; ita isti faveo
@@ -2736,7 +2742,7 @@
                         nihil<note>nil H</note> haberet animus hominis nisi ut appeteret aut
                      fugeret, id quoque esset ei commune cum bestiis.<note>ipsum denique si nihil
                         esse et... 27 bestiis H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="57" subtype="section">
                   <p>Habet primum memoriam, et eam infinitam <pb n="p.246"/> rerum innumerabilium. quam<note>
@@ -2816,7 +2822,7 @@
                            Bai.</hi>
                         <hi rend="italics">(Stangl, Jahrb. 127 S. 290. 299)</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="59" subtype="section">
                   <p>ita nihil est aliud discere<note>discere <hi rend="italics">ex</hi> scire K<hi
@@ -3080,7 +3086,7 @@
                      </note> quidem sit aut ubi habitet, ne quaerendum quidem est.</p>
                </div>
                <div type="textpart" n="68" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Ut cum videmus speciem primum candoremque caeli, dein conversionis celeritatem
                      tantam quantam cogitare non possumus, tum<note>tunc K</note> vicissitudines
                      dierum ac noctium commutationesque<note>commotionesque H</note> temporum
@@ -3160,7 +3166,7 @@
                         (omni atque<hi rend="sup">c</hi>)R</note>
                      <note>omni<figure/>que V</note> pulchritudine virtutis vim divinam mentis
                         adgnoscito.<note>adgn. G (3 agd<figure/>n.) KR</note>
-                 </p>
+                  </p>
                   <p>In quo igitur loco est? credo equidem in capite et cur credam adferre possum.
                      sed alias, ubi<note>nunc <hi rend="italics">ante</hi> ubi <hi rend="italics"
                            >add.</hi> V<hi rend="sup">rec</hi>
@@ -3191,7 +3197,7 @@
                         diremptus<note>diremptus <foreign xml:lang="grc">s</foreign>V<hi rend="sup"
                            >rec</hi> direptus X</note> earum partium, quae ante interitum iunctione
                      aliqua tenebantur.<note>non valet animus... 253,22 tenebantur H</note>
-                 </p>
+                  </p>
                   <p>His et talibus rationibus adductus<note>aductus GR<hi rend="sup">1</hi>
                         <hi rend="italics">(corr.</hi>
                         <hi rend="sup">c</hi>
@@ -3211,7 +3217,7 @@
                      non ad mortem trudi, verum in caelum videretur escendere.<note>aescendere V
                         asc. KB<foreign xml:lang="grc">s</foreign>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="72" subtype="section">
                   <p>Ita<note>
@@ -3239,7 +3245,7 @@
                            rend="italics">exp.</hi>
                         <hi rend="sup">vet</hi>)</note> essentque in corporibus humanis vitam
                      imitati deorum, is ad illos a quibus essent profecti reditum facilem patere.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="73" subtype="section">
                   <p>Itaque<note>
@@ -3273,7 +3279,7 @@
                            sxedi/as</foreign>
                         <hi rend="italics">Phaid. 85d</hi> ratis V<hi rend="sup">2</hi>
                         <hi rend="italics">Se.</hi> imm. R</note> in mari inmenso <pb n="p.255"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="74" subtype="section">
                   <p>nostra vehitur oratio<note>ratio <hi rend="italics">Camerar.</hi>
@@ -3347,7 +3353,7 @@
                         <hi rend="italics">)</hi> V<hi rend="sup">1</hi> (ur <hi rend="italics"
                            >eras.</hi>) liberet <hi rend="italics">Aug.</hi>
                      </note>
-                 </p>
+                  </p>
                   <p>Satis tu quidem in Consolatione es lamentatus;</p>
                </div>
                <div type="textpart" n="76" subtype="section">
@@ -3370,10 +3376,10 @@
                         sed iam reliquorum philosophorum de hac re quaeramus sententias) <hi
                            rend="italics">cf. comm. et p.442,18</hi>
                      </note>
-                 </p>
+                  </p>
                   <p>Quid refert?<note>refers K<hi rend="sup">c</hi>
                      </note>
-                 </p>
+                  </p>
                   <p>Adsunt enim, qui haec non probent. ego autem numquam ita te in hoc sermone
                      dimittam, ulla uti ratione mors<note>ratione<figure/>mors V ratione ut mors
                         GKR</note> tibi videri malum possit.</p>
@@ -3432,7 +3438,7 @@
                            >Mdv.</hi>)</note> non dant, ut, cum diu permanserit, ne intereat.</p>
                </div>
                <div type="textpart" n="79" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Bene reprehendis, et se isto modo res habet. credamus igitur<note>
                         <w>igitur</w> etiam K</note> Panaetio a Platone suo dissentienti? quem enim
                      omnibus locis divinum, quem sapientissimum, quem sanctissimum, quem Homerum
@@ -3484,7 +3490,7 @@
                         <hi rend="sup">2</hi>
                         <hi rend="italics">ult.</hi> s <hi rend="italics">in r.</hi>
                         <hi rend="sup">c</hi>) similitudines X</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="81" subtype="section">
                   <p>vellem adesse posset Panaetius—vixit cum Africano—, quaererem ex eo, cuius
@@ -3505,7 +3511,7 @@
                      patiebar.</p>
                </div>
                <div type="textpart" n="82" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Video te alte spectare et velle in caelum migrare. spero fore<note>forte
                         K</note> ut<note>ut <hi rend="italics">add.</hi> V<hi rend="sup">c</hi>
                      </note> contingat id nobis. sed fac, ut isti volunt, animos non remanere post
@@ -3552,7 +3558,7 @@
                      sibi ipsi consciscerent.<note>-scerent <hi rend="italics">in r.</hi> V<hi
                            rend="sup">c</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="84" subtype="section">
                   <p>Callimachi quidem epigramma in Ambraciotam Theombrotum<note>Cleombrotum <hi
@@ -3680,7 +3686,7 @@
                         sint<note>si<figure/>nt G</note> quam infelices aut certi<note>certi K<hi
                            rend="sup">2</hi>V<hi rend="sup">2</hi> certe X</note> quicquam sit in
                      rebus humanis aut sperare sit prudentius quam timere. <pb n="p.262"/>
-                 </p>
+                  </p>
                   <p>Sed hoc ipsum concedatur, bonis rebus homines morte privari:</p>
                </div>
                <div type="textpart" n="87" subtype="section">
@@ -3837,7 +3843,7 @@
                      sensum?</p>
                </div>
                <div type="textpart" n="93" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Pellantur ergo istae ineptiae paene aniles, ante tempus mori miserum esse. quod
                      tandem tempus? naturaene? at<note>ad X at V<hi rend="sup">c</hi>
                      </note> ea<note>ea<figure/> V (eam Gr.)</note> quidem dedit usuram vitae
@@ -3902,10 +3908,10 @@
                      longissimam aetatem cum aeternitate: in eadem propemodum brevitate qua illae
                      bestiolae reperiemur.<note>reperiemus V<hi rend="sup">1</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="95" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Contemnamus igitur omnis<note>omnes <hi rend="italics">corr.</hi> R<hi
                            rend="sup">1</hi>
                      </note> ineptias—quod enim levius<note>laevius RV</note> huic levitati nomen
@@ -4028,7 +4034,7 @@
                         </note> sciunt, hominem quidem scire arbitror neminem.</quote>
                      <note>utrum... 26 neminem <hi rend="italics">libere Lact. inst. 7,2, 10</hi>
                      </note>
-                 </p>
+                  </p>
                   <p>Ne ego<note>h' <hi rend="italics">supra</hi> ego V<hi rend="sup">2</hi>
                      </note> haud<note>aut X haud V<hi rend="sup">2</hi>
                      </note> paulo hunc animum malim<note>mallim G (<hi rend="italics">2.</hi> l <hi
@@ -4096,7 +4102,7 @@
                      glorians: <quote>solem prae iaculorum multitudine et sagittarum non
                         videbitis</quote>, <quote>in umbra igitur</quote> inquit
                         <quote>pugnabimus.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="102" subtype="section">
                   <p>viros commemoro: qualis tandem Lacaena? quae cum filium in proelium misisset et
@@ -4113,7 +4119,7 @@
                      <note>putrescat K<hi rend="sup">2?</hi> V<hi rend="sup">rec</hi>
                         <hi rend="italics">(Val. Max. 6, 2 ext. 3)</hi>
                      </note>
-                 </p>
+                  </p>
                   <p>Cuius hoc dicto admoneor, ut aliquid etiam de humatione et sepultura dicendum
                      existimem, rem non difficilem,<note>di<figure/>ficilem G<hi rend="sup"
                            >1</hi>K<hi rend="sup">1</hi> dificilem R</note> is praesertim cognitis,
@@ -4260,11 +4266,11 @@
                         <l>Ipse summis sa/xis fixus a/speris, evi/sceratus,</l>
                         <l>La/tere pendens, sa/xa spargens ta/bo, sanie et sa/nguine atro—</l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="107" subtype="section">
-                  <p>non ipsa saxa magis sensu omni<note>omnia X a <hi rend="italics">exp.</hi>
-                           V<hi rend="sup">1</hi>
+                  <p>non ipsa saxa magis sensu omni<note>omnia X a <hi rend="italics">exp.</hi> V<hi
+                           rend="sup">1</hi>
                      </note> vacabunt quam ille <quote>latere pendens</quote>, cui se hic cruciatum
                      censet optare. quae<note>quae V<hi rend="sup">2</hi> quam X</note> essent dura,
                      si sentiret,<note>sentiret (<hi rend="italics">vel</hi> sentirentur) <foreign
@@ -4304,7 +4310,7 @@
                      sentire vivi sentiamus;<note>ita ... 23 sentiamus <hi rend="italics">del. We.
                            non recte</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="109" subtype="section">
                   <p>quantum<note>famaeque V (ae <hi rend="italics">in r.</hi> V<hi rend="sup"
@@ -4337,7 +4343,7 @@
                         <hi rend="sup">2?</hi>)</note> tamen virtutem tamquam umbra
                         sequitur.<note>sequatur V<hi rend="sup">2?</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="110" subtype="section">
                   <p>verum<note>
@@ -4402,7 +4408,7 @@
                      prodire cunctari illum diutius in vita fortunae obiectum inutile putabat
                         ipsi.<note>ipse<figure/> K<hi rend="sup">1</hi>
                      </note>
-                 </p>
+                  </p>
                   <p>Ego autem tibi quidem, quod satis esset, paucis verbis, ut mihi
                         videbar,<note>videbatur V<hi rend="sup">2</hi>
                      </note> responderam—concesseras enim nullo in malo mortuos esse—; sed ob eam
@@ -4431,14 +4437,14 @@
                            rend="sup">1</hi>
                      </note> artem plane relinquimus?<note>relinqueris V (<hi rend="italics">exp. m.
                            rec.</hi>)</note>
-                 </p>
+                  </p>
                   <p>Tu vero istam ne reliqueris, quam semper ornasti, et quidem iure; illa enim te,
                      verum si loqui volumus, <pb n="p.276"/> ornaverat. sed quinam est iste
                      epilogus? aveo<note>habeo X aveo <foreign xml:lang="grc">s</foreign>
                      </note> enim audire, quicquid est.</p>
                </div>
                <div type="textpart" n="113" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Deorum inmortalium<note>sqq. <hi rend="italics">cf. <del>Plut.</del> Cons. Ap.
                            08 e sqq. 115 b</hi> imm. GV</note> iudicia solent in scholis proferre de
                      morte, nec vero ea fingere ipsi, sed Herodoto auctore<note>autore K<hi
@@ -4514,7 +4520,7 @@
                         </l>
                         <l>Sic fuit utilius finiri ipsique tibique.</l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="116" subtype="section">
                   <p>his et talibus auctoribus usi confirmant causam rebus a diis
@@ -4568,7 +4574,7 @@
                         <w>desistant?</w>
                         <hi rend="italics">interrogandi signum posuit Po.</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="117" subtype="section">
                   <p>nam si<note>si <hi rend="italics">add.</hi> K<hi rend="sup">c</hi>
@@ -4594,7 +4600,7 @@
                      <note>
                         <hi rend="italics">Sol. fr.21</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="118" subtype="section">
                   <p>nos vero, si quid tale acciderit, ut a deo denuntiatum videatur ut exeamus e
@@ -4669,7 +4675,7 @@
                      pauca perceperit, non idem reliqua eodem studio persequetur.<note>persequatur
                            R<hi rend="sup">1</hi> (<hi rend="italics">corr.</hi>
                         <hi rend="sup">c</hi>)</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="2" subtype="section">
                   <p>sed tamen in vita occupata<note>Neoptolemus... 10 occupata H</note> atque,
@@ -4692,7 +4698,7 @@
                            xml:lang="grc">pareskeu/asai</foreign>) comparabit, <hi rend="italics"
                            >sed</hi> bit <hi rend="italics">in r.</hi>
                         <hi rend="sup">2</hi> V comparat X (conp. G)</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="3" subtype="section">
                   <p>Quamquam non sumus ignari multos studiose contra esse dicturos; quod vitare
@@ -4744,10 +4750,10 @@
                         <hi rend="sup">2</hi>) <hi rend="italics">cf. praef.</hi> crevisset <hi
                            rend="italics">Boeth.</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="5" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Quam ob rem hortor omnis, qui facere id possunt, ut huius<note>eius <hi
                            rend="italics">Boeth.</hi>
                      </note> quoque generis laudem iam languenti Graeciae<note>graecia G
@@ -4793,7 +4799,7 @@
                            rend="italics">Boeth. in top. Cic. 372,31</hi>
                      </note>
                      <pb n="p.283"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="6" subtype="section">
                   <p/>
@@ -4810,7 +4816,7 @@
                      disserendi elegantia ratione et via philosophantur.<note>philosophentur <hi
                            rend="italics">Sauppe</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="7" subtype="section">
                   <p>est enim quoddam genus eorum qui se<note>se <hi rend="italics">add.</hi> K<hi
@@ -4831,7 +4837,7 @@
                         idem R quidem GKV<hi rend="sup">1</hi>H</note> sentiunt, non
                         intellego.<note>intelligo KR<hi rend="sup">c?</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="8" subtype="section">
                   <p>nam, ut Platonem reliquosque Socraticos et deinceps eos, qui ab his profecti
@@ -4919,7 +4925,7 @@
                      </note> sibi et decretis suis pareat?<note>pareat suis <hi rend="italics"
                            >Lact.</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="12" subtype="section">
                   <p>videre licet alios tanta levitate et iactatione, ut iis<note>ut iis G</note>
@@ -4944,7 +4950,7 @@
                      delinquit in vita.<note>sunt enim aliqui ex eadem professione pecuniae cupidi,
                         nonnulli gloriam quaerentes, multi lib. servi, ut... 285, 28 in vita
                         H</note>
-                 </p>
+                  </p>
                   <p>Nonne verendum est igitur, si est ita, ut dicis, ne <pb n="p.286"/>
                      philosophiam falsa gloria exornes? quod est<note>est <hi rend="italics"
                            >add.</hi> G<hi rend="sup">1</hi>
@@ -4953,7 +4959,7 @@
                      turpiter vivere?</p>
                </div>
                <div type="textpart" n="13" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Nullum vero id quidem argumentum est. nam ut agri non omnes frugiferi sunt qui
                      coluntur, falsumque illud Acci:<note>
                         <hi rend="italics">Accius Atr. 234</hi>
@@ -4984,12 +4990,12 @@
                      vis, de quo disputari velis.</p>
                </div>
                <div type="textpart" n="14" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Dolorem existimo maxumum malorum omnium.</p>
                   <p>Etiamne maius quam dedecus?<note>decus X <hi rend="italics">corr.</hi> K<hi
                            rend="sup">2</hi>R<hi rend="sup">c</hi>V<hi rend="sup">c</hi>
                      </note>
-                 </p>
+                  </p>
                   <p>Non audeo id dicere equidem,<note>equidem <hi rend="italics">Ha.</hi> quidem
                         (id quidem dicere <hi rend="italics">We.</hi>)</note> et me pudet tam cito
                      de sententia esse deiectum.</p>
@@ -5001,7 +5007,7 @@
                      dedecore flagitio turpitudine? quae ut effugias, quis est non modo recusandus,
                      sed non ultro adpetendus<note>app. KV<hi rend="sup">2?</hi>
                      </note> subeundus excipiendus dolor? <pb n="p.287"/>
-                 </p>
+                  </p>
                   <p>Ita prorsus existimo.<note>non ultro ... 287,1 existimo <hi rend="italics"
                            >Char. GL. I 211,24</hi> (sed sub. et exc. d. est) non <hi rend="italics"
                            >om.</hi> V<hi rend="sup">1</hi>
@@ -5014,10 +5020,10 @@
                            rend="italics">sed alt.</hi> e <hi rend="italics">del.</hi>
                         <hi rend="sup">2</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="15" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Video plane, sed plus desidero.</p>
                   <p>Experiar equidem; sed magna res est, animoque mihi opus est non repugnante.</p>
                   <p>Habebis id quidem. ut enim heri feci,<note>et heri feci <hi rend="italics"
@@ -5216,7 +5222,7 @@
                   <l>Ne me o/ccidentem ma/tris superet ca/ritas.</l>
                   <l>Huc a/rripe ad me ma/nibus abstracta/m piis;</l>
                   <l>Iam ce/rnam, mene an i/llam potiore/m putes.</l>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="21" subtype="section">
                   <l>Perge, au/de, nate! inla/crima<note>illacrima R<hi rend="sup">c</hi>
@@ -5244,7 +5250,7 @@
                            >rec</hi>
                      </note> torquent ve/rtices,</l>
                   <l>Nunc se/rpit ardor. o a/nte victrice/s manus,</l>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="22" subtype="section">
                   <l>O pe/ctora, o terga, o/ lacertoru/m tori,</l>
@@ -5284,7 +5290,7 @@
                      </note> videamus?<note>possumus neno cont.... 12 videamus <hi rend="italics"
                            >Char. GL. I, 222, 9</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="23" subtype="section">
                   <p>Veniat Aeschylus,<note>escylus X (y <hi rend="italics">ex</hi> u K<hi
@@ -5345,7 +5351,7 @@
                            erasae)</hi>
                      </note>
                   </l>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="24" subtype="section">
                   <l>Iam te/rtio me quo/que funesto/ die</l>
@@ -5389,7 +5395,7 @@
                         <hi rend="sup">1</hi>)</note>
                      <note>volucrě <figure/>vol|uere K<hi rend="sup">1</hi>
                      </note> a pe/ctore.</l>
-                  <p></p>
+                  <p/>
                </div>
                <div type="textpart" n="25" subtype="section">
                   <l>Sic me i/pse<note>ipse R <hi rend="italics">sed coeperat</hi> ipso</note>
@@ -5415,7 +5421,7 @@
                         <hi rend="sup">2</hi>) V<hi rend="sup">1</hi> (d <hi rend="italics"
                            >eras.</hi>) a<figure/>n. G<hi rend="sup">1</hi>
                      </note>
-                 </p>
+                  </p>
                   <p>Dicam hercle; etenim recte requiris. videsne abundare me otio?</p>
                   <p>Quid tum?</p>
                   <p>Fuisti saepe, credo, cum Athenis esses, in scholis philosophorum.</p>
@@ -5524,7 +5530,7 @@
                         <quote>asperum est, contra naturam, difficile
                            perpessu,<note>perpe<figure/>sso K (-u <hi rend="italics">in r.</hi> G<hi
                               rend="sup">1</hi>)</note> triste, durum.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="30" subtype="section">
                   <p>haec est copia verborum, quod omnes uno verbo malum appellamus, id tot modis
@@ -5663,7 +5669,7 @@
                      custos dignitatis relinquet et deseret.</p>
                </div>
                <div type="textpart" n="34" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Cretum quidem leges,<note>Cretum legs <hi rend="italics">Char. GL. 124, 12</hi>
                      </note> quas <add>sive Iuppiter</add> sive Minos<note>
                         <hi rend="italics">add. <foreign xml:lang="grc">s</foreign>
@@ -5705,7 +5711,7 @@
                         dolorum<note>dolorem X <hi rend="italics">corr.</hi> K<hi rend="sup"
                            >2</hi>R<hi rend="sup">2</hi>
                      </note> efficit<note>efficiat X (a R<hi rend="sup">1?</hi>)</note> faciliorem.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="36" subtype="section">
                   <p>itaque illi, qui<note>qui R<hi rend="sup">rec</hi>V<hi rend="sup">rec</hi>
@@ -5738,7 +5744,7 @@
                      </note> dolori.</p>
                </div>
                <div type="textpart" n="37" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Militiam vero—nostram dico, non Spartiatarum,<note>
                         <hi rend="italics">sqq. cf. Val. Max. 2, 6, 2</hi>
                      </note> quorum procedit ad modum <add>acies</add>
@@ -5810,7 +5816,7 @@
                         </l>
                      </quote>
                      <pb n="p.300"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="39" subtype="section">
                   <p>
@@ -5932,7 +5938,7 @@
                      </note> esse fortior contra dolorem et mortem disciplina.</p>
                </div>
                <div type="textpart" n="42" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>De exercitatione et consuetudine et commentatione <pb n="p.302"/> dixi. age
                         sis,<note>sis V (<hi rend="italics">exp.</hi>
                         <hi rend="sup">vet</hi>)</note>
@@ -5962,7 +5968,7 @@
                            >Man.</hi>)</note>
                      </del> omnem esse tolerabilem.<note>tollerabilem X (toll. GR<hi rend="sup"
                            >1</hi> t<figure/>l K<hi rend="sup">1</hi>)</note>
-                 </p>
+                  </p>
                   <p>Unde igitur ordiar? an eadem breviter attingam,<note>adt. G<hi rend="sup"
                            >1</hi>
                      </note> quae modo dixi, quo<note>quo <hi rend="italics">ex</hi> quod G<hi
@@ -6001,7 +6007,7 @@
                            <hi rend="italics">corr.</hi> H<hi rend="sup">1</hi>
                      </note> et recte: talem enim medicinam philosophia profitetur.<note>sed cum
                         omnes ... 303,6 profitetur H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="44" subtype="section">
                   <p>venit Epicurus, homo minime<note>
@@ -6040,7 +6046,7 @@
                         pulmones, possunt omnia; longe igitur abest a summo dolore. ergo</quote>
                         inquit<note>inquid G<hi rend="sup">1</hi> (10 V<hi rend="sup">1</hi>)</note>
                      <quote>dolor diuturnus habet laetitiae plus quam molestiae.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="45" subtype="section">
                   <p>nunc ego<note>ego <hi rend="italics">ex</hi> ergo V</note> non possum tantum
@@ -6125,10 +6131,10 @@
                            R<hi rend="sup">1</hi>
                         <hi rend="italics">e corr.</hi>
                      </note> nihil homine indignius.<note>nihil enim ... 305, 9 indignius H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="47" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Quod si<note>sit V<hi rend="sup">vet</hi>
                      </note> tibi persuasum est—principio enim dixisti plus in dedecore
                         mali<note>dedecore. ali G<hi rend="sup">1</hi>
@@ -6257,7 +6263,7 @@
                         <l>Co/nqueri fortu/nam adversam, no/n lamentari/ decet;</l>
                         <l>Id viri est offi/cium, fletus mu/liebri ingenio a/dditus.</l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="51" subtype="section">
                   <p/>
@@ -6369,7 +6375,7 @@
                      remissis opprimunt,<note>ut ... 6 obprimunt <hi rend="italics">Non. 258,
                            29</hi> (pessimis obprimuntur)</note> simillime animus intentione sua
                      depellit pressum<note>praessum GKR (pr<figure/>aess.)</note> omnem ponderum,
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="55" subtype="section">
                   <p>remissione<note>remissio G<hi rend="sup">1</hi>
@@ -6393,7 +6399,7 @@
                         </note>
                      </quote>, quem duodecim tabulae in funeribus adhiberi vetuerunt.<note>tabulae,
                         V</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="56" subtype="section">
                   <p>nec vero umquam ne<note>
@@ -6459,7 +6465,7 @@
                      </note> dolore loquimur,<note>loquimus V<hi rend="sup">1</hi>
                      </note> illa omittamus.<note>omittam; (= -us) R opm. G<hi rend="sup">1</hi>
                      </note>
-                 </p>
+                  </p>
                   <p>Ad ferendum igitur dolorem placide atque sedate plurimum proficit toto<note>
                         <hi rend="italics">Otto, Sprichiv. 1368</hi>
                      </note> pectore, ut dicitur, cogitare, quam id honestum sit. sumus enim natura,
@@ -6480,7 +6486,7 @@
                         <hi rend="italics">fort. recte cf. We.</hi>
                      </note> modo de dignitatis gradu demoveri.<note>omnibus rebus ... 311,6
                         demoveri (<hi rend="italics">om.</hi> 22 sed ... 26 sit) H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="59" subtype="section">
                   <p>fulgentis gladios hostium videbant Decii, cum in aciem eorum inruebant. his
@@ -6549,7 +6555,7 @@
                         <w>admoverentur</w> -rentur <hi rend="italics">in r.</hi> V<hi rend="sup"
                            >c</hi>
                      </note> saepe dixisse:<note>dixs. G</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="62" subtype="section">
                   <p>'nihil agis, dolor! quamvis sis molestus, numquam te esse confitebor malum.'
@@ -6637,7 +6643,7 @@
                      conscientia maius est.</p>
                </div>
                <div type="textpart" n="65" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Atque in primis meditemur illud, ut haec patientia <pb n="p.314"/> dolorum,
                      quam saepe iam animi intentione dixi esse<note>dixi<figure/>sse G</note>
                      firmandam, in omni genere se aequabilem praebeat. saepe enim multi,
@@ -6834,7 +6840,7 @@
                         -anda <hi rend="italics">corr.</hi> K<hi rend="sup">1</hi>V<hi rend="sup"
                            >1</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="4" subtype="section">
                   <p>illa autem, quae se eius imitatricem esse volt,<note>uult R <hi rend="italics"
@@ -6862,7 +6868,7 @@
                      </note> nullane<note>ne <hi rend="italics">om.</hi> G<hi rend="sup">1</hi>
                      </note> est adhibenda curatio? utrum quod minus noceant animi aegrotationes
                      quam corporis, an quod corpora curari possint, animorum medicina nulla sit?
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="5" subtype="section">
                   <p>at et morbi<note>morbi <hi rend="italics">ex</hi> moribus K<hi rend="sup"
@@ -6918,7 +6924,7 @@
                      </note> causam disserendi. tum res acta sic est: <quote rend="blockquote">
                         <l>Videtur mihi cadere in sapientem aegritudo.</l>
                      </quote>
-                 </p>
+                  </p>
                   <p>Num reliquae quoque perturbationes animi, formidines libidines<note>libidines
                            <hi rend="italics">add.</hi> G<hi rend="sup">2</hi>
                      </note> iracundiae? haec enim fere sunt eius modi,<note>eiusmodi V (<hi
@@ -6933,7 +6939,7 @@
                         ... 29 usitate (<hi rend="italics">libere</hi>) H</note>
                      <note>uisit. G<hi rend="sup">1</hi> (<hi rend="italics">sic etiam 322, 10;
                            325,16</hi>)</note> nisi quid aliud tibi videtur. <pb n="p.320"/>
-                 </p>
+                  </p>
                   <p>Mihi vero isto modo.</p>
                </div>
                <div type="textpart" n="8" subtype="section">
@@ -6960,7 +6966,7 @@
                            insaniae non insanum animi habitum sed furorem significabat) del.
                            Bentl.</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="9" subtype="section">
                   <p>(omnis autem perturbationes animi morbos philosophi appellant negantque stultum
@@ -6979,7 +6985,7 @@
                      sicut in corpore sanitas esse non posset.<note>posset <hi rend="italics"
                            >Ern.</hi> possit ille G<hi rend="sup">1</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="10" subtype="section">
                   <p>nec minus illud acute, quod animi adfectionem lumine mentis carentem
@@ -7077,7 +7083,7 @@
                      </note> sed haec alia quaestio est; nos ad propositum revertamur.</p>
                </div>
                <div type="textpart" n="12" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Cadere, opinor, in sapientem aegritudinem tibi dixisti videri.</p>
                   <p>Et vero ita existimo.</p>
                   <p>Humanum id quidem, quod ita existumas. non enim silice nati sumus, sed est
@@ -7139,7 +7145,7 @@
                               9</hi>
                         </note>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="13" subtype="section">
                   <p>sed videamus ne haec oratio sit hominum adsentantium nostrae inbecillitati et
@@ -7158,7 +7164,7 @@
                      Graeci volunt, explicabo. et primo, si placet, Stoicorum more agamus, qui
                      breviter astringere solent argumenta; deinde nostro instituto vagabimur. <pb
                         n="p.324"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="14" subtype="section">
                   <p/>
@@ -7226,10 +7232,10 @@
                            rend="sup">1</hi> (14 G<hi rend="sup">1</hi>K<hi rend="sup"
                         >1</hi>)</note> aegritudo perturbatio est animi: semper igitur ea sapiens
                         vacabit.<note>primo iam si <gap reason="omitted"/> 325, 6 vacabit H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="16" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Veri etiam simile illud<note>illi G<hi rend="sup">1</hi>
                      </note> est, qui sit temperans— quem Graeci <foreign xml:lang="grc"
                         >sw/frona</foreign> appellant eamque virtutem <foreign xml:lang="grc"
@@ -7389,7 +7395,7 @@
                      </note> sapiente aegritudo.</p>
                </div>
                <div type="textpart" n="22" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Haec sic<note>sic R<hi rend="sup">c?</hi> V<hi rend="sup">c</hi> si X</note>
                      dicuntur a Stoicis concludunturque contortius. sed latius
                         aliquando<note>aliquando <hi rend="italics">cf. 323,22</hi> aliquanto
@@ -7444,7 +7450,7 @@
                      reperiemus.</p>
                </div>
                <div type="textpart" n="24" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Est igitur causa omnis in opinione, nec vero aegritudinis<note>
                         <hi rend="italics">St. fr. 3, 385</hi>
                      </note> solum, sed etiam reliquarum omnium perturbationum, quae sunt genere
@@ -7469,7 +7475,7 @@
                         libidinis magnitudinem erroris. itaque in ea cupiditate quae flagrantissima
                         est proprie plerumque nomen hoc ponitur si omnis appetitio opinati boni
                         haec] ut H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="25" subtype="section">
                   <p>—ergo haec duo genera, voluptas gestiens et libido, bonorum opinione turbantur,
@@ -7603,7 +7609,7 @@
                      exuimus sic ut abiciamus, miseria carere non possumus.</p>
                </div>
                <div type="textpart" n="28" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Atque hoc quidem perspicuum est, tum<note>tum <hi rend="italics">add.</hi>G<hi
                            rend="sup">2</hi>
                      </note> aegritudinem existere, cum quid ita visum sit, ut magnum quoddam <pb
@@ -7635,7 +7641,7 @@
                         <l>Sci/bam<note>scibam <hi rend="italics">Fronto p. 217</hi> sciebam</note>
                            me in morti/ferum bellum, no/n in epulas mi/ttere.</l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="29" subtype="section">
                   <p>haec igitur praemeditatio futurorum malorum lenit eorum adventum, quae
@@ -7656,7 +7662,7 @@
                            </note>
                         </l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="30" subtype="section">
                   <p>quod autem Theseus a docto se audisse dicit, id de se ipso<note>de ipso K<hi
@@ -7707,7 +7713,7 @@
                            >2</hi>
                      </note> Terentius a philosophia sumptum cum tam commode dixerit, nos, e quorum
                      fontibus id haustum est, non et dicemus hoc melius et constantius sentiemus?
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="31" subtype="section">
                   <p>hic est enim ille voltus semper idem, quem dicitur Xanthippe praedicare solita
@@ -7739,7 +7745,7 @@
                         <hi rend="italics">We.</hi> essent</note> cur fierent provisa leviora?</p>
                </div>
                <div type="textpart" n="32" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Sed est, isdem de rebus quod dici possit subtilius, si prius Epicuri sententiam
                      viderimus. qui censet<note>
                         <hi rend="italics">Epic. fr. 444</hi>
@@ -7788,7 +7794,7 @@
                      </note> dicant, videamus, quo modo, neglegamus.</p>
                </div>
                <div type="textpart" n="34" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Principio male reprehendunt praemeditationem rerum futurarum. nihil est enim
                      quod tam optundat<note>optundat V (at <hi rend="italics">in r.</hi>) R<hi
                            rend="sup">c</hi> optundet GR<hi rend="sup">1</hi> obtundet HK<hi
@@ -7828,10 +7834,10 @@
                            antecedunt</hi>) <hi rend="italics">epist. 6,1, 4</hi> (<hi
                            rend="italics">et 9,16,5</hi>)</note> evenerit.<note>nihil ... 336,2
                         evenerit H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="35" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Nam revocatio<note>avocatio V<hi rend="sup">2</hi>
                      </note> illa, quam adfert,<note>adfret G<hi rend="sup">1</hi>K<hi rend="sup"
                            >1</hi>
@@ -7874,7 +7880,7 @@
                         </note> qui mortalis natus condicionem<note>conditionem GKV</note> postules
                         inmortalium et graviter feras te, quod utendum <pb n="p.337"/> acceperis,
                         reddidisse.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="37" subtype="section">
                   <p>
@@ -7932,7 +7938,7 @@
                            </note>
                         </l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="40" subtype="section">
                   <p>quodsi cui, ut ait idem, <quote>simul animus cum re concidit<note>animus rem
@@ -7980,7 +7986,7 @@
                            <w>natura is</w> naturalis X natura iis <foreign xml:lang="grc"
                               >s</foreign>
                         </note> potiens dolore careat.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="42" subtype="section">
                   <p>atque haec quidem his verbis, quivis ut intellegat, quam voluptatem norit <pb
@@ -8095,7 +8101,7 @@
                               >1</hi>B</note>
                         </l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="45" subtype="section">
                   <p>o poëtam egregium! quamquam ab his cantoribus Euphorionis<note>Euphorioneis V
@@ -8117,13 +8123,13 @@
                            </note>
                         </l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="46" subtype="section">
-                  <p>praeclarum carmen! est enim et rebus et verbis et modis lugubre. Eripiamus
-                     huic aegritudinem. quo modo? <pb n="p.341"/> conlocemus in culcita plumea,
-                     psaltriam adducamus,<note>eripiamus ... 341, 1 adducamus <hi rend="italics"
-                           >Non. 542, 17</hi>
+                  <p>praeclarum carmen! est enim et rebus et verbis et modis lugubre. Eripiamus huic
+                     aegritudinem. quo modo? <pb n="p.341"/> conlocemus in culcita plumea, psaltriam
+                        adducamus,<note>eripiamus ... 341, 1 adducamus <hi rend="italics">Non. 542,
+                           17</hi>
                      </note>
                      <note>aducamus G<hi rend="sup">1</hi>R<hi rend="sup">1</hi>V<hi rend="sup"
                            >1</hi> (<hi rend="italics">corr.</hi> G<hi rend="sup">2</hi>R<hi
@@ -8241,7 +8247,7 @@
                      mentionem facere virtutis.</p>
                </div>
                <div type="textpart" n="50" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Et queruntur quidam Epicurei, viri optimi—nam nullum genus est minus
                      malitiosum—, me studiose dicere contra Epicurum. ita credo, de honore aut de
                      dignitate contendimus. mihi summum in animo bonum videtur, illi autem in
@@ -8270,7 +8276,7 @@
                      gloriose loqui desinant.<note>
                         <hi rend="italics">Otto, Sprichw. 1656</hi>
                      </note>
-                 </p>
+                  </p>
                   <p>Cyrenaicorum restat sententia;</p>
                </div>
                <div type="textpart" n="52" subtype="section">
@@ -8386,7 +8392,7 @@
                         videntur, quia recentia sunt, non quia repentina <hi rend="italics">We.</hi>
                         ut ea quae accidant, mala videantur ... non quia repentina, <add>mala</add>
                         <hi rend="italics">Se, Jb. d. ph. V. 24 p. 244</hi>)</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="56" subtype="section">
                   <p>* Duplex est igitur ratio veri reperiendi non in is<note>non his (G<hi
@@ -8495,12 +8501,12 @@
                            </note> vita o/mnibus</l>
                         <l>Mete/nda ut fruges. si/c iubet Nece/ssitas.</l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="60" subtype="section">
-                  <p>negabat genus hoc orationis quicquam omnino ad levandam aegritudinem
-                     pertinere. id enim ipsum dolendum esse dicebat, quod in tam crudelem
-                     necessitatem incidissemus; nam illam quidem orationem ex commemoratione<note>ex
+                  <p>negabat genus hoc orationis quicquam omnino ad levandam aegritudinem pertinere.
+                     id enim ipsum dolendum esse dicebat, quod in tam crudelem necessitatem
+                     incidissemus; nam illam quidem orationem ex commemoratione<note>ex
                         commemoratione V (<hi rend="italics">sed</hi> com <hi rend="italics">in
                            r.</hi>
                         <hi rend="sup">c</hi>) K<hi rend="sup">2</hi> ex quo memoratione K<hi
@@ -8519,7 +8525,7 @@
                      tranquille tulisse.</p>
                </div>
                <div type="textpart" n="61" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Omnibus enim modis fulciendi sunt, qui ruunt nec cohaerere possunt propter
                      magnitudinem aegritudinis. ex quo ipsam aegritudinem <foreign xml:lang="grc"
                         >lu/phn</foreign>
@@ -8552,7 +8558,7 @@
                         <hi rend="sup">rec</hi>)</note> illud aegre quod acciderit, tum denique
                      efficitur illa gravis aegritudinis perturbatio.<note>tum ... 23 perturbatio <hi
                            rend="italics">om.</hi> H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="62" subtype="section">
                   <p>ex hac opinione sunt illa varia et detestabilia genera<note>genere KR<hi
@@ -8611,7 +8617,7 @@
                         <l>Caelo a/tque terrae Me/deai<note>Medeai <hi rend="italics">Turn.</hi>
                               Medeae</note> mi/serias.</l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="64" subtype="section">
                   <p>haec omnia recta vera debita putantes faciunt in dolore, maximeque
@@ -8664,7 +8670,7 @@
                         <l>Quo magis est aequum tumulis mandare peremptos</l>
                         <l>Firmo animo et luctum lacrimis finire diurnis.</l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="66" subtype="section">
                   <p>Ergo in potestate est abicere dolorem, cum velis, tempori servientem. an est
@@ -8688,7 +8694,7 @@
                      igitur deponi potest, etiam non suscipi potest; voluntate igitur et iudicio
                      suscipi aegritudinem confitendum est.<note>si timor aliquoties ab aegritudine
                         potest repellere ... 351, 6 est H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="67" subtype="section">
                   <p>Idque<note>
@@ -8969,7 +8975,7 @@
                                  >exp.</hi> V</note>
                         </l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="77" subtype="section">
                   <p/>
@@ -9007,7 +9013,7 @@
                            rend="italics">edd.</hi> aegritudinem X <hi rend="italics">corr.</hi>
                            K<hi rend="sup">1</hi>R<hi rend="sup">c</hi>V<hi rend="sup">1</hi>
                      </note> in illa re, quae aegritudine Alcibiadem adficiebat, mali nihil fuisse?
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="78" subtype="section">
                   <p>quid? illa Lyconis qualia<note>quia GRV<hi rend="sup">1</hi> (a <hi
@@ -9040,10 +9046,10 @@
                         <foreign xml:lang="grc">s</foreign>
                      </note> quisque curationem recipere possit, videndum est.<note>nimirum ... 26
                         est H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="80" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Sed nescio quo pacto ab eo, quod erat a te<note>
                         <w>a te</w> ante K</note> propositum, aberravit oratio. tu enim de sapiente
                      quaesieras, cui aut malum videri nullum potest, quod vacet <pb n="p.358"/>
@@ -9062,7 +9068,7 @@
                      voluntario iudicio et opinionis errore contractum.</p>
                </div>
                <div type="textpart" n="81" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Tractatum<note>tractum GV<hi rend="sup">1</hi>
                      </note> est autem a nobis id genus aegritudinis, quod unum est omnium maxumum,
                      ut eo sublato reliquorum remedia ne magnopere quaerenda arbitraremur. sunt enim
@@ -9135,7 +9141,7 @@
                         sollicitari,<note>sollicitari <hi rend="italics">add.</hi> G<hi rend="sup"
                            >2</hi>
                      </note> dolere,<note>dolore V</note> in molestia esse, adflictari, desperare.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="84" subtype="section">
                   <p>Haec omnia definiunt Stoici, eaque verba quae dixi singularum rerum<note>
@@ -9150,7 +9156,7 @@
                      quid <pb n="p.360"/> autem praeclarum non idem arduum? sed tamen id se
                      effecturam philosophia profitetur, nos modo curationem eius
                         recipiamus.<note>denique ratio una ... 360, 3 recipiamus H</note>
-                 </p>
+                  </p>
                   <p>Verum haec quidem<note>verum quidem haec <foreign xml:lang="grc">W</foreign>
                         <hi rend="italics">corr. We.</hi> actenus K<hi rend="sup">1</hi>R<hi
                            rend="sup">1</hi>
@@ -9270,7 +9276,7 @@
                            >post</hi> 13 nostros <hi rend="italics">habet</hi> X. <hi rend="italics"
                            >suo loco posuit</hi> V<hi rend="sup">c</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="5" subtype="section">
                   <p>Sed ut ad propositum<note>positum G<hi rend="sup">1</hi>
@@ -9320,7 +9326,7 @@
                      melius, illud quod erat<note>erat R<hi rend="sup">1</hi>
                      </note> tenebant.<note>tenebant V<hi rend="sup">1</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="7" subtype="section">
                   <p>post Amafinium<note>ammafinius K<hi rend="sup">1</hi> (<hi rend="italics"
@@ -9345,7 +9351,7 @@
                      </note> quartus dies hoc libro concluditur. ut enim in inferiorem ambulationem
                      descendimus, quod feceramus idem superioribus diebus, acta res est sic: <pb
                         n="p.365"/>
-                 </p>
+                  </p>
                   <p>Dicat, si quis volt, qua de re disputari velit.</p>
                </div>
                <div type="textpart" n="8" subtype="section">
@@ -9361,7 +9367,7 @@
                         <hi rend="sup">2?</hi>) asentiabaere V<hi rend="sup">1</hi> assentiebare
                            KV<hi rend="sup">rec</hi>
                      </note>
-                 </p>
+                  </p>
                   <p>Minime vero; nam mihi egregie<note>aegregiae X (agr- V<hi rend="sup">1</hi> -ie
                         G)</note> probata est oratio tua.</p>
                   <p>Non igitur existumas cadere in sapientem aegritudinem?</p>
@@ -9375,7 +9381,7 @@
                         <hi rend="italics">ex</hi> sip</note> mens erit tranquilla sapientis.</p>
                </div>
                <div type="textpart" n="9" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Sic prorsus intellego.</p>
                   <p>Utrum igitur mavis? statimne nos vela<note>vela <hi rend="italics">add.</hi>
                            G<hi rend="sup">2</hi>
@@ -9398,7 +9404,7 @@
                         <figure/> propalarem K<hi rend="sup">2</hi>
                      </note>
                      <pb n="p.366"/>
-                 </p>
+                  </p>
                   <p>Isto modo vero; erit enim hoc totum, quod quaero, ex utroque perfectius.</p>
                   <p>Est id quidem rectius;</p>
                </div>
@@ -9505,7 +9511,7 @@
                         <hi rend="italics">om.</hi> X</note> ratione aversa cautio.<note>
                         <w>cautio</w>
                         <hi rend="italics">Cic. dicere debebat:</hi> declinatio</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="14" subtype="section">
                   <p>praesentis autem mali sapientis adfectio nulla est, stultorum<note>stultorum
@@ -9546,7 +9552,7 @@
                            rend="sup">1</hi> (libido <hi rend="italics">etiam in mg.</hi>) R<hi
                            rend="sup">1</hi>
                      </note> opinio venturi boni, quod sit ex usu iam praesens esse atque adesse.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="15" subtype="section">
                   <p>sed quae iudicia quasque opiniones perturbationum esse dixi, non in eis
@@ -9560,7 +9566,7 @@
                      inclusimus, volunt esse inbecillam adsensionem.</p>
                </div>
                <div type="textpart" n="16" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Sed singulis<note>in singulis G (<hi rend="italics">exp.</hi>
                         <hi rend="sup">2</hi>)</note> perturbationibus partes eiusdem generis plures
                      subiciuntur, ut aegritudini invidentia— <pb n="p.369"/> utendum est enim
@@ -9721,10 +9727,10 @@
                         <hi rend="italics">St. fr. 3, 379</hi>
                      </note> pecuniae.<note>
                         <w>ut pec.</w> et pec. H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="22" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Omnium autem perturbationum fontem esse dicunt intemperantiam, quae est
                         <del>a</del>
                      <note>a <hi rend="italics">in r.</hi> G<hi rend="sup">2</hi>
@@ -9756,7 +9762,7 @@
                            >et</hi> 368, 10 itaque... 368, 12 potestate) H</note>
                      <note>conturbat V<hi rend="sup">1</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="23" subtype="section">
                   <p>ex perturbationibus autem primum morbi conficiuntur, quae vocant illi <foreign
@@ -9779,7 +9785,7 @@
                      </note> dum morbis corporum comparatur morborum animi similitudo; qua
                         oratione<note>ratione V<hi rend="sup">1</hi>
                      </note> praetermissa minime necessaria ea, quae rem continent, pertractemus.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="24" subtype="section">
                   <p>intellegatur igitur perturbationem iactantibus se opinionibus inconstanter et
@@ -9944,7 +9950,7 @@
                         vit. X</note> sic in animo. morbum appellant totius corporis corruptionem,
                      aegrotationem morbum cum imbecillitate,<note>inb. V</note> vitium, cum partes
                      corporis inter se dissident, ex quo pravitas membrorum, distortio, deformitas.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="29" subtype="section">
                   <p>itaque illa duo, morbus et aegrotatio, ex totius valetudinis corporis
@@ -10023,7 +10029,7 @@
                      simile quiddam<note>quidam GR<hi rend="sup">1</hi>V<hi rend="sup">1</hi> (<hi
                            rend="italics">corr.</hi> R<hi rend="sup">2</hi>V<hi rend="sup"
                         >c</hi>)</note> faciunt, sed in perturbationes non incidunt. <pb n="p.377"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="32" subtype="section">
                   <p>inter acutos autem et inter hebetes<note>hebetes non item est K<hi rend="sup"
@@ -10047,10 +10053,10 @@
                      </note> non tam celeriter sanantur quam illa tolluntur.<note>sed ut. .. 377, 12
                         tolluntur (<hi rend="italics">sine</hi> 377, 1 inter <gap reason="omitted"/>
                         377, 6 immania) H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="33" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Habes ea quae de perturbationibus enucleate disputant<note>habes <gap
                            reason="omitted"/> disputant <hi rend="italics">Non. 60, 7</hi>
                      </note> Stoici, quae <foreign xml:lang="grc">logika/</foreign>
@@ -10071,7 +10077,7 @@
                      </note> et cursum.</p>
                </div>
                <div type="textpart" n="34" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Quando, ut<note>ut <hi rend="italics">Man.</hi> et</note> aliis locis de
                      virtute et diximus et saepe dicendum erit—pleraeque enim quaestiones, quae ad
                      vitam moresque pertinent, a virtutis fonte<note>forte V<hi rend="sup">1</hi>
@@ -10255,7 +10261,7 @@
                         <w>sustineretur</w> eretur <hi rend="italics">in r.</hi> V<hi rend="sup"
                            >c</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="41" subtype="section">
                   <p>Qui modum igitur vitio quaerit, similiter facit, ut si posse putet eum qui se e
@@ -10320,7 +10326,7 @@
                      </note> appellant.<note>eamque ... 13 appellant <hi rend="italics">Non. 134,
                            4</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="44" subtype="section">
                   <p>Nec vero<note>nevero G<hi rend="sup">1</hi>
@@ -10373,7 +10379,7 @@
                            K</note>
                      </quote> tum severus pater: <quote>dum modo doleat aliquid, doleat
                         quidlubet.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="46" subtype="section">
                   <p>Reliquas quoque partis aegritudinis utilis esse dicunt, misericordiam ad opem
@@ -10393,7 +10399,7 @@
                      </note> quae cum exponunt, nihilne tibi videntur an aliquid dicere?</p>
                   <p>Mihi vero dicere aliquid, itaque expecto, quid ad ista.<note>ista<figure/> (<hi
                            rend="italics">eras.</hi> m) K</note>
-                 </p>
+                  </p>
                   <p>Reperiam fortasse, sed illud ante:</p>
                </div>
                <div type="textpart" n="47" subtype="section">
@@ -10517,7 +10523,7 @@
                      vide ne fortitudo minime sit rabiosa sitque iracundia tota levitatis.</p>
                </div>
                <div type="textpart" n="51" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Neque enim est ulla fortitudo, quae rationis est expers. <quote>contemnendae
                         res humanae sunt,<note>sunt B sint X</note> neglegenda mors est, patibiles
                         et dolores et labores putandi</quote>— haec<note>'contemnendae... 7 putandi'
@@ -10677,7 +10683,7 @@
                      </note> animi, qui uti ratione non potest. nos autem, ut testificor saepe, de
                      sapiente quaerimus.<note>quoque (<hi rend="italics">item post Afranii
                            versum</hi>)</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="56" subtype="section">
                   <p>At etiam<note>
@@ -10729,7 +10735,7 @@
                      sunt.</p>
                </div>
                <div type="textpart" n="58" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Sed quoniam suspicor te non tam de sapiente quam de te ipso quaerere—illum enim
                      putas omni perturbatione esse liberum, te vis—, videamus, quanta sint<note>sint
                            V<hi rend="sup">3</hi>
@@ -10846,7 +10852,7 @@
                         <hi rend="sup">3</hi>)</note> humanos superiores quam suos animos esse
                         ducunt.<note>ducunt <foreign xml:lang="grc">s</foreign> di- cunt X</note>
                      <pb n="p.393"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="62" subtype="section">
                   <p/>
@@ -10869,7 +10875,7 @@
                      sedationem animi humana in conspectu posita natura; quae quo facilius expressa
                      cernatur, explicanda est oratione communis condicio lexque
                         vitae.<note>constantem ... 393, 15 vitae H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="63" subtype="section">
                   <p>itaque non sine causa, cum Orestem fabulam doceret<note>doceret <foreign
@@ -10915,7 +10921,7 @@
                      doloris magnitudo concederet.<note>ut cum magnitudine ... 3 concederet <hi
                            rend="italics">Non. 270, 11</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="64" subtype="section">
                   <p>Sed aegritudini, de qua satis est disputatum, finitimus est metus, de quo pauca
@@ -11018,7 +11024,7 @@
                      </quote> quam haec pulchra putet, ipse iam dicet: <quote rend="blockquote">
                         <l>Fo/rtunam ipsam antei/bo fortuni/s meis.</l>
                      </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="68" subtype="section">
                   <p>haec laetitia quam turpis sit, satis est diligenter attendentem penitus
@@ -11092,7 +11098,7 @@
                            <hi rend="sup">1</hi>
                            <hi rend="italics">est ss.</hi>
                            <hi rend="sup">2</hi>)</note> patre.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="70" subtype="section">
                   <p>Sed poëtas ludere sinamus, quorum fabulis in hoc flagitio versari ipsum videmus
@@ -11148,10 +11154,10 @@
                         sim curae</quote>—</p>
                </div>
                <div type="textpart" n="73" subtype="section">
-                  <p>at id erat deis<note>dehis X (de<figure/>is V)</note> omnibus curandum, quem
-                     ad modum hic frueretur voluptate amatoria! <quote>heu me
-                     infelicem!</quote>—nihil verius. probe et ille: <quote>sanusne es,<note>sanun
-                           es <hi rend="italics">Wo.</hi>
+                  <p>at id erat deis<note>dehis X (de<figure/>is V)</note> omnibus curandum, quem ad
+                     modum hic frueretur voluptate amatoria! <quote>heu me infelicem!</quote>—nihil
+                     verius. probe et ille: <quote>sanusne es,<note>sanun es <hi rend="italics"
+                              >Wo.</hi>
                         </note> qui temere lamentare?</quote> sic<note>
                         <w>sic</w> hic <hi rend="italics">Mdv.</hi> (<hi rend="italics">at cf.</hi>
                         ita <hi rend="italics">div. 2, 82</hi>)</note> insanus videtur etiam suis. at<note>
@@ -11233,7 +11239,7 @@
                      cogitatio, alium satietas deterreret.<note>etenim ... 26 deterreret H</note>
                      <note>deterret G<hi rend="sup">1</hi>
                      </note>
-                 </p>
+                  </p>
                   <p>Ira vero, quae<note>
                         <w>quae</w>-ae <hi rend="italics">in r.</hi> V<hi rend="sup">2</hi>
                      </note> quam diu perturbat animum, dubitationem insaniae non habet, cuius
@@ -11301,7 +11307,7 @@
                      excitatum. ex quo illud laudatur Archytae, qui cum vilico factus esset iratior,
                         <quote>quo te modo</quote> inquit <quote>accepissem, nisi iratus
                         essem!</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="79" subtype="section">
                   <p/>
@@ -11384,10 +11390,10 @@
                      </note> sanatur quam diuturna lippitudo depellitur.<note>depellitur <hi
                            rend="italics">del. Dav. sed cf. Mue.</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="82" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Sed cognita iam causa perturbationum, quae omnes oriuntur ex iudiciis opinionum
                      et voluntatibus, sit iam huius disputationis modus. scire autem nos<note>nos
                            <foreign xml:lang="grc">s</foreign> vos X</note> oportet cognitis,
@@ -11518,10 +11524,10 @@
                            rend="italics">add.</hi> G<hi rend="sup">2</hi>
                      </note> malumus.<note>rerum ... 25 malumus <hi rend="italics">Non. 277, 15</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="5" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Sed et huius culpae et ceterorum vitiorum peccatorumque nostrorum omnis a
                      philosophia petenda correctio est.<note>est H (9 nihil est... 405, 8 videantur
                            <hi rend="italics">et</hi> 405, 18 illa ... 405, 29 est <hi
@@ -11612,7 +11618,7 @@
                      </note> fuisse et habitos esse sapientis.<note>sapientis <hi rend="italics"
                            >ex</hi> -es R<hi rend="sup">c</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="8" subtype="section">
                   <p>nec vero Atlans<note>atlans K athlans R<hi rend="sup">1</hi> (h <hi
@@ -11671,7 +11677,7 @@
                         <foreign xml:lang="grc">s</foreign> cogitationemque X</note> praestare.</p>
                </div>
                <div type="textpart" n="10" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Nec vero Pythagoras nominis solum inventor, sed rerum etiam ipsarum
                         amplificator<note>amplicator G</note> fuit. qui cum
                         post<note>cum<figure/>post (<hi rend="italics">eras.</hi> q) K</note> hunc
@@ -11780,7 +11786,7 @@
                      esse commune.</p>
                </div>
                <div type="textpart" n="15" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Facile patior te isto<note>ito G<hi rend="sup">1</hi>
                      </note> modo agere,<note>agere V<hi rend="sup">c</hi>
                         <foreign xml:lang="grc">s</foreign> egere GRV<hi rend="sup">1</hi> aegere
@@ -11793,7 +11799,7 @@
                      </note> quaestio<note>questio GKV</note> est.<note>profligata... 10 est <hi
                            rend="italics">Non. 160, 28</hi>
                      </note>
-                 </p>
+                  </p>
                   <p>Quo tandem modo?</p>
                   <p>Quia motus turbulenti iactationesque animorum incitatae et impetu<note>impetu
                            V<hi rend="sup">1</hi>
@@ -11862,7 +11868,7 @@
                   <p>et si haec virtute efficiuntur, quid est cur virtus ipsa per se non efficiat
                         beatos?<note>beatus R<hi rend="sup">1</hi>
                      </note>
-                 </p>
+                  </p>
                   <p>Atqui alterum dici non<note>non <hi rend="italics">add.</hi> G<hi rend="sup"
                            >1</hi>
                      </note> potest, quin i, qui nihil metuant, nihil angantur,<note>agantur KV<hi
@@ -11945,7 +11951,7 @@
                            >1</hi>K</note> crederemus.</p>
                </div>
                <div type="textpart" n="21" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Vellem id quidem, sed habeo paulum, quod requiram. ego enim
                         adsentior<note>assentior KR</note> eorum quae posuisti alterum alteri
                      consequens esse, ut, quem ad modum, si, quod honestum sit, id solum sit bonum,
@@ -11962,7 +11968,7 @@
                         <hi rend="italics">add.</hi>
                         <hi rend="sup">rec</hi>) virtutem (<hi rend="italics">quae sane propter
                            homoioteleuton facile excidere poterant; cf. etiam 413, 5</hi>)</note>
-                 </p>
+                  </p>
                   <p>Quid igitur?</p>
                </div>
                <div type="textpart" n="22" subtype="section">
@@ -11992,7 +11998,7 @@
                      etiamsi ex aliqua parte clauderet,<note>claudicaret <hi rend="italics">ex</hi>
                         clauderet V<hi rend="sup">1 auat c</hi>
                      </note> tamen ex multo maiore parte optinere<note>obt. K</note> nomen suum.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="23" subtype="section">
                   <p>haec <pb n="p.415"/> nunc enucleare non ita necesse est, quamquam non
@@ -12011,7 +12017,7 @@
                      deesse dicemus, non modo ad beatissimam?</p>
                </div>
                <div type="textpart" n="24" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Hoc illud est, quod Theophrastus<note>teophrastus X (<hi rend="italics">ex</hi>
                         teopharastus K)</note> sustinere non potuit. nam cum statuisset verbera,
                      tormenta, cruciatus, patriae eversiones,<note>eversionis V</note> exilia,
@@ -12196,16 +12202,16 @@
                            22</hi>
                      </note> sed ex perpetuitate atque constantia.<note>non...419, 2 constantia
                         H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="32" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Adducis<note>aducis R</note> me, ut tibi adsentiar. sed tua quoque vide ne
                      desideretur constantia.<note>adducis...4 constantia <hi rend="italics"
                            >add.</hi> G<hi rend="sup">2</hi>
                         <hi rend="italics">in mg.</hi>
                      </note>
-                 </p>
+                  </p>
                   <p>Quonam modo?</p>
                   <p>Quia legi tuum nuper quartum<note>quarum V<hi rend="sup">1</hi>
                      </note> de finibus; in eo mihi videbare contra Catonem disserens hoc velle
@@ -12219,7 +12225,7 @@
                      verba.</p>
                </div>
                <div type="textpart" n="33" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Tu quidem tabellis obsignatis agis mecum et testificaris, quid dixerim
                      aliquando aut scripserim. cum aliis isto modo, qui legibus impositis disputant:
                      nos in diem vivimus; quodcumque nostros animos probabilitate percussit, id
@@ -12242,7 +12248,7 @@
                         ipse<note>ipsa X <hi rend="italics">corr.</hi> V<hi rend="sup">2</hi>
                      </note> viderit; gloria quidem huius sententiae quis est illo viro dignior?—,
                      nos tamen teneamus, ut sit idem beatissimus. <pb n="p.420"/>
-                 </p>
+                  </p>
                   <p>Et si Zeno Citieus,<note>ticieus R cici eus K<hi rend="sup">1</hi>
                      </note> advena quidam et ignobilis verborum opifex, insinuasse se<note>se <hi
                            rend="italics">om. Non.</hi>
@@ -12296,7 +12302,7 @@
                            ipse X</note> omnem spem reponet sui.</quote> ex hoc igitur Platonis
                      quasi quodam sancto augustoque fonte nostra omnis manabit oratio. <pb n="p.421"
                      />
-                 </p>
+                  </p>
                   <p>Unde igitur ordiri<note>ordiri <foreign xml:lang="grc">s</foreign> V<hi
                            rend="sup">rec</hi> oriri X</note> rectius possumus quam a communi
                      parente natura?</p>
@@ -12337,7 +12343,7 @@
                            >exp.</hi>
                         <hi rend="sup">2</hi>)</note> cum ipso deo, si<note>si (<hi rend="italics"
                            >priore loco</hi>)] sic K</note> hoc fas est dictu, comparari potest.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="39" subtype="section">
                   <p>hic igitur si est<note>si est (<hi rend="italics">alt. loco</hi>) <hi
@@ -12397,7 +12403,7 @@
                      una honestate consisteret.<note>atqui nisi (<hi rend="italics">alt. loco </hi>
                         nisi enim)...12 potest (<hi rend="italics">bis</hi>) <hi rend="italics"
                            >et</hi>18 nihil... 423,3 consisteret H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="42" subtype="section">
                   <p>qui autem illam<note>illa </note> maxume optatam et expetitam<note>expetitam
@@ -12426,7 +12432,7 @@
                      et a metu vindicet, temperantia cum<note>cum <hi rend="italics">Lb.</hi>
                         tum</note> a libidine avocet, tum insolenti alacritate gestire non sinat?
                      haec efficere virtutem ostenderem, nisi superioribus diebus essent explicata.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="43" subtype="section">
                   <p>Atque cum<note>atque cum <hi rend="italics">edd. vett.</hi> at quicumque X
@@ -12468,7 +12474,7 @@
                         abundantem<note>habundantem GKH</note> licet esse
                         miserrimum.<note>solum...14 miserrimum (...12 beatam <hi rend="italics"
                            >bis</hi>)</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="45" subtype="section">
                   <p>an dubitas quin praestans valetudine, viribus, forma, acerrumis
@@ -12551,7 +12557,7 @@
                         n="p.426"/> viro laudabilis; et vita igitur laudabilis boni viri; et honesta
                      ergo, quoniam laudabilis. ex quibus bonorum beatam vitam esse
                         concluditur.<note>da cuipam divitias...426,3 concluditur H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="48" subtype="section">
                   <p>Etenim, pro deorum atque hominum fidem!<note>fidem <foreign xml:lang="grc"
@@ -12595,7 +12601,7 @@
                         </l>
                      </quote>
                      <pb n="p.427"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="50" subtype="section">
                   <p>quod si <add>est</add>,<note>
@@ -12614,10 +12620,10 @@
                         <figure/>virtute B<hi rend="sup">1</hi> virtutem X virtutum <foreign
                            xml:lang="grc">s</foreign>
                      </note> esse ad beatam vitam? contrariorum enim contraria sunt consequentia.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="51" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Quo loco quaero, quam vim habeat libra illa Critolai, qui cum in alteram lancem
                      animi bona imponat, in alteram corporis et externa, tantum propendere illam
                      bonorum animi<note>bonorum animi <hi rend="italics">Lallem. e cod.(?) cf. Va.
@@ -12631,7 +12637,7 @@
                      Xenocratem illum gravissumum<note>gravissimum V</note> philosophorum,
                      exaggerantem tantopere<note>tanto opere V</note> virtutem, extenuantem cetera
                      et abicientem, in virtute non beatam modo vitam, sed etiam beatissimam ponere?
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="52" subtype="section">
                   <p>quod quidem nisi fit, virtutum interitus consequetur. nam in quem cadit
@@ -12658,7 +12664,7 @@
                      </del> virtutem semper liberam volumus, semper invictam; quae<note>atque <hi
                            rend="italics">Bentl.</hi> atqui</note> nisi sunt, sublata
                         virtus<note>quae...3 virtus est <hi rend="italics">om.</hi> H</note> est.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="53" subtype="section">
                   <p>Atque si in virtute satis est praesidii ad bene vivendum, satis est etiam ad
@@ -12677,7 +12683,7 @@
                      </note> sic sapientia semper eo contenta<note>contenda K<hi rend="sup">1</hi>
                         conta G contempta H</note> est quod adest, neque eam umquam sui
                         paenitet.<note>at nos autem...14 penitet H</note>
-                 </p>
+                  </p>
                   <p>Similemne<note>similene X similemen <foreign xml:lang="grc">s</foreign>
                      </note> putas C. Laelii unum consulatum<note>consolat.GR (<hi rend="italics"
                            >in</hi> 24 <hi rend="italics">corr.</hi>
@@ -12751,7 +12757,7 @@
                      consulatus et contaminare extremum tempus aetatis.</p>
                </div>
                <div type="textpart" n="57" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Duodequadraginta<note>
                         <hi rend="italics">Totum cap. 20 libere excerpsit Val. Max. 9, 13 ext.
                            4</hi>
@@ -12804,7 +12810,7 @@
                         adurerent.<note>instituitque...20 adurerent <hi rend="italics">Non. 122,
                            30</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="59" subtype="section">
                   <p>cumque duas uxores haberet,<note>haberet uxores V<hi rend="sup">1</hi>
@@ -12891,7 +12897,7 @@
                         coepisset.<note>coepisset <hi rend="italics">ex</hi> coepit R<hi rend="sup"
                            >1</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="63" subtype="section">
                   <p>Quantopere vero amicitias desideraret, quarum infidelitatem extimescebat,
@@ -12926,7 +12932,7 @@
                         libertate<note>libertatem K</note> dignus esset aut vellet omnino liber
                      esse, sibi amicum arbitrabatur.<note>arbitrabantur G<hi rend="sup">1</hi>
                      </note>
-                 </p>
+                  </p>
                   <p>Non ego iam cum huius vita, qua taetrius miserius detestabilius excogitare
                      nihil possum, Platonis aut Archytae<note>architae </note> vitam<note>vitae
                         vitam X (vitae <hi rend="italics">del.</hi>
@@ -13008,10 +13014,10 @@
                      gaudiorum sunt. ex perpetuis autem plenisque gaudiis cum perspicuum sit vitam
                      beatam existere, sequitur ut ea existat ex<note>ex <hi rend="italics">om.</hi>
                         V</note> honestate.<note>etenim...23 honestate H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="68" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Sed ne verbis solum attingamus ea quae<note>eaque v. KRV<hi rend="sup">1</hi>
                      </note> volumus ostendere, proponenda quaedam quasi moventia sunt, quae nos
                      magis ad cognitionem intellegentiamque convertant. sumatur enim nobis quidam
@@ -13077,7 +13083,7 @@
                            >s</foreign>)</note> omnia delata gravitate medium mundi locum semper
                         expetant,<note>expectant </note> qui est idem infimus in
                         rutundo.<note>rotundo KV<hi rend="sup">c?</hi>H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="70" subtype="section">
                   <p>haec tractanti<note>tractanti <foreign xml:lang="grc">s</foreign> V<hi
@@ -13120,7 +13126,7 @@
                      </note> talibus rebus exquisitis hoc vel maxime efficitur, quod hac<note>
                         <w>hac</w> ac G<hi rend="sup">1</hi> hic V<hi rend="sup">1</hi>
                      </note> disputatione agimus, ut virtus ad beate vivendum sit se ipsa contenta.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="72" subtype="section">
                   <p>Sequitur tertia, quae per omnis partis sapientiae manat et funditur, quae <pb
@@ -13225,7 +13231,7 @@
                      </note> aperteque et clara voce audeant dicere beatam vitam in Phalaridis
                      taurum descensuram.<note>decen suram X (<hi rend="italics">corr.</hi>V<hi
                            rend="sup">3</hi>)</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="76" subtype="section">
                   <p>sint enim tria genera bonorum, ut<note>
@@ -13305,7 +13311,7 @@
                            rend="italics">cf.Th.l.l.</hi>
                      </note> violent,<note>volent V<hi rend="sup">1</hi>
                      </note> quorum etiamsi inprudentes quippiam fecerint, poenam nullam recusent.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="79" subtype="section">
                   <p>de hominibus loquor; quid? bestiae non frigus, non famem, non montivagos atque
@@ -13323,7 +13329,7 @@
                      </note> est.</p>
                </div>
                <div type="textpart" n="80" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Sed adhibeat oratio modum et redeat illuc, unde deflexit. dabit,
                         inquam,<note>dabit, dabit, inquam <hi rend="italics">edd. vett.</hi>
                      </note> se in tormenta vita beata nec iustitiam temperantiam in primisque
@@ -13360,7 +13366,7 @@
                         <hi rend="sup">2</hi>)</note> quid sit beatius, mihi certe in mentem venire
                      non potest.<note>numquam...441, 7 sapientis (<hi rend="italics">om.</hi> 441,
                         12 omnia...14 potest) H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="82" subtype="section">
                   <p>Stoicorum quidem facilis conclusio est; qui cum finem bonorum esse<note>esse
@@ -13394,7 +13400,7 @@
                      conclusa.</p>
                </div>
                <div type="textpart" n="83" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Utamur igitur libertate, qua nobis solis in philosophia licet uti, quorum
                      oratio nihil ipsa iudicat, sed habetur in omnis partis, ut ab aliis possit ipsa
                      per sese nullius auctoritate adiuncta iudicari.<note>utamur...8 iudicari</note>
@@ -13416,9 +13422,9 @@
                         semper V<hi rend="sup">2</hi>)</note> bea-</p>
                </div>
                <div type="textpart" n="84" subtype="section">
-                  <p>tum esse sapientem—, sed quaeramus unam quamque reliquorum sententiam, si
-                     fieri potest, ut hoc praeclarum quasi decretum beatae vitae possit omnium
-                     sententiis et disciplinis convenire.</p>
+                  <p>tum esse sapientem—, sed quaeramus unam quamque reliquorum sententiam, si fieri
+                     potest, ut hoc praeclarum quasi decretum beatae vitae possit omnium sententiis
+                     et disciplinis convenire.</p>
                   <p>Sunt autem haec de finibus, ut opinor, retentae defensaeque<note>defensaque
                            K<hi rend="sup">1</hi>
                      </note> sententiae: primum simplices quattuor, nihil bonum nisi honestum, ut
@@ -13516,7 +13522,7 @@
                      </note> malave videantur, possit contemnere.<note>nemo...12 contemnere <hi
                            rend="italics">Non. 82,20</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="88" subtype="section">
                   <p>nam quae tibi Epicuri<note>quae...Epicuri <foreign xml:lang="grc">s</foreign>
@@ -13550,7 +13556,7 @@
                         quorum</note> magnitudinem brevitate consolatur, longinquitatem
                         levitate.<note>levitate <foreign xml:lang="grc">s</foreign> lenitate
                         (laen.KR)X</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="89" subtype="section">
                   <p>qui tandem isti grandiloqui contra haec duo, quae<note>haec <hi rend="italics"
@@ -13559,7 +13565,7 @@
                      </note>
                      <note>agunt V<hi rend="sup">1</hi>
                      </note> melius se habent quam Epicurus?<note>epicu...rus epicuru.s R</note>
-                 </p>
+                  </p>
                   <p>An ad cetera, quae mala putantur, non et Epicurus<note>epicu...rus epicuru.s
                         R</note> et reliqui philosophi satis parati videntur? quis non paupertatem
                      extimescit? neque tamen quisquam philosophorum. hic<note>
@@ -13624,7 +13630,7 @@
                         <hi rend="italics">fr. 456</hi>
                      </note> credo, ut Epicurus cupiditatum genera diviserit, non nimis fortasse
                      subtiliter, utiliter tamen:<note>tamen, asserens p. H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="93" subtype="section">
                   <p>partim esse naturales et necessarias, partim<note>partlm esse ... 18 et <hi
@@ -13641,7 +13647,7 @@
                      </note> inanes neque necessitatem modo, sed ne<note>ne <hi rend="italics"
                            >om.</hi> H</note> naturam quidem attingerent, funditus eiciendas
                         putavit.<note>Epicurus...24 putavit H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="94" subtype="section">
                   <p>hoc<note>hęc V<hi rend="sup">1</hi>
@@ -13804,7 +13810,7 @@
                         </note> comitantur huic vitae, in qua sapiens nemo efficietur umquam,
                         moderatus vero multo minus. quae enim natura tam mirabiliter temperari
                         potest?</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="101" subtype="section">
                   <p>quo modo igitur iucunda vita potest esse, a qua absit
@@ -13829,7 +13835,7 @@
                      <quote>quid aliud</quote> inquit Aristoteles <quote>in bovis, non in regis
                         sepulcro inscriberes? haec habere se mortuum dicit, quae ne vivus quidem
                         diutius habebat quam fruebatur.</quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="102" subtype="section">
                   <p>Cur igitur divitiae desiderentur, aut ubi paupertas beatos esse non sinit?
@@ -13900,7 +13906,7 @@
                      </note> physicum de principe Ephesiorum Hermodoro;<note>heremodoro G<hi
                            rend="sup">1</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="105" subtype="section">
                   <p>universos ait Ephesios esse morte multandos, quod, cum civitate expellerent
@@ -13918,13 +13924,13 @@
                      mundo caelum terras maria cognoscimus.<note>infinitatem ... 24 cognoscimus <hi
                            rend="italics">Non. 122, 21</hi>
                      </note>
-                 </p>
+                  </p>
                   <p>Contempto igitur honore, contempta etiam pecunia quid relinquitur quod
                      extimescendum sit?<note>contempto . .. 26 sit <hi rend="italics">in mg.</hi> G
                            <hi rend="italics">eodem atramento, sed fort.</hi>
                         <hi rend="sup">2</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="106" subtype="section">
                   <p>exilium, credo, quod in maxumis malis ducitur. id si propter alienam et
@@ -14011,7 +14017,7 @@
                      stulte anteposuit exilii libertatem domesticae servituti?</p>
                </div>
                <div type="textpart" n="110" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Iam vero motus animi, sollicitudines aegritudinesque<note>
                         <hi rend="italics">Epic. fr. 599</hi> aegritudines] <hi rend="italics">hinc
                            incipiunt codicis V fol. 96. 97, ubi multa iam s. XV non iam legi
@@ -14098,7 +14104,7 @@
                         cotidie,<note>cottidie K</note> sic caecitas ferri facile possit, si non
                         desint<note>desinit K</note> subsidia valetudinum.<note>valitudinum
                         KR</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="114" subtype="section">
                   <p>Democritus<note>
@@ -14139,7 +14145,7 @@
                         aut<note>aut <hi rend="italics">ante</hi> cuiq. <hi rend="italics">add.</hi>
                            V<hi rend="sup">2</hi>
                      </note> cuiquam docto defuisse umquam arbitramur?<note>arbitramus V</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="115" subtype="section">
                   <p>aut, ni ita se res haberet, Anaxagoras aut hic ipse Democritus agros et
@@ -14164,7 +14170,7 @@
                         prudentior.<note>prudentior ille V<hi rend="sup">b</hi> prudentior <hi
                            rend="italics">postea add.</hi> R<hi rend="sup">1</hi>
                      </note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="116" subtype="section">
                   <p>In surditate vero quidnam est mali? erat surdaster<note>sudaster GRV<hi
@@ -14208,7 +14214,7 @@
                         <w>sic licet</w> scilicet H</note> surdos ad oculorum. etenim, qui<note>qui
                            F<foreign xml:lang="grc">s</foreign> quae X</note> secum loqui poterit,
                      sermonem alterius non requiret.<note>Democritus ... 456, 23 requiret H</note>
-                 </p>
+                  </p>
                   <p>Congerantur<note>
                         <hi rend="italics">Epic. fr. 499</hi>
                      </note>
@@ -14257,7 +14263,7 @@
                      Hieronymus.</p>
                </div>
                <div type="textpart" n="119" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Quodsi is philosophis,<note>his philosophis XF ii (<hi rend="italics">vel</hi>
                         hi) philosophi <hi rend="italics">corr.</hi>
                         <foreign xml:lang="grc">s</foreign>V<hi rend="sup">b</hi>
@@ -14291,7 +14297,7 @@
                         obruatur Gr. <hi rend="italics">p. 358, 1</hi>)</note> alii autem haec ne<note>
                         <w>ne</w> nec K</note> bona quidem ducunt, in animo reponunt
                         omnia.<note>haud...458, 8 omnia H</note>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="120" subtype="section">
                   <p>quorum controversiam solebat tamquam honorarius arbiter iudicare Carneades. nam
@@ -14312,7 +14318,7 @@
                      philosophorum voce profitentur.</p>
                </div>
                <div type="textpart" n="121" subtype="section">
-                  <p></p>
+                  <p/>
                   <p>Sed quoniam mane est eundum, has quinque dierum disputationes memoria
                         comprehendamus.<note>conpreh. KV</note> equidem me etiam conscripturum
                      arbitror—ubi enim melius uti<note>melius uti G<hi rend="sup">1</hi>
@@ -14339,7 +14345,7 @@
                      </note>
                      <note>levatio. Finit K</note>
                      <pb n="p.460"/>
-                 </p>
+                  </p>
                </div>
             </div>
             <pb/>
@@ -15032,7 +15038,7 @@
                   <p>aerumna (<foreign xml:lang="grc">o)du/nh</foreign> St. fr. III 412?) 370 6</p>
                   <p>alacritas <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">h(donh/</foreign>
-                 </p>
+                  </p>
                   <p>*<foreign xml:lang="grc">ai(rei=sqai</foreign>
                      <hi rend="italics">v.</hi> expetere (petere 445 19)</p>
                   <p>*<foreign xml:lang="grc">a)lupi/a</foreign> (Hieronymi) dolore vacare 287 16 —
@@ -15045,11 +15051,11 @@
                      anxietate 374 11 389 27</p>
                   <p>anima <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">a)h/r</foreign>
-                 </p>
+                  </p>
                   <p>= <foreign xml:lang="grc">yuxh/</foreign> 228 10 (<quote>animum vel
                         animam</quote>), 236 1 <hi rend="italics">et</hi> 289 12 <hi rend="italics"
                         >in poetarum versibus</hi>
-                 </p>
+                  </p>
                   <p>animus quid sit sec. varios philosophos 226 27–229 8 <hi rend="italics"
                         >cf.</hi> 237 24–239 4 — immortalis I § 26–35 50–71 77–81. — animorum post
                      mortem sedes ac beata sors I § 36–49 72–76. — divinus I § 52 56–70 <hi
@@ -15085,7 +15091,7 @@
                   <p>aspernari rationem, aspernatio (<foreign xml:lang="grc"
                         >a)postre/fesqai</foreign>) <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">lo/gos</foreign>
-                 </p>
+                  </p>
                   <p>astra, sidera, stellae 239 29 248 27 252 3 sqq. 435 12</p>
                   <p>* <foreign xml:lang="grc">a)/tomoi</foreign> atomi (<hi rend="italics">vel</hi>
                      atoma) 229 7 247 17 303 25</p>
@@ -15136,7 +15142,7 @@
                      <foreign xml:lang="grc">xara/</foreign>
                      <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">h(donh/</foreign>
-                 </p>
+                  </p>
                   <p>
                      <foreign xml:lang="grc">xrh/simos</foreign> 325 13</p>
                   <p>cogitatio = excogitatio 250 17</p>
@@ -15148,7 +15154,7 @@
                   <p>conatus (<foreign xml:lang="grc">e)pibolh/</foreign>) 398 5</p>
                   <p>congruere <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">o(mologoume/nws</foreign>
-                 </p>
+                  </p>
                   <p>conscientia 313 25 383 11</p>
                   <p>consensus omnium (gentium) 232 20 234 22 235 7</p>
                   <p>consentaneus, consequens, conveniens (de constantia doctrinae) 304 10 414 5 415
@@ -15162,7 +15168,7 @@
                      <hi rend="italics">cf.</hi> constans 326 12 388 10 389 6 392 19 426 9 439 16
                         <hi rend="italics">et v.</hi>
                      <foreign xml:lang="grc">o(mologou/menos</foreign>
-                 </p>
+                  </p>
                   <p>constantia doctrinae 415 2 416 11.16 417 16 419 1–29 438 20</p>
                   <p>constantia, constanter = <foreign xml:lang="grc">eu)pa/qeia eu)paqw=s</foreign>
                      368 7 367 12.20</p>
@@ -15183,17 +15189,17 @@
                   <p>(latiore sensu) 372 6</p>
                   <p>conveniens <hi rend="italics">v.</hi> consentaneus <hi rend="italics">et</hi>
                      <foreign xml:lang="grc">o(mologou/menos</foreign>
-                 </p>
+                  </p>
                   <p>cor 226 28 229 20 2386 247 17</p>
                   <p>corpus <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">a)/tomoi, stoixei=on</foreign>
-                 </p>
+                  </p>
                   <p>corpusculum <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">a)/tomoi</foreign>
-                 </p>
+                  </p>
                   <p>cupiditas <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">e)piqumi/a</foreign>
-                 </p>
+                  </p>
                   <p>cupiditas gloriae (<foreign xml:lang="grc">filodoci/a</foreign> 373 6 401 11
                      314 4</p>
                   <p>culpa 336 1 344 8 354 8 402 9</p>
@@ -15276,7 +15282,7 @@
                      <foreign xml:lang="grc">e)ndele/xeia</foreign> (<hi rend="italics">rectius</hi>
                      <foreign xml:lang="grc">e)ntele/xeia</foreign>) 229 1</p>
                   <p>*<foreign xml:lang="grc">e)piqumi/a</foreign>
-                 </p>
+                  </p>
                   <p>a) Epicuri cupiditatum genera 446 15–24</p>
                   <p>b) cupiditas ap. Platonem pars animae (˜ <foreign xml:lang="grc"
                         >e)piqumhtiko/n</foreign>) 228 1.2 240 5 366 16</p>
@@ -15309,7 +15315,7 @@
                   <p>exilium 358 15 451 26–453 12</p>
                   <p>expers rationis <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">lo/gos</foreign>
-                 </p>
+                  </p>
                   <p>expetendum <foreign xml:lang="grc">ai(reto/n</foreign> 373 16.25 424 27 435 5
                      438 21 447 10 450 25</p>
                   <p>expetere, plerumque de recta adpetitione, sed 379 3.17 de cupiditate dictum
@@ -15341,20 +15347,20 @@
                      416 8–417 10 418 16 422 16 437 14 438 5 457 18</p>
                   <p>frugi, frugalitas <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">swfrosu/nh</foreign>
-                 </p>
+                  </p>
                   <p>fugere <hi rend="italics">opp.</hi> adpetere 245 26, expetere 435 5 373 19,
                      sequi 367 9</p>
                   <p>furor dist. ab insania 321 24 sqq. (confunduntur 387 2–6 399 28 <hi
                         rend="italics">et</hi> 400 14 al.)</p>
                   <p>Gaudium (<foreign xml:lang="grc">xara/</foreign>) <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">h(donh/</foreign>
-                 </p>
+                  </p>
                   <p>genus <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">stoixei=on</foreign>, bonum</p>
                   <p>geometrae, -tria, -trica 412 27 219 9 454 24 246 4.7</p>
                   <p>gestire <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">h(donh/</foreign>
-                 </p>
+                  </p>
                   <p>gladiatores 301 21 384 20sqq.</p>
                   <p>gloria virtutis umbra 264 16 274 8 317 25</p>
                   <p>gloria vera-falsa 274 21 317 18 sqq.</p>
@@ -15390,7 +15396,7 @@
                   <p>indigentia (<foreign xml:lang="grc">spa/nis</foreign>) 371 12. 17</p>
                   <p>individuus <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">a)/tomoi</foreign>
-                 </p>
+                  </p>
                   <p>indolentia (<foreign xml:lang="grc">a)pa/qeia</foreign>) 323 2</p>
                   <pb n="p.476"/>
                   <p>(<foreign xml:lang="grc">a)oxlhsi/a</foreign> Diodori) 443 6</p>
@@ -15404,7 +15410,7 @@
                   <p>innocentia (<foreign xml:lang="grc">a)bla/beia</foreign>) 325 15</p>
                   <p>inopinatus, inprovisus, insperatus <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">a)prosdo/khtos</foreign>
-                 </p>
+                  </p>
                   <p>inpotentia 378 12</p>
                   <p>insania 318 13 320 6. 12 sqq. 321 24sqq. — dist. a furore <hi rend="italics"
                         >v.</hi> furor <hi rend="italics">cf. etiam</hi> ira</p>
@@ -15455,7 +15461,7 @@
                   <p>laetitia <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">h9donh/</foreign>(<foreign xml:lang="grc"
                         >xara/</foreign>
-                 </p>
+                  </p>
                   <p>lamentatio 370 7 233 3</p>
                   <p>laudabilis 377 26.27 409 28 424 8–426 16 458 1</p>
                   <p>lenitas (<foreign xml:lang="grc">prao/ths</foreign>) 382 12</p>
@@ -15528,7 +15534,7 @@
                      <foreign xml:lang="grc">miso/gunos</foreign> 373 10</p>
                   <p>moderatio, modestia <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">swfrosu/nh</foreign>
-                 </p>
+                  </p>
                   <p>modus adhibetur perturbationibus a Peripateticis 380 14sqq. — (moderatae
                      perturbationes etc. 381 18)</p>
                   <p>molestia 370 8</p>
@@ -15537,7 +15543,7 @@
                   <p>
                      <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">pa/qos</foreign>
-                 </p>
+                  </p>
                   <p>Graeci philosophi omnes perturbationes morbos appellant 320 14 321 3 328 24 =
                         <foreign xml:lang="grc">nosh/mata yuxh=s</foreign> sec Stoicos 372 9.22 375
                      7</p>
@@ -15588,7 +15594,7 @@
                   <p>notio (<foreign xml:lang="grc">e)/nnoia</foreign>) 246 16 387 22 417 22</p>
                   <p>novus <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">a)prosdo/khtos</foreign>
-                 </p>
+                  </p>
                   <p>numerus (ap. Pythagoreos) 227 24 236 20, (ap. Xenocratem) 227 23 238 1</p>
                   <p>Obtrectatio (<foreign xml:lang="grc">zhlotupi/a</foreign>) 369 23</p>
                   <p>— iniuria a Peripateticis defenditur 383 17 389 16</p>
@@ -15632,7 +15638,7 @@
                   <p>opinatum bonum (malum) 329 18 347 6 355 6 366 27 368 3 394 27 423 25</p>
                   <p>oportet <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">kaqh/kei</foreign>
-                 </p>
+                  </p>
                   <p>oratores Romani 219 13 282 12 363 16, 'Attici' 281 15</p>
                   <p>non irascuntur 388 14</p>
                   <p>orbitas 346 20</p>
@@ -15718,7 +15724,7 @@
                         xml:lang="grc">a)rxh/, stoixei=on</foreign>) 228 18 239 11</p>
                   <p>probabile <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">piqano/n</foreign>
-                 </p>
+                  </p>
                   <p>proclivitas (<foreign xml:lang="grc">eu)emptwsi/a</foreign>), proclivis 374
                      7–375 5 402 8. 12</p>
                   <p>*<foreign xml:lang="grc">prohgme/na</foreign> praecipua <hi rend="italics"
@@ -15727,7 +15733,7 @@
                      <hi rend="italics">v. etiam</hi> commoda</p>
                   <p>pronuntiatum <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">a)ci/wma</foreign>
-                 </p>
+                  </p>
                   <p>prudentia (<foreign xml:lang="grc">fro/nhsis</foreign>) 296 5 3371 410 27–411 2
                      437 7</p>
                   <p>pudor (<foreign xml:lang="grc">ai)sxu/nh</foreign>) 369 7 370 14</p>
@@ -15736,7 +15742,7 @@
                   <p>Quinta natura <hi rend="italics">v.</hi> natura</p>
                   <p>Ratio <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">lo/gos</foreign>
-                 </p>
+                  </p>
                   <p>= <foreign xml:lang="grc">logiko/n</foreign> 305 23, = <foreign xml:lang="grc"
                         >nou=s</foreign> (Platonis) 227 26 — ratio divina 436 14</p>
                   <p>recta ratio 371 20. 24 378 1 366 22 392 15 — virtus = recta (378 2), absoluta
@@ -15755,7 +15761,7 @@
                      4</p>
                   <p>rectus <hi rend="italics">v.</hi> ratio, <foreign xml:lang="grc"
                         >kaqh/kei</foreign>
-                 </p>
+                  </p>
                   <p>regiones (<foreign xml:lang="grc">cw=nai</foreign>) terrae <hi rend="italics"
                         >v.</hi> terra</p>
                   <p>reiciendum (<hi rend="italics">cf.</hi>
@@ -15774,7 +15780,7 @@
                   <p>beatus est sec. Stoicos l. V, § 37–54 68–72 (442 16), sec. Epicurum 288 10 342
                      26 418 22 437 20–438 22 458 2, sec. Antiochum 419 26, sec. Socraticos 458 4sqq.
                         <hi rend="italics">cf. praeterea totum l. V</hi>
-                 </p>
+                  </p>
                   <p>vacat aegritudine <hi rend="italics">cf. l. III, inprimis</hi> p. 324–328,7,
                      ira 326 15sqq., omnibus perturbationibus <hi rend="italics">cf. l. IV,
                         inprimis</hi> 379 14–380 11 423 21–424 4 426 7–12</p>
@@ -15841,7 +15847,7 @@
                   <p>Tabulae <hi rend="italics">v.</hi> signa</p>
                   <p>temperantia <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">swfrosu/nh</foreign>
-                 </p>
+                  </p>
                   <p>temperatio (<foreign xml:lang="grc">kra=sis</foreign>) 228 14 251 22 3761 (de
                      sonis 248 26) — civitatis 36111 (<hi rend="italics">cf.</hi> 217 15)</p>
                   <p>terrae situs 237 12 240 29 252 6 436 2</p>
@@ -15869,12 +15875,12 @@
                   <p>vehemens (<foreign xml:lang="grc">sfosro/s</foreign>?) 373 16.19 vehementior
                         <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">pleona/cousao(rmh/</foreign>
-                 </p>
+                  </p>
                   <p>velocitas animi 376 17</p>
                   <p>verbum-res <hi rend="italics">v.</hi> res</p>
                   <p>veri simile <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">piqano/n</foreign>
-                 </p>
+                  </p>
                   <p>vertere-interpretari <hi rend="italics">v.</hi> interpretari</p>
                   <p>victus tenuis 342 25 416 17 445 11–450 4</p>
                   <p>vires animi 376 15</p>
@@ -15905,7 +15911,7 @@
                   <p>voluptarius 288 23 3387 444 17</p>
                   <p>voluptas <hi rend="italics">v.</hi>
                      <foreign xml:lang="grc">h(sonh/</foreign>
-                 </p>
+                  </p>
                   <p>
                      <foreign xml:lang="grc">Zhlotupi/a</foreign> (obtrectatio) 369 24</p>
                   <pb/>

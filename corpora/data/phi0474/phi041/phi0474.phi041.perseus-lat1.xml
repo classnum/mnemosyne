@@ -62,6 +62,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+            HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines
+            where needed adding letters to numbers in @n, fix Latin content in some bibl tags
+            erroneously in Greek, update EpiDoc schema metadata.</change>
          <change when="2016-11-20" who="Thibault Clérice">CapiTainS and Epidoc</change>
       </revisionDesc>
    </teiHeader>
@@ -161,7 +165,7 @@
                   optimum.</p>
                <p>
                   <milestone n="3" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="7" subtype="section">
                <p>
@@ -207,7 +211,7 @@
                         <hi rend="italics">vulg.</hi>: faciet si <hi rend="italics">GP</hi>
                   </note> cupiat uberior esse, non possit, habeatur sane orator, sed de minoribus;
                   magno autem oratori etiam illo modo saepe dicendum est in tali genere causarum.
-              </p>
+               </p>
             </div>
             <div type="textpart" n="10" subtype="section">
                <p>
@@ -325,7 +329,7 @@
                         </note> hic componitur,—optimus longe</l>
                      <l part="I">post homines natos—.</l>
                   </quote>
-              </p>
+               </p>
                <p>Nihil enim illo oratore arbitror cogitari posse divinius.</p>
             </div>
             <div type="textpart" n="18" subtype="section">
@@ -350,7 +354,7 @@
                   </note> conversis fastidium, nullum cum sit in versibus ?</p>
                <p>
                   <milestone n="7" unit="chapter"/>
-              </p>
+               </p>
             </div>
             <div type="textpart" n="19" subtype="section">
                <p>Sed adgrediamur iam quod suscepimus, si prius exposue- rimus quae causa in

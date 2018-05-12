@@ -75,6 +75,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+            HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines
+            where needed adding letters to numbers in @n, fix Latin content in some bibl tags
+            erroneously in Greek, update EpiDoc schema metadata.</change>
          <change when="2016-01-29" who="Lisa Cerrato">made section canonical scheme</change>
          <change when="2014-11-06" who="Thibault Clerice">Moving to Epidoc with new URN</change>
          <change when="2014-10-18" who="Bridget Almas">converted chapter milestones to divs and p to
@@ -526,7 +530,7 @@
                   hunc hominem incautum et rusticum<note>rusticum <hi rend="italics">ed. Guar.</hi>:
                      rus (ruri <foreign xml:lang="grc">y2</foreign>) <hi rend="italics">codd.</hi>
                   </note> et Romae ignotum de medio tolli posse; ad eam rem operam suam pollicentur.
-              </p>
+               </p>
             </div>
             <milestone n="8" unit="chapter"/>
             <milestone unit="para"/>
@@ -1808,7 +1812,7 @@
                   quorum etiam nunc ei<note>nunc ii <hi rend="italics">Naugerius</hi>: nuncii
                         <foreign xml:lang="grc">Spw</foreign>: nuntii <hi rend="italics">cett.</hi>
                   </note> quibus causa dicenda est nomen ipsum reformidant, pro Sex. Roscio dicere.
-              </p>
+               </p>
             </div>
             <milestone n="31" unit="chapter"/>
             <milestone unit="para"/>
@@ -2077,7 +2081,7 @@
                         <hi rend="italics">Müller</hi> (<hi rend="italics">cf. Zielinski p.</hi>
                      191)</note>? <reg>nescio</reg>, nisi hoc video, Capitonem in his bonis esse
                   socium; de tribus et decem fundis tris nobilissimos fundos eum video possidere.
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="100">
                <p>
@@ -2135,7 +2139,7 @@
                         <lem>ut</lem>
                      </app> ut vel <hi rend="italics">Halm</hi>
                   </note> in minimis rebus homines amplissimi testimonium de sua re non dicerent.
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="103">
                <p>Africanus qui suo cognomine declarat tertiam partem orbis terrarum se subegisse
@@ -2261,7 +2265,7 @@
                   integrum quod non eius scelus<note>eius scelus <hi rend="italics">ed. R.
                         Stephani</hi>: eiusce vis <hi rend="italics">codd.</hi>
                   </note> atque perfidia violarit et imminuerit, virum optimum esse eum iudicatote.
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="110">
                <p>
@@ -2498,7 +2502,7 @@
                   litteris eorum et urbanitate Chrysogonus ducitur ut inter suos omnium deliciarum
                   atque omnium artium puerulos ex tot elegantissimis familiis lectos velit hos
                   versari, homines paene operarios, ex Amerina disciplina patris familiae rusticani.
-              </p>
+               </p>
             </div>
             <div type="textpart" subtype="section" n="121">
                <p>
@@ -3106,7 +3110,7 @@
                   eodem loco nati sunt<note>sunt <foreign xml:lang="grc">sxy</foreign>: sint <hi
                         rend="italics">cett.</hi>
                   </note> facerent, et res publica ex illis et ipsi ex invidia minus laborarent.
-              </p>
+               </p>
             </div>
             <milestone n="52" unit="chapter"/>
             <milestone unit="para"/>

@@ -67,6 +67,10 @@
          </langUsage>
       </profileDesc>
       <revisionDesc>
+         <change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS via
+            HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate lines
+            where needed adding letters to numbers in @n, fix Latin content in some bibl tags
+            erroneously in Greek, update EpiDoc schema metadata.</change>
          <change when="2016-11-20" who="Thibault Clérice">CapiTainS and Epidoc</change>
       </revisionDesc>
    </teiHeader>
@@ -110,14 +114,14 @@
                      aequitas? unde pudor, continentia, fuga turpitudinis, adpetentia laudis et
                      honestatis? unde in laboribus et periculis fortitudo? Nempe ab iis, qui haec
                      disciplinis informata alia moribus confirmarunt, sanxerunt autem alia legibus.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="3" subtype="section">
-                  <p>Quin etiam Xenocraten ferunt, nobilem in primis philosophum, cum quaereretur
-                     ex eo, quid adsequerentur eius discipuli, respondisse, ut id sua sponte
-                     facerent, quod cogerentur facere legibus. Ergo ille civis, qui id cogit omnis
-                     imperio legumque poena, quod vix paucis persuadere oratione philosophi possunt,
-                     etiam iis, qui illa disputant, ipsis est praeferendus doctoribus. Quae est enim
+                  <p>Quin etiam Xenocraten ferunt, nobilem in primis philosophum, cum quaereretur ex
+                     eo, quid adsequerentur eius discipuli, respondisse, ut id sua sponte facerent,
+                     quod cogerentur facere legibus. Ergo ille civis, qui id cogit omnis imperio
+                     legumque poena, quod vix paucis persuadere oratione philosophi possunt, etiam
+                     iis, qui illa disputant, ipsis est praeferendus doctoribus. Quae est enim
                      istorum oratio tam exquisita, quae sit anteponenda bene constitutae civitati
                      publico iure et moribus? Equidem quem ad modum 'urbes magnas atque imperiosas',
                      ut appellat Ennius, viculis et castellis praeferendas puto, sic eos, qui his
@@ -161,7 +165,7 @@
                      otio conservatos putant, gravius etiam de nobis queruntur et amantius. Sed haud
                      facile dixerim, cur, cum ipsi discendi aut visendi causa maria tramittant <gap
                         reason="omitted"/>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="4"/>
                </div>
                <div type="textpart" n="7" subtype="section">
@@ -352,11 +356,11 @@
                      avidos sapientiae cognitio ipsa rerum consideratioque delectat.</p>
                </div>
                <div type="textpart" n="20" subtype="section">
-                  <p>Tum Laelius: Non inpedio, praesertim quoniam feriati sumus; sed possumus
-                     audire aliquid an serius venimus? <note type="sp" place="inline">PH.</note>
-                     Nihil est adhuc disputatum, et, quoniam est integrum, libenter tibi, Laeli, ut
-                     de eo disseras, equidem concessero. <note type="sp" place="inline">L.</note>
-                     Immo vero te audiamus, nisi forte Manilius interdictum aliquod inter duos soles
+                  <p>Tum Laelius: Non inpedio, praesertim quoniam feriati sumus; sed possumus audire
+                     aliquid an serius venimus? <note type="sp" place="inline">PH.</note> Nihil est
+                     adhuc disputatum, et, quoniam est integrum, libenter tibi, Laeli, ut de eo
+                     disseras, equidem concessero. <note type="sp" place="inline">L.</note> Immo
+                     vero te audiamus, nisi forte Manilius interdictum aliquod inter duos soles
                      putat esse componendum, ut ita caelum possideant, ut uterque possederit. Tum
                      Manilius: Pergisne eam, Laeli, artem inludere, in qua primum excellis ipse,
                      deinde sine qua scire nemo potest, quid sit suum, quid alienum? Sed ista mox;
@@ -393,7 +397,7 @@
                      in <del>caelo</del> sphaera solis fieret eadem illa defectio et incideret luna
                      tum in eam metam, quae esset umbra terrae, cum sol e regione <gap
                         reason="omitted"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="23" subtype="section">
                   <p>
@@ -410,7 +414,7 @@
                      homines paene agrestes et apud imperitos audebat haec dicere? <note type="sp"
                         place="inline">S.</note> Ille vero et magna quidem cum <gap reason="omitted"/>
                      <gap reason="omitted" extent="2 pages+"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="24" subtype="section">
                   <p>
@@ -496,7 +500,7 @@
                <div type="textpart" n="30" subtype="section">
                   <p>Tum Laelius: Non audeo quidem, inquit, ad ista, Scipio, dicere, neque tam te
                      aut Philum aut Manilium <gap reason="omitted"/>
-                 </p>
+                  </p>
                   <p>
                      <gap reason="omitted" extent="2 pages"/> in ipsius paterno genere fuit noster
                      ille amicus, dignus huic ad imitandum, <quote rend="blockquote">
@@ -571,7 +575,7 @@
                         <bibl>Non. p. 85M, p. 289M</bibl>
                         <quote>
                            <p>Quare, si placet, deduc orationem tuam de caelo ad haec citeriora.
-                          </p>
+                           </p>
                         </quote>
                      </cit>
                      <gap reason="omitted"/> non solum ob eam causam fieri volui, quod erat aequum
@@ -604,16 +608,15 @@
                   <milestone unit="chapter" n="23"/>
                </div>
                <div type="textpart" n="37" subtype="section">
-                  <p>Hic Philus: Non hercule, inquit, Scipio, dubito, quin tibi ingenio
-                     praestiterit nemo, usu quidem in re publica rerum maximarum facile omnis
-                     viceris; quibus autem studiis semper fueris, tenemus. Quam ob rem, si, ut
-                     dicis, animum quoque contulisti in istam rationem et quasi artem, habeo maximam
-                     gratiam Laelio; spero enim multo uberiora fore, quae a te dicentur, quam illa,
-                     quae a Graecis hominibus scripta sunt, omnia. Tum ille: Permagnam tu quidem
-                     expectationem, quod onus est ei, qui magnis de rebus dicturus est, gravissimum,
-                     inponis orationi meae. Et Philus: Quamvis sit magna, tamen eam vinces, ut
-                     soles; neque enim est periculum, ne te de re publica disserentem deficiat
-                     oratio.</p>
+                  <p>Hic Philus: Non hercule, inquit, Scipio, dubito, quin tibi ingenio praestiterit
+                     nemo, usu quidem in re publica rerum maximarum facile omnis viceris; quibus
+                     autem studiis semper fueris, tenemus. Quam ob rem, si, ut dicis, animum quoque
+                     contulisti in istam rationem et quasi artem, habeo maximam gratiam Laelio;
+                     spero enim multo uberiora fore, quae a te dicentur, quam illa, quae a Graecis
+                     hominibus scripta sunt, omnia. Tum ille: Permagnam tu quidem expectationem,
+                     quod onus est ei, qui magnis de rebus dicturus est, gravissimum, inponis
+                     orationi meae. Et Philus: Quamvis sit magna, tamen eam vinces, ut soles; neque
+                     enim est periculum, ne te de re publica disserentem deficiat oratio.</p>
                   <milestone unit="chapter" n="24"/>
                </div>
                <div type="textpart" n="38" subtype="section">
@@ -645,7 +648,7 @@
                      singulare nec solivagum genus hoc, sed ita generatum, ut ne in omnium quidem
                      rerum affluen<hi rend="italic">tia</hi>
                      <gap reason="omitted"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="40fr" subtype="section">
                   <p>
@@ -656,7 +659,7 @@
                      </cit>
                      <pb n="p.290"/>
                      <milestone unit="chapter" n="26"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="41" subtype="section">
                   <p>
@@ -715,7 +718,7 @@
                      Athenienses triginta <hi rend="italic">virorum</hi> consensus et factio. Iam
                      Atheniensium populi potestatem omnium rerum ipsi, ne alios requiramus, ad
                      furorem multitudinis licentiamque conversam pesti <gap reason="omitted"/>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="29"/>
                </div>
                <div type="textpart" n="45" subtype="section">
@@ -735,7 +738,7 @@
                   <p>Hic Laelius: Scio tibi ita placere, Africane; saepe enim ex te audivi; sed
                      tamen, nisi molestum est, ex tribus istis modis rerum publicarum velim scire
                      quod optimum iudices. Nam vel profuerit aliquod ad cog <gap reason="omitted"/>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="31"/>
                </div>
                <div type="textpart" n="47" subtype="section">
@@ -752,7 +755,7 @@
                      imperii, consilii publici, iudicii delectorum iudicum, quae familiarum
                      vetustatibus aut pecuniis ponderantur. In libero autem populo, ut Rhodi, ut
                      Athenis, nemo est civium, qui <gap reason="omitted"/>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="32"/>
                </div>
                <div type="textpart" n="48" subtype="section">
@@ -783,7 +786,7 @@
                      publica. Quid est enim civitas nisi iuris societas? <gap reason="omitted"/>
                      <gap reason="omitted" extent="4 pages"/>
                      <milestone unit="chapter" n="33"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="50" subtype="section">
                   <p>
@@ -799,7 +802,7 @@
                      populi concessu, sed suis comitiis hoc sibi nomen adrogaverunt? Qui enim
                      iudicatur iste optimus? doctrina, artibus, studiis <gap reason="omitted"/>
                      <gap reason="omitted" extent="4 pages"/>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="34"/>
                </div>
                <div type="textpart" n="51" subtype="section">
@@ -889,7 +892,7 @@
                         reason="omitted"/>
                      <gap reason="omitted" extent="4 pages"/>
                      <milestone unit="chapter" n="37"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="58" subtype="section">
                   <p>
@@ -995,7 +998,7 @@
                         <note type="sp" place="inline">L.</note> Video, inquit. Et Scipio: Sapienter
                      igitur illi vete<hi rend="italic">res</hi>
                      <gap reason="omitted"/>
-                 </p>
+                  </p>
                   <gap reason="omitted" extent="2 pages"/>
                   <milestone unit="chapter" n="41"/>
                </div>
@@ -1020,24 +1023,23 @@
                   <milestone unit="chapter" n="42"/>
                </div>
                <div type="textpart" n="65" subtype="section">
-                  <p>Et Scipio: Est omnino, cum de illo genere rei publicae, quod maxime probo,
-                     quae sentio, dixero, accuratius mihi dicendum de commutationibus rerum
-                     publicarum, etsi minime facile eas in ea re publica futuras puto. Sed huius
-                     regiae prima et certissima est illa mutatio: Cum rex iniustus esse coepit,
-                     perit illud ilico genus, et est idem ille tyrannus, deterrimum genus et
-                     finitimum optimo; quem si optimates oppresserunt, quod ferme evenit, habet
-                     statum res publica de tribus secundarium; est enim quasi <pb n="p.301"/>
-                     regium, id est patrium consilium populo bene consulentium principum. Sin per se
-                     populus interfecit aut eiecit tyrannum, est moderatior, quoad sentit et sapit,
-                     et sua re gesta laetatur tuerique vult per se constitutam rem publicam. Si
-                     quando aut regi iusto vim populus attulit regnove eum spoliavit aut etiam, id
-                     quod evenit saepius, optimatium sanguinem gustavit ac totam rem publicam
-                     substravit libidini suae (cave putes autem mare ullum aut flammam esse tantam,
-                     quam non facilius sit sedare quam effrenatam insolentia multitudinem), tum fit
-                     illud, quod apud Platonem est luculente dictum, si modo id exprimere Latine
-                     potuero; difficile factu est, sed conabor tamen.<milestone unit="chapter"
-                        n="43"/>
-                 </p>
+                  <p>Et Scipio: Est omnino, cum de illo genere rei publicae, quod maxime probo, quae
+                     sentio, dixero, accuratius mihi dicendum de commutationibus rerum publicarum,
+                     etsi minime facile eas in ea re publica futuras puto. Sed huius regiae prima et
+                     certissima est illa mutatio: Cum rex iniustus esse coepit, perit illud ilico
+                     genus, et est idem ille tyrannus, deterrimum genus et finitimum optimo; quem si
+                     optimates oppresserunt, quod ferme evenit, habet statum res publica de tribus
+                     secundarium; est enim quasi <pb n="p.301"/> regium, id est patrium consilium
+                     populo bene consulentium principum. Sin per se populus interfecit aut eiecit
+                     tyrannum, est moderatior, quoad sentit et sapit, et sua re gesta laetatur
+                     tuerique vult per se constitutam rem publicam. Si quando aut regi iusto vim
+                     populus attulit regnove eum spoliavit aut etiam, id quod evenit saepius,
+                     optimatium sanguinem gustavit ac totam rem publicam substravit libidini suae
+                     (cave putes autem mare ullum aut flammam esse tantam, quam non facilius sit
+                     sedare quam effrenatam insolentia multitudinem), tum fit illud, quod apud
+                     Platonem est luculente dictum, si modo id exprimere Latine potuero; difficile
+                     factu est, sed conabor tamen.<milestone unit="chapter" n="43"/>
+                  </p>
                </div>
                <div type="textpart" n="66" subtype="section">
                   <p>'Cum' enim inquit 'inexplebiles populi fauces exaruerunt libertatis siti
@@ -1111,8 +1113,8 @@
                   <milestone unit="chapter" n="46"/>
                </div>
                <div type="textpart" n="70" subtype="section">
-                  <p>Sed vereor, Laeli vosque homines amicissimi ac prudentissimi, ne, si diutius
-                     in hoc genere verser, quasi praecipientis cuiusdam et docentis et non vobiscum
+                  <p>Sed vereor, Laeli vosque homines amicissimi ac prudentissimi, ne, si diutius in
+                     hoc genere verser, quasi praecipientis cuiusdam et docentis et non vobiscum
                      simul considerantis esse videatur oratio mea. Quam ob rem ingrediar in ea, quae
                      nota sunt omnibus, quaesita autem a nobis iam diu. Sic enim decerno, sic
                      sentio, sic adfirmo, nullam omnium rerum publicarum aut constitutione aut
@@ -1146,7 +1148,7 @@
                            </quote>
                         </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="2" subtype="section">
                   <p>
@@ -1157,7 +1159,7 @@
                               n="p.305"/>
                         </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="3" subtype="section">
                   <p>
@@ -1166,7 +1168,7 @@
                         <quote>Nec tantum Karthago habuisset opum sescentos fere annos sine
                            consiliis et disciplina. </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="4" subtype="section">
                   <p>
@@ -1175,7 +1177,7 @@
                         <quote>Cognoscere mehercule, inquit, consuetudinem istam et studium
                            sermonis. </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="5" subtype="section">
                   <p>
@@ -1186,7 +1188,7 @@
                            vereor ne non tantum videatur attulisse negotii hominibus, quantam
                            oblectationem. </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="6" subtype="section">
                   <p>
@@ -1194,7 +1196,7 @@
                         <bibl>Arusianus Messius GL 7.457K</bibl>
                         <quote>A qua isti avocabant. </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
             </div>
             <pb n="p.306"/>
@@ -1210,7 +1212,7 @@
                      tantus erat in homine usus rei publicae, quam et domi et militiae cum optime,
                      tum etiam diutissime gesserat, et modus in dicendo et gravitate mixtus lepos et
                      summum vel discendi studium vel docendi et orationi vita admodum congruens.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="2" subtype="section">
                   <p>Is dicere solebat ob hanc causam praestare nostrae civitatis statum ceteris
@@ -1234,8 +1236,8 @@
                   <milestone unit="chapter" n="2"/>
                </div>
                <div type="textpart" n="4" subtype="section">
-                  <p>Hoc cum omnes adprobavissent, Quod habemus, inquit, institutae rei publicae
-                     tam clarum ac tam omnibus notum exordium quam huius urbis condendae principium
+                  <p>Hoc cum omnes adprobavissent, Quod habemus, inquit, institutae rei publicae tam
+                     clarum ac tam omnibus notum exordium quam huius urbis condendae principium
                      profectum a Romulo? qui patre Marte natus (concedamus enim famae hominum,
                      praesertim non inveteratae solum, sed etiam sapienter a maioribus proditae,
                      bene meriti de rebus communibus ut genere etiam putarentur, non solum ingenio
@@ -1292,7 +1294,7 @@
                      ulli sunt, quorum agri non contingant mare, et extra Peloponnesum Aenianes et
                      Doris et Dolopes soli absunt a mari. Quid dicam insulas Graeciae? quae
                      fluctibus cinctae natant paene ipsae simul cum civitatum institutis et moribus.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="9" subtype="section">
                   <p>Atque haec quidem, ut supra dixi, veteris sunt Graeciae. Coloniarum vero quae
@@ -1319,16 +1321,16 @@
                   <milestone unit="chapter" n="6"/>
                </div>
                <div type="textpart" n="11" subtype="section">
-                  <p>Urbis autem ipsius nativa praesidia quis est tam neglegens qui non habeat
-                     animo notata <hi rend="italic">ac</hi> plane cognita? cuius is est tractus
-                     ductusque muri cum <pb n="p.310"/> Romuli, tum etiam reliquorum regum sapientia
-                     definitus ex omni parte arduis praeruptisque montibus, <hi rend="italic"
-                        >ut</hi> unus aditus, qui esset inter Esquilinum Quirinalemque montem,
-                     maximo aggere obiecto fossa cingeretur vastissima, atque ut ita munita arx
-                     circumiectu arduo et quasi circumciso saxo niteretur, ut etiam in illa
-                     tempestate horribili Gallici adventus incolumis atque intacta permanserit.
-                     Locumque delegit et fontibus abundantem et in regione pestilenti salubrem;
-                     colles enim sunt, qui cum perflantur ipsi, tum adferunt umbram vallibus.</p>
+                  <p>Urbis autem ipsius nativa praesidia quis est tam neglegens qui non habeat animo
+                     notata <hi rend="italic">ac</hi> plane cognita? cuius is est tractus ductusque
+                     muri cum <pb n="p.310"/> Romuli, tum etiam reliquorum regum sapientia definitus
+                     ex omni parte arduis praeruptisque montibus, <hi rend="italic">ut</hi> unus
+                     aditus, qui esset inter Esquilinum Quirinalemque montem, maximo aggere obiecto
+                     fossa cingeretur vastissima, atque ut ita munita arx circumiectu arduo et quasi
+                     circumciso saxo niteretur, ut etiam in illa tempestate horribili Gallici
+                     adventus incolumis atque intacta permanserit. Locumque delegit et fontibus
+                     abundantem et in regione pestilenti salubrem; colles enim sunt, qui cum
+                     perflantur ipsi, tum adferunt umbram vallibus.</p>
                   <milestone unit="chapter" n="7"/>
                </div>
                <div type="textpart" n="12" subtype="section">
@@ -1348,8 +1350,8 @@
                   <milestone unit="chapter" n="8"/>
                </div>
                <div type="textpart" n="14" subtype="section">
-                  <p>Post interitum autem Tatii cum ad eum dominatus omnis reccidisset, quamquam
-                     cum Tatio in regium consilium delegerat principes (qui appellati sunt propter
+                  <p>Post interitum autem Tatii cum ad eum dominatus omnis reccidisset, quamquam cum
+                     Tatio in regium consilium delegerat principes (qui appellati sunt propter
                      caritatem patres) populumque et suo et Tatii nomine et Lucumonis, qui Romuli
                      socius in Sabino proelio occiderat, in tribus tris curiasque triginta
                      discripserat (quas curias earum nominibus nuncupavit, quae ex Sabinis virgines
@@ -1408,7 +1410,7 @@
                         <quote>incondite, haec aetas autem iam exculta praesertim eludens omne, quod
                            fieri non potest, respuit.</quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="20" subtype="section">
                   <p>
@@ -1426,7 +1428,8 @@
                      mortali homines credidissent; qui inpulsu patrum, quo illi a se invidiam
                      interitus Romuli pellerent, in contione dixisse fertur a se visum esse in eo
                      colle Romulum, qui nunc Quirinalis vocatur; eum sibi mandasse, ut populum
-                     rogaret, ut sibi eo in colle delubrum fieret; se deum esse et Quirinum vocari.</p>
+                     rogaret, ut sibi eo in colle delubrum fieret; se deum esse et Quirinum
+                     vocari.</p>
                   <milestone unit="chapter" n="11"/>
                </div>
                <div type="textpart" n="21" subtype="section">
@@ -1523,7 +1526,7 @@
                      hominum et quam inveteratus error! Ac tamen facile patior non esse nos
                      transmarinis nec inportatis artibus eruditos, sed genuinis domesticisque
                      virtutibus. <milestone unit="chapter" n="16"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="30" subtype="section">
                   <p>Atqui multo id facilius cognosces, inquit Africanus, si progredientem rem
@@ -1547,7 +1550,7 @@
                      (multa enim nobis de eo genere dicenda sunt), ne insignibus quidem regiis
                      Tullus nisi iussu populi est ausus uti. Nam ut sibi duodecim lictores cum
                      fascibus anteire liceret <gap reason="omitted"/>
-                 </p>
+                  </p>
                   <gap reason="omitted" extent="2 pages"/>
                   <milestone unit="chapter" n="18"/>
                </div>
@@ -1580,7 +1583,7 @@
                      Tarquiniensi duo filios procreavisset, omnibus eos artibus ad Graecorum
                      disciplinam eru<hi rend="italic">diit</hi>
                      <gap reason="omitted"/>
-                 </p>
+                  </p>
                   <gap reason="omitted" extent="2 pages"/>
                   <milestone unit="chapter" n="20"/>
                </div>
@@ -1595,7 +1598,7 @@
                      consuetudinem videretur imitatus. Isque ut de suo imperio legem tulit,
                      principio duplicavit illum pristinum patrum numerum et antiquos patres maiorum
                      gentium appellavit, quos priores sententiam rogabat, a se adscitos minorum.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="36" subtype="section">
                   <p>Deinde equitatum ad hunc morem constituit, qui usque adhuc est retentus, nec
@@ -1635,7 +1638,7 @@
                      sepulto populum de se ipse consuluit iussusque regnare legem de imperio suo <pb
                         n="p.319"/> curiatam tulit. Et primum Etruscorum iniurias bello est ultus;
                      ex quo cum ma <gap reason="omitted"/>
-                 </p>
+                  </p>
                   <gap reason="omitted" extent="2 pages"/>
                   <milestone unit="chapter" n="22"/>
                </div>
@@ -1666,7 +1669,7 @@
                      liticinibus, cornicinibus, proletariis <gap reason="omitted"/>
                      <gap reason="omitted" extent="4 pages"/>
                      <milestone unit="chapter" n="23"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="41" subtype="section">
                   <p>
@@ -1676,7 +1679,7 @@
                            illis, <pb n="p.320"/> regali et optumati et populari, confusa modice nec
                            puniendo inritet animum inmanem ac ferum. </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="42" subtype="section">
                   <p>
@@ -1706,7 +1709,7 @@
                         <hi rend="italic">qui</hi> sub rege est, in primisque libertas, quae non in
                      eo est, ut iusto utamur domino, sed ut nul<hi rend="italic">lo</hi>
                      <gap reason="omitted"/>
-                 </p>
+                  </p>
                   <gap reason="omitted" extent="2 pages"/>
                   <milestone unit="chapter" n="24"/>
                </div>
@@ -1769,7 +1772,7 @@
                      Spurius Maelius regnum occupare voluisse dicti sunt, et modo <hi rend="italic"
                         >Tib. Gracchus</hi>
                      <gap reason="omitted"/>
-                 </p>
+                  </p>
                   <gap reason="omitted" extent="2 pages"/>
                   <milestone unit="chapter" n="28"/>
                </div>
@@ -1804,7 +1807,7 @@
                      adhuc tritum sermone nostro saepiusque genus eius hominis erit in reliqua nobis
                      oratione trac<hi rend="italic">tandum</hi>
                      <gap reason="omitted"/>
-                 </p>
+                  </p>
                   <gap reason="omitted" extent="12 pages"/>
                   <milestone unit="chapter" n="30"/>
                </div>
@@ -1823,7 +1826,7 @@
                         reason="omitted"/>
                      <gap reason="omitted" extent="16 pages"/>
                      <milestone unit="chapter" n="31"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="53fr" subtype="section">
                   <p>
@@ -1833,7 +1836,7 @@
                            annos et viginti fere firma mansisset <gap reason="omitted"/>
                         </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="53" subtype="section">
                   <p>
@@ -1895,12 +1898,12 @@
                      incommutabilem rei publicae conservari statum.</p>
                </div>
                <div type="textpart" n="58" subtype="section">
-                  <p>Nam cum esset ex aere alieno commota civitas, plebs montem sacrum prius,
-                     deinde <pb n="p.326"/> Aventinum occupavit. Ac ne Lycurgi quidem disciplina
-                     tenuit illos in hominibus Graecis frenos; nam etiam Spartae regnante Theopompo
-                     sunt item quinque, quos illi ephoros appellant, in Creta autem decem, qui
-                     cosmoe vocantur, ut contra consulare imperium tribuni pl., sic illi contra vim
-                     regiam constituti.</p>
+                  <p>Nam cum esset ex aere alieno commota civitas, plebs montem sacrum prius, deinde
+                        <pb n="p.326"/> Aventinum occupavit. Ac ne Lycurgi quidem disciplina tenuit
+                     illos in hominibus Graecis frenos; nam etiam Spartae regnante Theopompo sunt
+                     item quinque, quos illi ephoros appellant, in Creta autem decem, qui cosmoe
+                     vocantur, ut contra consulare imperium tribuni pl., sic illi contra vim regiam
+                     constituti.</p>
                   <milestone unit="chapter" n="34"/>
                </div>
                <div type="textpart" n="59" subtype="section">
@@ -1969,7 +1972,7 @@
                         insedisse</hi>
                      <gap reason="omitted"/>
                      <gap reason="omitted" extent="8 pages"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="63fr" subtype="section">
                   <p>
@@ -1977,7 +1980,7 @@
                         <bibl>Philarg., Serv. G. 3.125</bibl>
                         <quote>dictatore L. Quinctio dicto. </quote>
                      </cit>
-                 </p>
+                  </p>
                   <p>
                      <gap reason="omitted"/>
                      <hi rend="italic">maio</hi>res nostros et probavisse maxime et retinuisse
@@ -1985,13 +1988,13 @@
                   <milestone unit="chapter" n="38"/>
                </div>
                <div type="textpart" n="64" subtype="section">
-                  <p>Cum ea Scipio dixisset silentioque omnium reliqua eius expectaretur oratio,
-                     tum Tubero: Quoniam nihil ex te, Africane, hi maiores natu requirunt, ex me
-                     audies, quid in oratione tua desiderem. Sane, inquit Scipio, et libenter
-                     quidem. Tum ille: Laudavisse mihi videris nostram rem publicam, cum ex te non
-                     de nostra, sed de omni re publica quaesisset Laelius. Nec tamen didici ex
-                     oratione tua, istam ipsam rem publicam, quam laudas, qua disciplina, quibus
-                     moribus aut legibus constituere vel conservare possimus.</p>
+                  <p>Cum ea Scipio dixisset silentioque omnium reliqua eius expectaretur oratio, tum
+                     Tubero: Quoniam nihil ex te, Africane, hi maiores natu requirunt, ex me audies,
+                     quid in oratione tua desiderem. Sane, inquit Scipio, et libenter quidem. Tum
+                     ille: Laudavisse mihi videris nostram rem publicam, cum ex te non de nostra,
+                     sed de omni re publica quaesisset Laelius. Nec tamen didici ex oratione tua,
+                     istam ipsam rem publicam, quam laudas, qua disciplina, quibus moribus aut
+                     legibus constituere vel conservare possimus.</p>
                   <milestone unit="chapter" n="39"/>
                </div>
                <div type="textpart" n="65" subtype="section">
@@ -2009,7 +2012,7 @@
                      /> autem sine ullius populi exemplo genus ipsum exquiris optimi status, naturae
                      imagine utendum est nobis, quoniam tu hanc imaginem urbis et populi ni <gap
                         reason="omitted"/>
-                 </p>
+                  </p>
                   <gap reason="omitted" extent="multa desiderantur"/>
                   <milestone unit="chapter" n="40"/>
                </div>
@@ -2031,7 +2034,7 @@
                      et illa tenenda est ferox <gap reason="omitted"/>
                      <gap reason="omitted" extent="4 pages+"/>
                      <milestone unit="chapter" n="41"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="68" subtype="section">
                   <p>
@@ -2061,7 +2064,7 @@
                               <pb n="p.330"/>
                         </quote>
                      </cit>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="42"/>
                </div>
                <div type="textpart" n="69" subtype="section">
@@ -2083,7 +2086,7 @@
                            potest.</quote>
                      </cit>
                      <milestone unit="chapter" n="44"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="70" subtype="section">
                   <p>
@@ -2103,7 +2106,7 @@
                   <p>
                      <gap reason="omitted" extent="4 pages+"/>
                      <milestone unit="chapter" n="2"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="3" subtype="section">
                   <p>
@@ -2118,7 +2121,7 @@
                      etiam, ut suspiceremus in caelum nec frustra siderum motus intueremur
                      dinumerationibusque noctium ac die<hi rend="italic">rum</hi>
                      <gap reason="omitted"/>
-                 </p>
+                  </p>
                   <gap reason="omitted" extent="8 pages~"/>
                   <milestone unit="chapter" n="3"/>
                </div>
@@ -2154,7 +2157,7 @@
                         <quote rend="blockquote">
                         <l>Quem nemo ferro potuit superare nec auro,</l>
                      </quote> vel <gap reason="omitted"/>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="4"/>
                </div>
                <div type="textpart" n="7" subtype="section">
@@ -2171,7 +2174,7 @@
                      Volscam gentem, si Samnium, si Etruriam, si magnam illam Graeciam conlustrare
                      animo voluerimus, si deinde Assyrios, si Persas, si Poenos, si haec <gap
                         reason="omitted"/>
-                 </p>
+                  </p>
                   <gap reason="omitted" extent="12 pages"/>
                   <milestone unit="chapter" n="5"/>
                </div>
@@ -2190,7 +2193,7 @@
                      ea dicenda sunt L. Furio Philo, quae Carneades, Graecus homo et consuetus, quod
                      commodum esset, verbis <gap reason="omitted"/>
                      <gap reason="omitted" extent="4 pages"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="9" subtype="section">
                   <p>
@@ -2202,7 +2205,7 @@
                         </quote>
                      </cit>
                      <milestone unit="chapter" n="7"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="11" subtype="section">
                   <p>
@@ -2216,7 +2219,7 @@
                            atque explicat.</quote>
                      </cit>
                      <milestone unit="chapter" n="8"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="12" subtype="section">
                   <p>
@@ -2229,9 +2232,9 @@
                      solio non longe a sapientia conlocare.</p>
                </div>
                <div type="textpart" n="13" subtype="section">
-                  <p>Nec vero illis aut voluntas defuit (quae enim iis scribendi alia causa aut
-                     quod omnino consilium fuit?) aut ingenium, quo omnibus praestiterunt; sed eorum
-                     et voluntatem et copiam causa vicit. Ius enim, de quo quaerimus, civile est
+                  <p>Nec vero illis aut voluntas defuit (quae enim iis scribendi alia causa aut quod
+                     omnino consilium fuit?) aut ingenium, quo omnibus praestiterunt; sed eorum et
+                     voluntatem et copiam causa vicit. Ius enim, de quo quaerimus, civile est
                      aliquod, naturale nullum; nam si esset, ut calida et frigida, ut amara et
                      dulcia, sic essent iusta et iniusta eadem omnibus.</p>
                   <milestone unit="chapter" n="9"/>
@@ -2279,7 +2282,7 @@
                      pecuniae modus statuendus fuit feminis, P. Crassi filia posset habere, si unica
                      patri esset, aeris milliens salva lege, mea triciens non posset <gap
                         reason="omitted"/>
-                 </p>
+                  </p>
                   <gap reason="omitted" extent="2 pages"/>
                   <milestone unit="chapter" n="11"/>
                </div>
@@ -2302,7 +2305,7 @@
                         reason="omitted"/>
                      <gap xmlns="http://www.tei-c.org/ns/1.0" reason="omitted"
                         extent="multa desiderantur"/>
-                 </p>
+                  </p>
                   <pb n="p.340"/>
                   <milestone unit="chapter" n="13"/>
                </div>
@@ -2321,7 +2324,7 @@
                      facere, impune si possis, secundum nec facere nec pati, miserrimum digladiari
                      semper tum faciendis, tum accipiendis iniuriis. Ita qui primum illud adsequi
                         <gap reason="omitted"/>
-                 </p>
+                  </p>
                   <gap reason="omitted" extent="some pages"/>
                   <milestone unit="chapter" n="14"/>
                </div>
@@ -2334,7 +2337,7 @@
                               uno myoparone, 'Eodem', inquit, 'quo tu orbem terrae.'</p>
                         </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="24" subtype="section">
                   <p>
@@ -2356,7 +2359,7 @@
                      repetivit, cuius imperio iam orbis terrae tenetur, iustitia an sapientia est e
                      minimo omnium <hi rend="italic">maximus factus?</hi>
                      <gap reason="omitted"/>
-                 </p>
+                  </p>
                   <gap reason="omitted" extent="4 pages+"/>
                </div>
                <div type="textpart" n="25" subtype="section">
@@ -2367,9 +2370,9 @@
                   <milestone unit="chapter" n="16"/>
                </div>
                <div type="textpart" n="26" subtype="section">
-                  <p>Ad haec illa dici solent primum ab iis, qui minime sunt in disserendo mali,
-                     qui in ea causa eo plus auctoritatis habent, quia, cum de viro bono quaeritur,
-                     quem apertum et simplicem volumus esse, non sunt in disputando vafri, non
+                  <p>Ad haec illa dici solent primum ab iis, qui minime sunt in disserendo mali, qui
+                     in ea causa eo plus auctoritatis habent, quia, cum de viro bono quaeritur, quem
+                     apertum et simplicem volumus esse, non sunt in disputando vafri, non
                      veteratores, non malitiosi; negant enim sapientem idcirco virum bonum esse,
                      quod eum sua sponte ac per se bonitas et iustitia delectet, sed quod vacua
                      metu, cura, sollicitudine, periculo vita bonorum virorum sit, contra autem
@@ -2377,7 +2380,7 @@
                      iudicia et supplicia versentur; nullum autem emolumentum esse, nullum
                      iniustitia partum praemium tantum, semper ut timeas, semper ut adesse, semper
                      ut impendere aliquam poenam putes, damna<gap reason="omitted"/>
-                 </p>
+                  </p>
                   <gap reason="omitted"
                      extent="4 pages+ but almost one page is supplied from Lactantius"/>
                   <milestone unit="chapter" n="17"/>
@@ -2395,7 +2398,7 @@
                            effodiantur oculi, damnetur, vinciatur, uratur, exterminetur
                            egeat,</quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="27" subtype="section">
                   <p>
@@ -2406,7 +2409,7 @@
                         iudicetur, quis tandem erit tam demens, qui dubitet, utrum se esse
                         malit?</quote>
                      <milestone unit="chapter" n="18"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="28" subtype="section">
                   <p>Quod in singulis, idem est in populis: nulla est tam stulta civitas, quae non
@@ -2418,7 +2421,7 @@
                      si ratio, consilium, prudentia, Pompeius antistat. Utrum <gap reason="omitted"/>
                      <pb n="p.343"/>
                      <gap xmlns="http://www.tei-c.org/ns/1.0" reason="omitted" extent="some pages"/>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="21"/>
                </div>
                <div type="textpart" n="32" subtype="section">
@@ -2437,7 +2440,7 @@
                            immanis. </quote>
                      </cit>
                      <milestone unit="chapter" n="22"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="33" subtype="section">
                   <p>
@@ -2458,7 +2461,7 @@
                            supplicia, quae putantur, effugerit. </quote>
                      </cit>
                      <milestone unit="chapter" n="23"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="34fr" subtype="section">
                   <p>
@@ -2467,7 +2470,7 @@
                         <quote>nullum bellum suscipi a civitate optima nisi aut pro fide aut pro
                            salute.</quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="34" subtype="section">
                   <p>
@@ -2479,7 +2482,7 @@
                         in quo mors non modo necessaria est, verum etiam optanda persaepe. Civitas
                         autem cum tollitur, deletur, extinguitur, simile est quodam modo, ut parva
                         magnis conferamus, ac si omnis hic mundus intereat et concidat. </quote>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="35afr" subtype="section">
                   <p>
@@ -2494,7 +2497,7 @@
                         <quote>Nullum bellum iustum habetur nisi denuntiatum, nisi indictum, nisi
                            repetitis rebus. </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="35bfr" subtype="section">
                   <p>
@@ -2505,7 +2508,7 @@
                         </quote>
                      </cit>
                      <milestone unit="chapter" n="24"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="36" subtype="section">
                   <p>
@@ -2515,7 +2518,7 @@
                            ceterisque vitiosis animi partibus? </quote>
                      </cit>
                      <milestone unit="chapter" n="25"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="37" subtype="section">
                   <p>
@@ -2550,7 +2553,7 @@
                         </quote>
                      </cit>
                      <milestone unit="chapter" n="27"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="39" subtype="section">
                   <p>
@@ -2560,7 +2563,7 @@
                            sapientis. </quote>
                      </cit>
                      <milestone unit="chapter" n="28"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="40" subtype="section">
                   <p>
@@ -2598,7 +2601,7 @@
                            quondam hostium, tum iam clientium suorum, dona repudiaverat. </quote>
                      </cit>
                      <milestone unit="chapter" n="29"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="41" subtype="section">
                   <p>
@@ -2609,14 +2612,14 @@
                      sumus, evigilatum fere est, tamen de posteris nostris et de illa immortalitate
                      rei publicae sollicitor, quae poterat esse perpetua, si patriis viveretur
                      institutis et moribus. <pb n="p.349"/>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="30"/>
                </div>
                <div type="textpart" n="42" subtype="section">
-                  <p>Quae cum dixisset Laelius, etsi omnes, qui aderant, significabant ab eo se
-                     esse admodum delectatos, tamen praeter ceteros Scipio quasi quodam gaudio
-                     elatus: Multas tu quidem, inquit, Laeli, saepe causas ita defendisti, ut ego
-                     non modo tecum Servium Galbam, collegam nostrum, quem tu, quoad vixit, omnibus
+                  <p>Quae cum dixisset Laelius, etsi omnes, qui aderant, significabant ab eo se esse
+                     admodum delectatos, tamen praeter ceteros Scipio quasi quodam gaudio elatus:
+                     Multas tu quidem, inquit, Laeli, saepe causas ita defendisti, ut ego non modo
+                     tecum Servium Galbam, collegam nostrum, quem tu, quoad vixit, omnibus
                      anteponebas, verum ne Atticorum quidem oratorum quemquam aut sua<hi
                         rend="italic">vitate</hi>
                      <gap reason="omitted"/> .</p>
@@ -2643,7 +2646,8 @@
                      urbis crepidines infusi, viae latae, porticus, templa, muri nihilo magis
                      efficiebant, Dionysio tenente ut esset illa res publica; nihil enim populi et
                      unius erat populus ipse. Ergo ubi tyrannus est, ibi non vitiosam, ut heri
-                     dicebam, sed, ut nunc ratio cogit, dicendum est plane nullam esse rem publicam.</p>
+                     dicebam, sed, ut nunc ratio cogit, dicendum est plane nullam esse rem
+                     publicam.</p>
                   <milestone unit="chapter" n="32"/>
                </div>
                <div type="textpart" n="44" subtype="section">
@@ -2683,7 +2687,7 @@
                      unus, hoc etiam taetrior, quia nihil ista, quae populi speciem et nomen
                      imitatur, immanius belua est. Nec vero convenit, cum furiosorum bona legibus in
                      adgnatorum potestate sint, quod eorum iam <gap reason="omitted"/>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="34"/>
                </div>
                <div type="textpart" n="46" subtype="section">
@@ -2728,7 +2732,7 @@
                      <pb n="p.352"/>
                      <gap xmlns="http://www.tei-c.org/ns/1.0" reason="omitted"
                         extent="multa desiderantur"/>
-                 </p>
+                  </p>
                </div>
             </div>
             <div type="textpart" n="3fr" subtype="book">
@@ -2740,7 +2744,7 @@
                         <quote>Est igitur quiddam turbulentum in hominibus singulis, quod vel
                            exultat voluptate vel molestia frangitur. </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="2" subtype="section">
                   <p>
@@ -2749,7 +2753,7 @@
                         <quote>Sed ut ipsi †seu animum periclitentur sum vident, quid se putent esse
                            facturos. </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="3" subtype="section">
                   <p>
@@ -2759,7 +2763,7 @@
                            et inexplebiles cupiditates omnium rerum inportaverunt in
                            Graeciam.</quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="4" subtype="section">
                   <p>
@@ -2767,7 +2771,7 @@
                         <bibl>Sch. Iuvenal. Sat. 10.362</bibl>
                         <quote>Sardanapallus ille vitiis multo quam nomine ipso deformior. </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="5" subtype="section">
                   <p>
@@ -2777,7 +2781,7 @@
                            est Athos aut Olympus tantus? <pb n="p.353"/>
                         </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
             </div>
             <div type="textpart" n="4" subtype="book">
@@ -2789,7 +2793,7 @@
                         <bibl>Non. 500M</bibl>
                         <quote>Atque ipsa mens ea, quae futura videt, praeterita meminit. </quote>
                      </cit>
-                 </p>
+                  </p>
                   <p>
                      <cit>
                         <bibl>Lactant. Div. Inst. 5.11.2</bibl>
@@ -2798,20 +2802,20 @@
                            miserius in hominis figura animo esse efferato! Mihi quidem tanto
                            videtur, quanto praestabilior est animus corpore. </quote>
                      </cit>
-                 </p>
+                  </p>
                   <p>
                      <cit>
                         <bibl>August. c. Iul. 5.12.59</bibl>
                         <quote>se non putare idem esse arietis et P. Africani bonum. </quote>
                      </cit>
-                 </p>
+                  </p>
                   <p>
                      <cit>
                         <bibl>Non. 234M</bibl>
                         <quote>eademque obiectu suo umbram noctemque efficiat cum ad numerum dierum
                            aptam, tum ad laborum quietem. </quote>
                      </cit>
-                 </p>
+                  </p>
                   <p>
                      <cit>
                         <bibl>Non. 343M</bibl>
@@ -2819,13 +2823,13 @@
                            †concipiendas relaxarit, aestiva maturitate alia mitigaverit, alia
                            torruerit. </quote>
                      </cit>
-                 </p>
+                  </p>
                   <p>
                      <cit>
                         <bibl>Non. 159M</bibl>
                         <quote>cum adhibent in pecuda pastores. </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="2" subtype="section">
                   <p>
@@ -2844,7 +2848,7 @@
                      qua una Polybius noster hospes nostrorum institutorum neglegentiam accusat,
                      nullam certam aut destinatam legibus aut publice expositam aut unam omnium esse
                      voluerunt. Nam <gap reason="omitted"/>
-                 </p>
+                  </p>
                   <milestone unit="section" n="3(fr1)"/>
                   <p>
                      <cit>
@@ -2853,21 +2857,21 @@
                            regantur. <pb n="p.355"/>
                         </quote>
                      </cit>
-                 </p>
+                  </p>
                   <milestone unit="section" n="3(fr2)"/>
                   <p>
                      <cit>
                         <bibl>Non. 20M</bibl>
                         <quote>non modo ut Spartae, rapere ubi pueri et clepere discunt. </quote>
                      </cit>
-                 </p>
+                  </p>
                   <milestone unit="section" n="3(fr3)"/>
                   <p>
                      <cit>
                         <bibl>Serv. A. 10.325</bibl>
                         <quote>opprobrio fuisse adulescentibus, si amatores non haberent. </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="4" subtype="section">
                   <p>
@@ -2882,7 +2886,7 @@
                      Hic Laelius: Praeclare intellego, Scipio, te in iis Graeciae disciplinis, quas
                      reprendis, cum populis nobilissimis malle quam cum tuo Platone luctari, quem ne
                      attingis quidem, praesertim cum <gap reason="omitted"/>
-                 </p>
+                  </p>
                   <pb n="p.356"/>
                   <milestone unit="chapter" n="5"/>
                </div>
@@ -2900,7 +2904,7 @@
                            unguentis emittit ex ea urbe, quam sibi ipse fingit. </quote>
                      </cit>
                      <milestone unit="chapter" n="6"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="6" subtype="section">
                   <p>
@@ -2935,7 +2939,7 @@
                            nominata est. </quote>
                      </cit>
                      <milestone unit="chapter" n="7"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="7" subtype="section">
                   <p>
@@ -2952,7 +2956,7 @@
                            adsentationem, ambitionem †meam esse levitatis. </quote>
                      </cit>
                      <milestone unit="chapter" n="8"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="8" subtype="section">
                   <p>
@@ -2987,7 +2991,7 @@
                         <quote>Cui quidem utinam vere fideliter †abundiente auguraverim. </quote>
                      </cit>
                      <milestone unit="chapter" n="9"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="9" subtype="section">
                   <p>
@@ -3000,7 +3004,7 @@
                      </cit>
                      <pb n="p.359"/>
                      <milestone unit="chapter" n="10"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="10" subtype="section">
                   <p>
@@ -3010,7 +3014,7 @@
                            hominum non modo honore civium reliquorum carere, sed etiam tribu moveri
                            notatione censoria voluerunt. </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="11" subtype="section">
                   <p>
@@ -3028,7 +3032,7 @@
                               dicere<gap reason="omitted"/>
                         </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="12" subtype="section">
                   <p>
@@ -3043,7 +3047,7 @@
                            displicuisse Romanis vel laudari quemquam in scaena vivum hominem vel
                            vituperari. </quote>
                      </cit>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="11"/>
                </div>
                <div type="textpart" n="13" subtype="section">
@@ -3056,10 +3060,10 @@
                               actorem, maximis de rebus pacis et belli legatum ad Philippum
                               Athenienses saepe miserunt. <pb n="p.360"/>
                               <pb n="p.361"/>
-                          </p>
+                           </p>
                         </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
             </div>
             <div type="textpart" n="5" subtype="book">
@@ -3111,7 +3115,7 @@
                      autem diuturna pax Numae mater huic urbi iuris et religionis fuit, qui legum
                      etiam scriptor fuisset, quas scitis extare, quod quidem huius civis proprium,
                      de quo agimus<gap reason="omitted"/>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="3"/>
                </div>
                <div type="textpart" n="4" subtype="section">
@@ -3123,7 +3127,7 @@
                               quidam usus opus est.</p>
                         </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="5" subtype="section">
                   <p>
@@ -3142,7 +3146,7 @@
                      ut astrorum gubernator, physicorum medicus; uterque enim illis ad artem suam
                      utitur, sed se a suo munere non inpedit. Illud autem videbit hic vir <gap
                         reason="omitted"/>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="4"/>
                </div>
                <div type="textpart" n="6" subtype="section">
@@ -3158,12 +3162,12 @@
                   <milestone unit="chapter" n="5"/>
                </div>
                <div type="textpart" n="7" subtype="section">
-                  <p>Ad vitam autem usumque vivendi ea discripta ratio est iustis nuptiis,
-                     legitimis liberis, sanctis penatium deorum Larumque familiarium sedibus, ut
-                     omnes et communibus commodis et suis uterentur, nec bene vivi sine bona re
-                     publica posset nec esse quicquam civitate bene constituta beatius. Quocirca
-                     permirum mihi videri solet, quae sit tanta doc<gap reason="omitted"/>
-                 </p>
+                  <p>Ad vitam autem usumque vivendi ea discripta ratio est iustis nuptiis, legitimis
+                     liberis, sanctis penatium deorum Larumque familiarium sedibus, ut omnes et
+                     communibus commodis et suis uterentur, nec bene vivi sine bona re publica
+                     posset nec esse quicquam civitate bene constituta beatius. Quocirca permirum
+                     mihi videri solet, quae sit tanta doc<gap reason="omitted"/>
+                  </p>
                   <milestone unit="chapter" n="6"/>
                </div>
                <div type="textpart" n="8" subtype="section">
@@ -3182,7 +3186,7 @@
                            qui populi utilitati magis consulat quam voluntati? </quote>
                      </cit>
                      <milestone unit="chapter" n="7"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="9" subtype="section">
                   <p>
@@ -3209,7 +3213,7 @@
                            dolorisque magna contemptio. </quote>
                      </cit>
                      <milestone unit="chapter" n="8"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="10" subtype="section">
                   <p>
@@ -3229,7 +3233,7 @@
                         </quote>
                      </cit>
                      <milestone unit="chapter" n="9"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="11" subtype="section">
                   <p>
@@ -3258,7 +3262,7 @@
                         <bibl>C. anon. Verg. G. I, 2.348 Bandin.</bibl>
                         <quote>tum in optimam segetem praeclara essent sparsa semina.</quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
             </div>
             <div type="textpart" n="6" subtype="book">
@@ -3297,7 +3301,7 @@
                         <bibl>Non. 492M</bibl>
                         <quote>qui contuderit eius vim et ecfrenatam illam ferociam. </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="2" subtype="section">
                   <p>
@@ -3335,7 +3339,7 @@
                            capudines. </quote>
                      </cit>
                      <milestone unit="chapter" n="3"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="3" subtype="section">
                   <p>
@@ -3350,7 +3354,7 @@
                         </quote>
                      </cit>
                      <milestone unit="chapter" n="4"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="4" subtype="section">
                   <p>
@@ -3362,7 +3366,7 @@
                      <pb n="p.369"/>
                      <pb n="p.370"/>
                      <milestone unit="chapter" n="8"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="8" subtype="section">
                   <p>
@@ -3376,7 +3380,7 @@
                            sumus <gap reason="omitted"/>
                         </quote>
                      </cit>
-                 </p>
+                  </p>
                   <milestone unit="chapter" n="9"/>
                </div>
                <div type="textpart" n="9" subtype="section">
@@ -3419,7 +3423,7 @@
                      legatus Aegyptum, Syriam, Asiam, Graeciam, deligere iterum consul absens
                      bellumque maximum conficies, Numantiam excindes. Sed cum eris curru in
                      Capitolium invectus, offendes rem publicam consiliis perturbatam nepotis mei.
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="12" subtype="section">
                   <p>
@@ -3469,7 +3473,7 @@
                      est in custodia corporis nec iniussu eius, a quo ille est vobis datus, ex
                      hominum vita migrandum est, ne munus humanum adsignatum a deo defugisse
                      videamini. <milestone unit="chapter" n="16"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="16" subtype="section">
                   <p>Sed sic, Scipio, ut avus hic tuus, ut ego, qui te genui, iustitiam cole et
@@ -3547,15 +3551,15 @@
                   <milestone unit="chapter" n="20"/>
                </div>
                <div type="textpart" n="21" subtype="section">
-                  <p>Cernis autem eandem terram quasi quibusdam redimitam et circumdatam cingulis,
-                     e quibus duos maxime inter se diversos et caeli verticibus ipsis ex utraque
-                     parte subnixos obriguisse pruina vides, medium autem illum et maximum solis
-                     ardore torreri. Duo sunt habitabiles, quorum australis ille, in quo qui
-                     insistunt, adversa vobis urgent vestigia, nihil ad vestrum genus; hic autem
-                     alter subiectus aquiloni, quem incolitis, cerne quam tenui vos parte contingat.
-                     Omnis enim terra, quae colitur a vobis, angustata verticibus, lateribus latior,
-                     parva quaedam insula est circumfusa illo mari, quod Atlanticum, quod magnum,
-                     quem Oceanum appellatis in terris, qui tamen tanto nomine quam sit parvus,
+                  <p>Cernis autem eandem terram quasi quibusdam redimitam et circumdatam cingulis, e
+                     quibus duos maxime inter se diversos et caeli verticibus ipsis ex utraque parte
+                     subnixos obriguisse pruina vides, medium autem illum et maximum solis ardore
+                     torreri. Duo sunt habitabiles, quorum australis ille, in quo qui insistunt,
+                     adversa vobis urgent vestigia, nihil ad vestrum genus; hic autem alter
+                     subiectus aquiloni, quem incolitis, cerne quam tenui vos parte contingat. Omnis
+                     enim terra, quae colitur a vobis, angustata verticibus, lateribus latior, parva
+                     quaedam insula est circumfusa illo mari, quod Atlanticum, quod magnum, quem
+                     Oceanum appellatis in terris, qui tamen tanto nomine quam sit parvus,
                      vides.</p>
                </div>
                <div type="textpart" n="22" subtype="section">
@@ -3565,7 +3569,7 @@
                      partibus tuum nomen audiet? quibus amputatis cernis profecto quantis in
                      angustiis vestra se gloria dilatari velit. Ipsi autem, qui de nobis loquuntur,
                      quam loquentur diu? <pb n="p.376"/>
-                 </p>
+                  </p>
                   <milestone unit="chapter2" n="7"/>
                   <milestone unit="chapter" n="21"/>
                </div>
@@ -3576,7 +3580,7 @@
                         <del>non</del> aeternam, sed ne diuturnam quidem gloriam adsequi possumus.
                      Quid autem interest ab iis, qui postea nascentur, sermonem fore de te, cum ab
                      iis nullus fuerit, qui ante nati sunt? <milestone unit="chapter" n="22"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="24" subtype="section">
                   <p>qui nec pauciores et certe meliores fuerunt viri, praesertim cum apud eos
@@ -3602,7 +3606,7 @@
                      loquentur tamen. Sermo autem omnis ille et angustiis cingitur iis regionum,
                      quas vides, nec umquam de ullo perennis fuit et obruitur hominum interitu et
                      oblivione posteritatis extinguitur. <pb n="p.377"/>
-                 </p>
+                  </p>
                   <milestone unit="chapter2" n="8"/>
                   <milestone unit="chapter" n="24"/>
                </div>
@@ -3636,11 +3640,11 @@
                   <milestone unit="chapter" n="26"/>
                </div>
                <div type="textpart" n="28" subtype="section">
-                  <p>Cum pateat igitur aeternum id esse, quod a se ipso moveatur, quis est, qui
-                     hanc naturam animis esse tributam neget? Inanimum est enim omne, quod pulsu
-                     agitatur externo; quod autem est animal, id motu <pb n="p.378"/> cietur
-                     interiore et suo; nam haec est propria natura animi atque vis; quae si est una
-                     ex omnibus, quae sese moveat, neque nata certe est et aeterna est.</p>
+                  <p>Cum pateat igitur aeternum id esse, quod a se ipso moveatur, quis est, qui hanc
+                     naturam animis esse tributam neget? Inanimum est enim omne, quod pulsu agitatur
+                     externo; quod autem est animal, id motu <pb n="p.378"/> cietur interiore et
+                     suo; nam haec est propria natura animi atque vis; quae si est una ex omnibus,
+                     quae sese moveat, neque nata certe est et aeterna est.</p>
                </div>
                <div type="textpart" n="29" subtype="section">
                   <p>Hanc tu exerce optimis in rebus! sunt autem optimae curae de salute patriae,
@@ -3662,7 +3666,7 @@
                         <bibl>Non. 321M</bibl>
                         <quote>idque ipsa natura non invitaret solum, sed etiam cogeret. </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="2" subtype="section">
                   <p>
@@ -3670,7 +3674,7 @@
                         <bibl>Diom. GL 1.339K</bibl>
                         <quote>nitito </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="3" subtype="section">
                   <p>
@@ -3679,7 +3683,7 @@
                         <quote>excellunt </quote>
                      </cit>
                      <pb n="p.379"/>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="5" subtype="section">
                   <p>
@@ -3688,7 +3692,7 @@
                         <quote>Fanni, causa difficilis laudare puerum; non enim res laudanda, sed
                            spes est.</quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="6" subtype="section">
                   <p>
@@ -3702,7 +3706,7 @@
                            <gap reason="omitted"/> Est vero, Africane; nam et Herculi eadem ista
                            porta patuit. </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="7" subtype="section">
                   <p>
@@ -3716,7 +3720,7 @@
                            </quote>
                         </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="8" subtype="section">
                   <p>
@@ -3726,7 +3730,7 @@
                            sibi conciliant, palam ostendunt sibi verum decus, quod ex virtute ac
                            dignitate nascitur, deficere. </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
                <div type="textpart" n="9" subtype="section">
                   <p>
@@ -3736,7 +3740,7 @@
                               reason="omitted"/>
                         </quote>
                      </cit>
-                 </p>
+                  </p>
                </div>
             </div>
          </div>

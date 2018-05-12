@@ -59,6 +59,10 @@
 			</langUsage>
 		</profileDesc>
 		<revisionDesc>
+			<change who="Aurélien Berra" when="2018-05-12">Test full compliance with CapiTainS CTS
+				via HookTest and revise file: harmonise language @ident to grc and lat, de-duplicate
+				lines where needed adding letters to numbers in @n, fix Latin content in some bibl
+				tags erroneously in Greek, update EpiDoc schema metadata.</change>
 			<change who="balmas01" when="2013-09-13">moving Greg's work-in-progress on CTS-izing
 				greco-roman collection texts to a Work directory</change>
 			<change who="gcrane" when="2013-06-08">TEI XML converted to facilitate CTS
