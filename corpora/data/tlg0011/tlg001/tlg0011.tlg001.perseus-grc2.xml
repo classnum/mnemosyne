@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -101,13 +102,13 @@
             <change when="1995-06-01" who="Lisa Cerrato">Added speaker tags where they were
                 missing.</change>
             <change when="1991-08-01" who="Bill Merrill">Check text against TLG Sophocles in order
-                to discover if there are any missing whole words or lines.. </change>
+                to discover if there are any missing whole words or lines..</change>
             <change when="1991-08-01" who="EM">Revise DTDs and recheck texts.</change>
             <change when="1990-09-19" who="EM">Final check of cardbreaks, tags, and
                 linenumbers.</change>
             <change when="1988" who="EM, Scott Ettinger and Roger Travis">tagging Text scanned at U.
                 Chicago in 1988. Basic SGML tagging by EM, Scott Ettinger and Roger Travis.
-            </change>
+           </change>
         </revisionDesc>
     </teiHeader>
     <text xml:lang="grc">

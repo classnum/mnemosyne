@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -47,7 +48,7 @@
       </encodingDesc>
       <profileDesc>
          <langUsage>
-            <language ident="grc">Greek </language>
+            <language ident="grc">Greek</language>
             <language ident="xgreek">transliterated Greek </language>
             <language ident="la">Latin </language>
             <language ident="en">English </language>
@@ -75,7 +76,7 @@
             P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.)
             Revision 1.7 2001/01/18 22:14:51 amahoney put language attribute on headers Revision 1.6
             2000/03/04 20:33:56 dasmith Added separate funder entity to TEI header. Revision 1.5
-            2000/02/24 17:53:19 amahoney convert to P3 </change>
+            2000/02/24 17:53:19 amahoney convert to P3</change>
          <change when="2018-05-09" who="AB">Converted to P5, commenting out non validating head
             tags.</change>
       </revisionDesc>

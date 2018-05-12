@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -54,7 +55,7 @@
 		</encodingDesc>
 		<profileDesc>
 			<langUsage>
-				<language ident="grc">Greek </language>
+				<language ident="grc">Greek</language>
 				<language ident="en">English </language>
 			</langUsage>
 		</profileDesc>
@@ -69,7 +70,7 @@
 				document format Revision 1.1 2009/10/08 19:10:19 rsingh04 began reorganizing texts
 				module by collection. created separate work directory in texts module to keep hopper
 				files separate from in progress files Revision 1.4 2009/05/27 15:55:13 rsingh04
-				added cvs log keyword </change>
+				added cvs log keyword</change>
 		</revisionDesc>
 	</teiHeader>
 	<text xml:lang="grc">

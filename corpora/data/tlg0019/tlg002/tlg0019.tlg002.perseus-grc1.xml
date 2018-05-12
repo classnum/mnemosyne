@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
@@ -79,7 +80,7 @@
                 extensions; minor cleanup (esp. character encodings and typos.) Revision 1.7
                 2000/03/06 20:10:31 amahoney remove spurious headers, which mess up short toc
                 Revision 1.6 2000/03/04 20:33:54 dasmith Added separate funder entity to TEI header.
-                Revision 1.5 2000/02/01 22:11:29 amahoney bring up to P3 </change>
+                Revision 1.5 2000/02/01 22:11:29 amahoney bring up to P3</change>
         </revisionDesc>
     </teiHeader>
     <text>

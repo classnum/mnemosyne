@@ -1,5 +1,6 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
 	<teiHeader>
 		<fileDesc>
@@ -78,7 +79,7 @@
 				by collection. created separate work directory in texts module to keep hopper files
 				separate from in progress files Revision 1.11 2009/06/26 17:28:51 student fixed
 				Pindar bibl error - zr Revision 1.10 2009/06/19 19:02:19 lcerrato fixed bad bibls
-				Revision 1.9 2009/05/27 15:55:14 rsingh04 added cvs log keyword </change>
+				Revision 1.9 2009/05/27 15:55:14 rsingh04 added cvs log keyword</change>
 		</revisionDesc>
 	</teiHeader>
 	<text>

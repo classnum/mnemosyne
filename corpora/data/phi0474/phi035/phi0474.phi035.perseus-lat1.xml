@@ -173,7 +173,7 @@ Added to repository. Passes SGML validation.
     <change><date>July 2014</date>
     <respStmt><name>Stella Dee</name><resp>ed.</resp></respStmt>
     <item>split composite text and converted to unicode</item>
-      </change>-->
+     </change>-->
 			<!-- 2018-05-09 deleted all <lemma> tags and replace undeclared entities with unicode symbols for tilde, macron, ring -->
 			<change when="2014-08-01" who="Stella Dee">edited markup</change>
 		</revisionDesc>
