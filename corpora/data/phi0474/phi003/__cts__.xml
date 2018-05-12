@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts"
     groupUrn="urn:cts:latinLit:phi0474" urn="urn:cts:latinLit:phi0474.phi003"
     projid="latinLit:phi003">
-
     <ti:title xml:lang="fra">Pour Quintus Roscius le Comédien</ti:title>
     <ti:title xml:lang="lat">Pro Q. Roscio comoedo</ti:title>
     <ti:title xml:lang="lat">Pro Roscio comoedo</ti:title>
-
     <ti:edition urn="urn:cts:latinLit:phi0474.phi003.perseus-lat2"
         workUrn="urn:cts:latinLit:phi0474.phi003" xml:lang="lat">
         <ti:label xml:lang="fra">Pour Quintus Roscius L'Acteur, Orationes Volume IV</ti:label>
         <ti:description xml:lang="fra"> Cicero, Marcus Tullius, auteur </ti:description>
     </ti:edition>
-
 </ti:work>

@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts"
     groupUrn="urn:cts:latinLit:phi0474" urn="urn:cts:latinLit:phi0474.phi008"
     projid="latinLit:phi008">
     <ti:title xml:lang="fra">Pour A. Caecina</ti:title>
     <ti:title xml:lang="lat">Pro A. Caecina</ti:title>
-
     <ti:edition urn="urn:cts:latinLit:phi0474.phi008.perseus-lat2"
         workUrn="urn:cts:latinLit:phi0474.phi008" xml:lang="lat">
         <ti:label xml:lang="fra">Pour Aulus Caecina, Orationes Volume IV</ti:label>
         <ti:description xml:lang="fra"> Cicero, Marcus Tullius, auteur </ti:description>
     </ti:edition>
-
 </ti:work>

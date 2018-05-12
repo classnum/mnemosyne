@@ -78,9 +78,7 @@
          <change who="gcrane" when="2006-04-28">base file added to repository NB: this does not have
             the fragments and should have them added</change>
 
-
          <change who="gcrane" when="2006-04-26">added to repository</change>
-
          <change when="2016-11-20" who="Thibault Clérice">CapiTainS and Epidoc</change>
       </revisionDesc>
    </teiHeader>

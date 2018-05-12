@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts"
   urn="urn:cts:latinLit:phi0474.phi059" groupUrn="urn:cts:latinLit:phi0474">
   <ti:title xml:lang="fra">Lettres à Brutus</ti:title>
-
   <ti:edition urn="urn:cts:latinLit:phi0474.phi059.perseus-lat1"
     workUrn="urn:cts:latinLit:phi0474.phi059">
     <ti:label xml:lang="fra">Lettres à Brutus, Epistulae Volume III</ti:label>
     <ti:description xml:lang="fra">Cicero, Marcus Tullius, auteur</ti:description>
   </ti:edition>
-
 </ti:work>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts"
   urn="urn:cts:latinLit:phi0474.phi036" groupUrn="urn:cts:latinLit:phi0474">
   <ti:title xml:lang="fra">De l'invention oratoire</ti:title>
-
   <ti:edition urn="urn:cts:latinLit:phi0474.phi036.perseus-lat1"
     workUrn="urn:cts:latinLit:phi0474.phi036">
     <ti:label xml:lang="lat">De Inventione, Rhetorici libri duo qui vocantur de

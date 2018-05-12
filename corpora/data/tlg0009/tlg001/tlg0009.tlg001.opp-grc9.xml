@@ -3,20 +3,16 @@
     schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.21/tei-epidoc.rng"
     schematypens="http://purl.oclc.org/dsdl/schematron"?>
-
 <!-- TÂCHES ET COMMENTAIRES -->
 <!-- AB : Ce n'est pas une bonne pratique de laisser les tâches et commentaires dans le fichier… Le forum ou un fichier partagé sont plus indiqués. Une plateforme comme GitHub prévoit un espace pour ces notes, mais je ne vous ai pas demandé d'ouvrir un compte pour la durée de ce petit projet. Cela vous aurait permis d'accéder au compte du master, https://github.com/classnum, d'où je prévois de déployer notre site Capitains. -->
-
 <!-- Tsilla: Il faudra trouver quelque chose à faire avec ces Cox/ dans les <l></l> et ça va sans doute se régler au <app>... -->
 <!-- Tsilla: Je n'ai pas encore fait tous les supplied -->
 <!-- Tsilla: certains des supplied ont reason="lost" d'autres reason="undefined". Il faudra décider entre les deux. -->
-
 <!-- AB : Quelques réponses ci-dessous. -->
 <!-- Tsilla: Pourquoi y a-t-il autant de moyen d'exprimer des gaps ?! -->
 <!-- AB : il y a souvent plusieurs moyens d'exprimer le même phénomène… Cependant, êtes-vous certaine que les consignes d'EpiDoc ne règlent pas votre hésitation ? -->
 <!-- Tsilla: On devra trouver comment coder l'enjambement et la scansion -->
 <!-- AB : Ce n'est pas urgent : vous ne visez pas ici l'analyse métrique ! Dans le texte, partout où vous mentionnez la scansion, je crois que vous avez seulement besoin d'utiliser les caractères Unicode pertinents pour brève et longue. Voyez par exemple la rubrique "Computer encodings" de https://en.wikipedia.org/wiki/Greek_alphabet. -->
-
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -373,7 +369,6 @@
             <note>Source: : P. Oxy. XXI (1951), 2289</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="7">
           <label>Lobel-Page 7 / Diehl 16</label>
           <lg>
@@ -589,12 +584,10 @@
             <note>Source: : P. Oxy. X (1914) 1231 fr. 1, 1 - 12 et fr. 3</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="15b">
           <label>Lobel-Page 15b / Voigt 15 / Gallavotti 24 / Diehl 26 / Bergk -</label>
           <gap reason="lost" extent="unknown" unit="line"/>
         </div>
-
         <div type="textpart" subtype="poem" n="16">
           <label>Lobel-Page 16 / Diehl 27a 27b / Cox 3 / Voigt 16</label>
           <lg>
@@ -700,7 +693,6 @@
             <l>[ ]ρ ἀπικε<supplied reason="lost">σθαι</supplied>.</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="18">
           <label>Lobel-Page 18</label>
           <lg>
@@ -712,7 +704,6 @@
             <l>μεσδον[</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="19">
           <label>Lobel-Page 19 / Diehl 30</label>
           <lg>
@@ -733,7 +724,6 @@
             <note>Source: : P. Oxy. (1914) 1231, fr. 2</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="20">
           <label>Lobel-Page 20 / Diehl 31</label>
           <lg>
@@ -773,7 +763,6 @@
             <note>Source: : P. Oxy. X (1914) 1231, fr. 9 : P. Oxy. XXI (1951) add. p. 122</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="21">
           <label>Lobel-Page 21 / Diehl 32</label>
           <lg>
@@ -799,7 +788,6 @@
             <note>Apollon. Dysc. de pron. 1, 97, 2 Schneider (vv. 12-13)</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="22">
           <label>Lobel-Page 22 / Diehl 33, 36</label>
           <note>[Diehl 33]</note>
@@ -859,7 +847,6 @@
             <note>Source: : P. Oxy. X (1914) 1231, fr. 14</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="24a">
           <label>Lobel-Page 24a / Diehl 34a</label>
           <lg>
@@ -876,7 +863,6 @@
             <note>Source: : P. Oxy. X (1914) 1231, fr. 13</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="24b">
           <label>Lobel-Page 24b / Diehl 34b</label>
           <lg>
@@ -900,7 +886,6 @@
             <note>Source: : P. Oxy. X (1914) 1231, fr. 13</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="24c">
           <label>Lobel-Page 24c / Diehl 34c</label>
           <lg>
@@ -918,7 +903,6 @@
             <note>Source: : P. Oxy. X (1914) 1231, frr. 22+25</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="25">
           <label>Lobel-Page 25</label>
           <lg>
@@ -934,7 +918,6 @@
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="26">
           <label>Lobel-Page 26 / Diehl 37</label>
           <lg>
@@ -966,7 +949,6 @@
             <note>Etym. Magn. 449, 36 (vv. 2-4)</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="27">
           <label>Lobel-Page 27 / 38D</label>
           <lg>
@@ -984,7 +966,6 @@
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="28">
           <label>Lobel-Page 28</label>
           <lg>
@@ -1024,7 +1005,6 @@
                 extent="unknown" unit="character"/></l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="29">
           <label>Lobel-Page 29</label>
           <lg>
@@ -1371,7 +1351,6 @@
             <note>- www.hs-augsburg.de</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="30">
           <label>Lobel-Page 30 / Diehl 39</label>
           <lg>
@@ -1440,7 +1419,6 @@
             <note>— Sappho's Supra-Superlatives</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="32">
           <label>Lobel-Page 32 / Diehl 10 / Bergk 10 / Cox 10</label>
           <note>augsburg.de prefaces with: “(εἰς Μούσας)”</note>
@@ -1451,7 +1429,6 @@
             <note>Apollon. Dysc. de pron. 1, 113, 8 (Schneider)</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="33">
           <label>Lobel-Page 33 / Diehl 9 / Bergk 9 / Cox 9</label>
           <lg>
@@ -1462,7 +1439,6 @@
             <note>Apollon. Dysc. de synt. 2, 350, 4 (Uhlig)</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="34">
           <label>Lobel-Page 34 / Voigt 34 / Diehl 4 (10?) / Bergk 3 / Cox 4</label>
           <lg>
@@ -1482,7 +1458,6 @@
             <note>(“Eustath. in Iliad. 729, 20” - augsburg.de)</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="35">
           <label>Lobel-Page 35 / Diehl 7 / Bergk 6 / Cox 7</label>
           <lg>
@@ -1493,12 +1468,10 @@
             <note>(“Strabo 1, 2, 33 (p. 40)” - augsburg.de)</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="36">
           <label>Lobel-Page 36 / 20D</label>
           <l>καὶ ποθήω καὶ μάομαι <gap reason="lost" extent="unknown" unit="character"/></l>
         </div>
-
         <div type="textpart" subtype="poem" n="37">
           <label>Lobel-Page 37 / 14D / Wharton 17 / Cox 17</label>
           <lg>
@@ -1509,12 +1482,10 @@
             <note>Source: Etymologicum Magnum</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="38">
           <label>Lobel-Page 38 / 9D</label>
           <l>ὄπταις ἄμμε</l>
         </div>
-
         <div type="textpart" subtype="poem" n="39">
           <label>Lobel-Page 39 / 17D / Wharton 19 / Cox 19</label>
           <lg>
@@ -1525,7 +1496,6 @@
               A.D.</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="40">
           <label>Lobel-Page 40 / Diehl 8 / Bergk 7, 8 / Cox 8</label>
           <lg>
@@ -1543,7 +1513,6 @@
             <note>Adduced by Apollonius of Alexandria, about 140 A.D</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="41">
           <label>Lobel-Page 41 /12D / Wharton 14</label>
           <lg>
@@ -1552,7 +1521,6 @@
             <note>Source: Apollonius</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="42">
           <label>Lobel-Page 42 / Wharton 16 / Cox 16</label>
           <lg>
@@ -1561,7 +1529,6 @@
             <note>Source: Pindar, Pyth. i. 10</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="43">
           <label>Lobel-Page 43 / 54D</label>
           <lg>
@@ -1576,7 +1543,6 @@
             <l>], ἄγχι γὰρ ἀμέρα.</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="44">
           <label>Lobel-Page 44 / Voigt 44 / Diehl 5a,b? 55? / Bergk -</label>
           <lg>
@@ -1617,15 +1583,12 @@
             <l>πάντες δ’ ἄνδρες ἐπ]ήρατον ἴαχον ὄρθιον</l>
             <l>Πάον’ ὀνκαλέοντες ἐκάβολον εὐλύραν,</l>
             <l>ὔμνην δ’ ῎Εκτορα κ᾿Ανδρομάχαν θεοεικέλο[ις.</l>
-
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="45">
           <label>Lobel-Page 45</label>
           <l>ἆς θέλετ' ὔμμες</l>
         </div>
-
         <div type="textpart" subtype="poem" n="46">
           <label>Lobel-Page 46 / 42D</label>
           <lg>
@@ -1633,7 +1596,6 @@
             <l>τύλαν κασπολέω †μέλεα· κἂν μὲν τε τύλαγκας ἀσπόλεα·†</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="47">
           <label>Lobel-Page 47 / Voigt 47 / Diehl 50 / Bergk 42</label>
           <lg>
@@ -1642,7 +1604,6 @@
             <note>Source: Maximus Tyrius, about 150 B.C.</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="48">
           <label>Lobel-Page 48 / 48D</label>
           <lg>
@@ -1650,7 +1611,6 @@
             <l>ὂν δ’ ἔψυξας ἔμαν φρένα καιομέναν πόθῳ.</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="49">
           <label>Lobel-Page 49 / Voigt 49 / Gallavotti 43 / Diehl 40, 41 / Bergk 33, 34</label>
           <lg>
@@ -1664,7 +1624,6 @@
             <note>Source: Plutarch and others.</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="50">
           <label>Lobel-Page 50 / 49D</label>
           <lg>
@@ -1672,12 +1631,10 @@
             <l>ὀ δὲ κἄγαθος αὔτικα καὶ κάλος ἔσσεται.</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="51">
           <label>Lobel-Page 51 / 46D</label>
           <l>οὐκ οἶδ' ὄττι θέω· δίχα μοι τὰ νοήμματα</l>
         </div>
-
         <div type="textpart" subtype="poem" n="52">
           <label>Lobel-Page 52 / 47D / Cox 35</label>
           <lg>
@@ -1686,12 +1643,10 @@
             <note>Source: Herodian</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="53">
           <label>Lobel-Page 53 / 57D / Bergk 65</label>
           <l>βροδοπάχεες ἄγναι Χάριτες δεῦτε Δίος κόραι</l>
         </div>
-
         <div type="textpart" subtype="poem" n="54">
           <label>Lobel-Page 54 / 56D / Cox 61</label>
           <!-- Tsilla: futur <app> <rdg> à mettre en place... -->
@@ -1704,7 +1659,6 @@
             <note>Source: Pollux, 180 AD, (xlamu's)</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="55">
           <label>Lobel-Page 55 / Voigt 55 / Diehl 58 / Bergk 68 / Cox 65</label>
           <lg>
@@ -1723,7 +1677,6 @@
             <note>Source: Stobaeus, 500 AD. Plutarch too.</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="56">
           <label>Lobel-Page 56 / 60D / Cox 66</label>
           <!-- Tsilla: futur <app> <rdg> à mettre en place... -->
@@ -1736,7 +1689,6 @@
             <note>Source: Chrysippius. Cf. Cox 65?</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="57">
           <label>Lobel-Page 57 / 61D / Cox 67 / Bergk 70</label>
           <lg>
@@ -1751,7 +1703,6 @@
             <note>Source: Athenaeus, and others.</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="58">
           <lg>
             <label>Lobel-Page 58 / West (2004) / Bergk 79?</label>
@@ -1793,7 +1744,6 @@
             <l><gap reason="lost" extent="unknown" unit="character"/>καιν[</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="60">
           <label>Lobel-Page 60</label>
           <lg>
@@ -1811,7 +1761,6 @@
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="61">
           <label>Lobel-Page 61</label>
           <lg>
@@ -1820,7 +1769,6 @@
             <l>οὐ γάρ κ[</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="62">
           <label>Lobel-Page 62</label>
           <lg>
@@ -1838,11 +1786,9 @@
             <l>τά τ' ἔμματα κα̣[</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="63">
           <label>Lobel-Page 63? / Voigt 63</label>
         </div>
-
         <div type="textpart" subtype="poem" n="64">
           <label>Lobel-Page 64</label>
           <lg>
@@ -1873,11 +1819,9 @@
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="65">
           <label>Lobel-Page 65</label>
         </div>
-
         <div type="textpart" subtype="poem" n="66">
           <label>Lobel-Page 66</label>
           <lg>
@@ -1903,7 +1847,6 @@
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="67">
           <label>Lobel-Page 67</label>
           <lg>
@@ -1931,7 +1874,6 @@
             <l> [ ]̣ρωσ.[</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="68">
           <label>Lobel-Page 68</label>
           <lg>
@@ -1959,7 +1901,6 @@
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="69">
           <label>Lobel-Page 69</label>
           <lg>
@@ -1970,7 +1911,6 @@
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="70">
           <label>Lobel-Page 70</label>
           <lg>
@@ -1992,7 +1932,6 @@
             <l> . . .</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="71">
           <label>Lobel-Page 71</label>
           <lg>
@@ -2007,7 +1946,6 @@
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="72">
           <label>Lobel-Page 72</label>
           <lg>
@@ -2023,7 +1961,6 @@
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="73">
           <label>Lobel-Page 73</label>
           <lg>
@@ -2047,7 +1984,6 @@
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="74">
           <label>Lobel-Page 74</label>
           <lg>
@@ -2082,7 +2018,6 @@
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="75">
           <label>Lobel-Page 75</label>
           <lg>
@@ -2114,7 +2049,6 @@
             <l> []ταμέ.[</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="76">
           <label>Lobel-Page 76</label>
           <lg>
@@ -2129,7 +2063,6 @@
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="77">
           <label>Lobel-Page 77</label>
           <note>(a)</note>
@@ -2162,7 +2095,6 @@
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="78">
           <label>Lobel-Page 78</label>
           <lg>
@@ -2177,7 +2109,6 @@
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="79">
           <label>Lobel-Page 79</label>
           <lg>
@@ -2191,7 +2122,6 @@
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="80">
           <label>Lobel-Page 80</label>
           <lg>
@@ -2205,16 +2135,13 @@
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="81">
           <label>Lobel-Page 81</label>
         </div>
-
         <div type="textpart" subtype="poem" n="81b">
           <label>Lobel-Page 81b / Voigt 81 / Gallavotti 71 / Diehl 80 / Bergk -</label>
           <gap reason="lost" quantity="1" unit="line"/>
         </div>
-
         <div type="textpart" subtype="poem" n="82">
           <label>Lobel-Page 82 / 80D / Cox 75</label>
           <lg>
@@ -2225,7 +2152,6 @@
             <note>Source: Athenaeus.</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="82a">
           <label>Lobel-Page 82a / 63D</label>
           <lg>
@@ -2233,11 +2159,9 @@
             <l>— Sappho's Supra-Superlatives</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="91">
           <label>Lobel-Page 91</label>
         </div>
-
         <div type="textpart" subtype="poem" n="92">
           <label>Lobel-Page 92</label>
           <note>This version is from http://www.b3ta.cr3ation.co.uk/data/doc/safopoemas.doc with
@@ -2298,7 +2222,6 @@
             <note>Source: : P. Berol. 9722 fol. 1 (BKT V, 2 p. 12)</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="94">
           <label>Lobel-Page 94 / Voigt 94 / Diehl 96</label>
           <lg>
@@ -2334,7 +2257,6 @@
             <l><gap reason="lost" extent="unknown" unit="character"/> οιδιαι</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="95">
           <label>Lobel-Page 95 / Diehl 97</label>
           <lg>
@@ -2357,7 +2279,6 @@
             <gap reason="lost" quantity="2" unit="line"/>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="96">
           <label>Lobel-Page 96 / Voigt 96 / Diehl 98</label>
           <lg>
@@ -2434,7 +2355,6 @@
               2 p. 16 s.)</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="98">
           <label>Lobel-Page 98 / Diehl 98a, 98b</label>
           <lg>
@@ -2472,7 +2392,6 @@
             <note>(b) vv. 14-22: P. Mediol., ed. Vogliano, Mediol. 1942</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="100">
           <label>Lobel-Page 100 / Diehl 85 / Cox 86</label>
           <lg>
@@ -2489,7 +2408,6 @@
             <l>δῶρα τίμια †καγγόνων†</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="102">
           <label>Lobel-Page 102 / Voigt 102 / Diehl 114 / Bergk 90</label>
           <lg>
@@ -2497,7 +2415,6 @@
             <l>πόθῳ δάμεισα παῖδος βραδίναν δι' Ἀφροδίταν</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="103">
           <label>Lobel-Page 103 / (Treu S. 14-17)</label>
           <lg>
@@ -2544,7 +2461,6 @@
             <note>Source: P. Oxy. 2294.</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="104a">
           <label>Lobel-Page 104a / Voigt 104a / Diehl 120 / Bergk 95 / Cox 92</label>
           <!-- Tsilla : on va devoir faire du <app><rdg resp="#"></rdg><rdg resp="#"></rdg></app> (ou wit=""?)-->
@@ -2556,12 +2472,10 @@
             <note>Source: Etymologicum Magnum.</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="104b">
           <label>Lobel-Page 104b / Cox 120?</label>
           <l>ἀστέρων πάντων ὀ κάλλιστος</l>
         </div>
-
         <div type="textpart" subtype="poem" n="105a">
           <label>Lobel-Page 105a / Voigt 105a / Diehl 116 / Bergk 93 / Cox 90</label>
           <lg>
@@ -2575,7 +2489,6 @@
             <note>Source: Scholiast on Hermogenes and elsewhere</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="105b">
           <label>Lobel-Page 105b</label>
           <lg>
@@ -2589,7 +2502,6 @@
             <note>- Elena Pallantza's dissertation</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="105c">
           <label>Lobel-Page 105c / Voigt 105b / Diehl 117 / Bergk 93 / Cox 91</label>
           <lg>
@@ -2603,13 +2515,11 @@
             <note>Source: Demetrius.</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="106">
           <label>Lobel-Page 106 / 115 D</label>
           <l>πέρροχος, ὠς ὄτ' ἄοιδος ὀ Λέσβιος ἀλλοδάποισιν</l>
           <note>107LP/53D / Cox 99</note>
         </div>
-
         <div type="textpart" subtype="poem" n="107">
           <label>Lobel-Page 107LP /53 D / Cox 99</label>
           <lg>
@@ -2618,17 +2528,14 @@
             <note>Source: Apollonius.</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="108">
           <label>Lobel-Page 108 / 116aD</label>
           <l>ὦ κάλα, ὦ χαρίεσσα</l>
         </div>
-
         <div type="textpart" subtype="poem" n="109">
           <label>Lobel-Page 109 / 122D</label>
           <l>δώσομεν, ἦσι πάτηρ</l>
         </div>
-
         <div type="textpart" subtype="poem" n="110a">
           <label>Lobel-Page 110a / Voigt 110 / Diehl 124 / Bergk 98</label>
           <lg>
@@ -2636,7 +2543,6 @@
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="110b">
           <lg>
             <label>Lobel-Page 110b / Diehl 124</label>
@@ -2645,7 +2551,6 @@
             <l>πίσσυγγοι δὲ δέκ' ἐξεπόναισαν</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="111">
           <label>Lobel-Page 111 / 123D / Cox 88</label>
           <lg>
@@ -2661,7 +2566,6 @@
             <note>Source: Hephaestion.</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="112">
           <label>Lobel-Page 112 / 128D</label>
           <lg>
@@ -2679,12 +2583,10 @@
             <note>Source: Hepaestion</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="113">
           <label>Lobel-Page 113 / 130D</label>
           <l>οὐ γὰρ †ἑτέρα νῦν† πάις ὦ γάμβρε τεαύτα</l>
         </div>
-
         <div type="textpart" subtype="poem" n="114">
           <label>Lobel-Page 114 / 131D / Cox 104</label>
           <lg>
@@ -2695,7 +2597,6 @@
             <note>Source: Demetrius.</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="115">
           <label>Lobel-Page 115 / 127D</label>
           <lg>
@@ -2703,17 +2604,14 @@
             <l>ὄρπακι βραδίνῳ σε μάλιστ' ἐικάσδω.</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="116">
           <label>Lobel-Page 116 / 128D</label>
           <l>χαῖρε, νύμφα, χαῖρε, τίμιε γάμβρε, πόλλα ..</l>
         </div>
-
         <div type="textpart" subtype="poem" n="117">
           <label>Lobel-Page 117 / 129D</label>
           <l>†χαίροις ἀ νύμφα†, χαιρέτω δ' ὀ γάμβρος</l>
         </div>
-
         <div type="textpart" subtype="poem" n="118">
           <label>Lobel-Page 118 /103D</label>
           <lg>
@@ -2732,7 +2630,6 @@
             <note>Source: Etymologicum Magnum</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="121">
           <label>Lobel-Page 121 / 100D</label>
           <lg>
@@ -2743,12 +2640,10 @@
             <l>κην ἔοισα γεραιτέρα <gap reason="lost" extent="unknown" unit="character"/></l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="122">
           <label>Lobel-Page 122 / 111D</label>
           <l>ἄνθε' ἀμέργοισαν παῖδ' ἄγαν ἀπάλαν</l>
         </div>
-
         <div type="textpart" subtype="poem" n="123">
           <label>Lobel-Page 123 / 15D / Cox 18</label>
           <lg>
@@ -2759,28 +2654,23 @@
             <l>αὔτα δὲ σὺ Καλλιόπα</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="125">
           <label>Lobel-Page 125 / 101D</label>
           <l>†αυταόρα† ἐστεφαναπλόκην</l>
         </div>
-
         <div type="textpart" subtype="poem" n="126">
           <label>Lobel-Page 126 / 134D</label>
           <l>δαύοις ἀπάλας ἐτάρας ἐν στήθεσιν</l>
         </div>
-
         <div type="textpart" subtype="poem" n="127">
           <label>Lobel-Page 127 / 154D</label>
           <l>δεῦρο δηὖτε Μοῖσαι χρύσιον λίποισαι <gap reason="lost" extent="unknown"
               unit="character"/></l>
         </div>
-
         <div type="textpart" subtype="poem" n="128">
           <label>Lobel-Page 128 / 90D</label>
           <l>δεῦτέ νυν ἄβραι Χάριτες καλλίκομοί τε Μοῖσαι</l>
         </div>
-
         <div type="textpart" subtype="poem" n="129">
           <label>Lobel-Page 129 / 146D,18D</label>
           <lg>
@@ -2795,7 +2685,6 @@
             <l>[μᾶλλον] ἀνθρώπων ἔμεθεν φίλησθα.</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="130">
           <label>Lobel-Page 130 / Diehl 137 / Voigt 130 / Bergk 40</label>
           <lg>
@@ -2805,7 +2694,6 @@
             <note>Source: “The four lines are consecutive in MS S ADI of Hephaestion.”</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="131">
           <label>Lobel-Page 131 / Diehl 137 / Voigt 130 / Bergk 41</label>
           <lg>
@@ -2821,7 +2709,6 @@
             <note>Source: Hephaestion.</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="133">
           <label>Lobel-Page 133 / 144a,bD</label>
           <lg>
@@ -2832,18 +2719,15 @@
             <l>&lt;κάλεις&gt;;</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="134">
           <label>Lobel-Page 134 / 87D</label>
           <l>ζὰ <gap reason="lost" extent="unknown" unit="character"/> ἐλεξάμαν ὄναρ Κυπρογενη</l>
         </div>
-
         <div type="textpart" subtype="poem" n="135">
           <label>Lobel-Page 135 / 86D</label>
           <l>τί με Πανδίονις, ᾬρανα, χελίδω <gap reason="lost" extent="unknown" unit="character"
             />;</l>
         </div>
-
         <div type="textpart" subtype="poem" n="136">
           <label>Lobel-Page 136 / Diehl 121 / Cox 37</label>
           <lg>
@@ -2854,7 +2738,6 @@
             <note>Schol. Soph. El. 149 (p. 110 Papageorg.)</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="137">
           <label>Lobel-Page 137 / 149D</label>
           <lg>
@@ -2871,7 +2754,6 @@
             <l>ἄλλ᾽ ἔλεγεσ περὶ τῶ δικαίωσ.</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="138">
           <label>Lobel-Page 138 / 151D</label>
           <lg>
@@ -2879,7 +2761,6 @@
             <l>καὶ τὰν ἐπ' ὄσσοισ' ὀμπέτασον χάριν</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="140">
           <label>Lobel-Page 140? / Bergk 62? / Voigt 140? / Cox 59</label>
           <lg>
@@ -2891,7 +2772,6 @@
             <l>καττύπτεσθε, κόραι, καὶ κατερείκεσθε κίθωνας.</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="141">
           <label>Lobel-Page 141 / 135D,136D / Cox 47</label>
           <lg>
@@ -2910,18 +2790,15 @@
             <note>Source: Athenaeus, in two fragments, joined by Lachmann</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="142">
           <label>Lobel-Page 142 / Cox 29</label>
           <l>Λάτω καὶ Νιόβα μάλα μὲν φίλαι ἦσαν ἔταιραι</l>
           <note>Source: Athenaeus.</note>
         </div>
-
         <div type="textpart" subtype="poem" n="143">
           <label>Lobel-Page 143 / 118D</label>
           <l>χρύσειοι δ' ἐρέβινθοι ἐπ' ἀιόνων ἐφύοντο</l>
         </div>
-
         <div type="textpart" subtype="poem" n="144">
           <label>Lobel-Page 144 / 19D</label>
           <lg>
@@ -2929,7 +2806,6 @@
             <l>Γόργως</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="145">
           <label>Lobel-Page 145 / 113D / Cox 108</label>
           <lg>
@@ -2938,7 +2814,6 @@
             <note>Source: Scholiast on Apollonius Rhodius.</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="146">
           <label>Lobel-Page 146 / 52D / Cox 107</label>
           <lg>
@@ -2947,13 +2822,11 @@
             <note>Source: Various.</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="147">
           <label>Lobel-Page 147 / Cox 30</label>
           <l>μνάσασθαί τινά φαιμι †καὶ ἕτερον† ἀμμέων</l>
           <note>Source: Dio Chrysostom, writing about A.D. 100.</note>
         </div>
-
         <div type="textpart" subtype="poem" n="148">
           <label>Lobel-Page 148 / 92D</label>
           <lg>
@@ -2961,12 +2834,10 @@
             <l>ἀ δ' ἀμφοτέρων κρᾶσις †εὐδαιμονίας ἔχει τὸ ἄκρον†</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="149">
           <label>Lobel-Page 149 / 125D</label>
           <l>ὄτα πάννυχος ἄσφι κατάγρει</l>
         </div>
-
         <div type="textpart" subtype="poem" n="150">
           <label>Lobel-Page 150 / 109D</label>
           <lg>
@@ -2974,13 +2845,11 @@
             <l>θρῆνον ἔμμεν'· οὔ κ' ἄμμι τάδε πρέποι</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="151">
           <label>Lobel-Page 151 / 106D</label>
           <l>ὀφθάλμοις δὲ μέλαις νύκτος ἄωρος <gap reason="lost" extent="unknown" unit="character"
             /></l>
         </div>
-
         <div type="textpart" subtype="poem" n="152">
           <label>Lobel-Page 152 / 142D / Wharton 20 / Cox 20</label>
           <lg>
@@ -2990,12 +2859,10 @@
             <note>Source: Scholiast on Apollonius of Rhodes, i. 727</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="153">
           <label>Lobel-Page 153 / 91D</label>
           <l>πάρθενον ἀδύφωνον</l>
         </div>
-
         <div type="textpart" subtype="poem" n="154">
           <label>Lobel-Page 154 / 88D / Cox 49</label>
           <lg>
@@ -3006,12 +2873,10 @@
             <note>Source: Hephaestion</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="155">
           <label>Lobel-Page 155 / 150D</label>
           <l>πόλλα μοι τὰν Πωλυανάκτιδα παῖδα χαίρην</l>
         </div>
-
         <div type="textpart" subtype="poem" n="156">
           <label>Lobel-Page 156 / 138D / Cox 115</label>
           <lg>
@@ -3020,12 +2885,10 @@
             <note>Source: Demetrius.</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="157">
           <label>Lobel-Page 157 / 16D (cf. 6LP)</label>
           <l>πότνια Αὔως</l>
         </div>
-
         <div type="textpart" subtype="poem" n="158">
           <label>Lobel-Page 158 / 126D / Cox 25</label>
           <lg>
@@ -3035,12 +2898,10 @@
             <l>μαψυλάκαν γλῶσσαν πεφυλάχθαι.</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="159">
           <label>Lobel-Page 159 / 110D</label>
           <l><gap reason="lost" extent="unknown" unit="character"/> σύ τε κἄμος θεράπων Ἔρος</l>
         </div>
-
         <div type="textpart" subtype="poem" n="160">
           <label>Lobel-Page 160 / Diehl 11 / Cox 11</label>
           <lg>
@@ -3057,7 +2918,6 @@
                 extent="unknown" unit="character"/>υ πολίων βασίληες</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="162">
           <label>Lobel-Page 162 / 156aD</label>
           <lg>
@@ -3068,13 +2928,11 @@
             <l>τὸν Ϝὸν παῖδα κάλει</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="165">
           <label>Lobel-Page 165 / Diehl 3</label>
           <l>φαίνεταί Ϝοι κῆνος <gap reason="lost" extent="unknown" unit="character"/></l>
           <note>Source: Apollon. Dysc. de pron. 1, 82, 17 (Schneider)</note>
         </div>
-
         <div type="textpart" subtype="poem" n="166">
           <label>Lobel-Page 166 / Diehl 105 / Bergk 56</label>
           <lg>
@@ -3130,7 +2988,6 @@
             <l>Μοισάων</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="188">
           <label>Lobel-Page 188</label>
           <lg>
@@ -3164,7 +3021,6 @@
             <l>. . .</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="16ia">
           <label>Lobel-Page i.a. 16 / Diehl 93 / Cox 50</label>
           <lg>
@@ -3180,7 +3036,6 @@
               Hephaest. Ench. 11, 5 (p. 36 Consbruch)</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="94diehl">
           <lg>
             <note>Diehl 94 / Voigt 168b / Cox 48</note>
@@ -3201,7 +3056,6 @@
             <note>Source: : Hephaestion: Hephaest. Ench. 11, 5 (p. 36 Consbruch)</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="157diehl">
           <note>Diehl 157 /A.P. 6,269 / Cox 112</note>
           <lg>
@@ -3221,7 +3075,6 @@
             <l>κύρτον καὶ κώπαν, μνᾶμα κακοζοίας.</l>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="12wharton">
           <note>Wharton 12 / Cox 12</note>
           <lg>
@@ -3252,7 +3105,6 @@
             <note>Source: Apollonius</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="5ia2">
           <label>Lobel-Page i.a. 5,2 / Diehl 45 / Cox 33</label>
           <lg>
@@ -3262,7 +3114,6 @@
               Lentz</note>
           </lg>
         </div>
-
         <div type="textpart" subtype="poem" n="304">
           <label>Lobel-Page (Alcaeus) 304 / Cox 93 / Diehl 102 / Campbell 44a</label>
           <lg>

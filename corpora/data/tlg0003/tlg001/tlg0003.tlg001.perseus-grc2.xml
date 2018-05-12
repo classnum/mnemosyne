@@ -4,7 +4,6 @@
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
-
             <titleStmt>
                 <title>The Peloponnesian War</title>
                 <author>Thucydides</author>
@@ -18,15 +17,12 @@
                     <name>David Smith</name>
                 </respStmt>
             </titleStmt>
-
             <extent>about 197Kb</extent>
-
             <publicationStmt>
                 <publisher>Trustees of Tufts University</publisher>
                 <pubPlace>Medford, MA</pubPlace>
                 <authority>Perseus Project</authority>
             </publicationStmt>
-
             <sourceDesc default="false">
                 <bibl default="false">
                     <author>Thucydides</author>
@@ -36,7 +32,6 @@
                 </bibl>
             </sourceDesc>
         </fileDesc>
-
         <encodingDesc>
             <refsDecl n="CTS">
                 <cRefPattern n="Section" matchPattern="(\\w+).(\\w+).(\\w+)"
@@ -58,26 +53,22 @@
                 <refState unit="section"/>
             </refsDecl>
         </encodingDesc>
-
         <profileDesc>
             <langUsage>
                 <language ident="grc" usage="100">Greek</language>
                 <!-- <language ident="en">English</language> -->
             </langUsage>
         </profileDesc>
-
         <revisionDesc>
             <change when="1991-08-01" who="EM">revise DTDs and recheck texts.</change>
             <change when="2014-03-24" who="Simona Stoyanova">converted to EpiDoc</change>
         </revisionDesc>
     </teiHeader>
-
     <text n="urn:cts:greekLit:tlg0003.tlg001.perseus-grc2" xml:lang="grc">
         <interpGrp type="meter" xml:lang="en">
             <interp xml:id="met-hexameter">hexameter</interp>
             <interp xml:id="met-dact">dact</interp>
         </interpGrp>
-
         <body>
             <div type="edition" n="urn:cts:greekLit:tlg0003.tlg001.perseus-grc2" xml:lang="grc">
                 <div n="1" type="textpart" subtype="book">

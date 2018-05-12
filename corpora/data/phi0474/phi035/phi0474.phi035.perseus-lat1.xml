@@ -21,14 +21,12 @@
 					<name>David Smith</name>
 				</respStmt>
 				<funder n="org:NEH">National Endowment For The Humanities (NEH)</funder>
-
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Trustees of Tufts University</publisher>
 				<pubPlace>Medford, MA</pubPlace>
 				<authority>Perseus Project</authority>
 			</publicationStmt>
-
 			<sourceDesc>
 				<biblStruct>
 					<monogr>
@@ -48,7 +46,6 @@
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
-
 		<encodingDesc>
 			<refsDecl n="CTS">
 				<cRefPattern n="section" matchPattern="(\w+)"
@@ -77,14 +74,12 @@
 				<refState unit="section"/>
 			</refsDecl>
 		</encodingDesc>
-
 		<profileDesc>
 			<langUsage>
 				<language ident="lat">Latin</language>
 				<language ident="grc">Greek</language>
 			</langUsage>
 		</profileDesc>
-
 		<revisionDesc>
 			<!--
       <change><date>5/9/97</date>
@@ -93,81 +88,57 @@
 $Log: cic.oct2_lat.xml,v $
 Revision 1.4  2013-09-13 11:21:40  balmas01
 reverting texts back to pre_cts_reorg tagged version
-
 Revision 1.2  2011-07-19 22:30:38  gcrane
 removed the earlier persName/placeName tags
-
 Revision 1.1  2011-01-15 23:14:25  gcrane
 base SDL file
-
 Revision 1.1  2009/10/09 19:49:13  rsingh04
 more reorganizing of texts module by collection
-
 Revision 1.5  2006/04/02 18:12:19  gcrane
 mainly fixes to the words lower cased at the start of sentences:
 found that we had always had <name>Cum</name> rather than <reg>cum</reg>.
-
 This has been fixed in oct.cic[123]
-
 oct.cic[456] are having the app crits added and will need to be updated when
 those files come back
-
 Revision 1.4  2006/03/31 17:49:52  gcrane
 missing charaters from imaging problems have been checked
-
 Revision 1.3  2006/03/29 01:03:14  gaweaver
 this includes the notes from the app crit.
-
 there is one known problem: the lower right hand corner of one page got
 clipped and the characters in the app crit need to be added with reference
 to a clean copy
-
 Revision 1.2  2005/08/01 15:59:19  packel
 removed stray item tags
-
 	Revision 1.1  2005/07/25 14:31:11  packel
 	Converted to XML
 	
 Revision 1.13  2005/04/08 17:56:07  mimno
 added default chunks
-
 Revision 1.12  2003/07/01 22:14:57  yorkc
 Updated texts to TEI P4 and Perseus P4 extensions; minor cleanup (esp. character encodings and typos.)
-
 Revision 1.11  2003/05/20 21:16:12  amahoney
 do not mark Heus as a proper name
-
 Revision 1.10  2002/12/02 18:41:45  amahoney
 correct spelling of Quirites, improperly 'regularized'
-
 Revision 1.9  2000/03/06 22:21:48  amahoney
 add headers for groups of speeches, so they show up in the toc:  Catilines,
 Verrines, Philippics, and Agrarian Law
-
 Revision 1.8  2000/03/04 20:34:10  dasmith
 Added separate funder entity to TEI header.
-
 Revision 1.7  1999/10/14 21:36:02  dasmith
 Added explanatory subtitles to titleStmt
-
 Revision 1.6  1999/08/12 17:17:11  dasmith
 Fixed refsDecl
-
 Revision 1.5  1999/08/04 18:11:59  textgod
 Random changes over a period of months.
-
 Revision 1.4  1997/08/18 14:54:26  textgod
 ???
-
 Revision 1.3  1997/05/12 19:55:57  cjsu
 Fixed type attribute.
-
 Revision 1.2  1997/05/09 21:04:08  cjsu
 Fixed header info. Added abbreviations.
-
 Revision 1.1  1997/05/09 20:57:17  cjsu
 Added to repository. Passes SGML validation.
-
 
 </item></change>
     <change><date>July 2014</date>
@@ -184,7 +155,6 @@ Added to repository. Passes SGML validation.
 				<head>Philippicae Orationes in M. Antonium</head>
 				<div type="textpart" subtype="Speech" n="1">
 					<head>IN M. ANTONIVM ORATIO PHILIPPICA PRIMA</head>
-
 					<milestone n="1" unit="chapter"/>
 					<milestone n="1" unit="section"/>
 					<p><reg>ante</reg> quam de re publica, patres conscripti, dicam ea quae dicenda
@@ -829,7 +799,6 @@ Added to repository. Passes SGML validation.
 				</div>
 				<div type="textpart" subtype="Speech" n="2">
 					<head>IN M. ANTONIVM ORATIO PHILIPPICA SECVNDA</head>
-
 					<milestone n="1" unit="chapter"/>
 					<milestone n="1" unit="section"/>
 					<p><reg>quonam</reg> meo fato, patres conscripti, fieri dicam ut nemo his annis
@@ -2858,7 +2827,6 @@ Added to repository. Passes SGML validation.
 				</div>
 				<div type="textpart" subtype="Speech" n="3">
 					<head>IN M. ANTONIVM ORATIO PHILIPPICA TERTIA</head>
-
 					<milestone n="1" unit="chapter"/>
 					<milestone n="1" unit="section"/>
 					<p><reg>serius</reg> omnino, patres conscripti, quam tempus<note>tempus <hi
@@ -3587,7 +3555,6 @@ Added to repository. Passes SGML validation.
 				</div>
 				<div type="textpart" subtype="Speech" n="4">
 					<head>IN M. ANTONIVM ORATIO PHILIPPICA QVARTA</head>
-
 					<milestone n="1" unit="chapter"/>
 					<milestone n="1" unit="section"/>
 					<p><reg>frequentia</reg> vestrum<note>vestra <hi rend="italics">Ernesti</hi>
@@ -3857,7 +3824,6 @@ Added to repository. Passes SGML validation.
 				</div>
 				<div type="textpart" subtype="Speech" n="5">
 					<head>IN M. ANTONIVM ORATIO PHILIPPICA QVINTA</head>
-
 					<milestone n="1" unit="chapter"/>
 					<milestone n="1" unit="section"/>
 					<p><reg>nihil</reg> umquam longius his<note>his <hi rend="italics">om.
@@ -4776,7 +4742,6 @@ Added to repository. Passes SGML validation.
 				</div>
 				<div type="textpart" subtype="Speech" n="6">
 					<head>IN M. ANTONIVM ORATIO PHILIPPICA SEXTA</head>
-
 					<milestone n="1" unit="chapter"/>
 					<milestone n="1" unit="section"/>
 					<p><reg>audita</reg> vobis esse arbitror, Quirites, quae sint acta in senatu,
@@ -5071,7 +5036,6 @@ Added to repository. Passes SGML validation.
 				</div>
 				<div type="textpart" subtype="Speech" n="7">
 					<head>IN M. ANTONIVM ORATIO PHILIPPICA SEPTIMA</head>
-
 					<milestone n="1" unit="chapter"/>
 					<milestone n="1" unit="section"/>
 					<p><reg>parvis</reg> de rebus sed fortasse necessariis consulimur, patres
@@ -5488,7 +5452,6 @@ Added to repository. Passes SGML validation.
 				</div>
 				<div type="textpart" subtype="Speech" n="8">
 					<head>IN M. ANTONIVM ORATIO PHILIPPICA OCTAVA</head>
-
 					<milestone n="1" unit="chapter"/>
 					<milestone n="1" unit="section"/>
 					<p><reg>confusius</reg> hesterno die est acta res, C. Pansa, quam postulabat
@@ -6052,7 +6015,6 @@ Added to repository. Passes SGML validation.
 				</div>
 				<div type="textpart" subtype="Speech" n="9">
 					<head>IN M. ANTONIVM ORATIO PHILIPPICA NONA</head>
-
 					<milestone n="1" unit="chapter"/>
 					<milestone n="1" unit="section"/>
 					<p><reg>vellem</reg> di immortales fecissent, patres conscripti, ut vivo potius
@@ -6352,7 +6314,6 @@ Added to repository. Passes SGML validation.
 				</div>
 				<div type="textpart" subtype="Speech" n="10">
 					<head>IN M. ANTONIVM ORATIO PHILIPPICA DECIMA</head>
-
 					<milestone n="1" unit="chapter"/>
 					<milestone n="1" unit="section"/>
 					<p><reg>maximas</reg> tibi, Pansa, gratias omnes et habere et agere debemus qui,
@@ -6849,7 +6810,6 @@ Added to repository. Passes SGML validation.
 				</div>
 				<div type="textpart" subtype="Speech" n="11">
 					<head>IN M. ANTONIVM ORATIO PHILIPPICA VNDECIMA</head>
-
 					<milestone n="1" unit="chapter"/>
 					<milestone n="1" unit="section"/>
 					<p>Magno in dolore<note>dolore sum <hi rend="italics">D</hi></note>, patres
@@ -7583,7 +7543,6 @@ Added to repository. Passes SGML validation.
 				</div>
 				<div type="textpart" subtype="Speech" n="12">
 					<head>IN M. ANTONIVM ORATIO PHILIPPICA DVODECIMA</head>
-
 					<milestone n="1" unit="chapter"/>
 					<milestone n="1" unit="section"/>
 					<p><reg>etsi</reg> minime decere videtur, patres conscripti, falli, decipi,
@@ -8100,7 +8059,6 @@ Added to repository. Passes SGML validation.
 				</div>
 				<div type="textpart" subtype="Speech" n="13">
 					<head>IN M. ANTONIVM ORATIO PHILIPPICA TERTIA DECIMA</head>
-
 					<milestone n="1" unit="chapter"/>
 					<milestone n="1" unit="section"/>
 					<p>A principio huius belli, patres conscripti, quod cum impiis civibus
@@ -9058,7 +9016,6 @@ Added to repository. Passes SGML validation.
 				</div>
 				<div type="textpart" subtype="Speech" n="14">
 					<head>IN M. ANTONIVM ORATIO PHILIPPICA QVARTA DECIMA</head>
-
 					<milestone n="1" unit="chapter"/>
 					<milestone n="1" unit="section"/>
 					<p><reg>si</reg>, ut<note>si ut <hi rend="italics">h</hi>: sicut <hi

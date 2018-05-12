@@ -56,7 +56,6 @@
             </langUsage>
         </profileDesc>
 
-
         <revisionDesc>
             <change when="2017-02-03" who="TDBuck">CTS and epidoc updates part of reading list
                 updates</change>
@@ -89,7 +88,6 @@
             <change when="1988" who="EM, Scott Ettinger and Roger Travis">Text scanned at U. Chicago
                 in 1988. Basic SGML tagging by Lowell Bowditch</change>
         </revisionDesc>
-
 
     </teiHeader>
     <text xml:lang="grc">
@@ -139,7 +137,6 @@
                         <persName role="#Πλούτων">Πλούτων</persName>
                     </person>
                 </listPerson>
-
                 <div type="textpart" subtype="Prologue">
                     <milestone n="1" unit="card"/>
                     <l n="1"><said who="#Ξανθίας">Εἴπω τι τῶν εἰωθότων ὦ δέσποτα,</said></l>
@@ -2936,7 +2933,6 @@
                                 ἀρούραις.</said></l>
                     </div>
                 </div>
-
             </div>
         </body>
     </text>

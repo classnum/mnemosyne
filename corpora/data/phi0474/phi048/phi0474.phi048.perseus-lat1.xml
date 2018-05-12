@@ -66,7 +66,6 @@
          <!--
    C. 70 instances where the app crit contains abbreviations and graphic oddities trying to capture what is in the MSS. Not easily represented and not worth adding at this stage. These are for the most part just listed as .
 -->
-
          <change who="balmas01" when="2013-09-13">moving Greg's work-in-progress on CTS-izing
             greco-roman collection texts to a Work directory</change>
          <change who="gcrane" when="2013-06-08">TEI XML converted to facilitate CTS
@@ -79,7 +78,6 @@
          <change who="gcrane" when="2009-09-09">base files</change>
          <change who="gcrane" when="2006-04-28">small fixes</change>
          <change who="gcrane" when="2006-04-26">added to repository</change>
-
          <change when="2016-11-20" who="Thibault Clérice">CapiTainS and Epidoc</change>
       </revisionDesc>
    </teiHeader>
@@ -113,9 +111,7 @@ operum multifariam est usus. Atque in folio, quod in eo
 Ciceronis scripta praecedit, legitur, quibus numeris eum
 Gruterus significet in adnotationibus criticis, quas in editione sua verbis Ciceronis adscripsit. Neque enim in omnibus libris Ciceronianis, in quibus hoc codice ille usus
 est, eodem numero eum significat. Scriptum igitur illic
-
 <pb n="p.IV"/>
-
 est hunc codicem in libris de finibus a Grutero vocari
 secundum, quod falsum est. Nam re vera in his libris recensendis ille hunc codicem non adhibuit aliumque pro eo
 librum Palatinum minus bonum, quo usus est, appellavit
@@ -147,9 +143,7 @@ Erlangensem Heidelbergae non tantum comparatum esse
 — legitur in fine totius operae: <quote>Comparatus est hic praesens liber per fratrem Conrad Haunolt in studio Heydelbergensi anno ... LXVI <del>i. e. 1466</del>
                </quote> — sed etiam scriptum
 conicit, nec videtur dubium, quin libri de finibus in eum
-
 <pb n="p.V"/>
-
 ex eodem exemplari atque in codicem Palatinum 1525,
 fortasse etiam ab eodem scriba sint transscripti. Tres ultimi modo libri Tulliani, de amic., de sen., parad., in Erlangensi ab alia manu scripti sunt atque praecedentes,
 eaque bis posuit anni numerum; legitur enim in fine libri
@@ -187,9 +181,7 @@ hunc librum deterioris esse generis concluserit. In primo
 exemplo vera lectio est <hi rend="italics">quidam autem non tam id repre-
 hendunt,</hi> omissum igitur est in hoc libro vocabulum <hi rend="italics">autem,</hi>
 quod in dett. non deest, et pro <hi rend="italics">non tarn id</hi> est in dett.
-
 <pb n="p.VI"/>
-
                <hi rend="italics">non id tantum</hi> (cf. Madvig.). § 2 pro <hi rend="italics">collate,</hi> quod etiam
 ex Parisiensi apud Mdv. adnotatur, omnes reliqui libri, de
 quibus constat, et meliores et deteriores, habent <hi rend="italics">collaudata.</hi>
@@ -227,9 +219,7 @@ Quae vero hoc loco (§ 26) in libro suo manuscripto se legisse dicit, haec sunt:
                   <hi rend="italics">Nam ante Aristippus et ille melius.
 Etenim quoniam detractis de homine sensibus, reliqui
 nihil est, necesse est quid ad naturam aut contra sit, a</hi>
-
                   <pb n="p.VII"/>
-
                   <hi rend="italics">natura ipsa iudicari, et expetendam, et dolorem ipsum
 per se esse. Addidisti ad extremum,</hi> etc.</quote> Respicit postea
 Morelius ad hunc locum in adnotatione ad verba <hi rend="italics">a natura
@@ -270,9 +260,7 @@ videtur, neutrum horum librorum ex altero esse descriptum, tamen nulla est dubit
 quatern. saec. XV (cf. C. Janelli, Catalogus bibliothecae Latinae ... manuscr. quae in regio Neapolitano Museo Bor-
 bonico adservatur, Neapoli 1827, p. 233). Continet libros de
 finibus usque ad V 79 (cf. ad p. 195, 9) et partes quasdam
-
 <pb n="p.VIII"/>
-
 Academicorum poster. (§ 19 <hi rend="italics">pravumve quid consentiens</hi>
 — 26 <hi rend="italics">itaque aer</hi> et § 32 <hi rend="italics">ad probandum</hi> — 46 <hi rend="italics">quadam
 fuit facultate et to</hi>). De hoc codice disseruit F. Gustafsson (cf. Hermes, vol. XV, 1880, p. 466 sqq.) et iure suasit,
@@ -331,9 +319,7 @@ pono sumoque pro exemplo Palatinum 1515, qui fuit Gruteri sextus. Legimus
                      </cell>
                   </row>
                </table>
-
                <pb n="p.IX"/>
-
                <table>
                   <row>
                      <cell>
@@ -419,9 +405,7 @@ BE esse reiciendos non auctoritate solum codicum reliquorum efficitur, sed eo et
 67,25; 80,4; 81, 7; 81,11; 92,12; 97,11; 101,4; 103,19; 104,
 21; 111,20; 126,5; 132,14; 145,2; 145,14; 166,9; 175,25sq.;
 187,6; 196,14; 198,12; 199,17.</note>) per se pravum esse apparet,
-
 <pb n="p.XI"/>
-
 ut reliquis quoque locis, quibus BE ab ARNV verborum
 collocatione dissentiunt, non maiorem fidem sed neglegen-
 tiam fuisse causam huius dissensus concludere debeamus.</p>
@@ -464,9 +448,7 @@ In altero libro occupatus ante Id. Iunias scribit ad Atticum
 tello Q. Maximo consulibus. nunc velim P. Scaevola pon-
 tifex maximus quibus consulibus tribunus pl. equidem
 puto proximis, Caepione et Pompeio; praetor enim L. Furio</hi>
-
                <pb n="p.XII"/>
-
                <hi rend="italics">Sex. Atilio. dabis igitur tribunatum et, si poteris, Tubu-
 lus quo crimine.</hi> Accepto Attici responso Cicero scribere
 potuit quae legimus in altero de fin. libro p. 57,14—21.
@@ -528,9 +510,7 @@ fuisse, tantum nolebam aut obsoletum Bruto aut Balbo
 inchoatum dari.</hi> Postea cum nihil in litteris inveniatur,
 quod pertineat ad libros de finibus, Ciceronem eos medio
 fere mense Quintili Bruto misisse verisimile est, postquam
-
 <pb n="p.XIII"/>
-
 Varroni Academicorum posteriorum libri IV ab Attico sunt
 dati (ad Att. XIII 35, 2). Etiam ubi Cicero initio alterius de
 divinatione libri quae scripta de philosophia ad illud tempus a se sint edita exponit, libri de finibus subsequuntur
@@ -569,9 +549,7 @@ studiumque philosophiae renovasse dicit in Bruto (315).
 Adsunt in sermone praeter Ciceronem ipsum Q. frater,
 L. Cicero frater patruelis, T. Pomponius Atticus, M. Pupius
 Piso Frugi, qui totam fere habet disputationem. Piso consul fuit a. 61 Ciceroni haudquaquam probatus. Meminit
-
 <pb n="p.XIV"/>
-
 eius Cicero ut Peripatetici perfecti etiam in libris de nat.
 deor. (I 16). Quo tempore Cicero libros de finibus scripsit,
 Piso quoque, ut reliqui, quorum in his libris primae sunt
@@ -642,9 +620,7 @@ chen: Buch I u. II. Berlin 1872.</p>
                <hi rend="italics">Brem.</hi> = M. T. Cic. de fin. bon.
 et mal. ll. V ex rec. et cum
 notis Io. Henr. Bremii. Tom. I.
-
 <pb n="p.XV"/>
-
 Turici 1798. (Continet ll. I—
 III. Lib. IV et V non pro-
 dierunt; adnotationibus a Bre-

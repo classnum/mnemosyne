@@ -41,7 +41,6 @@
             </biblStruct>
          </sourceDesc>
       </fileDesc>
-
       <encodingDesc>
          <refsDecl n="CTS">
             <cRefPattern n="line" matchPattern="(\\w+)"
@@ -53,13 +52,11 @@
             <refState unit="line"/>
          </refsDecl>
       </encodingDesc>
-
       <profileDesc>
          <langUsage>
             <language ident="grc">Greek</language>
          </langUsage>
       </profileDesc>
-
       <revisionDesc>
          <change who="Bridget Almas">
             <date>2014-06-09</date> Converted from TEI edition at
@@ -68,7 +65,6 @@
             converting div1 and div2 to divs.</change>
       </revisionDesc>
    </teiHeader>
-
    <text xml:lang="grc">
       <body>
          <div type="edition" xml:lang="grc" n="urn:cts:greekLit:tlg0019.tlg007.perseus-grc1">

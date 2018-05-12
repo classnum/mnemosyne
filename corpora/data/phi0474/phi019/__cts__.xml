@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts"
     groupUrn="urn:cts:latinLit:phi0474" projid="latinLit:phi019"
     urn="urn:cts:latinLit:phi0474.phi019">
-
     <ti:title xml:lang="fra">Discours au sénat après son retour</ti:title>
     <ti:title xml:lang="lat">Post reditum in senatu</ti:title>
-
     <ti:edition urn="urn:cts:latinLit:phi0474.phi019.perseus-lat2"
         workUrn="urn:cts:latinLit:phi0474.phi019" xml:lang="lat">
         <ti:label xml:lang="fra">Discours au sénat après son retour</ti:label>
         <ti:description xml:lang="fra"> Orationes Volume V; Cicero, Marcus Tullius,
             auteur</ti:description>
     </ti:edition>
-
 </ti:work>

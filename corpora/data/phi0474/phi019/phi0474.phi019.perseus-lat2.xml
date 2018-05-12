@@ -21,14 +21,12 @@
 					<name>David Smith</name>
 				</respStmt>
 				<funder n="org:NEH">National Endowment For The Humanities (NEH)</funder>
-
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Trustees of Tufts University</publisher>
 				<pubPlace>Medford, MA</pubPlace>
 				<authority>Perseus Project</authority>
 			</publicationStmt>
-
 			<sourceDesc>
 				<biblStruct>
 					<monogr>
@@ -48,7 +46,6 @@
 				</biblStruct>
 			</sourceDesc>
 		</fileDesc>
-
 		<encodingDesc>
 			<refsDecl n="CTS">
 				<cRefPattern n="section" matchPattern="(\w+)"
@@ -60,7 +57,6 @@
 				<refState unit="section"/>
 			</refsDecl>
 		</encodingDesc>
-
 		<!--		<encodingDesc>
 			<refsDecl>
 				<refState delim=" " unit="text"/>
@@ -72,7 +68,6 @@
 				<refState unit="section"/>
 			</refsDecl>
 		</encodingDesc>-->
-
 		<profileDesc>
 			<langUsage>
 				<language ident="lat">Latin</language>
@@ -117,7 +112,6 @@
 			<change when="1997-03-26" who="DAS">ed.</change>
 		</revisionDesc>
 	</teiHeader>
-
 	<text>
 		<body>
 			<div type="edition" xml:lang="lat" n="urn:cts:latinLit:phi0474.phi019.perseus-lat2"
@@ -915,5 +909,4 @@
 			</div>
 		</body>
 	</text>
-
 </TEI>

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts"
   urn="urn:cts:latinLit:phi0474.phi037" groupUrn="urn:cts:latinLit:phi0474">
   <ti:title xml:lang="fra">Rhetorica</ti:title>
-
   <ti:edition urn="urn:cts:latinLit:phi0474.phi037.perseus-lat1"
     workUrn="urn:cts:latinLit:phi0474.phi037">
     <ti:label xml:lang="fra">Sur la rhétorique</ti:label>

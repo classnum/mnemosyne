@@ -73,7 +73,6 @@
          <change who="packel" when="2006-02-10">places/dates now actually tagged</change>
          <change who="packel" when="2005-08-01">removed stray item tags</change>
          <change who="packel" when="2005-07-25"> Converted to XML</change>
-
          <change who="amahoney" when="2004-05-24">mark dates in headers</change>
          <change who="yorkc" when="2003-07-01">Updated texts to TEI P4 and Perseus P4 extensions;
             minor cleanup (esp. character encodings and typos.)</change>
@@ -82,7 +81,6 @@
          <change who="dasmith" when="2000-03-05">Added responsibility and funder info to TEI
             header.</change>
          <change who="dasmith" when="1999-08-04">Added encodingDesc and revisionDesc.</change>
-
          <change when="2016-11-20" who="Thibault Clérice">CapiTainS and Epidoc</change>
       </revisionDesc>
    </teiHeader>

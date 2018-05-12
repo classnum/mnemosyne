@@ -63,39 +63,28 @@
          <change when="2017-02-16" who="Lisa Cerrato">review of EpiDoc and CTS compliance; removed
             English from notes; entities, etc.</change>
          <change when="2016-01-15" who="TDBuck">p4 to p5</change>
-
          <change when="2013-09-13" who="balmas01">moving Greg's work-in-progress on CTS-izing
             greco-roman collection texts to a Work directory</change>
-
          <change when="2013-06-13" who="gcrane">tagging now should be compatible with CTS</change>
-
          <change when="2010-12-24" who="gcrane">base files for SDL</change>
-
          <change when="2009-12-08" who="rsingh04">moved more xml files around based on copyright
             status</change>
-
          <change when="2005-07-25" who="packel">Converted to XML</change>
-
          <change when="2004-04-21" who="mimno">added card 1s</change>
-
          <change when="2003-07-01" who="yorkc">Updated texts to TEI P4 and Perseus P4 extensions;
             minor cleanup (esp. character encodings and typos.)</change>
-
          <change when="2001-03-19" who="amahoney">mark one supplement as "unclear" to demonstrate
             the new rule in the spec; I think this particular one is a true supplement rather than
             an unclear letter, but it really doesn't matter a whole lot for this purpose or in this
             text</change>
-
          <change when="2001-01-02" who="amahoney">move credits for editors to filedesc proper so
             they'll show in pulldown</change>
          <change when="2000-12-29" who="amahoney">the translation is ready to go</change>
-
          <change when="2000-12-04" who="amahoney">new text</change>
          <change when="2000-10-29" who="AEM">Initial text, based roughly on Oxyrhynchus Papyri
             IX</change>
       </revisionDesc>
    </teiHeader>
-
    <text xml:lang="grc">
       <body>
          <div type="edition" n="urn:cts:greekLit:tlg0011.tlg008.perseus-grc2" xml:lang="grc">
@@ -534,7 +523,6 @@
                <l n="220">ὥ[ς]τʼ εἰσακοῦσαι κεἰ λίαν κωφός τις ᾖ. </l>
             </sp>
             <milestone unit="card" n="221"/>
-
             <sp>
                <speaker>Κυλλήνη</speaker>
                <l n="221">θῆρες, τί [τό]νδε χλοερὸν ὑλώδη πάγον</l>
@@ -963,7 +951,6 @@
                <l n="419">τὸν ἐγ[</l>
             </sp>
          </div>
-
       </body>
    </text>
 </TEI>

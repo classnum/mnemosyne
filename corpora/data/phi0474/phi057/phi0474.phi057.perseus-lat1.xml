@@ -60,13 +60,9 @@
     </profileDesc>
     <revisionDesc>
       <change who="gcrane" when="2011-07-09"> header problem fixed</change>
-
       <change who="gcrane" when="2011-07-09"> cleaned up tagging problems in the header</change>
-
       <change who="gcrane" when="2011-01-15"> base SDL file</change>
-
       <change who="student" when="2010-05-28"> putting in page numbers - AD</change>
-
       <change who="rsingh04" when="2010-01-27">cleaned up some bad tagging, and added two more
         servius texts that were never in the hopper for some reason</change>
       <change who="rsingh04" when="2009-10-09">more reorganizing of texts module by collection</change>
@@ -120,7 +116,6 @@
       <change who="amahoney" when="2000-03-06">remove headers so books show up in short toc</change>
       <change who="dasmith" when="2000-03-05">Added responsibility and funder info to TEI header.</change>
       <change who="dasmith" when="1999-08-04">Added encodingDesc and RevisionDesc.</change>
-
 
       <change when="2016-11-20" who="Thibault Clérice">CapiTainS and Epidoc</change>
     </revisionDesc>

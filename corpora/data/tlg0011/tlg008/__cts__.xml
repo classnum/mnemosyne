@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:greekLit:tlg0011.tlg008"
    xml:lang="grc" groupUrn="urn:cts:greekLit:tlg0011">
    <ti:title xml:lang="fra">Les limiers</ti:title>
-
    <ti:edition xml:lang="grc" workUrn="urn:cts:greekLit:tlg0011.tlg008"
       urn="urn:cts:greekLit:tlg0011.tlg008.perseus-grc2">
       <ti:label xml:lang="eng">Ichneutae, The Oxyrhynchus papyri Part 9 1174</ti:label>
@@ -12,5 +10,4 @@
          Bernard P. (Bernard Pyne), 1869-1926, editor; Hunt, Arthur S. (Arthur Surridge), 1871-1934,
          editor</ti:description>
    </ti:edition>
-
 </ti:work>
