@@ -55,8 +55,8 @@ class MyNemo(Nemo):
 
 class BreadcrumbTraduction(Breadcrumb):
     Traductions = {
+        "Text Collections": "Collections"
         # "Text Collections": "Collections de textes"
-        "Collections": "Collections"
     }
 
     def render(self, **kwargs):
