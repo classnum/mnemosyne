@@ -2,9 +2,11 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg0086"
     urn="urn:cts:greekLit:tlg0086.tlg038" xml:lang="grc">
     <ti:title xml:lang="eng">Rhetoric</ti:title>
+    <ti:title xml:lang="fre">Rhétorique</ti:title>
     <ti:edition urn="urn:cts:greekLit:tlg0086.tlg038.perseus-grc1"
         workUrn="urn:cts:greekLit:tlg0086.tlg038">
         <ti:label xml:lang="eng">Rhetoric</ti:label>
+        <ti:label xml:lang="fre">Rhétorique</ti:label>
         <ti:description xml:lang="eng">Aristotle. ed. W. D. Ross, Ars Rhetorica. Oxford, Clarendon
             Press. 1959.</ti:description>
     </ti:edition>

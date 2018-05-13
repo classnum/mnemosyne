@@ -2,9 +2,11 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg0086"
     urn="urn:cts:greekLit:tlg0086.tlg035" xml:lang="grc">
     <ti:title xml:lang="eng">Politics</ti:title>
+    <ti:title xml:lang="fre">Les Politiques</ti:title>
     <ti:edition urn="urn:cts:greekLit:tlg0086.tlg035.perseus-grc1"
         workUrn="urn:cts:greekLit:tlg0086.tlg035">
         <ti:label xml:lang="eng">Politics</ti:label>
+        <ti:label xml:lang="fre">Les Politiques</ti:label>
         <ti:description xml:lang="eng">Aristotle. ed. W. D. Ross, Aristotle’s Politica. Oxford,
             Clarendon Press. 1957.</ti:description>
     </ti:edition>

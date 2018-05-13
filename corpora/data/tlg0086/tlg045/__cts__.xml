@@ -2,9 +2,11 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg0086"
     urn="urn:cts:greekLit:tlg0086.tlg045" xml:lang="grc">
     <ti:title xml:lang="eng">Virtues and Vices</ti:title>
+    <ti:title xml:lang="fre">Les Vertus et les Vices</ti:title>
     <ti:edition urn="urn:cts:greekLit:tlg0086.tlg045.perseus-grc1"
         workUrn="urn:cts:greekLit:tlg0086.tlg045">
         <ti:label xml:lang="eng">Virtues and Vices</ti:label>
+        <ti:label xml:lang="fre">Les Vertus et les Vices</ti:label>
         <ti:description xml:lang="eng">Bekker, Aristotle’s Opera, vol. 2, Berlin, Reimer,
             1831.</ti:description>
     </ti:edition>
