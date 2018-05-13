@@ -2,7 +2,7 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi0119.phi012"
     xml:lang="lat" groupUrn="urn:cts:latinLit:phi0119">
     <ti:title xml:lang="eng">Miles Gloriosus</ti:title>
-    <ti:title xml:lang="fra">Le Soldat fanfaron</ti:title>
+    <ti:title xml:lang="fre">Le Soldat fanfaron</ti:title>
     <ti:edition urn="urn:cts:latinLit:phi0119.phi012.perseus-lat2"
         workUrn="urn:cts:latinLit:phi0119.phi012">
         <ti:label xml:lang="eng">Miles Gloriosus, Comoediae Vol 1-2</ti:label>

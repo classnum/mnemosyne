@@ -2,7 +2,7 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi1017.phi009"
   groupUrn="urn:cts:latinLit:phi1017" xml:lang="lat">
   <ti:title xml:lang="eng">Hercules Oetaeus</ti:title>
-  <ti:title xml:lang="fra">Hercule sur l’Œta</ti:title>
+  <ti:title xml:lang="fre">Hercule sur l’Œta</ti:title>
   <ti:edition urn="urn:cts:latinLit:phi1017.phi009.perseus-lat2"
     workUrn="urn:cts:latinLit:phi1017.phi009">
     <ti:label xml:lang="eng">Hercules Oetaeus, Tragoediae</ti:label>

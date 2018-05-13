@@ -2,7 +2,7 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi1017.phi008"
   groupUrn="urn:cts:latinLit:phi1017" xml:lang="lat">
   <ti:title xml:lang="eng">Thyestes</ti:title>
-  <ti:title xml:lang="fra">Thyeste</ti:title>
+  <ti:title xml:lang="fre">Thyeste</ti:title>
   <ti:edition urn="urn:cts:latinLit:phi1017.phi008.perseus-lat2"
     workUrn="urn:cts:latinLit:phi1017.phi008">
     <ti:label xml:lang="eng">Thyestes</ti:label>

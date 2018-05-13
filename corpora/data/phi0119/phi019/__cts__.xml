@@ -2,7 +2,7 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi0119.phi019"
     xml:lang="lat" groupUrn="urn:cts:latinLit:phi0119">
     <ti:title xml:lang="eng">Trinummus</ti:title>
-    <ti:title xml:lang="fra">Les Trois Écus</ti:title>
+    <ti:title xml:lang="fre">Les Trois Écus</ti:title>
     <ti:edition urn="urn:cts:latinLit:phi0119.phi019.perseus-lat2"
         workUrn="urn:cts:latinLit:phi0119.phi019">
         <ti:label xml:lang="eng">Trinummus</ti:label>

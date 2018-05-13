@@ -2,7 +2,7 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:phi0690"
   urn="urn:cts:latinLit:phi0690.phi002" xml:lang="lat">
   <ti:title xml:lang="eng">Georgics</ti:title>
-  <ti:title xml:lang="fra">Géorgiques</ti:title>
+  <ti:title xml:lang="fre">Géorgiques</ti:title>
   <ti:edition urn="urn:cts:latinLit:phi0690.phi002.perseus-lat2"
     workUrn="urn:cts:latinLit:phi0690.phi002" xml:lang="lat">
     <ti:label xml:lang="eng">Georgics</ti:label>

@@ -2,7 +2,7 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi1017.phi006"
   groupUrn="urn:cts:latinLit:phi1017" xml:lang="lat">
   <ti:title xml:lang="eng">Oedipus</ti:title>
-  <ti:title xml:lang="fra">Œdipe</ti:title>
+  <ti:title xml:lang="fre">Œdipe</ti:title>
   <ti:edition urn="urn:cts:latinLit:phi1017.phi006.perseus-lat2"
     workUrn="urn:cts:latinLit:phi1017.phi006">
     <ti:label xml:lang="eng">Oedipus</ti:label>

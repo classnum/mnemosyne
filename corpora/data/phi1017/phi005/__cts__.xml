@@ -2,7 +2,7 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi1017.phi005"
   groupUrn="urn:cts:latinLit:phi1017" xml:lang="lat">
   <ti:title xml:lang="eng">Phaedra</ti:title>
-  <ti:title xml:lang="fra">Phèdre</ti:title>
+  <ti:title xml:lang="fre">Phèdre</ti:title>
   <ti:edition urn="urn:cts:latinLit:phi1017.phi005.perseus-lat2"
     workUrn="urn:cts:latinLit:phi1017.phi005">
     <ti:label xml:lang="eng">Phaedra</ti:label>

@@ -2,7 +2,7 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi1017.phi014"
   groupUrn="urn:cts:latinLit:phi1017" xml:lang="lat">
   <ti:title xml:lang="eng">De clementia</ti:title>
-  <ti:title xml:lang="fra">De la clémence</ti:title>
+  <ti:title xml:lang="fre">De la clémence</ti:title>
   <ti:edition urn="urn:cts:latinLit:phi1017.phi014.perseus-lat2"
     workUrn="urn:cts:latinLit:phi1017.phi014">
     <ti:label xml:lang="eng">de Clementia, Moral essays Vol 1</ti:label>

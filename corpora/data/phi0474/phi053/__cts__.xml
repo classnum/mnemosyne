@@ -2,19 +2,19 @@
 <ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts"
   urn="urn:cts:latinLit:phi0474.phi053" groupUrn="urn:cts:latinLit:phi0474">
   <ti:title xml:lang="lat">De divinatione</ti:title>
-  <ti:title xml:lang="fra">De la divination</ti:title>
+  <ti:title xml:lang="fre">De la divination</ti:title>
   <ti:edition urn="urn:cts:latinLit:phi0474.phi053.perseus-lat1"
     workUrn="urn:cts:latinLit:phi0474.phi053">
     <ti:label xml:lang="lat">De divinatione, ed. Müller 1915</ti:label>
-    <ti:label xml:lang="fra">De la divination, éd. Müller 1915</ti:label>
+    <ti:label xml:lang="fre">De la divination, éd. Müller 1915</ti:label>
     <ti:description xml:lang="eng">Cicero, Marcus Tullius</ti:description>
-    <ti:description xml:lang="fra">Cicéron, Marcus Tullius</ti:description>
+    <ti:description xml:lang="fre">Cicéron, Marcus Tullius</ti:description>
   </ti:edition>
   <ti:edition urn="urn:cts:latinLit:phi0474.phi053.perseus-lat2"
     workUrn="urn:cts:latinLit:phi0474.phi053">
     <ti:label xml:lang="lat">De divinatione, ed. Falconer 1923</ti:label>
-    <ti:label xml:lang="fra">De la divination, éd. Falconer 1923</ti:label>
+    <ti:label xml:lang="fre">De la divination, éd. Falconer 1923</ti:label>
     <ti:description xml:lang="eng">Cicero, Marcus Tullius</ti:description>
-    <ti:description xml:lang="fra">Cicéron, Marcus Tullius</ti:description>
+    <ti:description xml:lang="fre">Cicéron, Marcus Tullius</ti:description>
   </ti:edition>
 </ti:work>

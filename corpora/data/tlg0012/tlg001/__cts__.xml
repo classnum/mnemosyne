@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg0012"
   projid="greekLit:tlg001" urn="urn:cts:greekLit:tlg0012.tlg001" xml:lang="grc">
-  <ti:title xml:lang="fra">Iliade</ti:title>
+  <ti:title xml:lang="fre">Iliade</ti:title>
   <ti:edition urn="urn:cts:greekLit:tlg0012.tlg001.perseus-grc2"
     workUrn="urn:cts:greekLit:tlg0012.tlg001">
     <ti:label xml:lang="eng">Iliad, Homeri Opera</ti:label>

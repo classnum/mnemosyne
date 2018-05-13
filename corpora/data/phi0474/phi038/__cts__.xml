@@ -2,12 +2,12 @@
 <ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts"
   urn="urn:cts:latinLit:phi0474.phi038" groupUrn="urn:cts:latinLit:phi0474">
   <ti:title xml:lang="lat">De Partitione Oratoria</ti:title>
-  <ti:title xml:lang="fra">Divisions de l’art oratoire</ti:title>
+  <ti:title xml:lang="fre">Divisions de l’art oratoire</ti:title>
   <ti:edition urn="urn:cts:latinLit:phi0474.phi038.perseus-lat1"
     workUrn="urn:cts:latinLit:phi0474.phi038">
     <ti:label xml:lang="lat">De Partitione Oratoria</ti:label>
-    <ti:label xml:lang="fra">Divisions de l’art oratoire</ti:label>
+    <ti:label xml:lang="fre">Divisions de l’art oratoire</ti:label>
     <ti:description xml:lang="eng">Cicero, Marcus Tullius</ti:description>
-    <ti:description xml:lang="fra">Cicéron, Marcus Tullius</ti:description>
+    <ti:description xml:lang="fre">Cicéron, Marcus Tullius</ti:description>
   </ti:edition>
 </ti:work>

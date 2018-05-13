@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:textgroup xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:greekLit:tlg0003">
    <ti:groupname xml:lang="eng">Thucydides</ti:groupname>
-   <ti:groupname xml:lang="fra">Thucydide</ti:groupname>
+   <ti:groupname xml:lang="fre">Thucydide</ti:groupname>
 </ti:textgroup>

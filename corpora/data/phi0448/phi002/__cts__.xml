@@ -2,12 +2,12 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:phi0448"
     urn="urn:cts:latinLit:phi0448.phi002" xml:lang="lat">
     <ti:title xml:lang="eng">De bello civili</ti:title>
-    <ti:title xml:lang="fra">La Guerre civile</ti:title>
+    <ti:title xml:lang="fre">La Guerre civile</ti:title>
     <ti:edition workUrn="urn:cts:latinLit:phi0448.phi002"
         urn="urn:cts:latinLit:phi0448.phi002.perseus-lat1">
         <ti:label xml:lang="eng">De bello civili</ti:label>
         <ti:description xml:lang="eng">Caesar</ti:description>
-        <ti:label xml:lang="fra">La Guerre civile</ti:label>
-        <ti:description xml:lang="fra">César</ti:description>
+        <ti:label xml:lang="fre">La Guerre civile</ti:label>
+        <ti:description xml:lang="fre">César</ti:description>
     </ti:edition>
 </ti:work>

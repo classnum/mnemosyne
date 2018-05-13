@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts"
     groupUrn="urn:cts:latinLit:phi0474" urn="urn:cts:latinLit:phi0474.phi004">
-    <ti:title xml:lang="fra">Contre Quintus Caecilius</ti:title>
+    <ti:title xml:lang="fre">Contre Quintus Caecilius</ti:title>
     <ti:title xml:lang="lat">Divinatio in Q. Caecilium</ti:title>
     <ti:edition workUrn="urn:cts:latinLit:phi0474.phi004"
         urn="urn:cts:latinLit:phi0474.phi004.perseus-lat2" xml:lang="lat">
         <ti:label xml:lang="lat">Divinatio in Q. Caecilium, Orationes Vol. III</ti:label>
         <ti:description xml:lang="eng">Cicero, Marcus Tullius</ti:description>
-        <ti:description xml:lang="fra">Cicéron, Marcus Tullius</ti:description>
+        <ti:description xml:lang="fre">Cicéron, Marcus Tullius</ti:description>
     </ti:edition>
 </ti:work>

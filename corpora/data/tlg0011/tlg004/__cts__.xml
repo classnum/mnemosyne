@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:greekLit:tlg0011.tlg004"
    xml:lang="grc" groupUrn="urn:cts:greekLit:tlg0011">
-   <ti:title xml:lang="fra">Oedipe roi</ti:title>
+   <ti:title xml:lang="fre">Oedipe roi</ti:title>
    <ti:edition xml:lang="grc" workUrn="urn:cts:greekLit:tlg0011.tlg004"
       urn="urn:cts:greekLit:tlg0011.tlg004.perseus-grc2">
       <ti:label xml:lang="eng">Oedipus Tyrannus</ti:label>

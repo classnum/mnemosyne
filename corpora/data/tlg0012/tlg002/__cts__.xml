@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg0012"
    projid="greekLit:tlg002" urn="urn:cts:greekLit:tlg0012.tlg002" xml:lang="grc">
-   <ti:title xml:lang="fra">Odyssée</ti:title>
+   <ti:title xml:lang="fre">Odyssée</ti:title>
    <ti:edition urn="urn:cts:greekLit:tlg0012.tlg002.perseus-grc2"
       workUrn="urn:cts:greekLit:tlg0012.tlg002">
       <ti:label xml:lang="eng">Odyssey, Loeb classical library</ti:label>

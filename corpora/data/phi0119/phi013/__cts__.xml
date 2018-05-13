@@ -2,7 +2,7 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi0119.phi013"
     xml:lang="lat" groupUrn="urn:cts:latinLit:phi0119">
     <ti:title xml:lang="eng">Mostellaria</ti:title>
-    <ti:title xml:lang="fra">Le Revenant</ti:title>
+    <ti:title xml:lang="fre">Le Revenant</ti:title>
     <ti:edition urn="urn:cts:latinLit:phi0119.phi013.perseus-lat2"
         workUrn="urn:cts:latinLit:phi0119.phi013">
         <ti:label xml:lang="eng">Mostellaria, Comoediae Vol 1-2</ti:label>

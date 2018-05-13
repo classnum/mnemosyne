@@ -2,7 +2,7 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi1017.phi010"
   groupUrn="urn:cts:latinLit:phi1017" xml:lang="lat">
   <ti:title xml:lang="eng">Octavia</ti:title>
-  <ti:title xml:lang="fra">Octavie</ti:title>
+  <ti:title xml:lang="fre">Octavie</ti:title>
   <ti:edition urn="urn:cts:latinLit:phi1017.phi010.perseus-lat2"
     workUrn="urn:cts:latinLit:phi1017.phi010">
     <ti:label xml:lang="eng">Octavia, Tragoediae</ti:label>

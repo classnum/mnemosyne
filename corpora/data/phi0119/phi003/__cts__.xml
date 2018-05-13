@@ -2,7 +2,7 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi0119.phi003"
     xml:lang="lat" groupUrn="urn:cts:latinLit:phi0119">
     <ti:title xml:lang="eng">Aulularia</ti:title>
-    <ti:title xml:lang="fra">La Marmite</ti:title>
+    <ti:title xml:lang="fre">La Marmite</ti:title>
     <ti:edition urn="urn:cts:latinLit:phi0119.phi003.perseus-lat2"
         workUrn="urn:cts:latinLit:phi0119.phi003">
         <ti:label xml:lang="eng">Aulularia, Comoediae Vol 1-2</ti:label>

@@ -2,7 +2,7 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi1017.phi003"
   groupUrn="urn:cts:latinLit:phi1017" xml:lang="lat">
   <ti:title xml:lang="eng">Phoenissae</ti:title>
-  <ti:title xml:lang="fra">Les Phéniciennes</ti:title>
+  <ti:title xml:lang="fre">Les Phéniciennes</ti:title>
   <ti:edition urn="urn:cts:latinLit:phi1017.phi003.perseus-lat2"
     workUrn="urn:cts:latinLit:phi1017.phi003">
     <ti:label xml:lang="eng">Phoenissae</ti:label>

@@ -2,7 +2,7 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi1017.phi001"
   groupUrn="urn:cts:latinLit:phi1017" xml:lang="lat">
   <ti:title xml:lang="eng">Hercules Furens</ti:title>
-  <ti:title xml:lang="fra">Hercule furieux</ti:title>
+  <ti:title xml:lang="fre">Hercule furieux</ti:title>
   <ti:edition urn="urn:cts:latinLit:phi1017.phi001.perseus-lat2"
     workUrn="urn:cts:latinLit:phi1017.phi001">
     <ti:label xml:lang="eng">Hercules Furens</ti:label>

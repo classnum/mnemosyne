@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts"
     groupUrn="urn:cts:latinLit:phi0474" urn="urn:cts:latinLit:phi0474.phi010">
-    <ti:title xml:lang="fra">Pour Aulus Cluentius</ti:title>
+    <ti:title xml:lang="fre">Pour Aulus Cluentius</ti:title>
     <ti:title xml:lang="lat">Pro Cluentio</ti:title>
     <ti:edition urn="urn:cts:latinLit:phi0474.phi010.perseus-lat2"
         workUrn="urn:cts:latinLit:phi0474.phi010" xml:lang="lat">
         <ti:label xml:lang="lat">Pro Cluentio</ti:label>
-        <ti:label xml:lang="fra">Pour Aulus Cluentius</ti:label>
+        <ti:label xml:lang="fre">Pour Aulus Cluentius</ti:label>
         <ti:description xml:lang="lat">Orationes Vol. I, Cicero,auteur</ti:description>
     </ti:edition>
 </ti:work>

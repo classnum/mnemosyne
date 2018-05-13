@@ -2,7 +2,7 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi1017.phi007"
   groupUrn="urn:cts:latinLit:phi1017" xml:lang="lat">
   <ti:title xml:lang="eng">Agamemnon</ti:title>
-  <ti:title xml:lang="fra">Agamemnon</ti:title>
+  <ti:title xml:lang="fre">Agamemnon</ti:title>
   <ti:edition urn="urn:cts:latinLit:phi1017.phi007.perseus-lat2"
     workUrn="urn:cts:latinLit:phi1017.phi007">
     <ti:label xml:lang="eng">Agamemnon, Tragoediae</ti:label>

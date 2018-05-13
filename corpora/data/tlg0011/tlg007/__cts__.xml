@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:greekLit:tlg0011.tlg007"
    xml:lang="grc" groupUrn="urn:cts:greekLit:tlg0011">
-   <ti:title xml:lang="fra">Oedipus à Colone</ti:title>
+   <ti:title xml:lang="fre">Oedipus à Colone</ti:title>
    <ti:edition xml:lang="grc" workUrn="urn:cts:greekLit:tlg0011.tlg007"
       urn="urn:cts:greekLit:tlg0011.tlg007.perseus-grc2">
       <ti:label xml:lang="eng">Oedipus at Colonus</ti:label>

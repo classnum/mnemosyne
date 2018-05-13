@@ -2,10 +2,10 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg0086"
     urn="urn:cts:greekLit:tlg0086.tlg034" xml:lang="grc">
     <ti:title xml:lang="eng">Ars Poetica</ti:title>
-    <ti:title xml:lang="fra">Poétique</ti:title>
+    <ti:title xml:lang="fre">Poétique</ti:title>
     <ti:edition urn="urn:cts:greekLit:tlg0086.tlg034.digicorpus-grc1"
         workUrn="urn:cts:greekLit:tlg0086.tlg034">
-        <ti:label xml:lang="eng">Ars Poetica</ti:label>c <ti:label xml:lang="fra"
+        <ti:label xml:lang="eng">Ars Poetica</ti:label>c <ti:label xml:lang="fre"
             >Poétique</ti:label>
         <ti:description xml:lang="eng">Aristotelis Opera, ed. Immanuel Bekker. Oxford, Oxford
             University Press, 1837. </ti:description>

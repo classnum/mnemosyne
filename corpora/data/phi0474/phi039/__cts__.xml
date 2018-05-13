@@ -2,12 +2,12 @@
 <ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts"
   urn="urn:cts:latinLit:phi0474.phi039" groupUrn="urn:cts:latinLit:phi0474">
   <ti:title xml:lang="lat">Brutus</ti:title>
-  <ti:title xml:lang="fra">Brutus</ti:title>
+  <ti:title xml:lang="fre">Brutus</ti:title>
   <ti:edition urn="urn:cts:latinLit:phi0474.phi039.perseus-lat1"
     workUrn="urn:cts:latinLit:phi0474.phi039">
     <ti:label xml:lang="lat">Brutus, Rhetorica, Vol. II</ti:label>
-    <ti:label xml:lang="fra">Brutus, Rhétorique, Vol. II</ti:label>
+    <ti:label xml:lang="fre">Brutus, Rhétorique, Vol. II</ti:label>
     <ti:description xml:lang="eng">Cicero, Marcus Tullius</ti:description>
-    <ti:description xml:lang="fra">Cicéron, Marcus Tullius</ti:description>
+    <ti:description xml:lang="fre">Cicéron, Marcus Tullius</ti:description>
   </ti:edition>
 </ti:work>

@@ -2,12 +2,12 @@
 <ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts"
   urn="urn:cts:latinLit:phi0474.phi043" groupUrn="urn:cts:latinLit:phi0474">
   <ti:title xml:lang="lat">De Republica</ti:title>
-  <ti:title xml:lang="fra">Sur la République</ti:title>
+  <ti:title xml:lang="fre">Sur la République</ti:title>
   <ti:edition urn="urn:cts:latinLit:phi0474.phi043.perseus-lat1"
     workUrn="urn:cts:latinLit:phi0474.phi043">
     <ti:label xml:lang="lat">De Republica</ti:label>
-    <ti:label xml:lang="fra">Sur la République</ti:label>
+    <ti:label xml:lang="fre">Sur la République</ti:label>
     <ti:description xml:lang="eng">Cicero, Marcus Tullius</ti:description>
-    <ti:description xml:lang="fra">Cicéron, Marcus Tullius</ti:description>
+    <ti:description xml:lang="fre">Cicéron, Marcus Tullius</ti:description>
   </ti:edition>
 </ti:work>

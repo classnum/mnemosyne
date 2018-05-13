@@ -2,12 +2,12 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi1017.phi013"
   groupUrn="urn:cts:latinLit:phi1017" xml:lang="lat">
   <ti:title xml:lang="lat">De Beneficiis</ti:title>
-  <ti:title xml:lang="fra">Des Bienfaits</ti:title>
+  <ti:title xml:lang="fre">Des Bienfaits</ti:title>
   <ti:edition urn="urn:cts:latinLit:phi1017.phi013.perseus-lat2"
     workUrn="urn:cts:latinLit:phi1017.phi013">
     <ti:label xml:lang="eng">De Beneficiis, Moral Essays Vol. III</ti:label>
-    <ti:label xml:lang="fra">Des Bienfaits</ti:label>
+    <ti:label xml:lang="fre">Des Bienfaits</ti:label>
     <ti:description xml:lang="eng">Seneca</ti:description>
-    <ti:description xml:lang="fra">Sénèque</ti:description>
+    <ti:description xml:lang="fre">Sénèque</ti:description>
   </ti:edition>
 </ti:work>

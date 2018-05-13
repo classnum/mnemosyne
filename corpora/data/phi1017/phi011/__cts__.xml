@@ -2,12 +2,12 @@
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi1017.phi011"
   groupUrn="urn:cts:latinLit:phi1017" xml:lang="lat">
   <ti:title xml:lang="eng">Apocolocyntosis</ti:title>
-  <ti:title xml:lang="fra">Apocoloquintose</ti:title>
+  <ti:title xml:lang="fre">Apocoloquintose</ti:title>
   <ti:edition urn="urn:cts:latinLit:phi1017.phi011.perseus-lat2"
     workUrn="urn:cts:latinLit:phi1017.phi011">
     <ti:label xml:lang="eng">Apocolocyntosis</ti:label>
-    <ti:label xml:lang="fra">Apocoloquintose</ti:label>
+    <ti:label xml:lang="fre">Apocoloquintose</ti:label>
     <ti:description xml:lang="eng">Seneca</ti:description>
-    <ti:description xml:lang="fra">Sénèque</ti:description>
+    <ti:description xml:lang="fre">Sénèque</ti:description>
   </ti:edition>
 </ti:work>

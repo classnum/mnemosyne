@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:greekLit:tlg0011.tlg002"
   xml:lang="grc" groupUrn="urn:cts:greekLit:tlg0011">
-  <ti:title xml:lang="fra">Antigone</ti:title>
+  <ti:title xml:lang="fre">Antigone</ti:title>
   <ti:edition xml:lang="grc" workUrn="urn:cts:greekLit:tlg0011.tlg002"
     urn="urn:cts:greekLit:tlg0011.tlg002.perseus-grc2">
-    <ti:label xml:lang="fra">Antigone</ti:label>
-    <ti:description xml:lang="fra">Sophocle, créateur, en 441 av. J.-C. </ti:description>
+    <ti:label xml:lang="fre">Antigone</ti:label>
+    <ti:description xml:lang="fre">Sophocle, créateur, en 441 av. J.-C. </ti:description>
   </ti:edition>
 </ti:work>
