@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi1017.phi013"
-  groupUrn="urn:ti:latinLit:phi1017" xml:lang="lat">
-  <ti:title xml:lang="eng">De Beneficiis</ti:title>
+  groupUrn="urn:cts:latinLit:phi1017" xml:lang="lat">
+  <ti:title xml:lang="lat">De Beneficiis</ti:title>
   <ti:title xml:lang="fra">Des Bienfaits</ti:title>
-  <ti:edition urn="urn:ti:latinLit:phi1017.phi013.perseus-lat2"
-    workUrn="urn:ti:latinLit:phi1017.phi013">
-    <ti:label xml:lang="eng">De Beneficiis, Moral essays Vol 3</ti:label>
-    <ti:description xml:lang="eng">Seneca, Lucius Annaeus, ca. 4 B.C.-65 A.D, creator; Basore, John
-      W. (John William), b. 1870, editor; Basore, John W. (John William), b. 1870, editor,
-      translator</ti:description>
+  <ti:edition urn="urn:cts:latinLit:phi1017.phi013.perseus-lat2"
+    workUrn="urn:cts:latinLit:phi1017.phi013">
+    <ti:label xml:lang="eng">De Beneficiis, Moral Essays Vol. III</ti:label>
+    <ti:label xml:lang="fra">Des Bienfaits</ti:label>
+    <ti:description xml:lang="eng">Seneca</ti:description>
+    <ti:description xml:lang="fra">Sénèque</ti:description>
   </ti:edition>
 </ti:work>
