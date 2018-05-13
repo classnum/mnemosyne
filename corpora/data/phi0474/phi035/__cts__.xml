@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts"
   urn="urn:cts:latinLit:phi0474.phi035" groupUrn="urn:cts:latinLit:phi0474">
-  <ti:title xml:lang="lat">Philippicae Orationes</ti:title>  
+  <ti:title xml:lang="lat">Philippicae Orationes</ti:title>
   <ti:title xml:lang="fra">Philippiques</ti:title>
   <ti:edition urn="urn:cts:latinLit:phi0474.phi035.perseus-lat1"
     workUrn="urn:cts:latinLit:phi0474.phi035">

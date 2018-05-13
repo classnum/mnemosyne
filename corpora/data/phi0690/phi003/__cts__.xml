@@ -6,8 +6,8 @@
     <ti:edition urn="urn:cts:latinLit:phi0690.phi003.perseus-lat2"
         workUrn="urn:cts:latinLit:phi0690.phi003">
         <ti:label xml:lang="eng">Aeneid</ti:label>
-        <ti:description xml:lang="eng">Vergil. Bucolics, Aeneid, and
-            Georgics Of Vergil. J. B. Greenough. Boston. Ginn &amp;amp; Co. 1900.</ti:description>
+        <ti:description xml:lang="eng">Vergil. Bucolics, Aeneid, and Georgics Of Vergil. J. B.
+            Greenough. Boston. Ginn &amp;amp; Co. 1900.</ti:description>
         <ti:memberof collection="Perseus:collection:Greco-Roman"/>
     </ti:edition>
 </ti:work>
