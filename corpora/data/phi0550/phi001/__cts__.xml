@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:phi0550"
-  projid="latinLit:phi001" urn="urn:cts:latinLit:phi0550.phi001" xml:lang="lat">
+  urn="urn:cts:latinLit:phi0550.phi001" xml:lang="lat">
   <ti:title xml:lang="eng">De Rerum Natura</ti:title>
   <ti:title xml:lang="fre">De la nature</ti:title>
   <ti:edition urn="urn:cts:latinLit:phi0550.phi001.perseus-lat1"

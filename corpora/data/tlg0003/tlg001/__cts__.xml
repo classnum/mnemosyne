@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:greekLit:tlg0003"
-  projid="greekLit:tlg001" urn="urn:cts:greekLit:tlg0003.tlg001" xml:lang="grc">
-  <ti:title xml:lang="fre">Histoire de la Guerre du Péloponnèse</ti:title>
+  urn="urn:cts:greekLit:tlg0003.tlg001" xml:lang="grc">
+  <ti:title xml:lang="eng">History of the Peloponnesian War</ti:title>
+  <ti:title xml:lang="fre">Histoire de la guerre du Péloponnèse</ti:title>
   <ti:edition urn="urn:cts:greekLit:tlg0003.tlg001.perseus-grc2"
     workUrn="urn:cts:greekLit:tlg0003.tlg001">
     <ti:label xml:lang="eng">History of the Peloponnesian War (Oxford 1942 Epidoc)</ti:label>

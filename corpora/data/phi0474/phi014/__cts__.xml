@@ -6,7 +6,7 @@
     <ti:edition urn="urn:cts:latinLit:phi0474.phi014.perseus-lat2"
         workUrn="urn:cts:latinLit:phi0474.phi014" xml:lang="lat">
         <ti:label xml:lang="lat">Pro Murena</ti:label>
-        <ti:label xml:lang="fre">Pour Lucius Murena</ti:label>
+        <ti:label xml:lang="fre">Pour Murena</ti:label>
         <ti:description xml:lang="eng">Cicero, Marcus Tullius</ti:description>
         <ti:description xml:lang="fre">Cicéron, Marcus Tullius</ti:description>
     </ti:edition>
