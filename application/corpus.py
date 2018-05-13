@@ -22,13 +22,13 @@ misc.set_label("Textes divers", "fre")
 organizer = CollectionDispatcher(general_collection, default_inventory_name="mnemosyne:misc")
 
 @organizer.inventory("mnemosyne:grc")
-def organize_my_grec(collection, path=None, **kwargs):
+def organize_my_grc(collection, path=None, **kwargs):
     if collection.id.startswith("urn:cts:greekLit:"):
         return True
     return False
 
 @organizer.inventory("mnemosyne:lat")
-def organize_my_latin(collection, path=None, **kwargs):
+def organize_my_lat(collection, path=None, **kwargs):
     if collection.id.startswith("urn:cts:latinLit:"):
         return True
     return False
