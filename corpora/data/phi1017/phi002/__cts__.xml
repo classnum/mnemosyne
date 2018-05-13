@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cts:work xmlns:cts="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi1017.phi002"
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi1017.phi002"
   groupUrn="urn:cts:latinLit:phi1017" xml:lang="lat">
-  <cts:title xml:lang="fra">Les Troyennes</cts:title>
-  <cts:edition urn="urn:cts:latinLit:phi1017.phi002.perseus-lat2"
+  <ti:title xml:lang="eng">Troades</ti:title>
+  <ti:title xml:lang="fra">Les Troyennes</ti:title>
+  <ti:edition urn="urn:cts:latinLit:phi1017.phi002.perseus-lat2"
     workUrn="urn:cts:latinLit:phi1017.phi002">
-    <cts:label xml:lang="eng">Troades Furens, Tragoediae</cts:label>
-    <cts:description xml:lang="eng">Seneca, Lucius Annaeus, ca. 4 B.C.-65 A.D, creator; Peiper,
-      Rudolf, 1834-1898, editor; Richter, Gustav, 1838-1904, editor</cts:description>
-  </cts:edition>
-</cts:work>
+    <ti:label xml:lang="eng">Troades</ti:label>
+    <ti:description xml:lang="eng">Seneca, Lucius Annaeus, ca. 4 B.C.-65 A.D, creator; Peiper,
+      Rudolf, 1834-1898, editor; Richter, Gustav, 1838-1904, editor</ti:description>
+  </ti:edition>
+</ti:work>

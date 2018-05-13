@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi0119.phi001"
     xml:lang="lat" groupUrn="urn:cts:latinLit:phi0119">
+    <ti:title xml:lang="eng">Amphitryo</ti:title>
     <ti:title xml:lang="fra">Amphitryon</ti:title>
     <ti:edition urn="urn:cts:latinLit:phi0119.phi001.perseus-lat2"
         workUrn="urn:cts:latinLit:phi0119.phi001">

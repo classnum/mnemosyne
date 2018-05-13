@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" groupUrn="urn:cts:latinLit:phi0448"
     urn="urn:cts:latinLit:phi0448.phi001" xml:lang="lat">
+    <ti:title xml:lang="eng">De bello Gallico</ti:title>
     <ti:title xml:lang="fra">La Guerre des Gaules</ti:title>
     <ti:edition workUrn="urn:cts:latinLit:phi0448.phi001"
         urn="urn:cts:latinLit:phi0448.phi001.perseus-lat2">
+        <ti:label xml:lang="eng">De bello Gallico</ti:label>
+        <ti:description xml:lang="eng">Caesar</ti:description>
         <ti:label xml:lang="fra">La Guerre des Gaules</ti:label>
         <ti:description xml:lang="fra">César</ti:description>
     </ti:edition>

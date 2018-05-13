@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts"
-    groupUrn="urn:cts:latinLit:phi0474" projid="latinLit:phi024"
+    groupUrn="urn:cts:latinLit:phi0474"
     urn="urn:cts:latinLit:phi0474.phi024">
+    <ti:title xml:lang="lat">Pro Marco Caelio</ti:title>
     <ti:title xml:lang="fra">Pour Marcus Caelius</ti:title>
-    <ti:edition projid="latinLit:perseus-lat1" urn="urn:cts:latinLit:phi0474.phi024.perseus-lat2"
+    <ti:edition urn="urn:cts:latinLit:phi0474.phi024.perseus-lat2"
         workUrn="urn:cts:latinLit:phi0474.phi024">
+        <ti:label xml:lang="lat">Pro Marco Caelio</ti:label>
         <ti:label xml:lang="fra">Pour Marcus Caelius</ti:label>
-        <ti:description xml:lang="fra"> M. Tullius Cicero. M. Tulli auteur </ti:description>
-        <ti:memberof collection="Perseus:collection:Greco-Roman"/>
+        <ti:description xml:lang="eng">Cicero, Marcus Tullius</ti:description>
+        <ti:description xml:lang="fra">Cicéron, Marcus Tullius</ti:description>
     </ti:edition>
 </ti:work>

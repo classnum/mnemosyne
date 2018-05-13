@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cts:work xmlns:cts="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:latinLit:phi1017.phi015"
   groupUrn="urn:cts:latinLit:phi1017" xml:lang="lat">
+  <cts:title xml:lang="eng">Letters to Lucilius</cts:title>
   <cts:title xml:lang="fra">Lettres à Lucilius</cts:title>
   <cts:edition urn="urn:cts:latinLit:phi1017.phi015.perseus-lat2"
     workUrn="urn:cts:latinLit:phi1017.phi015">

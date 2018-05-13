@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:work xml:lang="lat" xmlns:ti="http://chs.harvard.edu/xmlns/cts"
-    groupUrn="urn:cts:latinLit:phi0474" projid="latinLit:phi002"
-    urn="urn:cts:latinLit:phi0474.phi002">
+    groupUrn="urn:cts:latinLit:phi0474" urn="urn:cts:latinLit:phi0474.phi002">
     <ti:title xml:lang="fra">Pour Sextus Roscius d'Amérie</ti:title>
     <ti:title xml:lang="lat">Pro S. Roscio Amerino</ti:title>
     <ti:edition urn="urn:cts:latinLit:phi0474.phi002.perseus-lat2"
         workUrn="urn:cts:latinLit:phi0474.phi002">
+        <ti:label xml:lang="lat">Pro S. Roscio Amerino</ti:label>
         <ti:label xml:lang="fra">Pour Sextus Roscius d'Ameria</ti:label>
-        <ti:description xml:lang="fra">Ciceron, Marcus Tullius</ti:description>
+        <ti:description xml:lang="eng">Cicero, Marcus Tullius</ti:description>
+        <ti:description xml:lang="fra">Cicéron, Marcus Tullius</ti:description>
     </ti:edition>
 </ti:work>
