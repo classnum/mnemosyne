@@ -5,7 +5,7 @@
     <ti:title xml:lang="fre">Le Soldat fanfaron</ti:title>
     <ti:edition urn="urn:cts:latinLit:phi0119.phi012.perseus-lat2"
         workUrn="urn:cts:latinLit:phi0119.phi012">
-        <ti:label xml:lang="eng">Miles Gloriosus, Comoediae Vol 1-2</ti:label>
+        <ti:label xml:lang="eng">Miles Gloriosus</ti:label>
         <ti:description xml:lang="eng">Plautus, Titus Maccius, creator; Leo, Friedrich, 1851-1914,
             editor</ti:description>
     </ti:edition>

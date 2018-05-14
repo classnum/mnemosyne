@@ -5,7 +5,7 @@
     <ti:title xml:lang="fre">Le Revenant</ti:title>
     <ti:edition urn="urn:cts:latinLit:phi0119.phi013.perseus-lat2"
         workUrn="urn:cts:latinLit:phi0119.phi013">
-        <ti:label xml:lang="eng">Mostellaria, Comoediae Vol 1-2</ti:label>
+        <ti:label xml:lang="eng">Mostellaria</ti:label>
         <ti:description xml:lang="eng">Plautus, Titus Maccius, creator; Leo, Friedrich, 1851-1914,
             editor</ti:description>
     </ti:edition>
