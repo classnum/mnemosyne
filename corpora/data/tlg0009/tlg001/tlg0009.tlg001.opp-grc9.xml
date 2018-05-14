@@ -3,11 +3,10 @@
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <!-- TÂCHES ET COMMENTAIRES -->
-  <!-- AB : Ce n'est pas une bonne pratique de laisser les tâches et commentaires dans le fichier… Le forum ou un fichier partagé sont plus indiqués. Une plateforme comme GitHub prévoit un espace pour ces notes, mais je ne vous ai pas demandé d'ouvrir un compte pour la durée de ce petit projet. Cela vous aurait permis d'accéder au compte du master, https://github.com/classnum, d'où je prévois de déployer notre site Capitains. -->
+  <!-- AB : Ce n'est pas une bonne pratique de laisser les tâches et commentaires dans le fichier… -->
   <!-- Tsilla: Il faudra trouver quelque chose à faire avec ces Cox/ dans les <l></l> et ça va sans doute se régler au <app>... -->
   <!-- Tsilla: Je n'ai pas encore fait tous les supplied -->
   <!-- Tsilla: certains des supplied ont reason="lost" d'autres reason="undefined". Il faudra décider entre les deux. -->
-  <!-- AB : Quelques réponses ci-dessous. -->
   <!-- Tsilla: Pourquoi y a-t-il autant de moyen d'exprimer des gaps ?! -->
   <!-- AB : il y a souvent plusieurs moyens d'exprimer le même phénomène… Cependant, êtes-vous certaine que les consignes d'EpiDoc ne règlent pas votre hésitation ? -->
   <!-- Tsilla: On devra trouver comment coder l'enjambement et la scansion -->
@@ -15,25 +14,28 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Poèmes de Sappho</title>
+        <title>Sappho, Poèmes</title>
         <respStmt>
-          <resp>Encodés en XML-TEI à partir du HTML par les étudiants de M1 de l'année
-            2017-2018</resp>
-          <name>Aude Perrineau, Tsilla Meyer, Fanny Lauret, Ioanna Faita, Melina Tzamtzi, Pauline
-            Hessel</name>
-          <name>sous la direction d'Aurélien Berra</name>
-          <!-- MT: j'ai ajouté des noms, changez les si vous voulez -->
+          <resp>Fragments encodés en XML-TEI à partir du HTML par les étudiants de M1 de l'année
+            2017-2018, sous la direction d'<name>Aurélien Berra</name></resp>
+          <name>Ioanna Faita</name>
+          <name>Pauline Hessel</name>
+          <name>Fanny Lauret</name>
+          <name>Tsilla Meyer</name>
+          <name>Aude Perrineau</name>
+          <name>Melina Tzamtzi</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <publisher>Master 1 Humanités classiques et Humanités numériques</publisher>
+        <publisher>Master « Humanités classiques et Humanités numériques », M1</publisher>
         <pubPlace>Nanterre</pubPlace>
         <address>
           <addrLine>UFR PHILLIA</addrLine>
-          <addrLine>Université Paris Nanterre</addrLine>
-          <!--<link target="http://hclassiques.parisnanterre.fr/"/>-->
+          <addrLine>Université Paris-Nanterre</addrLine>
+          <addrLine>http://hclassiques.parisnanterre.fr/</addrLine>
+          <addrLine>http://classnum.hypotheses.org</addrLine>
         </address>
-        <date>avril 2018</date>
+        <date>Janvier-juin 2018</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -42,10 +44,9 @@
           <date type="publicationDate">inconnue</date>
           <ref target="http://inamidst.com/stuff/sappho/">Sappho’s Poems</ref>
           <note>Tentative de compilation de l'intégralité de l'oeuvre de Sappho à partir de sources
-            diverses consultables sur le site source</note>
-          <note>Texte récupéré le 13/02/2018</note>
+            diverses consultables sur le site source.</note>
+          <note>Texte récupéré le <date>2018-02-13</date></note>
           <note>Les textes sont notamment issus de : P. Oxy (Sackler library) et P. Berol</note>
-          <!-- AB : <msDesc> et  <msIdentifier> sont utilisés pour un manuscrit unique : il faudrait affiner l'ensemble pour proposer une description précise de ce type, avec les cotes. Ce n'est pas notre but actuel. -->
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -53,6 +54,10 @@
       <projectDesc>
         <p>Projet collaboratif d'humanités numériques, 2017-2018</p>
       </projectDesc>
+      <refsDecl n="TEI">
+        <refState unit="poem"/>
+        <refState unit="line"/>
+      </refsDecl>
       <refsDecl n="CTS">
         <!-- To implement this feature lines should be numbered: we would need a stable poem numbering scheme before – we drop it for now.
           <cRefPattern n="line" matchPattern="(\w+).(\w+)"
@@ -61,13 +66,8 @@
         </cRefPattern> -->
         <cRefPattern n="poem" matchPattern="(.+)"
           replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
-          <p>This pointer pattern extracts Poem.</p>
+          <p>This pointer pattern extracts poems.</p>
         </cRefPattern>
-      </refsDecl>
-      <refsDecl>
-        <refState unit="poem"/>
-        <!-- <refState delim="." unit="poem"/>
-        <refState unit="line"/> -->
       </refsDecl>
       <!-- <refsDecl n="CTS">
         <cRefPattern n="line" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l)">
@@ -76,11 +76,7 @@
       <cRefPattern n="poem" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:div[@subtype='poem' and @n='$1'])">
           <p>This pointer pattern extracts poem.</p>
         </cRefPattern>
-        </refsDecl>
-      <refsDecl n="TEI">
-        <refState unit="poem"/>
-        <refState unit="line"/>
-      </refsDecl> -->
+        </refsDecl> -->
     </encodingDesc>
     <profileDesc>
       <langUsage>
@@ -89,7 +85,7 @@
       </langUsage>
     </profileDesc>
     <revisionDesc>
-      <change who="Aurélien Berra" when="2018-05-12">First, collaborative version (see sourceDesc).
+      <change who="Aurélien Berra" when="2018-05-12">First, collaborative version.
         Test full compliance with CapiTainS CTS via HookTest. Need further revision.</change>
     </revisionDesc>
   </teiHeader>

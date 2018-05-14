@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts" urn="urn:cts:greekLit:tlg0009.tlg001"
     xml:lang="grc" groupUrn="urn:cts:greekLit:tlg0009">
-    <ti:title xml:lang="eng">Poems</ti:title>
-    <ti:title xml:lang="fre">Poèmes</ti:title>
+    <ti:title xml:lang="eng">Poems [work in progress]</ti:title>
+    <ti:title xml:lang="fre">Poèmes [travail en cours]</ti:title>
     <ti:edition workUrn="urn:cts:greekLit:tlg0009.tlg001"
         urn="urn:cts:greekLit:tlg0009.tlg001.opp-grc9">
-        <ti:label xml:lang="eng">Poems</ti:label>
-        <ti:label xml:lang="fre">Poèmes</ti:label>
-        <ti:description xml:lang="eng">Sappho</ti:description>
-        <ti:description xml:lang="fre">Sappho</ti:description>
+        <ti:label xml:lang="eng">Poems [work in progress]</ti:label>
+        <ti:label xml:lang="fre">Poèmes [travail en cours]</ti:label>
+        <ti:description xml:lang="eng">Sappho [work in progress]</ti:description>
+        <ti:description xml:lang="fre">Sappho [travail en cours]</ti:description>
     </ti:edition>
 </ti:work>
