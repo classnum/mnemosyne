@@ -5,10 +5,9 @@
    <ti:title xml:lang="fre">Les Limiers</ti:title>
    <ti:edition xml:lang="grc" workUrn="urn:cts:greekLit:tlg0011.tlg008"
       urn="urn:cts:greekLit:tlg0011.tlg008.perseus-grc2">
-      <ti:label xml:lang="eng">Ichneutae, The Oxyrhynchus papyri Part 9 1174</ti:label>
-      <ti:description xml:lang="eng">Sophocles, creator; Grenfell, Bernard P. (Bernard Pyne),
-         1869-1926, creator; Hunt, Arthur S. (Arthur Surridge), 1871-1934, creator; Grenfell,
-         Bernard P. (Bernard Pyne), 1869-1926, editor; Hunt, Arthur S. (Arthur Surridge), 1871-1934,
-         editor</ti:description>
+      <ti:label xml:lang="eng">Ichneutae</ti:label>
+      <ti:label xml:lang="fre">Les Limiers</ti:label>
+      <ti:description xml:lang="eng">Sophocles</ti:description>
+      <ti:description xml:lang="fre">Sophocle</ti:description>
    </ti:edition>
 </ti:work>
