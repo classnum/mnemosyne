@@ -12,3 +12,5 @@
 Projet collaboratif du séminaire « Humanités numériques 2 », master « [Humanités classiques et humanités numériques](http://classnum.hypotheses.org) », université Paris-Nanterre.
 
 [CapiTainS](http://capitains.org/) est notre guide. Les textes sont publiés sur la plateforme Heroku à l’adresse [https://classnum-mnemosyne.herokuapp.com/](https://classnum-mnemosyne.herokuapp.com/).
+
+Sauf indication contraire, le contenu de cet entrepôt est placé sous une licence Creative Commons Attribution-ShareAlike (CC BY-SA 4.0).
