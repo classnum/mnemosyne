@@ -8,4 +8,4 @@ install:
   - pip3 install HookTest
 
 script:
-  - hooktest ./corpora --scheme epidoc --workers 3 --verbose 10 --console --countwords --allowfailure --hookUI "http://ci.perseids.org/api/hook/v2.0/user/repositories/classnum/mnemosyne"
+  - hooktest ./corpora --scheme epidoc --workers 3 --verbose 10 --console --countword --allowfailure --hookUI "http://ci.perseids.org/api/hook/v2.0/user/repositories/classnum/mnemosyne"

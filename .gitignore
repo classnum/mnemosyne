@@ -1,6 +1,7 @@
 # added AB
 .coveralls.yml
 supervisord.conf
+HookTest/
 
 # Project specific
 .idea/*
