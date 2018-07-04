@@ -7,9 +7,11 @@
 # Validation
 * [Validator](https://capitains-validator.herokuapp.com/)
 * [HookTest](https://github.com/Capitains/HookTest)
-    * cd <PATH> [EXAMPLE: cd ~/Documents/github/mnemosyne/]
-    * pip install -r requirements.txt
-    * pip3 install HookTest
-    * cd <PATH-TO-CORPORA> [EXAMPLE: cd ~/Documents/github/mnemosyne/corpora]
-    * hooktest ./ --console table --scheme epidoc --workers 3 --verbose 10 --countwords
-    * hooktest ./ --console table --scheme epidoc --workers 3 --verbose 10 --countwords --filter tlg0019.tlg001
+```
+cd ~/Documents/github/mnemosyne/
+pip3 install -r requirements.txt
+pip3 install HookTest
+cd ~/Documents/github/mnemosyne/corpora
+hooktest ./ --console --scheme epidoc --workers 3 --verbose 10 --countwords
+hooktest ./ --console --scheme epidoc --workers 3 --verbose 10 --countwords --filter tlg0019.tlg001
+```
