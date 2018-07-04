@@ -5,7 +5,7 @@ python:
 
 install:
   - pip3 install -r requirements.txt
-  - pip3 install HookTest>=1.0.0
+  - pip3 install HookTest
 
 script:
   - hooktest ./corpora --scheme epidoc --workers 3 --verbose 10 --console --countword --allowfailure --hookUI "http://ci.perseids.org/api/hook/v2.0/user/repositories/classnum/mnemosyne"
