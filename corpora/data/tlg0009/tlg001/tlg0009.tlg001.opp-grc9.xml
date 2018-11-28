@@ -2,7 +2,7 @@
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <!-- TÂCHES ET COMMENTAIRES -->
+  <!-- TÂCHES ET COMMENTAIRES 2017-2018 -->
   <!-- AB : Ce n'est pas une bonne pratique de laisser les tâches et commentaires dans le fichier… -->
   <!-- Tsilla: Il faudra trouver quelque chose à faire avec ces Cox/ dans les <l></l> et ça va sans doute se régler au <app>... -->
   <!-- Tsilla: Je n'ai pas encore fait tous les supplied -->
@@ -85,8 +85,8 @@
       </langUsage>
     </profileDesc>
     <revisionDesc>
-      <change who="Aurélien Berra" when="2018-05-12">First, collaborative version.
-        Test full compliance with CapiTainS CTS via HookTest. Need further revision.</change>
+      <change who="Aurélien Berra" when="2018-05-12">First, collaborative version. Test full
+        compliance with CapiTainS CTS via HookTest. Need further revision.</change>
     </revisionDesc>
   </teiHeader>
   <text>
@@ -1375,8 +1375,12 @@
             <!-- AB : Non, car c'est le texte du papyrus, que l'éditeur a choisi de faire figurer. -->
             <note>‘3. Cf. Sappho, Frag. 30: mellichothônais, “gentle-voiced,” Trans. Edmonds,</note>
             <note>Source: : P. Oxy. X (1914) 1231, fr. 56 : P. Oxy. XXI (1951) add. p. 123</note>
-            <label>Lobel-Page 31 / Voigt 31 / Gallavotti 2 / Diehl 2 / Bergk 2</label>
-            <note>Wharton:</note>
+          </lg>
+        </div>
+        <div type="textpart" subtype="poem" n="31">
+          <label>Lobel-Page 31 / Voigt 31 / Gallavotti 2 / Diehl 2 / Bergk 2</label>
+          <note>Wharton:</note>
+          <lg>
             <l>Φαίνεταί μοι κήνος ἴσος θέοισιν</l>
             <l>ἔμμεν ὤνηρ, ὄστις ἐναντίος τοι</l>
             <l>ἰζάνει, καὶ πλυσίον ἆδυ φωνεύ-</l>
