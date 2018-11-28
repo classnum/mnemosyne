@@ -1379,6 +1379,8 @@
         </div>
         <div type="textpart" subtype="poem" n="31">
           <label>Lobel-Page 31 / Voigt 31 / Gallavotti 2 / Diehl 2 / Bergk 2</label>
+          <!-- AB : This is a reference to an old edition, which should be checked
+            (cf. http://onlinebooks.library.upenn.edu/webbin/book/lookupname?key=Sappho)
           <lg>
             <head>Wharton</head>
             <l>Φαίνεταί μοι κήνος ἴσος θέοισιν</l>
@@ -1398,13 +1400,14 @@
             <l>ἔμμι, τεθνάκην δ’ ὀλίγω ’πιδεύης</l>
             <l>φαίνομαι [ἄλλα].</l>
             <l>ἀλλὰ πᾶν τόλματον, [ἐπεὶ καὶ πένητα].</l>
-          </lg>
+          </lg>-->
           <lg>
-            <head>STOA</head>
-            <!-- Tsilla: Trouver la notation TEI pour indiquer qu’un mot continue au vers suivant -->
+            <note>Source: http://www.stoa.org/unicode/texts/sappho31.html</note>
+            <!--<head>STOA</head>-->
             <l>φαίνεταί μοι κῆνος ἴσος θέοισιν</l>
             <l>ἔμμεν’ ὤνηρ, ὄττις ἐνάντιός τοι</l>
             <l>ἰσδάνει καὶ πλάσιον ἆδυ φονεί-</l>
+            <!-- Tsilla: Trouver la notation TEI pour indiquer qu’un mot continue au vers suivant -->
             <l>σας ὐπακούει</l>
             <l>καὶ γελαίσας ἰμέροεν, τό μ’ ἦ μὰν</l>
             <l>καρδίαν ἐν στήθεσιν ἐπτόαισεν·</l>
