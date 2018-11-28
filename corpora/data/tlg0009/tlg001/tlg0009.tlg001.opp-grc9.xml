@@ -3,21 +3,21 @@
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <!-- TÂCHES ET COMMENTAIRES 2017-2018 -->
-  <!-- AB : Ce n'est pas une bonne pratique de laisser les tâches et commentaires dans le fichier… -->
+  <!-- AB : Ce n’est pas une bonne pratique de laisser les tâches et commentaires dans le fichier… -->
   <!-- Tsilla: Il faudra trouver quelque chose à faire avec ces Cox/ dans les <l></l> et ça va sans doute se régler au <app>... -->
-  <!-- Tsilla: Je n'ai pas encore fait tous les supplied -->
-  <!-- Tsilla: certains des supplied ont reason="lost" d'autres reason="undefined". Il faudra décider entre les deux. -->
-  <!-- Tsilla: Pourquoi y a-t-il autant de moyen d'exprimer des gaps ?! -->
-  <!-- AB : il y a souvent plusieurs moyens d'exprimer le même phénomène… Cependant, êtes-vous certaine que les consignes d'EpiDoc ne règlent pas votre hésitation ? -->
-  <!-- Tsilla: On devra trouver comment coder l'enjambement et la scansion -->
-  <!-- AB : Ce n'est pas urgent : vous ne visez pas ici l'analyse métrique ! Dans le texte, partout où vous mentionnez la scansion, je crois que vous avez seulement besoin d'utiliser les caractères Unicode pertinents pour brève et longue. Voyez par exemple la rubrique "Computer encodings" de https://en.wikipedia.org/wiki/Greek_alphabet. -->
+  <!-- Tsilla: Je n’ai pas encore fait tous les supplied -->
+  <!-- Tsilla: certains des supplied ont reason="lost" d’autres reason="undefined". Il faudra décider entre les deux. -->
+  <!-- Tsilla: Pourquoi y a-t-il autant de moyen d’exprimer des gaps ?! -->
+  <!-- AB : il y a souvent plusieurs moyens d’exprimer le même phénomène… Cependant, êtes-vous certaine que les consignes d’EpiDoc ne règlent pas votre hésitation ? -->
+  <!-- Tsilla: On devra trouver comment coder l’enjambement et la scansion -->
+  <!-- AB : Ce n’est pas urgent : vous ne visez pas ici l’analyse métrique ! Dans le texte, partout où vous mentionnez la scansion, je crois que vous avez seulement besoin d’utiliser les caractères Unicode pertinents pour brève et longue. Voyez par exemple la rubrique "Computer encodings" de https://en.wikipedia.org/wiki/Greek_alphabet. -->
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Sappho, Poèmes</title>
         <respStmt>
-          <resp>Fragments encodés en XML-TEI à partir du HTML par les étudiants de M1 de l'année
-            2017-2018, sous la direction d'<name>Aurélien Berra</name></resp>
+          <resp>Fragments encodés en XML-TEI à partir du HTML par les étudiants de M1 de l’année
+            2017-2018, sous la direction d’<name>Aurélien Berra</name></resp>
           <name>Ioanna Faita</name>
           <name>Pauline Hessel</name>
           <name>Fanny Lauret</name>
@@ -43,7 +43,7 @@
           <title>Sappho’s Poems</title>
           <date type="publicationDate">inconnue</date>
           <ref target="http://inamidst.com/stuff/sappho/">Sappho’s Poems</ref>
-          <note>Tentative de compilation de l'intégralité de l'oeuvre de Sappho à partir de sources
+          <note>Tentative de compilation de l’intégralité de l’oeuvre de Sappho à partir de sources
             diverses consultables sur le site source.</note>
           <note>Texte récupéré le <date>2018-02-13</date></note>
           <note>Les textes sont notamment issus de : P. Oxy (Sackler library) et P. Berol</note>
@@ -52,7 +52,7 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Projet collaboratif d'humanités numériques, 2017-2018</p>
+        <p>Projet collaboratif d’humanités numériques, 2017-2018</p>
       </projectDesc>
       <refsDecl n="TEI">
         <refState unit="poem"/>
@@ -61,7 +61,7 @@
       <refsDecl n="CTS">
         <!-- To implement this feature lines should be numbered: we would need a stable poem numbering scheme before – we drop it for now.
           <cRefPattern n="line" matchPattern="(\w+).(\w+)"
-          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1']//tei:l[@n='$2'])">
+          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=’$1’]//tei:l[@n=’$2’])">
           <p>This pointer pattern extracts Poem and Line.</p>
         </cRefPattern> -->
         <cRefPattern n="poem" matchPattern="(.+)"
@@ -73,7 +73,7 @@
         <cRefPattern n="line" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l)">
       <p>This pointer pattern extracts line.</p>
       </cRefPattern>
-      <cRefPattern n="poem" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:div[@subtype='poem' and @n='$1'])">
+      <cRefPattern n="poem" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:div[@subtype=’poem’ and @n=’$1’])">
           <p>This pointer pattern extracts poem.</p>
         </cRefPattern>
         </refsDecl> -->
@@ -95,34 +95,34 @@
         <div type="textpart" subtype="poem" n="1">
           <label>Lobel-Page 1 / Voigt 1 / Diehl 1 / Bergk 1 / Cox 1</label>
           <lg>
-            <l>ποικιλόθρον' ἀθανάτ Ἀφρόδιτα,</l>
+            <l>ποικιλόθρον’ ἀθανάτ Ἀφρόδιτα,</l>
             <l>παῖ Δίος δολόπλοκε, λίσσομαί σε,</l>
-            <l>μή μ' ἄσαισι μηδ' ὀνίαισι δάμνα,</l>
+            <l>μή μ’ ἄσαισι μηδ’ ὀνίαισι δάμνα,</l>
             <l>πότνια, θῦμον,</l>
-            <l>ἀλλὰ τυίδ' ἔλθ', αἴ ποτα κἀτέρωτα</l>
+            <l>ἀλλὰ τυίδ’ ἔλθ’, αἴ ποτα κἀτέρωτα</l>
             <l>τὰς ἔμας αὔδας ἀίοισα πήλοι</l>
             <l>ἔκλυες, πάτρος δὲ δόμον λίποισα</l>
             <l>χρύσιον ἦλθες</l>
-            <l>ἄρμ' ὐπασδεύξαισα· κάλοι δέ σ' ἆγον</l>
+            <l>ἄρμ’ ὐπασδεύξαισα· κάλοι δέ σ’ ἆγον</l>
             <l>ὤκεες στροῦθοι περὶ γᾶς μελαίνας</l>
-            <l>πύκνα δίννεντες πτέρ' ἀπ' ὠράνωἴθε-</l>
+            <l>πύκνα δίννεντες πτέρ’ ἀπ’ ὠράνωἴθε-</l>
             <l>ρος διὰ μέσσω·</l>
-            <l>αἶψα δ' ἐξίκοντο· σὺ δ', ὦ μάκαιρα,</l>
-            <l>μειδιαίσαισ' ἀθανάτωι προσώπωι</l>
-            <l>ἤρε' ὄττι δηὖτε πέπονθα κὤττι</l>
+            <l>αἶψα δ’ ἐξίκοντο· σὺ δ’, ὦ μάκαιρα,</l>
+            <l>μειδιαίσαισ’ ἀθανάτωι προσώπωι</l>
+            <l>ἤρε’ ὄττι δηὖτε πέπονθα κὤττι</l>
             <l>δηὖτε κάλημμι</l>
             <l>κὤττι μοι μάλιστα θέλω γένεσθαι</l>
             <l>μαινόλαι θύμωι· τίνα δηὖτε πείθω</l>
-            <l>μαισ' ἄγην ἐς σὰν φιλότατα; τίς σ', ὦ</l>
+            <l>μαισ’ ἄγην ἐς σὰν φιλότατα; τίς σ’, ὦ</l>
             <l>
-              <supplied reason="lost">Ψά</supplied> πφ', ἀδικήει;</l>
+              <supplied reason="lost">Ψά</supplied> πφ’, ἀδικήει;</l>
             <l>καὶ γὰρ αἰ φεύγει, ταχέως διώξει,</l>
-            <l>αἰ δὲ δῶρα μὴ δέκετ', ἀλλὰ δώσει,</l>
+            <l>αἰ δὲ δῶρα μὴ δέκετ’, ἀλλὰ δώσει,</l>
             <l>αἰ δὲ μὴ φίλει, ταχέως φιλήσει</l>
             <l>κωὐκ ἐθέλοισα.</l>
             <l>ἔλθε μοι καὶ νῦν, χαλέπαν δὲ λῦσον</l>
             <l>ἐκ μερίμναν, ὄσσα δέ μοι τέλεσσαι</l>
-            <l>θῦμος ἰμέρρει, τέλεσον, σὺ δ' αὔτα</l>
+            <l>θῦμος ἰμέρρει, τέλεσον, σὺ δ’ αὔτα</l>
             <l>σύμμαχος ἔσσο.</l>
             <note>Source: P. Oxy. 2288.</note>
           </lg>
@@ -163,11 +163,11 @@
             <l>ἄγνον ὄππ <supplied reason="lost">αι</supplied>
               <gap reason="lost" extent="unknown" unit="character"/> χάριεν μὲν ἄλσος</l>
             <l>μαλί <supplied reason="lost">αν</supplied>, βῶμοι †δεμιθυμιάμε-</l>
-            <l> ωοι <supplied reason="lost">λι</supplied> βώντωι·</l>
+            <l>ωοι <supplied reason="lost">λι</supplied> βώντωι·</l>
             <l>ἐν δ’ ὔδωρ ψῦχρον κελάδει δι’ ὔσδων</l>
             <l>μαλίνων, βρόδοισι δὲ παῖς ὀ χῶρος</l>
             <l>ἐσκίαστ’, αἰυθσσομένων δὲ φύλλων</l>
-            <l> κῶμα †καταγριον·</l>
+            <l>κῶμα †καταγριον·</l>
             <l>ἐν δὲ λείμων ἰππόβοτος τέθαλε</l>
             <l>†τωτ <gap reason="lost" quantity="3" unit="character"/> ιριννοις† ἄνθεσιν, αἰ δ’
               ἄηται</l>
@@ -178,9 +178,9 @@
                 >ματ’</supplied> ἔλοισα Κύπρι</l>
             <l>χρυσίαισιν ἐν κυλίκεσσι ἄβρως</l>
             <l>ὀμ <supplied reason="lost">με</supplied> μείχμενον θαλίαισι νέκταρ</l>
-            <l> οἰνοχόαισον</l>
+            <l>οἰνοχόαισον</l>
             <note>-- Bergk 4 / Cox 5 --</note>
-            <l>Ἀμφὶ δὲ ψῦχρον κελάδει δι' ὔσδων</l>
+            <l>Ἀμφὶ δὲ ψῦχρον κελάδει δι’ ὔσδων</l>
             <l>μαλίνων, αἰθυσσομένων δὲ φύλλων</l>
             <l>κῶμα καταρρεῖ</l>
             <note>Source:: Hermogenes about A.D. 170,: and Demetrius, about A.D. 150.</note>
@@ -194,7 +194,7 @@
               <gap reason="lost" extent="unknown" unit="character"/> Ἕλθε, Κύπρι,</l>
             <l>Χπρυσίασιν ἐν κυλίκεσσιν ἄβραισ</l>
             <l>συμμεμιγμένον θαλίαισι νέκταρ</l>
-            <l> οἰνοχόεισα.</l>
+            <l>οἰνοχόεισα.</l>
             <note>Sources:: Ostracon Flor., ed. M. Norsa PSI XIII 1300: Hermog. p. ideon II 4 (p.
               331 Rabe): Athen. XI, 463e</note>
           </lg>
@@ -283,10 +283,10 @@
           <label>Lobel-Page 5 / Voigt 5 / Gallavotti 23 / Diehl 25 / Bergk -</label>
           <lg>
             <l>Κύπρι καὶ Νηρήιδες ἀβλάβην μοι</l>
-            <l>τὸν κασίγνητον δότε τυίδ' ἴκεσθαι</l>
+            <l>τὸν κασίγνητον δότε τυίδ’ ἴκεσθαι</l>
             <l>κὤσσα οἰ θύμῳ κε θέλῃ γένεσθαι</l>
             <l>πάντα τελέσθην,</l>
-            <l>ὄσσα δὲ πρόσθ' ἄμβροτε πάντα λῦσαι</l>
+            <l>ὄσσα δὲ πρόσθ’ ἄμβροτε πάντα λῦσαι</l>
             <l>καὶ φίλοισι οἶσι χάραν γένεσθαι</l>
             <l>κὠνίαν δ’ ἔχθροισι· γένοιτο δ’ ἄμμι</l>
             <l>μηκέτι μηδ’ εἶς</l>
@@ -327,7 +327,7 @@
               <supplied reason="undefined">μ</supplied>ηδ’ εἴς·</l>
             <l>
               <supplied reason="undefined">τὰν κασιγ</supplied>νἠταν δὲ θέλοι πόησθαι</l>
-            <l> ]τίμας <supplied reason="undefined">ὀν</supplied>ίαν δὲ λύγραν</l>
+            <l>]τίμας <supplied reason="undefined">ὀν</supplied>ίαν δὲ λύγραν</l>
             <l>]οτοισι π<supplied reason="undefined">ά</supplied>ροιθ’ ἀχεύων</l>
             <l>].να</l>
             <l>].εισαΐω<supplied reason="undefined">ν</supplied> τὸ κέγχρω</l>
@@ -440,7 +440,7 @@
             <l><gap reason="lost" extent="unknown" unit="character"/>.ωμνέμ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l>εως ζω[</l>
-            <!-- Tsilla : Il me semble qu'il y a un problème, avec un vers aussi cours. Ne devrait-ce pas être <l> εως ζω <gap reason="lost" extent="unknown" unit="character"/>. . ἆς ἄ.<gap reason="lost" extent="unknown" unit="character"/> </l> ? il faudra vérifier sur le texte d'avant nos modifications -->
+            <!-- Tsilla : Il me semble qu’il y a un problème, avec un vers aussi cours. Ne devrait-ce pas être <l> εως ζω <gap reason="lost" extent="unknown" unit="character"/>. . ἆς ἄ.<gap reason="lost" extent="unknown" unit="character"/> </l> ? il faudra vérifier sur le texte d’avant nos modifications -->
             <l><gap reason="lost" extent="unknown" unit="character"/>. . ἆς ἄ.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>υσαι<gap reason="lost"
@@ -501,7 +501,7 @@
             <l><gap reason="lost" extent="unknown" unit="character"/>. . .<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <!-- Tsilla: ...que signifient ces trois points? Font-ils partie du fragment dont on dispose? -->
-            <!-- AB : Il y a plus de texte (illisible) dans la source : contrôlez le site de départ, dont l'URL est dans le `header` ci-dessus. -->
+            <!-- AB : Il y a plus de texte (illisible) dans la source : contrôlez le site de départ, dont l’URL est dans le `header` ci-dessus. -->
             <l><gap reason="lost" extent="unknown" unit="character"/>σθε.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <!-- Tsilla: ...mais pourquoi a-t-on du "σθε.<gap reason="lost" extent="unknown" unit="character"/>" ? -->
@@ -584,7 +584,7 @@
                 σ</supplied>ε πι<supplied reason="undefined">κροτάτ</supplied>αν ἐπεύ[ροι]</l>
             <l>[μη]δὲ καυχάσ[α]ιτο τόδ᾽ ἐννέ[ποισα]</l>
             <l>[Δ]ωρίχα, τὸ δεύ[τ]ερον ὠς πόθε[ννον]</l>
-            <l> [εἰς] ἔρον ἦλθε.</l>
+            <l>[εἰς] ἔρον ἦλθε.</l>
             <note>Source: : P. Oxy. X (1914) 1231 fr. 1, 1 - 12 et fr. 3</note>
           </lg>
         </div>
@@ -618,13 +618,13 @@
             <l>πάμπαν ἐμνάσθη, ἀλλὰ παράγαγ’ αὔταν</l>
             <l>/ <supplied reason="lost">μᾶλλον</supplied> ἐμνάσθη, ἀ<supplied reason="lost"
                 >λλὰ</supplied> παράγαγ᾽ αὔταν</l>
-            <l> οὐκ ἀέκοισαν</l>
+            <l>οὐκ ἀέκοισαν</l>
             <l>/ <supplied reason="lost">πῆλε φίλει</supplied>σαν</l>
             <l>Κύπρις· εὔκαμπτον γὰρ ἔφυ βρότων κῆρ</l>
             <l>] κούφως τ<gap reason="lost" extent="unknown" unit="character"/> οη <gap
                 reason="lost" extent="unknown" unit="character"/> ν</l>
             <l>κἄμε νῦν Ἀνακτορίας ὀνέμναι-</l>
-            <l> σ’ οὐ παρεοίσας</l>
+            <l>σ’ οὐ παρεοίσας</l>
             <l>/ Ὠροσ. εὔκ]αμπτον γαρ <supplied reason="lost">ἀεὶ τὸ θῆλυ</supplied>
             </l>
             <l>
@@ -659,7 +659,7 @@
             <note>Powell (1915) has a fragment of verse two, which he gives the source as: Sappho,
               Oxyrh. Pap. x. p. 23; Frag. i. col. i. l. 18.</note>
             <note>--Bergk 13 --</note>
-            <l>Ἔγω δὲ κήν' ὄτ-</l>
+            <l>Ἔγω δὲ κήν’ ὄτ-</l>
             <l>τω τις ἔραται.</l>
             <note>Source: Apollonius</note>
           </lg>
@@ -668,7 +668,7 @@
           <label>Lobel-Page 17 / Diehl 18</label>
           <lg>
             <l>πλάσιον δη μ<gap reason="lost" extent="unknown" unit="character"/></l>
-            <l>πότνι' Ἠρα σὰ χ<gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>πότνι’ Ἠρα σὰ χ<gap reason="lost" extent="unknown" unit="character"/></l>
             <l>τὰν ἀράταν Ἀτ<supplied reason="lost">ρέιδαι θέσαν κλῆ-</supplied>
             </l>
             <l>τοι βασίληες·</l>
@@ -803,10 +803,10 @@
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ησθαι</l>
             <l>[ – ]ν αὐάδην χ.<gap reason="lost" extent="unknown" unit="character"/></l>
-            <!-- Tsilla: Trouver l'épidoc pour la scansion -->
+            <!-- Tsilla: Trouver l’épidoc pour la scansion -->
             <l>αἰ δ]ὲ μή, χείμων<gap reason="lost" extent="unknown" unit="character"/></l>
             <l>[ – ^ ]τοισαν ἄλγεα.<gap reason="lost" extent="unknown" unit="character"/></l>
-            <!-- Tsilla: trouver l'épidoc pour la scansion -->
+            <!-- Tsilla: trouver l’épidoc pour la scansion -->
             <l><gap reason="lost" extent="unknown" unit="character"/>δε</l>
             <note>[Diehl 36]</note>
             <l>[.].ε.<gap reason="lost" extent="unknown" unit="character"/>κ]έλομαι σ᾽ ἀ[είδην</l>
@@ -912,11 +912,11 @@
           <lg>
             <gap reason="lost" quantity="1" unit="line"/>
             <l>[ ]γμε.[</l>
-            <!-- Tsilla : Le changement de format me perturbe, je préfère en parler en classe (ou sur le forum une fois que j'aurai fini ?) -->
+            <!-- Tsilla : Le changement de format me perturbe, je préfère en parler en classe (ou sur le forum une fois que j’aurai fini ?) -->
             <l>[ ]προλιπ[</l>
             <l>[]νυᾶσεπ[</l>
             <l>[ ]βρα·</l>
-            <l>[ἐ]γλάθαν' ἐσ̣[</l>
+            <l>[ἐ]γλάθαν’ ἐσ̣[</l>
             <l>[ ]ησμεθα̣[</l>
             <l>[]ν̣υνθαλα[</l>
             <gap reason="lost" quantity="1" unit="line"/>
@@ -1305,9 +1305,9 @@
             <l>μ<gap reason="lost" extent="unknown" unit="character"/></l>
             <note>(31) XXI 2166 (a) 13</note>
             <l><gap reason="lost" extent="unknown" unit="character"/></l>
-            <!-- Ressemblait à <l>. . . . . . . . ] [ . . . . .</l> est-ce qu'on remplace par du <gap reason="lost" unit="line" ? -->
-            <!-- Ressemblait à <l>. . . . . . . . ] [ . . . . .</l> est-ce qu'on remplace par du <gap reason="lost" unit="line" ? -->
-            <!-- Ressemblait à <l>. . . . . . . . ] [ . . . . .</l> est-ce qu'on remplace par du <gap reason="lost" unit="line" ?: est-ce qu'on remplace par du <gap reason="lost" unit="line" ? -->
+            <!-- Ressemblait à <l>. . . . . . . . ] [ . . . . .</l> est-ce qu’on remplace par du <gap reason="lost" unit="line" ? -->
+            <!-- Ressemblait à <l>. . . . . . . . ] [ . . . . .</l> est-ce qu’on remplace par du <gap reason="lost" unit="line" ? -->
+            <!-- Ressemblait à <l>. . . . . . . . ] [ . . . . .</l> est-ce qu’on remplace par du <gap reason="lost" unit="line" ?: est-ce qu’on remplace par du <gap reason="lost" unit="line" ? -->
             <l><gap reason="lost" extent="unknown" unit="character"/>
               <gap reason="lost" extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>
@@ -1360,7 +1360,7 @@
           <lg>
             <gap reason="lost" quantity="3" unit="line"/>
             <l>νύκτ<gap reason="lost" extent="unknown" unit="character"/>. [ ]</l>
-            <!-- Tsilla: qu'est-ce qu'ils veulent dire par [ ], <gap reason="lost" extent="unknown" unit="character"/> ? -->
+            <!-- Tsilla: qu’est-ce qu’ils veulent dire par [ ], <gap reason="lost" extent="unknown" unit="character"/> ? -->
             <l>πάρθενοι δ<gap reason="lost" extent="unknown" unit="character"/></l>
             <l>παννυχίσδοι[σ]αι<gap reason="lost" extent="unknown" unit="character"/></l>
             <l>σὰν ἀείδοιεν φ[ιλότατα καὶ νύμ-]</l>
@@ -1371,8 +1371,8 @@
             <l>ὔπνον [ἴ]δωμεν.</l>
             <l>μελῶν Α´</l>
             <l>ΧΗΗΗΔΔ</l>
-            <!-- Tsilla: Si je ne me trompe pas, c'est un nombre... donc ça devrait être une note? -->
-            <!-- AB : Non, car c'est le texte du papyrus, que l'éditeur a choisi de faire figurer. -->
+            <!-- Tsilla: Si je ne me trompe pas, c’est un nombre... donc ça devrait être une note? -->
+            <!-- AB : Non, car c’est le texte du papyrus, que l’éditeur a choisi de faire figurer. -->
             <note>‘3. Cf. Sappho, Frag. 30: mellichothônais, “gentle-voiced,” Trans. Edmonds,</note>
             <note>Source: : P. Oxy. X (1914) 1231, fr. 56 : P. Oxy. XXI (1951) add. p. 123</note>
           </lg>
@@ -1388,45 +1388,45 @@
             <l>καὶ γελαίσας ἰμερόεν, τό μοι μάν</l>
             <l>καρδίαν ἐν στήθεσιν ἐπτόασεν·</l>
             <l>ὡς γὰρ εὔιδον βροχέως σε, φώνας</l>
-            <l>οὺδὲν ἔτ' εἴκει·</l>
-            <l>ἀλλὰ κὰμ μὲν γλῶσσα ἔαγε, λέπτον δ'</l>
+            <l>οὺδὲν ἔτ’ εἴκει·</l>
+            <l>ἀλλὰ κὰμ μὲν γλῶσσα ἔαγε, λέπτον δ’</l>
             <l>αὔτικα χρῷ πῦρ ὐπαδεδρόμακεν,</l>
-            <l>ὀππάτεσσι δ' οὐδὲν ὄρημ', ἐπιρρόμ-</l>
-            <l>βεισι δ' ἄκουαι.</l>
+            <l>ὀππάτεσσι δ’ οὐδὲν ὄρημ’, ἐπιρρόμ-</l>
+            <l>βεισι δ’ ἄκουαι.</l>
             <l>ἀ δέ μίδρως κακχέεται, τρόμος δέ</l>
             <l>παῖσαν ἄγρει, χλωροτέρα δὲ ποίας</l>
-            <l>ἔμμι, τεθνάκην δ' ὀλίγω 'πιδεύης</l>
+            <l>ἔμμι, τεθνάκην δ’ ὀλίγω ’πιδεύης</l>
             <l>φαίνομαι [ἄλλα].</l>
             <l>ἀλλὰ πᾶν τόλματον, [ἐπεὶ καὶ πένητα].</l>
           </lg>
           <lg>
             <head>STOA</head>
-            <!-- Tsilla: Trouver la notation TEI pour indiquer qu'un mot continue au vers suivant -->
+            <!-- Tsilla: Trouver la notation TEI pour indiquer qu’un mot continue au vers suivant -->
             <l>φαίνεταί μοι κῆνος ἴσος θέοισιν</l>
-            <l>ἔμμεν' ὤνηρ, ὄττις ἐνάντιός τοι</l>
+            <l>ἔμμεν’ ὤνηρ, ὄττις ἐνάντιός τοι</l>
             <l>ἰσδάνει καὶ πλάσιον ἆδυ φονεί-</l>
             <l>σας ὐπακούει</l>
-            <l>καὶ γελαίσας ἰμέροεν, τό μ' ἦ μὰν</l>
+            <l>καὶ γελαίσας ἰμέροεν, τό μ’ ἦ μὰν</l>
             <l>καρδίαν ἐν στήθεσιν ἐπτόαισεν·</l>
-            <l>ὠς γὰρ ἔς σ' ἴδω βρόχε', ὤς με φώναί-</l>
-            <l>σ' οὐδ' ἒν ἔτ' εἴκει,</l>
-            <l>ἀλλά κὰμ μὲν γλῶσσα <supplied reason="lost">μ'</supplied> †ἔαγε†, λέπτον</l>
-            <l>δ' αὔτικα χρῷ πῦρ ὐπαδεδρόμηκεν,</l>
-            <l>ὀππάτεσσι δ' οὐδ' ἒν ὄρημμ', ἐπιρρόμ-</l>
-            <l>βεισι δ' ἄκουαι,</l>
-            <l>κὰδ' δέ ἴδρως κακχέεται, τρόμος δὲ</l>
+            <l>ὠς γὰρ ἔς σ’ ἴδω βρόχε’, ὤς με φώναί-</l>
+            <l>σ’ οὐδ’ ἒν ἔτ’ εἴκει,</l>
+            <l>ἀλλά κὰμ μὲν γλῶσσα <supplied reason="lost">μ’</supplied> †ἔαγε†, λέπτον</l>
+            <l>δ’ αὔτικα χρῷ πῦρ ὐπαδεδρόμηκεν,</l>
+            <l>ὀππάτεσσι δ’ οὐδ’ ἒν ὄρημμ’, ἐπιρρόμ-</l>
+            <l>βεισι δ’ ἄκουαι,</l>
+            <l>κὰδ’ δέ ἴδρως κακχέεται, τρόμος δὲ</l>
             <l>παῖσαν ἄγρει, χλωροτέρα δὲ ποίας</l>
-            <l>ἔμμι, τεθνάκην δ' ὀλίγω 'πιδεύης</l>
-            <l>φαίνομ' ἔμ' αὔτᾳ.</l>
+            <l>ἔμμι, τεθνάκην δ’ ὀλίγω ’πιδεύης</l>
+            <l>φαίνομ’ ἔμ’ αὔτᾳ.</l>
             <l>ἀλλὰ τὰν τόλματον, ἐπεὶ †καὶ πένητα†[</l>
           </lg>
-          <!-- AB : à contrôler, car la source est confuse. J'ai restité la version STOA ci-dessus à partir de l'URL indiquée.
+          <!-- AB : à contrôler, car la source est confuse. J’ai restité la version STOA ci-dessus à partir de l’URL indiquée.
             <lg>
             <head>Augustana</head>
-            <l>κὰδ' δέ ἴδρως κακχέεται, τρόμος δὲ</l>
+            <l>κὰδ’ δέ ἴδρως κακχέεται, τρόμος δὲ</l>
             <l>παῖσαν ἄγρει, χλωροτέρα δὲ ποίας</l>
-            <l>ἔμμι, τεθνάκην δ' ὀλίγω 'πιδεύης</l>
-            <l>φαίνομ' ἔμ' αὔτᾳ.</l>
+            <l>ἔμμι, τεθνάκην δ’ ὀλίγω ’πιδεύης</l>
+            <l>φαίνομ’ ἔμ’ αὔτᾳ.</l>
             <l>ἀλλὰ πᾶν τόλματον, ἐπεὶ +καὶ πένητα</l>
             <l>χλωροτέρα δὲ ποίας</l>
             <l>ἔμμι</l>
@@ -1445,7 +1445,7 @@
         <div type="textpart" subtype="poem" n="33">
           <label>Lobel-Page 33 / Diehl 9 / Bergk 9 / Cox 9</label>
           <lg>
-            <l>αἴθ' ἔγω, χρυσοστέφαν' Ἀφρόδιτα,</l>
+            <l>αἴθ’ ἔγω, χρυσοστέφαν’ Ἀφρόδιτα,</l>
             <l>τόνδε τὸν πάλον [^ ^ -] λαχοίην.</l>
             <!-- Tsilla: Trouver la notation Epidoc pour la scansion -->
             <note>Source: Apollonius.</note>
@@ -1490,7 +1490,7 @@
           <lg>
             <l><gap reason="lost" extent="unknown" unit="character"/> κὰτ ἔμον στάλαγμον <gap
                 reason="lost" extent="unknown" unit="character"/></l>
-            <l>τὸν δ' ἐπιπλάζοντ' ἄνεμοι φέροιεν</l>
+            <l>τὸν δ’ ἐπιπλάζοντ’ ἄνεμοι φέροιεν</l>
             <l>καὶ μελεδώναις.</l>
             <note>Source: Etymologicum Magnum</note>
           </lg>
@@ -1505,20 +1505,20 @@
             <l><gap reason="lost" extent="unknown" unit="character"/> πόδας δὲ</l>
             <l>ποίκιλος μάσλης ἐκάλυπτε, Λύδι-</l>
             <l>ον κάλον ἔργον.</l>
-            <note>Source: Scholiast on Aristophanes' Peace, 1174; and also by Pollux, about 180
+            <note>Source: Scholiast on Aristophanes’ Peace, 1174; and also by Pollux, about 180
               A.D.</note>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="40">
           <label>Lobel-Page 40 / Diehl 8 / Bergk 7, 8 / Cox 8</label>
           <lg>
-            <l>σοὶ δ' ἔγω λεύκας †επιδωμον† αἶγος</l>
+            <l>σοὶ δ’ ἔγω λεύκας †επιδωμον† αἶγος</l>
             <note>and augsburg.de has:</note>
             <l>σοὶ δ᾽ ἔγω λεύκας ἐπὶ βῶμον αἶγος</l>
             <gap reason="lost" quantity="1" unit="line"/>
             <l>κἀπιλείψω τοι <gap reason="lost" extent="unknown" unit="character"/></l>
             <note>Cox:</note>
-            <l>Σοὶ δ' ἔγω λεύκας ἐπὶ βῶμον αἶγος</l>
+            <l>Σοὶ δ’ ἔγω λεύκας ἐπὶ βῶμον αἶγος</l>
             <gap reason="lost" quantity="1" unit="line"/>
             <l>κἀπιλείψω τοι <gap reason="lost" extent="unknown" unit="character"/></l>
             <note>Source:</note>
@@ -1538,7 +1538,7 @@
           <label>Lobel-Page 42 / Wharton 16 / Cox 16</label>
           <lg>
             <l>ταῖσι [δὲ] ψῦχρος μὲν ἔγεντὀ θῦμος,</l>
-            <l>πὰρ δ' ἴεισι τὰ πτέρα <gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>πὰρ δ’ ἴεισι τὰ πτέρα <gap reason="lost" extent="unknown" unit="character"/></l>
             <note>Source: Pindar, Pyth. i. 10</note>
           </lg>
         </div>
@@ -1563,9 +1563,9 @@
             <l>κάρυξ ἦλθε θέ[ων ]ελε<gap reason="lost" extent="unknown" unit="character"/>θεις</l>
             <l>Ἴδαος τάδε κα[ῖνα] φ[όρ]ε ις τάχυς ἄγγελος·</l>
             <l>[ ]</l>
-            <l>τάς τ' ἄλλας Ἀσίας τ[ό]δε γᾶν κλέος ἄφθιτον·</l>
-            <l>Ἔκτωρ καὶ συνέταιρ[ο]ι ἄγοισ' ἐλικώπιδα</l>
-            <l>Θήβας ἐξ ἰέρας Πλακίας τ' ἀπ’ ἀ[ι]ν[ν]άω</l>
+            <l>τάς τ’ ἄλλας Ἀσίας τ[ό]δε γᾶν κλέος ἄφθιτον·</l>
+            <l>Ἔκτωρ καὶ συνέταιρ[ο]ι ἄγοισ’ ἐλικώπιδα</l>
+            <l>Θήβας ἐξ ἰέρας Πλακίας τ’ ἀπ’ ἀ[ι]ν[ν]άω</l>
             <l>ἄβραν Ἀνδρομάχαν ἐνὶ ναῦσιν ἐπ’ ἄλμυρον</l>
             <l>πόντον· πόλλα δ’ [ἐλί]γματα χρύσια κἄμματα</l>
             <l>πορφύρ[α] καταύτ[με]να, ποίκιλ’ ἀθύρματα,</l>
@@ -1600,19 +1600,19 @@
         </div>
         <div type="textpart" subtype="poem" n="45">
           <label>Lobel-Page 45</label>
-          <l>ἆς θέλετ' ὔμμες</l>
+          <l>ἆς θέλετ’ ὔμμες</l>
         </div>
         <div type="textpart" subtype="poem" n="46">
           <label>Lobel-Page 46 / 42D</label>
           <lg>
-            <l>ἔγω δ' ἐπὶ μολθάκαν</l>
+            <l>ἔγω δ’ ἐπὶ μολθάκαν</l>
             <l>τύλαν κασπολέω †μέλεα· κἂν μὲν τε τύλαγκας ἀσπόλεα·†</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="47">
           <label>Lobel-Page 47 / Voigt 47 / Diehl 50 / Bergk 42</label>
           <lg>
-            <l>Ἔρος δ' ἐτίναξέ μοι</l>
+            <l>Ἔρος δ’ ἐτίναξέ μοι</l>
             <l>φρένας, ὠς ἄνεμος κὰτ ὄρος δρύσιν ἐμπέτων.</l>
             <note>Source: Maximus Tyrius, about 150 B.C.</note>
           </lg>
@@ -1646,12 +1646,12 @@
         </div>
         <div type="textpart" subtype="poem" n="51">
           <label>Lobel-Page 51 / 46D</label>
-          <l>οὐκ οἶδ' ὄττι θέω· δίχα μοι τὰ νοήμματα</l>
+          <l>οὐκ οἶδ’ ὄττι θέω· δίχα μοι τὰ νοήμματα</l>
         </div>
         <div type="textpart" subtype="poem" n="52">
           <label>Lobel-Page 52 / 47D / Cox 35</label>
           <lg>
-            <l>ψαύην δ' οὐ δοκίμωμ' ὀράνω †δυσπαχέα†</l>
+            <l>ψαύην δ’ οὐ δοκίμωμ’ ὀράνω †δυσπαχέα†</l>
             <l>/ Πσαύην δ᾽ οὐ δοκίμοιμ᾽ ὀράνω δύσι πάχεσιν.</l>
             <note>Source: Herodian</note>
           </lg>
@@ -1664,12 +1664,12 @@
           <label>Lobel-Page 54 / 56D / Cox 61</label>
           <!-- Tsilla: futur <app> <rdg> à mettre en place... -->
           <lg>
-            <l>ἔλθοντ' ἐξ ὀράνω πορφυρίαν περθέμενον χλάμυν <gap reason="lost" extent="unknown"
+            <l>ἔλθοντ’ ἐξ ὀράνω πορφυρίαν περθέμενον χλάμυν <gap reason="lost" extent="unknown"
                 unit="character"/></l>
             <l>
               <note>Source=/ Cox:</note> Ἕλθοντ᾽ ἐξ ὀράνω πορφυρίαν [ἔχοντα]</l>
             <l>περθέμενον χλάμυν.</l>
-            <note>Source: Pollux, 180 AD, (xlamu's)</note>
+            <note>Source: Pollux, 180 AD, (xlamu’s)</note>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="55">
@@ -1677,11 +1677,11 @@
           <lg>
             <l>κατθάνοισα δὲ κείσῃ οὐδέ ποτα</l>
             <l>μναμοσύνα σέθεν</l>
-            <l>ἔσσετ' οὐδὲ †ποκ'†ὔστερον· οὐ</l>
+            <l>ἔσσετ’ οὐδὲ †ποκ’†ὔστερον· οὐ</l>
             <l>γὰρ πεδέχῃς βρόδων</l>
-            <l>τῶν ἐκ Πιερίας· ἀλλ' ἀφάνης</l>
+            <l>τῶν ἐκ Πιερίας· ἀλλ’ ἀφάνης</l>
             <l>κἠν Ἀίδα δόμῳ</l>
-            <l>φοιτάσεις πεδ' ἀμαύρων νεκύων</l>
+            <l>φοιτάσεις πεδ’ ἀμαύρων νεκύων</l>
             <l>ἐκπεποταμένα</l>
             <l>/ Cox: Κατθάνοισα δὲ κείσεαι πότα, κωὐ μναμοσύνα σέθεν</l>
             <l>ἔσσετ᾽ οὔτε τότ᾽ οὔτ᾽ ύ᾽στερον. οὐ γὰρ πεδέχεισ βρόδοων</l>
@@ -1694,7 +1694,7 @@
           <label>Lobel-Page 56 / 60D / Cox 66</label>
           <!-- Tsilla: futur <app> <rdg> à mettre en place... -->
           <lg>
-            <l>οὐδ' ἴαν δοκίμωμι προσίδοισαν φάος ἀλίω</l>
+            <l>οὐδ’ ἴαν δοκίμωμι προσίδοισαν φάος ἀλίω</l>
             <l>ἔσσεσθαι σοφίαν πάρθενον εἰς οὐδένα πω χρόνον</l>
             <l>τεαύταν</l>
             <l>/ Cox: Οὐδ᾽ ἴαν δοκίμοιμι προσίδοισαν φάοσ ἀλίω</l>
@@ -1705,11 +1705,11 @@
         <div type="textpart" subtype="poem" n="57">
           <label>Lobel-Page 57 / 61D / Cox 67 / Bergk 70</label>
           <lg>
-            <l>τίς δ' ἀγροίωτις θέλγει νόον <gap reason="lost" extent="unknown" unit="character"
+            <l>τίς δ’ ἀγροίωτις θέλγει νόον <gap reason="lost" extent="unknown" unit="character"
               /></l>
-            <l>τίς δ' ἀγροίωτιν ἐπεμμένα σπόλαν <gap reason="lost" extent="unknown" unit="character"
+            <l>τίς δ’ ἀγροίωτιν ἐπεμμένα σπόλαν <gap reason="lost" extent="unknown" unit="character"
               /></l>
-            <l>οὐκ ἐπισταμένα τὰ βράκε' ἔλκην ἐπὶ τὼν σφύρων;</l>
+            <l>οὐκ ἐπισταμένα τὰ βράκε’ ἔλκην ἐπὶ τὼν σφύρων;</l>
             <l>/ Cox: Τίσ δ᾽ ἀγροιῶτίσ τοι θέλγει νόον,</l>
             <l>οὐκ ἐπισταμένα τὰ βράκἐ ἔλκην</l>
             <l>ἐπί τῶν σφύρων;</l>
@@ -1761,14 +1761,14 @@
           <label>Lobel-Page 60</label>
           <lg>
             <l>[ ]τύχοισα</l>
-            <l>[ ] θέλ' ὦν τ' απαίσαν</l>
+            <l>[ ] θέλ’ ὦν τ’ απαίσαν</l>
             <l>[ ].εσον νόημμα</l>
             <l>[ ]έτων κάλημ‹μ›ι</l>
             <l>[ ] πεδὰ θῦμον αἶψα</l>
             <l>[ ὄ]σ̣σα τύχην θελήση[ις</l>
             <l>[ ]ρ ἔμοι μάχεσθα[ι</l>
             <l>[χ]λιδάναι πίθεισα[</l>
-            <l>[ ]ι, σὺ δ' εὖ γὰρ οἶσθα</l>
+            <l>[ ]ι, σὺ δ’ εὖ γὰρ οἶσθα</l>
             <l>[ ]έτει τα[.].λε..</l>
             <l>[ ]κλ̣ασ[</l>
             <gap reason="lost" quantity="1" unit="line"/>
@@ -1787,16 +1787,16 @@
           <lg>
             <l>ἐπτάξατε̣[</l>
             <l>δάφνας ὄτα̣[</l>
-            <l>πὰν δ' ἄδιον[</l>
+            <l>πὰν δ’ ἄδιον[</l>
             <l>ἢ κῆνον ἐλο[</l>
             <l>καὶ ταῖσι μὲν ἀ̣[</l>
             <l>ὀδοίπορος ἄν<gap reason="lost" extent="unknown" unit="character"/>..[</l>
-            <l>μύγις δέ ποτ' εἰσάιον· ἐκλ̣[</l>
-            <l>ψύχα δ' ἀγαπάτασυ.[̣</l>
+            <l>μύγις δέ ποτ’ εἰσάιον· ἐκλ̣[</l>
+            <l>ψύχα δ’ ἀγαπάτασυ.[̣</l>
             <l>τέαυτα δὲ νῦν ἔμμ̣[</l>
-            <l>ἴκεσθ' ἀγανα[</l>
+            <l>ἴκεσθ’ ἀγανα[</l>
             <l>ἔφθατε· κάλαν[</l>
-            <l>τά τ' ἔμματα κα̣[</l>
+            <l>τά τ’ ἔμματα κα̣[</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="63">
@@ -1840,23 +1840,23 @@
           <lg>
             <note>(a)</note>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l> ζ̣αταν̣[</l>
-            <l> ἄμ' ἐξα[</l>
+            <l>ζ̣αταν̣[</l>
+            <l>ἄμ’ ἐξα[</l>
             <l>
               <gap reason="lost" extent="unknown" unit="character"/>α[</l>
             <gap reason="lost" quantity="1" unit="line"/>
             <note>(b)</note>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l> []μο[</l>
-            <l> [.]οργι[</l>
-            <l> []σ̣πίο[</l>
-            <l> [ ].[</l>
-            <l> . . .</l>
+            <l>[]μο[</l>
+            <l>[.]οργι[</l>
+            <l>[]σ̣πίο[</l>
+            <l>[ ].[</l>
+            <l>. . .</l>
             <note>(c)</note>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l> []μνα [</l>
-            <l> [].κατ̣εγ̣[</l>
-            <l> [ ]κ̣εκ[</l>
+            <l>[]μνα [</l>
+            <l>[].κατ̣εγ̣[</l>
+            <l>[ ]κ̣εκ[</l>
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
@@ -1867,49 +1867,49 @@
             <gap reason="lost" quantity="1" unit="line"/>
             <l>
               <gap reason="lost" extent="unknown" unit="character"/>ων μα.[</l>
-            <l> []κ]αὶ τοῦτ' ἐπικε.[</l>
-            <l> δ]αίμων ὀλοφ.[</l>
-            <l> []οὐ μὰν ἐφίλησ̣[</l>
-            <l> νῦν δ' ἔννεκα[</l>
-            <l> τὸ δ' αἴτιον οὐτ[</l>
-            <l> ο̣ὐδὲν πόλυ[.].[</l>
+            <l>[]κ]αὶ τοῦτ’ ἐπικε.[</l>
+            <l>δ]αίμων ὀλοφ.[</l>
+            <l>[]οὐ μὰν ἐφίλησ̣[</l>
+            <l>νῦν δ’ ἔννεκα[</l>
+            <l>τὸ δ’ αἴτιον οὐτ[</l>
+            <l>ο̣ὐδὲν πόλυ[.].[</l>
             <l>
-              <gap reason="lost" extent="unknown" unit="character"/>υδ' [̣</l>
+              <gap reason="lost" extent="unknown" unit="character"/>υδ’ [̣</l>
             <gap reason="lost" quantity="1" unit="line"/>
             <note>(b)</note>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l> [ ].ουδε[</l>
-            <l> [ ]τ̣αυτα.[</l>
-            <l> []λαισιμ[</l>
-            <l> [ ]πλήον.[</l>
-            <l> [ ]' ἀμφ[</l>
-            <l> [ ].σθεο.[</l>
-            <l> [ ]̣ρωσ.[</l>
+            <l>[ ].ουδε[</l>
+            <l>[ ]τ̣αυτα.[</l>
+            <l>[]λαισιμ[</l>
+            <l>[ ]πλήον.[</l>
+            <l>[ ]’ ἀμφ[</l>
+            <l>[ ].σθεο.[</l>
+            <l>[ ]̣ρωσ.[</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="68">
           <label>Lobel-Page 68</label>
           <lg>
             <note>(a)</note>
-            <l> [ ]ι̣ γάρ μ' ἀπὺ τὰς ἐ.[</l>
-            <l> [ ὔ]μως δ' ἔγεν[το</l>
-            <l> [ ] ἴσαν θέοισιν</l>
-            <l> [ ]ασαν ἀλίτρα[</l>
-            <l> 5 [ Ἀν]δρομέδαν[.].αξ[</l>
+            <l>[ ]ι̣ γάρ μ’ ἀπὺ τὰς ἐ.[</l>
+            <l>[ ὔ]μως δ’ ἔγεν[το</l>
+            <l>[ ] ἴσαν θέοισιν</l>
+            <l>[ ]ασαν ἀλίτρα[</l>
+            <l>5 [ Ἀν]δρομέδαν[.].αξ[</l>
             <l>[ ]αρ<gap reason="lost" extent="unknown" unit="character"/>.α..κ.[.]α</l>
-            <l> [ ]ε̣ον δὲ τρόπον α[.].ύνη[</l>
-            <l> [ ]κ̣ορο̣ν οὐκατισ.ε.[</l>
-            <l> []κ̣α<gap reason="lost" extent="unknown" unit="character"/>.Τυνδαρίδαι[ς</l>
-            <l> 10 []ασυ[.]...κα[.] χαρίεντ' ἀ.[</l>
-            <l> [ ]κ' ἄδολον [μ]ηκέτι συν[</l>
-            <l> [ ]μεγαρα.<gap reason="lost" extent="unknown" unit="character"/>ν̣α<gap
+            <l>[ ]ε̣ον δὲ τρόπον α[.].ύνη[</l>
+            <l>[ ]κ̣ορο̣ν οὐκατισ.ε.[</l>
+            <l>[]κ̣α<gap reason="lost" extent="unknown" unit="character"/>.Τυνδαρίδαι[ς</l>
+            <l>10 []ασυ[.]...κα[.] χαρίεντ’ ἀ.[</l>
+            <l>[ ]κ’ ἄδολον [μ]ηκέτι συν[</l>
+            <l>[ ]μεγαρα.<gap reason="lost" extent="unknown" unit="character"/>ν̣α<gap
                 reason="lost" extent="unknown" unit="character"/>αβ κη[</l>
             <gap reason="lost" quantity="2" unit="line"/>
-            <l> [ ]....φ[</l>
-            <l> [ ].[.]' θύρα.[</l>
-            <l> []μ̣οι χάλε.[</l>
-            <l> [ ]δεκύ[</l>
-            <l> [ ].οπάλην ὄλ̣[</l>
+            <l>[ ]....φ[</l>
+            <l>[ ].[.]’ θύρα.[</l>
+            <l>[]μ̣οι χάλε.[</l>
+            <l>[ ]δεκύ[</l>
+            <l>[ ].οπάλην ὄλ̣[</l>
             <l>[ ]ε[</l>
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
@@ -1918,9 +1918,9 @@
           <label>Lobel-Page 69</label>
           <lg>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l> []ε..[.]τ̣εγαμ[</l>
-            <l> []ας ἀλίτρα[</l>
-            <l> [ ]έτ' αὐ[</l>
+            <l>[]ε..[.]τ̣εγαμ[</l>
+            <l>[]ας ἀλίτρα[</l>
+            <l>[ ]έτ’ αὐ[</l>
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
@@ -1928,34 +1928,34 @@
           <label>Lobel-Page 70</label>
           <lg>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l> [ ]α̣μ.λ.[</l>
-            <l> [ ]ναμ[</l>
-            <l> [ ]ν̣ δ' εἶμ' ε[</l>
-            <l> [ ]ρ̣σομέν[</l>
-            <l> [ ]λικ' ὐπα[</l>
-            <l> [ ]...[.]βα[</l>
-            <l> [ ]σ̣ γ̣ὰρ ἐ̣παυ[</l>
-            <l> [] μάν κ' ἀπυ̣θ̣υσ̣[</l>
-            <l> [ ]αρμονίας δ̣[</l>
-            <l> []αθην χόρον, ἄα[</l>
-            <l> [ ]δ̣ε λίγηα.[</l>
-            <l> [ ]ατόν σφι̣[</l>
-            <l> [ ]παντεσσι[</l>
-            <l> [ ]επ[.].[</l>
-            <l> . . .</l>
+            <l>[ ]α̣μ.λ.[</l>
+            <l>[ ]ναμ[</l>
+            <l>[ ]ν̣ δ’ εἶμ’ ε[</l>
+            <l>[ ]ρ̣σομέν[</l>
+            <l>[ ]λικ’ ὐπα[</l>
+            <l>[ ]...[.]βα[</l>
+            <l>[ ]σ̣ γ̣ὰρ ἐ̣παυ[</l>
+            <l>[] μάν κ’ ἀπυ̣θ̣υσ̣[</l>
+            <l>[ ]αρμονίας δ̣[</l>
+            <l>[]αθην χόρον, ἄα[</l>
+            <l>[ ]δ̣ε λίγηα.[</l>
+            <l>[ ]ατόν σφι̣[</l>
+            <l>[ ]παντεσσι[</l>
+            <l>[ ]επ[.].[</l>
+            <l>. . .</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="71">
           <label>Lobel-Page 71</label>
           <lg>
-            <l> [ ]μισσε Μίκα</l>
-            <l> [ ]ελα<gap reason="lost" extent="unknown" unit="character"/>λά σ' ἔγωὐκ ἐάσω</l>
-            <l>[]ν̣ φιλότ[ατ'] ἤλεο Πενθιλήαν̣[</l>
-            <l> [ ]δα κα̣[κό]τροπ', ἄμμα[</l>
-            <l> 5 [ ] μέλ̣[ος] τι γλύκερον .[</l>
-            <l> [ ]α μελλιχόφων[</l>
-            <l> [ ]δει, λίγυραι δ' ἄη[</l>
-            <l> [ ] δροσ[ό]εσσα[</l>
+            <l>[ ]μισσε Μίκα</l>
+            <l>[ ]ελα<gap reason="lost" extent="unknown" unit="character"/>λά σ’ ἔγωὐκ ἐάσω</l>
+            <l>[]ν̣ φιλότ[ατ’] ἤλεο Πενθιλήαν̣[</l>
+            <l>[ ]δα κα̣[κό]τροπ’, ἄμμα[</l>
+            <l>5 [ ] μέλ̣[ος] τι γλύκερον .[</l>
+            <l>[ ]α μελλιχόφων[</l>
+            <l>[ ]δει, λίγυραι δ’ ἄη[</l>
+            <l>[ ] δροσ[ό]εσσα[</l>
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
@@ -1963,14 +1963,14 @@
           <label>Lobel-Page 72</label>
           <lg>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l> []ανό̣ρ̣[</l>
-            <l> []αμμε̣[</l>
-            <l> []νπε[</l>
-            <l> []λην[</l>
-            <l> []τες· τ̣[</l>
-            <l> [].ωνω[</l>
-            <l> [ ]μώ[</l>
-            <l> [ ].[</l>
+            <l>[]ανό̣ρ̣[</l>
+            <l>[]αμμε̣[</l>
+            <l>[]νπε[</l>
+            <l>[]λην[</l>
+            <l>[]τες· τ̣[</l>
+            <l>[].ωνω[</l>
+            <l>[ ]μώ[</l>
+            <l>[ ].[</l>
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
@@ -1979,21 +1979,21 @@
           <lg>
             <note>(a)</note>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l> [ ]ν̣β.[.].[.]υ̣</l>
-            <l> [ ]α</l>
-            <l> [ ]αν Ἀφροδι[τα</l>
-            <l> [ ἀ]δύλογοι δ' ἐρ[</l>
-            <l> [ ]β̣αλλοι</l>
-            <l> [ ]ισ̣ ἔχοισα</l>
-            <l> [ ].έ̣να θαασ[ς</l>
-            <l> [ ]άλλει</l>
-            <l> []ας ἐέρσασ[</l>
-            <l> . . .</l>
+            <l>[ ]ν̣β.[.].[.]υ̣</l>
+            <l>[ ]α</l>
+            <l>[ ]αν Ἀφροδι[τα</l>
+            <l>[ ἀ]δύλογοι δ’ ἐρ[</l>
+            <l>[ ]β̣αλλοι</l>
+            <l>[ ]ισ̣ ἔχοισα</l>
+            <l>[ ].έ̣να θαασ[ς</l>
+            <l>[ ]άλλει</l>
+            <l>[]ας ἐέρσασ[</l>
+            <l>. . .</l>
             <note>(b)</note>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l> [ ]ω.[</l>
-            <l> [ ]ασ[</l>
-            <l> []ισ' ἐ[</l>
+            <l>[ ]ω.[</l>
+            <l>[ ]ασ[</l>
+            <l>[]ισ’ ἐ[</l>
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
@@ -2002,32 +2002,32 @@
           <lg>
             <note>(a)</note>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l> []ων ἔκα[</l>
-            <l> []αιπόλ[</l>
-            <l> []μ.[</l>
-            <l> []βροδο[</l>
-            <l> 5 [ ].νθ[</l>
-            <l> []φ̣αιμ[</l>
+            <l>[]ων ἔκα[</l>
+            <l>[]αιπόλ[</l>
+            <l>[]μ.[</l>
+            <l>[]βροδο[</l>
+            <l>5 [ ].νθ[</l>
+            <l>[]φ̣αιμ[</l>
             <gap reason="lost" quantity="1" unit="line"/>
             <note>(b)</note>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l> [ ]α[</l>
-            <l> []ποθο̣[</l>
-            <l> [].ώβα̣[</l>
+            <l>[ ]α[</l>
+            <l>[]ποθο̣[</l>
+            <l>[].ώβα̣[</l>
             <gap reason="lost" quantity="1" unit="line"/>
             <note>(c)</note>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l> [ ].[</l>
-            <l> [ ]ασϊδρω[</l>
-            <l> [].υζ̣αδ.[</l>
+            <l>[ ].[</l>
+            <l>[ ]ασϊδρω[</l>
+            <l>[].υζ̣αδ.[</l>
             <l>
               <gap reason="lost" quantity="1" unit="line"/>
               <note>(d)</note>
               <gap reason="lost" quantity="1" unit="line"/>
             </l>
-            <l> [].[.].ε[</l>
-            <l> []ν̣πο.[</l>
-            <l> [ ]μ̣[</l>
+            <l>[].[.].ε[</l>
+            <l>[]ν̣πο.[</l>
+            <l>[ ]μ̣[</l>
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
@@ -2036,43 +2036,43 @@
           <lg>
             <note>(a)</note>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l> [ ]..[.].[</l>
-            <l> [ ]η̣σαδ.[</l>
-            <l> [ ]λ̣α.[</l>
-            <l> [ ]νίαν[</l>
-            <l> [ ]δ̣ύ.[</l>
-            <l> []ιμεδα̣[</l>
-            <l> []μαστε̣[</l>
-            <l> [ ].κ[</l>
+            <l>[ ]..[.].[</l>
+            <l>[ ]η̣σαδ.[</l>
+            <l>[ ]λ̣α.[</l>
+            <l>[ ]νίαν[</l>
+            <l>[ ]δ̣ύ.[</l>
+            <l>[]ιμεδα̣[</l>
+            <l>[]μαστε̣[</l>
+            <l>[ ].κ[</l>
             <gap reason="lost" quantity="1" unit="line"/>
             <note>(b)</note>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l> [ ]κα[</l>
-            <l> [].πιτα̣[</l>
-            <l> [ ̣]νεσ̣θα̣[</l>
-            <l> [ ]τῶ.[</l>
-            <l> [ ]αν [</l>
+            <l>[ ]κα[</l>
+            <l>[].πιτα̣[</l>
+            <l>[ ̣]νεσ̣θα̣[</l>
+            <l>[ ]τῶ.[</l>
+            <l>[ ]αν [</l>
             <gap reason="lost" quantity="1" unit="line"/>
             <note>(c)</note>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l> [ ].[</l>
-            <l> [ ]δετα̣[</l>
-            <l> [ ]δέ...[</l>
-            <l> []̣μμι.[</l>
-            <l> []ταμέ.[</l>
+            <l>[ ].[</l>
+            <l>[ ]δετα̣[</l>
+            <l>[ ]δέ...[</l>
+            <l>[]̣μμι.[</l>
+            <l>[]ταμέ.[</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="76">
           <label>Lobel-Page 76</label>
           <lg>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l> []αν̣πα̣[</l>
-            <l> []λέσειε κ̣[</l>
-            <l> []ίηλελα[</l>
-            <l> []ε θέλω[</l>
-            <l> []εχην[</l>
-            <l> []η̣· ἔφα.[</l>
-            <l> [ ]αλίκ[</l>
+            <l>[]αν̣πα̣[</l>
+            <l>[]λέσειε κ̣[</l>
+            <l>[]ίηλελα[</l>
+            <l>[]ε θέλω[</l>
+            <l>[]εχην[</l>
+            <l>[]η̣· ἔφα.[</l>
+            <l>[ ]αλίκ[</l>
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
@@ -2081,30 +2081,30 @@
           <note>(a)</note>
           <lg>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l> [ ]α.[</l>
-            <l> [ ]σετα[</l>
-            <l> [ ]υ̣μαι..[</l>
-            <l> [̣]τεχαρα̣[</l>
-            <l> [ ]ι̣δι δοῖσ[</l>
-            <l> [ ]δεν ἀμεσ[</l>
-            <l> [ ]ος σύγ' ἀ[</l>
-            <l> [ ].λονα[</l>
-            <l> [ ].δαλ[</l>
+            <l>[ ]α.[</l>
+            <l>[ ]σετα[</l>
+            <l>[ ]υ̣μαι..[</l>
+            <l>[̣]τεχαρα̣[</l>
+            <l>[ ]ι̣δι δοῖσ[</l>
+            <l>[ ]δεν ἀμεσ[</l>
+            <l>[ ]ος σύγ’ ἀ[</l>
+            <l>[ ].λονα[</l>
+            <l>[ ].δαλ[</l>
             <note>(b)</note>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l> [ ]. [</l>
-            <l> [ ]μήτε̣[</l>
-            <l> []δίαισα [</l>
-            <l> [ ]ες· ἀλλ[</l>
-            <l> [ ]φρα[</l>
-            <l> [ ].[</l>
+            <l>[ ]. [</l>
+            <l>[ ]μήτε̣[</l>
+            <l>[]δίαισα [</l>
+            <l>[ ]ες· ἀλλ[</l>
+            <l>[ ]φρα[</l>
+            <l>[ ].[</l>
             <gap reason="lost" quantity="1" unit="line"/>
             <note>(c)</note>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l> [ ]α̣τω[</l>
-            <l> []ηας</l>
-            <l> []</l>
-            <l> []τ̣ας·</l>
+            <l>[ ]α̣τω[</l>
+            <l>[]ηας</l>
+            <l>[]</l>
+            <l>[]τ̣ας·</l>
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
@@ -2112,13 +2112,13 @@
           <label>Lobel-Page 78</label>
           <lg>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l> [].οναυ[</l>
-            <l> []ην οὐδε[</l>
-            <l> [ ]ης ἴμερ[</l>
-            <l> [].αι δ' ἄμα[</l>
-            <l> [].ανθος·[</l>
-            <l> [ ]μερον[</l>
-            <l> [ ]ετερπ[</l>
+            <l>[].οναυ[</l>
+            <l>[]ην οὐδε[</l>
+            <l>[ ]ης ἴμερ[</l>
+            <l>[].αι δ’ ἄμα[</l>
+            <l>[].ανθος·[</l>
+            <l>[ ]μερον[</l>
+            <l>[ ]ετερπ[</l>
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
@@ -2126,12 +2126,12 @@
           <label>Lobel-Page 79</label>
           <lg>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l> [ ]ν̣μ̣[</l>
-            <l> [ ]ω̣[</l>
-            <l> [ ]το.[</l>
-            <l> []τ' αὖτ̣ον.[</l>
-            <l> []ω̣ πέλετ[</l>
-            <l> [ ]να[</l>
+            <l>[ ]ν̣μ̣[</l>
+            <l>[ ]ω̣[</l>
+            <l>[ ]το.[</l>
+            <l>[]τ’ αὖτ̣ον.[</l>
+            <l>[]ω̣ πέλετ[</l>
+            <l>[ ]να[</l>
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
@@ -2139,12 +2139,12 @@
           <label>Lobel-Page 80</label>
           <lg>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l> [ ].[</l>
-            <l> [ ].τ̣οσεσ.[</l>
-            <l> []παντα[</l>
-            <l> []ι̣ δ' ἀτέρα[</l>
-            <l> [ ]λοκα[</l>
-            <l> [ ].[</l>
+            <l>[ ].[</l>
+            <l>[ ].τ̣οσεσ.[</l>
+            <l>[]παντα[</l>
+            <l>[]ι̣ δ’ ἀτέρα[</l>
+            <l>[ ]λοκα[</l>
+            <l>[ ].[</l>
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
@@ -2158,10 +2158,10 @@
         <div type="textpart" subtype="poem" n="82">
           <label>Lobel-Page 82 / 80D / Cox 75</label>
           <lg>
-            <l>σὺ δὲ στεφάνοις, ὦ Δίκα, πέρθεσθ' ἐράτοις φόβαισιν</l>
-            <l>ὄρπακας ἀνήτω συναέρραις' ἀπάλαισι χέρσιν·</l>
+            <l>σὺ δὲ στεφάνοις, ὦ Δίκα, πέρθεσθ’ ἐράτοις φόβαισιν</l>
+            <l>ὄρπακας ἀνήτω συναέρραις’ ἀπάλαισι χέρσιν·</l>
             <l>εὐάνθεα †γὰρ† πέλεται καὶ Χάριτες μάκαιραι</l>
-            <l>μᾶλλον †προτερην†, ἀστεφανώτοισι δ' ἀπυστρέφονται.</l>
+            <l>μᾶλλον †προτερην†, ἀστεφανώτοισι δ’ ἀπυστρέφονται.</l>
             <note>Source: Athenaeus.</note>
           </lg>
         </div>
@@ -2169,7 +2169,7 @@
           <label>Lobel-Page 82a / 63D</label>
           <lg>
             <l>εὐμορφοτέρα Μνασιδίκα τὰς ἀπάλας Γυρίννως</l>
-            <l>— Sappho's Supra-Superlatives</l>
+            <l>— Sappho’s Supra-Superlatives</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="91">
@@ -2178,7 +2178,7 @@
         <div type="textpart" subtype="poem" n="92">
           <label>Lobel-Page 92</label>
           <note>This version is from http://www.b3ta.cr3ation.co.uk/data/doc/safopoemas.doc with
-            some amendations to make it more like Carson's Greek text.</note>
+            some amendations to make it more like Carson’s Greek text.</note>
           <lg>
             <l>[</l>
             <l>[</l>
@@ -2213,7 +2213,7 @@
             <gap reason="lost" quantity="1" unit="line"/>
             <l>π[</l>
             <gap reason="lost" quantity="1" unit="line"/>
-            <note>Here's a version annotated with apparent Edmonds line correspondances:</note>
+            <note>Here’s a version annotated with apparent Edmonds line correspondances:</note>
             <l>[01] [</l>
             <l>[02] [</l>
             <l>[03] πε ...</l>
@@ -2230,7 +2230,7 @@
             <l>[14] τάπα ·</l>
             <l>[15] [</l>
             <l>[16] π[</l>
-            <note>I'm surprised at how much of Edmonds's text is missing.</note>
+            <note>I’m surprised at how much of Edmonds’s text is missing.</note>
             <note>E.g. [04] in Edmonds starts κρίνον (flower, lily).</note>
             <note>Source: : P. Berol. 9722 fol. 1 (BKT V, 2 p. 12)</note>
           </lg>
@@ -2301,7 +2301,7 @@
             <l><gap reason="lost" extent="unknown" unit="character"/> πόλλακι τυῖδε νῶν ἔχοισα</l>
             <l>ὤς ποτ’ ἐζώομεν· <gap reason="lost" extent="unknown" unit="character"/></l>
             <l>σε θέᾳ σ’ ἰκέλαν, Ἀρι-</l>
-            <!-- Tsilla: Montrer qu'il y a enjambement, epidoc -->
+            <!-- Tsilla: Montrer qu’il y a enjambement, epidoc -->
             <!-- AB : Oui, mais pas maintenant. -->
             <l>γνώτα σᾷ δἐ μάλιστ’ ἔχαιρε μόλπᾳ·</l>
             <l>νῦν δἐ Λύδαισιν ἐμπρέπεται γυναί-</l>
@@ -2378,17 +2378,17 @@
             <l>[κ]όσμον αἴ τις ἔχη φόβα[ι]ς</l>
             <l>[π]ορφύρωι κατελιξαμέν[α πλόκωι</l>
             <l>[ἔ]μμεναι μάλα τοῦτο . [ ^ ]</l>
-            <!-- Tsilla : Trouver l'épidoc pour la scansion -->
+            <!-- Tsilla : Trouver l’épidoc pour la scansion -->
             <l>[ἀ]λλ᾽ ἀ ξανθοτέρα[ι]ς ἔχη[ις]</l>
             <l>[τ]α[ὶ]ς κόμα[ι]ς δάιδος προφ[ανεστέραις]</l>
             <l>[σ]τεφάνοισιν ἐπαρτία[ις</l>
             <l>[ἀ]νθέων ἐριθαλέων</l>
             <l>[μ]ίτρα· [τ]ὰν δ᾽ ἀρτίως Κλ[έϊ – ^ ^ ]</l>
-            <!-- Tsilla : Trouver l'épidoc pour la scansion -->
+            <!-- Tsilla : Trouver l’épidoc pour la scansion -->
             <l>ποικίλαν ἀπὺ Σαρδίω[ν</l>
             <l>οἶα] Μαονίας πόλεις</l>
             <l>[ – ^ – ^ ^ – ^ ^ – ^ ^ ]</l>
-            <!-- Tsilla : Trouver l'épidoc pour la scansion -->
+            <!-- Tsilla : Trouver l’épidoc pour la scansion -->
             <l>σοὶ δ᾽ ἔγω, Κλέϊ, ποικίλαν</l>
             <l>οὐκ ἔχω· πόθεν ἔσσεται</l>
             <l>μίτρα ν[ῦ]ν; ἀλλὰ τῶι Μ[υ]τ[ι]ληνάωι</l>
@@ -2400,7 +2400,7 @@
             <l>φύγας +αλις α πολις ἔχει+</l>
             <l>μνάματ᾽ [ο]ἴδε γὰρ αἶνα διέρρυε[ν]</l>
             <l>“ξανθοτέραις ἔχη [/] ταίς κόμαις δάιδος”</l>
-            <note>— Sappho's Supra-Superlatives</note>
+            <note>— Sappho’s Supra-Superlatives</note>
             <note>Source: : (a) vv. 1-12: P. Hauniens. (Papyrus Hauniensis)</note>
             <note>(b) vv. 14-22: P. Mediol., ed. Vogliano, Mediol. 1942</note>
           </lg>
@@ -2417,7 +2417,7 @@
             <note>101LP/99D</note>
             <l>χερρόμακτρα δὲ †καγγόνων†</l>
             <l>πορφύραι †καταυταμενἀ-</l>
-            <l>τατιμάσεισ† ἔπεμψ' ἀπὺ Φωκάας</l>
+            <l>τατιμάσεισ† ἔπεμψ’ ἀπὺ Φωκάας</l>
             <l>δῶρα τίμια †καγγόνων†</l>
           </lg>
         </div>
@@ -2425,7 +2425,7 @@
           <label>Lobel-Page 102 / Voigt 102 / Diehl 114 / Bergk 90</label>
           <lg>
             <l>γλύκηα μᾶτερ, οὔτοι δύναμαι κρέκην τὸν ἴστον</l>
-            <l>πόθῳ δάμεισα παῖδος βραδίναν δι' Ἀφροδίταν</l>
+            <l>πόθῳ δάμεισα παῖδος βραδίναν δι’ Ἀφροδίταν</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="103">
@@ -2439,7 +2439,7 @@
             <l>]τα παῖδα Κρονίδα τὰν ἰόκ[ολπ]ον [</l>
             <l>]ος ὄργαν θεμένα τὰν ἰόκ[ολ]πος α[</l>
             <l>]υν ἄγναι Χάριτες Πιέριδέ[ς τε] Μοῖ[σαι</l>
-            <l>ὄ]πποτ' ἀοιδαι φρέν<gap reason="lost" extent="unknown" unit="character"/>αν·[</l>
+            <l>ὄ]πποτ’ ἀοιδαι φρέν<gap reason="lost" extent="unknown" unit="character"/>αν·[</l>
             <l>]σαιοισα λιγύραν [ἀοί]δαν</l>
             <l>γά]μβρον, ἄσαροι γὰρ ὐμαλικ[ες</l>
             <l>]σε φόβαισι&lt;ν&gt; θεμένα λύραν[</l>
@@ -2452,14 +2452,14 @@
             <l>[ ]</l>
             <l>[ ]ροπ····[··]·ε·[</l>
             <note>augsburg.de:</note>
-            <l> ] . ω[</l>
+            <l>] . ω[</l>
             <l>]σαν ἐν τῶι . [</l>
-            <l> ] . δὲ ιʹ κ(αὶ) ἑκάστης ὁ αʹ[</l>
+            <l>] . δὲ ιʹ κ(αὶ) ἑκάστης ὁ αʹ[</l>
             <l>] . εν τὸ γὰρ ἐννεπε[.]η προβ[</l>
             <l>] . ατε τὰν εὔποδα νύμφαν [</l>
-            <l> ]τα παῖδα Κρονίδα τὰν ἰόκ[ολπ]ον[</l>
+            <l>]τα παῖδα Κρονίδα τὰν ἰόκ[ολπ]ον[</l>
             <l>] . ς ὄργαν θεμένα τὰν ἰόκ[ολ]πος α[</l>
-            <l> ] . . ἄγναι Χάριτες Πιέριδέ[ς τε] Μοῖ[σαι</l>
+            <l>] . . ἄγναι Χάριτες Πιέριδέ[ς τε] Μοῖ[σαι</l>
             <l>] . <gap reason="lost" extent="unknown" unit="character"/>ὄ]πποτ᾽ ἀοιδαι φρέν<gap
                 reason="lost" extent="unknown" unit="character"/>αν . [</l>
             <l>]σαιοισα λιγύραν [ἀοί]δαν</l>
@@ -2478,7 +2478,7 @@
           <label>Lobel-Page 104a / Voigt 104a / Diehl 120 / Bergk 95 / Cox 92</label>
           <!-- Tsilla : on va devoir faire du <app><rdg resp="#"></rdg><rdg resp="#"></rdg></app> (ou wit=""?)-->
           <lg>
-            <l>Ἔσπερε, πάντα φέρων, ὄσα φαίνολις ἐσκέδασ' Αὔως,</l>
+            <l>Ἔσπερε, πάντα φέρων, ὄσα φαίνολις ἐσκέδασ’ Αὔως,</l>
             <l>†φέρεις ὄιν, φέρεις αἶγα, φέρεις ἄπυ† μάτερι παῖδα.</l>
             <l>/ Cox: Ϝέσπερε, πάντα φέρων, ὄσα φαίνολισ ἐσκέδασ᾽ αγωσ,</l>
             <l>φέρεισ οἴν, φέρεισ αἶγα, φέρεισ ἄπυ ματέρι παῖδα.</l>
@@ -2492,9 +2492,9 @@
         <div type="textpart" subtype="poem" n="105a">
           <label>Lobel-Page 105a / Voigt 105a / Diehl 116 / Bergk 93 / Cox 90</label>
           <lg>
-            <l>οἶον τὸ γλυκύμαλον / ἐρεύθεται ἄκρῳ ἐπ' ὔσδῳ,</l>
-            <l>ἄκρον ἐπ' ἀκροτάτῳ, / λελάθοντο δὲ μαλοδρόπηες,</l>
-            <l>οὐ μὰν ἐκλελάθοντ', ἀλλ' οὐκ ἐδύναντ' / ἐπίκεσθαι</l>
+            <l>οἶον τὸ γλυκύμαλον / ἐρεύθεται ἄκρῳ ἐπ’ ὔσδῳ,</l>
+            <l>ἄκρον ἐπ’ ἀκροτάτῳ, / λελάθοντο δὲ μαλοδρόπηες,</l>
+            <l>οὐ μὰν ἐκλελάθοντ’, ἀλλ’ οὐκ ἐδύναντ’ / ἐπίκεσθαι</l>
             <note>Cox:</note>
             <l>Οἶον τὸ γλυκύμαλον ἐρεύθεται ἄκρῳ ἐπ᾽ ὔσδῳ</l>
             <l>ἄκρον ἐπ᾽ ἀκροτάτῳ λελάθοντο δὲ μαλοδρόπνεσ,</l>
@@ -2512,7 +2512,7 @@
             <l>Σαπφοῦς ἦν ἄρα ήλῳ ὲν εἰκάσαι τὴν κόρην. <gap reason="lost" extent="unknown"
                 unit="character"/></l>
             <l>τὸν νυ φίον τε Ἀχιλλεῖ παρο οιῶσαι</l>
-            <note>- Elena Pallantza's dissertation</note>
+            <note>- Elena Pallantza’s dissertation</note>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="105c">
@@ -2530,13 +2530,13 @@
         </div>
         <div type="textpart" subtype="poem" n="106">
           <label>Lobel-Page 106 / 115 D</label>
-          <l>πέρροχος, ὠς ὄτ' ἄοιδος ὀ Λέσβιος ἀλλοδάποισιν</l>
+          <l>πέρροχος, ὠς ὄτ’ ἄοιδος ὀ Λέσβιος ἀλλοδάποισιν</l>
           <note>107LP/53D / Cox 99</note>
         </div>
         <div type="textpart" subtype="poem" n="107">
           <label>Lobel-Page 107LP /53 D / Cox 99</label>
           <lg>
-            <l>ἦρ' ἔτι παρθενίας ἐπιβάλλομαι;</l>
+            <l>ἦρ’ ἔτι παρθενίας ἐπιβάλλομαι;</l>
             <l>/ Cox: Ἦῤ ἔτι παρθενίασ επιβάλλομαι;</l>
             <note>Source: Apollonius.</note>
           </lg>
@@ -2561,7 +2561,7 @@
             <label>Lobel-Page 110b / Diehl 124</label>
             <gap reason="lost" quantity="1" unit="line"/>
             <l>τὰ δὲ σάμβαλα πεμπεβόηα,</l>
-            <l>πίσσυγγοι δὲ δέκ' ἐξεπόναισαν</l>
+            <l>πίσσυγγοι δὲ δέκ’ ἐξεπόναισαν</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="111">
@@ -2583,12 +2583,12 @@
           <label>Lobel-Page 112 / 128D</label>
           <lg>
             <l>ὄλβιε γάμβρε, σοὶ μὲν δὴ γάμος ὠς ἄραο</l>
-            <l>ἐκτετέλεστ', ἔχῃς δὲ πάρθενον †ἂν† ἄραο <gap reason="lost" extent="unknown"
+            <l>ἐκτετέλεστ’, ἔχῃς δὲ πάρθενον †ἂν† ἄραο <gap reason="lost" extent="unknown"
                 unit="character"/></l>
-            <l>σοὶ χάριεν μὲν εἶδος, ὄππατα δ' &lt;ἐστί, νύμφα,&gt;</l>
+            <l>σοὶ χάριεν μὲν εἶδος, ὄππατα δ’ &lt;ἐστί, νύμφα,&gt;</l>
             <!-- Tsilla : &lt; est <, &gt; est >. Comment sont-ils utilisés dans cette édition ? <supplied> ? -->
-            <l>μέλλιχ', ἔρος δ' ἐπ' ἰμέρτῳ κέχυται προσώπῳ</l>
-            <l><gap reason="lost" extent="unknown" unit="character"/> τετίμακ' ἔξοχά σ'
+            <l>μέλλιχ’, ἔρος δ’ ἐπ’ ἰμέρτῳ κέχυται προσώπῳ</l>
+            <l><gap reason="lost" extent="unknown" unit="character"/> τετίμακ’ ἔξοχά σ’
               Ἀφροδίτα.</l>
             <note>-- Cf. Cox 96 --</note>
             <l>Ὄλβιε γάμβρε, σοὶ μὲν δὴ γάμοσ, ὠσ ἄραο</l>
@@ -2613,8 +2613,8 @@
         <div type="textpart" subtype="poem" n="115">
           <label>Lobel-Page 115 / 127D</label>
           <lg>
-            <l>τίῳ σ', ὦ φίλε γάμβρε, κάλως ἐικάσδω;</l>
-            <l>ὄρπακι βραδίνῳ σε μάλιστ' ἐικάσδω.</l>
+            <l>τίῳ σ’, ὦ φίλε γάμβρε, κάλως ἐικάσδω;</l>
+            <l>ὄρπακι βραδίνῳ σε μάλιστ’ ἐικάσδω.</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="116">
@@ -2623,7 +2623,7 @@
         </div>
         <div type="textpart" subtype="poem" n="117">
           <label>Lobel-Page 117 / 129D</label>
-          <l>†χαίροις ἀ νύμφα†, χαιρέτω δ' ὀ γάμβρος</l>
+          <l>†χαίροις ἀ νύμφα†, χαιρέτω δ’ ὀ γάμβρος</l>
         </div>
         <div type="textpart" subtype="poem" n="118">
           <label>Lobel-Page 118 /103D</label>
@@ -2636,7 +2636,7 @@
             <note>Source: Scholiast on the Plutus of Aristophanes.</note>
             <note>120LP/108D / Cox 69</note>
             <l>ἀλλά τις οὐκ ἔμμι παλιγκότων</l>
-            <l>ὄργαν, ἀλλ' ἀβάκην τὰν φρέν' ἔχω <gap reason="lost" extent="unknown" unit="character"
+            <l>ὄργαν, ἀλλ’ ἀβάκην τὰν φρέν’ ἔχω <gap reason="lost" extent="unknown" unit="character"
               /></l>
             <l>/ Cox: Ἄλλά τισ οὐκ ἔμμι παλιγκότων</l>
             <l>ὄργαν, ἀλλ᾽ ἀβάκην τὰν φρέν᾽ ἔχω.</l>
@@ -2646,22 +2646,22 @@
         <div type="textpart" subtype="poem" n="121">
           <label>Lobel-Page 121 / 100D</label>
           <lg>
-            <l>ἀλλ' ἔων φίλος ἄμμι</l>
+            <l>ἀλλ’ ἔων φίλος ἄμμι</l>
             <l>λέχος ἄρνυσο νεώτερον·</l>
-            <l>οὐ γὰρ τλάσομ' ἔγω συνοί-</l>
-            <!-- Tsilla: Notation Epidoc d'un enjambement -->
+            <l>οὐ γὰρ τλάσομ’ ἔγω συνοί-</l>
+            <!-- Tsilla: Notation Epidoc d’un enjambement -->
             <l>κην ἔοισα γεραιτέρα <gap reason="lost" extent="unknown" unit="character"/></l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="122">
           <label>Lobel-Page 122 / 111D</label>
-          <l>ἄνθε' ἀμέργοισαν παῖδ' ἄγαν ἀπάλαν</l>
+          <l>ἄνθε’ ἀμέργοισαν παῖδ’ ἄγαν ἀπάλαν</l>
         </div>
         <div type="textpart" subtype="poem" n="123">
           <label>Lobel-Page 123 / 15D / Cox 18</label>
           <lg>
             <l>ἀρτίως μὲν ἀ χρυσοπέδιλλος Αὔως</l>
-            <l>/ Ἀρτίως μ' ἀ χρυσοπέδιλλος Αὔως.</l>
+            <l>/ Ἀρτίως μ’ ἀ χρυσοπέδιλλος Αὔως.</l>
             <note>Source: Ammonius of Alexandria, at the close of the fourth century A.D.</note>
             <note>124LP/155D</note>
             <l>αὔτα δὲ σὺ Καλλιόπα</l>
@@ -2687,21 +2687,21 @@
         <div type="textpart" subtype="poem" n="129">
           <label>Lobel-Page 129 / 146D,18D</label>
           <lg>
-            <l><gap reason="lost" extent="unknown" unit="character"/> ἔμεθεν δ' ἔχῃσθα λάθαν <gap
+            <l><gap reason="lost" extent="unknown" unit="character"/> ἔμεθεν δ’ ἔχῃσθα λάθαν <gap
                 reason="lost" extent="unknown" unit="character"/></l>
-            <l>ἤ τιν' ἄλλον ἀνθρώπων ἔμεθεν φίλῃσθα <gap reason="lost" extent="unknown"
+            <l>ἤ τιν’ ἄλλον ἀνθρώπων ἔμεθεν φίλῃσθα <gap reason="lost" extent="unknown"
                 unit="character"/></l>
             <note>--Cf. Wharton 21 / Cox 21 --</note>
-            <l><gap reason="lost" extent="unknown" unit="character"/> Ἔμεθεν δ' ἔχεισθα λάθαν</l>
+            <l><gap reason="lost" extent="unknown" unit="character"/> Ἔμεθεν δ’ ἔχεισθα λάθαν</l>
             <note>Source: Apollonius: -- Cf. Wharton 22 --</note>
-            <l>Ἤ τιν' ἄλλον</l>
+            <l>Ἤ τιν’ ἄλλον</l>
             <l>[μᾶλλον] ἀνθρώπων ἔμεθεν φίλησθα.</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="130">
           <label>Lobel-Page 130 / Diehl 137 / Voigt 130 / Bergk 40</label>
           <lg>
-            <l>Ἔρος δηὖτέ μ' ὀ λυσιμέλης δόνει,</l>
+            <l>Ἔρος δηὖτέ μ’ ὀ λυσιμέλης δόνει,</l>
             <l>γλυκύπικρον ἀμάχανον ὄρπετον</l>
             <gap reason="lost" quantity="1" unit="line"/>
             <note>Source: “The four lines are consecutive in MS S ADI of Hephaestion.”</note>
@@ -2710,14 +2710,14 @@
         <div type="textpart" subtype="poem" n="131">
           <label>Lobel-Page 131 / Diehl 137 / Voigt 130 / Bergk 41</label>
           <lg>
-            <l>Ἄτθι, σοὶ δ' ἔμεθεν μὲν ἀπήχθετο</l>
-            <l>φροντίσδην, ἐπὶ δ' Ἀνδρομέδαν πότᾳ</l>
-            <l>/ Voigt: φροντίσδην, ἐπὶ δ' Ἀνδρομέδαν πότη[ι]</l>
+            <l>Ἄτθι, σοὶ δ’ ἔμεθεν μὲν ἀπήχθετο</l>
+            <l>φροντίσδην, ἐπὶ δ’ Ἀνδρομέδαν πότᾳ</l>
+            <l>/ Voigt: φροντίσδην, ἐπὶ δ’ Ἀνδρομέδαν πότη[ι]</l>
             <note>Source: “The four lines are consecutive in MS S ADI of Hephaestion.”: 132LP/152D /
               Cox 82</note>
             <l>ἔστι μοι κάλα πάις χρυσίοισιν ἀνθέμοισιν</l>
             <l>ἐμφέρην ἔχοισα μόρφαν Κλέις ἀγαπάτα,</l>
-            <l>ἀντὶ τᾶς ἔγωὐδὲ Λυδίαν παῖσαν οὐδ' ἐράνναν <gap reason="lost" extent="unknown"
+            <l>ἀντὶ τᾶς ἔγωὐδὲ Λυδίαν παῖσαν οὐδ’ ἐράνναν <gap reason="lost" extent="unknown"
                 unit="character"/></l>
             <note>Source: Hephaestion.</note>
           </lg>
@@ -2745,7 +2745,7 @@
           <label>Lobel-Page 136 / Diehl 121 / Cox 37</label>
           <lg>
             <l>ἦρος ἄγγελος ἰμερόφωνος ἀήδων (Lobel-Page)</l>
-            <!-- Tsilla: ...ce qui signifie qu'à un moment, on va devoir faire le <app><rdg resp="#LP"></rdg><rdg resp="#Cox"></app> -->
+            <!-- Tsilla: ...ce qui signifie qu’à un moment, on va devoir faire le <app><rdg resp="#LP"></rdg><rdg resp="#Cox"></app> -->
             <l>Ἦροσ ἄγγελοσ ἰμερόφωνοσ ἄήδων. (Cox)</l>
             <note>Source:Scholiast on the Electra of Sophocles, 149</note>
             <note>Schol. Soph. El. 149 (p. 110 Papageorg.)</note>
@@ -2754,12 +2754,12 @@
         <div type="textpart" subtype="poem" n="137">
           <label>Lobel-Page 137 / 149D</label>
           <lg>
-            <l>θέλω τί τ' εἴπην, ἀλλά με κωλύει</l>
+            <l>θέλω τί τ’ εἴπην, ἀλλά με κωλύει</l>
             <l>αἴδως <gap reason="lost" extent="unknown" unit="character"/></l>
-            <l>αἰ δ' ἦχες ἔσλων ἴμερον ἢ κάλων</l>
-            <l>καὶ μή τί τ' εἴπην γλῶσσ' ἐκύκα κάκον,</l>
+            <l>αἰ δ’ ἦχες ἔσλων ἴμερον ἢ κάλων</l>
+            <l>καὶ μή τί τ’ εἴπην γλῶσσ’ ἐκύκα κάκον,</l>
             <l>αἴδως †κέν σε οὐκ† ἦχεν ὄππα-</l>
-            <l>τ' ἀλλ' ἔλεγες †περὶ τὼ δικαίω†</l>
+            <l>τ’ ἀλλ’ ἔλεγες †περὶ τὼ δικαίω†</l>
             <note>-- Cf. Cox 26 --</note>
             <l>Αἰ δ᾽ ἦχεσ ἔσλων ἴμερον ἤ κάλων,</l>
             <l>καὶ μή τι ϝείπεν γλῶσσ᾽ ἐκύκα κάκον,</l>
@@ -2771,7 +2771,7 @@
           <label>Lobel-Page 138 / 151D</label>
           <lg>
             <l>στᾶθι †κἄντα† φίλος</l>
-            <l>καὶ τὰν ἐπ' ὄσσοισ' ὀμπέτασον χάριν</l>
+            <l>καὶ τὰν ἐπ’ ὄσσοισ’ ὀμπέτασον χάριν</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="140">
@@ -2780,7 +2780,7 @@
             <l>Κατθνάσκει Κυθέρἠ, ἄβροσ Ἄδωνισ, τί κε θεῖμεν,</l>
             <l>Καττύπτεσθε κόραι καὶ κατερείκεσθε χίτωνασ.</l>
             <note>Source: Hephaestion: Cf. 140aLP/107D</note>
-            <l>κατθνα[ί]σκει, Κυθέρη', ἄβρος Ἄδωνις· τί κε θεῖμεν;</l>
+            <l>κατθνα[ί]σκει, Κυθέρη’, ἄβρος Ἄδωνις· τί κε θεῖμεν;</l>
             <note>Cf. 140(b?)LP/107D</note>
             <l>καττύπτεσθε, κόραι, καὶ κατερείκεσθε κίθωνας.</l>
           </lg>
@@ -2788,11 +2788,11 @@
         <div type="textpart" subtype="poem" n="141">
           <label>Lobel-Page 141 / 135D,136D / Cox 47</label>
           <lg>
-            <l>κῆ δ' ἀμβροσίας μὲν</l>
-            <l>κράτηρ ἐκέκρατ'</l>
-            <l>Ἔρμαις δ' ἔλων ὄλπιν θέοις' ᾠνοχόαισε.</l>
-            <l>κῆνοι δ' ἄρα πάντες</l>
-            <l>καρχάσι' ἦχον</l>
+            <l>κῆ δ’ ἀμβροσίας μὲν</l>
+            <l>κράτηρ ἐκέκρατ’</l>
+            <l>Ἔρμαις δ’ ἔλων ὄλπιν θέοις’ ᾠνοχόαισε.</l>
+            <l>κῆνοι δ’ ἄρα πάντες</l>
+            <l>καρχάσι’ ἦχον</l>
             <l>κἄλειβον ἀράσαντο δὲ πάμπαν ἔσλα</l>
             <l>τῷ γάμβρῳ.</l>
             <l>/ Κῆ δ᾽ ἀμβροσίασ μὲν κράτηρ ἐκέκρατο,</l>
@@ -2810,7 +2810,7 @@
         </div>
         <div type="textpart" subtype="poem" n="143">
           <label>Lobel-Page 143 / 118D</label>
-          <l>χρύσειοι δ' ἐρέβινθοι ἐπ' ἀιόνων ἐφύοντο</l>
+          <l>χρύσειοι δ’ ἐρέβινθοι ἐπ’ ἀιόνων ἐφύοντο</l>
         </div>
         <div type="textpart" subtype="poem" n="144">
           <label>Lobel-Page 144 / 19D</label>
@@ -2844,7 +2844,7 @@
           <label>Lobel-Page 148 / 92D</label>
           <lg>
             <l>ὀ πλοῦτος ἄνευ † ἀρέτας οὐκ ἀσίνης πάροικος</l>
-            <l>ἀ δ' ἀμφοτέρων κρᾶσις †εὐδαιμονίας ἔχει τὸ ἄκρον†</l>
+            <l>ἀ δ’ ἀμφοτέρων κρᾶσις †εὐδαιμονίας ἔχει τὸ ἄκρον†</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="149">
@@ -2855,7 +2855,7 @@
           <label>Lobel-Page 150 / 109D</label>
           <lg>
             <l>οὐ γὰρ θέμις ἐν μοισοπόλων †οἰκίαι</l>
-            <l>θρῆνον ἔμμεν'· οὔ κ' ἄμμι τάδε πρέποι</l>
+            <l>θρῆνον ἔμμεν’· οὔ κ’ ἄμμι τάδε πρέποι</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="151">
@@ -2879,8 +2879,8 @@
         <div type="textpart" subtype="poem" n="154">
           <label>Lobel-Page 154 / 88D / Cox 49</label>
           <lg>
-            <l>πλήρης μὲν ἐφαίνετ' ἀ σελάννα</l>
-            <l>αἰ δ' ὠς περὶ βῶμον ἐστάθησαν</l>
+            <l>πλήρης μὲν ἐφαίνετ’ ἀ σελάννα</l>
+            <l>αἰ δ’ ὠς περὶ βῶμον ἐστάθησαν</l>
             <l>/ Cox: Πλήρησ μὲν ἐφαίνετ᾽ ἀ σελάννα</l>
             <l>αἰ δ᾽ ὠσ περὶ Βῶμον ἐσταθησαν.</l>
             <note>Source: Hephaestion</note>
@@ -2953,12 +2953,12 @@
             <l>εὔρην ᾤον</l>
             <note>Wharton:</note>
             <l>Φαῖσι δή ποτα Λήδαν ὐακινθίνων</l>
-            <l>[ὐπ' ἀνθέων] πεπυκαδμένον</l>
+            <l>[ὐπ’ ἀνθέων] πεπυκαδμένον</l>
             <l>εὔρην ὤιον.</l>
             <note>Source: : Etymologicum Magnum, Athenaeus, and others.</note>
             <note>167LP/139D</note>
             <l>ᾠω πόλυ λευκότερον</l>
-            <l>— Sappho's Supra-Superlatives</l>
+            <l>— Sappho’s Supra-Superlatives</l>
             <note>168LP</note>
             <l>ὦ τὸν Ἄδωνιν</l>
             <note>169LP</note>
@@ -3020,7 +3020,7 @@
             <note>213LP / (M.Treu S.10)</note>
             <gap reason="lost" quantity="1" unit="line"/>
             <l>[ ]··[·]·τ···[</l>
-            <l>· ··[··]·σε ἔμα κ' Ἀρχεάνα[σ-</l>
+            <l>· ··[··]·σε ἔμα κ’ Ἀρχεάνα[σ-</l>
             <l>σα Γόργω[ς] σύνδυγο[ς]· ἀντὶ τοῦ</l>
             <l>σ[ύν]ζυξ· ἡ Πλειστοδίκη</l>
             <l>[ τ]ῇ Γ[ο]ργοῖ σύνζυξ με-</l>
@@ -3072,7 +3072,7 @@
         <div type="textpart" subtype="poem" n="157diehl">
           <note>Diehl 157 /A.P. 6,269 / Cox 112</note>
           <lg>
-            <l>Παῖδες, ἄφωνος ἐοῖσα τότ' ἐννέπω, αἴ τις ἔρηται,</l>
+            <l>Παῖδες, ἄφωνος ἐοῖσα τότ’ ἐννέπω, αἴ τις ἔρηται,</l>
             <l>φωνὰν ἀκαμάταν κατθεμένα πρὸ ποδῶν·</l>
             <l>“Αἰθοπίᾳ με κόρᾳ Λατοῦς ἀνέθηκεν Ἀρίστα</l>
             <l>Ἑρμοκλειδαία τῶ Σαυναιάδα,</l>
@@ -3106,7 +3106,7 @@
             <l>Ὄττινας γὰρ</l>
             <l>εὖ θέω, κῆνοί με μάλιστα σίννονται ....</l>
             <note>Source: Etymologicum Magnum: Bergk 15</note>
-            <l>Ἔγων δ' ἐμαύτᾳ</l>
+            <l>Ἔγων δ’ ἐμαύτᾳ</l>
             <l>τοῦτο σύνοιδα.</l>
             <l>ἔγων δ᾽ ἔμ᾽ αὔτᾳ.</l>
             <l>τοῦτο συνόϊδα</l>
@@ -3114,7 +3114,7 @@
             <note>Source: Apollonius: Bergk 23</note>
             <l>Οὔ τι μοι ὔμμες.</l>
             <note>Source: Apollonius: Bergk 24</note>
-            <l>Ας θέλετ' ὔμμες.</l>
+            <l>Ας θέλετ’ ὔμμες.</l>
             <note>Source: Apollonius</note>
           </lg>
         </div>
