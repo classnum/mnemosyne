@@ -91,12 +91,19 @@
             </langUsage>
         </profileDesc>
 
+        <revisionDesc>
+            <change who="Aurélien Berra" when="2019-06-13">Make partial file for
+                academic purposes, encode fragments as div, add CTS pattern,
+                make some corrections recorded in commentaries</change>
+        </revisionDesc>
+
     </teiHeader>
     <text>
         <body>
             <div type="edition" n="urn:cts:greekLit:tlg0019.tlg013.opp-grc1"
                 xml:lang="grc">
-                <!--<div type="textpart" subtype="chapter" n="16">--><!-- simplify structure of this partial file -->
+                <!--<div type="textpart" subtype="chapter" n="16">-->
+                <!-- simplify structure of this partial file -->
                 <pb n="392"/>
                 <head>ΑΡΙΣΤΟΦΑΝΗΣ ΑΙΟΛΟΣΙΚΩΝ</head>
                 <p>Argument. Aristoph. Plut. II τελευταίαν δὲ διδάξας τὴν κω-
@@ -7485,8 +7492,15 @@
                     </lg>
                     <p>Pollux 7, 202 Ἀριστοφάνης ἐν Σκηνὰς καταλαμβανούσαις xxk.
                         fort. καλῶσε. aliter enim articulus offendit in
-                        accusativo 479 τὴν κακκάβην γὰρ κᾶε τοῦ διδασκάλου.
-                        Athenaeus 4, 169c τὴν χύτραν δ’ Ἀριστοφάνης ἐν Σκηνὰς
+                        accusativo</p>
+                </div>
+                <div type="textpart" subtype="poem" n="fr479">
+                    <!-- added encoding for this div: number, line and testimonium were mixed in previous div -->
+                    <p>479</p>
+                    <lg>
+                        <l>τὴν κακκάβην γὰρ κᾶε τοῦ διδασκάλου.</l>
+                    </lg>
+                    <p>Athenaeus 4, 169c τὴν χύτραν δ’ Ἀριστοφάνης ἐν Σκηνὰς
                         καταλαμβανούσαις κακκάβην εἴρηκεν οὕτως κτλ. Pollux 10,
                         106 κακκάβην τὴν λοπάδα ἐρεῖς, εἰπόντος Ἀριστοφάνους ἐν
                         Σκηνὰς καταλαμβανούσαις κτλ. κᾶε τοῦ καετοὺ) Poll.]
