@@ -23,7 +23,7 @@ def generic_chunker(text, getreffs):
     citation_types = get_citation_scheme(text)
     if "poem" in citation_types:
         level = citation_types.index("poem") + 1
-        level_name = "Poem"
+        level_name = "" # "Poem"
         excerpt_length = 1
     else:
         level = len(citation_types)
