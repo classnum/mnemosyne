@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:work xmlns:ti="http://chs.harvard.edu/xmlns/cts"
+    urn="urn:cts:greekLit:tlg0007.tlg112" xml:lang="grc"
+    groupUrn="urn:cts:greekLit:tlg0007">
+    <ti:title xml:lang="eng">Quaestiones Convivales</ti:title>
+    <ti:title xml:lang="fre">Propos de table</ti:title>
+    <ti:edition urn="urn:cts:greekLit:tlg0007.tlg112.perseus-grc1"
+        workUrn="urn:cts:greekLit:tlg0007.tlg112">
+        <ti:label xml:lang="eng">Plutarch, Quaestiones Convivales</ti:label>
+        <ti:description xml:lang="eng">Plutarch, creator; Gregorius N.
+            Bernardakis, 1892, editor</ti:description>
+    </ti:edition>
+</ti:work>
