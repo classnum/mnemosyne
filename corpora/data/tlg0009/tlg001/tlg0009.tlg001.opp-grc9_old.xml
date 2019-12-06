@@ -2,34 +2,32 @@
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/8.22/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <!-- TÂCHES ET COMMENTAIRES 2017-2018 -->
+  <!-- AB : Ce n’est pas une bonne pratique de laisser les tâches et commentaires dans le fichier… -->
+  <!-- Tsilla: Il faudra trouver quelque chose à faire avec ces Cox/ dans les <l></l> et ça va sans doute se régler au <app>... -->
+  <!-- Tsilla: Je n’ai pas encore fait tous les supplied -->
+  <!-- Tsilla: certains des supplied ont reason="lost" d’autres reason="undefined". Il faudra décider entre les deux. -->
+  <!-- Tsilla: Pourquoi y a-t-il autant de moyen d’exprimer des gaps ?! -->
+  <!-- AB : il y a souvent plusieurs moyens d’exprimer le même phénomène… Cependant, êtes-vous certaine que les consignes d’EpiDoc ne règlent pas votre hésitation ? -->
+  <!-- Tsilla: On devra trouver comment coder l’enjambement et la scansion -->
+  <!-- AB : Ce n’est pas urgent : vous ne visez pas ici l’analyse métrique ! Dans le texte, partout où vous mentionnez la scansion, je crois que vous avez seulement besoin d’utiliser les caractères Unicode pertinents pour brève et longue. Voyez par exemple la rubrique "Computer encodings" de https://en.wikipedia.org/wiki/Greek_alphabet. -->
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Sappho, Poèmes</title>
         <respStmt>
           <resp>Fragments encodés en XML-TEI à partir du HTML par les étudiants de M1 de l’année
-            2017-2018 puis par les étudiants de M1 de l'année 2019-2020, sous la direction d’<name>Aurélien Berra</name></resp>
+            2017-2018, sous la direction d’<name>Aurélien Berra</name></resp>
           <name>Ioanna Faita</name>
           <name>Pauline Hessel</name>
           <name>Fanny Lauret</name>
           <name>Tsilla Meyer</name>
           <name>Aude Perrineau</name>
           <name>Melina Tzamtzi</name>
-          <name>Patrick Cheriet</name>
-          <name>Florence Lienhard</name>
-          <name>Clarysse Gamiette</name>
-          <name>Filippo Giovannini</name>
-          <name>Davide Knecht</name>
-        </respStmt>
-        <respStmt>
-           <resp>Emendations by</resp>
-          <name xml:id="LP">Lobel-Page</name>
-          <name xml:id="Vgt">Voigt</name>
-          <name xml:id="Cox">Cox</name>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <publisher>Master « Humanités classiques et Humanités numériques », M1</publisher>
+        <publisher>Master « Humanités classiques et Humanités numériques », M1</publisher>
         <pubPlace>Nanterre</pubPlace>
         <address>
           <addrLine>UFR PHILLIA</addrLine>
@@ -37,7 +35,7 @@
           <addrLine>http://hclassiques.parisnanterre.fr/</addrLine>
           <addrLine>http://classnum.hypotheses.org</addrLine>
         </address>
-        <date>Novembre-Décembre 2020</date>
+        <date>Janvier-juin 2018</date>
       </publicationStmt>
       <sourceDesc>
         <bibl>
@@ -49,39 +47,6 @@
             diverses consultables sur le site source.</note>
           <note>Texte récupéré le <date>2018-02-13</date></note>
           <note>Les textes sont notamment issus de : P. Oxy (Sackler library) et P. Berol</note>
-        </bibl>
-        <bibl>
-          <title>Poetarum Lesbiorum fragmenta</title>
-          <author>Sappho, Alcaeus</author>
-          <editor role="editor">Lobel</editor>
-          <editor role="editor">Page</editor>
-          <publisher>Oxford University Press</publisher>
-          <pubPlace>Oxford</pubPlace>
-          <date>1955</date>
-        </bibl>
-         <bibl>
-          <title>Sappho et Alcaeus, fragmenta</title>
-          <author>Sappho, Alcaeus</author>
-          <editor role="editor">Voigt</editor>
-          <publisher>Athenaeum-Polak et Van Gennep</publisher>
-          <pubPlace>Amsterdam</pubPlace>
-          <date>1971</date>
-        </bibl>
-        <bibl>
-          <title>Poetae lyrici graeci</title>
-          <author>various</author>
-          <editor role="editor">Bergk</editor>
-          <publisher>Teubner</publisher>
-          <pubPlace>Berlin</pubPlace>
-          <date>1905</date>
-        </bibl>
-        <bibl>
-          <title>Sapho. Alcaeus</title>
-          <author>Sappho, Alcaeus</author>
-          <editor role="editor">Bergk</editor>
-          <publisher>Teubner</publisher>
-          <pubPlace>Berlin</pubPlace>
-          <date>1905</date>
         </bibl>
       </sourceDesc>
     </fileDesc>
@@ -125,12 +90,6 @@
     </revisionDesc>
   </teiHeader>
   <text>
-    <!-- Florence : voici les modifications qu'il reste à faire : certains textes de l'édition Cox ont de petites modifications à encoder /
-    parfois les chevrons sont encodés "&lt;" et "&gt;" ce qui ne transmet pas les bonnes informations /
-    beaucoup de crochets ne sont pas encodés, ainsi que des points qui indiquent la présence de caractères illisibles /
-    parfois il n'y a que des fragments que nous avons désignés comme poèmes
-Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ? Et la bibliothèque augsburg.de ?
-  -->
     <body>
       <div type="edition" xml:lang="grc" n="urn:cts:greekLit:tlg0009.tlg001.opp-grc9">
         <div type="textpart" subtype="poem" n="1">
@@ -146,10 +105,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>χρύσιον ἦλθες</l>
             <l>ἄρμ’ ὐπασδεύξαισα· κάλοι δέ σ’ ἆγον</l>
             <l>ὤκεες στροῦθοι περὶ γᾶς μελαίνας</l>
-            <l>πύκνα δίννεντες πτέρ’ ἀπ’ <app>
-              <lem resp="LP">ὠράνωἴθε-</lem>
-              <rdg resp="Vgt">ὠράνω αἴθε-</rdg>
-            </app></l>
+            <l>πύκνα δίννεντες πτέρ’ ἀπ’ ὠράνωἴθε-</l>
             <l>ρος διὰ μέσσω·</l>
             <l>αἶψα δ’ ἐξίκοντο· σὺ δ’, ὦ μάκαιρα,</l>
             <l>μειδιαίσαισ’ ἀθανάτωι προσώπωι</l>
@@ -157,15 +113,9 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>δηὖτε κάλημμι</l>
             <l>κὤττι μοι μάλιστα θέλω γένεσθαι</l>
             <l>μαινόλαι θύμωι· τίνα δηὖτε πείθω</l>
-            <l><app>
-              <lem resp="LP">μαισ’ ἄγην</lem>
-              <rdg resp="Vgt">. .σάγην</rdg>
-            </app>ἐς σὰν φιλότατα; τίς σ’, ὦ</l>
+            <l>μαισ’ ἄγην ἐς σὰν φιλότατα; τίς σ’, ὦ</l>
             <l>
-            <app>
-              <lem resp="LP"><supplied reason="lost">Ψά</supplied>πφ’, ἀδικήει;</lem>
-              <rdg resp="Vgt">Ψάπφ ̓, ἀδικήσι;</rdg>
-            </app></l>
+              <supplied reason="lost">Ψά</supplied> πφ’, ἀδικήει;</l>
             <l>καὶ γὰρ αἰ φεύγει, ταχέως διώξει,</l>
             <l>αἰ δὲ δῶρα μὴ δέκετ’, ἀλλὰ δώσει,</l>
             <l>αἰ δὲ μὴ φίλει, ταχέως φιλήσει</l>
@@ -209,7 +159,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
               <gap reason="lost" quantity="1" unit="character"/> ρανοθεν κατιοθ <supplied
                 reason="lost">σ</supplied>
               <gap reason="lost" extent="unknown" unit="character"/></l>
-            <l>δευρυμ† μεκρητας π <gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>ναῦον</l>
+            <l>δευρυμ† μεκρητας π <gap reason="lost" extent="unknown" unit="character"/>. ναῦον</l>
             <l>ἄγνον ὄππ <supplied reason="lost">αι</supplied>
               <gap reason="lost" extent="unknown" unit="character"/> χάριεν μὲν ἄλσος</l>
             <l>μαλί <supplied reason="lost">αν</supplied>, βῶμοι †δεμιθυμιάμε-</l>
@@ -234,12 +184,12 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>μαλίνων, αἰθυσσομένων δὲ φύλλων</l>
             <l>κῶμα καταρρεῖ</l>
             <note>Source:: Hermogenes about A.D. 170,: and Demetrius, about A.D. 150.</note>
-            <note>--Bergk 5--</note>
+            <note>--Bergk 5 / Cox 6 --</note>
             <l><gap reason="lost" extent="unknown" unit="character"/> Ἔλθε Κύπρι</l>
             <l>χρυσίαισιν ἐν κυλίκεσσιν ἄβρως</l>
             <l>συμμεμιγμένον θαλίαισι νέκταρ</l>
             <l>οἰνοχοεῦσα.</l>
-            <note>Cox 6:</note>
+            <note>Cox:</note>
             <l>
               <gap reason="lost" extent="unknown" unit="character"/> Ἕλθε, Κύπρι,</l>
             <l>Χπρυσίασιν ἐν κυλίκεσσιν ἄβραισ</l>
@@ -256,11 +206,11 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>
               <gap reason="lost" extent="unknown" unit="character"/> δώσην</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>
-              <supplied reason="lost">κλ</supplied>ύτων μέν τ᾽ ἐπτ <gap reason="lost"
+              <supplied reason="undefined">κλ</supplied>ύτων μέν τ᾽ ἐπτ <gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l>
               <gap reason="lost" extent="unknown" unit="character"/>
-              <supplied reason="lost">κ</supplied>άλων κἄσλων· σ <gap reason="lost"
+              <supplied reason="undefined">κ</supplied>άλων κἄσλων· σ <gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l>
               <gap reason="lost" extent="unknown" unit="character"/>
@@ -320,11 +270,11 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l><gap reason="lost" extent="unknown" unit="character"/>ας κεν ἦι μοι</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ς ἀντιλάμπην</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>
-              <supplied reason="lost">κά</supplied>λον πρόσωπον</l>
+              <supplied reason="undefined">κά</supplied>λον πρόσωπον</l>
             <gap reason="lost" quantity="1" unit="line"/>
             <l><gap reason="lost" extent="unknown" unit="character"/>
-              <supplied reason="lost">ἐ</supplied>γχροΐσθεις</l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+              <supplied reason="undefined">ἐ</supplied>γχροΐσθεις</l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>.<gap reason="lost"
                 extent="unknown" unit="character"/>ρος</l>
             <note>Source:: P. Berol. 5006</note>
           </lg>
@@ -356,40 +306,40 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
           <note>or, fairfield:</note>
           <lg>
             <l>
-              <supplied reason="lost">Κύπρι καὶ</supplied> Νηρήιδες ἀβλάβη<supplied
-                reason="lost">ν μοι</supplied>
+              <supplied reason="undefined">Κύπρι καὶ</supplied> Νηρήιδες ἀβλάβη<supplied
+                reason="undefined">ν μοι</supplied>
             </l>
             <l>
-              <supplied reason="lost">τὸν κασί</supplied>γνητον δ<supplied reason="lost"
+              <supplied reason="undefined">τὸν κασί</supplied>γνητον δ<supplied reason="undefined"
                 >ο</supplied>τε τυίδ’ ἴκεσθα[ι</l>
             <l>
-              <supplied reason="lost">κὤσσα Ϝ</supplied>οι θύμωι κε θέληι γένεσθαι</l>
-            <l><supplied reason="lost">πάντα τε</supplied>λέσθην,</l>
+              <supplied reason="undefined">κὤσσα Ϝ</supplied>οι θύμωι κε θέληι γένεσθαι</l>
+            <l><supplied reason="undefined">πάντα τε</supplied>λέσθην,</l>
             <l>
-              <supplied reason="lost">ὄσσα δὲ πρ</supplied>όσθ’ ἄμβροτε πάντα λῦσα<supplied
-                reason="lost">ι</supplied>
+              <supplied reason="undefined">ὄσσα δὲ πρ</supplied>όσθ’ ἄμβροτε πάντα λῦσα<supplied
+                reason="undefined">ι</supplied>
             </l>
             <l>
-              <supplied reason="lost">καὶ φίλοισ</supplied>ι Ϝοῖσι χάραν γένεσθαι</l>
+              <supplied reason="undefined">καὶ φίλοισ</supplied>ι Ϝοῖσι χάραν γένεσθαι</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>
-              <supplied reason="lost">ἔ</supplied>χροισι, γένοιτο δ’ ἄμμι</l>
+              <supplied reason="undefined">ἔ</supplied>χροισι, γένοιτο δ’ ἄμμι</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>
-              <supplied reason="lost">μ</supplied>ηδ’ εἴς·</l>
+              <supplied reason="undefined">μ</supplied>ηδ’ εἴς·</l>
             <l>
-              <supplied reason="lost">τὰν κασιγ</supplied>νἠταν δὲ θέλοι πόησθαι</l>
-            <l>τίμας <supplied reason="lost">ὀν</supplied>ίαν δὲ λύγραν</l>
-            <l>]οτοισι π<supplied reason="lost">ά</supplied>ροιθ’ ἀχεύων</l>
-            <l>]<gap reason="lost" quantity="1" unit="character"/>να</l>
-            <l>]<gap reason="lost" quantity="1" unit="character"/>εισαΐω<supplied reason="lost">ν</supplied> τὸ κέγχρω</l>
+              <supplied reason="undefined">τὰν κασιγ</supplied>νἠταν δὲ θέλοι πόησθαι</l>
+            <l>]τίμας <supplied reason="undefined">ὀν</supplied>ίαν δὲ λύγραν</l>
+            <l>]οτοισι π<supplied reason="undefined">ά</supplied>ροιθ’ ἀχεύων</l>
+            <l>].να</l>
+            <l>].εισαΐω<supplied reason="undefined">ν</supplied> τὸ κέγχρω</l>
             <l>]λεπαγ<gap reason="lost" extent="unknown" unit="character"/>αι πολίταν</l>
             <l>]λλωσ<gap reason="lost" extent="unknown" unit="character"/>νηκε δ’ αῦτ’ οὐ</l>
             <l>]κρω[</l>
-            <l>]οναικ[ ]εο[ ]<gap reason="lost" quantity="1" unit="character"/>ι</l>
-            <l>]<gap reason="lost" quantity="2" unit="character"/><supplied reason="lost" quantity="1" unit="character"/>ν· σὺ <supplied reason="lost">δ</supplied>ὲ Κύπ<gap reason="lost"
-                extent="unknown" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="lost" extent="unknown"
+            <l>]οναικ[ ]εο[ ].ι</l>
+            <l>]..[.]ν· σὺ <supplied reason="undefined">δ</supplied>ὲ Κύπ<gap reason="lost"
+                extent="unknown" unit="character"/>. .<gap reason="lost" extent="unknown"
                 unit="character"/>να</l>
-            <l>]θεμ<supplied reason="lost">έν</supplied> α κάκαν [</l>
-            <l>]ι<gap reason="lost" quantity="1" unit="character"/></l>
+            <l>]θεμ<supplied reason="undefined">έν</supplied> α κάκαν [</l>
+            <l>]ι.</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="6">
@@ -397,28 +347,28 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
           <lg>
             <note>fr. 1a</note>
             <l><gap reason="lost" quantity="2" unit="line"/></l>
-            <l>ὠς δα<gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>ὠς δα.<gap reason="lost" extent="unknown" unit="character"/></l>
             <l>κακκ<gap reason="lost" extent="unknown" unit="character"/></l>
             <l>ατρι<gap reason="lost" extent="unknown" unit="character"/></l>
             <l>κτα<gap reason="lost" extent="unknown" unit="character"/></l>
             <note>fr. 1b</note>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l>θα<gap reason="lost" extent="unknown" unit="character"/></l>
-            <l>στεῖχ<supplied reason="lost">ε</supplied><gap reason="lost" extent="unknown"
+            <l>στεῖχ<supplied reason="undefined">ε</supplied><gap reason="lost" extent="unknown"
                 unit="character"/></l>
-            <l>ὢς ιδω<supplied reason="lost">μεν</supplied><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown"
+            <l>ὢς ιδω<supplied reason="undefined">μεν</supplied>.<gap reason="lost" extent="unknown"
                 unit="character"/></l>
             <l>τὰς ετ<gap reason="lost" extent="unknown" unit="character"/></l>
-            <l>πότνια δ<supplied reason="lost">᾽ Αὔως</supplied>
+            <l>πότνια δ<supplied reason="undefined">᾽ Αὔως</supplied>
               <note>= D. 16</note>
             </l>
-            <l>χρυσόπ<supplied reason="lost">αχυς</supplied><gap reason="lost" extent="unknown"
+            <l>χρυσόπ<supplied reason="undefined">αχυς</supplied><gap reason="lost" extent="unknown"
                 unit="character"/></l>
             <l>καππο<gap reason="lost" extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" quantity="1" unit="character"/>ανμ<gap reason="lost" extent="unknown" unit="character"/></l>
-            <l>κᾶρα<gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l>.ανμ<gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>κᾶρα.<gap reason="lost" extent="unknown" unit="character"/></l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>Source: : P. Oxy. XXI (1951), 2289</note>
           </lg>
@@ -430,7 +380,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l><gap reason="lost" quantity="1" unit="line"/>
             </l>
             <l>
-              <supplied reason="lost">Δωρί</supplied>χας<gap reason="lost" extent="unknown"
+              <supplied reason="undefined">Δωρί</supplied>χας<gap reason="lost" extent="unknown"
                 unit="character"/>
             </l>
             <l><gap reason="lost" extent="unknown" unit="character"/>κην κέλετ᾽, οὐ γὰρ<gap
@@ -441,13 +391,13 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
                 reason="lost" extent="unknown" unit="character"/>
             </l>
             <l><gap reason="lost" extent="unknown" unit="character"/>
-              <supplied reason="lost">ἔ</supplied>μμεν᾽ ὄαν νέοισι</l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>αν φ<supplied
-                reason="lost">ι</supplied>λ<gap reason="lost" extent="unknown" unit="character"
+              <supplied reason="undefined">ἔ</supplied>μμεν᾽ ὄαν νέοισι</l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>.αν φ<supplied
+                reason="undefined">ι</supplied>λ<gap reason="lost" extent="unknown" unit="character"
               />
             </l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>]μὰ <gap reason="lost" quantity="1" unit="character"/><supplied
-                reason="lost"></supplied>το <gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown"
+            <l><gap reason="lost" extent="unknown" unit="character"/>]μὰ . <supplied
+                reason="undefined">.</supplied>το .<gap reason="lost" extent="unknown"
                 unit="character"/>
             </l>
             <note>Source: : P. Oxy. XXI (1951), 2289</note>
@@ -457,17 +407,17 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
           <label>Lobel-Page 8 / Diehl 16</label>
           <lg>
             <note>fr. 3</note>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>ν<gap reason="lost" quantity="1" unit="character"/>ο<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.ν.ο.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>ὰμφ<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>ὰμφ.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>
-              <supplied reason="lost">Ἄ</supplied>τθι· σοι<gap reason="lost" extent="unknown"
+              <supplied reason="undefined">Ἄ</supplied>τθι· σοι<gap reason="lost" extent="unknown"
                 unit="character"/>
             </l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>νέφ<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.νέφ.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/> . <gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>Source: : P. Oxy. XXI (1951), 2289</note>
           </lg>
@@ -478,26 +428,27 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <note>fr. 4</note>
             <gap reason="lost" quantity="1" unit="line"/>
             <l><gap reason="lost" extent="unknown" unit="character"/>
-              <supplied reason="lost">π</supplied>αρκαλειοιτας ε<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+              <supplied reason="undefined">π</supplied>αρκαλειοιτας ε.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>πάμ]παν οὐκεχη<gap
                 reason="lost" extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ερ ἐόρταν<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>μαν <supplied
-                reason="lost">Ἤραι</supplied> τελε<gap reason="lost" extent="unknown"
+                reason="undefined">Ἤραι</supplied> τελε<gap reason="lost" extent="unknown"
                 unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>ωμνέμ<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.ωμνέμ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l>εως ζω<gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="2" unit="character"/>ἆς ἄ<gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="2" unit="character"/>ἆς ἄ<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l>εως ζω[</l>
+            <!-- Tsilla : Il me semble qu’il y a un problème, avec un vers aussi cours. Ne devrait-ce pas être <l> εως ζω <gap reason="lost" extent="unknown" unit="character"/>. . ἆς ἄ.<gap reason="lost" extent="unknown" unit="character"/> </l> ? il faudra vérifier sur le texte d’avant nos modifications -->
+            <l><gap reason="lost" extent="unknown" unit="character"/>. . ἆς ἄ.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>υσαι<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>οσδε<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.οσδε<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>ν <gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
-                extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/></l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>ν .<gap reason="lost"
+                extent="unknown" unit="character"/>.</l>
             <gap reason="lost" quantity="2" unit="line"/>
             <note>Source: : P. Oxy. XXI (1951), 2289</note>
           </lg>
@@ -511,11 +462,11 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>σέμ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>λλά·<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>λλά·.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ᾶισυ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>δ<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>δ.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>λυ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
@@ -530,13 +481,13 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
           <lg>
             <note>fr. 7</note>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>α<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.α.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>νμεντ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>κάλ<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.κάλ.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <gap reason="lost" quantity="1" unit="line"/>
             <note>Source: : P. Oxy. XXI (1951), 2289</note>
@@ -547,19 +498,26 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
           <lg>
             <note>fr. 8</note>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l><gap reason="lost" quantity="3" unit="character"/><gap reason="lost" unit="line"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>σθε<gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"></gap></l>
-            <l><gap reason="lost" quantity="1" unit="line"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>νοημ<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>. . .<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>απεδ<gap reason="lost"
+            <!-- Tsilla: ...que signifient ces trois points? Font-ils partie du fragment dont on dispose? -->
+            <!-- AB : Il y a plus de texte (illisible) dans la source : contrôlez le site de départ, dont l’URL est dans le `header` ci-dessus. -->
+            <l><gap reason="lost" extent="unknown" unit="character"/>σθε.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>ηνεο<gap reason="lost"
+            <!-- Tsilla: ...mais pourquoi a-t-on du "σθε.<gap reason="lost" extent="unknown" unit="character"/>" ? -->
+            <l><gap reason="lost" extent="unknown" unit="character"/>
+              <gap reason="lost" extent="unknown" unit="character"/></l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>νοημ.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" quantity="1" unit="line"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="2" unit="character"/>ρισ<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.απεδ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>ιφ<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.ηνεο<gap reason="lost"
+                extent="unknown" unit="character"/></l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>
+              <gap reason="lost" extent="unknown" unit="character"/></l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>. . ρισ.<gap reason="lost"
+                extent="unknown" unit="character"/></l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>.ιφ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <gap reason="lost" quantity="2" unit="line"/>
             <note>Source: : P. Oxy. XXI (1951), 2289</note>
@@ -570,11 +528,11 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
           <lg>
             <note>fr. 10</note>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l><gap reason="lost" extent="unknown" unit="character"/>μα<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>μα.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>νονθ<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>νονθ.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>π<gap reason="lost" quantity="2" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>π. .<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <gap reason="lost" quantity="1" unit="line"/>
             <note>Source: : P. Oxy. XXI (1951), 2289</note>
@@ -584,15 +542,15 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
           <label>Lobel-Page 14 / Diehl 16</label>
           <lg>
             <note>fr. 11</note>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>᾽<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>. ᾽ <gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>δ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="2" unit="character"/>ω<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>. .ω<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>ίαμ<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.ίαμ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>ισι<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>ισι.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <gap reason="lost" quantity="1" unit="line"/>
             <note>Source: : P. Oxy. XXI (1951), 2289</note>
@@ -604,26 +562,26 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <gap reason="lost" quantity="4" unit="line"/>
             <l><gap reason="lost" extent="unknown" unit="character"/>α μάκαι<supplied reason="lost"
                 >ρα</supplied><gap reason="lost" extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>εὐπλο<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>εὐπλο.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>ατος κα<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.ατος κα<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <gap reason="lost" quantity="1" unit="line"/>
             <l>
-              <supplied reason="lost">ὄσσα δὲ πρ</supplied>όσθ᾽<supplied reason="lost">
-                ἄμ</supplied>βροτε κῆ<supplied reason="lost">ν᾽ ἔλυσεν</supplied>
+              <supplied reason="undefined">ὄσσα δὲ πρ</supplied>όσθ᾽<supplied reason="undefined">
+                ἄμ</supplied>βροτε κῆ<supplied reason="undefined">ν᾽ ἔλυσεν</supplied>
             </l>
             <l><gap reason="lost" extent="unknown" unit="character"/>αταις <supplied
-                reason="lost">ἀ</supplied>νεμ<gap reason="lost" extent="unknown"
+                reason="undefined">ἀ</supplied>νεμ<gap reason="lost" extent="unknown"
                 unit="character"/></l>
             <l>
-              <supplied reason="lost">ἔσλαι σὺν</supplied> τύχαι λί<supplied reason="lost"
+              <supplied reason="undefined">ἔσλαι σὺν</supplied> τύχαι λί<supplied reason="undefined"
                 >μ</supplied>ενος κλ<gap reason="lost" extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l>
-              <supplied reason="lost">Κύ</supplied>πρι, κα<supplied reason="lost">ί
-                σ</supplied>ε πι<supplied reason="lost">κροτάτ</supplied>αν ἐπεύ[ροι]</l>
+              <supplied reason="undefined">Κύ</supplied>πρι, κα<supplied reason="undefined">ί
+                σ</supplied>ε πι<supplied reason="undefined">κροτάτ</supplied>αν ἐπεύ[ροι]</l>
             <l>[μη]δὲ καυχάσ[α]ιτο τόδ᾽ ἐννέ[ποισα]</l>
             <l>[Δ]ωρίχα, τὸ δεύ[τ]ερον ὠς πόθε[ννον]</l>
             <l>[εἰς] ἔρον ἦλθε.</l>
@@ -667,11 +625,11 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
                 reason="lost" extent="unknown" unit="character"/> ν</l>
             <l>κἄμε νῦν Ἀνακτορίας ὀνέμναι-</l>
             <l>σ’ οὐ παρεοίσας</l>
-            <l>/ Ὠροσ<gap reason="lost" quantity="1" unit="character"/> εὔκ]αμπτον γαρ <supplied reason="lost">ἀεὶ τὸ θῆλυ</supplied>
+            <l>/ Ὠροσ. εὔκ]αμπτον γαρ <supplied reason="lost">ἀεὶ τὸ θῆλυ</supplied>
             </l>
             <l>
               <supplied reason="lost">αἴ κέ</supplied> τισ κούφωσ τ<supplied reason="lost"
-                >ὸ</supplied> πάρον ν]οήσῃ<gap reason="lost" quantity="1" unit="character"/></l>
+                >ὸ</supplied> πάρον ν]οήσῃ.</l>
             <l>
               <supplied reason="lost">οὐ</supplied>δὲ νῦν, Ἀνακτορί<supplied reason="lost">α,
                 τ</supplied>ὺ μέμναι</l>
@@ -733,7 +691,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>ἀ]μφι σ<gap reason="lost" extent="unknown" unit="character"/></l>
             <l>[ ]</l>
             <l>[ ]</l>
-            <l><gap reason="lost" quantity="1" unit="character"/><supplied reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/>ν ιλ[</l>
+            <l>·[·]·ν ιλ[</l>
             <l>ἔμμενα<supplied reason="lost">ι</supplied>
               <gap reason="lost" extent="unknown" unit="character"/></l>
             <l>[ ]ρ ἀπικε<supplied reason="lost">σθαι</supplied>.</l>
@@ -746,7 +704,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>‹ἐ›ννέπην [</l>
             <l>γλῶσσα μ[</l>
             <l>μυθολογη̣[</l>
-            <l>κἆνδρι <gap reason="lost" quantity="1" unit="character"/>[</l>
+            <l>κἆνδρι .[</l>
             <l>μεσδον[</l>
           </lg>
         </div>
@@ -756,16 +714,16 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <gap reason="lost" quantity="4" unit="line"/>
             <l><gap reason="lost" extent="unknown" unit="character"/>μενοισα<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" quantity="3" unit="character"/>με]θ᾽ ἐν θύοισι[ν]</l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>ἔχοισαν ἔσλ<gap reason="lost" quantity="1" unit="character"/></l>
+            <l>. . . με]θ᾽ ἐν θύοισι[ν]</l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>ἔχοισαν ἔσλ[.]</l>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l><gap reason="lost" extent="unknown" unit="character"/>ει δὲ βαισα<gap reason="lost" quantity="1" unit="character"/></l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>ει δὲ βαισα[.]</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ὐ γὰρ ἴδμεν</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ιν ἔργων</l>
             <gap reason="lost" quantity="1" unit="line"/>
             <l><gap reason="lost" extent="unknown" unit="character"/>δ᾽ ὐπίσσω</l>
-            <l><gap reason="lost" quantity="5" unit="character"/>κ]ἀπικύδ<supplied reason="lost" quantity="1" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/> τόδ᾽ εἴπη<supplied reason="lost" quantity="1" unit="character"/></l>
+            <l>. . . . . κ]ἀπικύδ[.]</l>
+            <l><gap reason="lost" extent="unknown" unit="character"/> τόδ᾽ εἴπη[.]</l>
             <gap reason="lost" quantity="1" unit="line"/>
             <note>Source: : P. Oxy. (1914) 1231, fr. 2</note>
           </lg>
@@ -775,18 +733,18 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
           <lg>
             <gap reason="lost" quantity="1" unit="line"/>
             <l><gap reason="lost" extent="unknown" unit="character"/>ἔπιθες μα[καιρα]</l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>ε γάνος δὲ και<gap reason="lost" quantity="1" unit="character"/><gap
+            <l><gap reason="lost" extent="unknown" unit="character"/>ε γάνος δὲ και.<gap
                 reason="lost" extent="unknown" unit="character"/></l>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l><gap reason="lost" quantity="4" unit="character"/>τ]ύχαι σὺν ἔσλαι</l>
-            <l><gap reason="lost" quantity="2" unit="character"/>λί]μενος κρέτησαι</l>
-            <l><gap reason="lost" quantity="4" unit="character"/>γ]ᾶς μελαίνας</l>
+            <l>. . . . τ]ύχαι σὺν ἔσλαι</l>
+            <l>. . λί]μενος κρέτησαι</l>
+            <l>. . . . γ]ᾶς μελαίνας</l>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l><gap reason="lost" quantity="2" unit="character"/>οὐκ ἐθ]έλοισι ναῦται</l>
+            <l>. . οὐκ ἐθ]έλοισι ναῦται</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>μεγάλαις ἀήται[ς]</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>α κἀπὶ χέρσω</l>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l><gap reason="lost" quantity="4" unit="character"/>ἄ]μοθεν πλέοι<gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>.</l>
+            <l>. . . . ἄ]μοθεν πλέοι.<gap reason="lost" extent="unknown" unit="character"/>.</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>δε τὰ φόρτι᾽ εἰκ<gap
                 reason="lost" extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ν ἄτιμ᾽ ἐπεὶ κη<gap
@@ -801,9 +759,9 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l><gap reason="lost" extent="unknown" unit="character"/>ιν ἔργα</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>χέρσω<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>α</l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>.α</l>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/> . . <gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <gap reason="lost" quantity="3" unit="line"/>
             <note>Source: : P. Oxy. X (1914) 1231, fr. 9 : P. Oxy. XXI (1951) add. p. 122</note>
@@ -813,13 +771,13 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
           <label>Lobel-Page 21 / Diehl 32</label>
           <lg>
             <gap reason="lost" quantity="4" unit="line"/>
-            <l><gap reason="lost" extent="unknown" unit="character"/>λεπαβολησ<supplied reason="lost" quantity="1" unit="character"/></l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>λεπαβολησ[.]</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>αν δ᾽ ὄλοφυν <gap reason="lost"
                 extent="unknown" unit="character"/>ερ</l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>τρομέροισ π<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>τρομέροισ π.<gap reason="lost"
                 extent="unknown" unit="character"/>αλλα</l>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l><gap reason="lost" quantity="5" unit="character"/>πάντα] χρόα γῆρας ἤδη</l>
+            <l>. . . . . πάντα] χρόα γῆρας ἤδη</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ν ἀμφιβάσκει</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ς πέταται διώκων</l>
             <gap reason="lost" quantity="1" unit="line"/>
@@ -838,30 +796,32 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
           <label>Lobel-Page 22 / Diehl 33, 36</label>
           <note>[Diehl 33]</note>
           <lg>
-            <l><gap reason="lost" extent="unknown" unit="character"/>βλαφ[θ<gap reason="lost" quantity="5" unit="character"/></l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>βλαφ[θ. . . . .</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ἔργον, πηλ᾽ ἀπ<gap
                 reason="lost" extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ν ῤέθος δοκιμ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ησθαι</l>
-            <l><note>scansion:ˉ</note>ν αὐάδην χ<gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>[ – ]ν αὐάδην χ.<gap reason="lost" extent="unknown" unit="character"/></l>
+            <!-- Tsilla: Trouver l’épidoc pour la scansion -->
             <l>αἰ δ]ὲ μή, χείμων<gap reason="lost" extent="unknown" unit="character"/></l>
-            <l><note>scansion:ˉ˘</note>τοισαν ἄλγεα<gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>[ – ^ ]τοισαν ἄλγεα.<gap reason="lost" extent="unknown" unit="character"/></l>
+            <!-- Tsilla: trouver l’épidoc pour la scansion -->
             <l><gap reason="lost" extent="unknown" unit="character"/>δε</l>
             <note>[Diehl 36]</note>
-            <l><gap reason="lost" quantity="2" unit="character"/>ε<gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/>κ]έλομαι σ᾽ ἀ[είδην</l>
-            <l><supplied reason="lost">Γο</supplied>γγύλαν <supplied reason="lost">Ἄβ</supplied>ανθι λάβοισα μα<gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="short" unit="character"
+            <l>[.].ε.<gap reason="lost" extent="unknown" unit="character"/>κ]έλομαι σ᾽ ἀ[είδην</l>
+            <l>[Γο]γγύλαν [Ἄβ]ανθι λάβοισα μα.<gap reason="lost" extent="short" unit="character"
               /></l>
-            <l><supplied reason="lost">πᾶ</supplied>κτιν, ἆς σε δηὖτε πόθος τ<gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"
+            <l>[πᾶ]κτιν, ἆς σε δηὖτε πόθος τ.<gap reason="lost" extent="unknown" unit="character"
               /></l>
             <l>ἀμφιπόταται</l>
             <l>τὰν κάλαν· ἀ γὰρ κατάγωγις αὔτα[ς σ᾽</l>
             <l>ἐπτόαισ᾽ ἴδοισαν, ἔγω δὲ χαίρω·</l>
             <l>καὶ γὰραὔτα δήπο[τ᾽] ἐμέμφ[ετ᾽ ἄγνα</l>
             <l>[Κ]υπρογέν[ηα,</l>
-            <l>ὠς ἄραμα[ι<gap reason="lost" quantity="5" unit="character"/></l>
-            <l>τοῦτο τῶ[πος<gap reason="lost" quantity="5" unit="character"/></l>
-            <l>[β]όλλομα[ι<gap reason="lost" quantity="5" unit="character"/></l>
+            <l>ὠς ἄραμα[ι. . . . .</l>
+            <l>τοῦτο τῶ[πος. . . . .</l>
+            <l>[β]όλλομα[ι. . . . .</l>
             <gap reason="lost" quantity="1" unit="line"/>
             <note>Sources: : P. Oxy. X (1914) 1231, fr. 12</note>
             <note>Cf. P. Oxy. XXI (1951) add. p. 125, 11</note>
@@ -874,19 +834,20 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l><gap reason="lost" extent="unknown" unit="character"/>ἔρωτος ἠλπ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l><note>scansion:ˉ˘</note> ὠς γὰρ ἄν]τιον εἰσίδω σ[ε</l>
+            <l>[– ^ ὠς γὰρ ἄν]τιον εἰσίδω σ[ε</l>
+            <!-- Tsilla: trouver la scansion sur épidoc -->
             <l>[φαίνεταί μ᾽ οὐδ᾽] Ἐρμιόνα τεαύ[τα</l>
             <l>[ἔμμεναι,] ξάνθαι δ᾽ Ἐλέναι σ᾽ ἐίσ[κ]ην</l>
             <l>[οὖδεν ἄει]κες</l>
             <l>[αἰ θέ]μις θνάταις, τόδε δ᾽ ἴσ[θι] τᾶι σᾶι</l>
             <l>[καρδίαι, ]παίσαν κέ με τὰν μερίμναν</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>λαἴσ᾽ ἀντιδ<gap reason="lost"
-                extent="short" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"
+                extent="short" unit="character"/>.<gap reason="lost" quantity="1" unit="character"
               />αθοις δὲ</l>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l><gap reason="lost" quantity="11" unit="character"/>δροσόεν]τας ὄχθοις</l>
+            <l>. . . . . . . . . . . δροσόεν]τας ὄχθοις</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ταιν</l>
-            <l><gap reason="lost" quantity="15" unit="character"/>παν]νυχίσ[δ]ην</l>
+            <l>. . . . . . . . . . . . . . . παν]νυχίσ[δ]ην</l>
             <note>Source: : P. Oxy. X (1914) 1231, fr. 14</note>
           </lg>
         </div>
@@ -897,10 +858,11 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
                 extent="unknown" unit="character"/></l>
             <l>[ἀλλὰ μ]εμνάσεσθ᾽ ἀ<gap reason="lost" extent="unknown" unit="character"/></l>
             <l>[κ]αὶ γὰρ ἄμμες ἐν νεό[τατι</l>
-            <l>ταῦτ᾽ [ἐ]πόημμεν<gap reason="lost" quantity="1" unit="character"/></l>
+            <l>ταῦτ᾽ [ἐ]πόημμεν.</l>
             <l>[πόλλα μ]ὲν γὰρ καὶ κά[λα</l>
             <l>[ἤχο]μεν, πόλι<gap reason="lost" extent="unknown" unit="character"/></l>
-            <l><note>scansion:ˉ✕</note>ο[ρ]είαις δ<gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>[ – χ]ο[ρ]είαις δ<gap reason="lost" extent="unknown" unit="character"/></l>
+            <!-- Tsilla: epidoc scansion à trouver -->
             <gap reason="lost" quantity="1" unit="line"/>
             <note>Source: : P. Oxy. X (1914) 1231, fr. 13</note>
           </lg>
@@ -912,13 +874,13 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ωομ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>ω· ν<gap reason="lost" quantity="2" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>ω· ν..<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>εναντ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>απάππ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" quantity="2" unit="character"/>τ]όλμαν<gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>. . τ]όλμαν<gap reason="lost" extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ανθρω<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ονεχ<gap reason="lost"
@@ -931,16 +893,16 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
         <div type="textpart" subtype="poem" n="24c">
           <label>Lobel-Page 24c / Diehl 34c</label>
           <lg>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>έδαφ<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.έδαφ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>αικατε<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ανέλο<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>[ ]<gap reason="lost" quantity="1" unit="character"/>αι</l>
-            <l><gap reason="lost" quantity="7" unit="character"/>λ]επτοφών<gap reason="lost" extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>εα<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.[ ].αι</l>
+            <l>. . . . . . . λ]επτοφών<gap reason="lost" extent="unknown" unit="character"/></l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>.εα.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>Source: : P. Oxy. X (1914) 1231, frr. 22+25</note>
           </lg>
@@ -949,32 +911,35 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
           <label>Lobel-Page 25</label>
           <lg>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l><gap reason="lost" extent="unknown" unit="character"/>γμε<gap reason="lost" quantity="1" unit="character"/>[</l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>προλιπ[</l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>νυᾶσεπ[</l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>βρα·</l>
+            <l>[ ]γμε.[</l>
+            <!-- Tsilla : Le changement de format me perturbe, je préfère en parler en classe (ou sur le forum une fois que j’aurai fini ?) -->
+            <l>[ ]προλιπ[</l>
+            <l>[]νυᾶσεπ[</l>
+            <l>[ ]βρα·</l>
             <l>[ἐ]γλάθαν’ ἐσ̣[</l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>ησμεθα̣[</l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>ν̣υνθαλα[</l>
+            <l>[ ]ησμεθα̣[</l>
+            <l>[]ν̣υνθαλα[</l>
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="26">
           <label>Lobel-Page 26 / Diehl 37</label>
           <lg>
-            <l><gap reason="lost" extent="unknown" unit="character"/>θαμέω<supplied reason="lost">ς</supplied><note>scansion:˘ˉ˘</note></l>
-            <l><gap reason="lost" quantity="8" unit="character"/>ὄ]ττινα[ς γάρ]</l>
-            <l><supplied reason="lost">εὖ θέω, κῆνοί με μά</supplied>λιστα πά<supplied reason="lost">ντων</supplied></l>
-            <l><note>scansion:ˉ˘</note><supplied reason="lost">σίνοντα</supplied>ι<gap reason="lost" quantity="1" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>ἀλεμάτ<supplied reason="lost">ων</supplied><gap reason="lost" quantity="5" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>γόνωμ<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>θαμέω[ς ^ – ^]</l>
+            <!-- Tsilla: Scansion épidoc à trouver -->
+            <l>. . . . . . . . ὄ]ττινα[ς γάρ]</l>
+            <l>[εὖ θέω, κῆνοί με μά]λιστα πά[ντων]</l>
+            <l>[– ^ σίνοντα]ι.</l>
+            <!-- Scansion épidoc à trouver -->
+            <l><gap reason="lost" extent="unknown" unit="character"/>ἀλεμάτ[ων . . . . .</l>
+            <l><gap reason="lost" extent="unknown" unit="character"/> γόνωμ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>ιμ᾽ οὐ πρ<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.ιμ᾽ οὐ πρ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>αι</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>σέ· θέλω<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" quantity="6" unit="character"/>τοῦ]το πάθη[ν<gap reason="lost" quantity="5" unit="character"/></l>
+            <l>. . . . . . τοῦ]το πάθη[ν. . . . .</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>λαν· ἔγω δ᾽ ἔμ᾽ [αὔται]</l>
             <l>[τοῦτο σύ]νοιδα</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>τοισ<gap reason="lost"
@@ -1010,29 +975,29 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
           <lg>
             <note>(a)</note>
             <l><gap reason="lost" extent="unknown" unit="character"/>ν<gap reason="lost"
-                extent="short" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown"
+                extent="short" unit="character"/>.<gap reason="lost" extent="unknown"
                 unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>ιτασαδ<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.ιτασαδ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>ανοεισαι<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.ανοεισαι<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>πο<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(b)</note>
             <l><gap reason="lost" extent="unknown" unit="character"/>ζ<gap reason="lost"
-                quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"
+                quantity="1" unit="character"/>.<gap reason="lost" extent="unknown" unit="character"
               /></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>τες χθό<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>σθ᾽ ἐ<gap reason="lost"
                 extent="unknown" unit="character"/>σι<gap reason="lost" extent="unknown"
                 unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>ασ<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.ασ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>κ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(c)</note>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="3" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>. . .<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>πα<gap reason="lost"
                 extent="unknown" unit="character"/></l>
@@ -1040,7 +1005,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>νε<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
           </lg>
         </div>
@@ -1060,10 +1025,10 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ιον<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(2) 1231 fr. 5</note>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>ιων<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.ιων<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>μετριακα<gap reason="lost"
                 extent="unknown" unit="character"/></l>
@@ -1084,7 +1049,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <note>(4) 1231 fr. 7</note>
             <l><gap reason="lost" extent="unknown" unit="character"/>δ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>ακα<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.ακα<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>τισαι<gap reason="lost"
                 extent="unknown" unit="character"/></l>
@@ -1092,7 +1057,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <gap reason="lost" quantity="1" unit="line"/>
             <l><gap reason="lost" extent="unknown" unit="character"/>ανταμε<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>ιποτνια<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.ιποτνια<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>αψατ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
@@ -1100,36 +1065,36 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <note>(6a) 1231 fr. 19 + XXI add. 2166</note>
             <l><gap reason="lost" extent="unknown" unit="character"/>πεπλ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>ι<supplied reason="lost" quantity="1" unit="character"/>ορμοισ<supplied reason="lost" quantity="1" unit="character"/>τε<gap
+            <l><gap reason="lost" extent="unknown" unit="character"/>.ι[.]ορμοισ[.]τε<gap
                 reason="lost" extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
-                extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><supplied reason="lost" quantity="1" unit="character"/>ω</l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>α<gap reason="lost"
-                extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.<gap reason="lost"
+                extent="unknown" unit="character"/>.[.]ω</l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>.α<gap reason="lost"
+                extent="unknown" unit="character"/>.<gap reason="lost" extent="unknown"
                 unit="character"/>αποι<gap reason="lost" extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>ω<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.ω<gap reason="lost"
                 extent="unknown" unit="character"/>τ<gap reason="lost" extent="unknown"
                 unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>ιγο<gap reason="lost"
-                extent="unknown" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="lost" extent="unknown"
-                unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><supplied reason="lost" quantity="1" unit="character"/>λμ[ ]<gap reason="lost" quantity="1" unit="character"/><supplied reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap
+            <l><gap reason="lost" extent="unknown" unit="character"/>.ιγο<gap reason="lost"
+                extent="unknown" unit="character"/>. .<gap reason="lost" extent="unknown"
+                unit="character"/>.<gap reason="lost" extent="unknown" unit="character"/></l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>.</l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>.[.]λμ[ ].[.].<gap
                 reason="lost" extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>ντε<gap reason="lost" quantity="2" unit="character"/> γοργοι <gap reason="lost" quantity="1" unit="character"/><supplied reason="lost" quantity="1" unit="character"></supplied><gap reason="lost" quantity="1" unit="character"/><gap
+            <l><gap reason="lost" extent="unknown" unit="character"/>ντε. . γοργοι .[.].<gap
                 reason="lost" extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>δε· [ ]<gap reason="lost" quantity="2" unit="character"/><gap reason="lost"
-                extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown"
+            <l><gap reason="lost" extent="unknown" unit="character"/>δε· [ ]. .<gap reason="lost"
+                extent="unknown" unit="character"/>.<gap reason="lost" extent="unknown"
                 unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>μ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(6b) XXI add. 2166</note>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>εο<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.εο.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l>προ<gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" quantity="1" unit="character"/>βρο<gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>προ.<gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>.βρο<gap reason="lost" extent="unknown" unit="character"/></l>
             <l>αντ<gap reason="lost" extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>. . <gap reason="lost" extent="unknown" unit="character"/></l>
             <note>(7) 1231 fr. 20</note>
             <gap reason="lost" quantity="1" unit="line"/>
             <l><gap reason="lost" extent="unknown" unit="character"/>ων</l>
@@ -1142,7 +1107,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>νίψοι<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>ντι<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>ντι. <gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>
               <gap reason="lost" extent="unknown" unit="character"/></l>
@@ -1151,7 +1116,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>τισιν· κα<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>γο<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.γο<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(10) 1231 fr. 30</note>
             <l><gap reason="lost" extent="unknown" unit="character"/>μαλι<gap reason="lost"
@@ -1163,16 +1128,17 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <note>(11) 1231 fr. 31</note>
             <l><gap reason="lost" extent="unknown" unit="character"/>δασ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" quantity="1" unit="line"/></l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>
+              <gap reason="lost" extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>λθε <gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>αν<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>αν <gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(12) 1231 fr. 35</note>
             <gap reason="lost" quantity="2" unit="line"/>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l>ο<gap reason="lost" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>ο. .<gap reason="lost" extent="unknown" unit="character"/></l>
             <l>κυπ<gap reason="lost" extent="unknown" unit="character"/></l>
             <l>του<gap reason="lost" extent="unknown" unit="character"/></l>
             <l>φ<gap reason="lost" extent="unknown" unit="character"/></l>
@@ -1182,19 +1148,20 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>αι <gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(14) 1231 fr. 41</note>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>. .<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>αταδ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(15) 1231 fr. 43</note>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>νω<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" quantity="1" unit="line"/></l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>
+              <gap reason="lost" extent="unknown" unit="character"/></l>
             <note>(16) 1231 fr. 44</note>
             <l><gap reason="lost" extent="unknown" unit="character"/>πεδ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
@@ -1203,13 +1170,13 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <note>(17) 1231 fr. 45</note>
             <l><gap reason="lost" extent="unknown" unit="character"/>ν<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>τε<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>τε.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(18) 1231 fr. 48</note>
             <l><gap reason="lost" extent="unknown" unit="character"/>ον<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(19) 1231 fr. 49</note>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>νλ<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.νλ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(20) 1231 fr. 55</note>
             <gap reason="lost" quantity="1" unit="line"/>
@@ -1217,7 +1184,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>απάμ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>ρῆσμε<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>ρῆσμε.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <gap reason="lost" quantity="1" unit="line"/>
             <l><gap reason="lost" extent="unknown" unit="character"/>δαιζαφ<gap reason="lost"
@@ -1225,7 +1192,8 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l><gap reason="lost" extent="unknown" unit="character"/>μ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(21) 2081 (c) 1 (= 1231 frr. 29 + 42 + novum)</note>
-            <l><gap reason="lost" quantity="1" unit="line"/></l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>
+              <gap reason="lost" extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>δηντ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>νεσθ<gap reason="lost"
@@ -1237,91 +1205,95 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l><gap reason="lost" extent="unknown" unit="character"/>ν<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(22) 2081 (c) 2</note>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>. .<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ναισυ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>εγνωσι<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>εγνωσι.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ανδρασβ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(23) 2081 (c) 3</note>
-            <l><gap reason="lost" quantity="1" unit="line"/></l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>
+              <gap reason="lost" extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ινασδ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ωτ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(24) XVIII 2166 (a) 1</note>
-            <l><gap reason="lost" quantity="1" unit="line"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>οισα<supplied reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>
+              <gap reason="lost" extent="unknown" unit="character"/></l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>.οισα[.]. <gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>υριννοι <gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>αυταν <gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.αυταν <gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" quantity="1" unit="line"/></l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>
+              <gap reason="lost" extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>σ᾽ εοισαν <gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>λοισα <gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(25a) XXI 2166 (a) 7</note>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" quantity="1" unit="character"/>αιγαρα<gap reason="lost" extent="unknown" unit="character"/></l>
-            <l>ταυτ᾽ <gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" quantity="1" unit="character"/>πο<gap reason="lost" quantity="3" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></l>
-            <l>[]<gap reason="lost" quantity="3" unit="character"/>η<gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></l>
-            <l><supplied reason="lost" quantity="1" unit="character"></supplied>μμε<gap reason="lost" extent="unknown" unit="character"/></l>
-            <l><supplied reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="2" unit="character"/><supplied reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>.]αιγαρα<gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>ταυτ᾽ .<gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>.πο. . .<gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>[]. . .η.<gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>.]μμε<gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>.]. .[.]. .<gap reason="lost" extent="unknown" unit="character"/></l>
             <note>(25b) XXI 2166 (a) 7</note>
             <gap reason="lost" quantity="3" unit="line"/>
-            <l><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></l>
-            <l>το<gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></l>
-            <l>γα<supplied reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>. <gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>το.<gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>γα[.]. .<gap reason="lost" extent="unknown" unit="character"/></l>
             <l>ανδά<gap reason="lost" extent="unknown" unit="character"/></l>
             <l>
-              <gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>αι<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+              <gap reason="lost" extent="unknown" unit="character"/>.αι.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(26) XXI 2166 (a) 8</note>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>ιρα<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.ιρα.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>· χαρ<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.· χαρ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>ετοπλ<gap reason="lost" quantity="3" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>ετοπλ. . .<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(27) XXI 2166 (a) 9</note>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>λ<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.λ.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>εν· ο<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>εν· ο.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" quantity="1" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>
+              <gap reason="lost" extent="unknown" unit="character"/></l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(28) XXI 2166 (a) 10</note>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>εδ<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.εδ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>εκαα<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>ν<supplied reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="1" unit="character"/>π<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>ν[.].π<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="4" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>. . . .<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(29) XXI 2166 (a) 11</note>
             <l><gap reason="lost" extent="unknown" unit="character"/>ρ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>νδημεν<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>νδημεν.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>αβασκο<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.αβασκο.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>κ<supplied reason="lost" quantity="1" unit="character"/>ναλ<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>κ[.]ναλ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><supplied reason="lost" quantity="1" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.[.]. .<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(30) XXI 2166 (a) 12</note>
-            <l><gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>.<gap reason="lost" extent="unknown" unit="character"/></l>
             <l>γη<gap reason="lost" extent="unknown" unit="character"/></l>
             <gap reason="lost" quantity="1" unit="line"/>
             <l>σοι<gap reason="lost" extent="unknown" unit="character"/></l>
@@ -1329,44 +1301,54 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>κυ<gap reason="lost" extent="unknown" unit="character"/></l>
             <l>χρ<gap reason="lost" extent="unknown" unit="character"/></l>
             <l>μ<gap reason="lost" extent="unknown" unit="character"/></l>
-            <l>π<gap reason="lost" quantity="1" unit="character"/><gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>π.<gap reason="lost" extent="unknown" unit="character"/></l>
             <l>μ<gap reason="lost" extent="unknown" unit="character"/></l>
             <note>(31) XXI 2166 (a) 13</note>
-            <l><gap reason="lost" quantity="4" unit="line"/></l>
+            <l><gap reason="lost" extent="unknown" unit="character"/></l>
+            <!-- Ressemblait à <l>. . . . . . . . ] [ . . . . .</l> est-ce qu’on remplace par du <gap reason="lost" unit="line" ? -->
+            <!-- Ressemblait à <l>. . . . . . . . ] [ . . . . .</l> est-ce qu’on remplace par du <gap reason="lost" unit="line" ? -->
+            <!-- Ressemblait à <l>. . . . . . . . ] [ . . . . .</l> est-ce qu’on remplace par du <gap reason="lost" unit="line" ?: est-ce qu’on remplace par du <gap reason="lost" unit="line" ? -->
+            <l><gap reason="lost" extent="unknown" unit="character"/>
+              <gap reason="lost" extent="unknown" unit="character"/></l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>
+              <gap reason="lost" extent="unknown" unit="character"/></l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>
+              <gap reason="lost" extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/> § ετ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="2" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>. .<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(32) XXI 2166 (a) 14</note>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/>λ<gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.λ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>δύ πο<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/> π<gap reason="lost" quantity="2" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/> π..<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(33) XXI 2166 (a) 15</note>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/> ικα<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(34) XXI 2166 (a) 16</note>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>συδ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" quantity="1" unit="line"/></l>
+            <l><gap reason="lost" extent="unknown" unit="character"/>
+              <gap reason="lost" extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>αι<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>νανδ<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>.[ ]<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <note>(35) XXI 2166 (a) 17</note>
             <l><gap reason="lost" extent="unknown" unit="character"/>αι<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>αιγο<gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>σα<gap reason="lost" quantity="1" unit="character"/><gap reason="lost"
+            <l><gap reason="lost" extent="unknown" unit="character"/>σα.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ελα<gap reason="lost"
                 extent="unknown" unit="character"/></l>
@@ -1377,7 +1359,8 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
           <label>Lobel-Page 30 / Diehl 39</label>
           <lg>
             <gap reason="lost" quantity="3" unit="line"/>
-            <l>νύκτ<gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="1" unit="character"/></l>
+            <l>νύκτ<gap reason="lost" extent="unknown" unit="character"/>. [ ]</l>
+            <!-- Tsilla: qu’est-ce qu’ils veulent dire par [ ], <gap reason="lost" extent="unknown" unit="character"/> ? -->
             <l>πάρθενοι δ<gap reason="lost" extent="unknown" unit="character"/></l>
             <l>παννυχίσδοι[σ]αι<gap reason="lost" extent="unknown" unit="character"/></l>
             <l>σὰν ἀείδοιεν φ[ιλότατα καὶ νύμ-]</l>
@@ -1388,6 +1371,8 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>ὔπνον [ἴ]δωμεν.</l>
             <l>μελῶν Α´</l>
             <l>ΧΗΗΗΔΔ</l>
+            <!-- Tsilla: Si je ne me trompe pas, c’est un nombre... donc ça devrait être une note? -->
+            <!-- AB : Non, car c’est le texte du papyrus, que l’éditeur a choisi de faire figurer. -->
             <note>‘3. Cf. Sappho, Frag. 30: mellichothônais, “gentle-voiced,” Trans. Edmonds,</note>
             <note>Source: : P. Oxy. X (1914) 1231, fr. 56 : P. Oxy. XXI (1951) add. p. 123</note>
           </lg>
@@ -1421,40 +1406,18 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <!--<head>STOA</head>-->
             <l>φαίνεταί μοι κῆνος ἴσος θέοισιν</l>
             <l>ἔμμεν’ ὤνηρ, ὄττις ἐνάντιός τοι</l>
-            <l>ἰσδάνει καὶ πλάσιον ἆδυ
-            <app>
-              <lem resp="LP">φονεί-</lem>
-              <rdg resp="Vgt">φωνεί-</rdg>
-            </app></l>
+            <l>ἰσδάνει καὶ πλάσιον ἆδυ φονεί-</l>
+            <!-- Tsilla: Trouver la notation TEI pour indiquer qu’un mot continue au vers suivant -->
             <l>σας ὐπακούει</l>
             <l>καὶ γελαίσας ἰμέροεν, τό μ’ ἦ μὰν</l>
             <l>καρδίαν ἐν στήθεσιν ἐπτόαισεν·</l>
-            <l>ὠς γὰρ ἔς σ’ ἴδω βρόχε’, ὤς με
-            <app>
-              <lem resp="LP">φώναί-</lem>
-              <rdg resp="Vgt">φώνη-</rdg>
-            </app></l>
-            <l>σ’
-            <app>
-              <lem resp="LP">οὐδ’ ἒν</lem>
-              <rdg resp="Vgt">οὐδὲν</rdg>
-            </app>ἔτ’ εἴκει,</l>
+            <l>ὠς γὰρ ἔς σ’ ἴδω βρόχε’, ὤς με φώναί-</l>
+            <l>σ’ οὐδ’ ἒν ἔτ’ εἴκει,</l>
             <l>ἀλλά κὰμ μὲν γλῶσσα <supplied reason="lost">μ’</supplied> †ἔαγε†, λέπτον</l>
             <l>δ’ αὔτικα χρῷ πῦρ ὐπαδεδρόμηκεν,</l>
-            <l>ὀππάτεσσι δ’ οὐδ’ ἒν ὄρημμ’,
-            <app>
-              <lem resp="LP">ἐπιρρόμ-</lem>
-              <rdg resp="Vgt">ἐπιβρό-</rdg>
-            </app></l>
-            <l><app>
-              <lem resp="LP">βεισι</lem>
-              <rdg resp="Vgt">μεισι</rdg>
-            </app>δ’ ἄκουαι,</l>
-            <l><app>
-              <lem resp="LP">κὰδ’ δέ </lem>
-              <rdg resp="Vgt"><sic>έκαδε</sic>μ ̓</rdg>
-            </app>
-            ἴδρως κακχέεται, τρόμος δὲ</l>
+            <l>ὀππάτεσσι δ’ οὐδ’ ἒν ὄρημμ’, ἐπιρρόμ-</l>
+            <l>βεισι δ’ ἄκουαι,</l>
+            <l>κὰδ’ δέ ἴδρως κακχέεται, τρόμος δὲ</l>
             <l>παῖσαν ἄγρει, χλωροτέρα δὲ ποίας</l>
             <l>ἔμμι, τεθνάκην δ’ ὀλίγω ’πιδεύης</l>
             <l>φαίνομ’ ἔμ’ αὔτᾳ.</l>
@@ -1486,7 +1449,8 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
           <label>Lobel-Page 33 / Diehl 9 / Bergk 9 / Cox 9</label>
           <lg>
             <l>αἴθ’ ἔγω, χρυσοστέφαν’ Ἀφρόδιτα,</l>
-            <l>τόνδε τὸν πάλον λαχοίην <note>scansion:˘˘ˉ</note>.</l>
+            <l>τόνδε τὸν πάλον [^ ^ -] λαχοίην.</l>
+            <!-- Tsilla: Trouver la notation Epidoc pour la scansion -->
             <note>Source: Apollonius.</note>
             <note>Apollon. Dysc. de synt. 2, 350, 4 (Uhlig)</note>
           </lg>
@@ -1500,7 +1464,8 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>γᾶν [ἐπὶ πᾶσαν]</l>
             <l><gap reason="lost" extent="unknown" unit="character"/> ἀργυρία <gap reason="lost"
                 extent="unknown" unit="character"/></l>
-                <!-- Faire un apparat critique pour Cox -->
+            <!-- Tsilla: Note, on avait "..." sans la moindre [ ou ]. Car pourquoi rester consistent quand on fait une édition ? -.- -->
+            <!-- AB : Le site reprend plusieurs éditions. Elles ne suivent peut-être pas toutes les mêmes conventions (voir EpiDoc Leiden Cheatsheet http://www.stoa.org/epidoc/gl/latest/) -->
             <l>/ Cox: Αστερεσ μέν ἀμφι κάλαν σελάνναν</l>
             <l>ἆιψ ἀπυκρύπτοισι φάεννον εἶδοσ,</l>
             <l>ὄπποτα πλήθοισα μάλιστα λάμπησ</l>
@@ -1515,7 +1480,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>ἤ σε Κύπρος καὶ Πάφος ἢ Πάνορμος (Lobel-Page?)</l>
             <gap reason="lost" quantity="1" unit="line"/>
             <l>Ἤ σε κύπροσ καὶ Πάφοσ ἢ Πάνορμοσ (Cox)</l>
-            <note>Source: Strabo, about 19 A.D.: Strabo, 1st century AD.</note>
+            <note>Source:: Strabo, about 19 A.D.: Strabo, 1st century AD.</note>
             <note>(“Strabo 1, 2, 33 (p. 40)” - augsburg.de)</note>
           </lg>
         </div>
@@ -1616,7 +1581,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>χῶρις δ’ αὖ Περάμοιο θυγ[α]τρες [ἐπήισαν,</l>
             <l>ἴππ[οις] δ’ ἄνδρες ὔπαγον ὐπ’ ἀρ[ματα κάμπυλα</l>
             <l>π[άντ]ες ἠίθεοι, μεγάλω[σ]τι δ[</l>
-            <l>δ[ίφροις ]· ἀνίοχοι φ<supplied reason="lost" quantity="5" unit="character"/>·[</l>
+            <l>δ[ίφροις ]· ἀνίοχοι φ[·····]·[</l>
             <l>π[ ]ξαλο[ν</l>
             <l>[ ]</l>
             <l>ἴ]κελοι θέοι[ς</l>
@@ -1889,11 +1854,11 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>[.]οργι[</l>
             <l>[]σ̣πίο[</l>
             <l>[ ].[</l>
-            <l><gap reason="lost" quantity="3" unit="character"/></l>
+            <l>. . .</l>
             <note>(c)</note>
             <gap reason="lost" quantity="1" unit="line"/>
             <l>[]μνα [</l>
-            <l>[]<gap reason="lost" quantity="1" unit="character"/>κατ̣εγ̣[</l>
+            <l>[].κατ̣εγ̣[</l>
             <l>[ ]κ̣εκ[</l>
             <gap reason="lost" quantity="1" unit="line"/>
           </lg>
@@ -1980,7 +1945,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>[ ]ατόν σφι̣[</l>
             <l>[ ]παντεσσι[</l>
             <l>[ ]επ[.].[</l>
-            <l><gap reason="lost" quantity="3" unit="character"/></l>
+            <l>. . .</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="71">
@@ -2026,7 +1991,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>[ ].έ̣να θαασ[ς</l>
             <l>[ ]άλλει</l>
             <l>[]ας ἐέρσασ[</l>
-            <l><gap reason="lost" quantity="3" unit="character"/></l>
+            <l>. . .</l>
             <note>(b)</note>
             <gap reason="lost" quantity="1" unit="line"/>
             <l>[ ]ω.[</l>
@@ -2207,7 +2172,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
           <label>Lobel-Page 82a / 63D</label>
           <lg>
             <l>εὐμορφοτέρα Μνασιδίκα τὰς ἀπάλας Γυρίννως</l>
-            <note>Sappho’s Supra-Superlatives</note>
+            <l>— Sappho’s Supra-Superlatives</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="91">
@@ -2244,7 +2209,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>πέπλον πορφυ[ρ<gap reason="lost" extent="unknown" unit="character"/>δεξω[.]</l>
             <l>χλαιναι περσ[</l>
             <l>στέφανοι περ[</l>
-            <l>καλ<supplied reason="lost" quantity="1" unit="character"/>οσσαμ[</l>
+            <l>καλ[.]οσσαμ[</l>
             <l>φρυ[</l>
             <l>πορφ[υρ-</l>
             <l>ταπα[</l>
@@ -2273,7 +2238,6 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <note>Source: : P. Berol. 9722 fol. 1 (BKT V, 2 p. 12)</note>
           </lg>
         </div>
-        <!-- Florence : absence du poème 93 -->
         <div type="textpart" subtype="poem" n="94">
           <label>Lobel-Page 94 / Voigt 94 / Diehl 96</label>
           <lg>
@@ -2339,12 +2303,14 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/> πόλλακι τυῖδε νῶν ἔχοισα</l>
             <l>ὤς ποτ’ ἐζώομεν· <gap reason="lost" extent="unknown" unit="character"/></l>
-            <l>σε θέᾳ σ’ ἰκέλαν, Ἀρι<lb n="1"/></l>
-            <l><lb n="2" break="no"/>γνώτα σᾷ δἐ μάλιστ’ ἔχαιρε μόλπᾳ·</l>
+            <l>σε θέᾳ σ’ ἰκέλαν, Ἀρι-</l>
+            <!-- Tsilla: Montrer qu’il y a enjambement, epidoc -->
+            <!-- AB : Oui, mais pas maintenant. -->
+            <l>γνώτα σᾷ δἐ μάλιστ’ ἔχαιρε μόλπᾳ·</l>
             <l>νῦν δἐ Λύδαισιν ἐμπρέπεται γυναί-</l>
             <l>κεσσιν ὤς ποτ’ ἀελίω</l>
             <l>δύντος ἀ βροδοδάκτυλος σελάννα;</l>
-            <l>πάντα παρρέχοισ’ ἄστρα φάος δ’ ἐπί</l>
+            <l>πάντα παρρέχοισ’ ἄστρα φάος δ’ ἐπί-</l>
             <l>σχει θάλασσαν ἐπ’ ἀλμύραν</l>
             <l>ἴσως καὶ πολυανθέμοις ἀρούραις·</l>
             <l>ἀ δ’ ἐέρσα κάλα κέχυται, τεθά-</l>
@@ -2356,8 +2322,9 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>κῆθι δ’ ἔλθην ἄμμ’ <gap reason="lost" extent="unknown" unit="character"/></l>
             <note>or, augsburg.de:</note>
             <gap reason="lost" quantity="1" unit="line"/>
-            <l><note>scansion:˘˘ˉ</note><supplied reason="lost">ἀπὺ</supplied> Σαρδ<supplied reason="lost">ίων</supplied></l>
-            <l><note>scansion:ˉ˘</note><supplied reason="lost">πόλ</supplied>λακι τυῖδε <supplied reason="lost">ν</supplied>ῶν ἔχοισα.</l>
+            <l>^ ^ – ἀπὺ] Σαρδ[ίων</l>
+            <!-- Tsilla: scansion epidoc à trouver -->
+            <l>– ^ πόλ]λακι τυῖδε [ν]ῶν ἔχοισα.</l>
             <l>ὠς πε[δε]ζώομεν· β[εβάω]ς ἔχεν</l>
             <l>σὲ θέα&lt;ι&gt;σ᾽ ἰκέλαν Ἀρι-</l>
             <l>γνώτα, σᾶι δὲ μάλιστ᾽ ἔχαιρε μόλπαι.</l>
@@ -2368,12 +2335,12 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>σχει θάλασσαν ἐπ᾽ ἀλμύραν</l>
             <l>ἴσως καὶ πολυανθέμοις ἀρούραις.</l>
             <l>ἀ δ᾽ ἐέρσα κάλα κέχυται, τεθά-</l>
-            <l>λαισι δὲ βρόδα κἄπαλ᾽ ἄν<lb n="1"/></l>
-            <l><lb n="2" break="no"/>θρυσκα καὶ μελίλωτος ἀνθεμώδης.</l>
-            <l>πόλλα δὲ ζαφοίταισ᾽ ἀγάνας ἐπι<lb n="1"/></l>
-            <l><lb n="2" break="no"/>μνάσθεισ᾽ Ἄτθιδος ἰμέρωι</l>
+            <l>λαισι δὲ βρόδα κἄπαλ᾽ ἄν-</l>
+            <l>θρυσκα καὶ μελίλωτος ἀνθεμώδης.</l>
+            <l>πόλλα δὲ ζαφοίταισ᾽ ἀγάνας ἐπι-</l>
+            <l>μνάσθεισ᾽ Ἄτθιδος ἰμέρωι</l>
             <l>λέπταν ποι φρένα, κῆρ &lt;δ᾽&gt; ἄσα βόρηται.</l>
-            <l>κῆθι δ᾽ ἔλθην ἄμμε <gap reason="lost" extent="unknown" unit="character"/><gap reason="lost" quantity="2" unit="character"/>ισα τὸ
+            <l>κῆθι δ᾽ ἔλθην ἄμμε <gap reason="lost" extent="unknown" unit="character"/>. . ισα τὸ
               δ᾽ οὐ</l>
             <l>νῶντ᾽ ἄ[π]υστον ὐμ<gap reason="lost" extent="unknown" unit="character"/> πόλυς</l>
             <l>γαρύε[ι<gap reason="lost" extent="unknown" unit="character"/>αλον π<gap reason="lost"
@@ -2383,8 +2350,8 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>σθ᾽ αἰ συ<gap reason="lost" extent="unknown" unit="character"/>ρος ἐχησθα<gap
                 reason="lost" extent="unknown" unit="character"/>νιδηον</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>το<gap reason="lost"
-                extent="unknown" unit="character"/>ρα τι<lb n="1"/></l>
-            <l><lb n="2" break="no"/>μαλ<gap reason="lost" extent="unknown" unit="character"/>δι᾽ α]ἴθερος</l>
+                extent="unknown" unit="character"/>ρα τι-</l>
+            <l>μαλ<gap reason="lost" extent="unknown" unit="character"/>δι᾽ α]ἴθερος</l>
             <l>καὶ δ[.]μ<gap reason="lost" extent="unknown" unit="character"/>ος Ἀφροδίτα</l>
             <l>καμ<gap reason="lost" extent="unknown" unit="character"/>νέκταρ ἔχευ᾽ ἀπὺ</l>
             <l>χρυσίας <gap reason="lost" extent="unknown" unit="character"/>ναν</l>
@@ -2396,7 +2363,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l><gap reason="lost" extent="unknown" unit="character"/>εδαην μαι-</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ες τὸ Γεραΐστιον</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ν φίλαι</l>
-            <l><gap reason="lost" quantity="15" unit="character"/>ἄπ]υστον οὔδενο[ς]</l>
+            <l>. . . . . . . . . . . . . . . ἄπ]υστον οὔδενο[ς]</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ερον ἴξο[μ ^ ]</l>
             <gap reason="lost" quantity="2" unit="line"/>
             <gap reason="lost" quantity="1" unit="line"/>
@@ -2404,7 +2371,6 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
               2 p. 16 s.)</note>
           </lg>
         </div>
-        <!-- Florence : il manque le poème 97 -->
         <div type="textpart" subtype="poem" n="98">
           <label>Lobel-Page 98 / Diehl 98a, 98b</label>
           <lg>
@@ -2414,22 +2380,25 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>[σ]φᾶς ἐπ᾽ ἀλικίας μέγ[αν</l>
             <l>[κ]όσμον αἴ τις ἔχη φόβα[ι]ς</l>
             <l>[π]ορφύρωι κατελιξαμέν[α πλόκωι</l>
-            <l>[ἔ]μμεναι μάλα τοῦτο .<note>scansion:˘</note></l>
+            <l>[ἔ]μμεναι μάλα τοῦτο . [ ^ ]</l>
+            <!-- Tsilla : Trouver l’épidoc pour la scansion -->
             <l>[ἀ]λλ᾽ ἀ ξανθοτέρα[ι]ς ἔχη[ις]</l>
             <l>[τ]α[ὶ]ς κόμα[ι]ς δάιδος προφ[ανεστέραις]</l>
             <l>[σ]τεφάνοισιν ἐπαρτία[ις</l>
             <l>[ἀ]νθέων ἐριθαλέων</l>
-            <l>[μ]ίτρα· [τ]ὰν δ᾽ ἀρτίως Κλ[έϊ<note>scansion:ˉ˘˘</note></l>
+            <l>[μ]ίτρα· [τ]ὰν δ᾽ ἀρτίως Κλ[έϊ – ^ ^ ]</l>
+            <!-- Tsilla : Trouver l’épidoc pour la scansion -->
             <l>ποικίλαν ἀπὺ Σαρδίω[ν</l>
             <l>οἶα] Μαονίας πόλεις</l>
-            <l><gap reason="lost" quantity="1" unit="line"/><note>scansion:ˉ˘ˉ˘˘ˉ˘˘ˉ˘˘</note></l>
+            <l>[ – ^ – ^ ^ – ^ ^ – ^ ^ ]</l>
+            <!-- Tsilla : Trouver l’épidoc pour la scansion -->
             <l>σοὶ δ᾽ ἔγω, Κλέϊ, ποικίλαν</l>
             <l>οὐκ ἔχω· πόθεν ἔσσεται</l>
             <l>μίτρα ν[ῦ]ν; ἀλλὰ τῶι Μ[υ]τ[ι]ληνάωι</l>
             <l><gap reason="lost" extent="unknown" unit="character"/>.<gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <l>+παισαπειον+ ἔχην πολ[ις]</l>
-            <l>αἰ κε<gap reason="lost" quantity="1" unit="character"/>η ποικίλας κ<gap reason="lost" quantity="3" unit="character"/></l>
+            <l>αἰ κε[.]η ποικίλας κ. . .[</l>
             <l>ταύτας τᾶς Κλεανακτίδ[αν]</l>
             <l>φύγας +αλις α πολις ἔχει+</l>
             <l>μνάματ᾽ [ο]ἴδε γὰρ αἶνα διέρρυε[ν]</l>
@@ -2439,7 +2408,6 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <note>(b) vv. 14-22: P. Mediol., ed. Vogliano, Mediol. 1942</note>
           </lg>
         </div>
-        <!-- Florence : il manque le poème 99 qui est bien présent dans l'édition LP -->
         <div type="textpart" subtype="poem" n="100">
           <label>Lobel-Page 100 / Diehl 85 / Cox 86</label>
           <lg>
@@ -2449,11 +2417,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>Ἀμφὶ δ᾽ ἄβροισ λασίοισ εὖ ϝε πύκασσεν. (Cox)</l>
             <note>Source:Pollux.</note>
             <note>Pollux VII 73 (II p. 73 Bethe)</note>
-            </lg>
-            </div>
-<div type="textpart" subtype="poem" n="101">
-  <label>Lobel-Page 101 / Diehl 99</label>
-  <lg>
+            <note>101LP/99D</note>
             <l>χερρόμακτρα δὲ †καγγόνων†</l>
             <l>πορφύραι †καταυταμενἀ-</l>
             <l>τατιμάσεισ† ἔπεμψ’ ἀπὺ Φωκάας</l>
@@ -2669,24 +2633,16 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
           <lg>
             <l>ἄγι &lt;δή,&gt; χέλυ δῖα, μοι</l>
             <l>φωνάεσσα γένοιο</l>
-            </lg>
-            </div>
-<div type="textpart" subtype="poem" n="119">
-  <label>Lobel-Page 119 / Diehl 153 / Cox 110</label>
-            <l>
-              <app>
-                <lem resp="#LP">αἰμιτύβιον</lem>
-                <rdg resp="#Cox">Ἠμιτύβιον</rdg>
-              </app>
-              στάλασσον</l>
+            <note>119LP/153D / Cox 110</note>
+            <l>αἰμιτύβιον στάλασσον</l>
+            <l>/ Cox: Ἠμιτύβιον σταλάσσον.</l>
             <note>Source: Scholiast on the Plutus of Aristophanes.</note>
-            </div>
-<div type="textpart" subtype="poem" n="120">
-  <label>Lobel-Page 120 / Diehl 108 / Cox 69</label>
-            <lg>
+            <note>120LP/108D / Cox 69</note>
             <l>ἀλλά τις οὐκ ἔμμι παλιγκότων</l>
             <l>ὄργαν, ἀλλ’ ἀβάκην τὰν φρέν’ ἔχω <gap reason="lost" extent="unknown" unit="character"
               /></l>
+            <l>/ Cox: Ἄλλά τισ οὐκ ἔμμι παλιγκότων</l>
+            <l>ὄργαν, ἀλλ᾽ ἀβάκην τὰν φρέν᾽ ἔχω.</l>
             <note>Source: Etymologicum Magnum</note>
           </lg>
         </div>
@@ -2695,8 +2651,9 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
           <lg>
             <l>ἀλλ’ ἔων φίλος ἄμμι</l>
             <l>λέχος ἄρνυσο νεώτερον·</l>
-            <l>οὐ γὰρ τλάσομ’ ἔγω συνοί<lb n="1"/></l>
-            <l><lb n="2" break="no"/>κην ἔοισα γεραιτέρα <gap reason="lost" extent="unknown" unit="character"/></l>
+            <l>οὐ γὰρ τλάσομ’ ἔγω συνοί-</l>
+            <!-- Tsilla: Notation Epidoc d’un enjambement -->
+            <l>κην ἔοισα γεραιτέρα <gap reason="lost" extent="unknown" unit="character"/></l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="122">
@@ -2709,11 +2666,9 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>ἀρτίως μὲν ἀ χρυσοπέδιλλος Αὔως</l>
             <l>/ Ἀρτίως μ’ ἀ χρυσοπέδιλλος Αὔως.</l>
             <note>Source: Ammonius of Alexandria, at the close of the fourth century A.D.</note>
-            </lg>
-            </div>
-            <div type="textpart" subtype="poem" n="124">
-              <label>Lobel-Page 124 / Diehl 155</label>
+            <note>124LP/155D</note>
             <l>αὔτα δὲ σὺ Καλλιόπα</l>
+          </lg>
         </div>
         <div type="textpart" subtype="poem" n="125">
           <label>Lobel-Page 125 / 101D</label>
@@ -2761,12 +2716,8 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>Ἄτθι, σοὶ δ’ ἔμεθεν μὲν ἀπήχθετο</l>
             <l>φροντίσδην, ἐπὶ δ’ Ἀνδρομέδαν πότᾳ</l>
             <l>/ Voigt: φροντίσδην, ἐπὶ δ’ Ἀνδρομέδαν πότη[ι]</l>
-            <note>Source: “The four lines are consecutive in MS S ADI of Hephaestion.”</note>
-            </lg>
-            </div>
-            <div type="textpart" subtype="poem" n="132">
-              <label>Lobel-Page 132 / Diehl 152 / Cox 82</label>
-              <lg>
+            <note>Source: “The four lines are consecutive in MS S ADI of Hephaestion.”: 132LP/152D /
+              Cox 82</note>
             <l>ἔστι μοι κάλα πάις χρυσίοισιν ἀνθέμοισιν</l>
             <l>ἐμφέρην ἔχοισα μόρφαν Κλέις ἀγαπάτα,</l>
             <l>ἀντὶ τᾶς ἔγωὐδὲ Λυδίαν παῖσαν οὐδ’ ἐράνναν <gap reason="lost" extent="unknown"
@@ -2804,24 +2755,19 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="137">
-          <label>Lobel-Page 137 / 149D / Cox 26</label>
+          <label>Lobel-Page 137 / 149D</label>
           <lg>
-            <l><app>
-              <lem resp="LP">θέλω τί τ’ εἴπην, ἀλλά με κωλύει</lem>
-              <rdg resp="Cox"></rdg></app></l>
-            <l><app>
-              <lem resp="LP">αἴδως<gap reason="lost" extent="unknown" unit="character"/></lem>
-              <rdg resp="Cox"></rdg></app></l>
+            <l>θέλω τί τ’ εἴπην, ἀλλά με κωλύει</l>
+            <l>αἴδως <gap reason="lost" extent="unknown" unit="character"/></l>
             <l>αἰ δ’ ἦχες ἔσλων ἴμερον ἢ κάλων</l>
-            <l>καὶ μή <app>
-              <lem resp="LP">τί τ’ εἴπην</lem>
-              <rdg resp="Cox">τι ϝείπεν</rdg></app>γλῶσσ’ ἐκύκα κάκον,</l>
-            <l>αἴδως <app>
-              <lem resp="LP">†κέν σε οὐκ† ἦχεν ὄππα-</lem>
-              <rdg resp="Cox">κέ σ᾽ οὐ κίχανεν ὄππατ᾽</rdg></app></l>
-            <l><app>
-              <lem resp="LP">τ’ ἀλλ’ ἔλεγες †περὶ τὼ δικαίω†</lem>
-              <rdg resp="Cox">l>ἄλλ᾽ ἔλεγεσ περὶ τῶ δικαίωσ.</rdg></app></l>
+            <l>καὶ μή τί τ’ εἴπην γλῶσσ’ ἐκύκα κάκον,</l>
+            <l>αἴδως †κέν σε οὐκ† ἦχεν ὄππα-</l>
+            <l>τ’ ἀλλ’ ἔλεγες †περὶ τὼ δικαίω†</l>
+            <note>-- Cf. Cox 26 --</note>
+            <l>Αἰ δ᾽ ἦχεσ ἔσλων ἴμερον ἤ κάλων,</l>
+            <l>καὶ μή τι ϝείπεν γλῶσσ᾽ ἐκύκα κάκον,</l>
+            <l>αἴδωσ κέ σ᾽ οὐ κίχανεν ὄππατ᾽</l>
+            <l>ἄλλ᾽ ἔλεγεσ περὶ τῶ δικαίωσ.</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="138">
@@ -2831,7 +2777,6 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>καὶ τὰν ἐπ’ ὄσσοισ’ ὀμπέτασον χάριν</l>
           </lg>
         </div>
-        <!-- Florence : dans l'édition LP, il y a un poème 139 qui n'a pas été édité ici, à rajouter -->
         <div type="textpart" subtype="poem" n="140">
           <label>Lobel-Page 140? / Bergk 62? / Voigt 140? / Cox 59</label>
           <lg>
@@ -2979,14 +2924,11 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>τάδε νῦν ἐταίραις</l>
             <l>ταὶς ἔμαις τέρπνα κάλως ἀείσω.</l>
             <note>or, from augsburg.de:</note>
-            <l><note>scansion:ˉ˘ˉ˘ˉ</note>τάδε νῦν ἐταίραις</l>
+            <l>– ^ – ^ – τάδε νῦν ἐταίραις</l>
+            <!-- Tsilla: scansion epidoc à trouver -->
             <l>ταὶς ἔμαις τέρποντα κάλως ἀείσω.</l>
             <note>Source: : Athenaeus.: Athen. 13, 571d</note>
-            </lg>
-          </div>
-            <div type="textpart" subtype="poem" n="161">
-              <label>Lobel-Page 161 / Diehl 130a</label>
-              <lg>
+            <note>161LP/130aD</note>
             <l>τάνδε φυλασσετε</l>
             <l>ἐννε<gap reason="lost" extent="short" unit="character"/>οι γάμβροι <gap reason="lost"
                 extent="unknown" unit="character"/>υ πολίων βασίληες</l>
@@ -2994,15 +2936,13 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
         </div>
         <div type="textpart" subtype="poem" n="162">
           <label>Lobel-Page 162 / 156aD</label>
+          <lg>
             <l>τίοισιν ὀφθάλμοισι[ν];</l>
-            </div>
-<div type="textpart" subtype="poem" n="163">
-  <label>Lobel-Page 163 / Diehl 147</label>
+            <note>163LP/147D</note>
             <l>μέλημα τὦμον</l>
-            </div>
-            <div type="textpart" subtype="poem" n="163">
-              <label>Lobel-Page 164 / Diehl 112</label>
+            <note>164LP/112D</note>
             <l>τὸν Ϝὸν παῖδα κάλει</l>
+          </lg>
         </div>
         <div type="textpart" subtype="poem" n="165">
           <label>Lobel-Page 165 / Diehl 3</label>
@@ -3015,130 +2955,72 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>φαῖσι δή ποτα Λήδαν †ὐακίνθινον† πεπυκάδμενον</l>
             <l>εὔρην ᾤον</l>
             <note>Wharton:</note>
-          </lg>
-          <lg>
             <l>Φαῖσι δή ποτα Λήδαν ὐακινθίνων</l>
             <l>[ὐπ’ ἀνθέων] πεπυκαδμένον</l>
             <l>εὔρην ὤιον.</l>
             <note>Source: : Etymologicum Magnum, Athenaeus, and others.</note>
-            </lg>
-          </div>
-            <div type="textpart" subtype="poem" n="167">
-              <label>Lobel-Page 167 / 139 Diehl</label>
+            <note>167LP/139D</note>
             <l>ᾠω πόλυ λευκότερον</l>
             <l>— Sappho’s Supra-Superlatives</l>
-            </div>
-            <div type="textpart" subtype="poem" n="168">
-              <label>Lobel-Page 168</label>
+            <note>168LP</note>
             <l>ὦ τὸν Ἄδωνιν</l>
-            </div>
-            <div type="textpart" subtype="poem" n="169">
-              <label>Lobel-Page 169</label>
+            <note>169LP</note>
             <l>ἀγαγοίην</l>
-            </div>
-            <div type="textpart" subtype="poem" n="170">
-              <label>Lobel-Page 170</label>
+            <note>170LP</note>
             <l>Αἴγα</l>
-            </div>
-            <div type="textpart" subtype="poem" n="171">
-              <label>Lobel-Page 171</label>
+            <note>171LP</note>
             <l>ἄκακος</l>
-            </div>
-            <div type="textpart" subtype="poem" n="172">
-              <label>Lobel-Page 172</label>
+            <note>172LP</note>
             <l>ἀλγεσίδωρος</l>
-            </div>
-            <div type="textpart" subtype="poem" n="173">
-              <label>Lobel-Page 173</label>
+            <note>173LP</note>
             <l>ἀμαμάξυδ[ος, ες]</l>
-            </div>
-            <div type="textpart" subtype="poem" n="174">
-              <label>Lobel-Page 174</label>
-            <l><supplied reason="lost">ἀμάρα</supplied></l>
-            </div>
-            <div type="textpart" subtype="poem" n="175">
-              <label>Lobel-Page 175</label>
+            <note>174LP</note>
+            <l>[ἀμάρα]</l>
+            <note>175LP</note>
             <l>αὖα</l>
-            </div>
-            <div type="textpart" subtype="poem" n="176">
-              <label>Lobel-Page 176</label>
+            <note>176LP</note>
             <l>βάρβιτος. βάρωμος. βάρμος.</l>
-            </div>
-            <div type="textpart" subtype="poem" n="177">
-              <label>Lobel-Page 177</label>
+            <note>177LP</note>
             <l>βεῦδος</l>
-            </div>
-            <div type="textpart" subtype="poem" n="178">
-              <label>Lobel-Page 178</label>
+            <note>178LP</note>
             <l>Γέλλως παιδοφιλωτέρα</l>
-            </div>
-            <div type="textpart" subtype="poem" n="179">
-              <label>Lobel-Page 179</label>
+            <note>179LP</note>
             <l>γρύτα</l>
-            </div>
-            <div type="textpart" subtype="poem" n="180">
-              <label>Lobel-Page 180</label>
+            <note>180LP</note>
             <l>Ἔκτωρ</l>
-            </div>
-            <div type="textpart" subtype="poem" n="181">
-              <label>Lobel-Page 181</label>
+            <note>181LP</note>
             <l>ζάβατον</l>
-            </div>
-            <div type="textpart" subtype="poem" n="182">
-              <label>Lobel-Page 182</label>
+            <note>182LP</note>
             <l>ἰοίην</l>
-            </div>
-            <div type="textpart" subtype="poem" n="183">
-              <label>Lobel-Page 183</label>
+            <note>183LP</note>
             <l>κατώρης s. κατάρης</l>
-            </div>
-            <div type="textpart" subtype="poem" n="184">
-              <label>Lobel-Page 184</label>
+            <note>184LP </note>
             <l>κίνδυν</l>
-            </div>
-            <div type="textpart" subtype="poem" n="185">
-              <label>Lobel-Page 185</label>
+            <note>185LP</note>
             <l>μελίφωνος</l>
-            </div>
-            <div type="textpart" subtype="poem" n="186">
-              <label>Lobel-Page 186</label>
+            <note>186LP</note>
             <l>Μήδεια</l>
-            </div>
-            <div type="textpart" subtype="poem" n="187">
-              <label>Lobel-Page 187</label>
+            <note>187LP</note>
             <l>Μοισάων</l>
+          </lg>
         </div>
-        <!-- Florence : Les poèmes allant de 166 à 187 sont en réalité plus des fragments que des poèmes : quel est donc le subtype adéquat ? -->
         <div type="textpart" subtype="poem" n="188">
           <label>Lobel-Page 188</label>
+          <lg>
             <l>μυθόπλοκος</l>
-            </div>
-            <div type="textpart" subtype="poem" n="189">
-              <label>Lobel-Page 189</label>
+            <note>189LP</note>
             <l>νίτρον</l>
-            </div>
-            <div type="textpart" subtype="poem" n="190">
-              <label>Lobel-Page 190</label>
+            <note>190LP</note>
             <l>πολυίδριδι</l>
-            </div>
-            <div type="textpart" subtype="poem" n="191">
-              <label>Lobel-Page 191</label>
+            <note>191LP</note>
             <l>σέλιννα</l>
-            </div>
-            <div type="textpart" subtype="poem" n="192">
-              <label>Lobel-Page 192</label>
+            <note>192LP</note>
             <l>χρυσαστράγαλοι φίαλαι</l>
-            </div>
-            <div type="textpart" subtype="poem" n="210">
-              <label>Lobel-Page 210</label>
+            <note>210LP</note>
             <l>Σκύθικον ξύλον</l>
-            </div>
-            <div type="textpart" subtype="poem" n="211">
-              <label>Lobel-Page 211</label>
+            <note>211LP</note>
             <l>Φάων</l>
-            </div>
-            <div type="textpart" subtype="poem" n="213">
-              <label>Lobel-Page 213</label>
+            <note>213LP / (M.Treu S.10)</note>
             <gap reason="lost" quantity="1" unit="line"/>
             <l>[ ]··[·]·τ···[</l>
             <l>· ··[··]·σε ἔμα κ’ Ἀρχεάνα[σ-</l>
@@ -3153,6 +3035,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>[ρι- ]η[ ]·ατετουτ</l>
             <l>[ ]·νο αν</l>
             <l>. . .</l>
+          </lg>
         </div>
         <div type="textpart" subtype="poem" n="16ia">
           <label>Lobel-Page i.a. 16 / Diehl 93 / Cox 50</label>
