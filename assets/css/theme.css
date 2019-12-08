@@ -1,18 +1,24 @@
-body, html {
+body,
+html {
     height: 100%;
     margin: 0;
     padding: 0;
 }
+
 body {
     text-rendering: optimizelegibility;
     background-color: white;
 }
-#reading-container, #menu-container {
+
+#reading-container,
+#menu-container {
     min-height: 100%;
 }
+
 #reading-container {
     background-color: white;
 }
+
 /*.logo-container {
     margin: 0 -15px;
     width: 50px;
@@ -20,9 +26,11 @@ body {
 #menu-container .logo {
     width: auto;
 }
+
 #menu-container header.first {
     margin-top: 4em;
 }
+
 ul.menu {
     font-size: 11px;
     list-style: outside none none;
@@ -31,10 +39,14 @@ ul.menu {
     overflow: auto;
     padding: 0;
 }
+
 ul.menu.no-max {
     max-height: none;
 }
-ul.menu li a, #menu-container header .content, #menu-container header .search {
+
+ul.menu li a,
+#menu-container header .content,
+#menu-container header .search {
     border-bottom: 1px solid white;
     color: #5b5b5b;
     display: block;
@@ -47,26 +59,31 @@ ul.menu li a, #menu-container header .content, #menu-container header .search {
     padding: 0.809em 0em 0.404em 1.618em;
     text-overflow: ellipsis;
     /*white-space: nowrap;*/
-    font-family: "Lato",Sans-Serif;
+    font-family: "Lato", Sans-Serif;
 }
+
 #menu-container header .content {
     border-top: 1px solid white;
     color: grey;
     font-size: 1.2em;
     font-weight: 500;
-    font-family: "Lato",Sans-Serif;
+    font-family: "Lato", Sans-Serif;
 }
+
 #menu-container header {
     font-size: 10pt;
     margin: 2em -1.5em 0;
     position: relative;
 }
+
 #menu-container header .search {
     display: none;
 }
+
 #menu-container header:hover .search {
     background-color: white;
-    border-color: white; /*#b4b4b4;*/
+    border-color: white;
+    /*#b4b4b4;*/
     border-style: solid;
     border-width: 1px 1px 1px 0;
     display: block;
@@ -79,6 +96,7 @@ ul.menu li a, #menu-container header .content, #menu-container header .search {
     width: 100%;
     z-index: 999;
 }
+
 #menu-container header .search input {
     background-color: inherit;
     border: medium none;
@@ -86,54 +104,68 @@ ul.menu li a, #menu-container header .content, #menu-container header .search {
     margin: 0;
     width: 100%;
 }
+
 #menu-container header .icon {
     position: absolute;
     right: 1em;
     top: 0.809em;
 }
+
 ul.menu li a.active {
     border-right: 3px solid #7437bc;
 }
+
 #reading-container article {
     background-color: white;
     box-shadow: 1px 2px 0 0 #fff;
-    font-family: "Gentium Plus","Palatino","Palatino Linotype","Georgia","Serif";
+    font-family: "Gentium Plus", "Palatino", "Palatino Linotype", "Georgia", "Serif";
     font-size: 100%;
     margin: auto auto 3em;
     max-width: 65%;
     padding: 0.404em 2.617em 1.2em;
 }
+
 #reading-container article.reffs {
     max-width: 90%;
 }
+
 #reading-container h2 {
     font-size: 1.4em;
 }
+
 #reading-container h1 {
     font-size: 1.4em;
     margin: 1em 0 1em;
 }
-#reading-container article header, #reading-container article section, #reading-container article body {
+
+#reading-container article header,
+#reading-container article section,
+#reading-container article body {
     font-size: 1.2em;
     line-height: 1.618em;
 }
+
 #reading-container article.nav {
     background-color: inherit;
     box-shadow: none;
     font-size: 0.9em;
     text-align: left;
 }
+
 #reading-container article section {
     margin: 1em 0 1em;
 }
+
 #reading-container article section ol {
     margin: 1em 0 1em;
 }
+
 #reading-container article section nav {
     /*text-align: right;*/
     /*font-size: 0.8em;*/
 }
-#reading-container article section nav > div {
+
+#reading-container article section nav>div {
     background-color: white;
     box-shadow: 1px 2px 0 0 #656565;
     display: inline-block;
@@ -147,10 +179,12 @@ ul.menu li a.active {
     white-space: nowrap;
     width: 30%;
 }
+
 ul.reffs {
     list-style: outside none none;
 }
-ul.reffs > li {
+
+ul.reffs>li {
     background-color: white;
     box-shadow: 1px 2px 0 0 #656565;
     display: inline-block;
@@ -163,6 +197,7 @@ ul.reffs > li {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
 #breadcrumb {
     /*border-bottom: 0px solid #d5d8da*/
     font-size: 0.8em;
@@ -171,17 +206,21 @@ ul.reffs > li {
     padding: 1em 200px;
     text-transform: uppercase;
 }
-#breadcrumb ol{
-    background-color: white; /*#f0f0f0*/
+
+#breadcrumb ol {
+    background-color: white;
+    /*#f0f0f0*/
 }
 
 .reference {
     font-weight: normal;
 }
+
 .ctsurn {
     font-size: smaller;
     text-align: right;
 }
+
 .textlist h2 {
     font-size: 1.1em !important;
     margin: 0 !important;
@@ -194,62 +233,71 @@ ul.reffs > li {
 #menu-container .logo {
     width: auto;
 }
+
 .pb {
-  font-weight: normal;
-  font-size: 1em;
-  display: inline;
-  font-style: normal;
-  color: blue;
+    font-weight: normal;
+    font-size: 1em;
+    display: inline;
+    font-style: normal;
+    color: blue;
 }
 
 .ex,
 .supplied,
 .unclear {
-  color: rgb(25,100,100);
+    /*color: rgb(25,100,100);*/
+    color: #337ab7;
 }
 
 .unclear {
-  text-decoration: underline dotted;
+    text-decoration: underline dotted;
 }
 
-.lang_heb, .lang_ara, .lang_far {
-  text-align:right;
+.lang_heb,
+.lang_ara,
+.lang_far {
+    text-align: right;
 }
 
-.note > .note-content {
-  display:none;
-}
-.note:hover > .note-content {
-  display:inline;
-  font-style: italic;
-  color:grey;
+.note>.note-content {
+    display: none;
 }
 
-ol > li {
-  display: list-item;
-  list-style: none;
+.note:hover>.note-content {
+    display: inline;
+    /*font-style: italic;*/
+    color: grey;
 }
 
-ol > li {
-  display: list-item;
+ol>li {
+    display: list-item;
+    list-style: none;
 }
 
-ol > li:nth-child(5n) {
-  list-style: decimal;
+ol>li {
+    display: list-item;
 }
-ol > li:nth-child(1) {
-  list-style: decimal;
+
+ol>li:nth-child(5n) {
+    list-style: decimal;
 }
-ol > li:hover {
-  list-style: decimal;
+
+ol>li:nth-child(1) {
+    list-style: decimal;
+}
+
+ol>li:hover {
+    list-style: decimal;
 }
 
 #reading-container article {
-  width:90%;
+    width: 90%;
 }
+
 #treebank_container {
-  height:600px;
+    height: 600px;
 }
+
 span[token-selector="state.tokens"] {
-  display:none;
+    display: none;
 }

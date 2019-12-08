@@ -228,15 +228,32 @@
 
     <xsl:template match="t:note">
         <span class="note">
-            <a href="#">[*]</a>
+            <!--<a href="#">[*]</a>-->
+            <a href="#">*</a>
             <span class="note-content">
-                <xsl:text>(</xsl:text>
+                <!--<xsl:text>(</xsl:text>-->
+                <xsl:text>   </xsl:text>
                 <xsl:value-of select="."/>
-                <xsl:text>)</xsl:text>
+                <!--<xsl:text>)</xsl:text>-->
             </span>
         </span>
     </xsl:template>
 
+    <!-- 2019-12-08 Add display of variants -->   
+    <xsl:template match="t:rdg">
+        <span class="note">
+            <a href="#">*</a>
+            <span class="note-content">
+                <xsl:text>   </xsl:text>
+                <xsl:value-of select="../t:lem"/><xsl:text> </xsl:text>
+                <xsl:value-of select="../t:lem/@resp"/><xsl:text> : </xsl:text>
+                <xsl:value-of select="."/><xsl:text> </xsl:text>
+                <xsl:value-of select="./@resp"/>
+                <xsl:text>   </xsl:text>
+            </span>
+        </span>
+    </xsl:template>
+    
     <xsl:template match="t:ref">
         <a class="urn">
             <xsl:attribute name="href">
