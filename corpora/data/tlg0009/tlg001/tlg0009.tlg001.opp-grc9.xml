@@ -2996,11 +2996,11 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
           <label>Lobel-Page 162 / 156aD</label>
             <l>τίοισιν ὀφθάλμοισι[ν];</l>
             </div>
-<div type="textpart" subtype="poem" n="163">
-  <label>Lobel-Page 163 / Diehl 147</label>
+        <div type="textpart" subtype="poem" n="163">
+          <label>Lobel-Page 163 / Diehl 147</label>
             <l>μέλημα τὦμον</l>
             </div>
-            <div type="textpart" subtype="poem" n="163">
+            <div type="textpart" subtype="poem" n="164">
               <label>Lobel-Page 164 / Diehl 112</label>
             <l>τὸν Ϝὸν παῖδα κάλει</l>
         </div>
@@ -3169,7 +3169,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
               Hephaest. Ench. 11, 5 (p. 36 Consbruch)</note>
           </lg>
         </div>
-        <div type="textpart" subtype="poem" n="94diehl">
+        <div type="textpart" subtype="poem" n="add_1">
           <lg>
             <note>Diehl 94 / Voigt 168b / Cox 48</note>
             <l>Δέδυκε μὲν ἀ σελάννα</l>
@@ -3189,7 +3189,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <note>Source: : Hephaestion: Hephaest. Ench. 11, 5 (p. 36 Consbruch)</note>
           </lg>
         </div>
-        <div type="textpart" subtype="poem" n="157diehl">
+        <div type="textpart" subtype="poem" n="add_2">
           <note>Diehl 157 /A.P. 6,269 / Cox 112</note>
           <lg>
             <l>Παῖδες, ἄφωνος ἐοῖσα τότ’ ἐννέπω, αἴ τις ἔρηται,</l>
@@ -3208,7 +3208,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <l>κύρτον καὶ κώπαν, μνᾶμα κακοζοίας.</l>
           </lg>
         </div>
-        <div type="textpart" subtype="poem" n="12wharton">
+        <div type="textpart" subtype="poem" n="add_3">
           <note>Wharton 12 / Cox 12</note>
           <lg>
             <l>{</l>
@@ -3238,7 +3238,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
             <note>Source: Apollonius</note>
           </lg>
         </div>
-        <div type="textpart" subtype="poem" n="5ia2">
+        <div type="textpart" subtype="poem" n="add_4">
           <label>Lobel-Page i.a. 5,2 / Diehl 45 / Cox 33</label>
           <lg>
             <l>+δ᾽+ ἄλλα μὴ μεγαλύν&lt;ν&gt;εο δακτυλίω πέρι (Lobel-Page)</l>
@@ -3247,7 +3247,7 @@ Il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ?
               Lentz</note>
           </lg>
         </div>
-        <div type="textpart" subtype="poem" n="304">
+        <div type="textpart" subtype="poem" n="add_5">
           <label>Lobel-Page (Alcaeus) 304 / Cox 93 / Diehl 102 / Campbell 44a</label>
           <lg>
             <l>Ἀϊπάρθενοσ ἔσσομαι.</l>
