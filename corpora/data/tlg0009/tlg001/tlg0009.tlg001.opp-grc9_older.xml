@@ -101,11 +101,24 @@
         <refState unit="line"/>
       </refsDecl>
       <refsDecl n="CTS">
+        <!-- To implement this feature lines should be numbered: we would need a stable poem numbering scheme before – we drop it for now.
+          <cRefPattern n="line" matchPattern="(\w+).(\w+)"
+          replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n=’$1’]//tei:l[@n=’$2’])">
+          <p>This pointer pattern extracts Poem and Line.</p>
+        </cRefPattern> -->
         <cRefPattern n="poem" matchPattern="(.+)"
           replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div/tei:div[@n='$1'])">
           <p>This pointer pattern extracts poems.</p>
         </cRefPattern>
       </refsDecl>
+      <!-- <refsDecl n="CTS">
+        <cRefPattern n="line" matchPattern="(.+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:l)">
+      <p>This pointer pattern extracts line.</p>
+      </cRefPattern>
+      <cRefPattern n="poem" matchPattern="(\w+)" replacementPattern="#xpath(/tei:TEI/tei:text/tei:body/tei:div//tei:div[@subtype=’poem’ and @n=’$1’])">
+          <p>This pointer pattern extracts poem.</p>
+        </cRefPattern>
+        </refsDecl> -->
     </encodingDesc>
     <profileDesc>
       <langUsage>
@@ -114,7 +127,7 @@
       </langUsage>
     </profileDesc>
     <revisionDesc>
-      <change who="Aurélien Berra" when="2019-12-17">Collaboratively revised
+      <change who="Aurélien Berra" when="2019-12-08">Collaboratively revised
         version.</change>
       <change who="Aurélien Berra" when="2018-05-12">First collaborative
         version. Test full compliance with CapiTainS CTS via HookTest. Needs
@@ -122,14 +135,13 @@
     </revisionDesc>
   </teiHeader>
   <text>
-    <!-- 2019-12 Modifications envisagées et non effectuées (liste de Florence) :
-    * Certains textes de l'édition Cox ont de petites modifications à encoder.
-    * Les chevrons encodés "&lt;" et "&gt;" devraient être remplacés par des balises critiques.
-    * Beaucoup de crochets ne sont pas encodés, ainsi que des points qui indiquent la présence de caractères illisibles.
-    * Parfois il n'y a que des fragments que nous avons désignés comme poèmes.
-    * Il faudrait clarifier et contrôler les sources suivantes :
-      * Zellner 2006 = "Sappho’s Supra-Superlatives" dans notre source, référence à un article, Zellner 2006 (https://www.cambridge.org/core/journals/classical-quarterly/article/sapphos-suprasuperlatives/B755C0B12FE7CE09E56C2A49110D6E13)
-      * Bibliotheca Augustana = référence au texte en ligne de la Bibliotheca Augustana (http://www.hs-augsburg.de/~harsch/graeca/Chronologia/S_ante06/Sappho/sap_intr.html), qui serait une ressource utile pour contrôler et comparer les textes -->
+    <!-- Florence : voici les modifications qu'il reste à faire :
+    * certains textes de l'édition Cox ont de petites modifications à encoder
+    * parfois les chevrons sont encodés "&lt;" et "&gt;" ce qui ne transmet pas les bonnes informations
+    * beaucoup de crochets ne sont pas encodés, ainsi que des points qui indiquent la présence de caractères illisibles
+    * parfois il n'y a que des fragments que nous avons désignés comme poèmes
+    * il y a des informations peu claires : que sont les Sappho's Supra-Superlatives ? Et la bibliothèque augsburg.de ?
+  -->
     <body>
       <div type="edition" xml:lang="grc"
         n="urn:cts:greekLit:tlg0009.tlg001.opp-grc9">
@@ -942,8 +954,8 @@
                 reason="lost" quantity="2" unit="character"/><gap reason="lost"
                 extent="unknown" unit="character"/></l>
             <gap reason="lost" quantity="3" unit="line"/>
-            <note>Source: P. Oxy. X (1914) 1231, fr. 9 : P. Oxy. XXI (1951) add.
-              p. 122</note>
+            <note>Source: P. Oxy. X (1914) 1231, fr. 9 : P. Oxy. XXI (1951)
+              add. p. 122</note>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="21">
@@ -1693,7 +1705,7 @@
                 extent="unknown" unit="character"/></l>
             <l><gap reason="lost" extent="unknown" unit="character"/>ελα<gap
                 reason="lost" extent="unknown" unit="character"/></l>
-            <note>Bibliotheca Augustana</note>
+            <note>- www.hs-augsburg.de</note>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="30">
@@ -1787,7 +1799,7 @@
           </lg>
           <!-- AB : à contrôler, car la source est confuse. J’ai restité la version STOA ci-dessus à partir de l’URL indiquée.
             <lg>
-            <head>Bibliotheca Augustana</head>
+            <head>Augustana</head>
             <l>κὰδ’ δέ ἴδρως κακχέεται, τρόμος δὲ</l>
             <l>παῖσαν ἄγρει, χλωροτέρα δὲ ποίας</l>
             <l>ἔμμι, τεθνάκην δ’ ὀλίγω ’πιδεύης</l>
@@ -1799,7 +1811,7 @@
         </div>
         <div type="textpart" subtype="poem" n="32">
           <label>Lobel-Page 32 / Diehl 10 / Bergk 10 / Cox 10</label>
-          <note>Bibliotheca Augustana prefaces with: “(εἰς Μούσας)”</note>
+          <note>augsburg.de prefaces with: “(εἰς Μούσας)”</note>
           <lg>
             <l>αἴ με τιμίαν ἐπόησαν ἔργα</l>
             <l>τὰ σφὰ δοῖσαι</l>
@@ -1827,13 +1839,13 @@
             <l><gap reason="lost" extent="unknown" unit="character"/> ἀργυρία
                 <gap reason="lost" extent="unknown" unit="character"/></l>
             <!-- Faire un apparat critique pour Cox -->
-            <!--<l>Αστερεσ μέν ἀμφι κάλαν σελάνναν</l>
+            <l>/ Cox: Αστερεσ μέν ἀμφι κάλαν σελάνναν</l>
             <l>ἆιψ ἀπυκρύπτοισι φάεννον εἶδοσ,</l>
             <l>ὄπποτα πλήθοισα μάλιστα λάμπησ</l>
-            <l>ἀργυρια γᾶν</l>-->
+            <l>ἀργυρια γᾶν</l>
             <note>Source: Eustathius of Thessalonica in the twelfth
               century.</note>
-            <note>(“Eustath. in Iliad. 729, 20” - Bibliotheca Augustana)</note>
+            <note>(“Eustath. in Iliad. 729, 20” - augsburg.de)</note>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="35">
@@ -1843,7 +1855,7 @@
             <gap reason="lost" quantity="1" unit="line"/>
             <l>Ἤ σε κύπροσ καὶ Πάφοσ ἢ Πάνορμοσ (Cox)</l>
             <note>Source: Strabo, about 19 A.D.: Strabo, 1st century AD.</note>
-            <note>(“Strabo 1, 2, 33 (p. 40)” - Bibliotheca Augustana)</note>
+            <note>(“Strabo 1, 2, 33 (p. 40)” - augsburg.de)</note>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="36">
@@ -1881,7 +1893,7 @@
           <label>Lobel-Page 40 / Diehl 8 / Bergk 7, 8 / Cox 8</label>
           <lg>
             <l>σοὶ δ’ ἔγω λεύκας †επιδωμον† αἶγος</l>
-            <note>Bibliotheca Augustana:</note>
+            <note>and augsburg.de has:</note>
             <l>σοὶ δ᾽ ἔγω λεύκας ἐπὶ βῶμον αἶγος</l>
             <gap reason="lost" quantity="1" unit="line"/>
             <l>κἀπιλείψω τοι <gap reason="lost" extent="unknown"
@@ -2620,7 +2632,7 @@
           <label>Lobel-Page 82a / 63D</label>
           <lg>
             <l>εὐμορφοτέρα Μνασιδίκα τὰς ἀπάλας Γυρίννως</l>
-            <!--<note>Zellner 2006</note>-->
+            <note>Sappho’s Supra-Superlatives</note>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="91">
@@ -2651,7 +2663,7 @@
             <l>τάπα · </l>
             <l>[</l>
             <l>π[</l>
-            <note>Bibliotheca Augustana:</note>
+            <note>augsburg.de:</note>
             <gap reason="lost" quantity="2" unit="line"/>
             <l>πε[</l>
             <l>κρ<gap reason="lost" extent="unknown" unit="character"/>περ[</l>
@@ -2795,7 +2807,7 @@
             <l>λέπταν ποι φρένα κῆρ δ’ ἄσα βόρηται·</l>
             <l>κῆθι δ’ ἔλθην ἄμμ’ <gap reason="lost" extent="unknown"
                 unit="character"/></l>
-            <note>Bibliotheca Augustana:</note>
+            <note>or, augsburg.de:</note>
             <gap reason="lost" quantity="1" unit="line"/>
             <l><note>scansion:˘˘ˉ</note><supplied reason="lost">ἀπὺ</supplied>
                 Σαρδ<supplied reason="lost">ίων</supplied></l>
@@ -2895,8 +2907,9 @@
             <l>φύγας +αλις α πολις ἔχει+</l>
             <l>μνάματ᾽ [ο]ἴδε γὰρ αἶνα διέρρυε[ν]</l>
             <l>“ξανθοτέραις ἔχη [/] ταίς κόμαις δάιδος”</l>
-            <!--<note>Zellner 2006</note>-->
-            <note>Source: (a) vv. 1-12: P. Hauniens. (Papyrus Hauniensis)</note>
+            <note>— Sappho’s Supra-Superlatives</note>
+            <note>Source: (a) vv. 1-12: P. Hauniens. (Papyrus
+              Hauniensis)</note>
             <note>(b) vv. 14-22: P. Mediol., ed. Vogliano, Mediol. 1942</note>
           </lg>
         </div>
@@ -2955,7 +2968,7 @@
             <gap reason="lost" quantity="1" unit="line"/>
             <l><gap reason="lost" extent="unknown" unit="character"
               />ροπ····[··]·ε·[</l>
-            <note>Bibliotheca Augustana:</note>
+            <note>augsburg.de:</note>
             <l>] . ω[</l>
             <l>]σαν ἐν τῶι . [</l>
             <l>] . δὲ ιʹ κ(αὶ) ἑκάστης ὁ αʹ[</l>
@@ -3466,7 +3479,7 @@
           <lg>
             <l>τάδε νῦν ἐταίραις</l>
             <l>ταὶς ἔμαις τέρπνα κάλως ἀείσω.</l>
-            <note>Bibliotheca Augustana:</note>
+            <note>or, from augsburg.de:</note>
             <l><note>scansion:ˉ˘ˉ˘ˉ</note>τάδε νῦν ἐταίραις</l>
             <l>ταὶς ἔμαις τέρποντα κάλως ἀείσω.</l>
             <note>Source: Athenaeus.: Athen. 13, 571d</note>
@@ -3653,7 +3666,7 @@
             <l>Κρῆσσαί νύ ποτ’ ὦδ’ ἐμμελέως πόδεσσιν</l>
             <l>ὤρχηντ’ ἀπάλοισ’ ἀμφ’ ἐρόεντα βῶμον</l>
             <l>πόας τέρεν ἄνθος μάλακον μάτεισαι.</l>
-            <note>Bibliotheca Augustana:</note>
+            <note>augsburg.de:</note>
             <l>Κρήσσαι νύ ποτ᾽ ὦδ᾽ ἐμμελέως πόδεσσιν</l>
             <l>ὤρχεντ᾽ ἀπάλοισ᾽ ἀμφ᾽ ἐπόεντα βῶμον</l>
             <l>ποίας τέρεν ἄνθος μάλακον μάτεισαι.</l>
@@ -3673,7 +3686,7 @@
             <l>καὶ Πληΐαδεσ, μέσαι δὲ</l>
             <l>νύκτεσ πάρα δ᾽ ἔρχετ᾽ ὤρα,</l>
             <l>ἔγω δὲ μόνα κατεύδω.</l>
-            <note>Bibliotheca Augustana:</note>
+            <note>augsburg.de:</note>
             <l>Δέδυκε μὲν ἀ σελάννα</l>
             <l>καὶ Πληίαδες· μέσαι δὲ</l>
             <l>νύκτες, παρὰ δ᾽ ἔρχετ᾽ ὤρα·</l>
