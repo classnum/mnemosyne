@@ -134,7 +134,7 @@
       <div type="edition" xml:lang="grc"
         n="urn:cts:greekLit:tlg0009.tlg001.opp-grc9">
         <div type="textpart" subtype="poem" n="1">
-          <p>Lobel-Page 1 · Voigt 1 · Diehl 1 · Bergk 1 · Cox 1</p>
+          <p>Lobel-Page 1 / Voigt 1 / Diehl 1 / Bergk 1 / Cox 1</p>
           <lg>
             <l>ποικιλόθρον’ ἀθανάτ Ἀφρόδιτα,</l>
             <l>παῖ Δίος δολόπλοκε, λίσσομαί σε,</l>
@@ -179,7 +179,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="2">
-          <p>Lobel-Page 2 · Voigt 2 · Diehl 5, 6 · Bergk 4, 5</p>
+          <p>Lobel-Page 2 / Voigt 2 / Diehl 5, 6 / Bergk 4, 5</p>
           <lg>
             <l>
               <gap reason="lost" extent="unknown" unit="character"/>
@@ -242,7 +242,7 @@
             <l>ὀμ<supplied reason="lost">με</supplied> μείχμενον θαλίαισι
               νέκταρ</l>
             <l>οἰνοχόαισον</l>
-            <note>-- Bergk 4 · Cox 5 --</note>
+            <note>-- Bergk 4 / Cox 5 --</note>
             <l>Ἀμφὶ δὲ ψῦχρον κελάδει δι’ ὔσδων</l>
             <l>μαλίνων, αἰθυσσομένων δὲ φύλλων</l>
             <l>κῶμα καταρρεῖ</l>
@@ -266,7 +266,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="3">
-          <p>Lobel-Page 3 · Diehl 23</p>
+          <p>Lobel-Page 3 / Diehl 23</p>
           <lg>
             <gap reason="lost" quantity="3" unit="line"/>
             <l>
@@ -328,7 +328,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="4">
-          <p>Lobel-Page 4 · Diehl 24</p>
+          <p>Lobel-Page 4 / Diehl 24</p>
           <lg>
             <l>
               <gap reason="lost" extent="unknown" unit="character"/>θε θῦμον</l>
@@ -354,7 +354,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="5">
-          <p>Lobel-Page 5 · Voigt 5 · Gallavotti 23 · Diehl 25 · Bergk -</p>
+          <p>Lobel-Page 5 / Voigt 5 / Gallavotti 23 / Diehl 25 / Bergk -</p>
           <lg>
             <l>Κύπρι καὶ Νηρήιδες ἀβλάβην μοι</l>
             <l>τὸν κασίγνητον δότε τυίδ’ ἴκεσθαι</l>
@@ -428,7 +428,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="6">
-          <p>Lobel-Page 6 · Diehl 16</p>
+          <p>Lobel-Page 6 / Diehl 16</p>
           <lg>
             <note>fr. 1a</note>
             <l><gap reason="lost" quantity="2" unit="line"/></l>
@@ -465,7 +465,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="7">
-          <p>Lobel-Page 7 · Diehl 16</p>
+          <p>Lobel-Page 7 / Diehl 16</p>
           <lg>
             <note>fr. 2</note>
             <l><gap reason="lost" quantity="1" unit="line"/>
@@ -498,7 +498,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="8">
-          <p>Lobel-Page 8 · Diehl 16</p>
+          <p>Lobel-Page 8 / Diehl 16</p>
           <lg>
             <note>fr. 3</note>
             <l><gap reason="lost" extent="unknown" unit="character"/><gap
@@ -524,7 +524,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="9">
-          <p>Lobel-Page 9 · Diehl 16</p>
+          <p>Lobel-Page 9 / Diehl 16</p>
           <lg>
             <note>fr. 4</note>
             <gap reason="lost" quantity="1" unit="line"/>
@@ -564,7 +564,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="10">
-          <p>Lobel-Page 10 · Diehl 16</p>
+          <p>Lobel-Page 10 / Diehl 16</p>
           <lg>
             <note>fr. 5</note>
             <gap reason="lost" quantity="1" unit="line"/>
@@ -589,7 +589,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="11">
-          <p>Lobel-Page 11 · Diehl 16</p>
+          <p>Lobel-Page 11 / Diehl 16</p>
           <lg>
             <note>fr. 7</note>
             <gap reason="lost" quantity="1" unit="line"/>
@@ -611,7 +611,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="12">
-          <p>Lobel-Page 12 · Diehl 16</p>
+          <p>Lobel-Page 12 / Diehl 16</p>
           <lg>
             <note>fr. 8</note>
             <gap reason="lost" quantity="1" unit="line"/>
@@ -643,7 +643,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="13">
-          <p>Lobel-Page 13 · Diehl 16</p>
+          <p>Lobel-Page 13 / Diehl 16</p>
           <lg>
             <note>fr. 10</note>
             <gap reason="lost" quantity="1" unit="line"/>
@@ -661,7 +661,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="14">
-          <p>Lobel-Page 14 · Diehl 16</p>
+          <p>Lobel-Page 14 / Diehl 16</p>
           <lg>
             <note>fr. 11</note>
             <l><gap reason="lost" extent="unknown" unit="character"/><gap
@@ -683,7 +683,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="15">
-          <p>Lobel-Page 15 · Diehl 26</p>
+          <p>Lobel-Page 15 / Diehl 26</p>
           <lg>
             <gap reason="lost" quantity="4" unit="line"/>
             <l><gap reason="lost" extent="unknown" unit="character"/>α
@@ -722,15 +722,11 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="15b">
-          <p>Lobel-Page 15b / Voigt 15 · Gallavotti 24 · Diehl 26 · Bergk -</p>
-          <lg>
-            <l>
-              <gap reason="lost" extent="unknown" unit="line"/>
-            </l>
-          </lg>
+          <p>Lobel-Page 15b / Voigt 15 / Gallavotti 24 / Diehl 26 / Bergk -</p>
+          <gap reason="lost" extent="unknown" unit="line"/>
         </div>
         <div type="textpart" subtype="poem" n="16">
-          <p>Lobel-Page 16 · Diehl 27a 27b / Cox 3 · Voigt 16</p>
+          <p>Lobel-Page 16 / Diehl 27a 27b / Cox 3 / Voigt 16</p>
           <lg>
             <l>Οἰ μὲν ἰππήων στρότον, οἰ δὲ πέσδων,</l>
             <l>οἰ δὲ νάων φαῖσ’ ἐπὶ γᾶν μέλαιναν</l>
@@ -813,7 +809,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="17">
-          <p>Lobel-Page 17 · Diehl 18</p>
+          <p>Lobel-Page 17 / Diehl 18</p>
           <lg>
             <l>πλάσιον δη μ<gap reason="lost" extent="unknown" unit="character"
               /></l>
@@ -866,7 +862,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="19">
-          <p>Lobel-Page 19 · Diehl 30</p>
+          <p>Lobel-Page 19 / Diehl 30</p>
           <lg>
             <gap reason="lost" quantity="4" unit="line"/>
             <l><gap reason="lost" extent="unknown" unit="character"/>μενοισα<gap
@@ -896,7 +892,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="20">
-          <p>Lobel-Page 20 · Diehl 31</p>
+          <p>Lobel-Page 20 / Diehl 31</p>
           <lg>
             <gap reason="lost" quantity="1" unit="line"/>
             <l><gap reason="lost" extent="unknown" unit="character"/>ἔπιθες
@@ -949,7 +945,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="21">
-          <p>Lobel-Page 21 · Diehl 32</p>
+          <p>Lobel-Page 21 / Diehl 32</p>
           <lg>
             <gap reason="lost" quantity="4" unit="line"/>
             <l><gap reason="lost" extent="unknown" unit="character"
@@ -985,7 +981,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="22">
-          <p>Lobel-Page 22 · Diehl 33, 36</p>
+          <p>Lobel-Page 22 / Diehl 33, 36</p>
           <note>[Diehl 33]</note>
           <lg>
             <l><gap reason="lost" extent="unknown" unit="character"/>βλαφ[θ<gap
@@ -1036,7 +1032,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="23">
-          <p>Lobel-Page 23 · Diehl 35</p>
+          <p>Lobel-Page 23 / Diehl 35</p>
           <lg>
             <gap reason="lost" quantity="2" unit="line"/>
             <l><gap reason="lost" extent="unknown" unit="character"/>ἔρωτος
@@ -1153,7 +1149,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="26">
-          <p>Lobel-Page 26 · Diehl 37</p>
+          <p>Lobel-Page 26 / Diehl 37</p>
           <lg>
             <l><gap reason="lost" extent="unknown" unit="character"
                 />θαμέω<supplied reason="lost"
@@ -1193,7 +1189,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="27">
-          <p>Lobel-Page 27 · 38D</p>
+          <p>Lobel-Page 27 / 38D</p>
           <lg>
             <l><supplied reason="lost">ἦσθ</supplied>α καὶ γὰρ <supplied
                 reason="lost">δ</supplied>ὴ σὺ πάις ποτ<supplied reason="lost">‘
@@ -1269,7 +1265,7 @@
         <div type="textpart" subtype="poem" n="29">
           <p>Lobel-Page 29</p>
           <lg>
-            <note>p. frr. 2081 (c) / XVIII 2166 (a) 1 · P. Oxy. XXI (1951) add.
+            <note>p. frr. 2081 (c) / XVIII 2166 (a) 1 / P. Oxy. XXI (1951) add.
               2166 apparently)</note>
             <note>(1) 1231 fr. 4</note>
             <l><gap reason="lost" extent="unknown" unit="character"/>σα<gap
@@ -1699,7 +1695,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="30">
-          <p>Lobel-Page 30 · Diehl 39</p>
+          <p>Lobel-Page 30 / Diehl 39</p>
           <lg>
             <gap reason="lost" quantity="3" unit="line"/>
             <l>νύκτ<gap reason="lost" extent="unknown" unit="character"/><gap
@@ -1723,7 +1719,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="31">
-          <p>Lobel-Page 31 · Voigt 31 · Gallavotti 2 · Diehl 2 · Bergk 2</p>
+          <p>Lobel-Page 31 / Voigt 31 / Gallavotti 2 / Diehl 2 / Bergk 2</p>
           <!-- AB : This is a reference to an old edition, which should be checked
             (cf. http://onlinebooks.library.upenn.edu/webbin/book/lookupname?key=Sappho)
           <lg>
@@ -1799,7 +1795,7 @@
           </lg>-->
         </div>
         <div type="textpart" subtype="poem" n="32">
-          <p>Lobel-Page 32 · Diehl 10 · Bergk 10 · Cox 10</p>
+          <p>Lobel-Page 32 / Diehl 10 / Bergk 10 / Cox 10</p>
           <note>Bibliotheca Augustana prefaces with: “(εἰς Μούσας)”</note>
           <lg>
             <l>αἴ με τιμίαν ἐπόησαν ἔργα</l>
@@ -1809,7 +1805,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="33">
-          <p>Lobel-Page 33 · Diehl 9 · Bergk 9 · Cox 9</p>
+          <p>Lobel-Page 33 / Diehl 9 / Bergk 9 / Cox 9</p>
           <lg>
             <l>αἴθ’ ἔγω, χρυσοστέφαν’ Ἀφρόδιτα,</l>
             <l>τόνδε τὸν πάλον λαχοίην <note>scansion:˘˘ˉ</note>.</l>
@@ -1818,7 +1814,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="34">
-          <p>Lobel-Page 34 · Voigt 34 · Diehl 4 (10?) / Bergk 3 · Cox 4</p>
+          <p>Lobel-Page 34 / Voigt 34 / Diehl 4 (10?) / Bergk 3 / Cox 4</p>
           <lg>
             <l>Ἄστερες μὲν ἀμφὶ κάλαν σελάνναν</l>
             <l>ἂψ ἀπυκρύπτοισι φάεννον εἶδος,</l>
@@ -1837,7 +1833,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="35">
-          <p>Lobel-Page 35 · Diehl 7 · Bergk 6 · Cox 7</p>
+          <p>Lobel-Page 35 / Diehl 7 / Bergk 6 / Cox 7</p>
           <lg>
             <l>ἤ σε Κύπρος καὶ Πάφος ἢ Πάνορμος (Lobel-Page?)</l>
             <gap reason="lost" quantity="1" unit="line"/>
@@ -1847,14 +1843,12 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="36">
-          <p>Lobel-Page 36 · 20D</p>
-          <lg>
-            <l>καὶ ποθήω καὶ μάομαι <gap reason="lost" extent="unknown"
-                unit="character"/></l>
-          </lg>
+          <p>Lobel-Page 36 / 20D</p>
+          <l>καὶ ποθήω καὶ μάομαι <gap reason="lost" extent="unknown"
+              unit="character"/></l>
         </div>
         <div type="textpart" subtype="poem" n="37">
-          <p>Lobel-Page 37 · 14D / Wharton 17 · Cox 17</p>
+          <p>Lobel-Page 37 / 14D / Wharton 17 / Cox 17</p>
           <lg>
             <l><gap reason="lost" extent="unknown" unit="character"/> κὰτ ἔμον
               στάλαγμον <gap reason="lost" extent="unknown" unit="character"
@@ -1865,13 +1859,11 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="38">
-          <p>Lobel-Page 38 · 9D</p>
-          <lg>
-            <l>ὄπταις ἄμμε</l>
-          </lg>
+          <p>Lobel-Page 38 / 9D</p>
+          <l>ὄπταις ἄμμε</l>
         </div>
         <div type="textpart" subtype="poem" n="39">
-          <p>Lobel-Page 39 · 17D / Wharton 19 · Cox 19</p>
+          <p>Lobel-Page 39 / 17D / Wharton 19 / Cox 19</p>
           <lg>
             <l><gap reason="lost" extent="unknown" unit="character"/> πόδας
               δὲ</l>
@@ -1882,7 +1874,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="40">
-          <p>Lobel-Page 40 · Diehl 8 · Bergk 7, 8 · Cox 8</p>
+          <p>Lobel-Page 40 / Diehl 8 / Bergk 7, 8 / Cox 8</p>
           <lg>
             <l>σοὶ δ’ ἔγω λεύκας †επιδωμον† αἶγος</l>
             <note>Bibliotheca Augustana:</note>
@@ -1909,7 +1901,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="42">
-          <p>Lobel-Page 42 · Wharton 16 · Cox 16</p>
+          <p>Lobel-Page 42 / Wharton 16 / Cox 16</p>
           <lg>
             <l>ταῖσι [δὲ] ψῦχρος μὲν ἔγεντὀ θῦμος,</l>
             <l>πὰρ δ’ ἴεισι τὰ πτέρα <gap reason="lost" extent="unknown"
@@ -1918,7 +1910,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="43">
-          <p>Lobel-Page 43 · 54D</p>
+          <p>Lobel-Page 43 / 54D</p>
           <lg>
             <l>]αι·</l>
             <l>]</l>
@@ -1932,7 +1924,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="44">
-          <p>Lobel-Page 44 · Voigt 44 · Diehl 5a,b? 55? / Bergk -</p>
+          <p>Lobel-Page 44 / Voigt 44 / Diehl 5a,b? 55? / Bergk -</p>
           <lg>
             <l>Κυπρο <gap reason="lost" extent="unknown" unit="character"
               />ας.</l>
@@ -1980,19 +1972,17 @@
         </div>
         <div type="textpart" subtype="poem" n="45">
           <p>Lobel-Page 45</p>
-          <lg>
-            <l>ἆς θέλετ’ ὔμμες</l>
-          </lg>
+          <l>ἆς θέλετ’ ὔμμες</l>
         </div>
         <div type="textpart" subtype="poem" n="46">
-          <p>Lobel-Page 46 · 42D</p>
+          <p>Lobel-Page 46 / 42D</p>
           <lg>
             <l>ἔγω δ’ ἐπὶ μολθάκαν</l>
             <l>τύλαν κασπολέω †μέλεα· κἂν μὲν τε τύλαγκας ἀσπόλεα·†</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="47">
-          <p>Lobel-Page 47 · Voigt 47 · Diehl 50 · Bergk 42</p>
+          <p>Lobel-Page 47 / Voigt 47 / Diehl 50 / Bergk 42</p>
           <lg>
             <l>Ἔρος δ’ ἐτίναξέ μοι</l>
             <l>φρένας, ὠς ἄνεμος κὰτ ὄρος δρύσιν ἐμπέτων.</l>
@@ -2000,14 +1990,14 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="48">
-          <p>Lobel-Page 48 · 48D</p>
+          <p>Lobel-Page 48 / 48D</p>
           <lg>
             <l>ἦλθες, †καλ’† ἐπόησας, ἔγω δέ σ’ ἐμαιόμαν,</l>
             <l>ὂν δ’ ἔψυξας ἔμαν φρένα καιομέναν πόθῳ.</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="49">
-          <p>Lobel-Page 49 · Voigt 49 · Gallavotti 43 · Diehl 40, 41 · Bergk 33,
+          <p>Lobel-Page 49 / Voigt 49 / Gallavotti 43 / Diehl 40, 41 / Bergk 33,
             34</p>
           <lg>
             <l>ἠράμαν μὲν ἔγω σέθεν, Ἄτθι, πάλαι ποτά <gap reason="lost"
@@ -2021,20 +2011,18 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="50">
-          <p>Lobel-Page 50 · 49D</p>
+          <p>Lobel-Page 50 / 49D</p>
           <lg>
             <l>ὀ μὲν γὰρ κάλος ὄσσον ἴδην πέλεται [κάλος],</l>
             <l>ὀ δὲ κἄγαθος αὔτικα καὶ κάλος ἔσσεται.</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="51">
-          <p>Lobel-Page 51 · 46D</p>
-          <lg>
-            <l>οὐκ οἶδ’ ὄττι θέω· δίχα μοι τὰ νοήμματα</l>
-          </lg>
+          <p>Lobel-Page 51 / 46D</p>
+          <l>οὐκ οἶδ’ ὄττι θέω· δίχα μοι τὰ νοήμματα</l>
         </div>
         <div type="textpart" subtype="poem" n="52">
-          <p>Lobel-Page 52 · 47D / Cox 35</p>
+          <p>Lobel-Page 52 / 47D / Cox 35</p>
           <lg>
             <l>ψαύην δ’ οὐ δοκίμωμ’ ὀράνω †δυσπαχέα†</l>
             <l>/ Πσαύην δ᾽ οὐ δοκίμοιμ᾽ ὀράνω δύσι πάχεσιν.</l>
@@ -2042,13 +2030,11 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="53">
-          <p>Lobel-Page 53 · 57D / Bergk 65</p>
-          <lg>
-            <l>βροδοπάχεες ἄγναι Χάριτες δεῦτε Δίος κόραι</l>
-          </lg>
+          <p>Lobel-Page 53 / 57D / Bergk 65</p>
+          <l>βροδοπάχεες ἄγναι Χάριτες δεῦτε Δίος κόραι</l>
         </div>
         <div type="textpart" subtype="poem" n="54">
-          <p>Lobel-Page 54 · 56D / Cox 61</p>
+          <p>Lobel-Page 54 / 56D / Cox 61</p>
           <!-- Tsilla: futur <app> <rdg> à mettre en place... -->
           <lg>
             <l>ἔλθοντ’ ἐξ ὀράνω πορφυρίαν περθέμενον χλάμυν <gap reason="lost"
@@ -2060,7 +2046,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="55">
-          <p>Lobel-Page 55 · Voigt 55 · Diehl 58 · Bergk 68 · Cox 65</p>
+          <p>Lobel-Page 55 / Voigt 55 / Diehl 58 / Bergk 68 / Cox 65</p>
           <lg>
             <l>κατθάνοισα δὲ κείσῃ οὐδέ ποτα</l>
             <l>μναμοσύνα σέθεν</l>
@@ -2078,7 +2064,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="56">
-          <p>Lobel-Page 56 · 60D / Cox 66</p>
+          <p>Lobel-Page 56 / 60D / Cox 66</p>
           <!-- Tsilla: futur <app> <rdg> à mettre en place... -->
           <lg>
             <l>οὐδ’ ἴαν δοκίμωμι προσίδοισαν φάος ἀλίω</l>
@@ -2090,7 +2076,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="57">
-          <p>Lobel-Page 57 · 61D / Cox 67 · Bergk 70</p>
+          <p>Lobel-Page 57 / 61D / Cox 67 / Bergk 70</p>
           <lg>
             <l>τίς δ’ ἀγροίωτις θέλγει νόον <gap reason="lost" extent="unknown"
                 unit="character"/></l>
@@ -2104,7 +2090,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="58">
-          <p>Lobel-Page 58 · West (2004) / Bergk 79?</p>
+          <p>Lobel-Page 58 / West (2004) / Bergk 79?</p>
           <lg>
             <l>Υμμες πεδὰ Μοίσαν ἰοκόλπων κάλα δῶρα, παῖδες,</l>
             <l>σπουδάσδετε καὶ τὰν φιλάοιδαν λιγύραν χελύνναν·</l>
@@ -2612,11 +2598,11 @@
           <p>Lobel-Page 81</p>
         </div>
         <div type="textpart" subtype="poem" n="81b">
-          <p>Lobel-Page 81b / Voigt 81 · Gallavotti 71 · Diehl 80 · Bergk -</p>
+          <p>Lobel-Page 81b / Voigt 81 / Gallavotti 71 / Diehl 80 / Bergk -</p>
           <gap reason="lost" quantity="1" unit="line"/>
         </div>
         <div type="textpart" subtype="poem" n="82">
-          <p>Lobel-Page 82 · 80D / Cox 75</p>
+          <p>Lobel-Page 82 / 80D / Cox 75</p>
           <lg>
             <l>σὺ δὲ στεφάνοις, ὦ Δίκα, πέρθεσθ’ ἐράτοις φόβαισιν</l>
             <l>ὄρπακας ἀνήτω συναέρραις’ ἀπάλαισι χέρσιν·</l>
@@ -2711,7 +2697,7 @@
         </div>
         <!-- Florence : absence du poème 93 -->
         <div type="textpart" subtype="poem" n="94">
-          <p>Lobel-Page 94 · Voigt 94 · Diehl 96</p>
+          <p>Lobel-Page 94 / Voigt 94 / Diehl 96</p>
           <lg>
             <gap reason="lost" quantity="1" unit="line"/>
             <l>τεθνάκην ἀδόλως, θέλω·</l>
@@ -2749,7 +2735,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="95">
-          <p>Lobel-Page 95 · Diehl 97</p>
+          <p>Lobel-Page 95 / Diehl 97</p>
           <lg>
             <l>ου<gap reason="lost" extent="unknown" unit="character"/></l>
             <l>ᾖρ’ ἀ<gap reason="lost" extent="unknown" unit="character"/></l>
@@ -2779,7 +2765,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="96">
-          <p>Lobel-Page 96 · Voigt 96 · Diehl 98</p>
+          <p>Lobel-Page 96 / Voigt 96 / Diehl 98</p>
           <lg>
             <gap reason="lost" quantity="1" unit="line"/>
             <l><gap reason="lost" extent="unknown" unit="character"/> ἀπὺ
@@ -2873,7 +2859,7 @@
         </div>
         <!-- Florence : il manque le poème 97 -->
         <div type="textpart" subtype="poem" n="98">
-          <p>Lobel-Page 98 · Diehl 98a, 98b</p>
+          <p>Lobel-Page 98 / Diehl 98a, 98b</p>
           <lg>
             <gap reason="lost" quantity="2" unit="line"/>
             <l><gap reason="lost" extent="unknown" unit="character"/>.θος· ἀ γάρ
@@ -2911,7 +2897,7 @@
         </div>
         <!-- Florence : il manque le poème 99 qui est bien présent dans l'édition LP -->
         <div type="textpart" subtype="poem" n="100">
-          <p>Lobel-Page 100 · Diehl 85 · Cox 86</p>
+          <p>Lobel-Page 100 / Diehl 85 / Cox 86</p>
           <lg>
             <l>ἀμφὶ δ᾽ ἄβροισ᾽ <gap reason="lost" extent="unknown"
                 unit="character"/> λασίοις εὖ [Ϝ᾽] ἐπύκασσε. (Lobel-Page)</l>
@@ -2922,7 +2908,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="101">
-          <p>Lobel-Page 101 · Diehl 99</p>
+          <p>Lobel-Page 101 / Diehl 99</p>
           <lg>
             <l>χερρόμακτρα δὲ †καγγόνων†</l>
             <l>πορφύραι †καταυταμενἀ-</l>
@@ -2931,14 +2917,14 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="102">
-          <p>Lobel-Page 102 · Voigt 102 · Diehl 114 · Bergk 90</p>
+          <p>Lobel-Page 102 / Voigt 102 / Diehl 114 / Bergk 90</p>
           <lg>
             <l>γλύκηα μᾶτερ, οὔτοι δύναμαι κρέκην τὸν ἴστον</l>
             <l>πόθῳ δάμεισα παῖδος βραδίναν δι’ Ἀφροδίταν</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="103">
-          <p>Lobel-Page 103 · (Treu S. 14-17)</p>
+          <p>Lobel-Page 103 / (Treu S. 14-17)</p>
           <lg>
             <l>]·ω[</l>
             <l>]σαν ἐν τῷ ·[</l>
@@ -2991,7 +2977,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="104a">
-          <p>Lobel-Page 104a / Voigt 104a / Diehl 120 · Bergk 95 · Cox 92</p>
+          <p>Lobel-Page 104a / Voigt 104a / Diehl 120 / Bergk 95 / Cox 92</p>
           <!-- Tsilla : on va devoir faire du <app><rdg resp="#"></rdg><rdg resp="#"></rdg></app> (ou wit=""?)-->
           <lg>
             <l>Ἔσπερε, πάντα φέρων, ὄσα φαίνολις ἐσκέδασ’ Αὔως,</l>
@@ -3003,12 +2989,10 @@
         </div>
         <div type="textpart" subtype="poem" n="104b">
           <p>Lobel-Page 104b / Cox 120?</p>
-          <lg>
-            <l>ἀστέρων πάντων ὀ κάλλιστος</l>
-          </lg>
+          <l>ἀστέρων πάντων ὀ κάλλιστος</l>
         </div>
         <div type="textpart" subtype="poem" n="105a">
-          <p>Lobel-Page 105a / Voigt 105a / Diehl 116 · Bergk 93 · Cox 90</p>
+          <p>Lobel-Page 105a / Voigt 105a / Diehl 116 / Bergk 93 / Cox 90</p>
           <lg>
             <l>οἶον τὸ γλυκύμαλον / ἐρεύθεται ἄκρῳ ἐπ’ ὔσδῳ,</l>
             <l>ἄκρον ἐπ’ ἀκροτάτῳ, / λελάθοντο δὲ μαλοδρόπηες,</l>
@@ -3035,7 +3019,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="105c">
-          <p>Lobel-Page 105c / Voigt 105b / Diehl 117 · Bergk 93 · Cox 91</p>
+          <p>Lobel-Page 105c / Voigt 105b / Diehl 117 / Bergk 93 / Cox 91</p>
           <lg>
             <l>οἴαν τὰν ὐάκινθον ἐν ὤρεσι</l>
             <l>ποίμενες ἄνδρες</l>
@@ -3049,10 +3033,8 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="106">
-          <p>Lobel-Page 106 · 115 D</p>
-          <lg>
-            <l>πέρροχος, ὠς ὄτ’ ἄοιδος ὀ Λέσβιος ἀλλοδάποισιν</l>
-          </lg>
+          <p>Lobel-Page 106 / 115 D</p>
+          <l>πέρροχος, ὠς ὄτ’ ἄοιδος ὀ Λέσβιος ἀλλοδάποισιν</l>
           <note>107LP/53D / Cox 99</note>
         </div>
         <div type="textpart" subtype="poem" n="107">
@@ -3064,19 +3046,15 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="108">
-          <p>Lobel-Page 108 · 116aD</p>
-          <lg>
-            <l>ὦ κάλα, ὦ χαρίεσσα</l>
-          </lg>
+          <p>Lobel-Page 108 / 116aD</p>
+          <l>ὦ κάλα, ὦ χαρίεσσα</l>
         </div>
         <div type="textpart" subtype="poem" n="109">
-          <p>Lobel-Page 109 · 122D</p>
-          <lg>
-            <l>δώσομεν, ἦσι πάτηρ</l>
-          </lg>
+          <p>Lobel-Page 109 / 122D</p>
+          <l>δώσομεν, ἦσι πάτηρ</l>
         </div>
         <div type="textpart" subtype="poem" n="110a">
-          <p>Lobel-Page 110a / Voigt 110 · Diehl 124 · Bergk 98</p>
+          <p>Lobel-Page 110a / Voigt 110 / Diehl 124 / Bergk 98</p>
           <lg>
             <l>θυρώρῳ πόδες ἐπτορόγυιοι,</l>
             <gap reason="lost" quantity="1" unit="line"/>
@@ -3091,7 +3069,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="111">
-          <p>Lobel-Page 111 · 123D / Cox 88</p>
+          <p>Lobel-Page 111 / 123D / Cox 88</p>
           <lg>
             <l>ἴψοι δὴ τὸ μέλαθρον·</l>
             <l>ὐμήναον·</l>
@@ -3106,7 +3084,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="112">
-          <p>Lobel-Page 112 · 128D</p>
+          <p>Lobel-Page 112 / 128D</p>
           <lg>
             <l>ὄλβιε γάμβρε, σοὶ μὲν δὴ γάμος ὠς ἄραο</l>
             <l>ἐκτετέλεστ’, ἔχῃς δὲ πάρθενον †ἂν† ἄραο <gap reason="lost"
@@ -3123,13 +3101,11 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="113">
-          <p>Lobel-Page 113 · 130D</p>
-          <lg>
-            <l>οὐ γὰρ †ἑτέρα νῦν† πάις ὦ γάμβρε τεαύτα</l>
-          </lg>
+          <p>Lobel-Page 113 / 130D</p>
+          <l>οὐ γὰρ †ἑτέρα νῦν† πάις ὦ γάμβρε τεαύτα</l>
         </div>
         <div type="textpart" subtype="poem" n="114">
-          <p>Lobel-Page 114 · 131D / Cox 104</p>
+          <p>Lobel-Page 114 / 131D / Cox 104</p>
           <lg>
             <l>[νύμφη]. παρθενία, παρθενία, ποῖ με λίποισα †οἴχῃ;</l>
             <l>[παρθενία]. †οὐκέτι ἤξω πρὸς σέ, οὐκέτι ἤξω†.</l>
@@ -3139,23 +3115,19 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="115">
-          <p>Lobel-Page 115 · 127D</p>
+          <p>Lobel-Page 115 / 127D</p>
           <lg>
             <l>τίῳ σ’, ὦ φίλε γάμβρε, κάλως ἐικάσδω;</l>
             <l>ὄρπακι βραδίνῳ σε μάλιστ’ ἐικάσδω.</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="116">
-          <p>Lobel-Page 116 · 128D</p>
-          <lg>
-            <l>χαῖρε, νύμφα, χαῖρε, τίμιε γάμβρε, πόλλα ..</l>
-          </lg>
+          <p>Lobel-Page 116 / 128D</p>
+          <l>χαῖρε, νύμφα, χαῖρε, τίμιε γάμβρε, πόλλα ..</l>
         </div>
         <div type="textpart" subtype="poem" n="117">
-          <p>Lobel-Page 117 · 129D</p>
-          <lg>
-            <l>†χαίροις ἀ νύμφα†, χαιρέτω δ’ ὀ γάμβρος</l>
-          </lg>
+          <p>Lobel-Page 117 / 129D</p>
+          <l>†χαίροις ἀ νύμφα†, χαιρέτω δ’ ὀ γάμβρος</l>
         </div>
         <div type="textpart" subtype="poem" n="118">
           <p>Lobel-Page 118 /103D</p>
@@ -3165,18 +3137,16 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="119">
-          <p>Lobel-Page 119 · Diehl 153 · Cox 110</p>
-          <lg>
-            <l>
-              <app>
-                <lem resp="#LP">αἰμιτύβιον</lem>
-                <rdg resp="#Cox">Ἠμιτύβιον</rdg>
-              </app> στάλασσον</l>
-          </lg>
+          <p>Lobel-Page 119 / Diehl 153 / Cox 110</p>
+          <l>
+            <app>
+              <lem resp="#LP">αἰμιτύβιον</lem>
+              <rdg resp="#Cox">Ἠμιτύβιον</rdg>
+            </app> στάλασσον</l>
           <note>Source: Scholiast on the Plutus of Aristophanes.</note>
         </div>
         <div type="textpart" subtype="poem" n="120">
-          <p>Lobel-Page 120 · Diehl 108 · Cox 69</p>
+          <p>Lobel-Page 120 / Diehl 108 / Cox 69</p>
           <lg>
             <l>ἀλλά τις οὐκ ἔμμι παλιγκότων</l>
             <l>ὄργαν, ἀλλ’ ἀβάκην τὰν φρέν’ ἔχω <gap reason="lost"
@@ -3185,7 +3155,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="121">
-          <p>Lobel-Page 121 · 100D</p>
+          <p>Lobel-Page 121 / 100D</p>
           <lg>
             <l>ἀλλ’ ἔων φίλος ἄμμι</l>
             <l>λέχος ἄρνυσο νεώτερον·</l>
@@ -3195,13 +3165,11 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="122">
-          <p>Lobel-Page 122 · 111D</p>
-          <lg>
-            <l>ἄνθε’ ἀμέργοισαν παῖδ’ ἄγαν ἀπάλαν</l>
-          </lg>
+          <p>Lobel-Page 122 / 111D</p>
+          <l>ἄνθε’ ἀμέργοισαν παῖδ’ ἄγαν ἀπάλαν</l>
         </div>
         <div type="textpart" subtype="poem" n="123">
-          <p>Lobel-Page 123 · 15D / Cox 18</p>
+          <p>Lobel-Page 123 / 15D / Cox 18</p>
           <lg>
             <l>ἀρτίως μὲν ἀ χρυσοπέδιλλος Αὔως</l>
             <l>/ Ἀρτίως μ’ ἀ χρυσοπέδιλλος Αὔως.</l>
@@ -3210,45 +3178,35 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="124">
-          <p>Lobel-Page 124 · Diehl 155</p>
-          <lg>
-            <l>αὔτα δὲ σὺ Καλλιόπα</l>
-          </lg>
+          <p>Lobel-Page 124 / Diehl 155</p>
+          <l>αὔτα δὲ σὺ Καλλιόπα</l>
         </div>
         <div type="textpart" subtype="poem" n="125">
-          <p>Lobel-Page 125 · 101D</p>
-          <lg>
-            <l>†αυταόρα† ἐστεφαναπλόκην</l>
-          </lg>
+          <p>Lobel-Page 125 / 101D</p>
+          <l>†αυταόρα† ἐστεφαναπλόκην</l>
         </div>
         <div type="textpart" subtype="poem" n="126">
-          <p>Lobel-Page 126 · 134D</p>
-          <lg>
-            <l>δαύοις ἀπάλας ἐτάρας ἐν στήθεσιν</l>
-          </lg>
+          <p>Lobel-Page 126 / 134D</p>
+          <l>δαύοις ἀπάλας ἐτάρας ἐν στήθεσιν</l>
         </div>
         <div type="textpart" subtype="poem" n="127">
-          <p>Lobel-Page 127 · 154D</p>
-          <lg>
-            <l>δεῦρο δηὖτε Μοῖσαι χρύσιον λίποισαι <gap reason="lost"
-                extent="unknown" unit="character"/></l>
-          </lg>
+          <p>Lobel-Page 127 / 154D</p>
+          <l>δεῦρο δηὖτε Μοῖσαι χρύσιον λίποισαι <gap reason="lost"
+              extent="unknown" unit="character"/></l>
         </div>
         <div type="textpart" subtype="poem" n="128">
-          <p>Lobel-Page 128 · 90D</p>
-          <lg>
-            <l>δεῦτέ νυν ἄβραι Χάριτες καλλίκομοί τε Μοῖσαι</l>
-          </lg>
+          <p>Lobel-Page 128 / 90D</p>
+          <l>δεῦτέ νυν ἄβραι Χάριτες καλλίκομοί τε Μοῖσαι</l>
         </div>
         <div type="textpart" subtype="poem" n="129">
-          <p>Lobel-Page 129 · 146D,18D</p>
+          <p>Lobel-Page 129 / 146D,18D</p>
           <lg>
             <l><gap reason="lost" extent="unknown" unit="character"/> ἔμεθεν δ’
               ἔχῃσθα λάθαν <gap reason="lost" extent="unknown" unit="character"
               /></l>
             <l>ἤ τιν’ ἄλλον ἀνθρώπων ἔμεθεν φίλῃσθα <gap reason="lost"
                 extent="unknown" unit="character"/></l>
-            <note>--Cf. Wharton 21 · Cox 21 --</note>
+            <note>--Cf. Wharton 21 / Cox 21 --</note>
             <l><gap reason="lost" extent="unknown" unit="character"/> Ἔμεθεν δ’
               ἔχεισθα λάθαν</l>
             <note>Source: Apollonius: -- Cf. Wharton 22 --</note>
@@ -3257,7 +3215,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="130">
-          <p>Lobel-Page 130 · Diehl 137 · Voigt 130 · Bergk 40</p>
+          <p>Lobel-Page 130 / Diehl 137 / Voigt 130 / Bergk 40</p>
           <lg>
             <l>Ἔρος δηὖτέ μ’ ὀ λυσιμέλης δόνει,</l>
             <l>γλυκύπικρον ἀμάχανον ὄρπετον</l>
@@ -3267,7 +3225,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="131">
-          <p>Lobel-Page 131 · Diehl 137 · Voigt 130 · Bergk 41</p>
+          <p>Lobel-Page 131 / Diehl 137 / Voigt 130 / Bergk 41</p>
           <lg>
             <l>Ἄτθι, σοὶ δ’ ἔμεθεν μὲν ἀπήχθετο</l>
             <l>φροντίσδην, ἐπὶ δ’ Ἀνδρομέδαν πότᾳ</l>
@@ -3277,7 +3235,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="132">
-          <p>Lobel-Page 132 · Diehl 152 · Cox 82</p>
+          <p>Lobel-Page 132 / Diehl 152 / Cox 82</p>
           <lg>
             <l>ἔστι μοι κάλα πάις χρυσίοισιν ἀνθέμοισιν</l>
             <l>ἐμφέρην ἔχοισα μόρφαν Κλέις ἀγαπάτα,</l>
@@ -3287,7 +3245,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="133">
-          <p>Lobel-Page 133 · 144a,bD</p>
+          <p>Lobel-Page 133 / 144a,bD</p>
           <lg>
             <l>ἔχει μὲν Ἀνδρομέδα κάλαν ἀμοίβαν <gap reason="lost"
                 extent="unknown" unit="character"/></l>
@@ -3297,21 +3255,17 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="134">
-          <p>Lobel-Page 134 · 87D</p>
-          <lg>
-            <l>ζὰ <gap reason="lost" extent="unknown" unit="character"/>
-              ἐλεξάμαν ὄναρ Κυπρογενη</l>
-          </lg>
+          <p>Lobel-Page 134 / 87D</p>
+          <l>ζὰ <gap reason="lost" extent="unknown" unit="character"/> ἐλεξάμαν
+            ὄναρ Κυπρογενη</l>
         </div>
         <div type="textpart" subtype="poem" n="135">
-          <p>Lobel-Page 135 · 86D</p>
-          <lg>
-            <l>τί με Πανδίονις, ᾬρανα, χελίδω <gap reason="lost"
-                extent="unknown" unit="character"/>;</l>
-          </lg>
+          <p>Lobel-Page 135 / 86D</p>
+          <l>τί με Πανδίονις, ᾬρανα, χελίδω <gap reason="lost" extent="unknown"
+              unit="character"/>;</l>
         </div>
         <div type="textpart" subtype="poem" n="136">
-          <p>Lobel-Page 136 · Diehl 121 · Cox 37</p>
+          <p>Lobel-Page 136 / Diehl 121 / Cox 37</p>
           <lg>
             <l>ἦρος ἄγγελος ἰμερόφωνος ἀήδων (Lobel-Page)</l>
             <!-- Tsilla: ...ce qui signifie qu’à un moment, on va devoir faire le <app><rdg resp="#LP"></rdg><rdg resp="#Cox"></app> -->
@@ -3321,7 +3275,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="137">
-          <p>Lobel-Page 137 · 149D / Cox 26</p>
+          <p>Lobel-Page 137 / 149D / Cox 26</p>
           <lg>
             <l><app>
                 <lem resp="LP">θέλω τί τ’ εἴπην, ἀλλά με κωλύει</lem>
@@ -3348,7 +3302,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="138">
-          <p>Lobel-Page 138 · 151D</p>
+          <p>Lobel-Page 138 / 151D</p>
           <lg>
             <l>στᾶθι †κἄντα† φίλος</l>
             <l>καὶ τὰν ἐπ’ ὄσσοισ’ ὀμπέτασον χάριν</l>
@@ -3367,7 +3321,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="141">
-          <p>Lobel-Page 141 · 135D,136D / Cox 47</p>
+          <p>Lobel-Page 141 / 135D,136D / Cox 47</p>
           <lg>
             <l>κῆ δ’ ἀμβροσίας μὲν</l>
             <l>κράτηρ ἐκέκρατ’</l>
@@ -3385,27 +3339,23 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="142">
-          <p>Lobel-Page 142 · Cox 29</p>
-          <lg>
-            <l>Λάτω καὶ Νιόβα μάλα μὲν φίλαι ἦσαν ἔταιραι</l>
-            <note>Source: Athenaeus.</note>
-          </lg>
+          <p>Lobel-Page 142 / Cox 29</p>
+          <l>Λάτω καὶ Νιόβα μάλα μὲν φίλαι ἦσαν ἔταιραι</l>
+          <note>Source: Athenaeus.</note>
         </div>
         <div type="textpart" subtype="poem" n="143">
-          <p>Lobel-Page 143 · 118D</p>
-          <lg>
-            <l>χρύσειοι δ’ ἐρέβινθοι ἐπ’ ἀιόνων ἐφύοντο</l>
-          </lg>
+          <p>Lobel-Page 143 / 118D</p>
+          <l>χρύσειοι δ’ ἐρέβινθοι ἐπ’ ἀιόνων ἐφύοντο</l>
         </div>
         <div type="textpart" subtype="poem" n="144">
-          <p>Lobel-Page 144 · 19D</p>
+          <p>Lobel-Page 144 / 19D</p>
           <lg>
             <l>μάλα δὴ κεκορημένοις</l>
             <l>Γόργως</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="145">
-          <p>Lobel-Page 145 · 113D / Cox 108</p>
+          <p>Lobel-Page 145 / 113D / Cox 108</p>
           <lg>
             <l>μὴ κίνη χέραδος</l>
             <l>/ Cox: Μὴ κίνη χέραδασ.</l>
@@ -3413,7 +3363,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="146">
-          <p>Lobel-Page 146 · 52D / Cox 107</p>
+          <p>Lobel-Page 146 / 52D / Cox 107</p>
           <lg>
             <l>μήτε μοι μέλι μήτε μέλισσα</l>
             <l>/ Cox: Μήτ᾽ ἔμοι μέλι μήτε μέλισσα.</l>
@@ -3421,41 +3371,35 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="147">
-          <p>Lobel-Page 147 · Cox 30</p>
-          <lg>
-            <l>μνάσασθαί τινά φαιμι †καὶ ἕτερον† ἀμμέων</l>
-          </lg>
+          <p>Lobel-Page 147 / Cox 30</p>
+          <l>μνάσασθαί τινά φαιμι †καὶ ἕτερον† ἀμμέων</l>
           <note>Source: Dio Chrysostom, writing about A.D. 100.</note>
         </div>
         <div type="textpart" subtype="poem" n="148">
-          <p>Lobel-Page 148 · 92D</p>
+          <p>Lobel-Page 148 / 92D</p>
           <lg>
             <l>ὀ πλοῦτος ἄνευ † ἀρέτας οὐκ ἀσίνης πάροικος</l>
             <l>ἀ δ’ ἀμφοτέρων κρᾶσις †εὐδαιμονίας ἔχει τὸ ἄκρον†</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="149">
-          <p>Lobel-Page 149 · 125D</p>
-          <lg>
-            <l>ὄτα πάννυχος ἄσφι κατάγρει</l>
-          </lg>
+          <p>Lobel-Page 149 / 125D</p>
+          <l>ὄτα πάννυχος ἄσφι κατάγρει</l>
         </div>
         <div type="textpart" subtype="poem" n="150">
-          <p>Lobel-Page 150 · 109D</p>
+          <p>Lobel-Page 150 / 109D</p>
           <lg>
             <l>οὐ γὰρ θέμις ἐν μοισοπόλων †οἰκίαι</l>
             <l>θρῆνον ἔμμεν’· οὔ κ’ ἄμμι τάδε πρέποι</l>
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="151">
-          <p>Lobel-Page 151 · 106D</p>
-          <lg>
-            <l>ὀφθάλμοις δὲ μέλαις νύκτος ἄωρος <gap reason="lost"
-                extent="unknown" unit="character"/></l>
-          </lg>
+          <p>Lobel-Page 151 / 106D</p>
+          <l>ὀφθάλμοις δὲ μέλαις νύκτος ἄωρος <gap reason="lost"
+              extent="unknown" unit="character"/></l>
         </div>
         <div type="textpart" subtype="poem" n="152">
-          <p>Lobel-Page 152 · 142D / Wharton 20 · Cox 20</p>
+          <p>Lobel-Page 152 / 142D / Wharton 20 / Cox 20</p>
           <lg>
             <l>παντοδάπαισι μεμειχμένα χροίαισιν</l>
             <l>/ Παντοδάπαις μεμιγμέ--</l>
@@ -3464,13 +3408,11 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="153">
-          <p>Lobel-Page 153 · 91D</p>
-          <lg>
-            <l>πάρθενον ἀδύφωνον</l>
-          </lg>
+          <p>Lobel-Page 153 / 91D</p>
+          <l>πάρθενον ἀδύφωνον</l>
         </div>
         <div type="textpart" subtype="poem" n="154">
-          <p>Lobel-Page 154 · 88D / Cox 49</p>
+          <p>Lobel-Page 154 / 88D / Cox 49</p>
           <lg>
             <l>πλήρης μὲν ἐφαίνετ’ ἀ σελάννα</l>
             <l>αἰ δ’ ὠς περὶ βῶμον ἐστάθησαν</l>
@@ -3480,13 +3422,11 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="155">
-          <p>Lobel-Page 155 · 150D</p>
-          <lg>
-            <l>πόλλα μοι τὰν Πωλυανάκτιδα παῖδα χαίρην</l>
-          </lg>
+          <p>Lobel-Page 155 / 150D</p>
+          <l>πόλλα μοι τὰν Πωλυανάκτιδα παῖδα χαίρην</l>
         </div>
         <div type="textpart" subtype="poem" n="156">
-          <p>Lobel-Page 156 · 138D / Cox 115</p>
+          <p>Lobel-Page 156 / 138D / Cox 115</p>
           <lg>
             <l>πόλυ πάκτιδος ἀδυμελεστέρα <gap reason="lost" extent="unknown"
                 unit="character"/></l>
@@ -3496,13 +3436,11 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="157">
-          <p>Lobel-Page 157 · 16D (cf. 6LP)</p>
-          <lg>
-            <l>πότνια Αὔως</l>
-          </lg>
+          <p>Lobel-Page 157 / 16D (cf. 6LP)</p>
+          <l>πότνια Αὔως</l>
         </div>
         <div type="textpart" subtype="poem" n="158">
-          <p>Lobel-Page 158 · 126D / Cox 25</p>
+          <p>Lobel-Page 158 / 126D / Cox 25</p>
           <lg>
             <l>σκιδναμένας ἐν στήθεσιν ὄργας</l>
             <l>πεφύλαχθαι γλῶσσαν μαψυλάκαν</l>
@@ -3511,14 +3449,12 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="159">
-          <p>Lobel-Page 159 · 110D</p>
-          <lg>
-            <l><gap reason="lost" extent="unknown" unit="character"/> σύ τε
-              κἄμος θεράπων Ἔρος</l>
-          </lg>
+          <p>Lobel-Page 159 / 110D</p>
+          <l><gap reason="lost" extent="unknown" unit="character"/> σύ τε κἄμος
+            θεράπων Ἔρος</l>
         </div>
         <div type="textpart" subtype="poem" n="160">
-          <p>Lobel-Page 160 · Diehl 11 · Cox 11</p>
+          <p>Lobel-Page 160 / Diehl 11 / Cox 11</p>
           <lg>
             <l>τάδε νῦν ἐταίραις</l>
             <l>ταὶς ἔμαις τέρπνα κάλως ἀείσω.</l>
@@ -3529,7 +3465,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="161">
-          <p>Lobel-Page 161 · Diehl 130a</p>
+          <p>Lobel-Page 161 / Diehl 130a</p>
           <lg>
             <l>τάνδε φυλασσετε</l>
             <l>ἐννε<gap reason="lost" extent="short" unit="character"/>οι
@@ -3538,33 +3474,25 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="162">
-          <p>Lobel-Page 162 · 156aD</p>
-          <lg>
-            <l>τίοισιν ὀφθάλμοισι[ν];</l>
-          </lg>
+          <p>Lobel-Page 162 / 156aD</p>
+          <l>τίοισιν ὀφθάλμοισι[ν];</l>
         </div>
         <div type="textpart" subtype="poem" n="163">
-          <p>Lobel-Page 163 · Diehl 147</p>
-          <lg>
-            <l>μέλημα τὦμον</l>
-          </lg>
+          <p>Lobel-Page 163 / Diehl 147</p>
+          <l>μέλημα τὦμον</l>
         </div>
         <div type="textpart" subtype="poem" n="164">
-          <p>Lobel-Page 164 · Diehl 112</p>
-          <lg>
-            <l>τὸν Ϝὸν παῖδα κάλει</l>
-          </lg>
+          <p>Lobel-Page 164 / Diehl 112</p>
+          <l>τὸν Ϝὸν παῖδα κάλει</l>
         </div>
         <div type="textpart" subtype="poem" n="165">
-          <p>Lobel-Page 165 · Diehl 3</p>
-          <lg>
-            <l>φαίνεταί Ϝοι κῆνος <gap reason="lost" extent="unknown"
-                unit="character"/></l>
-          </lg>
+          <p>Lobel-Page 165 / Diehl 3</p>
+          <l>φαίνεταί Ϝοι κῆνος <gap reason="lost" extent="unknown"
+              unit="character"/></l>
           <note>Source: Apollon. Dysc. de pron. 1, 82, 17 (Schneider)</note>
         </div>
         <div type="textpart" subtype="poem" n="166">
-          <p>Lobel-Page 166 · Diehl 105 · Bergk 56</p>
+          <p>Lobel-Page 166 / Diehl 105 / Bergk 56</p>
           <lg>
             <l>φαῖσι δή ποτα Λήδαν †ὐακίνθινον† πεπυκάδμενον</l>
             <l>εὔρην ᾤον</l>
@@ -3578,198 +3506,140 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="167">
-          <p>Lobel-Page 167 · 139 Diehl</p>
-          <lg>
-            <l>ᾠω πόλυ λευκότερον</l>
-            <l>— Sappho’s Supra-Superlatives</l>
-          </lg>
+          <p>Lobel-Page 167 / 139 Diehl</p>
+          <l>ᾠω πόλυ λευκότερον</l>
+          <l>— Sappho’s Supra-Superlatives</l>
         </div>
         <div type="textpart" subtype="poem" n="168">
           <p>Lobel-Page 168</p>
-          <lg>
-            <l>ὦ τὸν Ἄδωνιν</l>
-          </lg>
+          <l>ὦ τὸν Ἄδωνιν</l>
         </div>
         <div type="textpart" subtype="poem" n="169">
           <p>Lobel-Page 169</p>
-          <lg>
-            <l>ἀγαγοίην</l>
-          </lg>
+          <l>ἀγαγοίην</l>
         </div>
         <div type="textpart" subtype="poem" n="170">
           <p>Lobel-Page 170</p>
-          <lg>
-            <l>Αἴγα</l>
-          </lg>
+          <l>Αἴγα</l>
         </div>
         <div type="textpart" subtype="poem" n="171">
           <p>Lobel-Page 171</p>
-          <lg>
-            <l>ἄκακος</l>
-          </lg>
+          <l>ἄκακος</l>
         </div>
         <div type="textpart" subtype="poem" n="172">
           <p>Lobel-Page 172</p>
-          <lg>
-            <l>ἀλγεσίδωρος</l>
-          </lg>
+          <l>ἀλγεσίδωρος</l>
         </div>
         <div type="textpart" subtype="poem" n="173">
           <p>Lobel-Page 173</p>
-          <lg>
-            <l>ἀμαμάξυδ[ος, ες]</l>
-          </lg>
+          <l>ἀμαμάξυδ[ος, ες]</l>
         </div>
         <div type="textpart" subtype="poem" n="174">
           <p>Lobel-Page 174</p>
-          <lg>
-            <l><supplied reason="lost">ἀμάρα</supplied></l>
-          </lg>
+          <l><supplied reason="lost">ἀμάρα</supplied></l>
         </div>
         <div type="textpart" subtype="poem" n="175">
           <p>Lobel-Page 175</p>
-          <lg>
-            <l>αὖα</l>
-          </lg>
+          <l>αὖα</l>
         </div>
         <div type="textpart" subtype="poem" n="176">
           <p>Lobel-Page 176</p>
-          <lg>
-            <l>βάρβιτος. βάρωμος. βάρμος.</l>
-          </lg>
+          <l>βάρβιτος. βάρωμος. βάρμος.</l>
         </div>
         <div type="textpart" subtype="poem" n="177">
           <p>Lobel-Page 177</p>
-          <lg>
-            <l>βεῦδος</l>
-          </lg>
+          <l>βεῦδος</l>
         </div>
         <div type="textpart" subtype="poem" n="178">
           <p>Lobel-Page 178</p>
-          <lg>
-            <l>Γέλλως παιδοφιλωτέρα</l>
-          </lg>
+          <l>Γέλλως παιδοφιλωτέρα</l>
         </div>
         <div type="textpart" subtype="poem" n="179">
           <p>Lobel-Page 179</p>
-          <lg>
-            <l>γρύτα</l>
-          </lg>
+          <l>γρύτα</l>
         </div>
         <div type="textpart" subtype="poem" n="180">
           <p>Lobel-Page 180</p>
-          <lg>
-            <l>Ἔκτωρ</l>
-          </lg>
+          <l>Ἔκτωρ</l>
         </div>
         <div type="textpart" subtype="poem" n="181">
           <p>Lobel-Page 181</p>
-          <lg>
-            <l>ζάβατον</l>
-          </lg>
+          <l>ζάβατον</l>
         </div>
         <div type="textpart" subtype="poem" n="182">
           <p>Lobel-Page 182</p>
-          <lg>
-            <l>ἰοίην</l>
-          </lg>
+          <l>ἰοίην</l>
         </div>
         <div type="textpart" subtype="poem" n="183">
           <p>Lobel-Page 183</p>
-          <lg>
-            <l>κατώρης s. κατάρης</l>
-          </lg>
+          <l>κατώρης s. κατάρης</l>
         </div>
         <div type="textpart" subtype="poem" n="184">
           <p>Lobel-Page 184</p>
-          <lg>
-            <l>κίνδυν</l>
-          </lg>
+          <l>κίνδυν</l>
         </div>
         <div type="textpart" subtype="poem" n="185">
           <p>Lobel-Page 185</p>
-          <lg>
-            <l>μελίφωνος</l>
-          </lg>
+          <l>μελίφωνος</l>
         </div>
         <div type="textpart" subtype="poem" n="186">
           <p>Lobel-Page 186</p>
-          <lg>
-            <l>Μήδεια</l>
-          </lg>
+          <l>Μήδεια</l>
         </div>
         <div type="textpart" subtype="poem" n="187">
           <p>Lobel-Page 187</p>
-          <lg>
-            <l>Μοισάων</l>
-          </lg>
+          <l>Μοισάων</l>
         </div>
         <!-- Florence : Les poèmes allant de 166 à 187 sont en réalité plus des fragments que des poèmes : quel est donc le subtype adéquat ? -->
         <div type="textpart" subtype="poem" n="188">
           <p>Lobel-Page 188</p>
-          <lg>
-            <l>μυθόπλοκος</l>
-          </lg>
+          <l>μυθόπλοκος</l>
         </div>
         <div type="textpart" subtype="poem" n="189">
           <p>Lobel-Page 189</p>
-          <lg>
-            <l>νίτρον</l>
-          </lg>
+          <l>νίτρον</l>
         </div>
         <div type="textpart" subtype="poem" n="190">
           <p>Lobel-Page 190</p>
-          <lg>
-            <l>πολυίδριδι</l>
-          </lg>
+          <l>πολυίδριδι</l>
         </div>
         <div type="textpart" subtype="poem" n="191">
           <p>Lobel-Page 191</p>
-          <lg>
-            <l>σέλιννα</l>
-          </lg>
+          <l>σέλιννα</l>
         </div>
         <div type="textpart" subtype="poem" n="192">
           <p>Lobel-Page 192</p>
-          <lg>
-            <l>χρυσαστράγαλοι φίαλαι</l>
-          </lg>
+          <l>χρυσαστράγαλοι φίαλαι</l>
         </div>
         <div type="textpart" subtype="poem" n="210">
           <p>Lobel-Page 210</p>
-          <lg>
-            <l>Σκύθικον ξύλον</l>
-          </lg>
+          <l>Σκύθικον ξύλον</l>
         </div>
         <div type="textpart" subtype="poem" n="211">
           <p>Lobel-Page 211</p>
-          <lg>
-            <l>Φάων</l>
-          </lg>
+          <l>Φάων</l>
         </div>
         <div type="textpart" subtype="poem" n="213">
           <p>Lobel-Page 213</p>
-          <lg>
-            <gap reason="lost" quantity="1" unit="line"/>
-            <l><gap reason="lost" extent="unknown" unit="character"
-              />··[·]·τ···[</l>
-            <l>· ··[··]·σε ἔμα κ’ Ἀρχεάνα[σ-</l>
-            <l>σα Γόργω[ς] σύνδυγο[ς]· ἀντὶ τοῦ</l>
-            <l>σ[ύν]ζυξ· ἡ Πλειστοδίκη</l>
-            <l>[ τ]ῇ Γ[ο]ργοῖ σύνζυξ με-</l>
-            <l>τὰ τ[ῆς] Γογγύλης ὀν[ο]μασθή-</l>
-            <l>σετ[αι· κ]οινὸν γὰρ τὸ ὄνο-</l>
-            <l>μ[α δ]εδοται ἢ κατὰ τῆς [·]···</l>
-            <l>α[···] Πλ[ε]ιστοδίκη[··]ν</l>
-            <l>[ ὀνομ]ασθησετ[αι] κυ-</l>
-            <l>[ρι- ]η<gap reason="lost" extent="unknown" unit="character"
-              />·ατετουτ</l>
-            <l><gap reason="lost" extent="unknown" unit="character"/>·νο αν</l>
-            <l>. . .</l>
-          </lg>
+          <gap reason="lost" quantity="1" unit="line"/>
+          <l><gap reason="lost" extent="unknown" unit="character"
+            />··[·]·τ···[</l>
+          <l>· ··[··]·σε ἔμα κ’ Ἀρχεάνα[σ-</l>
+          <l>σα Γόργω[ς] σύνδυγο[ς]· ἀντὶ τοῦ</l>
+          <l>σ[ύν]ζυξ· ἡ Πλειστοδίκη</l>
+          <l>[ τ]ῇ Γ[ο]ργοῖ σύνζυξ με-</l>
+          <l>τὰ τ[ῆς] Γογγύλης ὀν[ο]μασθή-</l>
+          <l>σετ[αι· κ]οινὸν γὰρ τὸ ὄνο-</l>
+          <l>μ[α δ]εδοται ἢ κατὰ τῆς [·]···</l>
+          <l>α[···] Πλ[ε]ιστοδίκη[··]ν</l>
+          <l>[ ὀνομ]ασθησετ[αι] κυ-</l>
+          <l>[ρι- ]η<gap reason="lost" extent="unknown" unit="character"
+            />·ατετουτ</l>
+          <l><gap reason="lost" extent="unknown" unit="character"/>·νο αν</l>
+          <l>. . .</l>
         </div>
         <div type="textpart" subtype="poem" n="add_1">
-          <p>Lobel-Page i.a. 16 · Diehl 93 · Cox 50</p>
+          <p>Lobel-Page i.a. 16 / Diehl 93 / Cox 50</p>
           <lg>
             <note>Cox:</note>
             <l>Κρῆσσαί νύ ποτ’ ὦδ’ ἐμμελέως πόδεσσιν</l>
@@ -3785,7 +3655,7 @@
         </div>
         <div type="textpart" subtype="poem" n="add_2">
           <lg>
-            <note>Diehl 94 · Voigt 168b / Cox 48</note>
+            <note>Diehl 94 / Voigt 168b / Cox 48</note>
             <l>Δέδυκε μὲν ἀ σελάννα</l>
             <l>καὶ Πληίαδες· μέσαι δὲ</l>
             <l>νύκτες, παρὰ δ’ ἔρχετ’ ὤρα,</l>
@@ -3805,7 +3675,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="add_3">
-          <note>Diehl 157 /A.P. 6,269 · Cox 112</note>
+          <note>Diehl 157 /A.P. 6,269 / Cox 112</note>
           <lg>
             <l>Παῖδες, ἄφωνος ἐοῖσα τότ’ ἐννέπω, αἴ τις ἔρηται,</l>
             <l>φωνὰν ἀκαμάταν κατθεμένα πρὸ ποδῶν·</l>
@@ -3824,7 +3694,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="add_4">
-          <note>Wharton 12 · Cox 12</note>
+          <note>Wharton 12 / Cox 12</note>
           <lg>
             <l>{</l>
             <l>Αεριων επεων αρχομαι αλλ’ονατων [ε] γω το καλλος επιτ[μεζον]…</l>
@@ -3855,7 +3725,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="add_5">
-          <p>Lobel-Page i.a. 5,2 · Diehl 45 · Cox 33</p>
+          <p>Lobel-Page i.a. 5,2 / Diehl 45 / Cox 33</p>
           <lg>
             <l>+δ᾽+ ἄλλα μὴ μεγαλύν&lt;ν&gt;εο δακτυλίω πέρι (Lobel-Page)</l>
             <l>Ἄλλ᾽ ὄνμὴ μαγαλύννεο δακτυλίω πέρι. (Cox)</l>
@@ -3864,7 +3734,7 @@
           </lg>
         </div>
         <div type="textpart" subtype="poem" n="add_6">
-          <p>Lobel-Page (Alcaeus) 304 · Cox 93 · Diehl 102 · Campbell 44a</p>
+          <p>Lobel-Page (Alcaeus) 304 / Cox 93 / Diehl 102 / Campbell 44a</p>
           <lg>
             <l>Ἀϊπάρθενοσ ἔσσομαι.</l>
             <note>Apparently from a poem by Alcaeus:</note>
